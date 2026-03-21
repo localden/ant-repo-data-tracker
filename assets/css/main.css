@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom table styles with cell borders */
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid var(--color-base-300);
+}
+
+.table-bordered thead th {
+  border-bottom-width: 1px;
+}
+
+/* Interactive earmark for clickable cards */
+.group:hover .earmark {
+  width: 20px !important;
+  height: 20px !important;
+  opacity: 0.8 !important;
+}
+
+.group:active .earmark {
+  width: 24px !important;
+  height: 24px !important;
+  opacity: 1 !important;
+}
+
+/* Hotspot Grid - GitHub contribution style */
+.hotspot-grid {
+  display: grid;
+  grid-template-columns: 1fr auto auto;
+  gap: 8px 12px;
+  align-items: center;
+}
+.hotspot-row {
+  display: contents;
+}
+.hotspot-file {
+  min-width: 0;
+  font-size: 11px;
+  font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.hotspot-file a {
+  color: var(--color-primary, #0066cc);
+  text-decoration: none;
+}
+.hotspot-file a:hover {
+  text-decoration: underline;
+}
+.hotspot-squares {
+  display: flex;
+  gap: 2px;
+}
+.hotspot-sq {
+  width: 10px;
+  height: 10px;
+  border-radius: 2px;
+}
+.hotspot-sq-0 { background: #ebedf0; }
+.hotspot-sq-1 { background: #9be9a8; }
+.hotspot-sq-2 { background: #40c463; }
+.hotspot-sq-3 { background: #30a14e; }
+.hotspot-sq-4 { background: #216e39; }
+.hotspot-stats {
+  display: flex;
+  gap: 8px;
+  font-size: 10px;
+}
+.hotspot-stat {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  color: var(--color-base-content, inherit);
+  opacity: 0.6;
+}
+.hotspot-stat-value {
+  font-weight: 500;
+  min-width: 24px;
+  text-align: right;
+}
+.hotspot-stat-label {
+  opacity: 0.7;
+}
+
+/* Time unit styling in metric cards only */
+.text-2xl .time-unit {
+  font-weight: 400;
+  font-size: 1.125rem;
+  opacity: 0.3;
+}

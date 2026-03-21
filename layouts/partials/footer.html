@@ -1,0 +1,37 @@
+<footer class="footer p-4 bg-base-100 text-base-content border-t border-base-300">
+  <div class="flex flex-col items-start gap-1 text-xs text-base-content/60">
+    {{/* Get metrics timestamp from first available repo */}}
+    {{ $timestamp := "" }}
+    {{ $reposIndex := site.Data.repos }}
+    {{ if and $reposIndex $reposIndex.repositories }}
+      {{ range $repoConfig := $reposIndex.repositories }}
+        {{ if not $timestamp }}
+          {{ with index site.Data.repos $repoConfig.owner }}
+            {{ with index . $repoConfig.repo }}
+              {{ with .metrics }}
+                {{ $timestamp = .timestamp }}
+              {{ end }}
+            {{ end }}
+          {{ end }}
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    {{ if not $timestamp }}
+      {{ with site.Data.metrics }}
+        {{ $timestamp = .timestamp }}
+      {{ end }}
+    {{ end }}
+
+    {{ $ghRepo := site.Params.github_repo | default "localden/ant-repo-data-tracker" }}
+    <span>
+      <a href="https://github.com/{{ $ghRepo }}" target="_blank" rel="noopener" class="font-medium text-base-content/80 hover:text-base-content transition-colors">VISR</a>
+      (built by <a href="https://den.dev" target="_blank" rel="noopener" class="font-medium text-base-content/80 hover:text-base-content transition-colors">Den Delimarsky</a>)
+    </span>
+    {{ if $timestamp }}
+    <span>Data updated <span class="font-medium text-base-content/80">{{ $timestamp | time.Format "Jan 2, 2006 at 3:04 PM" }}</span></span>
+    {{ end }}
+    {{ with .GitInfo }}
+    <code class="font-mono px-1.5 py-0.5 bg-base-200 rounded text-[10px]"><a href="https://github.com/{{ $ghRepo }}/commit/{{ .Hash }}" target="_blank" rel="noopener" class="hover:text-base-content transition-colors">{{ .AbbreviatedHash }}</a></code>
+    {{ end }}
+  </div>
+</footer>

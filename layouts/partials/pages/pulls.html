@@ -1,0 +1,168 @@
+{{/* Pull Requests Page Content */}}
+
+{{ define "pr-table" }}
+<div class="bg-base-100 border border-base-300 rounded-lg overflow-hidden">
+  <table class="table table-xs w-full">
+    <thead>
+      <tr class="border-b border-base-300">
+        <th class="bg-base-200/50 text-xs font-medium w-20">PR</th>
+        <th class="bg-base-200/50 text-xs font-medium">Title</th>
+        <th class="bg-base-200/50 text-xs font-medium w-24">Author</th>
+        {{ if .showAssignee }}<th class="bg-base-200/50 text-xs font-medium w-24">Assignee</th>{{ end }}
+        <th class="bg-base-200/50 text-xs font-medium text-right w-24">Size</th>
+        <th class="bg-base-200/50 text-xs font-medium text-right w-16">Reviews</th>
+        <th class="bg-base-200/50 text-xs font-medium text-right w-16">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ $showAssignee := .showAssignee }}
+      {{ range .prs }}
+      <tr class="border-b border-base-300 last:border-b-0 hover:bg-base-200/50 cursor-pointer transition-colors group {{ if .isDraft }}opacity-50{{ end }}" onclick="window.open('{{ .url }}', '_blank')">
+        <td class="text-xs font-mono whitespace-nowrap">
+          <a href="{{ .url }}" target="_blank" class="text-primary hover:underline" onclick="event.stopPropagation()">#{{ .number }}</a>
+          {{ if .isDraft }}<span class="ml-1 text-[9px] text-base-content/40">(draft)</span>{{ end }}
+        </td>
+        <td class="text-xs max-w-md truncate" title="{{ .title }}">{{ .title }}</td>
+        <td class="text-xs text-base-content/70 truncate">{{ if .author }}{{ .author }}{{ else }}<span class="italic">unknown</span>{{ end }}</td>
+        {{ if $showAssignee }}
+        <td class="text-xs text-base-content/70 truncate">
+          {{ range $i, $a := .assignees }}{{ if $i }}, {{ end }}{{ $a }}{{ end }}
+        </td>
+        {{ end }}
+        <td class="text-xs text-right whitespace-nowrap">
+          <span class="text-success">+{{ .additions }}</span> <span class="text-error">-{{ .deletions }}</span>
+        </td>
+        <td class="text-xs text-right">{{ if gt .reviewCount 0 }}{{ .reviewCount }}{{ else }}<span class="text-base-content/30">—</span>{{ end }}</td>
+        <td class="text-xs text-right font-medium">
+          {{ if .isDraft }}<span class="text-base-content/40">{{ .daysOpen }}d</span>
+          {{ else if gt .daysOpen 30 }}<span class="text-error">{{ .daysOpen }}d</span>
+          {{ else if gt .daysOpen 7 }}<span class="text-warning">{{ .daysOpen }}d</span>
+          {{ else }}{{ .daysOpen }}d{{ end }}
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+{{ end }}
+
+{{/* Support both direct context and dict with context/repoKey */}}
+{{ $context := . }}
+{{ $repoKey := "" }}
+{{ if reflect.IsMap . }}
+  {{ with .context }}{{ $context = . }}{{ end }}
+  {{ with .repoKey }}{{ $repoKey = . }}{{ end }}
+{{ end }}
+{{ $data := partial "load-metrics.html" (dict "context" $context "repoKey" $repoKey) }}
+{{ $m := $data.metrics }}
+{{ $snapshots := $data.snapshots }}
+
+{{ if not $m }}
+<div class="alert alert-warning">
+  <span>No data available. Run the aggregation script.</span>
+</div>
+{{ else }}
+
+{{/* Extract sparkline data for PR metrics */}}
+{{ $pullsOpenSparkline := partial "get-sparkline.html" (dict "snapshots" $snapshots "path" "pulls.open") }}
+{{ $pullsUnassignedSparkline := partial "get-sparkline.html" (dict "snapshots" $snapshots "path" "pulls.unassigned") }}
+{{ $pullsReviewMedianSparkline := partial "get-sparkline.html" (dict "snapshots" $snapshots "path" "pulls.review_time.median_hours") }}
+{{ $pullsMergeMedianSparkline := partial "get-sparkline.html" (dict "snapshots" $snapshots "path" "pulls.merge_time.median_hours") }}
+
+{{/* Calculate trends from sparkline data */}}
+{{ $pullsOpenTrend := partial "calc-trend.html" (dict "sparkline" $pullsOpenSparkline) }}
+{{ $pullsUnassignedTrend := partial "calc-trend.html" (dict "sparkline" $pullsUnassignedSparkline) }}
+{{ $pullsReviewTrend := partial "calc-trend.html" (dict "sparkline" $pullsReviewMedianSparkline) }}
+{{ $pullsMergeTrend := partial "calc-trend.html" (dict "sparkline" $pullsMergeMedianSparkline) }}
+
+{{/* Build GitHub filter URLs for PRs */}}
+{{ $repoKey := $data.repoKey }}
+{{ $openPRsLink := printf "https://github.com/%s/pulls?q=is:pr+is:open" $repoKey }}
+{{ $draftPRsLink := printf "https://github.com/%s/pulls?q=is:pr+is:open+draft:true" $repoKey }}
+{{ $opened7dLink := printf "https://github.com/%s/pulls?q=is:pr+created:>%s" $repoKey (now.AddDate 0 0 -7 | time.Format "2006-01-02") }}
+{{ $opened30dLink := printf "https://github.com/%s/pulls?q=is:pr+created:>%s" $repoKey (now.AddDate 0 0 -30 | time.Format "2006-01-02") }}
+{{ $opened90dLink := printf "https://github.com/%s/pulls?q=is:pr+created:>%s" $repoKey (now.AddDate 0 0 -90 | time.Format "2006-01-02") }}
+{{ $merged7dLink := printf "https://github.com/%s/pulls?q=is:pr+is:merged+merged:>%s" $repoKey (now.AddDate 0 0 -7 | time.Format "2006-01-02") }}
+{{ $merged30dLink := printf "https://github.com/%s/pulls?q=is:pr+is:merged+merged:>%s" $repoKey (now.AddDate 0 0 -30 | time.Format "2006-01-02") }}
+{{ $merged90dLink := printf "https://github.com/%s/pulls?q=is:pr+is:merged+merged:>%s" $repoKey (now.AddDate 0 0 -90 | time.Format "2006-01-02") }}
+{{ $closedUnmerged90dLink := printf "https://github.com/%s/pulls?q=is:pr+is:closed+is:unmerged+closed:>%s" $repoKey (now.AddDate 0 0 -90 | time.Format "2006-01-02") }}
+{{ $assignedLink := printf "https://github.com/%s/pulls?q=is:pr+is:open+assigned:*" $repoKey }}
+{{ $unassignedLink := printf "https://github.com/%s/pulls?q=is:pr+is:open+no:assignee+sort:created-asc" $repoKey }}
+
+<!-- Volume Metrics -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-3">Volume</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Open PRs" "value" $m.pulls.open_count "sparkline" $pullsOpenSparkline "sparklineColor" "rgb(40, 167, 69)" "trend" $pullsOpenTrend "trendGoodDirection" "down" "link" $openPRsLink) }}
+    {{ partial "metric-card.html" (dict "label" "Draft PRs" "value" $m.pulls.draft_count "link" $draftPRsLink) }}
+    {{ partial "metric-card.html" (dict "label" "Opened" "value" $m.pulls.opened_7d "descriptor" "last 7 days" "link" $opened7dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Opened" "value" $m.pulls.opened_30d "descriptor" "last 30 days" "link" $opened30dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Opened" "value" $m.pulls.opened_90d "descriptor" "last 90 days" "link" $opened90dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Merged" "value" $m.pulls.merged_7d "descriptor" "last 7 days" "link" $merged7dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Merged" "value" $m.pulls.merged_30d "descriptor" "last 30 days" "link" $merged30dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Merged" "value" $m.pulls.merged_90d "descriptor" "last 90 days" "link" $merged90dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Closed Unmerged" "value" $m.pulls.closed_not_merged_90d "descriptor" "last 90 days" "link" $closedUnmerged90dLink) }}
+  </div>
+</section>
+
+<!-- Review Time -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-3">Time to First Review</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Average" "value" (partial "format-hours.html" $m.pulls.review_time.avg_hours)) }}
+    {{ partial "metric-card.html" (dict "label" "Median" "value" (partial "format-hours.html" $m.pulls.review_time.median_hours) "sparkline" $pullsReviewMedianSparkline "sparklineColor" "rgb(108, 117, 125)" "trend" $pullsReviewTrend "trendGoodDirection" "down") }}
+    {{ partial "metric-card.html" (dict "label" "P90" "value" (partial "format-hours.html" $m.pulls.review_time.p90_hours)) }}
+    {{ partial "metric-card.html" (dict "label" "P95" "value" (partial "format-hours.html" $m.pulls.review_time.p95_hours)) }}
+  </div>
+</section>
+
+<!-- Merge Time -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-3">Merge Time</h2>
+  <div class="grid grid-cols-2 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Average" "value" (partial "format-hours.html" $m.pulls.merge_time.avg_hours)) }}
+    {{ partial "metric-card.html" (dict "label" "Median" "value" (partial "format-hours.html" $m.pulls.merge_time.median_hours) "sparkline" $pullsMergeMedianSparkline "sparklineColor" "rgb(108, 117, 125)" "trend" $pullsMergeTrend "trendGoodDirection" "down") }}
+  </div>
+</section>
+
+<!-- Assignment -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-1">Assignment</h2>
+  <p class="text-[10px] text-base-content/40 mb-3">Open PRs by assignee status (counts exclude drafts)</p>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Assigned" "value" $m.pulls.assigned_count "info" "Open PRs with at least one assignee" "link" $assignedLink) }}
+    {{ partial "metric-card.html" (dict "label" "Unassigned" "value" $m.pulls.unassigned_count "info" "Open PRs with no assignee" "sparkline" $pullsUnassignedSparkline "sparklineColor" "rgb(220, 53, 69)" "trend" $pullsUnassignedTrend "trendGoodDirection" "down" "link" $unassignedLink) }}
+    {{ partial "metric-card.html" (dict "label" "Unassigned" "value" $m.pulls.unassigned_24h "descriptor" ">24 hours" "info" "Unassigned non-draft PRs older than 24 hours") }}
+    {{ partial "metric-card.html" (dict "label" "Unassigned" "value" $m.pulls.unassigned_7d "descriptor" ">7 days" "info" "Unassigned non-draft PRs older than 7 days") }}
+  </div>
+</section>
+
+<!-- Unassigned PRs List -->
+{{ if $m.pulls.unassigned_prs }}
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-1">Unassigned PRs <span class="font-normal text-base-content/50">({{ len $m.pulls.unassigned_prs }})</span></h2>
+  <p class="text-[10px] text-base-content/40 mb-3">Open PRs with no assignee, sorted by oldest first</p>
+  {{ template "pr-table" (dict "prs" $m.pulls.unassigned_prs "showAssignee" false) }}
+</section>
+{{ end }}
+
+{{ if $m.pulls.assigned_prs }}
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-1">Assigned PRs <span class="font-normal text-base-content/50">({{ len $m.pulls.assigned_prs }})</span></h2>
+  <p class="text-[10px] text-base-content/40 mb-3">Open PRs with an assignee, sorted by oldest first</p>
+  {{ template "pr-table" (dict "prs" $m.pulls.assigned_prs "showAssignee" true) }}
+</section>
+{{ end }}
+
+<!-- Size Distribution -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-1">PR Size Distribution</h2>
+  <p class="text-[10px] text-base-content/40 mb-3">Open PRs by lines changed</p>
+  <div class="grid grid-cols-2 sm:grid-cols-3 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Small" "value" $m.pulls.by_size.small "descriptor" "<100 lines") }}
+    {{ partial "metric-card.html" (dict "label" "Medium" "value" $m.pulls.by_size.medium "descriptor" "100-500 lines") }}
+    {{ partial "metric-card.html" (dict "label" "Large" "value" $m.pulls.by_size.large "descriptor" ">500 lines") }}
+  </div>
+</section>
+
+{{ end }}

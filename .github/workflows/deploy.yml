@@ -1,0 +1,74 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'data/**'
+      - 'layouts/**'
+      - 'content/**'
+      - 'static/**'
+      - 'assets/**'
+      - 'hugo.toml'
+      - '.github/workflows/deploy.yml'
+  workflow_call: # Called by aggregate workflow
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          ref: main  # Always fetch latest main (important when called after aggregate pushes)
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build CSS
+        run: npm run css:build
+
+      - name: Setup Hugo
+        run: |
+          HUGO_VERSION="0.141.0"
+          wget -q "https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.deb" -O hugo.deb
+          sudo dpkg -i hugo.deb
+          hugo version
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v4
+
+      - name: Build Hugo site
+        run: |
+          echo "Building with baseURL: ${{ steps.pages.outputs.base_url }}"
+          hugo --minify --baseURL "${{ steps.pages.outputs.base_url }}"
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

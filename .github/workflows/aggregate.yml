@@ -1,0 +1,65 @@
+name: Aggregate Repository Data
+
+on:
+  schedule:
+    # Run every 2 hours
+    - cron: '0 */2 * * *'
+  workflow_dispatch: # Manual trigger
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: aggregate-data
+  cancel-in-progress: false
+
+jobs:
+  aggregate:
+    runs-on: ubuntu-latest
+    outputs:
+      changes: ${{ steps.commit.outputs.changes }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build TypeScript
+        run: npm run build
+
+      - name: Run data aggregation
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+        run: npm run aggregate
+
+      - name: Commit and push data changes
+        id: commit
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add data/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            echo "changes=false" >> $GITHUB_OUTPUT
+          else
+            git commit -m "Update repository metrics data
+
+          Automated data sync at $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git pull --rebase origin main
+            git push
+            echo "changes=true" >> $GITHUB_OUTPUT
+          fi
+
+  deploy:
+    needs: aggregate
+    if: needs.aggregate.outputs.changes == 'true'
+    uses: ./.github/workflows/deploy.yml

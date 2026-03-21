@@ -1,0 +1,67 @@
+{{/* Contributors Page Content */}}
+{{/* Support both direct context and dict with context/repoKey */}}
+{{ $context := . }}
+{{ $repoKey := "" }}
+{{ if reflect.IsMap . }}
+  {{ with .context }}{{ $context = . }}{{ end }}
+  {{ with .repoKey }}{{ $repoKey = . }}{{ end }}
+{{ end }}
+{{ $data := partial "load-metrics.html" (dict "context" $context "repoKey" $repoKey) }}
+{{ $m := $data.metrics }}
+{{ $contributors := $data.contributors }}
+
+{{ if not $m }}
+<div class="alert alert-warning">
+  <span>No data available. Run the aggregation script.</span>
+</div>
+{{ else }}
+
+<!-- Overview -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-3">Overview</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Total Contributors" "value" $m.contributors.total_known "subtext" "All-time unique") }}
+    {{ partial "metric-card.html" (dict "label" "Active (30 days)" "value" $m.contributors.active_30d "subtext" "Recent activity") }}
+    {{ partial "metric-card.html" (dict "label" "First-time (30 days)" "value" $m.contributors.first_time_30d "subtext" "New this month") }}
+    {{ partial "metric-card.html" (dict "label" "Commits/Week" "value" (printf "%.1f" ($m.contributors.commits_per_week_avg | default 0.0)) "subtext" "12-week average") }}
+  </div>
+</section>
+
+<!-- Retention -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-3">Retention</h2>
+  <div class="grid grid-cols-2 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Retention Rate" "value" (printf "%.0f%%" ($m.contributors.retention_rate_pct | default 0.0)) "info" "Share of last period's active contributors who were also active this period") }}
+    {{ partial "metric-card.html" (dict "label" "Churned (30d)" "value" ($m.contributors.churned_30d | default 0) "info" "Previously active contributors who had no activity this period") }}
+  </div>
+</section>
+
+<!-- Contributor List -->
+{{ if $contributors }}
+{{ if $contributors.contributors }}
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-1">All Contributors</h2>
+  <p class="text-xs text-base-content/50 mb-3">{{ len $contributors.contributors }} known contributors</p>
+  <div class="overflow-x-auto rounded-lg border border-base-300 bg-base-100 max-h-96 overflow-y-auto">
+    <table class="table table-xs table-pin-rows w-full">
+      <thead>
+        <tr>
+          <th class="bg-base-200">GitHub ID</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ range sort $contributors.contributors }}
+        <tr>
+          <td class="text-xs">
+            <a href="https://github.com/{{ . }}" target="_blank" rel="noopener" class="text-primary hover:underline">@{{ . }}</a>
+          </td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ end }}

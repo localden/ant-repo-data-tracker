@@ -1,0 +1,17 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "VISR"
+
+enableGitInfo = true
+
+[build]
+  writeStats = true
+
+[params]
+  description = "Dashboard for Anthropic SDK repository metrics"
+  github_repo = "localden/ant-repo-data-tracker"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

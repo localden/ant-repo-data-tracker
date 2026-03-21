@@ -1,0 +1,184 @@
+{{/* Issues Page Content */}}
+
+{{ define "issue-table" }}
+<div class="bg-base-100 border border-base-300 rounded-lg overflow-hidden">
+  <table class="table table-xs w-full">
+    <thead>
+      <tr class="border-b border-base-300">
+        <th class="bg-base-200/50 text-xs font-medium w-20">Issue</th>
+        <th class="bg-base-200/50 text-xs font-medium">Title</th>
+        {{ if .showAssignee }}<th class="bg-base-200/50 text-xs font-medium w-28">Assignee</th>{{ end }}
+        <th class="bg-base-200/50 text-xs font-medium w-32">Labels</th>
+        <th class="bg-base-200/50 text-xs font-medium text-right w-16">💬</th>
+        <th class="bg-base-200/50 text-xs font-medium text-right w-16">Age</th>
+      </tr>
+    </thead>
+    <tbody>
+      {{ $showAssignee := .showAssignee }}
+      {{ range .issues }}
+      <tr class="border-b border-base-300 last:border-b-0 hover:bg-base-200/50 cursor-pointer transition-colors group" onclick="window.open('{{ .url }}', '_blank')">
+        <td class="text-xs font-mono whitespace-nowrap">
+          <a href="{{ .url }}" target="_blank" class="text-primary hover:underline" onclick="event.stopPropagation()">#{{ .number }}</a>
+        </td>
+        <td class="text-xs max-w-md truncate" title="{{ .title }}">{{ .title }}</td>
+        {{ if $showAssignee }}
+        <td class="text-xs text-base-content/70 truncate">
+          {{ range $i, $a := .assignees }}{{ if $i }}, {{ end }}{{ $a }}{{ end }}
+        </td>
+        {{ end }}
+        <td class="text-xs whitespace-nowrap">
+          {{ $labels := .labels }}{{ $labelCount := len $labels }}
+          {{ if eq $labelCount 0 }}<span class="text-[9px] text-base-content/40">—</span>
+          {{ else }}{{ range first 2 $labels }}<span class="inline-flex items-center px-1 rounded text-[9px] border border-base-300 bg-base-200 mr-1">{{ . }}</span>{{ end }}{{ if gt $labelCount 2 }}<span class="inline-flex items-center px-1 rounded text-[9px] border border-base-300 bg-base-200 text-base-content/50">+{{ sub $labelCount 2 }}</span>{{ end }}{{ end }}
+        </td>
+        <td class="text-xs text-right">{{ if gt .commentCount 0 }}{{ .commentCount }}{{ else }}<span class="text-base-content/30">—</span>{{ end }}</td>
+        <td class="text-xs text-right font-medium">
+          {{ if gt .daysOpen 30 }}<span class="text-error">{{ .daysOpen }}d</span>
+          {{ else if gt .daysOpen 7 }}<span class="text-warning">{{ .daysOpen }}d</span>
+          {{ else }}{{ .daysOpen }}d{{ end }}
+        </td>
+      </tr>
+      {{ end }}
+    </tbody>
+  </table>
+</div>
+{{ end }}
+
+{{/* Support both direct context and dict with context/repoKey */}}
+{{ $context := . }}
+{{ $repoKey := "" }}
+{{ if reflect.IsMap . }}
+  {{ with .context }}{{ $context = . }}{{ end }}
+  {{ with .repoKey }}{{ $repoKey = . }}{{ end }}
+{{ end }}
+{{ $data := partial "load-metrics.html" (dict "context" $context "repoKey" $repoKey) }}
+{{ $m := $data.metrics }}
+{{ $snapshots := $data.snapshots }}
+
+{{ if not $m }}
+<div class="alert alert-warning"><span>No data available. Run the aggregation script.</span></div>
+{{ else }}
+
+{{ $repoKey := $data.repoKey }}
+{{ $ghBase := printf "https://github.com/%s/issues" $repoKey }}
+
+{{/* Sparklines and trends */}}
+{{ $issuesOpenSparkline := partial "get-sparkline.html" (dict "snapshots" $snapshots "path" "issues.open") }}
+{{ $issuesUnassignedSparkline := partial "get-sparkline.html" (dict "snapshots" $snapshots "path" "issues.unassigned") }}
+{{ $issuesAssignMedianSparkline := partial "get-sparkline.html" (dict "snapshots" $snapshots "path" "issues.assignment_time.median_hours") }}
+{{ $issuesStale30dSparkline := partial "get-sparkline.html" (dict "snapshots" $snapshots "path" "issues.stale_30d") }}
+{{ $issuesOpenTrend := partial "calc-trend.html" (dict "sparkline" $issuesOpenSparkline) }}
+{{ $issuesUnassignedTrend := partial "calc-trend.html" (dict "sparkline" $issuesUnassignedSparkline) }}
+{{ $issuesAssignTrend := partial "calc-trend.html" (dict "sparkline" $issuesAssignMedianSparkline) }}
+{{ $issuesStale30dTrend := partial "calc-trend.html" (dict "sparkline" $issuesStale30dSparkline) }}
+
+{{/* GitHub filter links */}}
+{{ $openIssuesLink := printf "%s?q=is:issue+is:open" $ghBase }}
+{{ $closed7dLink := printf "%s?q=is:issue+is:closed+closed:>%s" $ghBase (now.AddDate 0 0 -7 | time.Format "2006-01-02") }}
+{{ $closed30dLink := printf "%s?q=is:issue+is:closed+closed:>%s" $ghBase (now.AddDate 0 0 -30 | time.Format "2006-01-02") }}
+{{ $closed90dLink := printf "%s?q=is:issue+is:closed+closed:>%s" $ghBase (now.AddDate 0 0 -90 | time.Format "2006-01-02") }}
+{{ $opened7dLink := printf "%s?q=is:issue+created:>%s" $ghBase (now.AddDate 0 0 -7 | time.Format "2006-01-02") }}
+{{ $opened30dLink := printf "%s?q=is:issue+created:>%s" $ghBase (now.AddDate 0 0 -30 | time.Format "2006-01-02") }}
+{{ $opened90dLink := printf "%s?q=is:issue+created:>%s" $ghBase (now.AddDate 0 0 -90 | time.Format "2006-01-02") }}
+{{ $stale30dLink := printf "%s?q=is:issue+is:open+updated:<=%s+sort:updated-asc" $ghBase (now.AddDate 0 0 -30 | time.Format "2006-01-02") }}
+{{ $stale60dLink := printf "%s?q=is:issue+is:open+updated:<=%s+sort:updated-asc" $ghBase (now.AddDate 0 0 -60 | time.Format "2006-01-02") }}
+{{ $stale90dLink := printf "%s?q=is:issue+is:open+updated:<=%s+sort:updated-asc" $ghBase (now.AddDate 0 0 -90 | time.Format "2006-01-02") }}
+{{ $assignedLink := printf "%s?q=is:issue+is:open+assigned:*" $ghBase }}
+{{ $unassignedLink := printf "%s?q=is:issue+is:open+no:assignee+sort:created-asc" $ghBase }}
+
+<!-- Volume -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-3">Volume</h2>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Open Issues" "value" $m.issues.open_count "sparkline" $issuesOpenSparkline "sparklineColor" "rgb(0, 102, 204)" "trend" $issuesOpenTrend "trendGoodDirection" "down" "link" $openIssuesLink) }}
+    {{ partial "metric-card.html" (dict "label" "Opened" "value" $m.issues.opened_7d "descriptor" "last 7 days" "link" $opened7dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Opened" "value" $m.issues.opened_30d "descriptor" "last 30 days" "link" $opened30dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Opened" "value" $m.issues.opened_90d "descriptor" "last 90 days" "link" $opened90dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Closed" "value" $m.issues.closed_7d "descriptor" "last 7 days" "link" $closed7dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Closed" "value" $m.issues.closed_30d "descriptor" "last 30 days" "link" $closed30dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Closed" "value" $m.issues.closed_90d "descriptor" "last 90 days" "link" $closed90dLink) }}
+  </div>
+</section>
+
+<!-- Assignment -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-1">Assignment</h2>
+  <p class="text-[10px] text-base-content/40 mb-3">Open issues by assignee status</p>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-4">
+    {{ partial "metric-card.html" (dict "label" "Assigned" "value" $m.issues.assigned_count "info" "Open issues with at least one assignee" "link" $assignedLink) }}
+    {{ partial "metric-card.html" (dict "label" "Unassigned" "value" $m.issues.unassigned_count "info" "Open issues with no assignee" "sparkline" $issuesUnassignedSparkline "sparklineColor" "rgb(220, 53, 69)" "trend" $issuesUnassignedTrend "trendGoodDirection" "down" "link" $unassignedLink) }}
+    {{ partial "metric-card.html" (dict "label" "Unassigned" "value" $m.issues.unassigned_7d "descriptor" ">7 days" "info" "Unassigned issues older than 7 days") }}
+    {{ partial "metric-card.html" (dict "label" "Unassigned" "value" $m.issues.unassigned_30d "descriptor" ">30 days" "info" "Unassigned issues older than 30 days") }}
+  </div>
+  <h3 class="text-xs font-semibold text-base-content/70 mb-3">Time to Assignment</h3>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Average" "value" (partial "format-hours.html" $m.issues.assignment_time.avg_hours) "info" "Average time from issue open to first assignment") }}
+    {{ partial "metric-card.html" (dict "label" "Median" "value" (partial "format-hours.html" $m.issues.assignment_time.median_hours) "sparkline" $issuesAssignMedianSparkline "sparklineColor" "rgb(108, 117, 125)" "trend" $issuesAssignTrend "trendGoodDirection" "down") }}
+    {{ partial "metric-card.html" (dict "label" "P90" "value" (partial "format-hours.html" $m.issues.assignment_time.p90_hours)) }}
+    {{ partial "metric-card.html" (dict "label" "P95" "value" (partial "format-hours.html" $m.issues.assignment_time.p95_hours)) }}
+  </div>
+</section>
+
+<!-- Stale Issues -->
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-1">Stale Issues</h2>
+  <p class="text-[10px] text-base-content/40 mb-3">Issues with no activity</p>
+  <div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+    {{ partial "metric-card.html" (dict "label" "Stale" "value" $m.issues.stale_30d "descriptor" ">30 days" "sparkline" $issuesStale30dSparkline "sparklineColor" "rgb(255, 193, 7)" "trend" $issuesStale30dTrend "trendGoodDirection" "down" "link" $stale30dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Stale" "value" $m.issues.stale_60d "descriptor" ">60 days" "link" $stale60dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Stale" "value" $m.issues.stale_90d "descriptor" ">90 days" "link" $stale90dLink) }}
+    {{ partial "metric-card.html" (dict "label" "Reopen Rate" "value" (printf "%.0f%%" (mul $m.issues.reopen_rate 100))) }}
+  </div>
+</section>
+
+<!-- Issues by Label -->
+{{ if $m.issues.by_label }}
+<details class="mb-6 border border-base-300 rounded-lg bg-base-100 overflow-hidden">
+  <summary class="text-sm font-semibold cursor-pointer px-3 py-2 hover:bg-base-200/50 select-none">Issues by Label</summary>
+  <div>
+    <table class="table table-xs w-full">
+      <thead>
+        <tr class="border-b border-base-300">
+          <th class="bg-base-200/50 text-xs font-medium">Label</th>
+          <th class="bg-base-200/50 text-xs font-medium text-left w-24">Count</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{ $labelSlice := slice }}
+        {{ range $label, $count := $m.issues.by_label }}
+          {{ $labelSlice = $labelSlice | append (dict "label" $label "count" $count) }}
+        {{ end }}
+        {{ range sort $labelSlice "count" "desc" }}
+        {{ $labelLink := printf "%s?q=is:issue+is:open+label:\"%s\"" $ghBase .label }}
+        <tr class="border-b border-base-300 last:border-b-0 hover:bg-base-200/50 cursor-pointer transition-colors group" onclick="window.open('{{ $labelLink }}', '_blank')">
+          <td class="text-xs">
+            <span class="inline-flex items-center px-1 rounded text-[9px] border border-base-300 bg-base-200 group-hover:border-base-content/30 transition-colors">{{ .label }}</span>
+          </td>
+          <td class="text-xs font-medium text-left">{{ .count }}</td>
+        </tr>
+        {{ end }}
+      </tbody>
+    </table>
+  </div>
+</details>
+{{ end }}
+
+<!-- Unassigned Issues -->
+{{ if $m.issues.unassigned_issues }}
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-1">Unassigned Issues <span class="font-normal text-base-content/50">({{ len $m.issues.unassigned_issues }})</span></h2>
+  <p class="text-[10px] text-base-content/40 mb-3">Open issues with no assignee, sorted by oldest first</p>
+  {{ template "issue-table" (dict "issues" $m.issues.unassigned_issues "showAssignee" false) }}
+</section>
+{{ end }}
+
+<!-- Assigned Issues -->
+{{ if $m.issues.assigned_issues }}
+<section class="mb-6">
+  <h2 class="text-sm font-semibold mb-1">Assigned Issues <span class="font-normal text-base-content/50">({{ len $m.issues.assigned_issues }})</span></h2>
+  <p class="text-[10px] text-base-content/40 mb-3">Open issues with an assignee, sorted by oldest first</p>
+  {{ template "issue-table" (dict "issues" $m.issues.assigned_issues "showAssignee" true) }}
+</section>
+{{ end }}
+
+{{ end }}{{/* if $m */}}
