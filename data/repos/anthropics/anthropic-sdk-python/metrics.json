@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-03-24T01:07:47.042Z",
+  "timestamp": "2026-03-24T04:08:51.833Z",
   "repository": {
-    "stars": 3004,
+    "stars": 3005,
     "forks": 545
   },
   "issues": {
     "open_count": 79,
-    "closed_7d": 1,
+    "closed_7d": 0,
     "closed_30d": 6,
     "closed_90d": 14,
     "opened_7d": 6,
@@ -14,7 +14,7 @@
     "opened_90d": 45,
     "assigned_count": 3,
     "unassigned_count": 76,
-    "unassigned_24h": 75,
+    "unassigned_24h": 76,
     "unassigned_7d": 70,
     "unassigned_30d": 61,
     "assigned_issues": [
@@ -109,7 +109,7 @@
         "title": "How to handle Anthropic 'Overloaded' error when streaming in langchain ",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/688",
         "createdAt": "2024-10-11T01:26:30Z",
-        "daysOpen": 528,
+        "daysOpen": 529,
         "labels": [
           "documentation"
         ],
@@ -133,7 +133,7 @@
         "title": "Cannot get partial json from streaming if we hit max_tokens as a step reason",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/794",
         "createdAt": "2024-12-17T01:19:17Z",
-        "daysOpen": 461,
+        "daysOpen": 462,
         "labels": [
           "enhancement",
           "sdk"
@@ -159,7 +159,7 @@
         "title": "Bedrock needs inference profile ARN instead of model name",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/894",
         "createdAt": "2025-03-06T02:14:34Z",
-        "daysOpen": 382,
+        "daysOpen": 383,
         "labels": [
           "bedrock",
           "sdk"
@@ -259,7 +259,7 @@
         "title": "Inconsistent failure to use thinking with Claude 4 Sonnet",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/958",
         "createdAt": "2025-05-27T02:08:26Z",
-        "daysOpen": 300,
+        "daysOpen": 301,
         "labels": [
           "api"
         ],
@@ -562,7 +562,7 @@
         "title": "Intermittent AttributeError in beta.messages.stream() with effort parameter: 'dict' object has no attribute 'to_dict'",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1088",
         "createdAt": "2025-11-30T04:04:08Z",
-        "daysOpen": 113,
+        "daysOpen": 114,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -644,7 +644,7 @@
         "title": "Tool runner exits early when response contains only server tool use blocks (e.g. web_search, web_fetch) and stop reason: pause_turn",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1170",
         "createdAt": "2026-02-08T01:33:48Z",
-        "daysOpen": 43,
+        "daysOpen": 44,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -888,7 +888,7 @@
         "title": "API does not cleanly separate tool-use mechanics (search queries, results, narration) from the final authored content",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1277",
         "createdAt": "2026-03-22T03:02:15Z",
-        "daysOpen": 1,
+        "daysOpen": 2,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -910,7 +910,7 @@
         "title": "docs: add example for mTLS / corporate proxy configuration",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1279",
         "createdAt": "2026-03-23T02:49:58Z",
-        "daysOpen": 0,
+        "daysOpen": 1,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -945,18 +945,18 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 88,
+    "open_count": 89,
     "merged_7d": 2,
     "merged_30d": 7,
     "merged_90d": 19,
-    "opened_7d": 26,
-    "opened_30d": 63,
-    "opened_90d": 126,
+    "opened_7d": 27,
+    "opened_30d": 64,
+    "opened_90d": 127,
     "closed_not_merged_90d": 39,
     "draft_count": 4,
     "assigned_count": 0,
-    "unassigned_count": 88,
-    "unassigned_24h": 80,
+    "unassigned_count": 89,
+    "unassigned_24h": 81,
     "unassigned_7d": 66,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -1524,7 +1524,7 @@
         "title": "Add CLAUDE.md documentation for AI assistants",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1196",
         "createdAt": "2026-02-23T02:00:03Z",
-        "daysOpen": 28,
+        "daysOpen": 29,
         "labels": [],
         "isDraft": false,
         "additions": 310,
@@ -1706,7 +1706,7 @@
         "title": "fix: handle tuples in deepcopy_minimal to prevent dict mutation",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1226",
         "createdAt": "2026-03-08T02:05:01Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "isDraft": false,
         "additions": 22,
@@ -1884,6 +1884,20 @@
         "assignees": []
       },
       {
+        "number": 1243,
+        "title": "fix: pass aws_profile to boto3.Session() in _infer_region()",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1243",
+        "createdAt": "2026-03-14T03:53:56Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "alvinttang",
+        "assignees": []
+      },
+      {
         "number": 1246,
         "title": "fix(bedrock): add missing stream() method to beta.messages",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1246",
@@ -1909,20 +1923,6 @@
         "deletions": 2,
         "reviewCount": 1,
         "author": "passionworkeer",
-        "assignees": []
-      },
-      {
-        "number": 1243,
-        "title": "fix: pass aws_profile to boto3.Session() in _infer_region()",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1243",
-        "createdAt": "2026-03-14T03:53:56Z",
-        "daysOpen": 9,
-        "labels": [],
-        "isDraft": false,
-        "additions": 4,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "alvinttang",
         "assignees": []
       },
       {
@@ -1954,6 +1954,34 @@
         "assignees": []
       },
       {
+        "number": 1255,
+        "title": "fix: remove spurious pass statement in signature_delta handler",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1255",
+        "createdAt": "2026-03-18T02:32:12Z",
+        "daysOpen": 6,
+        "labels": [],
+        "isDraft": false,
+        "additions": 0,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "frankgoldfish",
+        "assignees": []
+      },
+      {
+        "number": 1253,
+        "title": "docs: remove outdated single-content-block note from get_final_text",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1253",
+        "createdAt": "2026-03-18T02:21:42Z",
+        "daysOpen": 6,
+        "labels": [],
+        "isDraft": false,
+        "additions": 0,
+        "deletions": 12,
+        "reviewCount": 0,
+        "author": "frankgoldfish",
+        "assignees": []
+      },
+      {
         "number": 1252,
         "title": "Add arithmetic calculator example using tool use",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1252",
@@ -1979,34 +2007,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "Adityakk9031",
-        "assignees": []
-      },
-      {
-        "number": 1255,
-        "title": "fix: remove spurious pass statement in signature_delta handler",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1255",
-        "createdAt": "2026-03-18T02:32:12Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 0,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "frankgoldfish",
-        "assignees": []
-      },
-      {
-        "number": 1253,
-        "title": "docs: remove outdated single-content-block note from get_final_text",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1253",
-        "createdAt": "2026-03-18T02:21:42Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 0,
-        "deletions": 12,
-        "reviewCount": 0,
-        "author": "frankgoldfish",
         "assignees": []
       },
       {
@@ -2040,6 +2040,90 @@
         "assignees": []
       },
       {
+        "number": 1268,
+        "title": "fix(streaming): add helpful error message for malformed tool JSON in non-beta path",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1268",
+        "createdAt": "2026-03-20T02:21:33Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 6,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "tao-to-python",
+        "assignees": []
+      },
+      {
+        "number": 1273,
+        "title": "fix(streaming): replace IndexError with descriptive RuntimeError for out-of-bounds content_block_delta",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1273",
+        "createdAt": "2026-03-20T02:37:28Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 12,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "tao-to-python",
+        "assignees": []
+      },
+      {
+        "number": 1272,
+        "title": "fix(streaming): handle dict objects that lack to_dict() in stream accumulator",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1272",
+        "createdAt": "2026-03-20T02:27:52Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 8,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "tao-to-python",
+        "assignees": []
+      },
+      {
+        "number": 1271,
+        "title": "fix(tools): prevent tool_runner from exiting when server_tool_use blocks are present",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1271",
+        "createdAt": "2026-03-20T02:26:31Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 11,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "tao-to-python",
+        "assignees": []
+      },
+      {
+        "number": 1270,
+        "title": "fix(utils): recursively copy tuples in deepcopy_minimal to prevent in-place mutation",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1270",
+        "createdAt": "2026-03-20T02:24:22Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 3,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "tao-to-python",
+        "assignees": []
+      },
+      {
+        "number": 1269,
+        "title": "fix(streaming): derive correct status code from SSE error type instead of HTTP 200",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1269",
+        "createdAt": "2026-03-20T02:23:43Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 42,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "tao-to-python",
+        "assignees": []
+      },
+      {
         "number": 1263,
         "title": "fix: map SSE error types to correct HTTP status codes in streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1263",
@@ -2068,87 +2152,31 @@
         "assignees": []
       },
       {
-        "number": 1268,
-        "title": "fix(streaming): add helpful error message for malformed tool JSON in non-beta path",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1268",
-        "createdAt": "2026-03-20T02:21:33Z",
-        "daysOpen": 3,
+        "number": 1280,
+        "title": "docs(examples): add mTLS and custom TLS configuration example",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1280",
+        "createdAt": "2026-03-23T02:53:10Z",
+        "daysOpen": 1,
         "labels": [],
         "isDraft": false,
-        "additions": 6,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "tao-to-python",
-        "assignees": []
-      },
-      {
-        "number": 1273,
-        "title": "fix(streaming): replace IndexError with descriptive RuntimeError for out-of-bounds content_block_delta",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1273",
-        "createdAt": "2026-03-20T02:37:28Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 12,
+        "additions": 88,
         "deletions": 0,
         "reviewCount": 0,
-        "author": "tao-to-python",
+        "author": "JakeBx",
         "assignees": []
       },
       {
-        "number": 1272,
-        "title": "fix(streaming): handle dict objects that lack to_dict() in stream accumulator",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1272",
-        "createdAt": "2026-03-20T02:27:52Z",
-        "daysOpen": 3,
+        "number": 1285,
+        "title": "Create generator-generic-ossf-slsa3-publish.yml",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1285",
+        "createdAt": "2026-03-24T03:08:15Z",
+        "daysOpen": 0,
         "labels": [],
         "isDraft": false,
-        "additions": 8,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "tao-to-python",
-        "assignees": []
-      },
-      {
-        "number": 1271,
-        "title": "fix(tools): prevent tool_runner from exiting when server_tool_use blocks are present",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1271",
-        "createdAt": "2026-03-20T02:26:31Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 11,
+        "additions": 66,
         "deletions": 0,
         "reviewCount": 0,
-        "author": "tao-to-python",
-        "assignees": []
-      },
-      {
-        "number": 1270,
-        "title": "fix(utils): recursively copy tuples in deepcopy_minimal to prevent in-place mutation",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1270",
-        "createdAt": "2026-03-20T02:24:22Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 3,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "tao-to-python",
-        "assignees": []
-      },
-      {
-        "number": 1269,
-        "title": "fix(streaming): derive correct status code from SSE error type instead of HTTP 200",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1269",
-        "createdAt": "2026-03-20T02:23:43Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 42,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "tao-to-python",
+        "author": "SkyMeilin",
         "assignees": []
       },
       {
@@ -2192,20 +2220,6 @@
         "reviewCount": 1,
         "author": "tombudd",
         "assignees": []
-      },
-      {
-        "number": 1280,
-        "title": "docs(examples): add mTLS and custom TLS configuration example",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1280",
-        "createdAt": "2026-03-23T02:53:10Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 88,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "JakeBx",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -2228,15 +2242,15 @@
     "rejection_rate_pct": 67.2,
     "avg_reviews_per_pr": 2.4,
     "by_size": {
-      "small": 63,
+      "small": 64,
       "medium": 18,
       "large": 7
     }
   },
   "contributors": {
-    "total_known": 150,
-    "active_30d": 55,
-    "first_time_30d": 49,
+    "total_known": 151,
+    "active_30d": 56,
+    "first_time_30d": 50,
     "retention_rate_pct": 100,
     "churned_30d": 0,
     "commits_per_week_avg": 6.8,
@@ -2283,6 +2297,7 @@
       "SAMFVH",
       "Scottcjn",
       "SergioHC95",
+      "SkyMeilin",
       "ZhlkVP",
       "abdelhadi703",
       "abhiwebshar",
@@ -2419,6 +2434,7 @@
       "Ratnaditya-J",
       "RobertCraigie",
       "Scottcjn",
+      "SkyMeilin",
       "abdelhadi703",
       "afoong-8s",
       "alvinttang",
