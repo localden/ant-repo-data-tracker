@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-03-24T06:52:30.923Z",
+  "timestamp": "2026-03-24T08:39:51.783Z",
   "repository": {
-    "stars": 3006,
-    "forks": 546
+    "stars": 3007,
+    "forks": 545
   },
   "issues": {
     "open_count": 79,
@@ -196,7 +196,7 @@
         "title": "Replace dependency on `jiter` with another JSON parser or add a fallback",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/937",
         "createdAt": "2025-04-11T07:47:51Z",
-        "daysOpen": 346,
+        "daysOpen": 347,
         "labels": [
           "enhancement",
           "sdk"
@@ -369,7 +369,7 @@
         "title": "tools.0.web_search_20250305: Country code SG is not supported",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/995",
         "createdAt": "2025-07-17T07:35:24Z",
-        "daysOpen": 249,
+        "daysOpen": 250,
         "labels": [
           "api"
         ],
@@ -624,7 +624,7 @@
         "title": "Tool Search Tool (BM25) does not find tools with Japanese descriptions",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1116",
         "createdAt": "2026-01-10T07:08:25Z",
-        "daysOpen": 72,
+        "daysOpen": 73,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -664,7 +664,7 @@
         "title": "API rejects code_execution_20250825 tool: 'use_web_search_purpose: Extra inputs are not permitted'",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1179",
         "createdAt": "2026-02-14T08:22:46Z",
-        "daysOpen": 37,
+        "daysOpen": 38,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -945,18 +945,18 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 91,
+    "open_count": 90,
     "merged_7d": 2,
     "merged_30d": 7,
     "merged_90d": 19,
     "opened_7d": 29,
     "opened_30d": 66,
     "opened_90d": 129,
-    "closed_not_merged_90d": 39,
+    "closed_not_merged_90d": 40,
     "draft_count": 4,
     "assigned_count": 0,
-    "unassigned_count": 91,
-    "unassigned_24h": 82,
+    "unassigned_count": 90,
+    "unassigned_24h": 81,
     "unassigned_7d": 66,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -1240,6 +1240,20 @@
         "assignees": []
       },
       {
+        "number": 1145,
+        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
+        "createdAt": "2026-01-22T08:10:13Z",
+        "daysOpen": 61,
+        "labels": [],
+        "isDraft": true,
+        "additions": 39,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
         "number": 1144,
         "title": "fix: strip schema field from tool definitions to prevent 500 errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1144",
@@ -1389,20 +1403,6 @@
         "isDraft": true,
         "additions": 49,
         "deletions": 16,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1145,
-        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
-        "createdAt": "2026-01-22T08:10:13Z",
-        "daysOpen": 60,
-        "labels": [],
-        "isDraft": true,
-        "additions": 39,
-        "deletions": 14,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -1566,7 +1566,7 @@
         "title": "feat: add double-buffer compaction for context window management",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1203",
         "createdAt": "2026-02-25T07:55:26Z",
-        "daysOpen": 26,
+        "daysOpen": 27,
         "labels": [],
         "isDraft": false,
         "additions": 1729,
@@ -2152,20 +2152,6 @@
         "assignees": []
       },
       {
-        "number": 1281,
-        "title": "fix: replace assert with runtime checks for -O safety",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1281",
-        "createdAt": "2026-03-23T04:23:23Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 34,
-        "deletions": 15,
-        "reviewCount": 1,
-        "author": "tombudd",
-        "assignees": []
-      },
-      {
         "number": 1280,
         "title": "docs(examples): add mTLS and custom TLS configuration example",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1280",
@@ -2251,10 +2237,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 579.3,
-      "median_hours": 18.9,
-      "p90_hours": 745.9,
-      "p95_hours": 971.9
+      "avg_hours": 595.9,
+      "median_hours": 19.6,
+      "p90_hours": 760.2,
+      "p95_hours": 985.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -2267,10 +2253,10 @@
       "median_hours": 23.5
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 67.2,
+    "rejection_rate_pct": 67.8,
     "avg_reviews_per_pr": 2.4,
     "by_size": {
-      "small": 65,
+      "small": 64,
       "medium": 19,
       "large": 7
     }
