@@ -32,7 +32,7 @@ Tracked repositories:
 - [anthropic-sdk-ruby](https://github.com/anthropics/anthropic-sdk-ruby)
 - [anthropic-sdk-php](https://github.com/anthropics/anthropic-sdk-php)
 
-<h2 align="center">Prerequisites</h2>
+## Prerequisites
 
 ### Node.js
 
@@ -81,7 +81,7 @@ brew install hugo
 hugo version
 ```
 
-<h2 align="center">Quick Start</h2>
+## Quick Start
 
 ### 1. Install Dependencies
 
@@ -141,7 +141,7 @@ hugo --minify
 # Output is in public/
 ```
 
-<h2 align="center">CLI Options</h2>
+## CLI Options
 
 ```bash
 npm run aggregate -- [options]
@@ -153,7 +153,7 @@ Options:
   --help, -h       Show help message
 ```
 
-<h2 align="center">Configuration</h2>
+## Configuration
 
 Edit `repos.json` to add or remove repositories:
 
@@ -172,7 +172,7 @@ Edit `repos.json` to add or remove repositories:
 
 Issue and PR triage is tracked by **assignment status** — an issue or PR is considered triaged once it has an assignee. The dashboard surfaces unassigned items and time-to-first-assignment.
 
-<h2 align="center">GitHub Actions Setup</h2>
+## GitHub Actions Setup
 
 The repository includes GitHub Actions workflows that automatically:
 1. Run data aggregation every 2 hours
@@ -215,7 +215,7 @@ The workflow runs automatically on:
 - **Schedule**: Every 2 hours (`0 */2 * * *`)
 - **Manual trigger**: Go to **Actions** > **Aggregate Repository Data** > **Run workflow**
 
-<h2 align="center">Project Structure</h2>
+## Project Structure
 
 ```
 ├── hugo.toml              # Hugo configuration
@@ -254,6 +254,6 @@ The workflow runs automatically on:
 └── public/                # Generated site (gitignored)
 ```
 
-<h2 align="center">License</h2>
+## License
 
 MIT
