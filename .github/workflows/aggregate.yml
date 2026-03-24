@@ -38,7 +38,7 @@ jobs:
 
       - name: Run data aggregation
         env:
-          GITHUB_TOKEN: ${{ secrets.GH_PAT }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: npm run aggregate
 
       - name: Commit and push data changes
