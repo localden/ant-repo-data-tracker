@@ -1,9 +1,26 @@
-# Anthropic SDK Repository Health Tracker
+<p align="center">
+  <img src="static/favicon.svg" alt="Anthropic SDK Repository Health Tracker" width="96" height="96">
+</p>
 
-[![Aggregate Repository Data](https://github.com/localden/ant-repo-data-tracker/actions/workflows/aggregate.yml/badge.svg)](https://github.com/localden/ant-repo-data-tracker/actions/workflows/aggregate.yml)
-[![Deploy to GitHub Pages](https://github.com/localden/ant-repo-data-tracker/actions/workflows/deploy.yml/badge.svg)](https://github.com/localden/ant-repo-data-tracker/actions/workflows/deploy.yml)
+<h1 align="center">Anthropic SDK Repository Health Tracker</h1>
 
-Project designed to monitor the health of Anthropic open-source SDK repositories. **Only public repositories are tracked**.
+<p align="center">
+  Dashboard for monitoring the health of Anthropic open-source SDK repositories.<br>
+  <strong>Only public repositories are tracked.</strong>
+</p>
+
+<p align="center">
+  <a href="https://github.com/localden/ant-repo-data-tracker/actions/workflows/aggregate.yml"><img src="https://github.com/localden/ant-repo-data-tracker/actions/workflows/aggregate.yml/badge.svg" alt="Aggregate Repository Data"></a>
+  <a href="https://github.com/localden/ant-repo-data-tracker/actions/workflows/deploy.yml"><img src="https://github.com/localden/ant-repo-data-tracker/actions/workflows/deploy.yml/badge.svg" alt="Deploy to GitHub Pages"></a>
+  <br>
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/localden/ant-repo-data-tracker?color=blue" alt="License"></a>
+  <img src="https://img.shields.io/badge/Hugo-0.139+-FF4088?logo=hugo&logoColor=white" alt="Hugo">
+  <img src="https://img.shields.io/badge/Node.js-18+-339933?logo=node.js&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/TypeScript-5.3-3178C6?logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/github/last-commit/localden/ant-repo-data-tracker" alt="Last commit">
+</p>
+
+---
 
 Tracked repositories:
 
@@ -15,7 +32,7 @@ Tracked repositories:
 - [anthropic-sdk-ruby](https://github.com/anthropics/anthropic-sdk-ruby)
 - [anthropic-sdk-php](https://github.com/anthropics/anthropic-sdk-php)
 
-## Prerequisites
+<h2 align="center">Prerequisites</h2>
 
 ### Node.js
 
@@ -64,7 +81,7 @@ brew install hugo
 hugo version
 ```
 
-## Quick Start
+<h2 align="center">Quick Start</h2>
 
 ### 1. Install Dependencies
 
@@ -124,7 +141,7 @@ hugo --minify
 # Output is in public/
 ```
 
-## CLI Options
+<h2 align="center">CLI Options</h2>
 
 ```bash
 npm run aggregate -- [options]
@@ -136,7 +153,7 @@ Options:
   --help, -h       Show help message
 ```
 
-## Configuration
+<h2 align="center">Configuration</h2>
 
 Edit `repos.json` to add or remove repositories:
 
@@ -155,7 +172,7 @@ Edit `repos.json` to add or remove repositories:
 
 Issue and PR triage is tracked by **assignment status** — an issue or PR is considered triaged once it has an assignee. The dashboard surfaces unassigned items and time-to-first-assignment.
 
-## GitHub Actions Setup
+<h2 align="center">GitHub Actions Setup</h2>
 
 The repository includes GitHub Actions workflows that automatically:
 1. Run data aggregation every 2 hours
@@ -198,7 +215,7 @@ The workflow runs automatically on:
 - **Schedule**: Every 2 hours (`0 */2 * * *`)
 - **Manual trigger**: Go to **Actions** > **Aggregate Repository Data** > **Run workflow**
 
-## Project Structure
+<h2 align="center">Project Structure</h2>
 
 ```
 ├── hugo.toml              # Hugo configuration
@@ -237,6 +254,6 @@ The workflow runs automatically on:
 └── public/                # Generated site (gitignored)
 ```
 
-## License
+<h2 align="center">License</h2>
 
 MIT
