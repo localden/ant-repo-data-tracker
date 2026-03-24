@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-24T04:09:28.514Z",
+  "timestamp": "2026-03-24T06:53:12.336Z",
   "repository": {
     "stars": 920,
     "forks": 134
@@ -24,7 +24,7 @@
         "title": "Support Prompt Caching with Vertex",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/16",
         "createdAt": "2024-09-10T05:36:48Z",
-        "daysOpen": 559,
+        "daysOpen": 560,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -57,7 +57,7 @@
         "title": "Cannot utilize the builtin `bash` and `str_replace_editor` tools, error response received instead of success",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/86",
         "createdAt": "2024-12-26T06:26:51Z",
-        "daysOpen": 452,
+        "daysOpen": 453,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -67,7 +67,7 @@
         "title": "Proxy configuration not working with bedrock.WithLoadDefaultConfig",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/99",
         "createdAt": "2025-01-22T06:36:56Z",
-        "daysOpen": 425,
+        "daysOpen": 426,
         "labels": [
           "sdk"
         ],
@@ -202,7 +202,7 @@
         "title": "anthropic.BetaFileUploadParams doesn't provide a way to set content-types",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/234",
         "createdAt": "2025-09-14T04:45:19Z",
-        "daysOpen": 190,
+        "daysOpen": 191,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -222,7 +222,7 @@
         "title": "I want to unmarshal the HTTP body into a MessageNewParams",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/236",
         "createdAt": "2025-09-22T06:46:33Z",
-        "daysOpen": 182,
+        "daysOpen": 183,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -312,7 +312,7 @@
         "title": "Feature Request: Support Models API for Vertex AI client",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/270",
         "createdAt": "2026-02-07T05:26:46Z",
-        "daysOpen": 44,
+        "daysOpen": 45,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -427,7 +427,7 @@
     "draft_count": 0,
     "assigned_count": 0,
     "unassigned_count": 25,
-    "unassigned_24h": 23,
+    "unassigned_24h": 24,
     "unassigned_7d": 20,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -562,7 +562,7 @@
         "title": "bugfix: missing custom decoder for beta content block which will cause field missing.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/263",
         "createdAt": "2026-01-08T05:44:41Z",
-        "daysOpen": 74,
+        "daysOpen": 75,
         "labels": [],
         "isDraft": false,
         "additions": 89,
@@ -590,7 +590,7 @@
         "title": "fix: use json.RawMessage for JSONOutputFormatParam.Schema to preserve key ordering",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/271",
         "createdAt": "2026-02-10T05:03:50Z",
-        "daysOpen": 41,
+        "daysOpen": 42,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -628,6 +628,20 @@
         "assignees": []
       },
       {
+        "number": 286,
+        "title": "fix: register adaptive discriminator for ThinkingConfigAdaptiveParam …",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/286",
+        "createdAt": "2026-03-07T06:20:35Z",
+        "daysOpen": 17,
+        "labels": [],
+        "isDraft": false,
+        "additions": 26,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "aydinomer00",
+        "assignees": []
+      },
+      {
         "number": 287,
         "title": "fix: join multiple beta headers with commas per API specfix: join multiple beta headers with commas per API spec",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/287",
@@ -637,20 +651,6 @@
         "isDraft": false,
         "additions": 226,
         "deletions": 56,
-        "reviewCount": 0,
-        "author": "aydinomer00",
-        "assignees": []
-      },
-      {
-        "number": 286,
-        "title": "fix: register adaptive discriminator for ThinkingConfigAdaptiveParam …",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/286",
-        "createdAt": "2026-03-07T06:20:35Z",
-        "daysOpen": 16,
-        "labels": [],
-        "isDraft": false,
-        "additions": 26,
-        "deletions": 0,
         "reviewCount": 0,
         "author": "aydinomer00",
         "assignees": []
@@ -702,7 +702,7 @@
         "title": "Bugfix: missing adaptive union register which cause unmarshal field missing.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/293",
         "createdAt": "2026-03-14T04:20:16Z",
-        "daysOpen": 9,
+        "daysOpen": 10,
         "labels": [],
         "isDraft": false,
         "additions": 2,
@@ -749,10 +749,24 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 34,
+        "additions": 84,
         "deletions": 13,
         "reviewCount": 0,
         "author": "stainless-app",
+        "assignees": []
+      },
+      {
+        "number": 301,
+        "title": "fix: replace panics with deferred errors in Vertex, Bedrock, and options",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/301",
+        "createdAt": "2026-03-23T04:30:55Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 15,
+        "deletions": 5,
+        "reviewCount": 1,
+        "author": "tombudd",
         "assignees": []
       },
       {
@@ -767,20 +781,6 @@
         "deletions": 1,
         "reviewCount": 5,
         "author": "gn00295120",
-        "assignees": []
-      },
-      {
-        "number": 301,
-        "title": "fix: replace panics with deferred errors in Vertex, Bedrock, and options",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/301",
-        "createdAt": "2026-03-23T04:30:55Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 15,
-        "deletions": 5,
-        "reviewCount": 1,
-        "author": "tombudd",
         "assignees": []
       }
     ],
