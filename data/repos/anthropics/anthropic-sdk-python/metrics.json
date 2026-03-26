@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-26T04:25:04.091Z",
+  "timestamp": "2026-03-26T06:57:14.637Z",
   "repository": {
     "stars": 3014,
     "forks": 549
@@ -528,7 +528,7 @@
         "title": "AnthropicBedrock: AWS_BEARER_TOKEN_BEDROCK env var not supported",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1079",
         "createdAt": "2025-11-22T06:20:56Z",
-        "daysOpen": 123,
+        "daysOpen": 124,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -720,6 +720,16 @@
         "assignees": []
       },
       {
+        "number": 1194,
+        "title": "Prompt caching for Claude Sonnet appears to start at 2048 tokens instead of documented 1024",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1194",
+        "createdAt": "2026-02-21T05:04:31Z",
+        "daysOpen": 33,
+        "labels": [],
+        "commentCount": 5,
+        "assignees": []
+      },
+      {
         "number": 1192,
         "title": "IndexError when streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1192",
@@ -737,16 +747,6 @@
         "daysOpen": 33,
         "labels": [],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1194,
-        "title": "Prompt caching for Claude Sonnet appears to start at 2048 tokens instead of documented 1024",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1194",
-        "createdAt": "2026-02-21T05:04:31Z",
-        "daysOpen": 32,
-        "labels": [],
-        "commentCount": 5,
         "assignees": []
       },
       {
@@ -804,7 +804,7 @@
         "title": "Slow imports",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1211",
         "createdAt": "2026-02-27T06:05:18Z",
-        "daysOpen": 26,
+        "daysOpen": 27,
         "labels": [],
         "commentCount": 8,
         "assignees": []
@@ -874,6 +874,18 @@
         "assignees": []
       },
       {
+        "number": 1278,
+        "title": "[RFC] Korean Tokenization: Jamo Decomposition as Pre-tokenizer (A Blueprint for Compositional Scripts)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1278",
+        "createdAt": "2026-03-22T04:59:25Z",
+        "daysOpen": 4,
+        "labels": [
+          "api"
+        ],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 1277,
         "title": "API does not cleanly separate tool-use mechanics (search queries, results, narration) from the final authored content",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1277",
@@ -890,18 +902,6 @@
         "createdAt": "2026-03-23T02:49:58Z",
         "daysOpen": 3,
         "labels": [],
-        "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1278,
-        "title": "[RFC] Korean Tokenization: Jamo Decomposition as Pre-tokenizer (A Blueprint for Compositional Scripts)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1278",
-        "createdAt": "2026-03-22T04:59:25Z",
-        "daysOpen": 3,
-        "labels": [
-          "api"
-        ],
         "commentCount": 1,
         "assignees": []
       },
@@ -981,8 +981,8 @@
     "merged_7d": 1,
     "merged_30d": 7,
     "merged_90d": 19,
-    "opened_7d": 28,
-    "opened_30d": 72,
+    "opened_7d": 27,
+    "opened_30d": 70,
     "opened_90d": 136,
     "closed_not_merged_90d": 44,
     "draft_count": 4,
@@ -1074,7 +1074,7 @@
         "title": "fix: resolve tool cache invalidation bug and bedrock HTTP/2 compatibility",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1067",
         "createdAt": "2025-11-11T06:18:19Z",
-        "daysOpen": 134,
+        "daysOpen": 135,
         "labels": [],
         "isDraft": false,
         "additions": 4,
@@ -1088,7 +1088,7 @@
         "title": "fix(security): prevent presigned URL leak and exception data exfiltration",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1068",
         "createdAt": "2025-11-11T06:46:00Z",
-        "daysOpen": 134,
+        "daysOpen": 135,
         "labels": [],
         "isDraft": false,
         "additions": 6,
@@ -1102,7 +1102,7 @@
         "title": "fix(security): prevent path traversal and add memory-efficient file handling",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1066",
         "createdAt": "2025-11-11T06:01:18Z",
-        "daysOpen": 134,
+        "daysOpen": 135,
         "labels": [],
         "isDraft": false,
         "additions": 145,
@@ -1144,7 +1144,7 @@
         "title": "feat(bedrock): support AWS_BEARER_TOKEN_BEDROCK env var",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1080",
         "createdAt": "2025-11-22T06:23:10Z",
-        "daysOpen": 123,
+        "daysOpen": 124,
         "labels": [],
         "isDraft": false,
         "additions": 69,
@@ -1272,6 +1272,76 @@
         "assignees": []
       },
       {
+        "number": 1144,
+        "title": "fix: strip schema field from tool definitions to prevent 500 errors",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1144",
+        "createdAt": "2026-01-22T05:52:10Z",
+        "daysOpen": 63,
+        "labels": [],
+        "isDraft": false,
+        "additions": 55,
+        "deletions": 10,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
+        "number": 1142,
+        "title": "fix(tests): make mock_aws_config Windows compatible",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1142",
+        "createdAt": "2026-01-22T05:05:15Z",
+        "daysOpen": 63,
+        "labels": [],
+        "isDraft": false,
+        "additions": 8,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
+        "number": 1141,
+        "title": "feat(bedrock): add support for count_tokens",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1141",
+        "createdAt": "2026-01-22T04:50:22Z",
+        "daysOpen": 63,
+        "labels": [],
+        "isDraft": false,
+        "additions": 251,
+        "deletions": 10,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
+        "number": 1140,
+        "title": "fix(streaming): check request body for beta flags during accumulation",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1140",
+        "createdAt": "2026-01-22T04:50:20Z",
+        "daysOpen": 63,
+        "labels": [],
+        "isDraft": false,
+        "additions": 39,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
+        "number": 1139,
+        "title": "fix(vertex): map anthropic-beta header to request body for prompt caching support",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1139",
+        "createdAt": "2026-01-22T04:50:12Z",
+        "daysOpen": 63,
+        "labels": [],
+        "isDraft": false,
+        "additions": 24,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
         "number": 1136,
         "title": "feat(messages): add client-side validation for temperature, top_p, and top_k",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1136",
@@ -1365,76 +1435,6 @@
         "isDraft": true,
         "additions": 39,
         "deletions": 14,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1144,
-        "title": "fix: strip schema field from tool definitions to prevent 500 errors",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1144",
-        "createdAt": "2026-01-22T05:52:10Z",
-        "daysOpen": 62,
-        "labels": [],
-        "isDraft": false,
-        "additions": 55,
-        "deletions": 10,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1142,
-        "title": "fix(tests): make mock_aws_config Windows compatible",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1142",
-        "createdAt": "2026-01-22T05:05:15Z",
-        "daysOpen": 62,
-        "labels": [],
-        "isDraft": false,
-        "additions": 8,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1141,
-        "title": "feat(bedrock): add support for count_tokens",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1141",
-        "createdAt": "2026-01-22T04:50:22Z",
-        "daysOpen": 62,
-        "labels": [],
-        "isDraft": false,
-        "additions": 251,
-        "deletions": 10,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1140,
-        "title": "fix(streaming): check request body for beta flags during accumulation",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1140",
-        "createdAt": "2026-01-22T04:50:20Z",
-        "daysOpen": 62,
-        "labels": [],
-        "isDraft": false,
-        "additions": 39,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1139,
-        "title": "fix(vertex): map anthropic-beta header to request body for prompt caching support",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1139",
-        "createdAt": "2026-01-22T04:50:12Z",
-        "daysOpen": 62,
-        "labels": [],
-        "isDraft": false,
-        "additions": 24,
-        "deletions": 6,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -1570,7 +1570,7 @@
         "title": "fix(streaming): preserve BetaCompactionBlock type during streaming accumulation",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1200",
         "createdAt": "2026-02-24T06:26:28Z",
-        "daysOpen": 29,
+        "daysOpen": 30,
         "labels": [],
         "isDraft": false,
         "additions": 102,
@@ -1584,7 +1584,7 @@
         "title": "fix(vertex): raise clear error when using structured outputs on Vertex AI",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1199",
         "createdAt": "2026-02-24T06:04:48Z",
-        "daysOpen": 29,
+        "daysOpen": 30,
         "labels": [],
         "isDraft": false,
         "additions": 24,
@@ -1664,6 +1664,20 @@
         "assignees": []
       },
       {
+        "number": 1219,
+        "title": "feat(lib): add files_from_zip helper for skill uploads",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1219",
+        "createdAt": "2026-03-04T04:39:48Z",
+        "daysOpen": 22,
+        "labels": [],
+        "isDraft": false,
+        "additions": 243,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "lyr408",
+        "assignees": []
+      },
+      {
         "number": 1218,
         "title": "fix: prevent dict mutation in deepcopy_minimal",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1218",
@@ -1689,20 +1703,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "nielskaspers",
-        "assignees": []
-      },
-      {
-        "number": 1219,
-        "title": "feat(lib): add files_from_zip helper for skill uploads",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1219",
-        "createdAt": "2026-03-04T04:39:48Z",
-        "daysOpen": 21,
-        "labels": [],
-        "isDraft": false,
-        "additions": 243,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "lyr408",
         "assignees": []
       },
       {
@@ -1850,7 +1850,7 @@
         "title": "fix: resolve subscripted generics in _build_discriminated_union_meta (pydantic v1)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1238",
         "createdAt": "2026-03-11T06:24:30Z",
-        "daysOpen": 14,
+        "daysOpen": 15,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -1864,7 +1864,7 @@
         "title": "fix: handle empty text and malformed JSON in parse_text for thinking+tools",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1240",
         "createdAt": "2026-03-12T05:20:00Z",
-        "daysOpen": 13,
+        "daysOpen": 14,
         "labels": [],
         "isDraft": false,
         "additions": 346,
@@ -2156,6 +2156,34 @@
         "assignees": []
       },
       {
+        "number": 1287,
+        "title": "fix(streaming): add direct type-map fallback for raw dict events",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1287",
+        "createdAt": "2026-03-24T05:22:44Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 101,
+        "deletions": 5,
+        "reviewCount": 0,
+        "author": "gambletan",
+        "assignees": []
+      },
+      {
+        "number": 1286,
+        "title": "fix(bedrock): correctly infer region from AWS_DEFAULT_REGION and explicit aws_profile arg",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1286",
+        "createdAt": "2026-03-24T05:15:43Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 53,
+        "deletions": 5,
+        "reviewCount": 0,
+        "author": "alvinttang",
+        "assignees": []
+      },
+      {
         "number": 1285,
         "title": "Create generator-generic-ossf-slsa3-publish.yml",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1285",
@@ -2254,34 +2282,6 @@
         "assignees": []
       },
       {
-        "number": 1287,
-        "title": "fix(streaming): add direct type-map fallback for raw dict events",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1287",
-        "createdAt": "2026-03-24T05:22:44Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 101,
-        "deletions": 5,
-        "reviewCount": 0,
-        "author": "gambletan",
-        "assignees": []
-      },
-      {
-        "number": 1286,
-        "title": "fix(bedrock): correctly infer region from AWS_DEFAULT_REGION and explicit aws_profile arg",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1286",
-        "createdAt": "2026-03-24T05:15:43Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 53,
-        "deletions": 5,
-        "reviewCount": 0,
-        "author": "alvinttang",
-        "assignees": []
-      },
-      {
         "number": 1297,
         "title": "fix: defer async stream transforms for large payloads",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1297",
@@ -2337,10 +2337,10 @@
   },
   "contributors": {
     "total_known": 158,
-    "active_30d": 62,
-    "first_time_30d": 55,
-    "retention_rate_pct": 100,
-    "churned_30d": 0,
+    "active_30d": 61,
+    "first_time_30d": 54,
+    "retention_rate_pct": 98.4,
+    "churned_30d": 1,
     "commits_per_week_avg": 6.8,
     "commits_per_week_trend": [
       0,
@@ -2534,7 +2534,6 @@
       "abdelhadi703",
       "afoong-8s",
       "alvinttang",
-      "bledden",
       "drewparo",
       "dtmeadows",
       "fede-kamel",
@@ -2737,5 +2736,10 @@
       }
     ],
     "top_n": 20
+  },
+  "downloads": {
+    "last_week": 19365920,
+    "last_month": 77165982,
+    "total": 259379409
   }
 }
