@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-25T22:25:59.160Z",
+  "timestamp": "2026-03-26T00:36:57.473Z",
   "repository": {
     "stars": 3013,
     "forks": 549
@@ -84,7 +84,7 @@
         "title": "Feature-request: Pydantic validators+serializers to be able to round-trip all supported types",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/558",
         "createdAt": "2024-06-27T00:16:00Z",
-        "daysOpen": 636,
+        "daysOpen": 637,
         "labels": [
           "enhancement",
           "sdk"
@@ -146,7 +146,7 @@
         "title": "Bedrock client failing to detect AWS region correctly can cause cross-region inference to fail",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/892",
         "createdAt": "2025-03-04T23:24:46Z",
-        "daysOpen": 385,
+        "daysOpen": 386,
         "labels": [
           "bug",
           "bedrock"
@@ -333,7 +333,7 @@
         "title": "Feature request: add OAuth-based authentication",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/988",
         "createdAt": "2025-07-03T00:33:57Z",
-        "daysOpen": 265,
+        "daysOpen": 266,
         "labels": [
           "sdk"
         ],
@@ -415,7 +415,7 @@
         "title": "Cannot connect to MCP running in GCP",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1013",
         "createdAt": "2025-08-11T23:09:11Z",
-        "daysOpen": 225,
+        "daysOpen": 226,
         "labels": [
           "api"
         ],
@@ -690,6 +690,16 @@
         "assignees": []
       },
       {
+        "number": 1187,
+        "title": "tool_use blocks returned with XML artifacts in name field",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1187",
+        "createdAt": "2026-02-18T23:35:38Z",
+        "daysOpen": 35,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1184,
         "title": "Missing support from non-image EmbeddedResources",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1184",
@@ -707,16 +717,6 @@
         "daysOpen": 34,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1187,
-        "title": "tool_use blocks returned with XML artifacts in name field",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1187",
-        "createdAt": "2026-02-18T23:35:38Z",
-        "daysOpen": 34,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -754,7 +754,7 @@
         "title": "Python SDK: _transform_recursive blocking event loop on large message payloads",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1195",
         "createdAt": "2026-02-21T23:01:49Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "commentCount": 5,
         "assignees": []
@@ -774,7 +774,7 @@
         "title": "Use of `deepcopy_minimal` in `files.beta.upload` mutates dict in place",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1202",
         "createdAt": "2026-02-24T23:11:00Z",
-        "daysOpen": 28,
+        "daysOpen": 29,
         "labels": [],
         "commentCount": 6,
         "assignees": []
@@ -794,7 +794,7 @@
         "title": "Bedrock beta.messages missing .stream() method",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1210",
         "createdAt": "2026-02-26T22:59:28Z",
-        "daysOpen": 26,
+        "daysOpen": 27,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -868,7 +868,7 @@
         "title": "Streaming tool use: unhelpful error message when model emits malformed JSON (non-beta path missing try-except)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1265",
         "createdAt": "2026-03-20T00:00:32Z",
-        "daysOpen": 5,
+        "daysOpen": 6,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -978,7 +978,7 @@
     "draft_count": 4,
     "assigned_count": 0,
     "unassigned_count": 93,
-    "unassigned_24h": 83,
+    "unassigned_24h": 84,
     "unassigned_7d": 67,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -1532,7 +1532,7 @@
         "title": "fix: correct typo 'overriden' → 'overridden' in README",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1190",
         "createdAt": "2026-02-19T23:54:14Z",
-        "daysOpen": 33,
+        "daysOpen": 34,
         "labels": [],
         "isDraft": false,
         "additions": 1,
@@ -1630,7 +1630,7 @@
         "title": "fix: handle tuples in `deepcopy_minimal` to prevent mutation of user data",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1213",
         "createdAt": "2026-02-28T23:17:26Z",
-        "daysOpen": 24,
+        "daysOpen": 25,
         "labels": [],
         "isDraft": false,
         "additions": 44,
@@ -1738,6 +1738,20 @@
         "assignees": []
       },
       {
+        "number": 1235,
+        "title": "fix(tools): continue tool_runner loop on pause_turn with server_tool_use blocks",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1235",
+        "createdAt": "2026-03-08T22:36:39Z",
+        "daysOpen": 17,
+        "labels": [],
+        "isDraft": false,
+        "additions": 55,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "s-zx",
+        "assignees": []
+      },
+      {
         "number": 1233,
         "title": "fix: add missing count_tokens to Bedrock beta.messages",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1233",
@@ -1819,20 +1833,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "MaxwellCalkin",
-        "assignees": []
-      },
-      {
-        "number": 1235,
-        "title": "fix(tools): continue tool_runner loop on pause_turn with server_tool_use blocks",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1235",
-        "createdAt": "2026-03-08T22:36:39Z",
-        "daysOpen": 16,
-        "labels": [],
-        "isDraft": false,
-        "additions": 55,
-        "deletions": 14,
-        "reviewCount": 0,
-        "author": "s-zx",
         "assignees": []
       },
       {
@@ -2006,6 +2006,20 @@
         "assignees": []
       },
       {
+        "number": 1266,
+        "title": "fix: add missing JSON error handling in non-beta streaming accumulator",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1266",
+        "createdAt": "2026-03-20T00:36:37Z",
+        "daysOpen": 6,
+        "labels": [],
+        "isDraft": false,
+        "additions": 64,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "AbdoKnbGit",
+        "assignees": []
+      },
+      {
         "number": 1263,
         "title": "fix: map SSE error types to correct HTTP status codes in streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1263",
@@ -2029,20 +2043,6 @@
         "isDraft": false,
         "additions": 3,
         "deletions": 2,
-        "reviewCount": 0,
-        "author": "AbdoKnbGit",
-        "assignees": []
-      },
-      {
-        "number": 1266,
-        "title": "fix: add missing JSON error handling in non-beta streaming accumulator",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1266",
-        "createdAt": "2026-03-20T00:36:37Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 64,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "AbdoKnbGit",
         "assignees": []
@@ -2174,6 +2174,20 @@
         "assignees": []
       },
       {
+        "number": 1289,
+        "title": "fix(bedrock): retry transient 400 errors",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1289",
+        "createdAt": "2026-03-24T23:24:52Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 113,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "javierdejesusda",
+        "assignees": []
+      },
+      {
         "number": 1287,
         "title": "fix(streaming): add direct type-map fallback for raw dict events",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1287",
@@ -2284,20 +2298,6 @@
         "reviewCount": 0,
         "author": "mmporong",
         "assignees": []
-      },
-      {
-        "number": 1289,
-        "title": "fix(bedrock): retry transient 400 errors",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1289",
-        "createdAt": "2026-03-24T23:24:52Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 113,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "javierdejesusda",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -2329,8 +2329,8 @@
     "total_known": 157,
     "active_30d": 61,
     "first_time_30d": 54,
-    "retention_rate_pct": 98.4,
-    "churned_30d": 1,
+    "retention_rate_pct": 100,
+    "churned_30d": 0,
     "commits_per_week_avg": 6.8,
     "commits_per_week_trend": [
       0,
@@ -2727,6 +2727,8 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 3454586
+    "daily": 3454586,
+    "last_week": 19503168,
+    "last_month": 76098087
   }
 }
