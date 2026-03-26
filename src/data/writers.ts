@@ -8,7 +8,9 @@ import type {
   Metrics,
   ContributorsData,
   DailySnapshot,
+  DownloadMetrics,
   RepoConfig,
+  VersionDownloadsData,
 } from '../types/index.js';
 
 const DATA_DIR = 'data';
@@ -285,4 +287,33 @@ export async function savePreviousPeriodContributors(contributors: string[], rep
   };
 
   await writeFile(filePath, JSON.stringify(data, null, 2));
+}
+
+/**
+ * Write the downloads-only sidecar produced by --only=downloads.
+ * The commit job jq-patches this into metrics.json and today's snapshot;
+ * the file itself is gitignored.
+ */
+export async function writeDownloadsSidecar(dl: DownloadMetrics, repoConfig: RepoConfig): Promise<void> {
+  const dataDir = getRepoDataDir(repoConfig);
+  const filePath = join(process.cwd(), dataDir, 'downloads.json');
+  await ensureDir(dirname(filePath));
+  await writeFile(filePath, JSON.stringify(dl, null, 2));
+}
+
+export async function writeVersionDownloads(data: VersionDownloadsData, repoConfig: RepoConfig): Promise<void> {
+  const dataDir = getRepoDataDir(repoConfig);
+  const filePath = join(process.cwd(), dataDir, 'versions.json');
+  await ensureDir(dirname(filePath));
+  await writeFile(filePath, JSON.stringify(data, null, 2));
+}
+
+export async function loadVersionDownloads(repoConfig: RepoConfig): Promise<VersionDownloadsData | undefined> {
+  const dataDir = getRepoDataDir(repoConfig);
+  const filePath = join(process.cwd(), dataDir, 'versions.json');
+  try {
+    return JSON.parse(await readFile(filePath, 'utf-8')) as VersionDownloadsData;
+  } catch {
+    return undefined;
+  }
 }
