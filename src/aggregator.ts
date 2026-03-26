@@ -9,6 +9,7 @@ import { fetchPullRequests } from './github/pulls.js';
 import { fetchHotspotData } from './github/hotspots.js';
 import { fetchRepoStats } from './github/repo.js';
 import { fetchCommits } from './github/commits.js';
+import { fetchDownloads } from './downloads/index.js';
 import { calculateIssueMetrics } from './metrics/issues.js';
 import { calculatePRMetrics } from './metrics/pulls.js';
 import { calculateContributorMetrics } from './metrics/contributors.js';
@@ -18,9 +19,10 @@ import {
   updateContributors,
   writeSnapshot,
   writeRepoIndex,
+  loadLatestSnapshot,
 } from './data/writers.js';
 import { loadConfig, createDefaultConfig } from './config/loader.js';
-import type { Metrics, RepoConfig, ReposConfig } from './types/index.js';
+import type { Metrics, RepoConfig, ReposConfig, DownloadMetrics } from './types/index.js';
 import {
   spinner,
   header,
@@ -125,6 +127,20 @@ async function aggregateRepository(
   const repoStats = await fetchRepoStats(client, owner, repo);
   statsSpinner.succeed(`Stats: ${style.bold(formatNumber(repoStats.stars))} ⭐  ${style.bold(formatNumber(repoStats.forks))} forks`);
 
+  // Fetch package downloads (if configured)
+  let downloads: DownloadMetrics | undefined;
+  if (repoConfig.package) {
+    const dlSpinner = spinner(`Fetching ${repoConfig.package.registry} downloads`).start();
+    try {
+      const prev = await loadLatestSnapshot(repoConfig);
+      downloads = await fetchDownloads(repoConfig.package, prev);
+      const headline = downloads.daily !== undefined ? `${formatNumber(downloads.daily)}/day` : `${formatNumber(downloads.total ?? 0)} total`;
+      dlSpinner.succeed(`Downloads: ${style.bold(headline)} (${repoConfig.package.registry})`);
+    } catch (err) {
+      dlSpinner.warn(`Download stats unavailable: ${(err as Error).message}`);
+    }
+  }
+
   const commitSpinner = spinner('Fetching commit history (12 weeks)').start();
   const commitsResult = await fetchCommits(client, owner, repo, 12, verbose);
   commitSpinner.succeed(`Commits: ${style.bold(String(commitsResult.commits.length))} in last 12 weeks`);
@@ -143,6 +159,7 @@ async function aggregateRepository(
     pulls: prMetrics,
     contributors: contributorMetrics,
     hotspots,
+    ...(downloads && { downloads }),
   };
 
   const repoPath = `data/repos/${owner}/${repo}`;

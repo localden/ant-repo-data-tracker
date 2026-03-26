@@ -180,6 +180,7 @@ export interface Metrics {
   pulls: PRMetrics;
   contributors: Omit<ContributorMetrics, 'allContributors' | 'previousPeriodContributors'>;
   hotspots: HotspotMetrics;
+  downloads?: DownloadMetrics;
 }
 
 // =============================================================================
@@ -266,6 +267,7 @@ export interface DailySnapshot {
     churned_30d: number;
     commits_per_week_avg: number;
   };
+  downloads?: DownloadMetrics;
 }
 
 // =============================================================================
@@ -411,6 +413,28 @@ export interface HotspotRawData {
 }
 
 // =============================================================================
+// Package Downloads
+// =============================================================================
+
+export type PackageRegistry = 'npm' | 'pypi' | 'nuget' | 'rubygems' | 'packagist';
+
+export interface PackageConfig {
+  registry: PackageRegistry;
+  name: string;
+}
+
+export interface DownloadMetrics {
+  /** Yesterday's downloads. npm/pypi/packagist native; nuget/rubygems derived from consecutive total diff. */
+  daily?: number;
+  /** Last 7 days sum. pypi native; others summed from snapshots at render time. */
+  last_week?: number;
+  /** Last 30 days sum. pypi native only. */
+  last_month?: number;
+  /** All-time cumulative. nuget/rubygems/packagist native; npm maintained as running sum; pypi omitted (pypistats caps at 6mo). */
+  total?: number;
+}
+
+// =============================================================================
 // Repository Configuration
 // =============================================================================
 
@@ -419,6 +443,7 @@ export interface RepoConfig {
   repo: string;
   name?: string;
   description?: string;
+  package?: PackageConfig;
 }
 
 export interface ReposConfig {
