@@ -26,6 +26,7 @@
   {{ $dlMonthlySeries := slice }}
   {{ $dlTotalSeries := slice }}
   {{ $allDates := slice }}
+  {{ $ghDates := slice }}
   {{ $allWeeks := slice }}
   {{ $allMonths := slice }}
   {{ $anyDownloads := false }}
@@ -109,12 +110,12 @@
           {{ $entries = $entries | append (dict "date" $d.date "issues" (index $d "issues" "open") "pulls" (index $d "pulls" "open") "stars" (index $d "repository" "stars") "dlDaily" (index $d "downloads" "daily") "dlTotal" (index $d "downloads" "total")) }}
         {{ end }}
         {{ $sorted := sort $entries "date" "asc" }}
-        {{ $dates := slice }}{{ $iv := slice }}{{ $pv := slice }}{{ $sv := slice }}{{ $dv := slice }}{{ $tv := slice }}
+        {{ $dates := slice }}{{ $ghd := slice }}{{ $iv := slice }}{{ $pv := slice }}{{ $sv := slice }}{{ $dv := slice }}{{ $tv := slice }}
         {{ $weekBins := dict }}
         {{ $monthBins := dict }}
         {{ range $sorted }}
           {{ $dates = $dates | append .date }}
-          {{ if ne .issues nil }}{{ $iv = $iv | append (dict "x" .date "y" .issues) }}{{ end }}
+          {{ if ne .issues nil }}{{ $ghd = $ghd | append .date }}{{ $iv = $iv | append (dict "x" .date "y" .issues) }}{{ end }}
           {{ if ne .pulls nil }}{{ $pv = $pv | append (dict "x" .date "y" .pulls) }}{{ end }}
           {{ if ne .stars nil }}{{ $sv = $sv | append (dict "x" .date "y" .stars) }}{{ end }}
           {{ if ne .dlDaily nil }}
@@ -139,6 +140,7 @@
         {{ $mv = sort $mv "x" "asc" }}
         {{ range $mv }}{{ $allMonths = $allMonths | union (slice .x) }}{{ end }}
         {{ $allDates = $allDates | union $dates }}
+        {{ $ghDates = $ghDates | union $ghd }}
         {{ $color := index $chartColors (mod $i (len $chartColors)) }}
         {{ $label := $rc.name | default (printf "%s/%s" $rc.owner $rc.repo) }}
         {{ $issuesSeries = $issuesSeries | append (dict "label" $label "data" $iv "borderColor" $color "backgroundColor" "transparent" "tension" 0.3) }}
@@ -152,6 +154,7 @@
     {{ end }}
   {{ end }}
   {{ $allDates = sort $allDates }}
+  {{ $ghDates = sort $ghDates }}
 
   <div class="repo-content" data-repo="__all__">
     <div class="mb-6">
@@ -316,21 +319,21 @@
     {{ end }}
 
     <!-- Combined Trend Charts -->
-    {{ if gt (len $allDates) 1 }}
+    {{ if gt (len $ghDates) 1 }}
     <section class="mb-6">
       <h2 class="text-sm font-semibold mb-3">Trends</h2>
       <div class="space-y-4">
         <div class="bg-base-100 border border-base-300 rounded-lg p-4">
           <h3 class="text-xs font-medium text-base-content/70 mb-3">Open Issues <span class="opacity-60">(UTC)</span></h3>
-          <canvas data-chart='{"type":"line","data":{"labels":{{ $allDates | jsonify }},"datasets":{{ $issuesSeries | jsonify }}},"options":{"responsive":true,"plugins":{"legend":{"position":"bottom","labels":{"boxWidth":12,"padding":12}}}}}'></canvas>
+          <canvas data-chart='{"type":"line","data":{"labels":{{ $ghDates | jsonify }},"datasets":{{ $issuesSeries | jsonify }}},"options":{"responsive":true,"plugins":{"legend":{"position":"bottom","labels":{"boxWidth":12,"padding":12}}}}}'></canvas>
         </div>
         <div class="bg-base-100 border border-base-300 rounded-lg p-4">
           <h3 class="text-xs font-medium text-base-content/70 mb-3">Open PRs <span class="opacity-60">(UTC)</span></h3>
-          <canvas data-chart='{"type":"line","data":{"labels":{{ $allDates | jsonify }},"datasets":{{ $pullsSeries | jsonify }}},"options":{"responsive":true,"plugins":{"legend":{"position":"bottom","labels":{"boxWidth":12,"padding":12}}}}}'></canvas>
+          <canvas data-chart='{"type":"line","data":{"labels":{{ $ghDates | jsonify }},"datasets":{{ $pullsSeries | jsonify }}},"options":{"responsive":true,"plugins":{"legend":{"position":"bottom","labels":{"boxWidth":12,"padding":12}}}}}'></canvas>
         </div>
         <div class="bg-base-100 border border-base-300 rounded-lg p-4">
           <h3 class="text-xs font-medium text-base-content/70 mb-3">Stars <span class="opacity-60">(UTC)</span></h3>
-          <canvas data-chart='{"type":"line","data":{"labels":{{ $allDates | jsonify }},"datasets":{{ $starsSeries | jsonify }}},"options":{"responsive":true,"plugins":{"legend":{"position":"bottom","labels":{"boxWidth":12,"padding":12}}}}}'></canvas>
+          <canvas data-chart='{"type":"line","data":{"labels":{{ $ghDates | jsonify }},"datasets":{{ $starsSeries | jsonify }}},"options":{"responsive":true,"plugins":{"legend":{"position":"bottom","labels":{"boxWidth":12,"padding":12}}}}}'></canvas>
         </div>
       </div>
     </section>
