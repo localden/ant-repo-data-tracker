@@ -13,31 +13,46 @@ import { fetchNpmRange } from './downloads/npm.js';
 import { fetchPypiRange } from './downloads/pypi.js';
 import type { DailySnapshot, PackageConfig } from './types/index.js';
 
+/** Rolling 7-day sum ending on each date. */
+function rollingWeekly(daily: Map<string, number>): Map<string, number> {
+  const dates = [...daily.keys()].sort();
+  const weekly = new Map<string, number>();
+  for (let i = 0; i < dates.length; i++) {
+    let sum = 0;
+    for (let j = Math.max(0, i - 6); j <= i; j++) sum += daily.get(dates[j]) ?? 0;
+    weekly.set(dates[i], sum);
+  }
+  return weekly;
+}
+
 async function fetchHistory(
   pkg: PackageConfig,
   earliest: string,
   today: string
-): Promise<{ daily: Map<string, number>; cumulative?: Map<string, number> }> {
+): Promise<{ daily: Map<string, number>; cumulative?: Map<string, number>; weekly?: Map<string, number> }> {
   switch (pkg.registry) {
     case 'npm': {
-      // Range from earliest snapshot date covers all our snapshots and lets us
-      // compute a running sum.
-      const daily = await fetchNpmRange(pkg.name, earliest, today);
+      // Fetch with a 6-day lead so the rolling-week sum has a full window at
+      // `earliest`. Our snapshots only go back a few months so one 540-day window
+      // still covers lead..today.
+      const lead = new Date(new Date(earliest).getTime() - 6 * 86400000).toISOString().split('T')[0];
+      const daily = await fetchNpmRange(pkg.name, lead, today);
+      const weekly = rollingWeekly(daily);
       let running = 0;
       const cumulative = new Map<string, number>();
       for (const date of [...daily.keys()].sort()) {
         running += daily.get(date) ?? 0;
         cumulative.set(date, running);
       }
-      // Shift to absolute: add everything before `earliest` so totals are true all-time.
+      // Shift to absolute: add everything before the lead so totals are true all-time.
       // @anthropic-ai/sdk was created 2023-01-31 — over the 18-month range cap, so we
       // chunk the prior range in 540-day windows. The range API is inclusive on both
       // ends, so subtract each chunk's end day to avoid double-counting the boundary.
       const chunks: Array<[string, string]> = [];
       let cursor = '2023-01-01';
-      while (cursor < earliest) {
+      while (cursor < lead) {
         const next = new Date(new Date(cursor).getTime() + 540 * 86400000).toISOString().split('T')[0];
-        chunks.push([cursor, next < earliest ? next : earliest]);
+        chunks.push([cursor, next < lead ? next : lead]);
         cursor = next;
       }
       let priorSum = 0;
@@ -46,7 +61,7 @@ async function fetchHistory(
         priorSum += [...chunk.values()].reduce((s, v) => s + v, 0) - (chunk.get(b) ?? 0);
       }
       for (const [d, v] of cumulative) cumulative.set(d, v + priorSum);
-      return { daily, cumulative };
+      return { daily, cumulative, weekly };
     }
     case 'pypi': {
       const daily = await fetchPypiRange(pkg.name);
@@ -58,7 +73,7 @@ async function fetchHistory(
         running += daily.get(date) ?? 0;
         cumulative.set(date, running);
       }
-      return { daily, cumulative };
+      return { daily, cumulative, weekly: rollingWeekly(daily) };
     }
     case 'nuget':
     case 'rubygems':
@@ -87,7 +102,7 @@ async function main() {
     const earliest = files[0].replace('.json', '');
     console.log(`[${repo.repo}] fetching ${repo.package.registry} history ${earliest}..${today}`);
 
-    const { daily, cumulative } = await fetchHistory(repo.package, earliest, today);
+    const { daily, cumulative, weekly } = await fetchHistory(repo.package, earliest, today);
 
     let patched = 0;
     for (const file of files) {
@@ -100,6 +115,8 @@ async function main() {
       snap.downloads = { daily: dl };
       const cum = cumulative?.get(date);
       if (cum !== undefined) snap.downloads.total = cum;
+      const wk = weekly?.get(date);
+      if (wk !== undefined) snap.downloads.last_week = wk;
 
       await writeFile(path, JSON.stringify(snap, null, 2));
       patched++;
