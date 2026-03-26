@@ -270,7 +270,10 @@
 
     <!-- Stacked area chart -->
     <div class="bg-base-100 border border-base-300 rounded-lg p-4">
-      <h3 class="text-xs font-medium text-base-content/70 mb-3">Daily by Version <span class="opacity-60">(top 10, UTC)</span></h3>
+      <h3 class="text-xs font-medium text-base-content/70 mb-3 inline-flex items-center gap-1">
+        Daily by Version <span class="opacity-60">(top 10, UTC)</span>
+        <span class="tooltip tooltip-right font-normal normal-case"><span class="tooltip-content text-xs">Top 10 versions by total downloads are plotted individually. The <strong>other</strong> series sums all remaining versions together so the stacked total equals overall daily downloads.</span><i class="fa-solid fa-circle-info opacity-40 cursor-help"></i></span>
+      </h3>
       {{/* Build sorted date axis and one data series per top-N version plus "other" */}}
       {{ $vDates := slice }}
       {{ range $d, $_ := $versions.daily }}{{ $vDates = $vDates | append $d }}{{ end }}
