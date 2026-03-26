@@ -8,7 +8,7 @@
 
 import type { PackageConfig, DownloadMetrics, DailySnapshot } from '../types/index.js';
 import { fetchNpmDaily, fetchNpmRange } from './npm.js';
-import { fetchPypiRecent } from './pypi.js';
+import { fetchPypiRecent, fetchPypiRange } from './pypi.js';
 import { fetchNugetTotal } from './nuget.js';
 import { fetchRubygemsTotal } from './rubygems.js';
 import { fetchPackagistStats } from './packagist.js';
@@ -55,8 +55,18 @@ export async function fetchDownloads(
 
     case 'pypi': {
       const recent = await fetchPypiRecent(config.name);
-      const total = prev?.total !== undefined ? prev.total + recent.daily : undefined;
-      return { ...recent, total };
+      if (prevDate && prev?.total !== undefined) {
+        const range = await fetchPypiRange(config.name);
+        const dates = [...range.keys()].filter((d) => d > prevDate).sort();
+        const delta = dates.reduce((s, d) => s + (range.get(d) ?? 0), 0);
+        let daily: number | undefined;
+        for (let i = dates.length - 1; i >= 0; i--) {
+          const v = range.get(dates[i]);
+          if (v && v > 0) { daily = v; break; }
+        }
+        return { daily, last_week: recent.last_week, last_month: recent.last_month, total: prev.total + delta };
+      }
+      return recent;
     }
 
     case 'nuget': {
