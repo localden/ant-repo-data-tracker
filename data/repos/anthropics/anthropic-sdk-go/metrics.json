@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-30T12:54:30.990Z",
+  "timestamp": "2026-03-30T16:46:57.610Z",
   "repository": {
     "stars": 939,
     "forks": 139
@@ -124,7 +124,7 @@
         "title": "When calling bedrock model with tools it fails with 400 Bad Request {\"message\":\"messages.1.content.0.text.citations: Extra inputs are not permitted\"}",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/186",
         "createdAt": "2025-05-15T14:33:47Z",
-        "daysOpen": 318,
+        "daysOpen": 319,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -192,7 +192,7 @@
         "title": "anthropic.ContentBlockSourceContentUnionParam does not seem to marshal correctly",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/229",
         "createdAt": "2025-09-04T13:21:46Z",
-        "daysOpen": 206,
+        "daysOpen": 207,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -212,7 +212,7 @@
         "title": "web_fetch_20250910 is not an expected tag",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/235",
         "createdAt": "2025-09-14T14:05:53Z",
-        "daysOpen": 196,
+        "daysOpen": 197,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -342,7 +342,7 @@
         "title": "Bug: adaptive discriminator is not registered for ThinkingConfigAdaptiveParam and BetaThinkingConfigAdaptiveParam types",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/279",
         "createdAt": "2026-02-18T15:52:21Z",
-        "daysOpen": 39,
+        "daysOpen": 40,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -430,7 +430,7 @@
     "merged_7d": 0,
     "merged_30d": 2,
     "merged_90d": 12,
-    "opened_7d": 4,
+    "opened_7d": 3,
     "opened_30d": 17,
     "opened_90d": 32,
     "closed_not_merged_90d": 5,
@@ -438,7 +438,7 @@
     "assigned_count": 0,
     "unassigned_count": 27,
     "unassigned_24h": 27,
-    "unassigned_7d": 23,
+    "unassigned_7d": 24,
     "assigned_prs": [],
     "unassigned_prs": [
       {
@@ -530,7 +530,7 @@
         "title": "feat(ssestream): fix event decoding for data-only messages and [DONE] handling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/261",
         "createdAt": "2025-12-18T15:53:04Z",
-        "daysOpen": 101,
+        "daysOpen": 102,
         "labels": [],
         "isDraft": false,
         "additions": 25,
@@ -544,7 +544,7 @@
         "title": "docs: fix typos",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/260",
         "createdAt": "2025-12-18T15:00:03Z",
-        "daysOpen": 101,
+        "daysOpen": 102,
         "labels": [],
         "isDraft": false,
         "additions": 9,
@@ -628,7 +628,7 @@
         "title": "feat: add Snowflake Cortex support (similar to Bedrock/Vertex)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/285",
         "createdAt": "2026-03-05T13:29:54Z",
-        "daysOpen": 24,
+        "daysOpen": 25,
         "labels": [],
         "isDraft": false,
         "additions": 571,
@@ -722,6 +722,20 @@
         "assignees": []
       },
       {
+        "number": 297,
+        "title": "Fix ToolResultBlockParam to support both string and array content",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
+        "createdAt": "2026-03-17T14:19:08Z",
+        "daysOpen": 13,
+        "labels": [],
+        "isDraft": false,
+        "additions": 366,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "joaquinhuigomez",
+        "assignees": []
+      },
+      {
         "number": 296,
         "title": "feat(api): register model_context_window_exceeded StopReason",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/296",
@@ -736,20 +750,6 @@
         "assignees": []
       },
       {
-        "number": 297,
-        "title": "Fix ToolResultBlockParam to support both string and array content",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
-        "createdAt": "2026-03-17T14:19:08Z",
-        "daysOpen": 12,
-        "labels": [],
-        "isDraft": false,
-        "additions": 366,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "joaquinhuigomez",
-        "assignees": []
-      },
-      {
         "number": 300,
         "title": "release: 1.28.0",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/300",
@@ -759,8 +759,8 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 597,
-        "deletions": 394,
+        "additions": 599,
+        "deletions": 393,
         "reviewCount": 0,
         "author": "stainless-app",
         "assignees": []
@@ -770,7 +770,7 @@
         "title": "fix: increase JSONL stream scanner buffer to prevent silent truncation",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/302",
         "createdAt": "2026-03-23T14:14:38Z",
-        "daysOpen": 6,
+        "daysOpen": 7,
         "labels": [],
         "isDraft": false,
         "additions": 107,
@@ -798,7 +798,7 @@
         "title": "toolrunner: validate tool inputs against JSON Schema before handler execution",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/305",
         "createdAt": "2026-03-26T16:45:10Z",
-        "daysOpen": 3,
+        "daysOpen": 4,
         "labels": [],
         "isDraft": false,
         "additions": 1679,
