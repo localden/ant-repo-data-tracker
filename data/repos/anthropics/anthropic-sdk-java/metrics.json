@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-03-31T16:49:16.549Z",
+  "timestamp": "2026-03-31T20:34:50.458Z",
   "repository": {
     "stars": 272,
     "forks": 64
@@ -64,7 +64,7 @@
         "title": "Frequent problems round tripping Assistant messages recieved from anthropic back into create message params.",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/260",
         "createdAt": "2025-06-05T17:47:31Z",
-        "daysOpen": 298,
+        "daysOpen": 299,
         "labels": [
           "bug",
           "api"
@@ -152,19 +152,19 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 2,
-    "merged_7d": 0,
-    "merged_30d": 5,
-    "merged_90d": 12,
+    "open_count": 1,
+    "merged_7d": 1,
+    "merged_30d": 6,
+    "merged_90d": 13,
     "opened_7d": 0,
     "opened_30d": 6,
     "opened_90d": 14,
     "closed_not_merged_90d": 4,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 2,
-    "unassigned_24h": 1,
-    "unassigned_7d": 1,
+    "unassigned_count": 1,
+    "unassigned_24h": 0,
+    "unassigned_7d": 0,
     "assigned_prs": [],
     "unassigned_prs": [
       {
@@ -180,29 +180,13 @@
         "reviewCount": 3,
         "author": "TomerAberbach",
         "assignees": []
-      },
-      {
-        "number": 312,
-        "title": "release: 2.19.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/312",
-        "createdAt": "2026-03-20T17:56:27Z",
-        "daysOpen": 10,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 187,
-        "deletions": 21,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 226.8,
-      "median_hours": 34,
-      "p90_hours": 478.2,
-      "p95_hours": 1028.9
+      "avg_hours": 230.4,
+      "median_hours": 45.8,
+      "p90_hours": 355.8,
+      "p95_hours": 967.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -211,25 +195,25 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 250,
-      "median_hours": 73.6
+      "avg_hours": 251.3,
+      "median_hours": 98.2
     },
-    "code_review_rate_pct": 83.3,
-    "rejection_rate_pct": 25,
+    "code_review_rate_pct": 84.6,
+    "rejection_rate_pct": 23.5,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 0,
-      "medium": 2,
+      "medium": 1,
       "large": 0
     }
   },
   "contributors": {
-    "total_known": 23,
-    "active_30d": 7,
-    "first_time_30d": 2,
+    "total_known": 24,
+    "active_30d": 8,
+    "first_time_30d": 3,
     "retention_rate_pct": 100,
     "churned_30d": 0,
-    "commits_per_week_avg": 9.6,
+    "commits_per_week_avg": 10.8,
     "commits_per_week_trend": [
       0,
       0,
@@ -242,7 +226,7 @@
       25,
       8,
       6,
-      0
+      15
     ],
     "allContributors": [
       "MaxwellCalkin",
@@ -262,6 +246,7 @@
       "nikblanchet",
       "packyg",
       "re-bird",
+      "renfredxh",
       "salmanmkc",
       "sara-hannigan",
       "sjivan",
@@ -276,6 +261,7 @@
       "dtmeadows",
       "kzwang",
       "nikblanchet",
+      "renfredxh",
       "stainless-app"
     ]
   },
@@ -283,33 +269,33 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 9,
-        "total_changes": 198
+        "pr_count": 10,
+        "total_changes": 225
       },
       {
         "path": "README.md",
-        "pr_count": 9,
-        "total_changes": 2379
+        "pr_count": 10,
+        "total_changes": 2383
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 8,
-        "total_changes": 16
+        "pr_count": 9,
+        "total_changes": 18
       },
       {
         "path": ".stats.yml",
-        "pr_count": 8,
-        "total_changes": 42
+        "pr_count": 9,
+        "total_changes": 46
+      },
+      {
+        "path": "build.gradle.kts",
+        "pr_count": 6,
+        "total_changes": 12
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCreateParams.kt",
         "pr_count": 6,
         "total_changes": 672
-      },
-      {
-        "path": "build.gradle.kts",
-        "pr_count": 5,
-        "total_changes": 10
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCountTokensParams.kt",
@@ -325,6 +311,11 @@
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/batches/BatchCreateParams.kt",
         "pr_count": 5,
         "total_changes": 445
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "pr_count": 4,
+        "total_changes": 56
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/MessageCreateParamsTest.kt",
@@ -375,18 +366,18 @@
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/MessageCreateParams.kt",
         "pr_count": 4,
         "total_changes": 115
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/StructuredMessageCreateParams.kt",
-        "pr_count": 4,
-        "total_changes": 22
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 10,
-        "file_count": 6
+        "pr_count": 11,
+        "file_count": 7
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/core/",
+        "pr_count": 6,
+        "file_count": 5
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/helpers/",
@@ -399,9 +390,9 @@
         "file_count": 83
       },
       {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/core/",
+        "path": ".github/workflows/",
         "pr_count": 5,
-        "file_count": 5
+        "file_count": 7
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/",
@@ -427,11 +418,6 @@
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/",
         "pr_count": 5,
         "file_count": 76
-      },
-      {
-        "path": ".github/workflows/",
-        "pr_count": 4,
-        "file_count": 7
       }
     ],
     "top_n": 20
