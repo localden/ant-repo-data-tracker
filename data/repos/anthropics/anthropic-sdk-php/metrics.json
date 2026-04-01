@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-01T18:47:41.260Z",
+  "timestamp": "2026-04-01T20:37:08.024Z",
   "repository": {
     "stars": 130,
     "forks": 28
@@ -84,19 +84,19 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 5,
-    "merged_7d": 0,
-    "merged_30d": 2,
-    "merged_90d": 6,
+    "open_count": 4,
+    "merged_7d": 1,
+    "merged_30d": 3,
+    "merged_90d": 7,
     "opened_7d": 0,
     "opened_30d": 3,
     "opened_90d": 10,
     "closed_not_merged_90d": 2,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 5,
-    "unassigned_24h": 5,
-    "unassigned_7d": 5,
+    "unassigned_count": 4,
+    "unassigned_24h": 4,
+    "unassigned_7d": 4,
     "assigned_prs": [],
     "unassigned_prs": [
       {
@@ -142,22 +142,6 @@
         "assignees": []
       },
       {
-        "number": 21,
-        "title": "release: 0.9.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/21",
-        "createdAt": "2026-03-20T17:56:12Z",
-        "daysOpen": 12,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 481,
-        "deletions": 40,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
-      },
-      {
         "number": 22,
         "title": "examples: add tool use, multi-turn, thinking, and vision examples",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/22",
@@ -173,10 +157,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 505.2,
-      "median_hours": 407.2,
-      "p90_hours": 1140,
-      "p95_hours": 1351.7
+      "avg_hours": 469.4,
+      "median_hours": 348.7,
+      "p90_hours": 1034.1,
+      "p95_hours": 1298.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -185,25 +169,25 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 436.7,
-      "median_hours": 250.7
+      "avg_hours": 415.8,
+      "median_hours": 290.3
     },
-    "code_review_rate_pct": 83.3,
-    "rejection_rate_pct": 25,
-    "avg_reviews_per_pr": 0.8,
+    "code_review_rate_pct": 85.7,
+    "rejection_rate_pct": 22.2,
+    "avg_reviews_per_pr": 0.9,
     "by_size": {
       "small": 3,
       "medium": 1,
-      "large": 1
+      "large": 0
     }
   },
   "contributors": {
-    "total_known": 16,
-    "active_30d": 5,
-    "first_time_30d": 1,
+    "total_known": 18,
+    "active_30d": 7,
+    "first_time_30d": 3,
     "retention_rate_pct": 100,
     "churned_30d": 0,
-    "commits_per_week_avg": 10,
+    "commits_per_week_avg": 11.3,
     "commits_per_week_trend": [
       0,
       0,
@@ -216,7 +200,7 @@
       0,
       28,
       0,
-      0
+      16
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -229,10 +213,12 @@
       "dtmeadows",
       "jeromegamez",
       "jrgilman",
+      "mikecluck",
       "ms-jpq",
       "nikblanchet",
       "packyg",
       "re-bird",
+      "renfredxh",
       "salmanmkc",
       "stainless-app"
     ],
@@ -240,7 +226,9 @@
       "SNO7E-G",
       "cameron-mcateer",
       "dtmeadows",
+      "mikecluck",
       "nikblanchet",
+      "renfredxh",
       "stainless-app"
     ]
   },
@@ -248,23 +236,38 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 4,
-        "total_changes": 8
+        "pr_count": 5,
+        "total_changes": 10
       },
       {
         "path": ".stats.yml",
-        "pr_count": 4,
-        "total_changes": 24
+        "pr_count": 5,
+        "total_changes": 30
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 4,
-        "total_changes": 157
+        "pr_count": 5,
+        "total_changes": 184
       },
       {
         "path": "README.md",
-        "pr_count": 4,
-        "total_changes": 517
+        "pr_count": 5,
+        "total_changes": 519
+      },
+      {
+        "path": "composer.json",
+        "pr_count": 3,
+        "total_changes": 12
+      },
+      {
+        "path": "scripts/test",
+        "pr_count": 3,
+        "total_changes": 26
+      },
+      {
+        "path": "src/Version.php",
+        "pr_count": 3,
+        "total_changes": 6
       },
       {
         "path": ".github/workflows/create-releases.yml",
@@ -277,6 +280,41 @@
         "total_changes": 6
       },
       {
+        "path": "scripts/mock",
+        "pr_count": 2,
+        "total_changes": 37
+      },
+      {
+        "path": "src/Bedrock/Client.php",
+        "pr_count": 2,
+        "total_changes": 326
+      },
+      {
+        "path": "src/Beta/AnthropicBeta.php",
+        "pr_count": 2,
+        "total_changes": 4
+      },
+      {
+        "path": "src/Beta/Messages/BetaMessage.php",
+        "pr_count": 2,
+        "total_changes": 48
+      },
+      {
+        "path": "src/Beta/Messages/BetaTextBlock.php",
+        "pr_count": 2,
+        "total_changes": 27
+      },
+      {
+        "path": "src/Messages/Message.php",
+        "pr_count": 2,
+        "total_changes": 48
+      },
+      {
+        "path": "src/Messages/TextBlock.php",
+        "pr_count": 2,
+        "total_changes": 27
+      },
+      {
         "path": ".github/workflows/ci.yml",
         "pr_count": 2,
         "total_changes": 18
@@ -287,16 +325,6 @@
         "total_changes": 36
       },
       {
-        "path": "src/Version.php",
-        "pr_count": 2,
-        "total_changes": 4
-      },
-      {
-        "path": "scripts/test",
-        "pr_count": 2,
-        "total_changes": 24
-      },
-      {
         "path": "src/Bedrock/Services/MessagesService.php",
         "pr_count": 2,
         "total_changes": 164
@@ -305,68 +333,48 @@
         "path": "src/Beta/Messages/Batches/BatchResultsParams.php",
         "pr_count": 2,
         "total_changes": 24
-      },
-      {
-        "path": "src/Beta/Messages/BetaCodeExecutionTool20250522/AllowedCaller.php",
-        "pr_count": 2,
-        "total_changes": 10
-      },
-      {
-        "path": "src/Beta/Messages/BetaCodeExecutionTool20250825/AllowedCaller.php",
-        "pr_count": 2,
-        "total_changes": 10
-      },
-      {
-        "path": "src/Beta/Messages/BetaCodeExecutionTool20260120/AllowedCaller.php",
-        "pr_count": 2,
-        "total_changes": 22
-      },
-      {
-        "path": "src/Beta/Messages/BetaIterationsUsageItem.php",
-        "pr_count": 2,
-        "total_changes": 41
-      },
-      {
-        "path": "src/Beta/Messages/BetaMemoryTool20250818/AllowedCaller.php",
-        "pr_count": 2,
-        "total_changes": 10
-      },
-      {
-        "path": "src/Beta/Messages/BetaThinkingConfigAdaptive.php",
-        "pr_count": 2,
-        "total_changes": 85
-      },
-      {
-        "path": "src/Beta/Messages/BetaTool/AllowedCaller.php",
-        "pr_count": 2,
-        "total_changes": 10
-      },
-      {
-        "path": "src/Beta/Messages/BetaToolBash20241022/AllowedCaller.php",
-        "pr_count": 2,
-        "total_changes": 10
       }
     ],
     "by_directory": [
+      {
+        "path": "/",
+        "pr_count": 5,
+        "file_count": 11
+      },
       {
         "path": ".github/workflows/",
         "pr_count": 5,
         "file_count": 6
       },
       {
-        "path": "/",
+        "path": "src/Beta/Messages/",
         "pr_count": 4,
-        "file_count": 10
+        "file_count": 81
       },
       {
         "path": "src/",
-        "pr_count": 3,
-        "file_count": 4
+        "pr_count": 4,
+        "file_count": 5
       },
       {
-        "path": "src/Beta/Messages/",
+        "path": "scripts/",
         "pr_count": 3,
-        "file_count": 80
+        "file_count": 3
+      },
+      {
+        "path": "src/Beta/",
+        "pr_count": 3,
+        "file_count": 12
+      },
+      {
+        "path": "src/Bedrock/",
+        "pr_count": 2,
+        "file_count": 2
+      },
+      {
+        "path": "src/Messages/",
+        "pr_count": 2,
+        "file_count": 9
       },
       {
         "path": "src/Core/",
@@ -377,34 +385,14 @@
         "path": "examples/",
         "pr_count": 2,
         "file_count": 8
-      },
-      {
-        "path": "scripts/",
-        "pr_count": 2,
-        "file_count": 3
-      },
-      {
-        "path": "src/Bedrock/Services/",
-        "pr_count": 2,
-        "file_count": 2
-      },
-      {
-        "path": "src/Beta/Messages/Batches/",
-        "pr_count": 2,
-        "file_count": 15
-      },
-      {
-        "path": "src/Beta/Messages/BetaCodeExecutionTool20250522/",
-        "pr_count": 2,
-        "file_count": 1
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 4571,
-    "total": 148541,
-    "last_week": 20854,
-    "last_month": 20854
+    "daily": 4568,
+    "total": 148799,
+    "last_week": 20851,
+    "last_month": 20851
   }
 }
