@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-03T06:57:30.480Z",
+  "timestamp": "2026-04-03T08:42:22.987Z",
   "repository": {
     "stars": 3118,
     "forks": 579
@@ -14,7 +14,7 @@
     "opened_90d": 52,
     "assigned_count": 3,
     "unassigned_count": 83,
-    "unassigned_24h": 82,
+    "unassigned_24h": 83,
     "unassigned_7d": 78,
     "unassigned_30d": 68,
     "assigned_issues": [
@@ -196,7 +196,7 @@
         "title": "Replace dependency on `jiter` with another JSON parser or add a fallback",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/937",
         "createdAt": "2025-04-11T07:47:51Z",
-        "daysOpen": 356,
+        "daysOpen": 357,
         "labels": [
           "enhancement",
           "sdk"
@@ -369,7 +369,7 @@
         "title": "tools.0.web_search_20250305: Country code SG is not supported",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/995",
         "createdAt": "2025-07-17T07:35:24Z",
-        "daysOpen": 259,
+        "daysOpen": 260,
         "labels": [
           "api"
         ],
@@ -624,7 +624,7 @@
         "title": "Tool Search Tool (BM25) does not find tools with Japanese descriptions",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1116",
         "createdAt": "2026-01-10T07:08:25Z",
-        "daysOpen": 82,
+        "daysOpen": 83,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -634,7 +634,7 @@
         "title": "Feature Request: Add `stream` helper to `AnthropicBedrock.beta.messages`",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1120",
         "createdAt": "2026-01-19T08:41:32Z",
-        "daysOpen": 73,
+        "daysOpen": 74,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -664,7 +664,7 @@
         "title": "API rejects code_execution_20250825 tool: 'use_web_search_purpose: Extra inputs are not permitted'",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1179",
         "createdAt": "2026-02-14T08:22:46Z",
-        "daysOpen": 47,
+        "daysOpen": 48,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -948,6 +948,18 @@
         "assignees": []
       },
       {
+        "number": 1317,
+        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
+        "createdAt": "2026-03-31T08:08:59Z",
+        "daysOpen": 3,
+        "labels": [
+          "api"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1318,
         "title": "[BUG] `client.beta.files.upload`  `PathLike` error",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1318",
@@ -958,14 +970,12 @@
         "assignees": []
       },
       {
-        "number": 1317,
-        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
-        "createdAt": "2026-03-31T08:08:59Z",
-        "daysOpen": 2,
-        "labels": [
-          "api"
-        ],
+        "number": 1325,
+        "title": "ServerToolResult not delivered when client tools interrupt the stream (code_execution + client tool concurrency)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1325",
+        "createdAt": "2026-04-02T07:42:30Z",
+        "daysOpen": 1,
+        "labels": [],
         "commentCount": 0,
         "assignees": []
       },
@@ -975,16 +985,6 @@
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1324",
         "createdAt": "2026-04-02T01:22:53Z",
         "daysOpen": 1,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1325,
-        "title": "ServerToolResult not delivered when client tools interrupt the stream (code_execution + client tool concurrency)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1325",
-        "createdAt": "2026-04-02T07:42:30Z",
-        "daysOpen": 0,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -1300,6 +1300,20 @@
         "assignees": []
       },
       {
+        "number": 1145,
+        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
+        "createdAt": "2026-01-22T08:10:13Z",
+        "daysOpen": 71,
+        "labels": [],
+        "isDraft": true,
+        "additions": 39,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
         "number": 1144,
         "title": "fix: strip schema field from tool definitions to prevent 500 errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1144",
@@ -1449,20 +1463,6 @@
         "isDraft": true,
         "additions": 49,
         "deletions": 16,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1145,
-        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
-        "createdAt": "2026-01-22T08:10:13Z",
-        "daysOpen": 70,
-        "labels": [],
-        "isDraft": true,
-        "additions": 39,
-        "deletions": 14,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -1626,7 +1626,7 @@
         "title": "feat: add double-buffer compaction for context window management",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1203",
         "createdAt": "2026-02-25T07:55:26Z",
-        "daysOpen": 36,
+        "daysOpen": 37,
         "labels": [],
         "isDraft": false,
         "additions": 1729,
@@ -2535,8 +2535,8 @@
     "total_known": 175,
     "active_30d": 61,
     "first_time_30d": 53,
-    "retention_rate_pct": 98.4,
-    "churned_30d": 1,
+    "retention_rate_pct": 100,
+    "churned_30d": 0,
     "commits_per_week_avg": 8.8,
     "commits_per_week_trend": [
       24,
@@ -2951,9 +2951,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 800220,
-    "last_week": 18593731,
-    "last_month": 81554704,
-    "total": 449611096
+    "daily": 1026137,
+    "last_week": 18819648,
+    "last_month": 81780621,
+    "total": 449837013
   }
 }
