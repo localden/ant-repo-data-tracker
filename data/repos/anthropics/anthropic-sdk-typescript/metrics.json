@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-07T16:46:42.619Z",
+  "timestamp": "2026-04-07T18:47:51.316Z",
   "repository": {
     "stars": 1825,
-    "forks": 281
+    "forks": 283
   },
   "issues": {
     "open_count": 79,
@@ -125,7 +125,7 @@
         "title": "Bedrock. Authentication error when using only `awsAccessKey` & `awsSecretKey`",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/537",
         "createdAt": "2024-09-25T17:39:23Z",
-        "daysOpen": 558,
+        "daysOpen": 559,
         "labels": [],
         "commentCount": 4,
         "assignees": []
@@ -269,7 +269,7 @@
         "title": "Models list for the Bedrock SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/704",
         "createdAt": "2025-03-02T17:50:28Z",
-        "daysOpen": 400,
+        "daysOpen": 401,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -371,7 +371,7 @@
         "title": "web_fetch not a valid tool type",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/815",
         "createdAt": "2025-09-15T17:06:03Z",
-        "daysOpen": 203,
+        "daysOpen": 204,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -813,7 +813,7 @@
         "title": "Bug: `toolRunner` does not propagate `container.id` across iterations, and `setMessagesParams` causes duplicate tool call loops",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/964",
         "createdAt": "2026-03-30T17:38:48Z",
-        "daysOpen": 7,
+        "daysOpen": 8,
         "labels": [
           "bug"
         ],
@@ -855,18 +855,18 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 45,
-    "merged_7d": 3,
-    "merged_30d": 5,
-    "merged_90d": 19,
-    "opened_7d": 9,
-    "opened_30d": 31,
-    "opened_90d": 59,
+    "open_count": 44,
+    "merged_7d": 5,
+    "merged_30d": 8,
+    "merged_90d": 22,
+    "opened_7d": 11,
+    "opened_30d": 33,
+    "opened_90d": 61,
     "closed_not_merged_90d": 8,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 45,
-    "unassigned_24h": 44,
+    "unassigned_count": 44,
+    "unassigned_24h": 43,
     "unassigned_7d": 38,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -1445,22 +1445,6 @@
         "assignees": []
       },
       {
-        "number": 973,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/973",
-        "createdAt": "2026-04-03T18:57:53Z",
-        "daysOpen": 3,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 481,
-        "deletions": 22,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
-      },
-      {
         "number": 974,
         "title": "fix(toolRunner): propagate container.id across iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/974",
@@ -1504,10 +1488,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 524.6,
-      "median_hours": 30.8,
-      "p90_hours": 552.6,
-      "p95_hours": 1552.3
+      "avg_hours": 479.8,
+      "median_hours": 24.5,
+      "p90_hours": 503.1,
+      "p95_hours": 1292.9
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1516,16 +1500,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 256.7,
-      "median_hours": 35.1
+      "avg_hours": 227.4,
+      "median_hours": 24.5
     },
-    "code_review_rate_pct": 94.7,
-    "rejection_rate_pct": 29.6,
-    "avg_reviews_per_pr": 1.5,
+    "code_review_rate_pct": 95.5,
+    "rejection_rate_pct": 26.7,
+    "avg_reviews_per_pr": 1.4,
     "by_size": {
       "small": 26,
       "medium": 12,
-      "large": 7
+      "large": 6
     }
   },
   "contributors": {
@@ -1534,7 +1518,7 @@
     "first_time_30d": 23,
     "retention_rate_pct": 100,
     "churned_30d": 0,
-    "commits_per_week_avg": 3,
+    "commits_per_week_avg": 3.3,
     "commits_per_week_trend": [
       0,
       1,
@@ -1546,8 +1530,8 @@
       0,
       1,
       4,
-      0,
-      3
+      1,
+      5
     ],
     "allContributors": [
       "0xrdan",
@@ -1702,34 +1686,44 @@
   "hotspots": {
     "by_file": [
       {
-        "path": "CHANGELOG.md",
-        "pr_count": 14,
-        "total_changes": 253
+        "path": ".release-please-manifest.json",
+        "pr_count": 16,
+        "total_changes": 63
       },
       {
-        "path": ".release-please-manifest.json",
-        "pr_count": 13,
-        "total_changes": 51
+        "path": "CHANGELOG.md",
+        "pr_count": 16,
+        "total_changes": 270
       },
       {
         "path": "package.json",
-        "pr_count": 13,
-        "total_changes": 38
+        "pr_count": 15,
+        "total_changes": 42
       },
       {
         "path": "packages/vertex-sdk/yarn.lock",
-        "pr_count": 13,
-        "total_changes": 26
+        "pr_count": 15,
+        "total_changes": 30
       },
       {
         "path": "src/version.ts",
-        "pr_count": 13,
-        "total_changes": 26
+        "pr_count": 15,
+        "total_changes": 30
       },
       {
         "path": ".stats.yml",
-        "pr_count": 12,
-        "total_changes": 60
+        "pr_count": 13,
+        "total_changes": 64
+      },
+      {
+        "path": "src/resources/beta/messages/messages.ts",
+        "pr_count": 9,
+        "total_changes": 913
+      },
+      {
+        "path": "src/resources/messages/messages.ts",
+        "pr_count": 9,
+        "total_changes": 2597
       },
       {
         "path": "src/client.ts",
@@ -1742,19 +1736,14 @@
         "total_changes": 103
       },
       {
-        "path": "src/resources/beta/messages/messages.ts",
-        "pr_count": 8,
-        "total_changes": 879
-      },
-      {
         "path": "src/resources/index.ts",
         "pr_count": 8,
         "total_changes": 79
       },
       {
-        "path": "src/resources/messages/messages.ts",
-        "pr_count": 8,
-        "total_changes": 2562
+        "path": "tests/api-resources/beta/messages/messages.test.ts",
+        "pr_count": 7,
+        "total_changes": 84
       },
       {
         "path": "src/resources/beta/beta.ts",
@@ -1767,56 +1756,71 @@
         "total_changes": 73
       },
       {
+        "path": "tests/api-resources/messages/messages.test.ts",
+        "pr_count": 6,
+        "total_changes": 44
+      },
+      {
         "path": "tests/api-resources/beta/messages/batches.test.ts",
         "pr_count": 6,
         "total_changes": 95
       },
       {
-        "path": "tests/api-resources/beta/messages/messages.test.ts",
-        "pr_count": 6,
-        "total_changes": 80
+        "path": "packages/aws-sdk/CHANGELOG.md",
+        "pr_count": 5,
+        "total_changes": 50
       },
       {
-        "path": "src/resources/beta/index.ts",
+        "path": "packages/aws-sdk/package.json",
         "pr_count": 5,
-        "total_changes": 24
+        "total_changes": 90
       },
       {
-        "path": "src/resources/beta/messages/index.ts",
+        "path": "packages/bedrock-sdk/CHANGELOG.md",
         "pr_count": 5,
-        "total_changes": 20
+        "total_changes": 45
       },
       {
-        "path": "tests/lib/parser.test.ts",
+        "path": "packages/bedrock-sdk/package.json",
         "pr_count": 5,
-        "total_changes": 400
-      },
-      {
-        "path": "tests/api-resources/messages/batches.test.ts",
-        "pr_count": 5,
-        "total_changes": 66
-      },
-      {
-        "path": "tests/api-resources/messages/messages.test.ts",
-        "pr_count": 5,
-        "total_changes": 40
+        "total_changes": 10
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 16,
+        "pr_count": 19,
         "file_count": 12
       },
       {
         "path": "src/",
-        "pr_count": 15,
+        "pr_count": 17,
         "file_count": 4
       },
       {
         "path": "packages/vertex-sdk/",
-        "pr_count": 13,
+        "pr_count": 15,
         "file_count": 5
+      },
+      {
+        "path": "src/resources/beta/messages/",
+        "pr_count": 9,
+        "file_count": 3
+      },
+      {
+        "path": "src/resources/",
+        "pr_count": 9,
+        "file_count": 4
+      },
+      {
+        "path": "src/resources/messages/",
+        "pr_count": 9,
+        "file_count": 3
+      },
+      {
+        "path": "tests/lib/tools/",
+        "pr_count": 8,
+        "file_count": 3
       },
       {
         "path": "src/resources/beta/",
@@ -1824,33 +1828,13 @@
         "file_count": 4
       },
       {
-        "path": "src/resources/beta/messages/",
-        "pr_count": 8,
-        "file_count": 3
-      },
-      {
-        "path": "src/resources/",
-        "pr_count": 8,
-        "file_count": 4
-      },
-      {
-        "path": "src/resources/messages/",
-        "pr_count": 8,
-        "file_count": 3
-      },
-      {
-        "path": "tests/lib/tools/",
-        "pr_count": 7,
-        "file_count": 3
-      },
-      {
         "path": "tests/api-resources/beta/messages/",
-        "pr_count": 6,
+        "pr_count": 7,
         "file_count": 2
       },
       {
-        "path": "tests/lib/",
-        "pr_count": 5,
+        "path": "tests/api-resources/messages/",
+        "pr_count": 6,
         "file_count": 2
       }
     ],

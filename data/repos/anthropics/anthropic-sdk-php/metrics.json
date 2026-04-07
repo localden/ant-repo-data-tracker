@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-07T16:48:23.287Z",
+  "timestamp": "2026-04-07T18:49:29.742Z",
   "repository": {
     "stars": 133,
     "forks": 30
@@ -95,17 +95,17 @@
   },
   "pulls": {
     "open_count": 5,
-    "merged_7d": 1,
-    "merged_30d": 3,
-    "merged_90d": 7,
-    "opened_7d": 1,
-    "opened_30d": 4,
-    "opened_90d": 11,
+    "merged_7d": 2,
+    "merged_30d": 4,
+    "merged_90d": 8,
+    "opened_7d": 2,
+    "opened_30d": 5,
+    "opened_90d": 12,
     "closed_not_merged_90d": 2,
     "draft_count": 0,
     "assigned_count": 0,
     "unassigned_count": 5,
-    "unassigned_24h": 5,
+    "unassigned_24h": 4,
     "unassigned_7d": 4,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -166,27 +166,27 @@
         "assignees": []
       },
       {
-        "number": 23,
-        "title": "release: 0.10.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/23",
-        "createdAt": "2026-04-02T14:07:52Z",
-        "daysOpen": 5,
+        "number": 25,
+        "title": "release: 0.11.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/25",
+        "createdAt": "2026-04-07T18:45:03Z",
+        "daysOpen": 0,
         "labels": [
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 90,
-        "deletions": 12,
+        "additions": 951,
+        "deletions": 57,
         "reviewCount": 0,
         "author": "stainless-app",
         "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 469.4,
-      "median_hours": 348.7,
-      "p90_hours": 1034.1,
-      "p95_hours": 1298.7
+      "avg_hours": 420,
+      "median_hours": 290.3,
+      "p90_hours": 928.3,
+      "p95_hours": 1245.8
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -195,25 +195,25 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 415.8,
-      "median_hours": 290.3
+      "avg_hours": 379.3,
+      "median_hours": 207
     },
-    "code_review_rate_pct": 85.7,
-    "rejection_rate_pct": 22.2,
+    "code_review_rate_pct": 87.5,
+    "rejection_rate_pct": 20,
     "avg_reviews_per_pr": 0.9,
     "by_size": {
       "small": 3,
-      "medium": 2,
-      "large": 0
+      "medium": 1,
+      "large": 1
     }
   },
   "contributors": {
     "total_known": 19,
-    "active_30d": 8,
+    "active_30d": 9,
     "first_time_30d": 4,
     "retention_rate_pct": 100,
     "churned_30d": 0,
-    "commits_per_week_avg": 11.3,
+    "commits_per_week_avg": 11.9,
     "commits_per_week_trend": [
       0,
       0,
@@ -226,7 +226,7 @@
       23,
       5,
       0,
-      16
+      23
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -256,6 +256,7 @@
       "levelsleuthhelix",
       "mikecluck",
       "nikblanchet",
+      "packyg",
       "renfredxh",
       "stainless-app"
     ]
@@ -264,23 +265,33 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 5,
-        "total_changes": 10
+        "pr_count": 6,
+        "total_changes": 12
       },
       {
         "path": ".stats.yml",
-        "pr_count": 5,
-        "total_changes": 30
+        "pr_count": 6,
+        "total_changes": 34
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 5,
-        "total_changes": 184
+        "pr_count": 6,
+        "total_changes": 198
       },
       {
         "path": "README.md",
-        "pr_count": 5,
-        "total_changes": 519
+        "pr_count": 6,
+        "total_changes": 521
+      },
+      {
+        "path": "src/Version.php",
+        "pr_count": 4,
+        "total_changes": 8
+      },
+      {
+        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
+        "pr_count": 3,
+        "total_changes": 501
       },
       {
         "path": "composer.json",
@@ -293,11 +304,6 @@
         "total_changes": 26
       },
       {
-        "path": "src/Version.php",
-        "pr_count": 3,
-        "total_changes": 6
-      },
-      {
         "path": ".github/workflows/create-releases.yml",
         "pr_count": 3,
         "total_changes": 6
@@ -305,6 +311,26 @@
       {
         "path": ".github/workflows/publish-packagist.yml",
         "pr_count": 3,
+        "total_changes": 6
+      },
+      {
+        "path": "src/Aws/Client.php",
+        "pr_count": 2,
+        "total_changes": 95
+      },
+      {
+        "path": "src/Messages/Model.php",
+        "pr_count": 2,
+        "total_changes": 38
+      },
+      {
+        "path": "tests/Aws/ClientTest.php",
+        "pr_count": 2,
+        "total_changes": 435
+      },
+      {
+        "path": "tests/Services/Beta/MessagesTest.php",
+        "pr_count": 2,
         "total_changes": 6
       },
       {
@@ -336,38 +362,23 @@
         "path": "src/Messages/Message.php",
         "pr_count": 2,
         "total_changes": 48
-      },
-      {
-        "path": "src/Messages/TextBlock.php",
-        "pr_count": 2,
-        "total_changes": 27
-      },
-      {
-        "path": ".github/workflows/ci.yml",
-        "pr_count": 2,
-        "total_changes": 18
-      },
-      {
-        "path": "src/Core/Conversion.php",
-        "pr_count": 2,
-        "total_changes": 36
-      },
-      {
-        "path": "src/Bedrock/Services/MessagesService.php",
-        "pr_count": 2,
-        "total_changes": 164
-      },
-      {
-        "path": "src/Beta/Messages/Batches/BatchResultsParams.php",
-        "pr_count": 2,
-        "total_changes": 24
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 5,
+        "pr_count": 6,
         "file_count": 11
+      },
+      {
+        "path": "src/Beta/Messages/",
+        "pr_count": 5,
+        "file_count": 82
+      },
+      {
+        "path": "src/",
+        "pr_count": 5,
+        "file_count": 5
       },
       {
         "path": ".github/workflows/",
@@ -375,14 +386,14 @@
         "file_count": 6
       },
       {
-        "path": "src/Beta/Messages/",
-        "pr_count": 4,
-        "file_count": 81
+        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/",
+        "pr_count": 3,
+        "file_count": 1
       },
       {
-        "path": "src/",
-        "pr_count": 4,
-        "file_count": 5
+        "path": "src/Messages/",
+        "pr_count": 3,
+        "file_count": 10
       },
       {
         "path": "scripts/",
@@ -395,32 +406,22 @@
         "file_count": 12
       },
       {
-        "path": "src/Bedrock/",
+        "path": "src/Aws/",
         "pr_count": 2,
         "file_count": 2
       },
       {
-        "path": "src/Messages/",
-        "pr_count": 2,
-        "file_count": 9
-      },
-      {
-        "path": "src/Core/",
+        "path": "tests/Aws/",
         "pr_count": 2,
         "file_count": 1
-      },
-      {
-        "path": "examples/",
-        "pr_count": 2,
-        "file_count": 8
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 3213,
-    "total": 162827,
-    "last_week": 19356,
-    "last_month": 35639
+    "daily": 3336,
+    "total": 163122,
+    "last_week": 19479,
+    "last_month": 35762
   }
 }
