@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T19:03:29.109Z",
+  "timestamp": "2026-04-08T20:33:43.965Z",
   "repository": {
     "stars": 1827,
     "forks": 286
@@ -391,7 +391,7 @@
         "title": "Saying \"hi\" to Claude Sonnet 4.5 in non-streaming mode throws error",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/822",
         "createdAt": "2025-09-29T19:09:30Z",
-        "daysOpen": 190,
+        "daysOpen": 191,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -401,7 +401,7 @@
         "title": "List models or any calls is not picking up the HTTP_PROXY",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/828",
         "createdAt": "2025-10-09T20:25:04Z",
-        "daysOpen": 180,
+        "daysOpen": 181,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -581,7 +581,7 @@
         "title": "U+2028 LINE SEPARATOR in MCP tool results causes JSON parsing failures.",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/882",
         "createdAt": "2026-01-18T19:55:28Z",
-        "daysOpen": 79,
+        "daysOpen": 80,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -591,7 +591,7 @@
         "title": "TextDecoder.decode() fails on Node.js 22",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/883",
         "createdAt": "2026-01-20T19:20:28Z",
-        "daysOpen": 77,
+        "daysOpen": 78,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -711,7 +711,7 @@
         "title": "\"Export toJSONSchema doesn't exist in target module\" from betaZodTool",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/919",
         "createdAt": "2026-02-20T19:15:32Z",
-        "daysOpen": 46,
+        "daysOpen": 47,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -738,7 +738,7 @@
       },
       {
         "number": 933,
-        "title": "O(N\u00b2) performance bottleneck in [MessageStream](src/lib/MessageStream.ts#51-747) during structured output streaming",
+        "title": "O(N²) performance bottleneck in [MessageStream](src/lib/MessageStream.ts#51-747) during structured output streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/933",
         "createdAt": "2026-03-08T13:35:35Z",
         "daysOpen": 31,
@@ -767,6 +767,16 @@
         "assignees": []
       },
       {
+        "number": 940,
+        "title": "Feature Request: Collapsible Q&A blocks in Claude chat UI",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/940",
+        "createdAt": "2026-03-11T19:15:01Z",
+        "daysOpen": 28,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 939,
         "title": "[Feature]: Missing TypeScript types for Tool Search functionality",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/939",
@@ -774,16 +784,6 @@
         "daysOpen": 28,
         "labels": [],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 940,
-        "title": "Feature Request: Collapsible Q&A blocks in Claude chat UI",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/940",
-        "createdAt": "2026-03-11T19:15:01Z",
-        "daysOpen": 27,
-        "labels": [],
-        "commentCount": 1,
         "assignees": []
       },
       {
@@ -855,17 +855,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 47,
+    "open_count": 46,
     "merged_7d": 6,
-    "merged_30d": 9,
-    "merged_90d": 23,
+    "merged_30d": 10,
+    "merged_90d": 24,
     "opened_7d": 14,
     "opened_30d": 35,
     "opened_90d": 65,
     "closed_not_merged_90d": 8,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 47,
+    "unassigned_count": 46,
     "unassigned_24h": 43,
     "unassigned_7d": 38,
     "assigned_prs": [],
@@ -1124,7 +1124,7 @@
       },
       {
         "number": 918,
-        "title": "fix: correct typo 'overriden' \u2192 'overridden' in README",
+        "title": "fix: correct typo 'overriden' → 'overridden' in README",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/918",
         "createdAt": "2026-02-19T23:54:37Z",
         "daysOpen": 47,
@@ -1239,7 +1239,7 @@
         "title": "fix: release stream state on end to prevent memory leaks",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/943",
         "createdAt": "2026-03-13T19:08:02Z",
-        "daysOpen": 25,
+        "daysOpen": 26,
         "labels": [],
         "isDraft": false,
         "additions": 157,
@@ -1250,7 +1250,7 @@
       },
       {
         "number": 952,
-        "title": "perf(streams): eliminate O(N\u00b2) bottleneck in structured output streaming",
+        "title": "perf(streams): eliminate O(N²) bottleneck in structured output streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/952",
         "createdAt": "2026-03-18T03:25:22Z",
         "daysOpen": 21,
@@ -1306,7 +1306,7 @@
       },
       {
         "number": 957,
-        "title": "fix: implement ApiKeySetter \u2014 async apiKey functions were silently discarded",
+        "title": "fix: implement ApiKeySetter — async apiKey functions were silently discarded",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/957",
         "createdAt": "2026-03-23T13:47:39Z",
         "daysOpen": 16,
@@ -1449,7 +1449,7 @@
         "title": "fix(toolRunner): propagate container.id across iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/974",
         "createdAt": "2026-04-03T19:50:35Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 10,
@@ -1487,22 +1487,6 @@
         "assignees": []
       },
       {
-        "number": 983,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/983",
-        "createdAt": "2026-04-08T17:48:49Z",
-        "daysOpen": 0,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 23,
-        "deletions": 7,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
-      },
-      {
         "number": 981,
         "title": "fix: propagate container.id across toolRunner iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/981",
@@ -1532,10 +1516,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 465.7,
-      "median_hours": 23.7,
-      "p90_hours": 481,
-      "p95_hours": 1206.4
+      "avg_hours": 452.4,
+      "median_hours": 23,
+      "p90_hours": 459,
+      "p95_hours": 1119.9
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1544,14 +1528,14 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 217.9,
-      "median_hours": 24.1
+      "avg_hours": 209.3,
+      "median_hours": 23.6
     },
-    "code_review_rate_pct": 95.7,
-    "rejection_rate_pct": 25.8,
+    "code_review_rate_pct": 95.8,
+    "rejection_rate_pct": 25,
     "avg_reviews_per_pr": 1.4,
     "by_size": {
-      "small": 29,
+      "small": 28,
       "medium": 12,
       "large": 6
     }
@@ -1562,19 +1546,19 @@
     "first_time_30d": 23,
     "retention_rate_pct": 100,
     "churned_30d": 0,
-    "commits_per_week_avg": 3.3,
+    "commits_per_week_avg": 3.4,
     "commits_per_week_trend": [
       0,
       1,
       2,
       11,
-      12,
-      2,
+      13,
+      1,
       0,
       0,
       5,
       0,
-      1,
+      2,
       6
     ],
     "allContributors": [
@@ -1732,28 +1716,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 17,
-        "total_changes": 67
+        "pr_count": 18,
+        "total_changes": 71
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 17,
-        "total_changes": 283
+        "pr_count": 18,
+        "total_changes": 291
       },
       {
         "path": "package.json",
-        "pr_count": 16,
-        "total_changes": 44
+        "pr_count": 17,
+        "total_changes": 46
       },
       {
         "path": "packages/vertex-sdk/yarn.lock",
-        "pr_count": 16,
-        "total_changes": 32
+        "pr_count": 17,
+        "total_changes": 34
       },
       {
         "path": "src/version.ts",
-        "pr_count": 16,
-        "total_changes": 32
+        "pr_count": 17,
+        "total_changes": 34
       },
       {
         "path": ".stats.yml",
@@ -1801,6 +1785,16 @@
         "total_changes": 73
       },
       {
+        "path": "packages/bedrock-sdk/CHANGELOG.md",
+        "pr_count": 6,
+        "total_changes": 53
+      },
+      {
+        "path": "packages/bedrock-sdk/package.json",
+        "pr_count": 6,
+        "total_changes": 12
+      },
+      {
         "path": "packages/aws-sdk/CHANGELOG.md",
         "pr_count": 6,
         "total_changes": 59
@@ -1819,32 +1813,22 @@
         "path": "tests/api-resources/messages/messages.test.ts",
         "pr_count": 6,
         "total_changes": 44
-      },
-      {
-        "path": "tests/api-resources/beta/messages/batches.test.ts",
-        "pr_count": 6,
-        "total_changes": 95
-      },
-      {
-        "path": "packages/bedrock-sdk/CHANGELOG.md",
-        "pr_count": 5,
-        "total_changes": 45
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 20,
+        "pr_count": 21,
         "file_count": 13
       },
       {
         "path": "src/",
-        "pr_count": 18,
+        "pr_count": 19,
         "file_count": 4
       },
       {
         "path": "packages/vertex-sdk/",
-        "pr_count": 16,
+        "pr_count": 17,
         "file_count": 5
       },
       {
@@ -1878,18 +1862,15 @@
         "file_count": 2
       },
       {
-        "path": "packages/aws-sdk/",
+        "path": "packages/bedrock-sdk/",
         "pr_count": 6,
-        "file_count": 10
+        "file_count": 5
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 2216902,
     "total": 221615509,
-    "total_through": "2026-04-07",
-    "last_week": 12399391,
-    "last_month": 44768705
+    "total_through": "2026-04-07"
   }
 }

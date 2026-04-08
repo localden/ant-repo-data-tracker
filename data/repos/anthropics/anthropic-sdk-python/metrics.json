@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T19:02:58.946Z",
+  "timestamp": "2026-04-08T20:33:13.757Z",
   "repository": {
     "stars": 3160,
     "forks": 595
@@ -23,7 +23,7 @@
         "title": "Bedrock Frequently Has Server-side Errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/432",
         "createdAt": "2024-04-02T20:19:58Z",
-        "daysOpen": 735,
+        "daysOpen": 736,
         "labels": [
           "enhancement",
           "bedrock",
@@ -205,6 +205,19 @@
         "assignees": []
       },
       {
+        "number": 940,
+        "title": "AnthropicBedrock retry policy not consistent with Bedrock Response",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/940",
+        "createdAt": "2025-04-14T19:36:12Z",
+        "daysOpen": 359,
+        "labels": [
+          "bedrock",
+          "sdk"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 938,
         "title": "Improve Vague 413 RequestTooLargeError Message",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/938",
@@ -239,19 +252,6 @@
           "sdk"
         ],
         "commentCount": 3,
-        "assignees": []
-      },
-      {
-        "number": 940,
-        "title": "AnthropicBedrock retry policy not consistent with Bedrock Response",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/940",
-        "createdAt": "2025-04-14T19:36:12Z",
-        "daysOpen": 358,
-        "labels": [
-          "bedrock",
-          "sdk"
-        ],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -295,7 +295,7 @@
         "title": "Tool calls do not contain required parameters which leads to infinite retry loop",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/975",
         "createdAt": "2025-06-14T19:33:10Z",
-        "daysOpen": 297,
+        "daysOpen": 298,
         "labels": [
           "question"
         ],
@@ -405,7 +405,7 @@
         "title": "Feature request: add a `CLAUDE.md` file to repo root",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1007",
         "createdAt": "2025-08-05T20:21:58Z",
-        "daysOpen": 245,
+        "daysOpen": 246,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -440,7 +440,7 @@
         "title": "Tool inputs lost during streaming with Vertex AI integration (beta messages)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1020",
         "createdAt": "2025-08-23T19:45:09Z",
-        "daysOpen": 227,
+        "daysOpen": 228,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -538,7 +538,7 @@
         "title": "Prompt caching not working on Opus 4.5 and Haiku 4.5 (works correctly on Sonnet 4.5 and Opus 4.1)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1085",
         "createdAt": "2025-11-25T20:18:43Z",
-        "daysOpen": 133,
+        "daysOpen": 134,
         "labels": [
           "api"
         ],
@@ -836,7 +836,7 @@
         "title": "`web_search_20250209` dynamic filtering causes excessive `pause_turn` at ~110 content blocks — batch processing impractical",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1237",
         "createdAt": "2026-03-10T19:39:02Z",
-        "daysOpen": 28,
+        "daysOpen": 29,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -1080,7 +1080,7 @@
   },
   "pulls": {
     "open_count": 109,
-    "merged_7d": 5,
+    "merged_7d": 4,
     "merged_30d": 10,
     "merged_90d": 25,
     "opened_7d": 11,
@@ -1346,6 +1346,20 @@
         "assignees": []
       },
       {
+        "number": 1132,
+        "title": "fix(beta): strip betas from per-request batch params",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1132",
+        "createdAt": "2026-01-21T19:37:08Z",
+        "daysOpen": 77,
+        "labels": [],
+        "isDraft": false,
+        "additions": 15,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
         "number": 1129,
         "title": "feat(bedrock): add support for AWS_BEARER_TOKEN_BEDROCK env var",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1129",
@@ -1509,20 +1523,6 @@
         "isDraft": false,
         "additions": 3516,
         "deletions": 3468,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1132,
-        "title": "fix(beta): strip betas from per-request batch params",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1132",
-        "createdAt": "2026-01-21T19:37:08Z",
-        "daysOpen": 76,
-        "labels": [],
-        "isDraft": false,
-        "additions": 15,
-        "deletions": 2,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -1738,6 +1738,20 @@
         "assignees": []
       },
       {
+        "number": 1217,
+        "title": "feat(exceptions): export missing HTTP status exceptions to public interface",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1217",
+        "createdAt": "2026-03-02T19:43:49Z",
+        "daysOpen": 37,
+        "labels": [],
+        "isDraft": false,
+        "additions": 12,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "sbobryshev",
+        "assignees": []
+      },
+      {
         "number": 1218,
         "title": "fix: prevent dict mutation in deepcopy_minimal",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1218",
@@ -1749,20 +1763,6 @@
         "deletions": 5,
         "reviewCount": 0,
         "author": "abdelhadi703",
-        "assignees": []
-      },
-      {
-        "number": 1217,
-        "title": "feat(exceptions): export missing HTTP status exceptions to public interface",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1217",
-        "createdAt": "2026-03-02T19:43:49Z",
-        "daysOpen": 36,
-        "labels": [],
-        "isDraft": false,
-        "additions": 12,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sbobryshev",
         "assignees": []
       },
       {
@@ -1819,6 +1819,20 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "ozge-devops",
+        "assignees": []
+      },
+      {
+        "number": 1231,
+        "title": "fix: use async_maybe_transform in AsyncMessages.stream() to avoid blocking event loop",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1231",
+        "createdAt": "2026-03-08T20:10:11Z",
+        "daysOpen": 31,
+        "labels": [],
+        "isDraft": false,
+        "additions": 75,
+        "deletions": 71,
+        "reviewCount": 0,
+        "author": "MaxwellCalkin",
         "assignees": []
       },
       {
@@ -1915,20 +1929,6 @@
         "isDraft": false,
         "additions": 2,
         "deletions": 0,
-        "reviewCount": 0,
-        "author": "MaxwellCalkin",
-        "assignees": []
-      },
-      {
-        "number": 1231,
-        "title": "fix: use async_maybe_transform in AsyncMessages.stream() to avoid blocking event loop",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1231",
-        "createdAt": "2026-03-08T20:10:11Z",
-        "daysOpen": 30,
-        "labels": [],
-        "isDraft": false,
-        "additions": 75,
-        "deletions": 71,
         "reviewCount": 0,
         "author": "MaxwellCalkin",
         "assignees": []
@@ -2298,6 +2298,34 @@
         "assignees": []
       },
       {
+        "number": 1297,
+        "title": "fix: defer async stream transforms for large payloads",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1297",
+        "createdAt": "2026-03-25T19:21:34Z",
+        "daysOpen": 14,
+        "labels": [],
+        "isDraft": false,
+        "additions": 431,
+        "deletions": 156,
+        "reviewCount": 0,
+        "author": "giulio-leone",
+        "assignees": []
+      },
+      {
+        "number": 1296,
+        "title": "fix: async transform recursion + type introspection cache perf",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1296",
+        "createdAt": "2026-03-25T19:14:08Z",
+        "daysOpen": 14,
+        "labels": [],
+        "isDraft": false,
+        "additions": 260,
+        "deletions": 79,
+        "reviewCount": 0,
+        "author": "giulio-leone",
+        "assignees": []
+      },
+      {
         "number": 1291,
         "title": "fix: update BetaAsyncAbstractMemoryTool docstring for async usage",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1291",
@@ -2351,34 +2379,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "javierdejesusda",
-        "assignees": []
-      },
-      {
-        "number": 1297,
-        "title": "fix: defer async stream transforms for large payloads",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1297",
-        "createdAt": "2026-03-25T19:21:34Z",
-        "daysOpen": 13,
-        "labels": [],
-        "isDraft": false,
-        "additions": 431,
-        "deletions": 156,
-        "reviewCount": 0,
-        "author": "giulio-leone",
-        "assignees": []
-      },
-      {
-        "number": 1296,
-        "title": "fix: async transform recursion + type introspection cache perf",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1296",
-        "createdAt": "2026-03-25T19:14:08Z",
-        "daysOpen": 13,
-        "labels": [],
-        "isDraft": false,
-        "additions": 260,
-        "deletions": 79,
-        "reviewCount": 0,
-        "author": "giulio-leone",
         "assignees": []
       },
       {
@@ -2671,14 +2671,14 @@
       0,
       4,
       6,
-      2,
-      21,
+      3,
+      20,
       0,
       0,
       24,
       0,
-      19,
-      17
+      24,
+      12
     ],
     "allContributors": [
       "4444J99",
@@ -3097,9 +3097,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 2710254,
-    "last_week": 20533241,
-    "last_month": 86573051,
-    "total": 465762519
+    "daily": 2970550,
+    "last_week": 20793537,
+    "last_month": 86833347,
+    "total": 466022815
   }
 }
