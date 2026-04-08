@@ -432,6 +432,8 @@ export interface DownloadMetrics {
   last_month?: number;
   /** All-time cumulative. nuget/rubygems/packagist native; npm maintained as running sum; pypi omitted (pypistats caps at 6mo). */
   total?: number;
+  /** YYYY-MM-DD the running-sum `total` is valid through. npm lags ~1-2d, so this trails the snapshot date; the next run resumes from here, not the snapshot date. */
+  total_through?: string;
 }
 
 /**
