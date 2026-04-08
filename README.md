@@ -254,6 +254,26 @@ The workflow runs automatically on:
 └── public/                # Generated site (gitignored)
 ```
 
+## Slack Digest
+
+A Claude Code skill at `.claude/skills/slack-snapshot/` generates a copy-pasteable Slack message summarising the week's SDK health — download trends (WoW), open-issue deltas, triage backlog, response/review latency, and a rule-driven *Needs attention* block.
+
+**From a Claude Code session in this repo:**
+
+```
+/slack-snapshot
+```
+
+**Directly:**
+
+```bash
+node .claude/skills/slack-snapshot/generate.mjs
+# override the footer link:
+node .claude/skills/slack-snapshot/generate.mjs --dashboard-url https://your.dashboard
+```
+
+The script reads `data/repos.json` plus each repo's `metrics.json` and recent snapshots, and writes Slack mrkdwn to stdout. It has no external dependencies and auto-detects which tracker variant it's running in, so the same script works unchanged in the sibling MCP tracker. To post on a schedule, wrap the command in a weekly GitHub Action that pipes stdout to a Slack incoming-webhook.
+
 ## License
 
 MIT
