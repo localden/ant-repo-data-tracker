@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T15:04:36.080Z",
+  "timestamp": "2026-04-08T16:53:56.369Z",
   "repository": {
     "stars": 316,
     "forks": 48
@@ -62,7 +62,7 @@
         "title": "Unsupported document file format",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/128",
         "createdAt": "2025-09-08T15:45:16Z",
-        "daysOpen": 211,
+        "daysOpen": 212,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -103,12 +103,12 @@
   },
   "pulls": {
     "open_count": 4,
-    "merged_7d": 4,
-    "merged_30d": 7,
-    "merged_90d": 17,
-    "opened_7d": 3,
-    "opened_30d": 9,
-    "opened_90d": 20,
+    "merged_7d": 5,
+    "merged_30d": 8,
+    "merged_90d": 18,
+    "opened_7d": 4,
+    "opened_30d": 10,
+    "opened_90d": 21,
     "closed_not_merged_90d": 1,
     "draft_count": 0,
     "assigned_count": 0,
@@ -164,7 +164,7 @@
         "title": "Add extended thinking examples (multi-turn + tool use)",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/166",
         "createdAt": "2026-03-26T16:21:53Z",
-        "daysOpen": 12,
+        "daysOpen": 13,
         "labels": [],
         "isDraft": false,
         "additions": 163,
@@ -175,10 +175,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 94.3,
-      "median_hours": 9.6,
-      "p90_hours": 371.3,
-      "p95_hours": 495
+      "avg_hours": 88.7,
+      "median_hours": 2.8,
+      "p90_hours": 350.3,
+      "p95_hours": 491.2
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -187,11 +187,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 95.6,
-      "median_hours": 23.2
+      "avg_hours": 90.3,
+      "median_hours": 19.8
     },
-    "code_review_rate_pct": 94.1,
-    "rejection_rate_pct": 5.6,
+    "code_review_rate_pct": 94.4,
+    "rejection_rate_pct": 5.3,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 3,
@@ -205,7 +205,7 @@
     "first_time_30d": 4,
     "retention_rate_pct": 100,
     "churned_30d": 0,
-    "commits_per_week_avg": 7.1,
+    "commits_per_week_avg": 7.3,
     "commits_per_week_trend": [
       0,
       0,
@@ -218,7 +218,7 @@
       22,
       4,
       16,
-      15
+      17
     ],
     "allContributors": [
       "ElliotJLT",
@@ -252,23 +252,28 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 16,
-        "total_changes": 217
+        "pr_count": 17,
+        "total_changes": 225
       },
       {
         "path": "Gemfile.lock",
-        "pr_count": 16,
-        "total_changes": 34
+        "pr_count": 17,
+        "total_changes": 36
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 15,
-        "total_changes": 30
+        "pr_count": 16,
+        "total_changes": 32
       },
       {
         "path": "README.md",
-        "pr_count": 15,
-        "total_changes": 527
+        "pr_count": 16,
+        "total_changes": 529
+      },
+      {
+        "path": ".stats.yml",
+        "pr_count": 14,
+        "total_changes": 72
       },
       {
         "path": "lib/anthropic/version.rb",
@@ -276,14 +281,9 @@
         "total_changes": 28
       },
       {
-        "path": ".stats.yml",
-        "pr_count": 13,
-        "total_changes": 64
-      },
-      {
         "path": "lib/anthropic.rb",
-        "pr_count": 9,
-        "total_changes": 108
+        "pr_count": 10,
+        "total_changes": 282
       },
       {
         "path": "lib/anthropic/models.rb",
@@ -331,6 +331,11 @@
         "total_changes": 37
       },
       {
+        "path": "lib/anthropic/internal/util.rb",
+        "pr_count": 5,
+        "total_changes": 60
+      },
+      {
         "path": "lib/anthropic/models/model.rb",
         "pr_count": 5,
         "total_changes": 135
@@ -344,17 +349,12 @@
         "path": "lib/anthropic/resources/messages.rb",
         "pr_count": 5,
         "total_changes": 75
-      },
-      {
-        "path": "lib/anthropic/internal/util.rb",
-        "pr_count": 4,
-        "total_changes": 58
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 17,
+        "pr_count": 18,
         "file_count": 9
       },
       {
@@ -369,18 +369,18 @@
       },
       {
         "path": "lib/anthropic/models/beta/",
+        "pr_count": 11,
+        "file_count": 148
+      },
+      {
+        "path": "lib/",
         "pr_count": 10,
-        "file_count": 78
+        "file_count": 1
       },
       {
         "path": "rbi/anthropic/models/",
         "pr_count": 10,
         "file_count": 44
-      },
-      {
-        "path": "lib/",
-        "pr_count": 9,
-        "file_count": 1
       },
       {
         "path": "rbi/anthropic/",
@@ -406,9 +406,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 9489,
-    "total": 1287271,
-    "last_week": 55191,
-    "last_month": 97269
+    "daily": 10741,
+    "total": 1288523,
+    "last_week": 56443,
+    "last_month": 98521
   }
 }

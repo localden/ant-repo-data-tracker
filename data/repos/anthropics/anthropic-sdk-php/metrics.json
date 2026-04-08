@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-08T15:04:45.471Z",
+  "timestamp": "2026-04-08T16:54:06.149Z",
   "repository": {
     "stars": 134,
     "forks": 30
@@ -46,7 +46,7 @@
         "title": "BatchesService::results() - incorrect return type causing PHP runtime error",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/8",
         "createdAt": "2025-11-25T15:22:33Z",
-        "daysOpen": 133,
+        "daysOpen": 134,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -79,22 +79,22 @@
     "label_coverage_pct": 25,
     "unlabeled_count": 3,
     "stale_30d": 4,
-    "stale_60d": 1,
+    "stale_60d": 2,
     "stale_90d": 1,
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 4,
-    "merged_7d": 3,
-    "merged_30d": 5,
-    "merged_90d": 9,
-    "opened_7d": 2,
-    "opened_30d": 5,
-    "opened_90d": 12,
+    "open_count": 5,
+    "merged_7d": 4,
+    "merged_30d": 6,
+    "merged_90d": 10,
+    "opened_7d": 4,
+    "opened_30d": 7,
+    "opened_90d": 14,
     "closed_not_merged_90d": 2,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 4,
+    "unassigned_count": 5,
     "unassigned_24h": 4,
     "unassigned_7d": 4,
     "assigned_prs": [],
@@ -118,7 +118,7 @@
         "title": "Create php.yml",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/12",
         "createdAt": "2026-01-21T15:15:29Z",
-        "daysOpen": 76,
+        "daysOpen": 77,
         "labels": [],
         "isDraft": false,
         "additions": 39,
@@ -132,7 +132,7 @@
         "title": "fix: BatchesService::results() crashes — missing stream parameter",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/15",
         "createdAt": "2026-02-07T15:21:51Z",
-        "daysOpen": 59,
+        "daysOpen": 60,
         "labels": [],
         "isDraft": false,
         "additions": 18,
@@ -154,13 +154,29 @@
         "reviewCount": 0,
         "author": "SNO7E-G",
         "assignees": []
+      },
+      {
+        "number": 26,
+        "title": "release: 0.12.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/26",
+        "createdAt": "2026-04-08T16:50:53Z",
+        "daysOpen": 0,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 30493,
+        "deletions": 17,
+        "reviewCount": 1,
+        "author": "stainless-app",
+        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 367.5,
-      "median_hours": 207,
-      "p90_hours": 822.4,
-      "p95_hours": 1192.9
+      "avg_hours": 294,
+      "median_hours": 86.5,
+      "p90_hours": 610.7,
+      "p95_hours": 1087
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -169,16 +185,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 337.2,
-      "median_hours": 123.8
+      "avg_hours": 303.4,
+      "median_hours": 109
     },
-    "code_review_rate_pct": 88.9,
-    "rejection_rate_pct": 18.2,
+    "code_review_rate_pct": 90,
+    "rejection_rate_pct": 16.7,
     "avg_reviews_per_pr": 0.9,
     "by_size": {
       "small": 3,
       "medium": 1,
-      "large": 0
+      "large": 1
     }
   },
   "contributors": {
@@ -187,7 +203,7 @@
     "first_time_30d": 3,
     "retention_rate_pct": 100,
     "churned_30d": 0,
-    "commits_per_week_avg": 12.1,
+    "commits_per_week_avg": 12.3,
     "commits_per_week_trend": [
       0,
       0,
@@ -200,7 +216,7 @@
       23,
       5,
       0,
-      25
+      27
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -238,28 +254,38 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 7,
-        "total_changes": 14
+        "pr_count": 8,
+        "total_changes": 16
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 7,
-        "total_changes": 206
+        "pr_count": 8,
+        "total_changes": 214
       },
       {
         "path": "README.md",
-        "pr_count": 7,
-        "total_changes": 523
+        "pr_count": 8,
+        "total_changes": 525
       },
       {
         "path": ".stats.yml",
-        "pr_count": 6,
-        "total_changes": 34
+        "pr_count": 7,
+        "total_changes": 42
       },
       {
         "path": "src/Version.php",
         "pr_count": 5,
         "total_changes": 10
+      },
+      {
+        "path": "scripts/test",
+        "pr_count": 4,
+        "total_changes": 28
+      },
+      {
+        "path": "scripts/mock",
+        "pr_count": 3,
+        "total_changes": 41
       },
       {
         "path": "src/Aws/Client.php",
@@ -277,11 +303,6 @@
         "total_changes": 12
       },
       {
-        "path": "scripts/test",
-        "pr_count": 3,
-        "total_changes": 26
-      },
-      {
         "path": ".github/workflows/create-releases.yml",
         "pr_count": 3,
         "total_changes": 6
@@ -290,6 +311,16 @@
         "path": ".github/workflows/publish-packagist.yml",
         "pr_count": 3,
         "total_changes": 6
+      },
+      {
+        "path": "src/Beta/Files/FileListParams.php",
+        "pr_count": 2,
+        "total_changes": 86
+      },
+      {
+        "path": "src/Beta/Files/FileMetadata.php",
+        "pr_count": 2,
+        "total_changes": 140
       },
       {
         "path": "src/Aws/AwsAuth.php",
@@ -312,11 +343,6 @@
         "total_changes": 6
       },
       {
-        "path": "scripts/mock",
-        "pr_count": 2,
-        "total_changes": 37
-      },
-      {
         "path": "src/Bedrock/Client.php",
         "pr_count": 2,
         "total_changes": 326
@@ -325,22 +351,12 @@
         "path": "src/Beta/AnthropicBeta.php",
         "pr_count": 2,
         "total_changes": 4
-      },
-      {
-        "path": "src/Beta/Messages/BetaMessage.php",
-        "pr_count": 2,
-        "total_changes": 48
-      },
-      {
-        "path": "src/Beta/Messages/BetaTextBlock.php",
-        "pr_count": 2,
-        "total_changes": 27
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 7,
+        "pr_count": 8,
         "file_count": 11
       },
       {
@@ -357,6 +373,11 @@
         "path": ".github/workflows/",
         "pr_count": 5,
         "file_count": 6
+      },
+      {
+        "path": "scripts/",
+        "pr_count": 4,
+        "file_count": 3
       },
       {
         "path": "src/Aws/",
@@ -382,13 +403,14 @@
         "path": "src/Messages/",
         "pr_count": 3,
         "file_count": 10
-      },
-      {
-        "path": "scripts/",
-        "pr_count": 3,
-        "file_count": 3
       }
     ],
     "top_n": 20
+  },
+  "downloads": {
+    "daily": 3950,
+    "total": 166756,
+    "last_week": 19155,
+    "last_month": 40037
   }
 }
