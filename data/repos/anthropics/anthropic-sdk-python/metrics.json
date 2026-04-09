@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-04-09T07:10:33.630Z",
+  "timestamp": "2026-04-09T09:02:53.656Z",
   "repository": {
-    "stars": 3169,
+    "stars": 3170,
     "forks": 597
   },
   "issues": {
-    "open_count": 92,
+    "open_count": 93,
     "closed_7d": 1,
     "closed_30d": 8,
     "closed_90d": 15,
-    "opened_7d": 8,
-    "opened_30d": 25,
-    "opened_90d": 57,
+    "opened_7d": 7,
+    "opened_30d": 26,
+    "opened_90d": 58,
     "assigned_count": 3,
-    "unassigned_count": 89,
-    "unassigned_24h": 88,
-    "unassigned_7d": 82,
+    "unassigned_count": 90,
+    "unassigned_24h": 89,
+    "unassigned_7d": 84,
     "unassigned_30d": 68,
     "assigned_issues": [
       {
@@ -196,7 +196,7 @@
         "title": "Replace dependency on `jiter` with another JSON parser or add a fallback",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/937",
         "createdAt": "2025-04-11T07:47:51Z",
-        "daysOpen": 362,
+        "daysOpen": 363,
         "labels": [
           "enhancement",
           "sdk"
@@ -271,7 +271,7 @@
         "title": "Claude not available on Google's Vertex AI",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/963",
         "createdAt": "2025-06-01T08:51:41Z",
-        "daysOpen": 311,
+        "daysOpen": 312,
         "labels": [
           "vertex"
         ],
@@ -369,7 +369,7 @@
         "title": "tools.0.web_search_20250305: Country code SG is not supported",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/995",
         "createdAt": "2025-07-17T07:35:24Z",
-        "daysOpen": 265,
+        "daysOpen": 266,
         "labels": [
           "api"
         ],
@@ -634,7 +634,7 @@
         "title": "Feature Request: Add `stream` helper to `AnthropicBedrock.beta.messages`",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1120",
         "createdAt": "2026-01-19T08:41:32Z",
-        "daysOpen": 79,
+        "daysOpen": 80,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -664,7 +664,7 @@
         "title": "API rejects code_execution_20250825 tool: 'use_web_search_purpose: Extra inputs are not permitted'",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1179",
         "createdAt": "2026-02-14T08:22:46Z",
-        "daysOpen": 53,
+        "daysOpen": 54,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -948,24 +948,34 @@
         "assignees": []
       },
       {
-        "number": 1318,
-        "title": "[BUG] `client.beta.files.upload`  `PathLike` error",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1318",
-        "createdAt": "2026-03-31T18:02:11Z",
+        "number": 1317,
+        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
+        "createdAt": "2026-03-31T08:08:59Z",
+        "daysOpen": 9,
+        "labels": [
+          "api"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 1320,
+        "title": "Clarvia AEO badge — measure agent-readiness of the Anthropic SDK",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1320",
+        "createdAt": "2026-03-31T20:29:57Z",
         "daysOpen": 8,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 1317,
-        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
-        "createdAt": "2026-03-31T08:08:59Z",
+        "number": 1318,
+        "title": "[BUG] `client.beta.files.upload`  `PathLike` error",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1318",
+        "createdAt": "2026-03-31T18:02:11Z",
         "daysOpen": 8,
-        "labels": [
-          "api"
-        ],
+        "labels": [],
         "commentCount": 0,
         "assignees": []
       },
@@ -984,7 +994,7 @@
         "title": "ServerToolResult not delivered when client tools interrupt the stream (code_execution + client tool concurrency)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1325",
         "createdAt": "2026-04-02T07:42:30Z",
-        "daysOpen": 6,
+        "daysOpen": 7,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -1071,8 +1081,8 @@
       "median_days": 3.5,
       "p90_days": 29.6
     },
-    "label_coverage_pct": 47.8,
-    "unlabeled_count": 48,
+    "label_coverage_pct": 47.3,
+    "unlabeled_count": 49,
     "stale_30d": 59,
     "stale_60d": 47,
     "stale_90d": 34,
@@ -1360,6 +1370,20 @@
         "assignees": []
       },
       {
+        "number": 1145,
+        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
+        "createdAt": "2026-01-22T08:10:13Z",
+        "daysOpen": 77,
+        "labels": [],
+        "isDraft": true,
+        "additions": 39,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
         "number": 1144,
         "title": "fix: strip schema field from tool definitions to prevent 500 errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1144",
@@ -1509,20 +1533,6 @@
         "isDraft": true,
         "additions": 49,
         "deletions": 16,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1145,
-        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
-        "createdAt": "2026-01-22T08:10:13Z",
-        "daysOpen": 76,
-        "labels": [],
-        "isDraft": true,
-        "additions": 39,
-        "deletions": 14,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -1686,7 +1696,7 @@
         "title": "feat: add double-buffer compaction for context window management",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1203",
         "createdAt": "2026-02-25T07:55:26Z",
-        "daysOpen": 42,
+        "daysOpen": 43,
         "labels": [],
         "isDraft": false,
         "additions": 1729,
@@ -2660,9 +2670,9 @@
     }
   },
   "contributors": {
-    "total_known": 186,
-    "active_30d": 68,
-    "first_time_30d": 59,
+    "total_known": 187,
+    "active_30d": 69,
+    "first_time_30d": 60,
     "retention_rate_pct": 100,
     "churned_30d": 0,
     "commits_per_week_avg": 7.8,
@@ -2751,6 +2761,7 @@
       "davidemoraschi",
       "davidmhewitt",
       "dgellow",
+      "digitamaz",
       "drewparo",
       "dtmeadows",
       "dzhurinskiy",
@@ -2896,6 +2907,7 @@
       "alvinttang",
       "amina-149",
       "cameron-mcateer",
+      "digitamaz",
       "drewparo",
       "dtmeadows",
       "dzhurinskiy",
@@ -3097,9 +3109,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 897043,
-    "last_week": 18742709,
-    "last_month": 85311935,
-    "total": 467553585
+    "daily": 1179347,
+    "last_week": 19025013,
+    "last_month": 85594239,
+    "total": 467835889
   }
 }
