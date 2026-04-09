@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-09T15:15:04.733Z",
+  "timestamp": "2026-04-09T18:50:01.362Z",
   "repository": {
     "stars": 968,
     "forks": 151
@@ -34,7 +34,7 @@
         "title": "Add support for Vertex AI authentication using JSON service account key",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/58",
         "createdAt": "2024-11-11T17:33:33Z",
-        "daysOpen": 513,
+        "daysOpen": 514,
         "labels": [
           "enhancement",
           "sdk"
@@ -47,7 +47,7 @@
         "title": "Error handling code for Bedrock doesn't work for exception message types",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/71",
         "createdAt": "2024-12-13T18:49:26Z",
-        "daysOpen": 481,
+        "daysOpen": 482,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -147,7 +147,7 @@
         "title": "Guidance on handling streaming errors",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/200",
         "createdAt": "2025-06-10T18:16:40Z",
-        "daysOpen": 302,
+        "daysOpen": 303,
         "labels": [
           "question"
         ],
@@ -159,7 +159,7 @@
         "title": "Guidance on CacheControl for multi-turn conversations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/207",
         "createdAt": "2025-07-04T17:19:25Z",
-        "daysOpen": 278,
+        "daysOpen": 279,
         "labels": [
           "question",
           "api"
@@ -252,7 +252,7 @@
         "title": "Modified content blocks in Message are ignored when calling ToParam",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/243",
         "createdAt": "2025-10-02T16:57:20Z",
-        "daysOpen": 188,
+        "daysOpen": 189,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -322,7 +322,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 57,
+        "daysOpen": 58,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -344,7 +344,7 @@
         "title": "Bug: adaptive discriminator is not registered for ThinkingConfigAdaptiveParam and BetaThinkingConfigAdaptiveParam types",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/279",
         "createdAt": "2026-02-18T15:52:21Z",
-        "daysOpen": 49,
+        "daysOpen": 50,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -354,7 +354,7 @@
         "title": "Downloading files from skills example doesn't work with streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/288",
         "createdAt": "2026-03-07T17:31:18Z",
-        "daysOpen": 32,
+        "daysOpen": 33,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -421,12 +421,12 @@
   },
   "pulls": {
     "open_count": 27,
-    "merged_7d": 4,
-    "merged_30d": 8,
-    "merged_90d": 18,
-    "opened_7d": 4,
-    "opened_30d": 17,
-    "opened_90d": 37,
+    "merged_7d": 5,
+    "merged_30d": 9,
+    "merged_90d": 19,
+    "opened_7d": 5,
+    "opened_30d": 18,
+    "opened_90d": 38,
     "closed_not_merged_90d": 5,
     "draft_count": 0,
     "assigned_count": 0,
@@ -520,6 +520,20 @@
         "assignees": []
       },
       {
+        "number": 261,
+        "title": "feat(ssestream): fix event decoding for data-only messages and [DONE] handling",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/261",
+        "createdAt": "2025-12-18T15:53:04Z",
+        "daysOpen": 112,
+        "labels": [],
+        "isDraft": false,
+        "additions": 25,
+        "deletions": 4,
+        "reviewCount": 1,
+        "author": "yuguorui",
+        "assignees": []
+      },
+      {
         "number": 260,
         "title": "docs: fix typos",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/260",
@@ -531,20 +545,6 @@
         "deletions": 9,
         "reviewCount": 1,
         "author": "byigitt",
-        "assignees": []
-      },
-      {
-        "number": 261,
-        "title": "feat(ssestream): fix event decoding for data-only messages and [DONE] handling",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/261",
-        "createdAt": "2025-12-18T15:53:04Z",
-        "daysOpen": 111,
-        "labels": [],
-        "isDraft": false,
-        "additions": 25,
-        "deletions": 4,
-        "reviewCount": 1,
-        "author": "yuguorui",
         "assignees": []
       },
       {
@@ -776,7 +776,7 @@
         "title": "toolrunner: validate tool inputs against JSON Schema before handler execution",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/305",
         "createdAt": "2026-03-26T16:45:10Z",
-        "daysOpen": 13,
+        "daysOpen": 14,
         "labels": [],
         "isDraft": false,
         "additions": 1679,
@@ -815,10 +815,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 52.5,
+      "avg_hours": 50.4,
       "median_hours": 3,
-      "p90_hours": 160,
-      "p95_hours": 257.3
+      "p90_hours": 144.5,
+      "p95_hours": 254.3
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -827,11 +827,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 144.1,
-      "median_hours": 4.2
+      "avg_hours": 136.5,
+      "median_hours": 3.1
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 21.7,
+    "rejection_rate_pct": 20.8,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 18,
@@ -845,12 +845,12 @@
     "first_time_30d": 13,
     "retention_rate_pct": 100,
     "churned_30d": 0,
-    "commits_per_week_avg": 10.6,
+    "commits_per_week_avg": 10.9,
     "commits_per_week_trend": [
       0,
-      0,
       33,
-      9,
+      3,
+      6,
       13,
       6,
       0,
@@ -858,7 +858,7 @@
       31,
       0,
       25,
-      10
+      14
     ],
     "allContributors": [
       "FFengIll",
@@ -954,43 +954,43 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 18,
-        "total_changes": 241
+        "pr_count": 19,
+        "total_changes": 249
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 17,
-        "total_changes": 34
+        "pr_count": 18,
+        "total_changes": 36
       },
       {
         "path": "README.md",
-        "pr_count": 17,
-        "total_changes": 1131
+        "pr_count": 18,
+        "total_changes": 1133
       },
       {
         "path": "internal/version.go",
-        "pr_count": 17,
-        "total_changes": 34
+        "pr_count": 18,
+        "total_changes": 36
       },
       {
         "path": ".stats.yml",
-        "pr_count": 15,
-        "total_changes": 74
+        "pr_count": 16,
+        "total_changes": 80
       },
       {
         "path": "api.md",
-        "pr_count": 10,
-        "total_changes": 444
+        "pr_count": 11,
+        "total_changes": 454
+      },
+      {
+        "path": "betamessage.go",
+        "pr_count": 11,
+        "total_changes": 5043
       },
       {
         "path": "message.go",
         "pr_count": 10,
         "total_changes": 13503
-      },
-      {
-        "path": "betamessage.go",
-        "pr_count": 10,
-        "total_changes": 4448
       },
       {
         "path": "betamessagebatch.go",
@@ -1008,6 +1008,11 @@
         "total_changes": 111
       },
       {
+        "path": "shared/constant/constants.go",
+        "pr_count": 6,
+        "total_changes": 97
+      },
+      {
         "path": "message_test.go",
         "pr_count": 6,
         "total_changes": 134
@@ -1018,9 +1023,9 @@
         "total_changes": 64
       },
       {
-        "path": "shared/constant/constants.go",
+        "path": "beta.go",
         "pr_count": 5,
-        "total_changes": 50
+        "total_changes": 83
       },
       {
         "path": "messagebatch_test.go",
@@ -1028,9 +1033,9 @@
         "total_changes": 78
       },
       {
-        "path": "beta.go",
+        "path": "betamessageutil.go",
         "pr_count": 4,
-        "total_changes": 82
+        "total_changes": 483
       },
       {
         "path": "betafile.go",
@@ -1046,27 +1051,22 @@
         "path": "betamodel.go",
         "pr_count": 4,
         "total_changes": 198
-      },
-      {
-        "path": "completion.go",
-        "pr_count": 4,
-        "total_changes": 26
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 18,
+        "pr_count": 19,
         "file_count": 55
       },
       {
         "path": "internal/",
-        "pr_count": 17,
+        "pr_count": 18,
         "file_count": 1
       },
       {
         "path": "shared/constant/",
-        "pr_count": 5,
+        "pr_count": 6,
         "file_count": 1
       },
       {
