@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-15T01:25:05.354Z",
+  "timestamp": "2026-04-15T04:39:51.386Z",
   "repository": {
     "stars": 232,
     "forks": 67
@@ -50,7 +50,7 @@
         "title": "Support AOT",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/79",
         "createdAt": "2025-12-21T01:39:45Z",
-        "daysOpen": 114,
+        "daysOpen": 115,
         "labels": [
           "enhancement",
           "sdk"
@@ -208,6 +208,20 @@
         "assignees": []
       },
       {
+        "number": 173,
+        "title": "Treat empty json string in tool call as having 'no' arguments.",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/173",
+        "createdAt": "2026-04-10T04:38:22Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 6,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "mstancombe",
+        "assignees": []
+      },
+      {
         "number": 175,
         "title": "Make ServerToolUsage/BetaServerToolUsage web request counts nullable",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/175",
@@ -219,20 +233,6 @@
         "deletions": 24,
         "reviewCount": 1,
         "author": "Sunny-DotNet",
-        "assignees": []
-      },
-      {
-        "number": 173,
-        "title": "Treat empty json string in tool call as having 'no' arguments.",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/173",
-        "createdAt": "2026-04-10T04:38:22Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 6,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "mstancombe",
         "assignees": []
       },
       {
@@ -385,6 +385,16 @@
         "total_changes": 4659
       },
       {
+        "path": "src/Anthropic/AnthropicClientExtensions.cs",
+        "pr_count": 11,
+        "total_changes": 2464
+      },
+      {
+        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
+        "pr_count": 11,
+        "total_changes": 1291
+      },
+      {
         "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
         "pr_count": 11,
         "total_changes": 104
@@ -405,14 +415,9 @@
         "total_changes": 498
       },
       {
-        "path": "src/Anthropic/AnthropicClientExtensions.cs",
-        "pr_count": 11,
-        "total_changes": 2464
-      },
-      {
-        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
-        "pr_count": 11,
-        "total_changes": 1291
+        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTests.cs",
+        "pr_count": 10,
+        "total_changes": 1277
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/MessageCountTokensParamsTest.cs",
@@ -420,9 +425,9 @@
         "total_changes": 890
       },
       {
-        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTests.cs",
-        "pr_count": 10,
-        "total_changes": 1277
+        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTestsBase.cs",
+        "pr_count": 8,
+        "total_changes": 11716
       },
       {
         "path": "src/Anthropic.Tests/Services/Beta/MessageServiceTest.cs",
@@ -433,11 +438,6 @@
         "path": "src/Anthropic.Vertex/Anthropic.Vertex.csproj",
         "pr_count": 8,
         "total_changes": 66
-      },
-      {
-        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTestsBase.cs",
-        "pr_count": 8,
-        "total_changes": 11716
       },
       {
         "path": "examples/Anthropic.Examples.sln",
@@ -472,7 +472,7 @@
     ],
     "by_directory": [
       {
-        "path": "/",
+        "path": "src/Anthropic.Tests/",
         "pr_count": 22,
         "file_count": 9
       },
@@ -482,7 +482,7 @@
         "file_count": 6
       },
       {
-        "path": "src/Anthropic.Tests/",
+        "path": "/",
         "pr_count": 22,
         "file_count": 9
       },
