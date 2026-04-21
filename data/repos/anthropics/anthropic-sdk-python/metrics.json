@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-04-21T07:22:05.215Z",
+  "timestamp": "2026-04-21T09:17:24.744Z",
   "repository": {
-    "stars": 3280,
-    "forks": 623
+    "stars": 3282,
+    "forks": 624
   },
   "issues": {
     "open_count": 105,
@@ -196,7 +196,7 @@
         "title": "Replace dependency on `jiter` with another JSON parser or add a fallback",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/937",
         "createdAt": "2025-04-11T07:47:51Z",
-        "daysOpen": 374,
+        "daysOpen": 375,
         "labels": [
           "enhancement",
           "sdk"
@@ -271,7 +271,7 @@
         "title": "Claude not available on Google's Vertex AI",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/963",
         "createdAt": "2025-06-01T08:51:41Z",
-        "daysOpen": 323,
+        "daysOpen": 324,
         "labels": [
           "vertex"
         ],
@@ -369,7 +369,7 @@
         "title": "tools.0.web_search_20250305: Country code SG is not supported",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/995",
         "createdAt": "2025-07-17T07:35:24Z",
-        "daysOpen": 277,
+        "daysOpen": 278,
         "labels": [
           "api"
         ],
@@ -634,7 +634,7 @@
         "title": "Feature Request: Add `stream` helper to `AnthropicBedrock.beta.messages`",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1120",
         "createdAt": "2026-01-19T08:41:32Z",
-        "daysOpen": 91,
+        "daysOpen": 92,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -664,7 +664,7 @@
         "title": "API rejects code_execution_20250825 tool: 'use_web_search_purpose: Extra inputs are not permitted'",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1179",
         "createdAt": "2026-02-14T08:22:46Z",
-        "daysOpen": 65,
+        "daysOpen": 66,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -932,6 +932,18 @@
         "assignees": []
       },
       {
+        "number": 1317,
+        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
+        "createdAt": "2026-03-31T08:08:59Z",
+        "daysOpen": 21,
+        "labels": [
+          "api"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1318,
         "title": "[BUG] `client.beta.files.upload`  `PathLike` error",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1318",
@@ -952,18 +964,6 @@
         "assignees": []
       },
       {
-        "number": 1317,
-        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
-        "createdAt": "2026-03-31T08:08:59Z",
-        "daysOpen": 20,
-        "labels": [
-          "api"
-        ],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 1324,
         "title": "[SUPPORT] Financial damage report - Claude Code agent errors cost ~$45 USD",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1324",
@@ -978,7 +978,7 @@
         "title": "ServerToolResult not delivered when client tools interrupt the stream (code_execution + client tool concurrency)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1325",
         "createdAt": "2026-04-02T07:42:30Z",
-        "daysOpen": 18,
+        "daysOpen": 19,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -1496,6 +1496,20 @@
         "assignees": []
       },
       {
+        "number": 1145,
+        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
+        "createdAt": "2026-01-22T08:10:13Z",
+        "daysOpen": 89,
+        "labels": [],
+        "isDraft": true,
+        "additions": 39,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
         "number": 1144,
         "title": "fix: strip schema field from tool definitions to prevent 500 errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1144",
@@ -1645,20 +1659,6 @@
         "isDraft": true,
         "additions": 49,
         "deletions": 16,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1145,
-        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
-        "createdAt": "2026-01-22T08:10:13Z",
-        "daysOpen": 88,
-        "labels": [],
-        "isDraft": true,
-        "additions": 39,
-        "deletions": 14,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -1822,7 +1822,7 @@
         "title": "feat: add double-buffer compaction for context window management",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1203",
         "createdAt": "2026-02-25T07:55:26Z",
-        "daysOpen": 54,
+        "daysOpen": 55,
         "labels": [],
         "isDraft": false,
         "additions": 1729,
@@ -2224,6 +2224,20 @@
         "assignees": []
       },
       {
+        "number": 1263,
+        "title": "fix: map SSE error types to correct HTTP status codes in streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1263",
+        "createdAt": "2026-03-19T09:15:47Z",
+        "daysOpen": 33,
+        "labels": [],
+        "isDraft": false,
+        "additions": 46,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Jah-yee",
+        "assignees": []
+      },
+      {
         "number": 1266,
         "title": "fix: add missing JSON error handling in non-beta streaming accumulator",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1266",
@@ -2319,20 +2333,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "tao-to-python",
-        "assignees": []
-      },
-      {
-        "number": 1263,
-        "title": "fix: map SSE error types to correct HTTP status codes in streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1263",
-        "createdAt": "2026-03-19T09:15:47Z",
-        "daysOpen": 32,
-        "labels": [],
-        "isDraft": false,
-        "additions": 46,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Jah-yee",
         "assignees": []
       },
       {
@@ -2957,6 +2957,20 @@
         "assignees": []
       },
       {
+        "number": 1410,
+        "title": "fix: support PathLike values in file tuples",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1410",
+        "createdAt": "2026-04-18T08:16:32Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 14,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "MukundaKatta",
+        "assignees": []
+      },
+      {
         "number": 1409,
         "title": "Add missing deprecated models",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1409",
@@ -2994,20 +3008,6 @@
         "isDraft": false,
         "additions": 17,
         "deletions": 10,
-        "reviewCount": 0,
-        "author": "MukundaKatta",
-        "assignees": []
-      },
-      {
-        "number": 1410,
-        "title": "fix: support PathLike values in file tuples",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1410",
-        "createdAt": "2026-04-18T08:16:32Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 14,
-        "deletions": 3,
         "reviewCount": 0,
         "author": "MukundaKatta",
         "assignees": []
@@ -3577,9 +3577,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 959640,
-    "last_week": 21606794,
-    "last_month": 94300659,
-    "total": 509158729
+    "daily": 1267332,
+    "last_week": 21914486,
+    "last_month": 94608351,
+    "total": 509466421
   }
 }
