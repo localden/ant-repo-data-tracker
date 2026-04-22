@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-04-22T20:43:36.967Z",
+  "timestamp": "2026-04-22T22:39:36.806Z",
   "repository": {
-    "stars": 1880,
+    "stars": 1881,
     "forks": 298
   },
   "issues": {
@@ -115,7 +115,7 @@
         "title": "Long delay when using streaming + tools",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/529",
         "createdAt": "2024-09-13T21:18:32Z",
-        "daysOpen": 585,
+        "daysOpen": 586,
         "labels": [],
         "commentCount": 23,
         "assignees": []
@@ -165,7 +165,7 @@
         "title": "Please update the OpenAPI spec",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/605",
         "createdAt": "2024-11-11T20:49:24Z",
-        "daysOpen": 526,
+        "daysOpen": 527,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -329,7 +329,7 @@
         "title": "add capability to await async function for on event handler",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/775",
         "createdAt": "2025-05-25T20:53:01Z",
-        "daysOpen": 331,
+        "daysOpen": 332,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -411,7 +411,7 @@
         "title": "Claude Code CLI freezes when MCP server closes after completing task",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/833",
         "createdAt": "2025-10-19T22:19:04Z",
-        "daysOpen": 184,
+        "daysOpen": 185,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -541,7 +541,7 @@
         "title": "bug/proposal: infinitely hanging clients breaking bigger/complex sessions. Proposal: add Streaming Idle Timeout to Prevent Indefinite Hangs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/867",
         "createdAt": "2025-12-19T21:31:53Z",
-        "daysOpen": 123,
+        "daysOpen": 124,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -611,7 +611,7 @@
         "title": "[BUG] strict: true causes 500 Internal Server Error with complex nested tool schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/885",
         "createdAt": "2026-01-27T21:46:51Z",
-        "daysOpen": 84,
+        "daysOpen": 85,
         "labels": [],
         "commentCount": 5,
         "assignees": []
@@ -1017,7 +1017,7 @@
         "title": "example:  add example for image input understanding",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/795",
         "createdAt": "2025-07-23T21:09:19Z",
-        "daysOpen": 272,
+        "daysOpen": 273,
         "labels": [],
         "isDraft": false,
         "additions": 38,
@@ -1073,7 +1073,7 @@
         "title": "bug/proposal: infinitely hanging clients breaking bigger/complex sessions. Proposal: add Streaming Idle Timeout to Prevent Indefinite Hangs #867",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/868",
         "createdAt": "2025-12-19T21:44:26Z",
-        "daysOpen": 123,
+        "daysOpen": 124,
         "labels": [],
         "isDraft": false,
         "additions": 679,
@@ -1237,6 +1237,34 @@
         "assignees": []
       },
       {
+        "number": 938,
+        "title": "fix: shallow copy content_block in BetaMessageStream#accumulateMessage",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/938",
+        "createdAt": "2026-03-08T21:42:40Z",
+        "daysOpen": 45,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "MaxwellCalkin",
+        "assignees": []
+      },
+      {
+        "number": 937,
+        "title": "fix: remove abort listener from user signal after fetch completes",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/937",
+        "createdAt": "2026-03-08T21:38:54Z",
+        "daysOpen": 45,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "MaxwellCalkin",
+        "assignees": []
+      },
+      {
         "number": 936,
         "title": "perf(messagestream): optimize parsing performance with lazy getter  (Issue #933)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/936",
@@ -1262,34 +1290,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "Emeenent14",
-        "assignees": []
-      },
-      {
-        "number": 938,
-        "title": "fix: shallow copy content_block in BetaMessageStream#accumulateMessage",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/938",
-        "createdAt": "2026-03-08T21:42:40Z",
-        "daysOpen": 44,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "MaxwellCalkin",
-        "assignees": []
-      },
-      {
-        "number": 937,
-        "title": "fix: remove abort listener from user signal after fetch completes",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/937",
-        "createdAt": "2026-03-08T21:38:54Z",
-        "daysOpen": 44,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "MaxwellCalkin",
         "assignees": []
       },
       {
@@ -1353,7 +1353,7 @@
         "title": "fix(streams): use empty separator in finalText() for text block concatenation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/954",
         "createdAt": "2026-03-19T21:27:57Z",
-        "daysOpen": 33,
+        "daysOpen": 34,
         "labels": [],
         "isDraft": false,
         "additions": 50,
@@ -1367,7 +1367,7 @@
         "title": "docs: fix broken compare links in CHANGELOG files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/953",
         "createdAt": "2026-03-19T21:25:21Z",
-        "daysOpen": 33,
+        "daysOpen": 34,
         "labels": [],
         "isDraft": false,
         "additions": 6,
@@ -1391,6 +1391,20 @@
         "assignees": []
       },
       {
+        "number": 958,
+        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
+        "createdAt": "2026-03-24T21:47:42Z",
+        "daysOpen": 29,
+        "labels": [],
+        "isDraft": false,
+        "additions": 147,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zelys-DFKH",
+        "assignees": []
+      },
+      {
         "number": 959,
         "title": "feat(streaming): add idleTimeout option for detecting stalled streams",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/959",
@@ -1402,20 +1416,6 @@
         "deletions": 5,
         "reviewCount": 0,
         "author": "simran10meta",
-        "assignees": []
-      },
-      {
-        "number": 958,
-        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
-        "createdAt": "2026-03-24T21:47:42Z",
-        "daysOpen": 28,
-        "labels": [],
-        "isDraft": false,
-        "additions": 147,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zelys-DFKH",
         "assignees": []
       },
       {
@@ -1461,6 +1461,20 @@
         "assignees": []
       },
       {
+        "number": 965,
+        "title": "fix: recover when TextDecoder rejects Uint8Array views",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/965",
+        "createdAt": "2026-03-30T22:06:56Z",
+        "daysOpen": 23,
+        "labels": [],
+        "isDraft": false,
+        "additions": 132,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "jeanpierrecarvalho",
+        "assignees": []
+      },
+      {
         "number": 966,
         "title": "fix(tool runner): preserve state across iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/966",
@@ -1470,20 +1484,6 @@
         "isDraft": false,
         "additions": 153,
         "deletions": 5,
-        "reviewCount": 0,
-        "author": "jeanpierrecarvalho",
-        "assignees": []
-      },
-      {
-        "number": 965,
-        "title": "fix: recover when TextDecoder rejects Uint8Array views",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/965",
-        "createdAt": "2026-03-30T22:06:56Z",
-        "daysOpen": 22,
-        "labels": [],
-        "isDraft": false,
-        "additions": 132,
-        "deletions": 6,
         "reviewCount": 0,
         "author": "jeanpierrecarvalho",
         "assignees": []
