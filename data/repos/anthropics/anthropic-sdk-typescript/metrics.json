@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-23T22:35:37.945Z",
+  "timestamp": "2026-04-24T01:29:59.238Z",
   "repository": {
     "stars": 1883,
-    "forks": 297
+    "forks": 298
   },
   "issues": {
-    "open_count": 89,
+    "open_count": 90,
     "closed_7d": 0,
     "closed_30d": 0,
     "closed_90d": 12,
-    "opened_7d": 0,
-    "opened_30d": 13,
-    "opened_90d": 42,
+    "opened_7d": 1,
+    "opened_30d": 14,
+    "opened_90d": 43,
     "assigned_count": 5,
-    "unassigned_count": 84,
+    "unassigned_count": 85,
     "unassigned_24h": 84,
     "unassigned_7d": 84,
     "unassigned_30d": 71,
@@ -47,7 +47,7 @@
         "title": "AWS Bedrock SDK: Error information is lost when streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/387",
         "createdAt": "2024-04-10T22:58:12Z",
-        "daysOpen": 742,
+        "daysOpen": 743,
         "labels": [],
         "commentCount": 2,
         "assignees": [
@@ -299,7 +299,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 354,
+        "daysOpen": 355,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -309,7 +309,7 @@
         "title": "TypeError: messages.create(...).withResponse is not a function",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/767",
         "createdAt": "2025-05-13T23:55:58Z",
-        "daysOpen": 344,
+        "daysOpen": 345,
         "labels": [],
         "commentCount": 10,
         "assignees": []
@@ -381,7 +381,7 @@
         "title": "`tool_result` messages not provided in `beta.messages.toolRunner`",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/820",
         "createdAt": "2025-09-27T23:16:43Z",
-        "daysOpen": 207,
+        "daysOpen": 208,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -681,7 +681,7 @@
         "title": "**Bug Report: Claude Code SDK Crashes on Initialization**",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/909",
         "createdAt": "2026-02-14T23:37:51Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -825,7 +825,7 @@
         "title": "SDK strips directory paths from filenames in multipart uploads, breaking skills.versions.create()",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/968",
         "createdAt": "2026-03-31T22:58:53Z",
-        "daysOpen": 22,
+        "daysOpen": 23,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -929,6 +929,16 @@
         "labels": [],
         "commentCount": 0,
         "assignees": []
+      },
+      {
+        "number": 1010,
+        "title": "TS2322: Type BetaRunnableTool<{}> is not assignable to type ToolUnion",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1010",
+        "createdAt": "2026-04-23T22:44:26Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
       }
     ],
     "by_label": {
@@ -948,7 +958,7 @@
       "p90_days": 88.8
     },
     "label_coverage_pct": 5.6,
-    "unlabeled_count": 84,
+    "unlabeled_count": 85,
     "stale_30d": 69,
     "stale_60d": 58,
     "stale_90d": 48,
@@ -1171,7 +1181,7 @@
         "title": "fix(streaming): skip SSE events with empty data to prevent JSON parse crash",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/903",
         "createdAt": "2026-02-06T23:59:08Z",
-        "daysOpen": 75,
+        "daysOpen": 76,
         "labels": [],
         "isDraft": false,
         "additions": 348,
@@ -1199,7 +1209,7 @@
         "title": "fix: correct typo 'overriden' → 'overridden' in README",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/918",
         "createdAt": "2026-02-19T23:54:37Z",
-        "daysOpen": 62,
+        "daysOpen": 63,
         "labels": [],
         "isDraft": false,
         "additions": 2,
@@ -1461,6 +1471,20 @@
         "assignees": []
       },
       {
+        "number": 966,
+        "title": "fix(tool runner): preserve state across iterations",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/966",
+        "createdAt": "2026-03-30T22:44:30Z",
+        "daysOpen": 24,
+        "labels": [],
+        "isDraft": false,
+        "additions": 153,
+        "deletions": 5,
+        "reviewCount": 0,
+        "author": "jeanpierrecarvalho",
+        "assignees": []
+      },
+      {
         "number": 965,
         "title": "fix: recover when TextDecoder rejects Uint8Array views",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/965",
@@ -1470,20 +1494,6 @@
         "isDraft": false,
         "additions": 132,
         "deletions": 6,
-        "reviewCount": 0,
-        "author": "jeanpierrecarvalho",
-        "assignees": []
-      },
-      {
-        "number": 966,
-        "title": "fix(tool runner): preserve state across iterations",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/966",
-        "createdAt": "2026-03-30T22:44:30Z",
-        "daysOpen": 23,
-        "labels": [],
-        "isDraft": false,
-        "additions": 153,
-        "deletions": 5,
         "reviewCount": 0,
         "author": "jeanpierrecarvalho",
         "assignees": []
@@ -1535,7 +1545,7 @@
         "title": "feat: add type guard helpers for ContentBlock variants",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/975",
         "createdAt": "2026-04-04T23:19:55Z",
-        "daysOpen": 18,
+        "daysOpen": 19,
         "labels": [],
         "isDraft": false,
         "additions": 360,
@@ -1587,6 +1597,20 @@
         "assignees": []
       },
       {
+        "number": 988,
+        "title": "fix(examples): update deprecated model IDs in tools-helpers examples",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/988",
+        "createdAt": "2026-04-10T00:23:13Z",
+        "daysOpen": 14,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "aymenhmaidiwastaken",
+        "assignees": []
+      },
+      {
         "number": 989,
         "title": "fix: handle invalid JSON escape sequences in partial-json-parser",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/989",
@@ -1601,17 +1625,17 @@
         "assignees": []
       },
       {
-        "number": 988,
-        "title": "fix(examples): update deprecated model IDs in tools-helpers examples",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/988",
-        "createdAt": "2026-04-10T00:23:13Z",
-        "daysOpen": 13,
+        "number": 994,
+        "title": "fix: propagate container.id across toolRunner iterations",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/994",
+        "createdAt": "2026-04-12T00:48:15Z",
+        "daysOpen": 12,
         "labels": [],
         "isDraft": false,
-        "additions": 4,
-        "deletions": 4,
+        "additions": 11,
+        "deletions": 1,
         "reviewCount": 0,
-        "author": "aymenhmaidiwastaken",
+        "author": "Yanhu007",
         "assignees": []
       },
       {
@@ -1626,20 +1650,6 @@
         "deletions": 59,
         "reviewCount": 0,
         "author": "claygeo",
-        "assignees": []
-      },
-      {
-        "number": 994,
-        "title": "fix: propagate container.id across toolRunner iterations",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/994",
-        "createdAt": "2026-04-12T00:48:15Z",
-        "daysOpen": 11,
-        "labels": [],
-        "isDraft": false,
-        "additions": 11,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "Yanhu007",
         "assignees": []
       },
       {
@@ -1725,14 +1735,14 @@
     }
   },
   "contributors": {
-    "total_known": 137,
-    "active_30d": 27,
-    "first_time_30d": 26,
+    "total_known": 138,
+    "active_30d": 28,
+    "first_time_30d": 27,
     "retention_rate_pct": 5.3,
     "churned_30d": 18,
-    "commits_per_week_avg": 3.7,
+    "commits_per_week_avg": 3.6,
     "commits_per_week_trend": [
-      9,
+      8,
       3,
       14,
       0,
@@ -1838,6 +1848,7 @@
       "lokinhh",
       "lzj960515",
       "manucorporat",
+      "marc-wilson",
       "mehrdad-shokri",
       "michaelfuest",
       "mineoka-kento",
@@ -1905,6 +1916,7 @@
       "kolkov",
       "leonardomalzacher",
       "lokinhh",
+      "marc-wilson",
       "misbahafzal",
       "riya-amemiya",
       "simran10meta",
@@ -2072,10 +2084,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 2561680,
     "total": 253118373,
-    "total_through": "2026-04-22",
-    "last_week": 15090533,
-    "last_month": 51776282
+    "total_through": "2026-04-22"
   }
 }
