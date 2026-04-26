@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-26T07:17:07.610Z",
+  "timestamp": "2026-04-26T08:49:40.731Z",
   "repository": {
-    "stars": 3315,
+    "stars": 3318,
     "forks": 634
   },
   "issues": {
-    "open_count": 109,
+    "open_count": 110,
     "closed_7d": 0,
     "closed_30d": 9,
     "closed_90d": 21,
-    "opened_7d": 8,
-    "opened_30d": 35,
-    "opened_90d": 77,
+    "opened_7d": 9,
+    "opened_30d": 36,
+    "opened_90d": 78,
     "assigned_count": 3,
-    "unassigned_count": 106,
+    "unassigned_count": 107,
     "unassigned_24h": 105,
     "unassigned_7d": 98,
     "unassigned_30d": 76,
@@ -196,7 +196,7 @@
         "title": "Replace dependency on `jiter` with another JSON parser or add a fallback",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/937",
         "createdAt": "2025-04-11T07:47:51Z",
-        "daysOpen": 379,
+        "daysOpen": 380,
         "labels": [
           "enhancement",
           "sdk"
@@ -369,7 +369,7 @@
         "title": "tools.0.web_search_20250305: Country code SG is not supported",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/995",
         "createdAt": "2025-07-17T07:35:24Z",
-        "daysOpen": 282,
+        "daysOpen": 283,
         "labels": [
           "api"
         ],
@@ -634,7 +634,7 @@
         "title": "Feature Request: Add `stream` helper to `AnthropicBedrock.beta.messages`",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1120",
         "createdAt": "2026-01-19T08:41:32Z",
-        "daysOpen": 96,
+        "daysOpen": 97,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -664,7 +664,7 @@
         "title": "API rejects code_execution_20250825 tool: 'use_web_search_purpose: Extra inputs are not permitted'",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1179",
         "createdAt": "2026-02-14T08:22:46Z",
-        "daysOpen": 70,
+        "daysOpen": 71,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -932,6 +932,18 @@
         "assignees": []
       },
       {
+        "number": 1317,
+        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
+        "createdAt": "2026-03-31T08:08:59Z",
+        "daysOpen": 26,
+        "labels": [
+          "api"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1318,
         "title": "[BUG] `client.beta.files.upload`  `PathLike` error",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1318",
@@ -952,15 +964,13 @@
         "assignees": []
       },
       {
-        "number": 1317,
-        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
-        "createdAt": "2026-03-31T08:08:59Z",
-        "daysOpen": 25,
-        "labels": [
-          "api"
-        ],
-        "commentCount": 0,
+        "number": 1325,
+        "title": "ServerToolResult not delivered when client tools interrupt the stream (code_execution + client tool concurrency)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1325",
+        "createdAt": "2026-04-02T07:42:30Z",
+        "daysOpen": 24,
+        "labels": [],
+        "commentCount": 1,
         "assignees": []
       },
       {
@@ -969,16 +979,6 @@
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1324",
         "createdAt": "2026-04-02T01:22:53Z",
         "daysOpen": 24,
-        "labels": [],
-        "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1325,
-        "title": "ServerToolResult not delivered when client tools interrupt the stream (code_execution + client tool concurrency)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1325",
-        "createdAt": "2026-04-02T07:42:30Z",
-        "daysOpen": 23,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -1216,6 +1216,16 @@
         "assignees": []
       },
       {
+        "number": 1450,
+        "title": "`BetaCitationPageLocation` contains `file_id` that cannot be roundtripped as a request",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1450",
+        "createdAt": "2026-04-26T08:36:44Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1447,
         "title": "Add stable alias for \"current recommended model\" (e.g. claude-sonnet-latest)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1447",
@@ -1247,8 +1257,8 @@
       "median_days": 3.9,
       "p90_days": 31.2
     },
-    "label_coverage_pct": 43.1,
-    "unlabeled_count": 62,
+    "label_coverage_pct": 42.7,
+    "unlabeled_count": 63,
     "stale_30d": 68,
     "stale_60d": 52,
     "stale_90d": 40,
@@ -1536,6 +1546,20 @@
         "assignees": []
       },
       {
+        "number": 1145,
+        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
+        "createdAt": "2026-01-22T08:10:13Z",
+        "daysOpen": 94,
+        "labels": [],
+        "isDraft": true,
+        "additions": 39,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
         "number": 1144,
         "title": "fix: strip schema field from tool definitions to prevent 500 errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1144",
@@ -1685,20 +1709,6 @@
         "isDraft": true,
         "additions": 49,
         "deletions": 16,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1145,
-        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
-        "createdAt": "2026-01-22T08:10:13Z",
-        "daysOpen": 93,
-        "labels": [],
-        "isDraft": true,
-        "additions": 39,
-        "deletions": 14,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -1862,7 +1872,7 @@
         "title": "feat: add double-buffer compaction for context window management",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1203",
         "createdAt": "2026-02-25T07:55:26Z",
-        "daysOpen": 59,
+        "daysOpen": 60,
         "labels": [],
         "isDraft": false,
         "additions": 1729,
@@ -2981,6 +2991,20 @@
         "assignees": []
       },
       {
+        "number": 1410,
+        "title": "fix: support PathLike values in file tuples",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1410",
+        "createdAt": "2026-04-18T08:16:32Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 14,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "MukundaKatta",
+        "assignees": []
+      },
+      {
         "number": 1409,
         "title": "Add missing deprecated models",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1409",
@@ -3018,20 +3042,6 @@
         "isDraft": false,
         "additions": 17,
         "deletions": 10,
-        "reviewCount": 0,
-        "author": "MukundaKatta",
-        "assignees": []
-      },
-      {
-        "number": 1410,
-        "title": "fix: support PathLike values in file tuples",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1410",
-        "createdAt": "2026-04-18T08:16:32Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 14,
-        "deletions": 3,
         "reviewCount": 0,
         "author": "MukundaKatta",
         "assignees": []
@@ -3301,11 +3311,11 @@
     }
   },
   "contributors": {
-    "total_known": 226,
-    "active_30d": 71,
-    "first_time_30d": 66,
-    "retention_rate_pct": 8.6,
-    "churned_30d": 53,
+    "total_known": 227,
+    "active_30d": 72,
+    "first_time_30d": 67,
+    "retention_rate_pct": 8.8,
+    "churned_30d": 52,
     "commits_per_week_avg": 10,
     "commits_per_week_trend": [
       9,
@@ -3405,6 +3415,7 @@
       "charles-dyfis-net",
       "codeananda",
       "cppntn",
+      "cs",
       "david-kunz-myriad",
       "davidemoraschi",
       "davidmhewitt",
@@ -3581,6 +3592,7 @@
       "ayeshakhalid192007-dev",
       "aymenhmaidiwastaken",
       "cameron-mcateer",
+      "cs",
       "digitamaz",
       "dtmeadows",
       "dzhurinskiy",
@@ -3781,9 +3793,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 1006723,
-    "last_week": 25780878,
-    "last_month": 99155864,
-    "total": 530173229
+    "daily": 1218352,
+    "last_week": 25992507,
+    "last_month": 99367493,
+    "total": 530384858
   }
 }
