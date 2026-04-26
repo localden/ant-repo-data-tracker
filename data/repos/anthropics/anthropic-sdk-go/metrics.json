@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-04-26T12:42:07.955Z",
+  "timestamp": "2026-04-26T14:37:36.356Z",
   "repository": {
     "stars": 1001,
     "forks": 159
   },
   "issues": {
-    "open_count": 40,
+    "open_count": 41,
     "closed_7d": 0,
     "closed_30d": 1,
     "closed_90d": 2,
-    "opened_7d": 1,
-    "opened_30d": 5,
-    "opened_90d": 16,
+    "opened_7d": 2,
+    "opened_30d": 6,
+    "opened_90d": 17,
     "assigned_count": 0,
-    "unassigned_count": 40,
+    "unassigned_count": 41,
     "unassigned_24h": 40,
     "unassigned_7d": 39,
     "unassigned_30d": 35,
@@ -124,7 +124,7 @@
         "title": "When calling bedrock model with tools it fails with 400 Bad Request {\"message\":\"messages.1.content.0.text.citations: Extra inputs are not permitted\"}",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/186",
         "createdAt": "2025-05-15T14:33:47Z",
-        "daysOpen": 345,
+        "daysOpen": 346,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -192,7 +192,7 @@
         "title": "anthropic.ContentBlockSourceContentUnionParam does not seem to marshal correctly",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/229",
         "createdAt": "2025-09-04T13:21:46Z",
-        "daysOpen": 233,
+        "daysOpen": 234,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -212,7 +212,7 @@
         "title": "web_fetch_20250910 is not an expected tag",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/235",
         "createdAt": "2025-09-14T14:05:53Z",
-        "daysOpen": 223,
+        "daysOpen": 224,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -442,6 +442,16 @@
         "labels": [],
         "commentCount": 0,
         "assignees": []
+      },
+      {
+        "number": 327,
+        "title": "bug: embedded reflect.Type breaks Go linker dead-code elimination",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/327",
+        "createdAt": "2026-04-26T13:41:50Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
       }
     ],
     "by_label": {
@@ -462,8 +472,8 @@
       "median_days": 30.1,
       "p90_days": 36.6
     },
-    "label_coverage_pct": 25,
-    "unlabeled_count": 30,
+    "label_coverage_pct": 24.4,
+    "unlabeled_count": 31,
     "stale_30d": 32,
     "stale_60d": 28,
     "stale_90d": 23,
@@ -546,7 +556,7 @@
         "title": "feat(bedrock): add bearer token authentication support",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/240",
         "createdAt": "2025-09-27T12:48:13Z",
-        "daysOpen": 210,
+        "daysOpen": 211,
         "labels": [],
         "isDraft": false,
         "additions": 206,
@@ -672,7 +682,7 @@
         "title": "feat: add Snowflake Cortex support (similar to Bedrock/Vertex)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/285",
         "createdAt": "2026-03-05T13:29:54Z",
-        "daysOpen": 51,
+        "daysOpen": 52,
         "labels": [],
         "isDraft": false,
         "additions": 571,
@@ -766,6 +776,20 @@
         "assignees": []
       },
       {
+        "number": 297,
+        "title": "Fix ToolResultBlockParam to support both string and array content",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
+        "createdAt": "2026-03-17T14:19:08Z",
+        "daysOpen": 40,
+        "labels": [],
+        "isDraft": false,
+        "additions": 366,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "joaquinhuigomez",
+        "assignees": []
+      },
+      {
         "number": 296,
         "title": "feat(api): register model_context_window_exceeded StopReason",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/296",
@@ -780,25 +804,11 @@
         "assignees": []
       },
       {
-        "number": 297,
-        "title": "Fix ToolResultBlockParam to support both string and array content",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
-        "createdAt": "2026-03-17T14:19:08Z",
-        "daysOpen": 39,
-        "labels": [],
-        "isDraft": false,
-        "additions": 366,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "joaquinhuigomez",
-        "assignees": []
-      },
-      {
         "number": 302,
         "title": "fix: increase JSONL stream scanner buffer to prevent silent truncation",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/302",
         "createdAt": "2026-03-23T14:14:38Z",
-        "daysOpen": 33,
+        "daysOpen": 34,
         "labels": [],
         "isDraft": false,
         "additions": 107,
@@ -934,9 +944,9 @@
     }
   },
   "contributors": {
-    "total_known": 75,
-    "active_30d": 13,
-    "first_time_30d": 10,
+    "total_known": 76,
+    "active_30d": 14,
+    "first_time_30d": 11,
     "retention_rate_pct": 10.5,
     "churned_30d": 17,
     "commits_per_week_avg": 10.1,
@@ -1004,6 +1014,7 @@
       "nicocesar",
       "nikblanchet",
       "nmartin314",
+      "ofek-frame",
       "packyg",
       "paddyjok",
       "pawbana",
@@ -1041,6 +1052,7 @@
       "mangomaker5",
       "mikecluck",
       "nicocesar",
+      "ofek-frame",
       "renfredxh",
       "ryanlitalien",
       "stainless-app",
