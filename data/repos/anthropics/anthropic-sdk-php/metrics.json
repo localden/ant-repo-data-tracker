@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-30T19:09:03.361Z",
+  "timestamp": "2026-04-30T20:53:22.954Z",
   "repository": {
     "stars": 141,
     "forks": 38
@@ -97,7 +97,7 @@
     "open_count": 5,
     "merged_7d": 2,
     "merged_30d": 10,
-    "merged_90d": 16,
+    "merged_90d": 15,
     "opened_7d": 2,
     "opened_30d": 10,
     "opened_90d": 19,
@@ -183,10 +183,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 206.4,
-      "median_hours": 40.8,
-      "p90_hours": 465.8,
-      "p95_hours": 822.4
+      "avg_hours": 109.5,
+      "median_hours": 33.8,
+      "p90_hours": 372.1,
+      "p95_hours": 441.4
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -195,11 +195,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 201.1,
-      "median_hours": 45
+      "avg_hours": 110.3,
+      "median_hours": 40.8
     },
-    "code_review_rate_pct": 93.8,
-    "rejection_rate_pct": 5.9,
+    "code_review_rate_pct": 93.3,
+    "rejection_rate_pct": 6.3,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 3,
@@ -216,8 +216,8 @@
     "commits_per_week_avg": 9.9,
     "commits_per_week_trend": [
       0,
-      1,
-      29,
+      30,
+      0,
       0,
       0,
       28,
@@ -264,53 +264,33 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 14,
-        "total_changes": 28
+        "pr_count": 13,
+        "total_changes": 26
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 14,
-        "total_changes": 300
+        "pr_count": 13,
+        "total_changes": 231
       },
       {
         "path": "README.md",
-        "pr_count": 14,
-        "total_changes": 567
+        "pr_count": 13,
+        "total_changes": 479
       },
       {
         "path": "src/Version.php",
-        "pr_count": 14,
-        "total_changes": 35
+        "pr_count": 13,
+        "total_changes": 26
       },
       {
         "path": ".stats.yml",
-        "pr_count": 13,
-        "total_changes": 80
+        "pr_count": 12,
+        "total_changes": 74
       },
       {
         "path": "tests/Services/Beta/MessagesTest.php",
-        "pr_count": 7,
-        "total_changes": 258
-      },
-      {
-        "path": "src/Core/Conversion.php",
         "pr_count": 6,
-        "total_changes": 109
-      },
-      {
-        "path": "src/Messages/Model.php",
-        "pr_count": 6,
-        "total_changes": 127
-      },
-      {
-        "path": "tests/Services/Beta/Messages/BatchesTest.php",
-        "pr_count": 6,
-        "total_changes": 189
-      },
-      {
-        "path": "scripts/test",
-        "pr_count": 5,
-        "total_changes": 30
+        "total_changes": 59
       },
       {
         "path": "src/Beta/AnthropicBeta.php",
@@ -318,34 +298,19 @@
         "total_changes": 12
       },
       {
-        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
+        "path": "src/Core/Conversion.php",
         "pr_count": 5,
-        "total_changes": 533
+        "total_changes": 59
       },
       {
-        "path": "src/Beta/Messages/MessageCreateParams.php",
+        "path": "src/Messages/Model.php",
         "pr_count": 5,
-        "total_changes": 520
+        "total_changes": 121
       },
       {
-        "path": "src/ServiceContracts/Beta/MessagesContract.php",
+        "path": "tests/Services/Beta/Messages/BatchesTest.php",
         "pr_count": 5,
-        "total_changes": 607
-      },
-      {
-        "path": "src/Services/Beta/MessagesService.php",
-        "pr_count": 5,
-        "total_changes": 945
-      },
-      {
-        "path": "src/Services/MessagesService.php",
-        "pr_count": 5,
-        "total_changes": 775
-      },
-      {
-        "path": "tests/Services/MessagesTest.php",
-        "pr_count": 5,
-        "total_changes": 171
+        "total_changes": 50
       },
       {
         "path": "scripts/mock",
@@ -353,74 +318,109 @@
         "total_changes": 47
       },
       {
-        "path": "src/Messages/Batches/BatchCreateParams/Request/Params.php",
+        "path": "scripts/test",
         "pr_count": 4,
-        "total_changes": 391
+        "total_changes": 22
+      },
+      {
+        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
+        "pr_count": 4,
+        "total_changes": 117
+      },
+      {
+        "path": "src/Beta/Messages/MessageCreateParams.php",
+        "pr_count": 4,
+        "total_changes": 115
+      },
+      {
+        "path": "src/ServiceContracts/Beta/MessagesContract.php",
+        "pr_count": 4,
+        "total_changes": 65
+      },
+      {
+        "path": "src/Services/Beta/MessagesService.php",
+        "pr_count": 4,
+        "total_changes": 172
+      },
+      {
+        "path": "src/Services/MessagesService.php",
+        "pr_count": 4,
+        "total_changes": 126
+      },
+      {
+        "path": "tests/Services/MessagesTest.php",
+        "pr_count": 4,
+        "total_changes": 40
+      },
+      {
+        "path": "src/Messages/Batches/BatchCreateParams/Request/Params.php",
+        "pr_count": 3,
+        "total_changes": 91
       },
       {
         "path": "src/Messages/MessageCreateParams.php",
-        "pr_count": 4,
-        "total_changes": 373
+        "pr_count": 3,
+        "total_changes": 89
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 14,
-        "file_count": 11
+        "pr_count": 13,
+        "file_count": 8
       },
       {
         "path": "src/",
-        "pr_count": 14,
-        "file_count": 21
+        "pr_count": 13,
+        "file_count": 5
       },
       {
         "path": "tests/Services/Beta/",
-        "pr_count": 10,
+        "pr_count": 9,
         "file_count": 10
       },
       {
         "path": "src/Beta/Messages/",
-        "pr_count": 8,
-        "file_count": 209
+        "pr_count": 7,
+        "file_count": 58
       },
       {
         "path": "src/Messages/",
-        "pr_count": 8,
-        "file_count": 158
+        "pr_count": 7,
+        "file_count": 100
       },
       {
         "path": "src/ServiceContracts/Beta/",
-        "pr_count": 8,
-        "file_count": 20
+        "pr_count": 7,
+        "file_count": 16
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 8,
-        "file_count": 20
+        "pr_count": 7,
+        "file_count": 18
       },
       {
         "path": "src/Core/",
-        "pr_count": 7,
+        "pr_count": 6,
         "file_count": 4
       },
       {
         "path": "src/Beta/",
-        "pr_count": 6,
-        "file_count": 12
+        "pr_count": 5,
+        "file_count": 1
       },
       {
         "path": "src/Services/",
-        "pr_count": 6,
-        "file_count": 6
+        "pr_count": 5,
+        "file_count": 3
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 4838,
-    "total": 238935,
-    "last_week": 25818,
-    "last_month": 96981
+    "daily": 4837,
+    "total": 239234,
+    "last_week": 25817,
+    "last_month": 96980
   }
 }
