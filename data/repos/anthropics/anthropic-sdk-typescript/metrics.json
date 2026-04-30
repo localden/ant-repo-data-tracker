@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-30T11:24:35.237Z",
+  "timestamp": "2026-04-30T13:20:35.454Z",
   "repository": {
     "stars": 1900,
     "forks": 304
@@ -79,7 +79,7 @@
         "title": "[Types] Error: Property 'text' does not exist on type 'ContentBlock'.",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/432",
         "createdAt": "2024-05-31T12:46:41Z",
-        "daysOpen": 698,
+        "daysOpen": 699,
         "labels": [
           "code-change"
         ],
@@ -252,7 +252,7 @@
         "title": "web_fetch fails for some links",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/846",
         "createdAt": "2025-11-18T12:22:56Z",
-        "daysOpen": 162,
+        "daysOpen": 163,
         "labels": [
           "api"
         ],
@@ -276,7 +276,7 @@
         "title": "Issues using compactionControl",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/863",
         "createdAt": "2025-12-17T13:12:56Z",
-        "daysOpen": 133,
+        "daysOpen": 134,
         "labels": [
           "code-change"
         ],
@@ -537,6 +537,18 @@
         "assignees": []
       },
       {
+        "number": 1012,
+        "title": "feature request: expose `thinking` / `output_config` on Managed Agents request-side types",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1012",
+        "createdAt": "2026-04-24T12:13:32Z",
+        "daysOpen": 6,
+        "labels": [
+          "spec-change"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1010,
         "title": "TS2322: Type BetaRunnableTool<{}> is not assignable to type ToolUnion",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1010",
@@ -546,18 +558,6 @@
           "code-change"
         ],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1012,
-        "title": "feature request: expose `thinking` / `output_config` on Managed Agents request-side types",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1012",
-        "createdAt": "2026-04-24T12:13:32Z",
-        "daysOpen": 5,
-        "labels": [
-          "spec-change"
-        ],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -619,18 +619,18 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 33,
+    "open_count": 34,
     "merged_7d": 2,
     "merged_30d": 14,
     "merged_90d": 27,
-    "opened_7d": 7,
-    "opened_30d": 39,
-    "opened_90d": 84,
+    "opened_7d": 8,
+    "opened_30d": 40,
+    "opened_90d": 85,
     "closed_not_merged_90d": 39,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 33,
-    "unassigned_24h": 31,
+    "unassigned_count": 34,
+    "unassigned_24h": 32,
     "unassigned_7d": 28,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -655,7 +655,7 @@
         "title": "feat(errors): add ignore_tool_parameter_parse_errors",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/859",
         "createdAt": "2025-12-09T13:16:26Z",
-        "daysOpen": 141,
+        "daysOpen": 142,
         "labels": [
           "code-change",
           "spec-change"
@@ -962,7 +962,7 @@
         "title": "fix: preserve directory paths in multipart upload filenames",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/969",
         "createdAt": "2026-04-01T12:47:56Z",
-        "daysOpen": 28,
+        "daysOpen": 29,
         "labels": [
           "spec-change"
         ],
@@ -1044,7 +1044,7 @@
         "title": "fix: handle invalid JSON escape sequences in partial-json-parser",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/989",
         "createdAt": "2026-04-10T12:44:31Z",
-        "daysOpen": 19,
+        "daysOpen": 20,
         "labels": [
           "code-change"
         ],
@@ -1134,6 +1134,34 @@
         "assignees": []
       },
       {
+        "number": 1020,
+        "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1020",
+        "createdAt": "2026-04-29T13:14:44Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 571,
+        "deletions": 573,
+        "reviewCount": 0,
+        "author": "xodn348",
+        "assignees": []
+      },
+      {
+        "number": 1023,
+        "title": "fix(build): rewrite block-comment @ts-ignore to line-comment form in dist declaration files",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1023",
+        "createdAt": "2026-04-30T11:26:10Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 15,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "xodn348",
+        "assignees": []
+      },
+      {
         "number": 1021,
         "title": "fix(bedrock): throw APIError for error events delivered in chunk frames",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1021",
@@ -1145,20 +1173,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "manar-ant",
-        "assignees": []
-      },
-      {
-        "number": 1020,
-        "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1020",
-        "createdAt": "2026-04-29T13:14:44Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 571,
-        "deletions": 573,
-        "reviewCount": 0,
-        "author": "xodn348",
         "assignees": []
       }
     ],
@@ -1182,7 +1196,7 @@
     "rejection_rate_pct": 59.1,
     "avg_reviews_per_pr": 1.4,
     "by_size": {
-      "small": 17,
+      "small": 18,
       "medium": 11,
       "large": 5
     }
