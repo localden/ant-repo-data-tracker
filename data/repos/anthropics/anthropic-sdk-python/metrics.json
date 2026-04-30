@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-30T17:09:09.028Z",
+  "timestamp": "2026-04-30T19:05:54.352Z",
   "repository": {
     "stars": 3342,
     "forks": 642
@@ -7,16 +7,16 @@
   "issues": {
     "open_count": 91,
     "closed_7d": 28,
-    "closed_30d": 36,
+    "closed_30d": 35,
     "closed_90d": 48,
     "opened_7d": 12,
-    "opened_30d": 43,
+    "opened_30d": 42,
     "opened_90d": 85,
     "assigned_count": 3,
     "unassigned_count": 88,
-    "unassigned_24h": 86,
+    "unassigned_24h": 87,
     "unassigned_7d": 78,
-    "unassigned_30d": 60,
+    "unassigned_30d": 61,
     "assigned_issues": [
       {
         "number": 432,
@@ -160,7 +160,7 @@
         "title": "API 400 error: `Could not process PDF`",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/903",
         "createdAt": "2025-03-12T19:01:03Z",
-        "daysOpen": 413,
+        "daysOpen": 414,
         "labels": [
           "api"
         ],
@@ -172,7 +172,7 @@
         "title": "Malformed XML-like `TextBlock` response instead of `ToolUseBlock` with Batch API",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/936",
         "createdAt": "2025-04-10T18:23:36Z",
-        "daysOpen": 384,
+        "daysOpen": 385,
         "labels": [
           "api"
         ],
@@ -217,6 +217,19 @@
         "assignees": []
       },
       {
+        "number": 941,
+        "title": "content_block_delta event not deserialized correctly during streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/941",
+        "createdAt": "2025-04-15T18:54:59Z",
+        "daysOpen": 380,
+        "labels": [
+          "bug",
+          "sdk"
+        ],
+        "commentCount": 4,
+        "assignees": []
+      },
+      {
         "number": 940,
         "title": "AnthropicBedrock retry policy not consistent with Bedrock Response",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/940",
@@ -227,19 +240,6 @@
           "sdk"
         ],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 941,
-        "title": "content_block_delta event not deserialized correctly during streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/941",
-        "createdAt": "2025-04-15T18:54:59Z",
-        "daysOpen": 379,
-        "labels": [
-          "bug",
-          "sdk"
-        ],
-        "commentCount": 4,
         "assignees": []
       },
       {
@@ -391,7 +391,7 @@
         "title": "Bug: Vertex AI incorrectly rejecting ~2MB requests with 413 '32MB limit exceeded' error",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1028",
         "createdAt": "2025-09-07T18:14:27Z",
-        "daysOpen": 234,
+        "daysOpen": 235,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -471,11 +471,21 @@
         "title": "/v1/messages - 413 Request too large - While under all limits.",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1098",
         "createdAt": "2025-12-11T19:02:58Z",
-        "daysOpen": 139,
+        "daysOpen": 140,
         "labels": [
           "api"
         ],
         "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 1103,
+        "title": "Token counting is not supported in Bedrock yet",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1103",
+        "createdAt": "2025-12-17T18:07:50Z",
+        "daysOpen": 134,
+        "labels": [],
+        "commentCount": 1,
         "assignees": []
       },
       {
@@ -484,16 +494,6 @@
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1102",
         "createdAt": "2025-12-17T11:25:04Z",
         "daysOpen": 134,
-        "labels": [],
-        "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1103,
-        "title": "Token counting is not supported in Bedrock yet",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1103",
-        "createdAt": "2025-12-17T18:07:50Z",
-        "daysOpen": 133,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -737,6 +737,16 @@
         "assignees": []
       },
       {
+        "number": 1318,
+        "title": "[BUG] `client.beta.files.upload`  `PathLike` error",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1318",
+        "createdAt": "2026-03-31T18:02:11Z",
+        "daysOpen": 30,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 1317,
         "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
@@ -746,16 +756,6 @@
           "api"
         ],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1318,
-        "title": "[BUG] `client.beta.files.upload`  `PathLike` error",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1318",
-        "createdAt": "2026-03-31T18:02:11Z",
-        "daysOpen": 29,
-        "labels": [],
-        "commentCount": 1,
         "assignees": []
       },
       {
@@ -783,7 +783,7 @@
         "title": "pause_turn with web_search: docs say re-submit response as-is, but API returns 400 — are we missing something?",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1339",
         "createdAt": "2026-04-06T17:52:16Z",
-        "daysOpen": 23,
+        "daysOpen": 24,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -801,6 +801,16 @@
         "assignees": []
       },
       {
+        "number": 1349,
+        "title": "Custom skills in container parameter break prompt caching - consistent skills list produces non-deterministic cache prefix",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1349",
+        "createdAt": "2026-04-08T18:53:35Z",
+        "daysOpen": 22,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
         "number": 1351,
         "title": "Feature Request: Support embeddings as a native input modality in the Messages API",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1351",
@@ -811,21 +821,11 @@
         "assignees": []
       },
       {
-        "number": 1349,
-        "title": "Custom skills in container parameter break prompt caching - consistent skills list produces non-deterministic cache prefix",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1349",
-        "createdAt": "2026-04-08T18:53:35Z",
-        "daysOpen": 21,
-        "labels": [],
-        "commentCount": 2,
-        "assignees": []
-      },
-      {
         "number": 1360,
         "title": "Error by downloading the PPT",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1360",
         "createdAt": "2026-04-10T18:18:01Z",
-        "daysOpen": 19,
+        "daysOpen": 20,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -1001,6 +1001,16 @@
         "assignees": []
       },
       {
+        "number": 1472,
+        "title": "Streaming error SSE event causes `AttributeError: 'NoneType' object has no attribute` errors",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1472",
+        "createdAt": "2026-04-29T17:46:38Z",
+        "daysOpen": 1,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1470,
         "title": "Streaming /v1/messages drops mid-stream with RemoteProtocolError on long code_execution + skills runs",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1470",
@@ -1015,16 +1025,6 @@
         "title": "Bedrock streaming SSE events errors are not handled gracefully",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1477",
         "createdAt": "2026-04-30T08:14:00Z",
-        "daysOpen": 0,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1472,
-        "title": "Streaming error SSE event causes `AttributeError: 'NoneType' object has no attribute` errors",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1472",
-        "createdAt": "2026-04-29T17:46:38Z",
         "daysOpen": 0,
         "labels": [],
         "commentCount": 0,
@@ -1062,7 +1062,7 @@
   "pulls": {
     "open_count": 114,
     "merged_7d": 1,
-    "merged_30d": 12,
+    "merged_30d": 11,
     "merged_90d": 28,
     "opened_7d": 25,
     "opened_30d": 80,
@@ -1154,7 +1154,7 @@
         "title": "feat: support special types for structured outputs",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1076",
         "createdAt": "2025-11-19T17:26:12Z",
-        "daysOpen": 161,
+        "daysOpen": 162,
         "labels": [],
         "isDraft": false,
         "additions": 75,
@@ -1532,6 +1532,20 @@
         "assignees": []
       },
       {
+        "number": 1230,
+        "title": "fix: add missing stream() method to Bedrock beta.messages",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1230",
+        "createdAt": "2026-03-08T18:30:36Z",
+        "daysOpen": 53,
+        "labels": [],
+        "isDraft": false,
+        "additions": 2,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "MaxwellCalkin",
+        "assignees": []
+      },
+      {
         "number": 1229,
         "title": "fix: continue tool runner loop on server_tool_use with pause_turn",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1229",
@@ -1602,20 +1616,6 @@
         "assignees": []
       },
       {
-        "number": 1230,
-        "title": "fix: add missing stream() method to Bedrock beta.messages",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1230",
-        "createdAt": "2026-03-08T18:30:36Z",
-        "daysOpen": 52,
-        "labels": [],
-        "isDraft": false,
-        "additions": 2,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "MaxwellCalkin",
-        "assignees": []
-      },
-      {
         "number": 1238,
         "title": "fix: resolve subscripted generics in _build_discriminated_union_meta (pydantic v1)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1238",
@@ -1641,6 +1641,20 @@
         "deletions": 4,
         "reviewCount": 1,
         "author": "gn00295120",
+        "assignees": []
+      },
+      {
+        "number": 1246,
+        "title": "fix(bedrock): add missing stream() method to beta.messages",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1246",
+        "createdAt": "2026-03-14T17:58:50Z",
+        "daysOpen": 47,
+        "labels": [],
+        "isDraft": false,
+        "additions": 517,
+        "deletions": 22,
+        "reviewCount": 1,
+        "author": "passionworkeer",
         "assignees": []
       },
       {
@@ -1672,20 +1686,6 @@
         "assignees": []
       },
       {
-        "number": 1246,
-        "title": "fix(bedrock): add missing stream() method to beta.messages",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1246",
-        "createdAt": "2026-03-14T17:58:50Z",
-        "daysOpen": 46,
-        "labels": [],
-        "isDraft": false,
-        "additions": 517,
-        "deletions": 22,
-        "reviewCount": 1,
-        "author": "passionworkeer",
-        "assignees": []
-      },
-      {
         "number": 1247,
         "title": "perf: skip no-op recursive transform for types without PropertyInfo",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1247",
@@ -1697,6 +1697,20 @@
         "deletions": 2,
         "reviewCount": 1,
         "author": "Scottcjn",
+        "assignees": []
+      },
+      {
+        "number": 1252,
+        "title": "Add arithmetic calculator example using tool use",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1252",
+        "createdAt": "2026-03-17T19:02:52Z",
+        "daysOpen": 44,
+        "labels": [],
+        "isDraft": false,
+        "additions": 81,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "omid-ant",
         "assignees": []
       },
       {
@@ -1739,20 +1753,6 @@
         "deletions": 12,
         "reviewCount": 0,
         "author": "frankgoldfish",
-        "assignees": []
-      },
-      {
-        "number": 1252,
-        "title": "Add arithmetic calculator example using tool use",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1252",
-        "createdAt": "2026-03-17T19:02:52Z",
-        "daysOpen": 43,
-        "labels": [],
-        "isDraft": false,
-        "additions": 81,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "omid-ant",
         "assignees": []
       },
       {
@@ -1966,6 +1966,20 @@
         "assignees": []
       },
       {
+        "number": 1306,
+        "title": "fix(bedrock,vertex): add missing 413 and 529 status error handling",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1306",
+        "createdAt": "2026-03-27T18:33:11Z",
+        "daysOpen": 34,
+        "labels": [],
+        "isDraft": false,
+        "additions": 87,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "4444J99",
+        "assignees": []
+      },
+      {
         "number": 1304,
         "title": "fix: correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1304",
@@ -1977,20 +1991,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "nil957",
-        "assignees": []
-      },
-      {
-        "number": 1306,
-        "title": "fix(bedrock,vertex): add missing 413 and 529 status error handling",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1306",
-        "createdAt": "2026-03-27T18:33:11Z",
-        "daysOpen": 33,
-        "labels": [],
-        "isDraft": false,
-        "additions": 87,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "4444J99",
         "assignees": []
       },
       {
@@ -2386,6 +2386,20 @@
         "assignees": []
       },
       {
+        "number": 1442,
+        "title": "fix: fire BetaInputJsonEvent for server_tool_use blocks during streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1442",
+        "createdAt": "2026-04-24T17:33:26Z",
+        "daysOpen": 6,
+        "labels": [],
+        "isDraft": false,
+        "additions": 6,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zelys-DFKH",
+        "assignees": []
+      },
+      {
         "number": 1446,
         "title": "fix(streaming): fire BetaInputJsonEvent for server_tool_use blocks",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1446",
@@ -2439,20 +2453,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "abhicris",
-        "assignees": []
-      },
-      {
-        "number": 1442,
-        "title": "fix: fire BetaInputJsonEvent for server_tool_use blocks during streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1442",
-        "createdAt": "2026-04-24T17:33:26Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 6,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zelys-DFKH",
         "assignees": []
       },
       {
@@ -2709,13 +2709,13 @@
   },
   "contributors": {
     "total_known": 240,
-    "active_30d": 76,
-    "first_time_30d": 71,
-    "retention_rate_pct": 8.9,
-    "churned_30d": 51,
-    "commits_per_week_avg": 9.8,
+    "active_30d": 73,
+    "first_time_30d": 70,
+    "retention_rate_pct": 5.3,
+    "churned_30d": 54,
+    "commits_per_week_avg": 9.6,
     "commits_per_week_trend": [
-      6,
+      4,
       3,
       20,
       0,
@@ -2723,8 +2723,8 @@
       24,
       0,
       24,
-      12,
-      18,
+      16,
+      14,
       0,
       10
     ],
@@ -2987,7 +2987,6 @@
       "MuraveyApp",
       "NFL877",
       "RahulBalakavi",
-      "RobertCraigie",
       "Shulyaka",
       "TomerAberbach",
       "Vansh1811",
@@ -3015,7 +3014,6 @@
       "ishihama",
       "jay-dhamale",
       "jmm2020",
-      "karpetrosyan",
       "kowyo",
       "kryvel",
       "lelandfy",
@@ -3040,7 +3038,6 @@
       "stainless-app",
       "tejasp2022",
       "tianhaocui",
-      "tl-hbk",
       "topgfkshop-rgb",
       "ujjwaljainnn",
       "wocaoac-cpu",
@@ -3207,9 +3204,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 2838785,
-    "last_week": 28490734,
-    "last_month": 107409495,
-    "total": 549227326
+    "daily": 3305041,
+    "last_week": 28956990,
+    "last_month": 107875751,
+    "total": 549693582
   }
 }
