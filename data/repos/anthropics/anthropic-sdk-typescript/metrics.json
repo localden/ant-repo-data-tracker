@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-04-29T22:46:23.304Z",
+  "timestamp": "2026-04-30T01:56:40.385Z",
   "repository": {
     "stars": 1899,
     "forks": 303
@@ -11,7 +11,7 @@
     "closed_90d": 60,
     "opened_7d": 5,
     "opened_30d": 16,
-    "opened_90d": 42,
+    "opened_90d": 41,
     "assigned_count": 5,
     "unassigned_count": 41,
     "unassigned_24h": 41,
@@ -51,7 +51,7 @@
         "title": "AWS Bedrock SDK: Error information is lost when streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/387",
         "createdAt": "2024-04-10T22:58:12Z",
-        "daysOpen": 748,
+        "daysOpen": 749,
         "labels": [
           "code-change"
         ],
@@ -167,7 +167,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 360,
+        "daysOpen": 361,
         "labels": [
           "code-change"
         ],
@@ -372,7 +372,7 @@
         "title": "Clarification needed: `cache_read_input_tokens` behavior during `tool_search_tool` use",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/907",
         "createdAt": "2026-02-12T01:55:29Z",
-        "daysOpen": 76,
+        "daysOpen": 77,
         "labels": [
           "api"
         ],
@@ -505,7 +505,7 @@
         "title": "SDK strips directory paths from filenames in multipart uploads, breaking skills.versions.create()",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/968",
         "createdAt": "2026-03-31T22:58:53Z",
-        "daysOpen": 28,
+        "daysOpen": 29,
         "labels": [
           "spec-change"
         ],
@@ -609,17 +609,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 32,
+    "open_count": 33,
     "merged_7d": 2,
     "merged_30d": 14,
-    "merged_90d": 28,
-    "opened_7d": 6,
-    "opened_30d": 38,
+    "merged_90d": 27,
+    "opened_7d": 7,
+    "opened_30d": 39,
     "opened_90d": 84,
     "closed_not_merged_90d": 39,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 32,
+    "unassigned_count": 33,
     "unassigned_24h": 31,
     "unassigned_7d": 28,
     "assigned_prs": [],
@@ -726,7 +726,7 @@
         "title": "fix(streaming): skip SSE events with empty data to prevent JSON parse crash",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/903",
         "createdAt": "2026-02-06T23:59:08Z",
-        "daysOpen": 81,
+        "daysOpen": 82,
         "labels": [
           "code-change"
         ],
@@ -984,7 +984,7 @@
         "title": "feat: add type guard helpers for ContentBlock variants",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/975",
         "createdAt": "2026-04-04T23:19:55Z",
-        "daysOpen": 24,
+        "daysOpen": 25,
         "labels": [
           "code-change",
           "spec-change"
@@ -1018,7 +1018,7 @@
         "title": "fix(examples): update deprecated model IDs in tools-helpers examples",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/988",
         "createdAt": "2026-04-10T00:23:13Z",
-        "daysOpen": 19,
+        "daysOpen": 20,
         "labels": [
           "code-change"
         ],
@@ -1124,6 +1124,20 @@
         "assignees": []
       },
       {
+        "number": 1021,
+        "title": "fix(bedrock): throw APIError for error events delivered in chunk frames",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1021",
+        "createdAt": "2026-04-29T22:53:24Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 67,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "manar-ant",
+        "assignees": []
+      },
+      {
         "number": 1020,
         "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1020",
@@ -1139,10 +1153,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 344.5,
-      "median_hours": 7.7,
+      "avg_hours": 354.1,
+      "median_hours": 12.9,
       "p90_hours": 156.6,
-      "p95_hours": 320.5
+      "p95_hours": 334.6
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1151,22 +1165,22 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 70.8,
-      "median_hours": 23.5
+      "avg_hours": 73.4,
+      "median_hours": 23.6
     },
-    "code_review_rate_pct": 96.4,
-    "rejection_rate_pct": 58.2,
-    "avg_reviews_per_pr": 1.5,
+    "code_review_rate_pct": 96.3,
+    "rejection_rate_pct": 59.1,
+    "avg_reviews_per_pr": 1.4,
     "by_size": {
-      "small": 16,
+      "small": 17,
       "medium": 11,
       "large": 5
     }
   },
   "contributors": {
-    "total_known": 145,
-    "active_30d": 31,
-    "first_time_30d": 28,
+    "total_known": 146,
+    "active_30d": 32,
+    "first_time_30d": 29,
     "retention_rate_pct": 12.5,
     "churned_30d": 21,
     "commits_per_week_avg": 3.7,
@@ -1279,6 +1293,7 @@
       "leonardomalzacher",
       "lokinhh",
       "lzj960515",
+      "manar-ant",
       "manucorporat",
       "marc-wilson",
       "mehrdad-shokri",
@@ -1352,6 +1367,7 @@
       "itsikbelson-spotlight",
       "kolkov",
       "lokinhh",
+      "manar-ant",
       "marc-wilson",
       "misbahafzal",
       "mseep-ai",
@@ -1369,28 +1385,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 23,
-        "total_changes": 79
+        "pr_count": 22,
+        "total_changes": 77
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 23,
-        "total_changes": 336
+        "pr_count": 22,
+        "total_changes": 328
       },
       {
         "path": "package.json",
-        "pr_count": 22,
-        "total_changes": 56
+        "pr_count": 21,
+        "total_changes": 54
       },
       {
         "path": "packages/vertex-sdk/yarn.lock",
-        "pr_count": 22,
-        "total_changes": 44
+        "pr_count": 21,
+        "total_changes": 42
       },
       {
         "path": "src/version.ts",
-        "pr_count": 22,
-        "total_changes": 44
+        "pr_count": 21,
+        "total_changes": 42
       },
       {
         "path": ".stats.yml",
@@ -1471,18 +1487,18 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 25,
+        "pr_count": 24,
         "file_count": 14
       },
       {
         "path": "packages/vertex-sdk/",
-        "pr_count": 22,
+        "pr_count": 21,
         "file_count": 3
       },
       {
         "path": "src/",
-        "pr_count": 22,
-        "file_count": 3
+        "pr_count": 21,
+        "file_count": 2
       },
       {
         "path": "src/resources/beta/",
@@ -1523,10 +1539,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 2971467,
     "total": 266976986,
-    "total_through": "2026-04-28",
-    "last_week": 16420293,
-    "last_month": 57497946
+    "total_through": "2026-04-28"
   }
 }
