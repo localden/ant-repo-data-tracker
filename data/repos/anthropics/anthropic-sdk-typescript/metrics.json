@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-03T10:45:25.388Z",
+  "timestamp": "2026-05-03T12:45:10.644Z",
   "repository": {
     "stars": 1908,
     "forks": 306
@@ -93,7 +93,7 @@
         "title": "vertex-sdk: Add gcp-labels to llm calls",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/619",
         "createdAt": "2024-12-04T10:50:24Z",
-        "daysOpen": 514,
+        "daysOpen": 515,
         "labels": [
           "code-change"
         ],
@@ -238,7 +238,7 @@
         "title": "web_fetch fails for some links",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/846",
         "createdAt": "2025-11-18T12:22:56Z",
-        "daysOpen": 165,
+        "daysOpen": 166,
         "labels": [
           "api"
         ],
@@ -406,7 +406,7 @@
         "title": "`toolRunner` drops `defaultHeaders` on follow-up requests (breaks proxy/gateway setups)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/922",
         "createdAt": "2026-02-22T11:15:56Z",
-        "daysOpen": 69,
+        "daysOpen": 70,
         "labels": [
           "code-change"
         ],
@@ -523,6 +523,18 @@
         "assignees": []
       },
       {
+        "number": 1012,
+        "title": "feature request: expose `thinking` / `output_config` on Managed Agents request-side types",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1012",
+        "createdAt": "2026-04-24T12:13:32Z",
+        "daysOpen": 9,
+        "labels": [
+          "spec-change"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1010,
         "title": "TS2322: Type BetaRunnableTool<{}> is not assignable to type ToolUnion",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1010",
@@ -532,18 +544,6 @@
           "code-change"
         ],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1012,
-        "title": "feature request: expose `thinking` / `output_config` on Managed Agents request-side types",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1012",
-        "createdAt": "2026-04-24T12:13:32Z",
-        "daysOpen": 8,
-        "labels": [
-          "spec-change"
-        ],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -606,7 +606,7 @@
     "draft_count": 0,
     "assigned_count": 0,
     "unassigned_count": 35,
-    "unassigned_24h": 34,
+    "unassigned_24h": 35,
     "unassigned_7d": 28,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -1020,7 +1020,7 @@
         "title": "fix: handle invalid JSON escape sequences in partial-json-parser",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/989",
         "createdAt": "2026-04-10T12:44:31Z",
-        "daysOpen": 22,
+        "daysOpen": 23,
         "labels": [
           "code-change"
         ],
@@ -1094,6 +1094,20 @@
         "assignees": []
       },
       {
+        "number": 1023,
+        "title": "fix(build): rewrite block-comment @ts-ignore to line-comment form in dist declaration files",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1023",
+        "createdAt": "2026-04-30T11:26:10Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 15,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "xodn348",
+        "assignees": []
+      },
+      {
         "number": 1020,
         "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1020",
@@ -1122,15 +1136,15 @@
         "assignees": []
       },
       {
-        "number": 1023,
-        "title": "fix(build): rewrite block-comment @ts-ignore to line-comment form in dist declaration files",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1023",
-        "createdAt": "2026-04-30T11:26:10Z",
-        "daysOpen": 2,
+        "number": 1026,
+        "title": "fix(types): make betaZodTool return type assignable to ToolUnion",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1026",
+        "createdAt": "2026-05-02T11:27:05Z",
+        "daysOpen": 1,
         "labels": [],
         "isDraft": false,
-        "additions": 15,
-        "deletions": 1,
+        "additions": 77,
+        "deletions": 3,
         "reviewCount": 0,
         "author": "xodn348",
         "assignees": []
@@ -1149,20 +1163,6 @@
         "deletions": 17,
         "reviewCount": 0,
         "author": "stainless-app",
-        "assignees": []
-      },
-      {
-        "number": 1026,
-        "title": "fix(types): make betaZodTool return type assignable to ToolUnion",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1026",
-        "createdAt": "2026-05-02T11:27:05Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 77,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "xodn348",
         "assignees": []
       }
     ],
@@ -1195,8 +1195,8 @@
     "total_known": 149,
     "active_30d": 30,
     "first_time_30d": 27,
-    "retention_rate_pct": 11.5,
-    "churned_30d": 23,
+    "retention_rate_pct": 12,
+    "churned_30d": 22,
     "commits_per_week_avg": 2.9,
     "commits_per_week_trend": [
       0,
