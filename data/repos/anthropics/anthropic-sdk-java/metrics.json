@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-04T17:24:07.654Z",
+  "timestamp": "2026-05-04T19:15:04.058Z",
   "repository": {
     "stars": 300,
     "forks": 77
@@ -64,7 +64,7 @@
         "title": "Frequent problems round tripping Assistant messages recieved from anthropic back into create message params.",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/260",
         "createdAt": "2025-06-05T17:47:31Z",
-        "daysOpen": 332,
+        "daysOpen": 333,
         "labels": [
           "bug",
           "api"
@@ -139,12 +139,15 @@
       },
       {
         "number": 321,
-        "title": "[Java SDK] Structured Output: Java fields are always included in the required array, ignoring nullability markers",
+        "title": "Structured Output: Java fields are always included in the required array, ignoring nullability markers",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/321",
         "createdAt": "2026-04-12T16:24:41Z",
         "daysOpen": 22,
-        "labels": [],
-        "commentCount": 5,
+        "labels": [
+          "bug",
+          "sdk"
+        ],
+        "commentCount": 6,
         "assignees": []
       },
       {
@@ -153,7 +156,10 @@
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/322",
         "createdAt": "2026-04-14T12:42:42Z",
         "daysOpen": 20,
-        "labels": [],
+        "labels": [
+          "question",
+          "sdk"
+        ],
         "commentCount": 1,
         "assignees": []
       },
@@ -163,15 +169,20 @@
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/326",
         "createdAt": "2026-04-23T20:38:18Z",
         "daysOpen": 10,
-        "labels": [],
+        "labels": [
+          "documentation",
+          "sdk"
+        ],
         "commentCount": 0,
         "assignees": []
       }
     ],
     "by_label": {
+      "bug": 6,
+      "sdk": 9,
+      "question": 1,
+      "documentation": 1,
       "enhancement": 4,
-      "sdk": 6,
-      "bug": 5,
       "spec": 1,
       "api": 2,
       "upstream": 1
@@ -187,26 +198,26 @@
       "median_days": 66.5,
       "p90_days": 179.7
     },
-    "label_coverage_pct": 75,
-    "unlabeled_count": 3,
+    "label_coverage_pct": 100,
+    "unlabeled_count": 0,
     "stale_30d": 8,
     "stale_60d": 6,
     "stale_90d": 6,
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 3,
-    "merged_7d": 0,
-    "merged_30d": 7,
-    "merged_90d": 19,
+    "open_count": 2,
+    "merged_7d": 1,
+    "merged_30d": 8,
+    "merged_90d": 20,
     "opened_7d": 1,
     "opened_30d": 9,
     "opened_90d": 24,
     "closed_not_merged_90d": 4,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 3,
-    "unassigned_24h": 2,
+    "unassigned_count": 2,
+    "unassigned_24h": 1,
     "unassigned_7d": 1,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -237,29 +248,13 @@
         "reviewCount": 0,
         "author": "salaboy",
         "assignees": []
-      },
-      {
-        "number": 327,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/327",
-        "createdAt": "2026-04-28T15:42:16Z",
-        "daysOpen": 6,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 811,
-        "deletions": 70,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 75.4,
-      "median_hours": 32.7,
-      "p90_hours": 198.9,
-      "p95_hours": 279.6
+      "avg_hours": 79.1,
+      "median_hours": 43.1,
+      "p90_hours": 189.3,
+      "p95_hours": 275.2
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -268,38 +263,38 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 84.6,
-      "median_hours": 45.8
+      "avg_hours": 87.7,
+      "median_hours": 47.4
     },
-    "code_review_rate_pct": 94.7,
-    "rejection_rate_pct": 17.4,
+    "code_review_rate_pct": 95,
+    "rejection_rate_pct": 16.7,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 1,
       "medium": 1,
-      "large": 1
+      "large": 0
     }
   },
   "contributors": {
     "total_known": 29,
-    "active_30d": 6,
+    "active_30d": 7,
     "first_time_30d": 5,
-    "retention_rate_pct": 12.5,
-    "churned_30d": 7,
-    "commits_per_week_avg": 6.8,
+    "retention_rate_pct": 25,
+    "churned_30d": 6,
+    "commits_per_week_avg": 7.9,
     "commits_per_week_trend": [
       0,
       19,
       0,
       25,
-      6,
       8,
+      6,
       0,
       16,
       4,
       2,
       1,
-      0
+      14
     ],
     "allContributors": [
       "G0dC0der",
@@ -336,6 +331,7 @@
       "G0dC0der",
       "JustinMifkovich",
       "VRDate",
+      "cameron-mcateer",
       "saings",
       "salaboy",
       "stainless-app"
@@ -345,43 +341,48 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 17,
-        "total_changes": 286
+        "pr_count": 18,
+        "total_changes": 307
       },
       {
         "path": "README.md",
-        "pr_count": 17,
-        "total_changes": 2242
+        "pr_count": 18,
+        "total_changes": 2339
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 16,
-        "total_changes": 35
+        "pr_count": 17,
+        "total_changes": 37
       },
       {
         "path": ".stats.yml",
-        "pr_count": 16,
-        "total_changes": 88
+        "pr_count": 17,
+        "total_changes": 94
       },
       {
         "path": "build.gradle.kts",
-        "pr_count": 16,
-        "total_changes": 32
+        "pr_count": 17,
+        "total_changes": 34
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCreateParams.kt",
-        "pr_count": 9,
-        "total_changes": 684
+        "pr_count": 10,
+        "total_changes": 803
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/batches/BatchCreateParams.kt",
-        "pr_count": 8,
-        "total_changes": 457
+        "pr_count": 9,
+        "total_changes": 593
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/StructuredMessageCreateParamsTest.kt",
         "pr_count": 8,
         "total_changes": 25
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/Model.kt",
+        "pr_count": 7,
+        "total_changes": 360
       },
       {
         "path": "buildSrc/src/main/kotlin/anthropic.publish.gradle.kts",
@@ -409,45 +410,40 @@
         "total_changes": 34
       },
       {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/AnthropicBeta.kt",
+        "pr_count": 6,
+        "total_changes": 44
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCountTokensParams.kt",
+        "pr_count": 6,
+        "total_changes": 687
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/MessageCreateParams.kt",
+        "pr_count": 6,
+        "total_changes": 295
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/batches/BatchCreateParams.kt",
+        "pr_count": 6,
+        "total_changes": 214
+      },
+      {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/StructuredMessageCreateParams.kt",
         "pr_count": 6,
         "total_changes": 84
       },
       {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/Model.kt",
-        "pr_count": 6,
-        "total_changes": 352
-      },
-      {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/MessageCreateParamsTest.kt",
         "pr_count": 6,
         "total_changes": 78
-      },
-      {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/batches/BatchCreateParamsTest.kt",
-        "pr_count": 6,
-        "total_changes": 96
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/AnthropicBeta.kt",
-        "pr_count": 5,
-        "total_changes": 36
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/MessageCreateParams.kt",
-        "pr_count": 5,
-        "total_changes": 223
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/batches/BatchCreateParams.kt",
-        "pr_count": 5,
-        "total_changes": 128
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 18,
+        "pr_count": 19,
         "file_count": 8
       },
       {
@@ -461,29 +457,29 @@
         "file_count": 9
       },
       {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/",
+        "pr_count": 11,
+        "file_count": 214
+      },
+      {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/",
         "pr_count": 11,
         "file_count": 62
       },
       {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/",
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/",
         "pr_count": 10,
-        "file_count": 77
+        "file_count": 162
       },
       {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/",
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/batches/",
         "pr_count": 9,
-        "file_count": 105
+        "file_count": 11
       },
       {
         "path": "buildSrc/src/main/kotlin/",
         "pr_count": 9,
         "file_count": 3
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/batches/",
-        "pr_count": 8,
-        "file_count": 1
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/helpers/",
