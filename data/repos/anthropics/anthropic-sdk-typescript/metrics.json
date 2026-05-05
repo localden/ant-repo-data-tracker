@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-05T13:12:52.290Z",
+  "timestamp": "2026-05-05T15:40:00.027Z",
   "repository": {
-    "stars": 1911,
+    "stars": 1912,
     "forks": 307
   },
   "issues": {
@@ -129,7 +129,7 @@
         "title": "Anthropic api fail to parse tool output, exposing anthropic internal tool call structure",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/695",
         "createdAt": "2025-02-25T13:29:53Z",
-        "daysOpen": 433,
+        "daysOpen": 434,
         "labels": [
           "api"
         ],
@@ -201,7 +201,7 @@
         "title": "Undefined vs null fields from the OpenAPI specs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/811",
         "createdAt": "2025-08-26T13:49:20Z",
-        "daysOpen": 251,
+        "daysOpen": 252,
         "labels": [
           "openapi",
           "spec-change"
@@ -250,7 +250,7 @@
         "title": "Seems that tool_search_tool generates context problems",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/862",
         "createdAt": "2025-12-16T13:40:55Z",
-        "daysOpen": 139,
+        "daysOpen": 140,
         "labels": [
           "spec-change"
         ],
@@ -262,7 +262,7 @@
         "title": "Issues using compactionControl",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/863",
         "createdAt": "2025-12-17T13:12:56Z",
-        "daysOpen": 138,
+        "daysOpen": 139,
         "labels": [
           "code-change"
         ],
@@ -442,7 +442,7 @@
         "title": "O(N²) performance bottleneck in [MessageStream](src/lib/MessageStream.ts#51-747) during structured output streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/933",
         "createdAt": "2026-03-08T13:35:35Z",
-        "daysOpen": 57,
+        "daysOpen": 58,
         "labels": [
           "code-change"
         ],
@@ -454,7 +454,7 @@
         "title": "toBase64  stack overflow on large inputs (e.g. image uploads) in non-Node environments",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/932",
         "createdAt": "2026-03-08T13:28:53Z",
-        "daysOpen": 57,
+        "daysOpen": 58,
         "labels": [
           "code-change"
         ],
@@ -651,7 +651,7 @@
         "title": "feat(errors): add ignore_tool_parameter_parse_errors",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/859",
         "createdAt": "2025-12-09T13:16:26Z",
-        "daysOpen": 146,
+        "daysOpen": 147,
         "labels": [
           "code-change",
           "spec-change"
@@ -668,7 +668,7 @@
         "title": "docs: fix typos",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/866",
         "createdAt": "2025-12-18T14:54:39Z",
-        "daysOpen": 137,
+        "daysOpen": 138,
         "labels": [
           "code-change"
         ],
@@ -684,7 +684,7 @@
         "title": "fix(tool runner): use latest message for tool response generation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/878",
         "createdAt": "2026-01-13T13:45:53Z",
-        "daysOpen": 111,
+        "daysOpen": 112,
         "labels": [
           "code-change"
         ],
@@ -700,7 +700,7 @@
         "title": "docs: expand tool runner documentation with internal mechanics",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/881",
         "createdAt": "2026-01-15T15:38:34Z",
-        "daysOpen": 109,
+        "daysOpen": 110,
         "labels": [
           "code-change"
         ],
@@ -860,7 +860,7 @@
         "title": "fix: implement ApiKeySetter — async apiKey functions were silently discarded",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/957",
         "createdAt": "2026-03-23T13:47:39Z",
-        "daysOpen": 42,
+        "daysOpen": 43,
         "labels": [
           "spec-change"
         ],
@@ -909,7 +909,7 @@
         "title": "fix: prevent stack overflow in toBase64 for large inputs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/961",
         "createdAt": "2026-03-26T15:21:11Z",
-        "daysOpen": 39,
+        "daysOpen": 40,
         "labels": [
           "code-change",
           "spec-change"
@@ -1088,7 +1088,7 @@
         "title": "fix(MessageStream): propagate container from message_delta into final snapshot",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1015",
         "createdAt": "2026-04-26T15:14:58Z",
-        "daysOpen": 8,
+        "daysOpen": 9,
         "labels": [
           "code-change"
         ],
@@ -1114,6 +1114,20 @@
         "assignees": []
       },
       {
+        "number": 1020,
+        "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1020",
+        "createdAt": "2026-04-29T13:14:44Z",
+        "daysOpen": 6,
+        "labels": [],
+        "isDraft": false,
+        "additions": 571,
+        "deletions": 573,
+        "reviewCount": 0,
+        "author": "xodn348",
+        "assignees": []
+      },
+      {
         "number": 1023,
         "title": "fix(build): rewrite block-comment @ts-ignore to line-comment form in dist declaration files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1023",
@@ -1123,20 +1137,6 @@
         "isDraft": false,
         "additions": 15,
         "deletions": 1,
-        "reviewCount": 0,
-        "author": "xodn348",
-        "assignees": []
-      },
-      {
-        "number": 1020,
-        "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1020",
-        "createdAt": "2026-04-29T13:14:44Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 571,
-        "deletions": 573,
         "reviewCount": 0,
         "author": "xodn348",
         "assignees": []
