@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-06T13:32:24.901Z",
+  "timestamp": "2026-05-06T16:01:38.770Z",
   "repository": {
     "stars": 141,
     "forks": 39
@@ -46,7 +46,7 @@
         "title": "BatchesService::results() - incorrect return type causing PHP runtime error",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/8",
         "createdAt": "2025-11-25T15:22:33Z",
-        "daysOpen": 161,
+        "daysOpen": 162,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -66,7 +66,7 @@
         "title": "Batch results are not converted to individual response objects",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/30",
         "createdAt": "2026-04-14T15:18:26Z",
-        "daysOpen": 21,
+        "daysOpen": 22,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -94,17 +94,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 5,
-    "merged_7d": 2,
-    "merged_30d": 11,
-    "merged_90d": 17,
+    "open_count": 4,
+    "merged_7d": 3,
+    "merged_30d": 12,
+    "merged_90d": 18,
     "opened_7d": 2,
     "opened_30d": 11,
     "opened_90d": 20,
     "closed_not_merged_90d": 1,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 5,
+    "unassigned_count": 4,
     "unassigned_24h": 4,
     "unassigned_7d": 4,
     "assigned_prs": [],
@@ -128,7 +128,7 @@
         "title": "Create php.yml",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/12",
         "createdAt": "2026-01-21T15:15:29Z",
-        "daysOpen": 104,
+        "daysOpen": 105,
         "labels": [],
         "isDraft": false,
         "additions": 39,
@@ -142,7 +142,7 @@
         "title": "fix: BatchesService::results() crashes — missing stream parameter",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/15",
         "createdAt": "2026-02-07T15:21:51Z",
-        "daysOpen": 87,
+        "daysOpen": 88,
         "labels": [],
         "isDraft": false,
         "additions": 18,
@@ -164,22 +164,6 @@
         "reviewCount": 0,
         "author": "SNO7E-G",
         "assignees": []
-      },
-      {
-        "number": 36,
-        "title": "release: 0.20.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/36",
-        "createdAt": "2026-05-05T19:24:27Z",
-        "daysOpen": 0,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 12003,
-        "deletions": 39,
-        "reviewCount": 1,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -195,16 +179,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 105.9,
-      "median_hours": 40.8
+      "avg_hours": 101.1,
+      "median_hours": 35.1
     },
-    "code_review_rate_pct": 94.1,
-    "rejection_rate_pct": 5.6,
-    "avg_reviews_per_pr": 1.1,
+    "code_review_rate_pct": 94.4,
+    "rejection_rate_pct": 5.3,
+    "avg_reviews_per_pr": 1.2,
     "by_size": {
       "small": 3,
       "medium": 1,
-      "large": 1
+      "large": 0
     }
   },
   "contributors": {
@@ -213,7 +197,7 @@
     "first_time_30d": 1,
     "retention_rate_pct": 57.1,
     "churned_30d": 3,
-    "commits_per_week_avg": 11.1,
+    "commits_per_week_avg": 11.3,
     "commits_per_week_trend": [
       1,
       29,
@@ -226,7 +210,7 @@
       21,
       2,
       13,
-      14
+      17
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -263,33 +247,48 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 15,
-        "total_changes": 30
+        "pr_count": 16,
+        "total_changes": 32
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 15,
-        "total_changes": 250
+        "pr_count": 16,
+        "total_changes": 263
       },
       {
         "path": "README.md",
-        "pr_count": 15,
-        "total_changes": 483
+        "pr_count": 16,
+        "total_changes": 485
       },
       {
         "path": "src/Version.php",
-        "pr_count": 15,
-        "total_changes": 30
+        "pr_count": 16,
+        "total_changes": 32
       },
       {
         "path": ".stats.yml",
-        "pr_count": 13,
-        "total_changes": 80
+        "pr_count": 14,
+        "total_changes": 88
+      },
+      {
+        "path": "src/Beta/AnthropicBeta.php",
+        "pr_count": 6,
+        "total_changes": 14
       },
       {
         "path": "tests/Services/Beta/MessagesTest.php",
         "pr_count": 6,
         "total_changes": 59
+      },
+      {
+        "path": "scripts/mock",
+        "pr_count": 5,
+        "total_changes": 51
+      },
+      {
+        "path": "scripts/test",
+        "pr_count": 5,
+        "total_changes": 24
       },
       {
         "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
@@ -317,11 +316,6 @@
         "total_changes": 130
       },
       {
-        "path": "src/Beta/AnthropicBeta.php",
-        "pr_count": 5,
-        "total_changes": 12
-      },
-      {
         "path": "src/Core/Conversion.php",
         "pr_count": 5,
         "total_changes": 59
@@ -337,89 +331,79 @@
         "total_changes": 50
       },
       {
-        "path": "src/Messages/Batches/BatchCreateParams/Request/Params.php",
+        "path": "composer.json",
         "pr_count": 4,
-        "total_changes": 95
+        "total_changes": 15
       },
       {
-        "path": "src/Messages/MessageCreateParams.php",
+        "path": "src/SSEStream.php",
         "pr_count": 4,
-        "total_changes": 93
+        "total_changes": 44
       },
       {
-        "path": "scripts/mock",
+        "path": "src/Services/BetaService.php",
         "pr_count": 4,
-        "total_changes": 47
-      },
-      {
-        "path": "scripts/test",
-        "pr_count": 4,
-        "total_changes": 22
-      },
-      {
-        "path": "tests/Services/MessagesTest.php",
-        "pr_count": 4,
-        "total_changes": 40
+        "total_changes": 49
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 15,
+        "pr_count": 16,
         "file_count": 8
       },
       {
         "path": "src/",
-        "pr_count": 15,
+        "pr_count": 16,
         "file_count": 5
       },
       {
         "path": "tests/Services/Beta/",
-        "pr_count": 9,
-        "file_count": 10
+        "pr_count": 10,
+        "file_count": 11
       },
       {
         "path": "src/Beta/Messages/",
-        "pr_count": 8,
-        "file_count": 58
+        "pr_count": 9,
+        "file_count": 62
       },
       {
         "path": "src/Messages/",
-        "pr_count": 8,
-        "file_count": 100
+        "pr_count": 9,
+        "file_count": 104
       },
       {
         "path": "src/ServiceContracts/Beta/",
-        "pr_count": 8,
-        "file_count": 16
+        "pr_count": 9,
+        "file_count": 18
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 8,
-        "file_count": 18
+        "pr_count": 9,
+        "file_count": 20
+      },
+      {
+        "path": "src/Services/",
+        "pr_count": 7,
+        "file_count": 3
+      },
+      {
+        "path": "src/Beta/",
+        "pr_count": 6,
+        "file_count": 1
       },
       {
         "path": ".github/workflows/",
         "pr_count": 6,
         "file_count": 5
-      },
-      {
-        "path": "src/Services/",
-        "pr_count": 6,
-        "file_count": 3
-      },
-      {
-        "path": "src/Core/",
-        "pr_count": 6,
-        "file_count": 4
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 5702,
-    "total": 260828,
-    "last_week": 28828,
-    "last_month": 103628
+    "daily": 5956,
+    "total": 261578,
+    "last_week": 29082,
+    "last_month": 103882
   }
 }
