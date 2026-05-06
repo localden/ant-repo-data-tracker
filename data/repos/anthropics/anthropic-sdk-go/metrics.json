@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-06T17:27:09.225Z",
+  "timestamp": "2026-05-06T19:21:59.523Z",
   "repository": {
     "stars": 1017,
     "forks": 163
@@ -34,7 +34,7 @@
         "title": "Add support for Vertex AI authentication using JSON service account key",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/58",
         "createdAt": "2024-11-11T17:33:33Z",
-        "daysOpen": 540,
+        "daysOpen": 541,
         "labels": [
           "enhancement",
           "sdk"
@@ -47,7 +47,7 @@
         "title": "Error handling code for Bedrock doesn't work for exception message types",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/71",
         "createdAt": "2024-12-13T18:49:26Z",
-        "daysOpen": 508,
+        "daysOpen": 509,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -147,7 +147,7 @@
         "title": "Guidance on handling streaming errors",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/200",
         "createdAt": "2025-06-10T18:16:40Z",
-        "daysOpen": 329,
+        "daysOpen": 330,
         "labels": [
           "question"
         ],
@@ -354,7 +354,7 @@
         "title": "Downloading files from skills example doesn't work with streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/288",
         "createdAt": "2026-03-07T17:31:18Z",
-        "daysOpen": 59,
+        "daysOpen": 60,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -485,7 +485,7 @@
     "label_coverage_pct": 23.8,
     "unlabeled_count": 32,
     "stale_30d": 31,
-    "stale_60d": 28,
+    "stale_60d": 29,
     "stale_90d": 23,
     "reopen_rate": 0
   },
@@ -493,7 +493,7 @@
     "open_count": 31,
     "merged_7d": 3,
     "merged_30d": 12,
-    "merged_90d": 26,
+    "merged_90d": 25,
     "opened_7d": 2,
     "opened_30d": 16,
     "opened_90d": 48,
@@ -942,9 +942,9 @@
     ],
     "review_time": {
       "avg_hours": 50.8,
-      "median_hours": 1.8,
-      "p90_hours": 195.3,
-      "p95_hours": 251.6
+      "median_hours": 1.1,
+      "p90_hours": 201,
+      "p95_hours": 252.8
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -953,11 +953,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 56.8,
-      "median_hours": 2.9
+      "avg_hours": 57.1,
+      "median_hours": 2.8
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 16.1,
+    "rejection_rate_pct": 16.7,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 21,
@@ -969,16 +969,16 @@
     "total_known": 79,
     "active_30d": 14,
     "first_time_30d": 11,
-    "retention_rate_pct": 10.5,
-    "churned_30d": 17,
+    "retention_rate_pct": 11.1,
+    "churned_30d": 16,
     "commits_per_week_avg": 11.1,
     "commits_per_week_trend": [
       9,
       10,
       0,
       0,
-      27,
-      4,
+      31,
+      0,
       22,
       13,
       15,
@@ -1088,53 +1088,48 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 26,
-        "total_changes": 323
+        "pr_count": 25,
+        "total_changes": 310
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 25,
-        "total_changes": 50
+        "pr_count": 24,
+        "total_changes": 48
       },
       {
         "path": "README.md",
-        "pr_count": 25,
-        "total_changes": 1068
+        "pr_count": 24,
+        "total_changes": 1066
       },
       {
         "path": "internal/version.go",
-        "pr_count": 25,
-        "total_changes": 50
+        "pr_count": 24,
+        "total_changes": 48
       },
       {
         "path": ".stats.yml",
-        "pr_count": 23,
-        "total_changes": 118
+        "pr_count": 22,
+        "total_changes": 112
       },
       {
         "path": "betamessage.go",
-        "pr_count": 14,
-        "total_changes": 4962
+        "pr_count": 13,
+        "total_changes": 4560
       },
       {
         "path": "message.go",
-        "pr_count": 14,
-        "total_changes": 13352
+        "pr_count": 13,
+        "total_changes": 13280
       },
       {
         "path": "api.md",
-        "pr_count": 13,
-        "total_changes": 546
+        "pr_count": 12,
+        "total_changes": 537
       },
       {
         "path": "betamessagebatch.go",
-        "pr_count": 11,
-        "total_changes": 145
-      },
-      {
-        "path": "messagebatch.go",
-        "pr_count": 9,
-        "total_changes": 124
+        "pr_count": 10,
+        "total_changes": 142
       },
       {
         "path": "beta.go",
@@ -1142,14 +1137,19 @@
         "total_changes": 93
       },
       {
-        "path": "shared/constant/constants.go",
+        "path": "messagebatch.go",
         "pr_count": 8,
-        "total_changes": 195
+        "total_changes": 121
+      },
+      {
+        "path": "shared/constant/constants.go",
+        "pr_count": 7,
+        "total_changes": 183
       },
       {
         "path": "betamessage_test.go",
-        "pr_count": 8,
-        "total_changes": 68
+        "pr_count": 7,
+        "total_changes": 41
       },
       {
         "path": "betamodel.go",
@@ -1160,16 +1160,6 @@
         "path": "model.go",
         "pr_count": 6,
         "total_changes": 203
-      },
-      {
-        "path": "betamessagebatch_test.go",
-        "pr_count": 6,
-        "total_changes": 30
-      },
-      {
-        "path": "message_test.go",
-        "pr_count": 6,
-        "total_changes": 64
       },
       {
         "path": "betafile.go",
@@ -1185,22 +1175,32 @@
         "path": "scripts/test",
         "pr_count": 5,
         "total_changes": 24
+      },
+      {
+        "path": "betamessagebatch_test.go",
+        "pr_count": 5,
+        "total_changes": 22
+      },
+      {
+        "path": "message_test.go",
+        "pr_count": 5,
+        "total_changes": 43
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 26,
+        "pr_count": 25,
         "file_count": 74
       },
       {
         "path": "internal/",
-        "pr_count": 25,
+        "pr_count": 24,
         "file_count": 1
       },
       {
         "path": "shared/constant/",
-        "pr_count": 8,
+        "pr_count": 7,
         "file_count": 1
       },
       {
@@ -1219,11 +1219,6 @@
         "file_count": 1
       },
       {
-        "path": ".github/workflows/",
-        "pr_count": 4,
-        "file_count": 3
-      },
-      {
         "path": "internal/apiform/",
         "pr_count": 4,
         "file_count": 3
@@ -1235,6 +1230,11 @@
       },
       {
         "path": "examples/",
+        "pr_count": 3,
+        "file_count": 2
+      },
+      {
+        "path": "option/",
         "pr_count": 3,
         "file_count": 2
       }
