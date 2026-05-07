@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-07T11:42:57.533Z",
+  "timestamp": "2026-05-07T13:27:38.105Z",
   "repository": {
     "stars": 3375,
     "forks": 643
@@ -39,7 +39,7 @@
         "title": "How can I upload a docx file?",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/671",
         "createdAt": "2024-09-28T11:49:43Z",
-        "daysOpen": 585,
+        "daysOpen": 586,
         "labels": [
           "enhancement",
           "api"
@@ -70,7 +70,7 @@
         "title": "Feature: Support for access aws bedrock through role arn directly and retrieve the AKSK from boto3.Session directly",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/538",
         "createdAt": "2024-06-14T13:10:46Z",
-        "daysOpen": 691,
+        "daysOpen": 692,
         "labels": [
           "enhancement",
           "bedrock",
@@ -109,7 +109,7 @@
         "title": "Batch API with Vertex",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/693",
         "createdAt": "2024-10-13T12:33:39Z",
-        "daysOpen": 570,
+        "daysOpen": 571,
         "labels": [
           "vertex"
         ],
@@ -193,6 +193,18 @@
         "assignees": []
       },
       {
+        "number": 938,
+        "title": "Improve Vague 413 RequestTooLargeError Message",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/938",
+        "createdAt": "2025-04-14T12:45:07Z",
+        "daysOpen": 388,
+        "labels": [
+          "api"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 940,
         "title": "AnthropicBedrock retry policy not consistent with Bedrock Response",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/940",
@@ -201,18 +213,6 @@
         "labels": [
           "bedrock",
           "sdk"
-        ],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 938,
-        "title": "Improve Vague 413 RequestTooLargeError Message",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/938",
-        "createdAt": "2025-04-14T12:45:07Z",
-        "daysOpen": 387,
-        "labels": [
-          "api"
         ],
         "commentCount": 0,
         "assignees": []
@@ -320,7 +320,7 @@
         "title": "Caching does not work or not return  cache info when streaming is enabled",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/994",
         "createdAt": "2025-07-05T12:29:51Z",
-        "daysOpen": 305,
+        "daysOpen": 306,
         "labels": [
           "api"
         ],
@@ -401,7 +401,7 @@
         "title": "Select region on Anthropic infrastructure",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1032",
         "createdAt": "2025-09-11T13:12:55Z",
-        "daysOpen": 237,
+        "daysOpen": 238,
         "labels": [
           "api"
         ],
@@ -1282,7 +1282,7 @@
         "title": "feat(bedrock): add tool_runner support with message sanitization",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1107",
         "createdAt": "2025-12-26T12:32:07Z",
-        "daysOpen": 131,
+        "daysOpen": 132,
         "labels": [],
         "isDraft": false,
         "additions": 109,
@@ -1302,6 +1302,20 @@
         "additions": 18,
         "deletions": 0,
         "reviewCount": 3,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
+        "number": 1146,
+        "title": "fix(streaming): handle raw dicts in accumulate_event to prevent AttributeError",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1146",
+        "createdAt": "2026-01-22T13:13:13Z",
+        "daysOpen": 105,
+        "labels": [],
+        "isDraft": true,
+        "additions": 49,
+        "deletions": 16,
+        "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
       },
@@ -1413,20 +1427,6 @@
         "isDraft": true,
         "additions": 49,
         "deletions": 8,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1146,
-        "title": "fix(streaming): handle raw dicts in accumulate_event to prevent AttributeError",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1146",
-        "createdAt": "2026-01-22T13:13:13Z",
-        "daysOpen": 104,
-        "labels": [],
-        "isDraft": true,
-        "additions": 49,
-        "deletions": 16,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -1600,6 +1600,20 @@
         "assignees": []
       },
       {
+        "number": 1229,
+        "title": "fix: continue tool runner loop on server_tool_use with pause_turn",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1229",
+        "createdAt": "2026-03-08T12:04:17Z",
+        "daysOpen": 60,
+        "labels": [],
+        "isDraft": false,
+        "additions": 22,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "MaxwellCalkin",
+        "assignees": []
+      },
+      {
         "number": 1235,
         "title": "fix(tools): continue tool_runner loop on pause_turn with server_tool_use blocks",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1235",
@@ -1665,20 +1679,6 @@
         "isDraft": false,
         "additions": 2,
         "deletions": 0,
-        "reviewCount": 0,
-        "author": "MaxwellCalkin",
-        "assignees": []
-      },
-      {
-        "number": 1229,
-        "title": "fix: continue tool runner loop on server_tool_use with pause_turn",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1229",
-        "createdAt": "2026-03-08T12:04:17Z",
-        "daysOpen": 59,
-        "labels": [],
-        "isDraft": false,
-        "additions": 22,
-        "deletions": 8,
         "reviewCount": 0,
         "author": "MaxwellCalkin",
         "assignees": []
@@ -1796,6 +1796,20 @@
         "assignees": []
       },
       {
+        "number": 1276,
+        "title": "fix: replace allowed_tools with claude_args in Claude Code Action workflow",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1276",
+        "createdAt": "2026-03-20T12:58:46Z",
+        "daysOpen": 48,
+        "labels": [],
+        "isDraft": false,
+        "additions": 3,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "AbdoKnbGit",
+        "assignees": []
+      },
+      {
         "number": 1266,
         "title": "fix: add missing JSON error handling in non-beta streaming accumulator",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1266",
@@ -1863,20 +1877,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "tao-to-python",
-        "assignees": []
-      },
-      {
-        "number": 1276,
-        "title": "fix: replace allowed_tools with claude_args in Claude Code Action workflow",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1276",
-        "createdAt": "2026-03-20T12:58:46Z",
-        "daysOpen": 47,
-        "labels": [],
-        "isDraft": false,
-        "additions": 3,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "AbdoKnbGit",
         "assignees": []
       },
       {
@@ -2020,6 +2020,20 @@
         "assignees": []
       },
       {
+        "number": 1308,
+        "title": "fix: improve error message for malformed tool use JSON in streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1308",
+        "createdAt": "2026-03-28T12:54:31Z",
+        "daysOpen": 40,
+        "labels": [],
+        "isDraft": false,
+        "additions": 6,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "IgnazioDS",
+        "assignees": []
+      },
+      {
         "number": 1304,
         "title": "fix: correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1304",
@@ -2031,20 +2045,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "nil957",
-        "assignees": []
-      },
-      {
-        "number": 1308,
-        "title": "fix: improve error message for malformed tool use JSON in streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1308",
-        "createdAt": "2026-03-28T12:54:31Z",
-        "daysOpen": 39,
-        "labels": [],
-        "isDraft": false,
-        "additions": 6,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "IgnazioDS",
         "assignees": []
       },
       {
@@ -2244,6 +2244,20 @@
         "assignees": []
       },
       {
+        "number": 1400,
+        "title": "Fix streamed tool search result blocks in parsed message snapshots",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1400",
+        "createdAt": "2026-04-15T13:07:24Z",
+        "daysOpen": 22,
+        "labels": [],
+        "isDraft": false,
+        "additions": 84,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "erhan1209",
+        "assignees": []
+      },
+      {
         "number": 1395,
         "title": "Discriminate tool search result union",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1395",
@@ -2255,20 +2269,6 @@
         "deletions": 4,
         "reviewCount": 0,
         "author": "hwaxxer",
-        "assignees": []
-      },
-      {
-        "number": 1400,
-        "title": "Fix streamed tool search result blocks in parsed message snapshots",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1400",
-        "createdAt": "2026-04-15T13:07:24Z",
-        "daysOpen": 21,
-        "labels": [],
-        "isDraft": false,
-        "additions": 84,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "erhan1209",
         "assignees": []
       },
       {
@@ -3353,9 +3353,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 2219081,
-    "last_week": 26466353,
-    "last_month": 114184831,
-    "total": 577237096
+    "daily": 2613451,
+    "last_week": 26860723,
+    "last_month": 114579201,
+    "total": 577631466
   }
 }
