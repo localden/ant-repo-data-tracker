@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-07T20:58:24.056Z",
+  "timestamp": "2026-05-07T22:53:05.292Z",
   "repository": {
     "stars": 1913,
     "forks": 309
@@ -274,7 +274,7 @@
         "title": "bug/proposal: infinitely hanging clients breaking bigger/complex sessions. Proposal: add Streaming Idle Timeout to Prevent Indefinite Hangs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/867",
         "createdAt": "2025-12-19T21:31:53Z",
-        "daysOpen": 138,
+        "daysOpen": 139,
         "labels": [
           "code-change"
         ],
@@ -322,7 +322,7 @@
         "title": "[BUG] strict: true causes 500 Internal Server Error with complex nested tool schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/885",
         "createdAt": "2026-01-27T21:46:51Z",
-        "daysOpen": 99,
+        "daysOpen": 100,
         "labels": [
           "api"
         ],
@@ -523,6 +523,18 @@
         "assignees": []
       },
       {
+        "number": 1010,
+        "title": "TS2322: Type BetaRunnableTool<{}> is not assignable to type ToolUnion",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1010",
+        "createdAt": "2026-04-23T22:44:26Z",
+        "daysOpen": 14,
+        "labels": [
+          "code-change"
+        ],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 1012,
         "title": "feature request: expose `thinking` / `output_config` on Managed Agents request-side types",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1012",
@@ -532,18 +544,6 @@
           "spec-change"
         ],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1010,
-        "title": "TS2322: Type BetaRunnableTool<{}> is not assignable to type ToolUnion",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1010",
-        "createdAt": "2026-04-23T22:44:26Z",
-        "daysOpen": 13,
-        "labels": [
-          "code-change"
-        ],
-        "commentCount": 1,
         "assignees": []
       },
       {
@@ -630,7 +630,7 @@
     "open_count": 34,
     "merged_7d": 4,
     "merged_30d": 14,
-    "merged_90d": 31,
+    "merged_90d": 30,
     "opened_7d": 6,
     "opened_30d": 34,
     "opened_90d": 83,
@@ -792,7 +792,7 @@
         "title": "fix: shallow copy content_block in BetaMessageStream#accumulateMessage",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/938",
         "createdAt": "2026-03-08T21:42:40Z",
-        "daysOpen": 59,
+        "daysOpen": 60,
         "labels": [
           "code-change"
         ],
@@ -840,7 +840,7 @@
         "title": "docs: fix broken compare links in CHANGELOG files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/953",
         "createdAt": "2026-03-19T21:25:21Z",
-        "daysOpen": 48,
+        "daysOpen": 49,
         "labels": [
           "code-change"
         ],
@@ -856,7 +856,7 @@
         "title": "fix(streams): use empty separator in finalText() for text block concatenation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/954",
         "createdAt": "2026-03-19T21:27:57Z",
-        "daysOpen": 48,
+        "daysOpen": 49,
         "labels": [
           "code-change"
         ],
@@ -884,6 +884,22 @@
         "assignees": []
       },
       {
+        "number": 958,
+        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
+        "createdAt": "2026-03-24T21:47:42Z",
+        "daysOpen": 44,
+        "labels": [
+          "code-change"
+        ],
+        "isDraft": false,
+        "additions": 147,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zelys-DFKH",
+        "assignees": []
+      },
+      {
         "number": 959,
         "title": "feat(streaming): add idleTimeout option for detecting stalled streams",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/959",
@@ -898,22 +914,6 @@
         "deletions": 5,
         "reviewCount": 0,
         "author": "simran10meta",
-        "assignees": []
-      },
-      {
-        "number": 958,
-        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
-        "createdAt": "2026-03-24T21:47:42Z",
-        "daysOpen": 43,
-        "labels": [
-          "code-change"
-        ],
-        "isDraft": false,
-        "additions": 147,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zelys-DFKH",
         "assignees": []
       },
       {
@@ -938,7 +938,7 @@
         "title": "fix: recover when TextDecoder rejects Uint8Array views",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/965",
         "createdAt": "2026-03-30T22:06:56Z",
-        "daysOpen": 37,
+        "daysOpen": 38,
         "labels": [
           "code-change"
         ],
@@ -954,7 +954,7 @@
         "title": "fix(tool runner): preserve state across iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/966",
         "createdAt": "2026-03-30T22:44:30Z",
-        "daysOpen": 37,
+        "daysOpen": 38,
         "labels": [
           "code-change"
         ],
@@ -1183,10 +1183,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 320.2,
-      "median_hours": 12.9,
-      "p90_hours": 156.5,
-      "p95_hours": 278
+      "avg_hours": 327.9,
+      "median_hours": 7.7,
+      "p90_hours": 156.6,
+      "p95_hours": 292.1
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1195,11 +1195,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 66.3,
-      "median_hours": 23.5
+      "avg_hours": 67.7,
+      "median_hours": 21.9
     },
-    "code_review_rate_pct": 96.8,
-    "rejection_rate_pct": 55.7,
+    "code_review_rate_pct": 96.7,
+    "rejection_rate_pct": 56.5,
     "avg_reviews_per_pr": 1.4,
     "by_size": {
       "small": 18,
@@ -1211,8 +1211,8 @@
     "total_known": 151,
     "active_30d": 31,
     "first_time_30d": 28,
-    "retention_rate_pct": 12,
-    "churned_30d": 22,
+    "retention_rate_pct": 12.5,
+    "churned_30d": 21,
     "commits_per_week_avg": 3.4,
     "commits_per_week_trend": [
       14,
@@ -1424,8 +1424,8 @@
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 26,
-        "total_changes": 362
+        "pr_count": 25,
+        "total_changes": 360
       },
       {
         "path": "package.json",
@@ -1521,7 +1521,7 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 28,
+        "pr_count": 27,
         "file_count": 14
       },
       {
