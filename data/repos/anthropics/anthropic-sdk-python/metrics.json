@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-05-08T19:03:33.032Z",
+  "timestamp": "2026-05-08T20:45:54.029Z",
   "repository": {
     "stars": 3384,
-    "forks": 647
+    "forks": 648
   },
   "issues": {
     "open_count": 98,
@@ -23,7 +23,7 @@
         "title": "Bedrock Frequently Has Server-side Errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/432",
         "createdAt": "2024-04-02T20:19:58Z",
-        "daysOpen": 765,
+        "daysOpen": 766,
         "labels": [
           "enhancement",
           "bedrock",
@@ -193,6 +193,19 @@
         "assignees": []
       },
       {
+        "number": 940,
+        "title": "AnthropicBedrock retry policy not consistent with Bedrock Response",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/940",
+        "createdAt": "2025-04-14T19:36:12Z",
+        "daysOpen": 389,
+        "labels": [
+          "bedrock",
+          "sdk"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 938,
         "title": "Improve Vague 413 RequestTooLargeError Message",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/938",
@@ -230,19 +243,6 @@
         "assignees": []
       },
       {
-        "number": 940,
-        "title": "AnthropicBedrock retry policy not consistent with Bedrock Response",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/940",
-        "createdAt": "2025-04-14T19:36:12Z",
-        "daysOpen": 388,
-        "labels": [
-          "bedrock",
-          "sdk"
-        ],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 958,
         "title": "Inconsistent failure to use thinking with Claude 4 Sonnet",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/958",
@@ -271,7 +271,7 @@
         "title": "Tool calls do not contain required parameters which leads to infinite retry loop",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/975",
         "createdAt": "2025-06-14T19:33:10Z",
-        "daysOpen": 327,
+        "daysOpen": 328,
         "labels": [
           "question"
         ],
@@ -369,7 +369,7 @@
         "title": "Tool inputs lost during streaming with Vertex AI integration (beta messages)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1020",
         "createdAt": "2025-08-23T19:45:09Z",
-        "daysOpen": 257,
+        "daysOpen": 258,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -435,7 +435,7 @@
         "title": "Prompt caching not working on Opus 4.5 and Haiku 4.5 (works correctly on Sonnet 4.5 and Opus 4.1)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1085",
         "createdAt": "2025-11-25T20:18:43Z",
-        "daysOpen": 163,
+        "daysOpen": 164,
         "labels": [
           "api"
         ],
@@ -447,7 +447,7 @@
         "title": "Support class methods for tool helpers",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1087",
         "createdAt": "2025-11-29T20:45:18Z",
-        "daysOpen": 159,
+        "daysOpen": 160,
         "labels": [
           "sdk"
         ],
@@ -653,7 +653,7 @@
         "title": "`web_search_20250209` dynamic filtering causes excessive `pause_turn` at ~110 content blocks — batch processing impractical",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1237",
         "createdAt": "2026-03-10T19:39:02Z",
-        "daysOpen": 58,
+        "daysOpen": 59,
         "labels": [
           "api"
         ],
@@ -889,6 +889,16 @@
         "assignees": []
       },
       {
+        "number": 1430,
+        "title": "API \"Streaming is required\" error message is outdated",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1430",
+        "createdAt": "2026-04-21T19:36:18Z",
+        "daysOpen": 17,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 1421,
         "title": "BetaInputJsonEvent not fired for server_tool_use blocks during streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1421",
@@ -903,16 +913,6 @@
         "title": "Intermittent `NotFoundError (404)` on Batch API",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1432",
         "createdAt": "2026-04-21T21:32:12Z",
-        "daysOpen": 16,
-        "labels": [],
-        "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1430,
-        "title": "API \"Streaming is required\" error message is outdated",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1430",
-        "createdAt": "2026-04-21T19:36:18Z",
         "daysOpen": 16,
         "labels": [],
         "commentCount": 1,
@@ -1548,7 +1548,7 @@
         "title": "feat(exceptions): export missing HTTP status exceptions to public interface",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1217",
         "createdAt": "2026-03-02T19:43:49Z",
-        "daysOpen": 66,
+        "daysOpen": 67,
         "labels": [],
         "isDraft": false,
         "additions": 12,
@@ -1569,6 +1569,20 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "lyr408",
+        "assignees": []
+      },
+      {
+        "number": 1231,
+        "title": "fix: use async_maybe_transform in AsyncMessages.stream() to avoid blocking event loop",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1231",
+        "createdAt": "2026-03-08T20:10:11Z",
+        "daysOpen": 61,
+        "labels": [],
+        "isDraft": false,
+        "additions": 75,
+        "deletions": 71,
+        "reviewCount": 0,
+        "author": "MaxwellCalkin",
         "assignees": []
       },
       {
@@ -1637,20 +1651,6 @@
         "isDraft": false,
         "additions": 2,
         "deletions": 0,
-        "reviewCount": 0,
-        "author": "MaxwellCalkin",
-        "assignees": []
-      },
-      {
-        "number": 1231,
-        "title": "fix: use async_maybe_transform in AsyncMessages.stream() to avoid blocking event loop",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1231",
-        "createdAt": "2026-03-08T20:10:11Z",
-        "daysOpen": 60,
-        "labels": [],
-        "isDraft": false,
-        "additions": 75,
-        "deletions": 71,
         "reviewCount": 0,
         "author": "MaxwellCalkin",
         "assignees": []
@@ -1880,6 +1880,34 @@
         "assignees": []
       },
       {
+        "number": 1297,
+        "title": "fix: defer async stream transforms for large payloads",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1297",
+        "createdAt": "2026-03-25T19:21:34Z",
+        "daysOpen": 44,
+        "labels": [],
+        "isDraft": false,
+        "additions": 431,
+        "deletions": 156,
+        "reviewCount": 0,
+        "author": "giulio-leone",
+        "assignees": []
+      },
+      {
+        "number": 1296,
+        "title": "fix: async transform recursion + type introspection cache perf",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1296",
+        "createdAt": "2026-03-25T19:14:08Z",
+        "daysOpen": 44,
+        "labels": [],
+        "isDraft": false,
+        "additions": 260,
+        "deletions": 79,
+        "reviewCount": 0,
+        "author": "giulio-leone",
+        "assignees": []
+      },
+      {
         "number": 1291,
         "title": "fix: update BetaAsyncAbstractMemoryTool docstring for async usage",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1291",
@@ -1933,34 +1961,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "javierdejesusda",
-        "assignees": []
-      },
-      {
-        "number": 1297,
-        "title": "fix: defer async stream transforms for large payloads",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1297",
-        "createdAt": "2026-03-25T19:21:34Z",
-        "daysOpen": 43,
-        "labels": [],
-        "isDraft": false,
-        "additions": 431,
-        "deletions": 156,
-        "reviewCount": 0,
-        "author": "giulio-leone",
-        "assignees": []
-      },
-      {
-        "number": 1296,
-        "title": "fix: async transform recursion + type introspection cache perf",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1296",
-        "createdAt": "2026-03-25T19:14:08Z",
-        "daysOpen": 43,
-        "labels": [],
-        "isDraft": false,
-        "additions": 260,
-        "deletions": 79,
-        "reviewCount": 0,
-        "author": "giulio-leone",
         "assignees": []
       },
       {
@@ -2286,6 +2286,20 @@
         "assignees": []
       },
       {
+        "number": 1416,
+        "title": "fix: check is_tuple_t before is_file_content in _transform_file",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1416",
+        "createdAt": "2026-04-19T20:17:14Z",
+        "daysOpen": 19,
+        "labels": [],
+        "isDraft": false,
+        "additions": 7,
+        "deletions": 7,
+        "reviewCount": 0,
+        "author": "nileshpatil6",
+        "assignees": []
+      },
+      {
         "number": 1413,
         "title": "fix: pass aws_profile to boto3.Session when inferring Bedrock region",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1413",
@@ -2314,17 +2328,17 @@
         "assignees": []
       },
       {
-        "number": 1416,
-        "title": "fix: check is_tuple_t before is_file_content in _transform_file",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1416",
-        "createdAt": "2026-04-19T20:17:14Z",
-        "daysOpen": 18,
+        "number": 1431,
+        "title": "feat: improve ToolSearchToolResultBlock type safety and expose subprocess PID",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1431",
+        "createdAt": "2026-04-21T20:31:08Z",
+        "daysOpen": 17,
         "labels": [],
         "isDraft": false,
-        "additions": 7,
-        "deletions": 7,
+        "additions": 46,
+        "deletions": 2,
         "reviewCount": 0,
-        "author": "nileshpatil6",
+        "author": "EaCognitive",
         "assignees": []
       },
       {
@@ -2353,20 +2367,6 @@
         "deletions": 14,
         "reviewCount": 0,
         "author": "MukundaKatta",
-        "assignees": []
-      },
-      {
-        "number": 1431,
-        "title": "feat: improve ToolSearchToolResultBlock type safety and expose subprocess PID",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1431",
-        "createdAt": "2026-04-21T20:31:08Z",
-        "daysOpen": 16,
-        "labels": [],
-        "isDraft": false,
-        "additions": 46,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "EaCognitive",
         "assignees": []
       },
       {
@@ -3404,9 +3404,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 3238848,
-    "last_week": 28310818,
-    "last_month": 116543019,
-    "total": 583199561
+    "daily": 3550955,
+    "last_week": 28622925,
+    "last_month": 116855126,
+    "total": 583511668
   }
 }
