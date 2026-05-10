@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-10T07:55:45.269Z",
+  "timestamp": "2026-05-10T09:22:13.249Z",
   "repository": {
     "stars": 3392,
     "forks": 650
@@ -531,7 +531,7 @@
         "title": "API rejects code_execution_20250825 tool: 'use_web_search_purpose: Extra inputs are not permitted'",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1179",
         "createdAt": "2026-02-14T08:22:46Z",
-        "daysOpen": 84,
+        "daysOpen": 85,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -725,6 +725,18 @@
         "assignees": []
       },
       {
+        "number": 1317,
+        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
+        "createdAt": "2026-03-31T08:08:59Z",
+        "daysOpen": 40,
+        "labels": [
+          "api"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1318,
         "title": "[BUG] `client.beta.files.upload`  `PathLike` error",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1318",
@@ -732,18 +744,6 @@
         "daysOpen": 39,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1317,
-        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
-        "createdAt": "2026-03-31T08:08:59Z",
-        "daysOpen": 39,
-        "labels": [
-          "api"
-        ],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -929,6 +929,16 @@
         "assignees": []
       },
       {
+        "number": 1450,
+        "title": "`BetaCitationPageLocation` contains `file_id` that cannot be roundtripped as a request",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1450",
+        "createdAt": "2026-04-26T08:36:44Z",
+        "daysOpen": 14,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
         "number": 1447,
         "title": "Add stable alias for \"current recommended model\" (e.g. claude-sonnet-latest)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1447",
@@ -946,16 +956,6 @@
         "daysOpen": 13,
         "labels": [],
         "commentCount": 3,
-        "assignees": []
-      },
-      {
-        "number": 1450,
-        "title": "`BetaCitationPageLocation` contains `file_id` that cannot be roundtripped as a request",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1450",
-        "createdAt": "2026-04-26T08:36:44Z",
-        "daysOpen": 13,
-        "labels": [],
-        "commentCount": 2,
         "assignees": []
       },
       {
@@ -989,24 +989,24 @@
         "assignees": []
       },
       {
+        "number": 1477,
+        "title": "Bedrock streaming SSE events errors are not handled gracefully",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1477",
+        "createdAt": "2026-04-30T08:14:00Z",
+        "daysOpen": 10,
+        "labels": [
+          "bedrock"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1472,
         "title": "Streaming error SSE event causes `AttributeError: 'NoneType' object has no attribute` errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1472",
         "createdAt": "2026-04-29T17:46:38Z",
         "daysOpen": 10,
         "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1477,
-        "title": "Bedrock streaming SSE events errors are not handled gracefully",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1477",
-        "createdAt": "2026-04-30T08:14:00Z",
-        "daysOpen": 9,
-        "labels": [
-          "bedrock"
-        ],
         "commentCount": 0,
         "assignees": []
       },
@@ -1288,6 +1288,20 @@
         "assignees": []
       },
       {
+        "number": 1145,
+        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
+        "createdAt": "2026-01-22T08:10:13Z",
+        "daysOpen": 108,
+        "labels": [],
+        "isDraft": true,
+        "additions": 39,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
         "number": 1142,
         "title": "fix(tests): make mock_aws_config Windows compatible",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1142",
@@ -1395,20 +1409,6 @@
         "isDraft": true,
         "additions": 49,
         "deletions": 16,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1145,
-        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
-        "createdAt": "2026-01-22T08:10:13Z",
-        "daysOpen": 107,
-        "labels": [],
-        "isDraft": true,
-        "additions": 39,
-        "deletions": 14,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -2254,6 +2254,20 @@
         "assignees": []
       },
       {
+        "number": 1410,
+        "title": "fix: support PathLike values in file tuples",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1410",
+        "createdAt": "2026-04-18T08:16:32Z",
+        "daysOpen": 22,
+        "labels": [],
+        "isDraft": false,
+        "additions": 14,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "MukundaKatta",
+        "assignees": []
+      },
+      {
         "number": 1408,
         "title": "fix(files): remove erroneous tuple check from is_file_content type guard (#1318)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1408",
@@ -2277,20 +2291,6 @@
         "isDraft": false,
         "additions": 17,
         "deletions": 10,
-        "reviewCount": 0,
-        "author": "MukundaKatta",
-        "assignees": []
-      },
-      {
-        "number": 1410,
-        "title": "fix: support PathLike values in file tuples",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1410",
-        "createdAt": "2026-04-18T08:16:32Z",
-        "daysOpen": 21,
-        "labels": [],
-        "isDraft": false,
-        "additions": 14,
-        "deletions": 3,
         "reviewCount": 0,
         "author": "MukundaKatta",
         "assignees": []
@@ -2620,6 +2620,20 @@
         "assignees": []
       },
       {
+        "number": 1478,
+        "title": "feat(helpers): add ConversationManager for multi-turn conversations",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1478",
+        "createdAt": "2026-04-30T09:07:14Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1680,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "ajit216",
+        "assignees": []
+      },
+      {
         "number": 1474,
         "title": "fix: read file contents when tuple file inputs use PathLike",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1474",
@@ -2659,20 +2673,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "HermeticOrmus",
-        "assignees": []
-      },
-      {
-        "number": 1478,
-        "title": "feat(helpers): add ConversationManager for multi-turn conversations",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1478",
-        "createdAt": "2026-04-30T09:07:14Z",
-        "daysOpen": 9,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1680,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "ajit216",
         "assignees": []
       },
       {
@@ -2778,6 +2778,34 @@
         "assignees": []
       },
       {
+        "number": 1520,
+        "title": "chore(examples): bump workload_identity.py to claude-opus-4-7",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1520",
+        "createdAt": "2026-05-08T08:52:47Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "lucky-verma",
+        "assignees": []
+      },
+      {
+        "number": 1519,
+        "title": "chore(examples): update messages_stream.py shebang from rye to uv",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1519",
+        "createdAt": "2026-05-08T08:23:47Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "lucky-verma",
+        "assignees": []
+      },
+      {
         "number": 1513,
         "title": "perf: reduce root import overhead",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1513",
@@ -2859,34 +2887,6 @@
         "deletions": 4,
         "reviewCount": 0,
         "author": "nileshpatil6",
-        "assignees": []
-      },
-      {
-        "number": 1520,
-        "title": "chore(examples): bump workload_identity.py to claude-opus-4-7",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1520",
-        "createdAt": "2026-05-08T08:52:47Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "lucky-verma",
-        "assignees": []
-      },
-      {
-        "number": 1519,
-        "title": "chore(examples): update messages_stream.py shebang from rye to uv",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1519",
-        "createdAt": "2026-05-08T08:23:47Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "lucky-verma",
         "assignees": []
       }
     ],
@@ -3412,9 +3412,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 898754,
-    "last_week": 27197783,
-    "last_month": 113678481,
-    "total": 587931385
+    "daily": 1064019,
+    "last_week": 27363048,
+    "last_month": 113843746,
+    "total": 588096650
   }
 }
