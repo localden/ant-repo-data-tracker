@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-05-16T07:49:15.779Z",
+  "timestamp": "2026-05-16T09:20:56.161Z",
   "repository": {
-    "stars": 3455,
-    "forks": 676
+    "stars": 3457,
+    "forks": 677
   },
   "issues": {
     "open_count": 100,
@@ -531,7 +531,7 @@
         "title": "API rejects code_execution_20250825 tool: 'use_web_search_purpose: Extra inputs are not permitted'",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1179",
         "createdAt": "2026-02-14T08:22:46Z",
-        "daysOpen": 90,
+        "daysOpen": 91,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -725,6 +725,18 @@
         "assignees": []
       },
       {
+        "number": 1317,
+        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
+        "createdAt": "2026-03-31T08:08:59Z",
+        "daysOpen": 46,
+        "labels": [
+          "api"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1318,
         "title": "[BUG] `client.beta.files.upload`  `PathLike` error",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1318",
@@ -732,18 +744,6 @@
         "daysOpen": 45,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1317,
-        "title": "Streaming tool_use with adaptive thinking: terminated stop_reason on long tool input content",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1317",
-        "createdAt": "2026-03-31T08:08:59Z",
-        "daysOpen": 45,
-        "labels": [
-          "api"
-        ],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -929,6 +929,16 @@
         "assignees": []
       },
       {
+        "number": 1450,
+        "title": "`BetaCitationPageLocation` contains `file_id` that cannot be roundtripped as a request",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1450",
+        "createdAt": "2026-04-26T08:36:44Z",
+        "daysOpen": 20,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
         "number": 1447,
         "title": "Add stable alias for \"current recommended model\" (e.g. claude-sonnet-latest)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1447",
@@ -946,16 +956,6 @@
         "daysOpen": 19,
         "labels": [],
         "commentCount": 3,
-        "assignees": []
-      },
-      {
-        "number": 1450,
-        "title": "`BetaCitationPageLocation` contains `file_id` that cannot be roundtripped as a request",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1450",
-        "createdAt": "2026-04-26T08:36:44Z",
-        "daysOpen": 19,
-        "labels": [],
-        "commentCount": 2,
         "assignees": []
       },
       {
@@ -989,24 +989,24 @@
         "assignees": []
       },
       {
+        "number": 1477,
+        "title": "Bedrock streaming SSE events errors are not handled gracefully",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1477",
+        "createdAt": "2026-04-30T08:14:00Z",
+        "daysOpen": 16,
+        "labels": [
+          "bedrock"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1472,
         "title": "Streaming error SSE event causes `AttributeError: 'NoneType' object has no attribute` errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1472",
         "createdAt": "2026-04-29T17:46:38Z",
         "daysOpen": 16,
         "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1477,
-        "title": "Bedrock streaming SSE events errors are not handled gracefully",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1477",
-        "createdAt": "2026-04-30T08:14:00Z",
-        "daysOpen": 15,
-        "labels": [
-          "bedrock"
-        ],
         "commentCount": 0,
         "assignees": []
       },
@@ -1150,17 +1150,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 133,
+    "open_count": 135,
     "merged_7d": 2,
     "merged_30d": 10,
     "merged_90d": 31,
-    "opened_7d": 13,
-    "opened_30d": 79,
-    "opened_90d": 206,
+    "opened_7d": 15,
+    "opened_30d": 81,
+    "opened_90d": 208,
     "closed_not_merged_90d": 87,
     "draft_count": 5,
     "assigned_count": 0,
-    "unassigned_count": 133,
+    "unassigned_count": 135,
     "unassigned_24h": 128,
     "unassigned_7d": 118,
     "assigned_prs": [],
@@ -1298,6 +1298,20 @@
         "assignees": []
       },
       {
+        "number": 1145,
+        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
+        "createdAt": "2026-01-22T08:10:13Z",
+        "daysOpen": 114,
+        "labels": [],
+        "isDraft": true,
+        "additions": 39,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
         "number": 1142,
         "title": "fix(tests): make mock_aws_config Windows compatible",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1142",
@@ -1405,20 +1419,6 @@
         "isDraft": true,
         "additions": 49,
         "deletions": 16,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1145,
-        "title": "fix(streaming): handle out-of-order content blocks in accumulation",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1145",
-        "createdAt": "2026-01-22T08:10:13Z",
-        "daysOpen": 113,
-        "labels": [],
-        "isDraft": true,
-        "additions": 39,
-        "deletions": 14,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -2264,6 +2264,20 @@
         "assignees": []
       },
       {
+        "number": 1410,
+        "title": "fix: support PathLike values in file tuples",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1410",
+        "createdAt": "2026-04-18T08:16:32Z",
+        "daysOpen": 28,
+        "labels": [],
+        "isDraft": false,
+        "additions": 14,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "MukundaKatta",
+        "assignees": []
+      },
+      {
         "number": 1408,
         "title": "fix(files): remove erroneous tuple check from is_file_content type guard (#1318)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1408",
@@ -2287,20 +2301,6 @@
         "isDraft": false,
         "additions": 17,
         "deletions": 10,
-        "reviewCount": 0,
-        "author": "MukundaKatta",
-        "assignees": []
-      },
-      {
-        "number": 1410,
-        "title": "fix: support PathLike values in file tuples",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1410",
-        "createdAt": "2026-04-18T08:16:32Z",
-        "daysOpen": 27,
-        "labels": [],
-        "isDraft": false,
-        "additions": 14,
-        "deletions": 3,
         "reviewCount": 0,
         "author": "MukundaKatta",
         "assignees": []
@@ -2630,6 +2630,20 @@
         "assignees": []
       },
       {
+        "number": 1478,
+        "title": "feat(helpers): add ConversationManager for multi-turn conversations",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1478",
+        "createdAt": "2026-04-30T09:07:14Z",
+        "daysOpen": 16,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1680,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "ajit216",
+        "assignees": []
+      },
+      {
         "number": 1474,
         "title": "fix: read file contents when tuple file inputs use PathLike",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1474",
@@ -2669,20 +2683,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "HermeticOrmus",
-        "assignees": []
-      },
-      {
-        "number": 1478,
-        "title": "feat(helpers): add ConversationManager for multi-turn conversations",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1478",
-        "createdAt": "2026-04-30T09:07:14Z",
-        "daysOpen": 15,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1680,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "ajit216",
         "assignees": []
       },
       {
@@ -2846,7 +2846,7 @@
         "title": "chore(examples): bump workload_identity.py to claude-opus-4-7",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1520",
         "createdAt": "2026-05-08T08:52:47Z",
-        "daysOpen": 7,
+        "daysOpen": 8,
         "labels": [],
         "isDraft": false,
         "additions": 6,
@@ -2860,7 +2860,7 @@
         "title": "chore(examples): update messages_stream.py shebang from rye to uv",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1519",
         "createdAt": "2026-05-08T08:23:47Z",
-        "daysOpen": 7,
+        "daysOpen": 8,
         "labels": [],
         "isDraft": false,
         "additions": 1,
@@ -2923,6 +2923,34 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "Echolonius",
+        "assignees": []
+      },
+      {
+        "number": 1544,
+        "title": "fix(bedrock,vertex): map 413/529 to typed exceptions, matching canonical client",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1544",
+        "createdAt": "2026-05-14T08:06:19Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 85,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "Zawwarsami16",
+        "assignees": []
+      },
+      {
+        "number": 1543,
+        "title": "fix(tools): percent-decode filename in mcp_resource_to_file",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1543",
+        "createdAt": "2026-05-14T07:55:39Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 36,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "Zawwarsami16",
         "assignees": []
       },
       {
@@ -2996,31 +3024,31 @@
         "assignees": []
       },
       {
-        "number": 1544,
-        "title": "fix(bedrock,vertex): map 413/529 to typed exceptions, matching canonical client",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1544",
-        "createdAt": "2026-05-14T08:06:19Z",
-        "daysOpen": 1,
+        "number": 1552,
+        "title": "fix: wrap mid-stream httpx.TransportError as APIConnectionError",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1552",
+        "createdAt": "2026-05-16T07:55:47Z",
+        "daysOpen": 0,
         "labels": [],
         "isDraft": false,
-        "additions": 85,
-        "deletions": 0,
+        "additions": 101,
+        "deletions": 8,
         "reviewCount": 0,
-        "author": "Zawwarsami16",
+        "author": "blut-agent",
         "assignees": []
       },
       {
-        "number": 1543,
-        "title": "fix(tools): percent-decode filename in mcp_resource_to_file",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1543",
-        "createdAt": "2026-05-14T07:55:39Z",
-        "daysOpen": 1,
+        "number": 1551,
+        "title": "fix: copy mutable file tuple containers to prevent shared state",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1551",
+        "createdAt": "2026-05-16T07:51:16Z",
+        "daysOpen": 0,
         "labels": [],
         "isDraft": false,
-        "additions": 36,
-        "deletions": 3,
+        "additions": 15,
+        "deletions": 2,
         "reviewCount": 0,
-        "author": "Zawwarsami16",
+        "author": "blut-agent",
         "assignees": []
       },
       {
@@ -3058,15 +3086,15 @@
     "rejection_rate_pct": 73.7,
     "avg_reviews_per_pr": 1.8,
     "by_size": {
-      "small": 98,
-      "medium": 30,
+      "small": 99,
+      "medium": 31,
       "large": 5
     }
   },
   "contributors": {
-    "total_known": 262,
-    "active_30d": 57,
-    "first_time_30d": 53,
+    "total_known": 263,
+    "active_30d": 58,
+    "first_time_30d": 54,
     "retention_rate_pct": 4.9,
     "churned_30d": 78,
     "commits_per_week_avg": 11.1,
@@ -3174,6 +3202,7 @@
       "barneywohl",
       "barracuda156",
       "bledden",
+      "blut-agent",
       "byigitt",
       "cameron-mcateer",
       "carlymr",
@@ -3372,6 +3401,7 @@
       "atob1",
       "axlnur",
       "barneywohl",
+      "blut-agent",
       "cameron-mcateer",
       "cs",
       "daskuntal75",
@@ -3566,9 +3596,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 871040,
-    "last_week": 27737211,
-    "last_month": 118926583,
-    "total": 614769842
+    "daily": 1046498,
+    "last_week": 27912669,
+    "last_month": 119102041,
+    "total": 614945300
   }
 }
