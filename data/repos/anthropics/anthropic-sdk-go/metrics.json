@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-05-17T02:00:38.021Z",
+  "timestamp": "2026-05-17T05:49:41.007Z",
   "repository": {
     "stars": 1036,
-    "forks": 168
+    "forks": 169
   },
   "issues": {
     "open_count": 43,
@@ -10,13 +10,13 @@
     "closed_30d": 1,
     "closed_90d": 3,
     "opened_7d": 0,
-    "opened_30d": 6,
+    "opened_30d": 5,
     "opened_90d": 15,
     "assigned_count": 0,
     "unassigned_count": 43,
     "unassigned_24h": 43,
     "unassigned_7d": 43,
-    "unassigned_30d": 38,
+    "unassigned_30d": 39,
     "assigned_issues": [],
     "unassigned_issues": [
       {
@@ -24,7 +24,7 @@
         "title": "Support Prompt Caching with Vertex",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/16",
         "createdAt": "2024-09-10T05:36:48Z",
-        "daysOpen": 613,
+        "daysOpen": 614,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -182,7 +182,7 @@
         "title": "Invalid Argument errors when using Vertex with `google-github-actions/auth`",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/222",
         "createdAt": "2025-08-09T03:32:46Z",
-        "daysOpen": 280,
+        "daysOpen": 281,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -202,7 +202,7 @@
         "title": "anthropic.BetaFileUploadParams doesn't provide a way to set content-types",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/234",
         "createdAt": "2025-09-14T04:45:19Z",
-        "daysOpen": 244,
+        "daysOpen": 245,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -242,7 +242,7 @@
         "title": "ToParam() Method Doesn't Handle WebSearchToolResultBlock",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/242",
         "createdAt": "2025-10-01T02:58:56Z",
-        "daysOpen": 227,
+        "daysOpen": 228,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -312,7 +312,7 @@
         "title": "Feature Request: Support Models API for Vertex AI client",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/270",
         "createdAt": "2026-02-07T05:26:46Z",
-        "daysOpen": 98,
+        "daysOpen": 99,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -428,7 +428,7 @@
         "title": "CodeExecutionToolResultBlock.ToParam() drops stdout/stderr/return_code via omitzero (same class as #242, #317)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/322",
         "createdAt": "2026-04-17T05:32:57Z",
-        "daysOpen": 29,
+        "daysOpen": 30,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -500,17 +500,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 31,
+    "open_count": 33,
     "merged_7d": 2,
     "merged_30d": 6,
     "merged_90d": 24,
-    "opened_7d": 2,
-    "opened_30d": 10,
-    "opened_90d": 46,
+    "opened_7d": 4,
+    "opened_30d": 12,
+    "opened_90d": 48,
     "closed_not_merged_90d": 5,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 31,
+    "unassigned_count": 33,
     "unassigned_24h": 31,
     "unassigned_7d": 30,
     "assigned_prs": [],
@@ -646,7 +646,7 @@
         "title": "bugfix: missing custom decoder for beta content block which will cause field missing.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/263",
         "createdAt": "2026-01-08T05:44:41Z",
-        "daysOpen": 128,
+        "daysOpen": 129,
         "labels": [],
         "isDraft": false,
         "additions": 89,
@@ -674,7 +674,7 @@
         "title": "fix: use json.RawMessage for JSONOutputFormatParam.Schema to preserve key ordering",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/271",
         "createdAt": "2026-02-10T05:03:50Z",
-        "daysOpen": 95,
+        "daysOpen": 96,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -688,7 +688,7 @@
         "title": "feat(api): add Stream parameter to MessageNewParams",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/284",
         "createdAt": "2026-02-26T04:00:32Z",
-        "daysOpen": 79,
+        "daysOpen": 80,
         "labels": [],
         "isDraft": false,
         "additions": 4,
@@ -786,7 +786,7 @@
         "title": "Bugfix: missing adaptive union register which cause unmarshal field missing.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/293",
         "createdAt": "2026-03-14T04:20:16Z",
-        "daysOpen": 63,
+        "daysOpen": 64,
         "labels": [],
         "isDraft": false,
         "additions": 2,
@@ -948,6 +948,34 @@
         "reviewCount": 0,
         "author": "jasondillingham",
         "assignees": []
+      },
+      {
+        "number": 339,
+        "title": "fix(encoder): honor default struct tag so JSONOutputFormatParam.Type is never elided",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/339",
+        "createdAt": "2026-05-17T05:05:50Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 148,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "spor3006",
+        "assignees": []
+      },
+      {
+        "number": 338,
+        "title": "fix: preserve empty error_code on ToolSearchToolResult.ToParam (#317)",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/338",
+        "createdAt": "2026-05-17T05:05:02Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 99,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "spor3006",
+        "assignees": []
       }
     ],
     "review_time": {
@@ -971,12 +999,12 @@
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 20,
-      "medium": 9,
+      "medium": 11,
       "large": 2
     }
   },
   "contributors": {
-    "total_known": 82,
+    "total_known": 83,
     "active_30d": 14,
     "first_time_30d": 12,
     "retention_rate_pct": 11.8,
@@ -1064,6 +1092,7 @@
       "sara-hannigan",
       "simonferquel",
       "spachava753",
+      "spor3006",
       "stainless-app",
       "sthayduk",
       "subhashdasyam",
@@ -1084,7 +1113,6 @@
       "Aaravanand00",
       "cameron-mcateer",
       "denniszag",
-      "goalsoft",
       "jacobzim-stl",
       "jasondillingham",
       "jkwatson",
@@ -1093,6 +1121,7 @@
       "packyg",
       "renfredxh",
       "simonferquel",
+      "spor3006",
       "stainless-app",
       "zwowbrands"
     ]
