@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-19T02:14:48.787Z",
+  "timestamp": "2026-05-19T07:39:43.967Z",
   "repository": {
     "stars": 147,
     "forks": 41
@@ -24,7 +24,7 @@
         "title": "Beta Feedback & Feature Requests",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/3",
         "createdAt": "2025-08-27T03:19:50Z",
-        "daysOpen": 264,
+        "daysOpen": 265,
         "labels": [],
         "commentCount": 4,
         "assignees": []
@@ -56,7 +56,7 @@
         "title": "Is there a way to run POST /v1/messages asynchronously?",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/18",
         "createdAt": "2026-02-17T07:36:55Z",
-        "daysOpen": 90,
+        "daysOpen": 91,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -95,12 +95,12 @@
   },
   "pulls": {
     "open_count": 4,
-    "merged_7d": 1,
-    "merged_30d": 8,
-    "merged_90d": 19,
-    "opened_7d": 0,
-    "opened_30d": 8,
-    "opened_90d": 19,
+    "merged_7d": 2,
+    "merged_30d": 9,
+    "merged_90d": 20,
+    "opened_7d": 1,
+    "opened_30d": 9,
+    "opened_90d": 20,
     "closed_not_merged_90d": 0,
     "draft_count": 0,
     "assigned_count": 0,
@@ -156,7 +156,7 @@
         "title": "examples: add tool use, multi-turn, thinking, and vision examples",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/22",
         "createdAt": "2026-03-25T07:02:13Z",
-        "daysOpen": 54,
+        "daysOpen": 55,
         "labels": [],
         "isDraft": false,
         "additions": 442,
@@ -167,10 +167,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 97.6,
-      "median_hours": 41.4,
-      "p90_hours": 313.6,
-      "p95_hours": 416.9
+      "avg_hours": 93,
+      "median_hours": 41.1,
+      "p90_hours": 301.9,
+      "p95_hours": 412
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -179,8 +179,8 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 100.1,
-      "median_hours": 41.4
+      "avg_hours": 95.4,
+      "median_hours": 41.1
     },
     "code_review_rate_pct": 100,
     "rejection_rate_pct": 0,
@@ -197,7 +197,7 @@
     "first_time_30d": 1,
     "retention_rate_pct": 50,
     "churned_30d": 4,
-    "commits_per_week_avg": 9.8,
+    "commits_per_week_avg": 10,
     "commits_per_week_trend": [
       0,
       0,
@@ -210,7 +210,7 @@
       13,
       11,
       11,
-      7
+      9
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -247,28 +247,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 18,
-        "total_changes": 36
+        "pr_count": 19,
+        "total_changes": 38
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 18,
-        "total_changes": 302
+        "pr_count": 19,
+        "total_changes": 310
       },
       {
         "path": "README.md",
-        "pr_count": 18,
-        "total_changes": 499
+        "pr_count": 19,
+        "total_changes": 501
       },
       {
         "path": "src/Version.php",
-        "pr_count": 18,
-        "total_changes": 36
+        "pr_count": 19,
+        "total_changes": 38
       },
       {
         "path": ".stats.yml",
-        "pr_count": 15,
-        "total_changes": 94
+        "pr_count": 16,
+        "total_changes": 102
       },
       {
         "path": "src/Beta/AnthropicBeta.php",
@@ -306,6 +306,11 @@
         "total_changes": 51
       },
       {
+        "path": "src/SSEStream.php",
+        "pr_count": 5,
+        "total_changes": 46
+      },
+      {
         "path": "composer.json",
         "pr_count": 5,
         "total_changes": 16
@@ -336,45 +341,40 @@
         "total_changes": 121
       },
       {
-        "path": ".github/workflows/ci.yml",
+        "path": "src/ServiceContracts/Beta/SessionsContract.php",
         "pr_count": 4,
-        "total_changes": 30
-      },
-      {
-        "path": "src/Client.php",
-        "pr_count": 4,
-        "total_changes": 142
+        "total_changes": 157
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 18,
+        "pr_count": 19,
         "file_count": 8
       },
       {
         "path": "src/",
-        "pr_count": 18,
+        "pr_count": 19,
         "file_count": 8
       },
       {
         "path": "tests/Services/Beta/",
-        "pr_count": 11,
+        "pr_count": 12,
         "file_count": 11
       },
       {
         "path": "src/Beta/Messages/",
-        "pr_count": 10,
+        "pr_count": 11,
         "file_count": 70
       },
       {
         "path": "src/ServiceContracts/Beta/",
-        "pr_count": 10,
+        "pr_count": 11,
         "file_count": 18
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 10,
+        "pr_count": 11,
         "file_count": 20
       },
       {
@@ -401,9 +401,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 5575,
-    "total": 315198,
-    "last_week": 33371,
-    "last_month": 126406
+    "daily": 5114,
+    "total": 316018,
+    "last_week": 32910,
+    "last_month": 125945
   }
 }

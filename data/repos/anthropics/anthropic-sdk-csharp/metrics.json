@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-19T02:13:56.224Z",
+  "timestamp": "2026-05-19T07:38:57.398Z",
   "repository": {
     "stars": 263,
     "forks": 81
@@ -62,21 +62,21 @@
         "assignees": []
       },
       {
-        "number": 195,
-        "title": "AnthropicChatClient drops $defs / $ref when forwarding ChatResponseFormatJson.Schema to OutputConfig.Format",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/195",
-        "createdAt": "2026-05-14T08:16:31Z",
+        "number": 197,
+        "title": "GetStreamingResponseAsync emits duplicate/incomplete FunctionCallContent when multiple tools are called in parallel",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/197",
+        "createdAt": "2026-05-15T06:25:34Z",
         "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 197,
-        "title": "GetStreamingResponseAsync emits duplicate/incomplete FunctionCallContent when multiple tools are called in parallel",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/197",
-        "createdAt": "2026-05-15T06:25:34Z",
-        "daysOpen": 3,
+        "number": 195,
+        "title": "AnthropicChatClient drops $defs / $ref when forwarding ChatResponseFormatJson.Schema to OutputConfig.Format",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/195",
+        "createdAt": "2026-05-14T08:16:31Z",
+        "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -108,12 +108,12 @@
   },
   "pulls": {
     "open_count": 2,
-    "merged_7d": 1,
-    "merged_30d": 11,
-    "merged_90d": 36,
-    "opened_7d": 3,
-    "opened_30d": 12,
-    "opened_90d": 41,
+    "merged_7d": 2,
+    "merged_30d": 12,
+    "merged_90d": 37,
+    "opened_7d": 4,
+    "opened_30d": 13,
+    "opened_90d": 42,
     "closed_not_merged_90d": 8,
     "draft_count": 0,
     "assigned_count": 0,
@@ -127,7 +127,7 @@
         "title": "Fix retry handling, HttpClient ownership, and Bedrock credential edge cases",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/194",
         "createdAt": "2026-05-13T07:32:00Z",
-        "daysOpen": 5,
+        "daysOpen": 6,
         "labels": [],
         "isDraft": false,
         "additions": 86,
@@ -152,10 +152,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 97.1,
-      "median_hours": 40.4,
-      "p90_hours": 262.7,
-      "p95_hours": 423.5
+      "avg_hours": 94.5,
+      "median_hours": 37.4,
+      "p90_hours": 260.9,
+      "p95_hours": 419.1
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -164,12 +164,12 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 204.3,
-      "median_hours": 61.5
+      "avg_hours": 199,
+      "median_hours": 52.4
     },
-    "code_review_rate_pct": 91.7,
-    "rejection_rate_pct": 18.2,
-    "avg_reviews_per_pr": 1.9,
+    "code_review_rate_pct": 91.9,
+    "rejection_rate_pct": 17.8,
+    "avg_reviews_per_pr": 1.8,
     "by_size": {
       "small": 0,
       "medium": 2,
@@ -182,7 +182,7 @@
     "first_time_30d": 10,
     "retention_rate_pct": 25,
     "churned_30d": 12,
-    "commits_per_week_avg": 4,
+    "commits_per_week_avg": 4.2,
     "commits_per_week_trend": [
       0,
       0,
@@ -195,7 +195,7 @@
       1,
       18,
       10,
-      8
+      10
     ],
     "allContributors": [
       "1yefuwang1",
@@ -276,23 +276,23 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 20,
-        "total_changes": 85
+        "pr_count": 21,
+        "total_changes": 87
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
-        "pr_count": 19,
-        "total_changes": 63
+        "pr_count": 20,
+        "total_changes": 65
       },
       {
         "path": ".stats.yml",
-        "pr_count": 17,
-        "total_changes": 96
+        "pr_count": 18,
+        "total_changes": 104
       },
       {
         "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 17,
-        "total_changes": 572
+        "pr_count": 18,
+        "total_changes": 580
       },
       {
         "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
@@ -310,6 +310,11 @@
         "total_changes": 54
       },
       {
+        "path": "src/Anthropic/Core/ModelBase.cs",
+        "pr_count": 11,
+        "total_changes": 367
+      },
+      {
         "path": "src/Anthropic.Bedrock/CHANGELOG.md",
         "pr_count": 11,
         "total_changes": 110
@@ -318,11 +323,6 @@
         "path": "src/Anthropic.Tests/AnthropicClientExtensionsTestsBase.cs",
         "pr_count": 11,
         "total_changes": 12250
-      },
-      {
-        "path": "src/Anthropic/Core/ModelBase.cs",
-        "pr_count": 10,
-        "total_changes": 356
       },
       {
         "path": "src/Anthropic.Tests/AnthropicClientBetaExtensionsTests.cs",
@@ -378,7 +378,12 @@
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 27,
+        "pr_count": 28,
+        "file_count": 8
+      },
+      {
+        "path": "/",
+        "pr_count": 21,
         "file_count": 8
       },
       {
@@ -387,14 +392,19 @@
         "file_count": 10
       },
       {
-        "path": "/",
-        "pr_count": 20,
-        "file_count": 8
-      },
-      {
         "path": "src/Anthropic/Services/Beta/Messages/",
         "pr_count": 16,
         "file_count": 2
+      },
+      {
+        "path": "src/Anthropic/Core/",
+        "pr_count": 15,
+        "file_count": 13
+      },
+      {
+        "path": "src/Anthropic/Models/Beta/Messages/",
+        "pr_count": 15,
+        "file_count": 109
       },
       {
         "path": "src/Anthropic.Bedrock/",
@@ -402,14 +412,9 @@
         "file_count": 10
       },
       {
-        "path": "src/Anthropic/Core/",
-        "pr_count": 14,
-        "file_count": 13
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Messages/",
-        "pr_count": 14,
-        "file_count": 109
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
+        "pr_count": 13,
+        "file_count": 83
       },
       {
         "path": "src/Anthropic/Models/Messages/",
@@ -417,14 +422,9 @@
         "file_count": 118
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
-        "pr_count": 12,
-        "file_count": 83
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Messages/Batches/",
+        "path": "src/Anthropic/Services/Beta/",
         "pr_count": 11,
-        "file_count": 8
+        "file_count": 21
       }
     ],
     "top_n": 20
