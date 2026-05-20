@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-20T18:13:17.093Z",
+  "timestamp": "2026-05-20T21:34:22.478Z",
   "repository": {
     "stars": 147,
     "forks": 41
@@ -8,7 +8,7 @@
     "open_count": 5,
     "closed_7d": 0,
     "closed_30d": 0,
-    "closed_90d": 1,
+    "closed_90d": 0,
     "opened_7d": 0,
     "opened_30d": 0,
     "opened_90d": 1,
@@ -82,22 +82,22 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 94.9,
-      "median_days": 94.9,
-      "p90_days": 94.9
+      "avg_days": 0,
+      "median_days": 0,
+      "p90_days": 0
     },
     "label_coverage_pct": 20,
     "unlabeled_count": 4,
     "stale_30d": 5,
     "stale_60d": 3,
-    "stale_90d": 2,
+    "stale_90d": 3,
     "reopen_rate": 0
   },
   "pulls": {
     "open_count": 4,
     "merged_7d": 1,
     "merged_30d": 9,
-    "merged_90d": 20,
+    "merged_90d": 19,
     "opened_7d": 1,
     "opened_30d": 9,
     "opened_90d": 20,
@@ -167,10 +167,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 93,
-      "median_hours": 41.1,
-      "p90_hours": 301.9,
-      "p95_hours": 412
+      "avg_hours": 76.4,
+      "median_hours": 40.8,
+      "p90_hours": 174.4,
+      "p95_hours": 311.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -179,8 +179,8 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 95.4,
-      "median_hours": 41.1
+      "avg_hours": 78.9,
+      "median_hours": 40.8
     },
     "code_review_rate_pct": 100,
     "rejection_rate_pct": 0,
@@ -201,10 +201,10 @@
     "commits_per_week_trend": [
       0,
       0,
-      23,
-      5,
+      28,
       0,
-      27,
+      16,
+      11,
       19,
       2,
       13,
@@ -247,63 +247,38 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 19,
-        "total_changes": 38
+        "pr_count": 18,
+        "total_changes": 36
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 19,
-        "total_changes": 310
+        "pr_count": 18,
+        "total_changes": 268
       },
       {
         "path": "README.md",
-        "pr_count": 19,
-        "total_changes": 501
+        "pr_count": 18,
+        "total_changes": 290
       },
       {
         "path": "src/Version.php",
-        "pr_count": 19,
-        "total_changes": 38
+        "pr_count": 18,
+        "total_changes": 36
       },
       {
         "path": ".stats.yml",
-        "pr_count": 16,
-        "total_changes": 102
+        "pr_count": 15,
+        "total_changes": 96
       },
       {
         "path": "src/Beta/AnthropicBeta.php",
-        "pr_count": 7,
-        "total_changes": 16
+        "pr_count": 6,
+        "total_changes": 14
       },
       {
         "path": "tests/Services/Beta/MessagesTest.php",
-        "pr_count": 7,
-        "total_changes": 60
-      },
-      {
-        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
         "pr_count": 6,
-        "total_changes": 149
-      },
-      {
-        "path": "src/Beta/Messages/MessageCreateParams.php",
-        "pr_count": 6,
-        "total_changes": 146
-      },
-      {
-        "path": "src/ServiceContracts/Beta/MessagesContract.php",
-        "pr_count": 6,
-        "total_changes": 77
-      },
-      {
-        "path": "src/Services/Beta/MessagesService.php",
-        "pr_count": 6,
-        "total_changes": 186
-      },
-      {
-        "path": "tests/Services/Beta/Messages/BatchesTest.php",
-        "pr_count": 6,
-        "total_changes": 51
+        "total_changes": 43
       },
       {
         "path": "src/SSEStream.php",
@@ -311,9 +286,29 @@
         "total_changes": 46
       },
       {
-        "path": "composer.json",
+        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
         "pr_count": 5,
-        "total_changes": 16
+        "total_changes": 70
+      },
+      {
+        "path": "src/Beta/Messages/MessageCreateParams.php",
+        "pr_count": 5,
+        "total_changes": 69
+      },
+      {
+        "path": "src/ServiceContracts/Beta/MessagesContract.php",
+        "pr_count": 5,
+        "total_changes": 51
+      },
+      {
+        "path": "src/Services/Beta/MessagesService.php",
+        "pr_count": 5,
+        "total_changes": 113
+      },
+      {
+        "path": "tests/Services/Beta/Messages/BatchesTest.php",
+        "pr_count": 5,
+        "total_changes": 39
       },
       {
         "path": "scripts/mock",
@@ -326,84 +321,89 @@
         "total_changes": 24
       },
       {
-        "path": "src/Services/MessagesService.php",
-        "pr_count": 5,
-        "total_changes": 130
-      },
-      {
-        "path": "src/Core/Conversion.php",
-        "pr_count": 5,
-        "total_changes": 59
-      },
-      {
-        "path": "src/Messages/Model.php",
-        "pr_count": 5,
-        "total_changes": 121
-      },
-      {
         "path": "src/ServiceContracts/Beta/SessionsContract.php",
         "pr_count": 4,
         "total_changes": 157
+      },
+      {
+        "path": "src/Services/Beta/SessionsRawService.php",
+        "pr_count": 4,
+        "total_changes": 347
+      },
+      {
+        "path": "src/Services/Beta/SessionsService.php",
+        "pr_count": 4,
+        "total_changes": 282
+      },
+      {
+        "path": ".github/workflows/ci.yml",
+        "pr_count": 4,
+        "total_changes": 30
+      },
+      {
+        "path": "composer.json",
+        "pr_count": 4,
+        "total_changes": 10
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 19,
-        "file_count": 8
+        "pr_count": 18,
+        "file_count": 6
       },
       {
         "path": "src/",
-        "pr_count": 19,
+        "pr_count": 18,
         "file_count": 8
       },
       {
         "path": "tests/Services/Beta/",
-        "pr_count": 12,
-        "file_count": 11
+        "pr_count": 11,
+        "file_count": 10
       },
       {
         "path": "src/Beta/Messages/",
-        "pr_count": 11,
-        "file_count": 70
+        "pr_count": 10,
+        "file_count": 39
       },
       {
         "path": "src/ServiceContracts/Beta/",
-        "pr_count": 11,
+        "pr_count": 10,
         "file_count": 18
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 11,
+        "pr_count": 10,
         "file_count": 20
       },
       {
         "path": "src/Messages/",
-        "pr_count": 9,
-        "file_count": 104
+        "pr_count": 8,
+        "file_count": 14
       },
       {
         "path": "src/Core/",
-        "pr_count": 8,
+        "pr_count": 7,
         "file_count": 4
+      },
+      {
+        "path": "src/Beta/Sessions/",
+        "pr_count": 6,
+        "file_count": 26
       },
       {
         "path": ".github/workflows/",
-        "pr_count": 7,
+        "pr_count": 6,
         "file_count": 4
-      },
-      {
-        "path": "src/Beta/",
-        "pr_count": 7,
-        "file_count": 1
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 5569,
-    "total": 324630,
-    "last_week": 32464,
-    "last_month": 128073
+    "daily": 5535,
+    "total": 325322,
+    "last_week": 32430,
+    "last_month": 128039
   }
 }
