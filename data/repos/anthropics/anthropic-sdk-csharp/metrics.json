@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-21T02:11:26.233Z",
+  "timestamp": "2026-05-21T07:43:51.932Z",
   "repository": {
-    "stars": 265,
+    "stars": 267,
     "forks": 81
   },
   "issues": {
@@ -62,21 +62,21 @@
         "assignees": []
       },
       {
-        "number": 195,
-        "title": "AnthropicChatClient drops $defs / $ref when forwarding ChatResponseFormatJson.Schema to OutputConfig.Format",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/195",
-        "createdAt": "2026-05-14T08:16:31Z",
+        "number": 197,
+        "title": "GetStreamingResponseAsync emits duplicate/incomplete FunctionCallContent when multiple tools are called in parallel",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/197",
+        "createdAt": "2026-05-15T06:25:34Z",
         "daysOpen": 6,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 197,
-        "title": "GetStreamingResponseAsync emits duplicate/incomplete FunctionCallContent when multiple tools are called in parallel",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/197",
-        "createdAt": "2026-05-15T06:25:34Z",
-        "daysOpen": 5,
+        "number": 195,
+        "title": "AnthropicChatClient drops $defs / $ref when forwarding ChatResponseFormatJson.Schema to OutputConfig.Format",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/195",
+        "createdAt": "2026-05-14T08:16:31Z",
+        "daysOpen": 6,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -137,7 +137,7 @@
         "title": "Fix retry handling, HttpClient ownership, and Bedrock credential edge cases",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/194",
         "createdAt": "2026-05-13T07:32:00Z",
-        "daysOpen": 7,
+        "daysOpen": 8,
         "labels": [],
         "isDraft": false,
         "additions": 86,
@@ -176,10 +176,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 95,
-      "median_hours": 37.4,
-      "p90_hours": 260.9,
-      "p95_hours": 419.1
+      "avg_hours": 97.8,
+      "median_hours": 40.4,
+      "p90_hours": 262.7,
+      "p95_hours": 423.5
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -188,8 +188,8 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 206.6,
-      "median_hours": 52.4
+      "avg_hours": 212.5,
+      "median_hours": 61.5
     },
     "code_review_rate_pct": 91.4,
     "rejection_rate_pct": 18.6,
@@ -303,28 +303,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 19,
-        "total_changes": 83
+        "pr_count": 18,
+        "total_changes": 81
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
-        "pr_count": 18,
-        "total_changes": 61
-      },
-      {
-        "path": ".stats.yml",
-        "pr_count": 16,
-        "total_changes": 92
-      },
-      {
-        "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 16,
-        "total_changes": 555
+        "pr_count": 17,
+        "total_changes": 59
       },
       {
         "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
         "pr_count": 16,
         "total_changes": 3094
+      },
+      {
+        "path": ".stats.yml",
+        "pr_count": 15,
+        "total_changes": 88
+      },
+      {
+        "path": "src/Anthropic/CHANGELOG.md",
+        "pr_count": 15,
+        "total_changes": 546
       },
       {
         "path": "src/Anthropic/AnthropicClientExtensions.cs",
@@ -362,21 +362,6 @@
         "total_changes": 16
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/MessageCountTokensParamsTest.cs",
-        "pr_count": 8,
-        "total_changes": 695
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Messages/Batches/BatchCreateParams.cs",
-        "pr_count": 7,
-        "total_changes": 111
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Messages/MessageCreateParams.cs",
-        "pr_count": 7,
-        "total_changes": 110
-      },
-      {
         "path": "src/Anthropic.Bedrock/AnthropicBedrockMantleClient.cs",
         "pr_count": 7,
         "total_changes": 362
@@ -385,6 +370,11 @@
         "path": "src/Anthropic.Vertex/CHANGELOG.md",
         "pr_count": 7,
         "total_changes": 61
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/MessageCountTokensParamsTest.cs",
+        "pr_count": 7,
+        "total_changes": 684
       },
       {
         "path": "src/Anthropic.Tests/AnthropicClientExtensionsTests.cs",
@@ -400,12 +390,22 @@
         "path": "src/Anthropic/Models/Beta/AnthropicBeta.cs",
         "pr_count": 6,
         "total_changes": 21
+      },
+      {
+        "path": "src/Anthropic/Models/Beta/Messages/Batches/BatchCreateParams.cs",
+        "pr_count": 6,
+        "total_changes": 96
+      },
+      {
+        "path": "src/Anthropic/Models/Beta/Messages/MessageCreateParams.cs",
+        "pr_count": 6,
+        "total_changes": 96
       }
     ],
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 26,
+        "pr_count": 25,
         "file_count": 8
       },
       {
@@ -415,7 +415,7 @@
       },
       {
         "path": "/",
-        "pr_count": 19,
+        "pr_count": 18,
         "file_count": 8
       },
       {
@@ -435,23 +435,23 @@
       },
       {
         "path": "src/Anthropic/Models/Beta/Messages/",
-        "pr_count": 13,
+        "pr_count": 12,
         "file_count": 103
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/",
-        "pr_count": 11,
+        "pr_count": 10,
         "file_count": 52
-      },
-      {
-        "path": "src/Anthropic/Models/Messages/",
-        "pr_count": 11,
-        "file_count": 67
       },
       {
         "path": "src/Anthropic/Services/Beta/",
         "pr_count": 10,
         "file_count": 20
+      },
+      {
+        "path": "src/Anthropic.Tests/Services/Beta/",
+        "pr_count": 10,
+        "file_count": 15
       }
     ],
     "top_n": 20
