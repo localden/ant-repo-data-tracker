@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-05-21T22:59:02.261Z",
+  "timestamp": "2026-05-22T02:12:36.386Z",
   "repository": {
     "stars": 1962,
-    "forks": 333
+    "forks": 335
   },
   "issues": {
     "open_count": 50,
@@ -153,7 +153,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 382,
+        "daysOpen": 383,
         "labels": [
           "code-change"
         ],
@@ -358,7 +358,7 @@
         "title": "Clarification needed: `cache_read_input_tokens` behavior during `tool_search_tool` use",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/907",
         "createdAt": "2026-02-12T01:55:29Z",
-        "daysOpen": 98,
+        "daysOpen": 99,
         "labels": [
           "api"
         ],
@@ -647,17 +647,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 50,
+    "open_count": 52,
     "merged_7d": 3,
     "merged_30d": 13,
     "merged_90d": 29,
-    "opened_7d": 14,
-    "opened_30d": 36,
-    "opened_90d": 97,
+    "opened_7d": 16,
+    "opened_30d": 38,
+    "opened_90d": 99,
     "closed_not_merged_90d": 38,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 50,
+    "unassigned_count": 52,
     "unassigned_24h": 50,
     "unassigned_7d": 40,
     "assigned_prs": [],
@@ -764,7 +764,7 @@
         "title": "fix(streaming): skip SSE events with empty data to prevent JSON parse crash",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/903",
         "createdAt": "2026-02-06T23:59:08Z",
-        "daysOpen": 103,
+        "daysOpen": 104,
         "labels": [
           "code-change"
         ],
@@ -1022,7 +1022,7 @@
         "title": "feat: add type guard helpers for ContentBlock variants",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/975",
         "createdAt": "2026-04-04T23:19:55Z",
-        "daysOpen": 46,
+        "daysOpen": 47,
         "labels": [
           "code-change",
           "spec-change"
@@ -1056,7 +1056,7 @@
         "title": "fix(examples): update deprecated model IDs in tools-helpers examples",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/988",
         "createdAt": "2026-04-10T00:23:13Z",
-        "daysOpen": 41,
+        "daysOpen": 42,
         "labels": [
           "code-change"
         ],
@@ -1300,6 +1300,20 @@
         "assignees": []
       },
       {
+        "number": 1049,
+        "title": "fix(stream): detect mixed newline SSE boundaries",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
+        "createdAt": "2026-05-17T01:18:12Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 34,
+        "deletions": 23,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1048,
         "title": "fix(stream): preserve cache creation usage deltas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
@@ -1353,20 +1367,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "blut-agent",
-        "assignees": []
-      },
-      {
-        "number": 1049,
-        "title": "fix(stream): detect mixed newline SSE boundaries",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
-        "createdAt": "2026-05-17T01:18:12Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 34,
-        "deletions": 23,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
         "assignees": []
       },
       {
@@ -1424,13 +1424,41 @@
         "reviewCount": 0,
         "author": "xodn348",
         "assignees": []
+      },
+      {
+        "number": 1059,
+        "title": "fix(partial-json): keep complete trailing numbers in arrays",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
+        "createdAt": "2026-05-22T00:58:11Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 14,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "ATOM00blue",
+        "assignees": []
+      },
+      {
+        "number": 1058,
+        "title": "docs(streams): remove \"the the\" duplicate-word typo in MessageStream JSDoc",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1058",
+        "createdAt": "2026-05-21T23:18:55Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "devteamaegis",
+        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 304.3,
-      "median_hours": 2.4,
-      "p90_hours": 144.8,
-      "p95_hours": 263.8
+      "avg_hours": 297.1,
+      "median_hours": 2.2,
+      "p90_hours": 144.5,
+      "p95_hours": 258.4
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1446,15 +1474,15 @@
     "rejection_rate_pct": 56.7,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
-      "small": 29,
+      "small": 31,
       "medium": 16,
       "large": 5
     }
   },
   "contributors": {
-    "total_known": 162,
-    "active_30d": 30,
-    "first_time_30d": 25,
+    "total_known": 164,
+    "active_30d": 32,
+    "first_time_30d": 27,
     "retention_rate_pct": 12.9,
     "churned_30d": 27,
     "commits_per_week_avg": 3.5,
@@ -1475,6 +1503,7 @@
     "allContributors": [
       "0xrdan",
       "16point7",
+      "ATOM00blue",
       "AdrianKrebs",
       "AlexHerranr",
       "AsharSyed99",
@@ -1544,6 +1573,7 @@
       "davidstackio",
       "dermdunc",
       "dev-natalya",
+      "devteamaegis",
       "dhofheinz",
       "dsiebes",
       "dtmeadows",
@@ -1637,6 +1667,7 @@
       "ysnows"
     ],
     "previousPeriodContributors": [
+      "ATOM00blue",
       "Avocher",
       "Herrtian",
       "MukundaKatta",
@@ -1649,6 +1680,7 @@
       "barneywohl",
       "blut-agent",
       "darthcoder",
+      "devteamaegis",
       "ibondarenko1",
       "importpieter",
       "karpetrosyan",
@@ -1827,10 +1859,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 3184675,
     "total": 324022566,
-    "total_through": "2026-05-20",
-    "last_week": 18425351,
-    "last_month": 75994170
+    "total_through": "2026-05-20"
   }
 }
