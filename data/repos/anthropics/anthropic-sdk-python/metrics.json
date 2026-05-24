@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-05-24T12:59:00.496Z",
+  "timestamp": "2026-05-24T14:55:38.249Z",
   "repository": {
-    "stars": 3511,
+    "stars": 3512,
     "forks": 688
   },
   "issues": {
@@ -14,7 +14,7 @@
     "opened_90d": 94,
     "assigned_count": 3,
     "unassigned_count": 106,
-    "unassigned_24h": 104,
+    "unassigned_24h": 105,
     "unassigned_7d": 98,
     "unassigned_30d": 78,
     "assigned_issues": [
@@ -70,7 +70,7 @@
         "title": "Feature: Support for access aws bedrock through role arn directly and retrieve the AKSK from boto3.Session directly",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/538",
         "createdAt": "2024-06-14T13:10:46Z",
-        "daysOpen": 708,
+        "daysOpen": 709,
         "labels": [
           "enhancement",
           "bedrock",
@@ -259,7 +259,7 @@
         "title": "Bedrock: support low-latency configuration",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/971",
         "createdAt": "2025-06-10T13:40:34Z",
-        "daysOpen": 347,
+        "daysOpen": 348,
         "labels": [
           "bedrock"
         ],
@@ -344,7 +344,7 @@
         "title": "Error 500/Internal server error when using tool with draft-07 JSON schema version since 2025-07-24, ~10AM GMT+2",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1001",
         "createdAt": "2025-07-24T14:50:52Z",
-        "daysOpen": 303,
+        "daysOpen": 304,
         "labels": [
           "api"
         ],
@@ -401,7 +401,7 @@
         "title": "Select region on Anthropic infrastructure",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1032",
         "createdAt": "2025-09-11T13:12:55Z",
-        "daysOpen": 254,
+        "daysOpen": 255,
         "labels": [
           "api"
         ],
@@ -521,7 +521,7 @@
         "title": "[Opus 4.6] BetaCompactionBlock deserialized as ParsedBetaTextBlock during streaming accumulation",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1175",
         "createdAt": "2026-02-11T14:01:08Z",
-        "daysOpen": 101,
+        "daysOpen": 102,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -541,7 +541,7 @@
         "title": "🐛 Bug: Skills API returns immediate 500s when skills are enabled (base API works)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1181",
         "createdAt": "2026-02-16T13:39:09Z",
-        "daysOpen": 96,
+        "daysOpen": 97,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -567,6 +567,16 @@
         "assignees": []
       },
       {
+        "number": 1192,
+        "title": "IndexError when streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1192",
+        "createdAt": "2026-02-20T14:01:37Z",
+        "daysOpen": 93,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 1194,
         "title": "Prompt caching for Claude Sonnet appears to start at 2048 tokens instead of documented 1024",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1194",
@@ -574,16 +584,6 @@
         "daysOpen": 92,
         "labels": [],
         "commentCount": 6,
-        "assignees": []
-      },
-      {
-        "number": 1192,
-        "title": "IndexError when streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1192",
-        "createdAt": "2026-02-20T14:01:37Z",
-        "daysOpen": 92,
-        "labels": [],
-        "commentCount": 1,
         "assignees": []
       },
       {
@@ -705,21 +705,21 @@
         "assignees": []
       },
       {
-        "number": 1288,
-        "title": "500 Internal Server Error when input_examples contains an empty object {}",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1288",
-        "createdAt": "2026-03-24T15:29:54Z",
+        "number": 1294,
+        "title": "beta.skills.create intermittently fails with Cloudflare 520/502 (anthropic SDK python 0.86.0)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1294",
+        "createdAt": "2026-03-25T14:54:43Z",
         "daysOpen": 60,
         "labels": [],
         "commentCount": 1,
         "assignees": []
       },
       {
-        "number": 1294,
-        "title": "beta.skills.create intermittently fails with Cloudflare 520/502 (anthropic SDK python 0.86.0)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1294",
-        "createdAt": "2026-03-25T14:54:43Z",
-        "daysOpen": 59,
+        "number": 1288,
+        "title": "500 Internal Server Error when input_examples contains an empty object {}",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1288",
+        "createdAt": "2026-03-24T15:29:54Z",
+        "daysOpen": 60,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -929,6 +929,16 @@
         "assignees": []
       },
       {
+        "number": 1447,
+        "title": "Add stable alias for \"current recommended model\" (e.g. claude-sonnet-latest)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1447",
+        "createdAt": "2026-04-25T14:42:14Z",
+        "daysOpen": 29,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1451,
         "title": "Cache misses on second back-to-back `client.messages.create()` (~40% rate)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1451",
@@ -949,16 +959,6 @@
         "assignees": []
       },
       {
-        "number": 1447,
-        "title": "Add stable alias for \"current recommended model\" (e.g. claude-sonnet-latest)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1447",
-        "createdAt": "2026-04-25T14:42:14Z",
-        "daysOpen": 28,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 1454,
         "title": "ToolUseBlock and ToolUseBlockParam type conflict for caller nullability",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1454",
@@ -969,20 +969,20 @@
         "assignees": []
       },
       {
-        "number": 1470,
-        "title": "Streaming /v1/messages drops mid-stream with RemoteProtocolError on long code_execution + skills runs",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1470",
-        "createdAt": "2026-04-29T05:50:45Z",
-        "daysOpen": 25,
+        "number": 1464,
+        "title": "Delay when generating file_text argument using skills",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1464",
+        "createdAt": "2026-04-28T13:59:46Z",
+        "daysOpen": 26,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 1464,
-        "title": "Delay when generating file_text argument using skills",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1464",
-        "createdAt": "2026-04-28T13:59:46Z",
+        "number": 1470,
+        "title": "Streaming /v1/messages drops mid-stream with RemoteProtocolError on long code_execution + skills runs",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1470",
+        "createdAt": "2026-04-29T05:50:45Z",
         "daysOpen": 25,
         "labels": [],
         "commentCount": 0,
@@ -1081,21 +1081,21 @@
         "assignees": []
       },
       {
-        "number": 1502,
-        "title": "Claude Code extension for VSCode version  2.1.129 does not install correctly",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1502",
-        "createdAt": "2026-05-06T02:26:16Z",
+        "number": 1505,
+        "title": "Claude Code Extension fails to load on network paths (UNC paths)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1505",
+        "createdAt": "2026-05-06T14:30:20Z",
         "daysOpen": 18,
         "labels": [],
         "commentCount": 1,
         "assignees": []
       },
       {
-        "number": 1505,
-        "title": "Claude Code Extension fails to load on network paths (UNC paths)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1505",
-        "createdAt": "2026-05-06T14:30:20Z",
-        "daysOpen": 17,
+        "number": 1502,
+        "title": "Claude Code extension for VSCode version  2.1.129 does not install correctly",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1502",
+        "createdAt": "2026-05-06T02:26:16Z",
+        "daysOpen": 18,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -1133,6 +1133,16 @@
         "assignees": []
       },
       {
+        "number": 1562,
+        "title": "Managed Agents: vault_ids not inherited by subagents dispatched via agent_toolset — MCP OAuth calls fail",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1562",
+        "createdAt": "2026-05-18T14:42:07Z",
+        "daysOpen": 6,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 1568,
         "title": "Use Trusted Publishing to upload to PyPI",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1568",
@@ -1143,21 +1153,11 @@
         "assignees": []
       },
       {
-        "number": 1562,
-        "title": "Managed Agents: vault_ids not inherited by subagents dispatched via agent_toolset — MCP OAuth calls fail",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1562",
-        "createdAt": "2026-05-18T14:42:07Z",
-        "daysOpen": 5,
-        "labels": [],
-        "commentCount": 1,
-        "assignees": []
-      },
-      {
         "number": 1575,
         "title": "beta.skills.create: undocumented requirement that files path prefix must match SKILL.md name: field",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1575",
         "createdAt": "2026-05-20T13:26:08Z",
-        "daysOpen": 3,
+        "daysOpen": 4,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -1183,6 +1183,16 @@
         "assignees": []
       },
       {
+        "number": 1596,
+        "title": "fix(examples): replace dated model IDs with non-dated aliases",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1596",
+        "createdAt": "2026-05-23T13:05:11Z",
+        "daysOpen": 1,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1589,
         "title": "Add HEIC/HEIF image format support to Vision API",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1589",
@@ -1197,16 +1207,6 @@
         "title": "[Bug] API returns 400 'Invalid signature in thinking block' when replaying conversation history — no recovery path",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1598",
         "createdAt": "2026-05-23T23:35:05Z",
-        "daysOpen": 0,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1596,
-        "title": "fix(examples): replace dated model IDs with non-dated aliases",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1596",
-        "createdAt": "2026-05-23T13:05:11Z",
         "daysOpen": 0,
         "labels": [],
         "commentCount": 0,
@@ -1253,7 +1253,7 @@
     "draft_count": 5,
     "assigned_count": 0,
     "unassigned_count": 156,
-    "unassigned_24h": 150,
+    "unassigned_24h": 151,
     "unassigned_7d": 133,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -1308,7 +1308,7 @@
         "title": "fix(bedrock): preserve http_client in copy() and with_options() methods",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1057",
         "createdAt": "2025-10-31T13:45:12Z",
-        "daysOpen": 204,
+        "daysOpen": 205,
         "labels": [],
         "isDraft": false,
         "additions": 256,
@@ -1386,6 +1386,48 @@
         "additions": 18,
         "deletions": 0,
         "reviewCount": 3,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
+        "number": 1149,
+        "title": "fix(bedrock): fix region inference when aws_profile is used",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1149",
+        "createdAt": "2026-01-22T13:38:43Z",
+        "daysOpen": 122,
+        "labels": [],
+        "isDraft": true,
+        "additions": 90,
+        "deletions": 19,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
+        "number": 1148,
+        "title": "feat(bedrock): add support for passing boto3.Session",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1148",
+        "createdAt": "2026-01-22T13:31:20Z",
+        "daysOpen": 122,
+        "labels": [],
+        "isDraft": true,
+        "additions": 49,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "Ashutosh0x",
+        "assignees": []
+      },
+      {
+        "number": 1146,
+        "title": "fix(streaming): handle raw dicts in accumulate_event to prevent AttributeError",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1146",
+        "createdAt": "2026-01-22T13:13:13Z",
+        "daysOpen": 122,
+        "labels": [],
+        "isDraft": true,
+        "additions": 49,
+        "deletions": 16,
+        "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
       },
@@ -1469,48 +1511,6 @@
         "isDraft": false,
         "additions": 3516,
         "deletions": 3468,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1149,
-        "title": "fix(bedrock): fix region inference when aws_profile is used",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1149",
-        "createdAt": "2026-01-22T13:38:43Z",
-        "daysOpen": 121,
-        "labels": [],
-        "isDraft": true,
-        "additions": 90,
-        "deletions": 19,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1148,
-        "title": "feat(bedrock): add support for passing boto3.Session",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1148",
-        "createdAt": "2026-01-22T13:31:20Z",
-        "daysOpen": 121,
-        "labels": [],
-        "isDraft": true,
-        "additions": 49,
-        "deletions": 8,
-        "reviewCount": 0,
-        "author": "Ashutosh0x",
-        "assignees": []
-      },
-      {
-        "number": 1146,
-        "title": "fix(streaming): handle raw dicts in accumulate_event to prevent AttributeError",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1146",
-        "createdAt": "2026-01-22T13:13:13Z",
-        "daysOpen": 121,
-        "labels": [],
-        "isDraft": true,
-        "additions": 49,
-        "deletions": 16,
         "reviewCount": 0,
         "author": "Ashutosh0x",
         "assignees": []
@@ -2062,6 +2062,20 @@
         "assignees": []
       },
       {
+        "number": 1304,
+        "title": "fix: correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1304",
+        "createdAt": "2026-03-27T13:40:12Z",
+        "daysOpen": 58,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "nil957",
+        "assignees": []
+      },
+      {
         "number": 1306,
         "title": "fix(bedrock,vertex): add missing 413 and 529 status error handling",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1306",
@@ -2087,20 +2101,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "IgnazioDS",
-        "assignees": []
-      },
-      {
-        "number": 1304,
-        "title": "fix: correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1304",
-        "createdAt": "2026-03-27T13:40:12Z",
-        "daysOpen": 57,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "nil957",
         "assignees": []
       },
       {
@@ -2300,6 +2300,20 @@
         "assignees": []
       },
       {
+        "number": 1400,
+        "title": "Fix streamed tool search result blocks in parsed message snapshots",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1400",
+        "createdAt": "2026-04-15T13:07:24Z",
+        "daysOpen": 39,
+        "labels": [],
+        "isDraft": false,
+        "additions": 84,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "erhan1209",
+        "assignees": []
+      },
+      {
         "number": 1395,
         "title": "Discriminate tool search result union",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1395",
@@ -2311,20 +2325,6 @@
         "deletions": 4,
         "reviewCount": 0,
         "author": "hwaxxer",
-        "assignees": []
-      },
-      {
-        "number": 1400,
-        "title": "Fix streamed tool search result blocks in parsed message snapshots",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1400",
-        "createdAt": "2026-04-15T13:07:24Z",
-        "daysOpen": 38,
-        "labels": [],
-        "isDraft": false,
-        "additions": 84,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "erhan1209",
         "assignees": []
       },
       {
@@ -2412,6 +2412,20 @@
         "assignees": []
       },
       {
+        "number": 1426,
+        "title": "fix(streaming): propagate container from message_delta",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1426",
+        "createdAt": "2026-04-21T14:50:40Z",
+        "daysOpen": 33,
+        "labels": [],
+        "isDraft": false,
+        "additions": 108,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "MukundaKatta",
+        "assignees": []
+      },
+      {
         "number": 1431,
         "title": "feat: improve ToolSearchToolResultBlock type safety and expose subprocess PID",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1431",
@@ -2435,20 +2449,6 @@
         "isDraft": false,
         "additions": 157,
         "deletions": 17,
-        "reviewCount": 0,
-        "author": "MukundaKatta",
-        "assignees": []
-      },
-      {
-        "number": 1426,
-        "title": "fix(streaming): propagate container from message_delta",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1426",
-        "createdAt": "2026-04-21T14:50:40Z",
-        "daysOpen": 32,
-        "labels": [],
-        "isDraft": false,
-        "additions": 108,
-        "deletions": 14,
         "reviewCount": 0,
         "author": "MukundaKatta",
         "assignees": []
@@ -3074,6 +3074,48 @@
         "assignees": []
       },
       {
+        "number": 1554,
+        "title": "fix(qs): preserve empty string query parameter values",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1554",
+        "createdAt": "2026-05-16T14:19:01Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 5,
+        "deletions": 2,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
+        "number": 1555,
+        "title": "fix(bedrock): convert non-200 SSE error events to APIStatusError",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1555",
+        "createdAt": "2026-05-16T14:34:09Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 182,
+        "deletions": 24,
+        "reviewCount": 1,
+        "author": "nileshpatil6",
+        "assignees": []
+      },
+      {
+        "number": 1553,
+        "title": "fix(bedrock): detect region from AWS_DEFAULT_REGION and aws_profile arg",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1553",
+        "createdAt": "2026-05-16T13:03:53Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 32,
+        "deletions": 5,
+        "reviewCount": 0,
+        "author": "JiwaniZakir",
+        "assignees": []
+      },
+      {
         "number": 1552,
         "title": "fix: wrap mid-stream httpx.TransportError as APIConnectionError",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1552",
@@ -3116,20 +3158,6 @@
         "assignees": []
       },
       {
-        "number": 1554,
-        "title": "fix(qs): preserve empty string query parameter values",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1554",
-        "createdAt": "2026-05-16T14:19:01Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 5,
-        "deletions": 2,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
-        "assignees": []
-      },
-      {
         "number": 1556,
         "title": "fix(bedrock): preserve aws_profile in copied clients",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1556",
@@ -3169,34 +3197,6 @@
         "deletions": 4,
         "reviewCount": 1,
         "author": "pragnyanramtha",
-        "assignees": []
-      },
-      {
-        "number": 1555,
-        "title": "fix(bedrock): convert non-200 SSE error events to APIStatusError",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1555",
-        "createdAt": "2026-05-16T14:34:09Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 182,
-        "deletions": 24,
-        "reviewCount": 1,
-        "author": "nileshpatil6",
-        "assignees": []
-      },
-      {
-        "number": 1553,
-        "title": "fix(bedrock): detect region from AWS_DEFAULT_REGION and aws_profile arg",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1553",
-        "createdAt": "2026-05-16T13:03:53Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 32,
-        "deletions": 5,
-        "reviewCount": 0,
-        "author": "JiwaniZakir",
         "assignees": []
       },
       {
@@ -3340,6 +3340,20 @@
         "assignees": []
       },
       {
+        "number": 1597,
+        "title": "fix(examples): replace dated model ID with non-dated alias in tools.py",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1597",
+        "createdAt": "2026-05-23T13:12:44Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 2,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Vaibhav-S-Gowda",
+        "assignees": []
+      },
+      {
         "number": 1595,
         "title": "ci: migrate claude.yml to Workload Identity Federation auth",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1595",
@@ -3438,20 +3452,6 @@
         "reviewCount": 0,
         "author": "ppradyoth",
         "assignees": []
-      },
-      {
-        "number": 1597,
-        "title": "fix(examples): replace dated model ID with non-dated alias in tools.py",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1597",
-        "createdAt": "2026-05-23T13:12:44Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 2,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Vaibhav-S-Gowda",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -3483,8 +3483,8 @@
     "total_known": 287,
     "active_30d": 68,
     "first_time_30d": 60,
-    "retention_rate_pct": 9.5,
-    "churned_30d": 67,
+    "retention_rate_pct": 9.6,
+    "churned_30d": 66,
     "commits_per_week_avg": 10.3,
     "commits_per_week_trend": [
       0,
@@ -4018,9 +4018,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 1709930,
-    "last_week": 29932740,
-    "last_month": 124265722,
-    "total": 649774559
+    "daily": 2021164,
+    "last_week": 30243974,
+    "last_month": 124576956,
+    "total": 650085793
   }
 }
