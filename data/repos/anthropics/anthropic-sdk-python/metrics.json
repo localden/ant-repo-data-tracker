@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-24T09:47:57.816Z",
+  "timestamp": "2026-05-24T11:07:20.293Z",
   "repository": {
     "stars": 3511,
     "forks": 688
@@ -379,7 +379,7 @@
         "title": "BetaMessageParam potentially missing BetaContentBlock?",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1022",
         "createdAt": "2025-08-28T10:52:39Z",
-        "daysOpen": 268,
+        "daysOpen": 269,
         "labels": [
           "sdk"
         ],
@@ -425,7 +425,7 @@
         "title": "Claude reads PDF using Visual Mode even if citations are disabled",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1072",
         "createdAt": "2025-11-17T10:57:07Z",
-        "daysOpen": 187,
+        "daysOpen": 188,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -929,6 +929,16 @@
         "assignees": []
       },
       {
+        "number": 1451,
+        "title": "Cache misses on second back-to-back `client.messages.create()` (~40% rate)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1451",
+        "createdAt": "2026-04-26T09:56:02Z",
+        "daysOpen": 28,
+        "labels": [],
+        "commentCount": 3,
+        "assignees": []
+      },
+      {
         "number": 1450,
         "title": "`BetaCitationPageLocation` contains `file_id` that cannot be roundtripped as a request",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1450",
@@ -946,16 +956,6 @@
         "daysOpen": 28,
         "labels": [],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1451,
-        "title": "Cache misses on second back-to-back `client.messages.create()` (~40% rate)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1451",
-        "createdAt": "2026-04-26T09:56:02Z",
-        "daysOpen": 27,
-        "labels": [],
-        "commentCount": 3,
         "assignees": []
       },
       {
@@ -1163,6 +1163,16 @@
         "assignees": []
       },
       {
+        "number": 1581,
+        "title": "[BUG] MCP connector: model intermittently emits tool_use instead of mcp_tool_use for tools declared in mcp_toolset",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1581",
+        "createdAt": "2026-05-21T10:35:38Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1578,
         "title": "Enforce HTTPS for base_url during Workload Identity Token Exchanges (Defense-in-Depth)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1578",
@@ -1170,16 +1180,6 @@
         "daysOpen": 3,
         "labels": [],
         "commentCount": 2,
-        "assignees": []
-      },
-      {
-        "number": 1581,
-        "title": "[BUG] MCP connector: model intermittently emits tool_use instead of mcp_tool_use for tools declared in mcp_toolset",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1581",
-        "createdAt": "2026-05-21T10:35:38Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -1262,7 +1262,7 @@
         "title": "feat(bedrock): support aws auth through role arn",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/543",
         "createdAt": "2024-06-18T09:52:52Z",
-        "daysOpen": 704,
+        "daysOpen": 705,
         "labels": [
           "enhancement",
           "bedrock",
@@ -1562,7 +1562,7 @@
         "title": "fix(tool runner): don't exit early on `pause_turn`",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1174",
         "createdAt": "2026-02-10T11:04:40Z",
-        "daysOpen": 102,
+        "daysOpen": 103,
         "labels": [],
         "isDraft": false,
         "additions": 747,
@@ -2132,6 +2132,20 @@
         "assignees": []
       },
       {
+        "number": 1328,
+        "title": "feat(examples): add async tool runner example",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1328",
+        "createdAt": "2026-04-03T10:58:46Z",
+        "daysOpen": 51,
+        "labels": [],
+        "isDraft": false,
+        "additions": 57,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "Vansh1811",
+        "assignees": []
+      },
+      {
         "number": 1326,
         "title": "fix(streaming): add helpful error message for malformed JSON in non-beta path",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1326",
@@ -2143,20 +2157,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "Vitalcheffe",
-        "assignees": []
-      },
-      {
-        "number": 1328,
-        "title": "feat(examples): add async tool runner example",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1328",
-        "createdAt": "2026-04-03T10:58:46Z",
-        "daysOpen": 50,
-        "labels": [],
-        "isDraft": false,
-        "additions": 57,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "Vansh1811",
         "assignees": []
       },
       {
@@ -2300,6 +2300,20 @@
         "assignees": []
       },
       {
+        "number": 1395,
+        "title": "Discriminate tool search result union",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1395",
+        "createdAt": "2026-04-15T09:55:40Z",
+        "daysOpen": 39,
+        "labels": [],
+        "isDraft": false,
+        "additions": 42,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "hwaxxer",
+        "assignees": []
+      },
+      {
         "number": 1400,
         "title": "Fix streamed tool search result blocks in parsed message snapshots",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1400",
@@ -2311,20 +2325,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "erhan1209",
-        "assignees": []
-      },
-      {
-        "number": 1395,
-        "title": "Discriminate tool search result union",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1395",
-        "createdAt": "2026-04-15T09:55:40Z",
-        "daysOpen": 38,
-        "labels": [],
-        "isDraft": false,
-        "additions": 42,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "hwaxxer",
         "assignees": []
       },
       {
@@ -2353,6 +2353,20 @@
         "deletions": 3,
         "reviewCount": 0,
         "author": "xodn348",
+        "assignees": []
+      },
+      {
+        "number": 1413,
+        "title": "fix: pass aws_profile to boto3.Session when inferring Bedrock region",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1413",
+        "createdAt": "2026-04-19T10:19:08Z",
+        "daysOpen": 35,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "tianhaocui",
         "assignees": []
       },
       {
@@ -2395,20 +2409,6 @@
         "deletions": 7,
         "reviewCount": 0,
         "author": "nileshpatil6",
-        "assignees": []
-      },
-      {
-        "number": 1413,
-        "title": "fix: pass aws_profile to boto3.Session when inferring Bedrock region",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1413",
-        "createdAt": "2026-04-19T10:19:08Z",
-        "daysOpen": 34,
-        "labels": [],
-        "isDraft": false,
-        "additions": 4,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "tianhaocui",
         "assignees": []
       },
       {
@@ -2482,6 +2482,34 @@
         "assignees": []
       },
       {
+        "number": 1446,
+        "title": "fix(streaming): fire BetaInputJsonEvent for server_tool_use blocks",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1446",
+        "createdAt": "2026-04-25T09:53:07Z",
+        "daysOpen": 29,
+        "labels": [],
+        "isDraft": false,
+        "additions": 8,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "abhicris",
+        "assignees": []
+      },
+      {
+        "number": 1445,
+        "title": "fix(types): sync ParsedBetaContentBlock union with BetaContentBlock",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1445",
+        "createdAt": "2026-04-25T09:53:04Z",
+        "daysOpen": 29,
+        "labels": [],
+        "isDraft": false,
+        "additions": 6,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "abhicris",
+        "assignees": []
+      },
+      {
         "number": 1444,
         "title": "fix(streaming): propagate message_delta.container into final Message",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1444",
@@ -2549,34 +2577,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "Zelys-DFKH",
-        "assignees": []
-      },
-      {
-        "number": 1446,
-        "title": "fix(streaming): fire BetaInputJsonEvent for server_tool_use blocks",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1446",
-        "createdAt": "2026-04-25T09:53:07Z",
-        "daysOpen": 28,
-        "labels": [],
-        "isDraft": false,
-        "additions": 8,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "abhicris",
-        "assignees": []
-      },
-      {
-        "number": 1445,
-        "title": "fix(types): sync ParsedBetaContentBlock union with BetaContentBlock",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1445",
-        "createdAt": "2026-04-25T09:53:04Z",
-        "daysOpen": 28,
-        "labels": [],
-        "isDraft": false,
-        "additions": 6,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "abhicris",
         "assignees": []
       },
       {
@@ -2924,7 +2924,7 @@
         "title": "fix(bedrock): pass aws_profile to boto3.Session in _infer_region",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1521",
         "createdAt": "2026-05-08T10:35:04Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "isDraft": false,
         "additions": 4,
@@ -4018,9 +4018,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 1277331,
-    "last_week": 29500141,
-    "last_month": 123833123,
-    "total": 649341960
+    "daily": 1460348,
+    "last_week": 29683158,
+    "last_month": 124016140,
+    "total": 649524977
   }
 }
