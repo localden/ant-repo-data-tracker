@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-26T23:01:46.282Z",
+  "timestamp": "2026-05-27T02:15:11.748Z",
   "repository": {
     "stars": 1971,
     "forks": 339
@@ -8,7 +8,7 @@
     "open_count": 54,
     "closed_7d": 0,
     "closed_30d": 50,
-    "closed_90d": 58,
+    "closed_90d": 57,
     "opened_7d": 4,
     "opened_30d": 13,
     "opened_90d": 38,
@@ -153,7 +153,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 387,
+        "daysOpen": 388,
         "labels": [
           "code-change"
         ],
@@ -358,7 +358,7 @@
         "title": "Clarification needed: `cache_read_input_tokens` behavior during `tool_search_tool` use",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/907",
         "createdAt": "2026-02-12T01:55:29Z",
-        "daysOpen": 103,
+        "daysOpen": 104,
         "labels": [
           "api"
         ],
@@ -675,9 +675,9 @@
       "p95_hours": 1241.6
     },
     "close_time": {
-      "avg_days": 211.7,
-      "median_days": 124.8,
-      "p90_days": 539.4
+      "avg_days": 215.3,
+      "median_days": 130.4,
+      "p90_days": 541.2
     },
     "label_coverage_pct": 83.3,
     "unlabeled_count": 9,
@@ -687,18 +687,18 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 57,
-    "merged_7d": 1,
-    "merged_30d": 11,
-    "merged_90d": 28,
-    "opened_7d": 11,
-    "opened_30d": 41,
-    "opened_90d": 102,
+    "open_count": 56,
+    "merged_7d": 3,
+    "merged_30d": 13,
+    "merged_90d": 30,
+    "opened_7d": 12,
+    "opened_30d": 42,
+    "opened_90d": 103,
     "closed_not_merged_90d": 39,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 57,
-    "unassigned_24h": 56,
+    "unassigned_count": 56,
+    "unassigned_24h": 55,
     "unassigned_7d": 49,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -804,7 +804,7 @@
         "title": "fix(streaming): skip SSE events with empty data to prevent JSON parse crash",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/903",
         "createdAt": "2026-02-06T23:59:08Z",
-        "daysOpen": 108,
+        "daysOpen": 109,
         "labels": [
           "code-change"
         ],
@@ -1062,7 +1062,7 @@
         "title": "feat: add type guard helpers for ContentBlock variants",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/975",
         "createdAt": "2026-04-04T23:19:55Z",
-        "daysOpen": 51,
+        "daysOpen": 52,
         "labels": [
           "code-change",
           "spec-change"
@@ -1096,7 +1096,7 @@
         "title": "fix(examples): update deprecated model IDs in tools-helpers examples",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/988",
         "createdAt": "2026-04-10T00:23:13Z",
-        "daysOpen": 46,
+        "daysOpen": 47,
         "labels": [
           "code-change"
         ],
@@ -1340,6 +1340,20 @@
         "assignees": []
       },
       {
+        "number": 1049,
+        "title": "fix(stream): detect mixed newline SSE boundaries",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
+        "createdAt": "2026-05-17T01:18:12Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 34,
+        "deletions": 23,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1048,
         "title": "fix(stream): preserve cache creation usage deltas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
@@ -1393,20 +1407,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "blut-agent",
-        "assignees": []
-      },
-      {
-        "number": 1049,
-        "title": "fix(stream): detect mixed newline SSE boundaries",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
-        "createdAt": "2026-05-17T01:18:12Z",
-        "daysOpen": 9,
-        "labels": [],
-        "isDraft": false,
-        "additions": 34,
-        "deletions": 23,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
         "assignees": []
       },
       {
@@ -1466,19 +1466,31 @@
         "assignees": []
       },
       {
-        "number": 1061,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1061",
-        "createdAt": "2026-05-22T16:58:32Z",
-        "daysOpen": 4,
-        "labels": [
-          "autorelease: pending"
-        ],
+        "number": 1059,
+        "title": "fix(partial-json): keep complete trailing numbers in arrays",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
+        "createdAt": "2026-05-22T00:58:11Z",
+        "daysOpen": 5,
+        "labels": [],
         "isDraft": false,
-        "additions": 73,
+        "additions": 14,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "ATOM00blue",
+        "assignees": []
+      },
+      {
+        "number": 1058,
+        "title": "docs(streams): remove \"the the\" duplicate-word typo in MessageStream JSDoc",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1058",
+        "createdAt": "2026-05-21T23:18:55Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
         "deletions": 4,
         "reviewCount": 0,
-        "author": "stainless-app",
+        "author": "devteamaegis",
         "assignees": []
       },
       {
@@ -1493,34 +1505,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "xodn348",
-        "assignees": []
-      },
-      {
-        "number": 1059,
-        "title": "fix(partial-json): keep complete trailing numbers in arrays",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
-        "createdAt": "2026-05-22T00:58:11Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 14,
-        "deletions": 0,
-        "reviewCount": 1,
-        "author": "ATOM00blue",
-        "assignees": []
-      },
-      {
-        "number": 1058,
-        "title": "docs(streams): remove \"the the\" duplicate-word typo in MessageStream JSDoc",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1058",
-        "createdAt": "2026-05-21T23:18:55Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 4,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "devteamaegis",
         "assignees": []
       },
       {
@@ -1567,10 +1551,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 297.1,
+      "avg_hours": 286,
       "median_hours": 2.5,
-      "p90_hours": 144.5,
-      "p95_hours": 258.4
+      "p90_hours": 143.8,
+      "p95_hours": 247.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1579,25 +1563,25 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 54.3,
+      "avg_hours": 54.1,
       "median_hours": 19.3
     },
-    "code_review_rate_pct": 96.4,
-    "rejection_rate_pct": 58.2,
+    "code_review_rate_pct": 96.7,
+    "rejection_rate_pct": 56.5,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
-      "small": 35,
+      "small": 34,
       "medium": 17,
       "large": 5
     }
   },
   "contributors": {
-    "total_known": 171,
-    "active_30d": 35,
-    "first_time_30d": 30,
+    "total_known": 173,
+    "active_30d": 37,
+    "first_time_30d": 32,
     "retention_rate_pct": 13.3,
     "churned_30d": 26,
-    "commits_per_week_avg": 3.5,
+    "commits_per_week_avg": 4.2,
     "commits_per_week_trend": [
       0,
       1,
@@ -1610,7 +1594,7 @@
       5,
       6,
       10,
-      2
+      10
     ],
     "allContributors": [
       "0xrdan",
@@ -1653,6 +1637,7 @@
       "Soleksandr",
       "Tajmirul",
       "TheSeydiCharyyev",
+      "TomerAberbach",
       "Yanhu007",
       "YaronRosh",
       "Zawwarsami16",
@@ -1691,6 +1676,7 @@
       "dhofheinz",
       "dsiebes",
       "dtmeadows",
+      "dtmeadows-ant",
       "elijahbowie",
       "elliotllliu",
       "enzoferey",
@@ -1792,6 +1778,7 @@
       "Herrtian",
       "MukundaKatta",
       "TheSeydiCharyyev",
+      "TomerAberbach",
       "Zawwarsami16",
       "Zeffut",
       "Zelys-DFKH",
@@ -1800,6 +1787,7 @@
       "blut-agent",
       "darthcoder",
       "devteamaegis",
+      "dtmeadows-ant",
       "fabiencelier",
       "glisom",
       "ibondarenko1",
@@ -1827,23 +1815,23 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 26,
-        "total_changes": 83
+        "pr_count": 28,
+        "total_changes": 87
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 25,
-        "total_changes": 347
+        "pr_count": 27,
+        "total_changes": 374
       },
       {
         "path": "package.json",
-        "pr_count": 25,
-        "total_changes": 65
+        "pr_count": 27,
+        "total_changes": 69
       },
       {
         "path": "src/version.ts",
-        "pr_count": 25,
-        "total_changes": 50
+        "pr_count": 27,
+        "total_changes": 54
       },
       {
         "path": "packages/vertex-sdk/yarn.lock",
@@ -1852,8 +1840,8 @@
       },
       {
         "path": ".stats.yml",
-        "pr_count": 19,
-        "total_changes": 110
+        "pr_count": 20,
+        "total_changes": 114
       },
       {
         "path": "src/resources/beta/beta.ts",
@@ -1877,18 +1865,18 @@
       },
       {
         "path": "yarn.lock",
+        "pr_count": 9,
+        "total_changes": 119
+      },
+      {
+        "path": ".github/workflows/ci.yml",
         "pr_count": 8,
-        "total_changes": 113
+        "total_changes": 115
       },
       {
         "path": "src/resources/messages/messages.ts",
         "pr_count": 8,
         "total_changes": 279
-      },
-      {
-        "path": ".github/workflows/ci.yml",
-        "pr_count": 7,
-        "total_changes": 111
       },
       {
         "path": "packages/aws-sdk/CHANGELOG.md",
@@ -1929,12 +1917,12 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 27,
+        "pr_count": 29,
         "file_count": 14
       },
       {
         "path": "src/",
-        "pr_count": 25,
+        "pr_count": 27,
         "file_count": 2
       },
       {
@@ -1953,6 +1941,11 @@
         "file_count": 3
       },
       {
+        "path": ".github/workflows/",
+        "pr_count": 10,
+        "file_count": 5
+      },
+      {
         "path": "scripts/",
         "pr_count": 10,
         "file_count": 7
@@ -1963,28 +1956,20 @@
         "file_count": 4
       },
       {
-        "path": ".github/workflows/",
+        "path": "bin/",
         "pr_count": 8,
-        "file_count": 5
+        "file_count": 4
       },
       {
         "path": "src/resources/messages/",
         "pr_count": 8,
         "file_count": 2
-      },
-      {
-        "path": "bin/",
-        "pr_count": 7,
-        "file_count": 3
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 2877255,
     "total": 336877155,
-    "total_through": "2026-05-25",
-    "last_week": 19256628,
-    "last_month": 77340191
+    "total_through": "2026-05-25"
   }
 }
