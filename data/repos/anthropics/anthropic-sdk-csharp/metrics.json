@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-05-28T18:32:16.007Z",
+  "timestamp": "2026-05-28T21:52:44.998Z",
   "repository": {
     "stars": 280,
     "forks": 86
   },
   "issues": {
-    "open_count": 3,
-    "closed_7d": 3,
-    "closed_30d": 8,
-    "closed_90d": 29,
+    "open_count": 2,
+    "closed_7d": 4,
+    "closed_30d": 9,
+    "closed_90d": 30,
     "opened_7d": 0,
     "opened_30d": 6,
     "opened_90d": 26,
     "assigned_count": 0,
-    "unassigned_count": 3,
-    "unassigned_24h": 3,
-    "unassigned_7d": 3,
+    "unassigned_count": 2,
+    "unassigned_24h": 2,
+    "unassigned_7d": 2,
     "unassigned_30d": 1,
     "assigned_issues": [],
     "unassigned_issues": [
@@ -33,19 +33,6 @@
         "assignees": []
       },
       {
-        "number": 195,
-        "title": "AnthropicChatClient drops $defs / $ref when forwarding ChatResponseFormatJson.Schema to OutputConfig.Format",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/195",
-        "createdAt": "2026-05-14T08:16:31Z",
-        "daysOpen": 14,
-        "labels": [
-          "bug",
-          "sdk"
-        ],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 197,
         "title": "GetStreamingResponseAsync emits duplicate/incomplete FunctionCallContent when multiple tools are called in parallel",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/197",
@@ -60,8 +47,8 @@
       }
     ],
     "by_label": {
-      "bug": 2,
-      "sdk": 3,
+      "bug": 1,
+      "sdk": 2,
       "enhancement": 1
     },
     "assignment_time": {
@@ -71,9 +58,9 @@
       "p95_hours": 95.9
     },
     "close_time": {
-      "avg_days": 23.1,
-      "median_days": 10.5,
-      "p90_days": 29.8
+      "avg_days": 22.8,
+      "median_days": 10.9,
+      "p90_days": 29
     },
     "label_coverage_pct": 100,
     "unlabeled_count": 0,
@@ -83,19 +70,19 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 7,
-    "merged_7d": 2,
-    "merged_30d": 13,
-    "merged_90d": 37,
+    "open_count": 3,
+    "merged_7d": 3,
+    "merged_30d": 15,
+    "merged_90d": 39,
     "opened_7d": 5,
     "opened_30d": 15,
     "opened_90d": 44,
-    "closed_not_merged_90d": 7,
+    "closed_not_merged_90d": 9,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 7,
-    "unassigned_24h": 4,
-    "unassigned_7d": 3,
+    "unassigned_count": 3,
+    "unassigned_24h": 3,
+    "unassigned_7d": 2,
     "assigned_prs": [],
     "unassigned_prs": [
       {
@@ -113,22 +100,8 @@
         "assignees": []
       },
       {
-        "number": 196,
-        "title": "Preserve top-level JSON Schema keywords when forwarding to OutputConfig.Format",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/196",
-        "createdAt": "2026-05-14T08:32:56Z",
-        "daysOpen": 14,
-        "labels": [],
-        "isDraft": false,
-        "additions": 204,
-        "deletions": 23,
-        "reviewCount": 2,
-        "author": "danielsogl",
-        "assignees": []
-      },
-      {
         "number": 200,
-        "title": "Fix streaming parallel tool-use emit logic (issue #197)",
+        "title": "fix: streaming parallel tool-use emit logic (issue #197)",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/200",
         "createdAt": "2026-05-20T17:07:45Z",
         "daysOpen": 8,
@@ -153,57 +126,13 @@
         "reviewCount": 0,
         "author": "brused27",
         "assignees": []
-      },
-      {
-        "number": 206,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/206",
-        "createdAt": "2026-05-28T17:06:27Z",
-        "daysOpen": 0,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 61,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
-      },
-      {
-        "number": 205,
-        "title": "fix: preserve $defs and $ref in ChatResponseFormatJson schema mapping",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/205",
-        "createdAt": "2026-05-28T06:56:39Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 136,
-        "deletions": 26,
-        "reviewCount": 0,
-        "author": "Sarmkadan",
-        "assignees": []
-      },
-      {
-        "number": 204,
-        "title": "fix: emit only the completed tool in streaming content_block_stop handler",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/204",
-        "createdAt": "2026-05-28T06:13:10Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 104,
-        "deletions": 14,
-        "reviewCount": 0,
-        "author": "Sarmkadan",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 93.6,
-      "median_hours": 38.4,
-      "p90_hours": 259.1,
-      "p95_hours": 414.7
+      "avg_hours": 91.1,
+      "median_hours": 37.4,
+      "p90_hours": 257.3,
+      "p95_hours": 410.2
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -212,15 +141,15 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 202.2,
+      "avg_hours": 200.8,
       "median_hours": 43.4
     },
-    "code_review_rate_pct": 91.9,
-    "rejection_rate_pct": 15.9,
+    "code_review_rate_pct": 92.3,
+    "rejection_rate_pct": 18.8,
     "avg_reviews_per_pr": 1.8,
     "by_size": {
-      "small": 2,
-      "medium": 5,
+      "small": 1,
+      "medium": 2,
       "large": 0
     }
   },
@@ -228,9 +157,9 @@
     "total_known": 60,
     "active_30d": 18,
     "first_time_30d": 13,
-    "retention_rate_pct": 28.6,
-    "churned_30d": 10,
-    "commits_per_week_avg": 4.8,
+    "retention_rate_pct": 30.8,
+    "churned_30d": 9,
+    "commits_per_week_avg": 5.1,
     "commits_per_week_trend": [
       0,
       1,
@@ -238,12 +167,12 @@
       2,
       5,
       3,
-      0,
       1,
+      0,
       23,
       13,
-      2,
-      7
+      4,
+      9
     ],
     "allContributors": [
       "1yefuwang1",
@@ -332,38 +261,43 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 20,
-        "total_changes": 85
+        "pr_count": 21,
+        "total_changes": 87
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
-        "pr_count": 19,
-        "total_changes": 63
+        "pr_count": 20,
+        "total_changes": 65
       },
       {
         "path": ".stats.yml",
-        "pr_count": 17,
-        "total_changes": 100
+        "pr_count": 18,
+        "total_changes": 104
       },
       {
         "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 17,
-        "total_changes": 567
+        "pr_count": 18,
+        "total_changes": 576
       },
       {
         "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
-        "pr_count": 16,
-        "total_changes": 3094
+        "pr_count": 18,
+        "total_changes": 3152
       },
       {
         "path": "src/Anthropic/AnthropicClientExtensions.cs",
-        "pr_count": 14,
-        "total_changes": 2838
+        "pr_count": 16,
+        "total_changes": 2896
       },
       {
         "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
         "pr_count": 13,
         "total_changes": 54
+      },
+      {
+        "path": "src/Anthropic.Tests/AnthropicClientBetaExtensionsTests.cs",
+        "pr_count": 11,
+        "total_changes": 4606
       },
       {
         "path": "src/Anthropic.Bedrock/CHANGELOG.md",
@@ -376,14 +310,14 @@
         "total_changes": 12214
       },
       {
+        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTests.cs",
+        "pr_count": 9,
+        "total_changes": 902
+      },
+      {
         "path": "src/Anthropic/Core/ModelBase.cs",
         "pr_count": 9,
         "total_changes": 323
-      },
-      {
-        "path": "src/Anthropic.Tests/AnthropicClientBetaExtensionsTests.cs",
-        "pr_count": 9,
-        "total_changes": 4434
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/MessageCountTokensParamsTest.cs",
@@ -424,32 +358,27 @@
         "path": "src/Anthropic.Vertex/CHANGELOG.md",
         "pr_count": 7,
         "total_changes": 61
-      },
-      {
-        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTests.cs",
-        "pr_count": 7,
-        "total_changes": 730
       }
     ],
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 27,
-        "file_count": 8
-      },
-      {
-        "path": "/",
-        "pr_count": 20,
+        "pr_count": 29,
         "file_count": 8
       },
       {
         "path": "src/Anthropic.Tests/",
-        "pr_count": 20,
+        "pr_count": 22,
         "file_count": 10
       },
       {
+        "path": "/",
+        "pr_count": 21,
+        "file_count": 8
+      },
+      {
         "path": "src/Anthropic/Services/Beta/Messages/",
-        "pr_count": 16,
+        "pr_count": 18,
         "file_count": 2
       },
       {
@@ -486,9 +415,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 12197,
-    "total": 1399255,
-    "last_week": 88873,
-    "last_month": 410465
+    "daily": 18828,
+    "total": 1405886,
+    "last_week": 95504,
+    "last_month": 417096
   }
 }
