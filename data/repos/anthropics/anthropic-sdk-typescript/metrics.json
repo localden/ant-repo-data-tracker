@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-05-27T23:10:06.564Z",
+  "timestamp": "2026-05-28T01:59:26.333Z",
   "repository": {
     "stars": 1974,
     "forks": 341
@@ -7,7 +7,7 @@
   "issues": {
     "open_count": 54,
     "closed_7d": 1,
-    "closed_30d": 25,
+    "closed_30d": 4,
     "closed_90d": 58,
     "opened_7d": 5,
     "opened_30d": 13,
@@ -153,7 +153,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 388,
+        "daysOpen": 389,
         "labels": [
           "code-change"
         ],
@@ -358,7 +358,7 @@
         "title": "Clarification needed: `cache_read_input_tokens` behavior during `tool_search_tool` use",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/907",
         "createdAt": "2026-02-12T01:55:29Z",
-        "daysOpen": 104,
+        "daysOpen": 105,
         "labels": [
           "api"
         ],
@@ -681,7 +681,7 @@
     },
     "label_coverage_pct": 83.3,
     "unlabeled_count": 9,
-    "stale_30d": 0,
+    "stale_30d": 36,
     "stale_60d": 0,
     "stale_90d": 0,
     "reopen_rate": 0
@@ -804,7 +804,7 @@
         "title": "fix(streaming): skip SSE events with empty data to prevent JSON parse crash",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/903",
         "createdAt": "2026-02-06T23:59:08Z",
-        "daysOpen": 109,
+        "daysOpen": 110,
         "labels": [
           "code-change"
         ],
@@ -1062,7 +1062,7 @@
         "title": "feat: add type guard helpers for ContentBlock variants",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/975",
         "createdAt": "2026-04-04T23:19:55Z",
-        "daysOpen": 52,
+        "daysOpen": 53,
         "labels": [
           "code-change",
           "spec-change"
@@ -1096,7 +1096,7 @@
         "title": "fix(examples): update deprecated model IDs in tools-helpers examples",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/988",
         "createdAt": "2026-04-10T00:23:13Z",
-        "daysOpen": 47,
+        "daysOpen": 48,
         "labels": [
           "code-change"
         ],
@@ -1340,6 +1340,20 @@
         "assignees": []
       },
       {
+        "number": 1049,
+        "title": "fix(stream): detect mixed newline SSE boundaries",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
+        "createdAt": "2026-05-17T01:18:12Z",
+        "daysOpen": 11,
+        "labels": [],
+        "isDraft": false,
+        "additions": 34,
+        "deletions": 23,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1048,
         "title": "fix(stream): preserve cache creation usage deltas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
@@ -1393,20 +1407,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "blut-agent",
-        "assignees": []
-      },
-      {
-        "number": 1049,
-        "title": "fix(stream): detect mixed newline SSE boundaries",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
-        "createdAt": "2026-05-17T01:18:12Z",
-        "daysOpen": 10,
-        "labels": [],
-        "isDraft": false,
-        "additions": 34,
-        "deletions": 23,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
         "assignees": []
       },
       {
@@ -1466,25 +1466,11 @@
         "assignees": []
       },
       {
-        "number": 1060,
-        "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1060",
-        "createdAt": "2026-05-22T09:27:11Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 45,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "xodn348",
-        "assignees": []
-      },
-      {
         "number": 1059,
         "title": "fix(partial-json): keep complete trailing numbers in arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
         "createdAt": "2026-05-22T00:58:11Z",
-        "daysOpen": 5,
+        "daysOpen": 6,
         "labels": [],
         "isDraft": false,
         "additions": 14,
@@ -1498,13 +1484,27 @@
         "title": "docs(streams): remove \"the the\" duplicate-word typo in MessageStream JSDoc",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1058",
         "createdAt": "2026-05-21T23:18:55Z",
-        "daysOpen": 5,
+        "daysOpen": 6,
         "labels": [],
         "isDraft": false,
         "additions": 4,
         "deletions": 4,
         "reviewCount": 0,
         "author": "devteamaegis",
+        "assignees": []
+      },
+      {
+        "number": 1060,
+        "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1060",
+        "createdAt": "2026-05-22T09:27:11Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 45,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "xodn348",
         "assignees": []
       },
       {
@@ -1968,10 +1968,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 3801001,
     "total": 340678156,
-    "total_through": "2026-05-26",
-    "last_week": 19840265,
-    "last_month": 79538394
+    "total_through": "2026-05-26"
   }
 }
