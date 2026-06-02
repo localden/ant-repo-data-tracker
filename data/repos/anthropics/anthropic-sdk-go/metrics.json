@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-02T18:01:29.486Z",
+  "timestamp": "2026-06-02T20:49:29.485Z",
   "repository": {
     "stars": 1077,
     "forks": 181
@@ -47,7 +47,7 @@
         "title": "Error handling code for Bedrock doesn't work for exception message types",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/71",
         "createdAt": "2024-12-13T18:49:26Z",
-        "daysOpen": 535,
+        "daysOpen": 536,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -89,7 +89,7 @@
         "title": "Occasional spikes in 403 Signature Expired using the Bedrock integration",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/122",
         "createdAt": "2025-02-19T20:12:42Z",
-        "daysOpen": 467,
+        "daysOpen": 468,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -147,7 +147,7 @@
         "title": "Guidance on handling streaming errors",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/200",
         "createdAt": "2025-06-10T18:16:40Z",
-        "daysOpen": 356,
+        "daysOpen": 357,
         "labels": [
           "question"
         ],
@@ -172,7 +172,7 @@
         "title": "`NewBetaToolResultBlock` only takes a tool ID as a parameter",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/217",
         "createdAt": "2025-08-01T20:17:45Z",
-        "daysOpen": 304,
+        "daysOpen": 305,
         "labels": [],
         "commentCount": 5,
         "assignees": []
@@ -262,7 +262,7 @@
         "title": "Streaming Accumulate() fails with 'invalid character' JSON error on malformed API responses",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/255",
         "createdAt": "2025-11-25T20:00:46Z",
-        "daysOpen": 188,
+        "daysOpen": 189,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -292,7 +292,7 @@
         "title": "Bug: Strict option for structured out is missing in ToolParam struct",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/264",
         "createdAt": "2026-01-08T19:34:35Z",
-        "daysOpen": 144,
+        "daysOpen": 145,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -418,7 +418,7 @@
         "title": "Examples in documentation use types that don't exist.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/320",
         "createdAt": "2026-04-14T20:41:49Z",
-        "daysOpen": 48,
+        "daysOpen": 49,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -448,7 +448,7 @@
         "title": "JSONOutputFormatParam.Type elided from request body, causes API to hang structured-output requests",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/328",
         "createdAt": "2026-04-26T20:13:07Z",
-        "daysOpen": 36,
+        "daysOpen": 37,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -574,7 +574,7 @@
         "title": "Add tests for timeout and HTTP error handling in MessageService",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/204",
         "createdAt": "2025-07-02T19:25:29Z",
-        "daysOpen": 334,
+        "daysOpen": 335,
         "labels": [],
         "isDraft": false,
         "additions": 64,
@@ -1006,6 +1006,34 @@
         "assignees": []
       },
       {
+        "number": 348,
+        "title": "test: add regression tests for #334 (DefaultTransport panic)",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/348",
+        "createdAt": "2026-05-28T18:59:18Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 70,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "Sarmkadan",
+        "assignees": []
+      },
+      {
+        "number": 352,
+        "title": "Fix accumulation when content blocks are interleaved",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/352",
+        "createdAt": "2026-05-29T20:31:31Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 27,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "omer-cengel",
+        "assignees": []
+      },
+      {
         "number": 349,
         "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
@@ -1017,20 +1045,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "17twenty",
-        "assignees": []
-      },
-      {
-        "number": 348,
-        "title": "test: add regression tests for #334 (DefaultTransport panic)",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/348",
-        "createdAt": "2026-05-28T18:59:18Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 70,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "Sarmkadan",
         "assignees": []
       },
       {
@@ -1059,20 +1073,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "jeet-dekivadia",
-        "assignees": []
-      },
-      {
-        "number": 352,
-        "title": "Fix accumulation when content blocks are interleaved",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/352",
-        "createdAt": "2026-05-29T20:31:31Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 27,
-        "deletions": 8,
-        "reviewCount": 0,
-        "author": "omer-cengel",
         "assignees": []
       },
       {
@@ -1119,16 +1119,16 @@
     "total_known": 93,
     "active_30d": 21,
     "first_time_30d": 16,
-    "retention_rate_pct": 26.7,
+    "retention_rate_pct": 21.4,
     "churned_30d": 11,
     "commits_per_week_avg": 12.2,
     "commits_per_week_trend": [
       27,
       4,
-      0,
-      32,
-      14,
-      6,
+      22,
+      12,
+      16,
+      2,
       10,
       17,
       13,
