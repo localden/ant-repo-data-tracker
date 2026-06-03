@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-03T19:42:47.778Z",
+  "timestamp": "2026-06-03T22:24:21.461Z",
   "repository": {
     "stars": 1986,
     "forks": 349
@@ -51,7 +51,7 @@
         "title": "Bedrock: empty content for certain prompts with max_tokens 1",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/399",
         "createdAt": "2024-04-24T20:41:11Z",
-        "daysOpen": 769,
+        "daysOpen": 770,
         "labels": [
           "api"
         ],
@@ -165,7 +165,7 @@
         "title": "add capability to await async function for on event handler",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/775",
         "createdAt": "2025-05-25T20:53:01Z",
-        "daysOpen": 373,
+        "daysOpen": 374,
         "labels": [
           "code-change"
         ],
@@ -274,7 +274,7 @@
         "title": "bug/proposal: infinitely hanging clients breaking bigger/complex sessions. Proposal: add Streaming Idle Timeout to Prevent Indefinite Hangs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/867",
         "createdAt": "2025-12-19T21:31:53Z",
-        "daysOpen": 165,
+        "daysOpen": 166,
         "labels": [
           "code-change"
         ],
@@ -322,7 +322,7 @@
         "title": "[BUG] strict: true causes 500 Internal Server Error with complex nested tool schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/885",
         "createdAt": "2026-01-27T21:46:51Z",
-        "daysOpen": 126,
+        "daysOpen": 127,
         "labels": [
           "api"
         ],
@@ -605,7 +605,7 @@
         "title": "Adopt `TracingChannel` for observability",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1036",
         "createdAt": "2026-05-11T20:09:59Z",
-        "daysOpen": 22,
+        "daysOpen": 23,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -862,7 +862,7 @@
         "title": "fix: shallow copy content_block in BetaMessageStream#accumulateMessage",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/938",
         "createdAt": "2026-03-08T21:42:40Z",
-        "daysOpen": 86,
+        "daysOpen": 87,
         "labels": [
           "code-change"
         ],
@@ -910,7 +910,7 @@
         "title": "docs: fix broken compare links in CHANGELOG files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/953",
         "createdAt": "2026-03-19T21:25:21Z",
-        "daysOpen": 75,
+        "daysOpen": 76,
         "labels": [
           "code-change"
         ],
@@ -926,7 +926,7 @@
         "title": "fix(streams): use empty separator in finalText() for text block concatenation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/954",
         "createdAt": "2026-03-19T21:27:57Z",
-        "daysOpen": 75,
+        "daysOpen": 76,
         "labels": [
           "code-change"
         ],
@@ -954,6 +954,22 @@
         "assignees": []
       },
       {
+        "number": 958,
+        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
+        "createdAt": "2026-03-24T21:47:42Z",
+        "daysOpen": 71,
+        "labels": [
+          "code-change"
+        ],
+        "isDraft": false,
+        "additions": 147,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zelys-DFKH",
+        "assignees": []
+      },
+      {
         "number": 959,
         "title": "feat(streaming): add idleTimeout option for detecting stalled streams",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/959",
@@ -968,22 +984,6 @@
         "deletions": 5,
         "reviewCount": 0,
         "author": "simran10meta",
-        "assignees": []
-      },
-      {
-        "number": 958,
-        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
-        "createdAt": "2026-03-24T21:47:42Z",
-        "daysOpen": 70,
-        "labels": [
-          "code-change"
-        ],
-        "isDraft": false,
-        "additions": 147,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zelys-DFKH",
         "assignees": []
       },
       {
@@ -1008,7 +1008,7 @@
         "title": "fix: recover when TextDecoder rejects Uint8Array views",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/965",
         "createdAt": "2026-03-30T22:06:56Z",
-        "daysOpen": 64,
+        "daysOpen": 65,
         "labels": [
           "code-change"
         ],
@@ -1350,6 +1350,20 @@
         "assignees": []
       },
       {
+        "number": 1048,
+        "title": "fix(stream): preserve cache creation usage deltas",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
+        "createdAt": "2026-05-16T21:01:33Z",
+        "daysOpen": 18,
+        "labels": [],
+        "isDraft": false,
+        "additions": 165,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1047,
         "title": "fix(memory): reject malformed memories paths",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
@@ -1401,20 +1415,6 @@
         "isDraft": false,
         "additions": 34,
         "deletions": 23,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
-        "assignees": []
-      },
-      {
-        "number": 1048,
-        "title": "fix(stream): preserve cache creation usage deltas",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
-        "createdAt": "2026-05-16T21:01:33Z",
-        "daysOpen": 17,
-        "labels": [],
-        "isDraft": false,
-        "additions": 165,
-        "deletions": 0,
         "reviewCount": 1,
         "author": "pragnyanramtha",
         "assignees": []
@@ -1639,9 +1639,9 @@
     "commits_per_week_trend": [
       5,
       0,
-      1,
+      2,
       6,
-      4,
+      3,
       1,
       2,
       6,
