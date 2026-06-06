@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-06T17:00:39.098Z",
+  "timestamp": "2026-06-06T19:06:58.564Z",
   "repository": {
     "stars": 288,
     "forks": 90
@@ -71,12 +71,12 @@
   },
   "pulls": {
     "open_count": 4,
-    "merged_7d": 2,
-    "merged_30d": 10,
-    "merged_90d": 40,
-    "opened_7d": 3,
-    "opened_30d": 15,
-    "opened_90d": 47,
+    "merged_7d": 3,
+    "merged_30d": 11,
+    "merged_90d": 41,
+    "opened_7d": 4,
+    "opened_30d": 16,
+    "opened_90d": 48,
     "closed_not_merged_90d": 7,
     "draft_count": 0,
     "assigned_count": 0,
@@ -104,7 +104,7 @@
         "title": "fix: streaming parallel tool-use emit logic (issue #197)",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/200",
         "createdAt": "2026-05-20T17:07:45Z",
-        "daysOpen": 16,
+        "daysOpen": 17,
         "labels": [],
         "isDraft": false,
         "additions": 99,
@@ -143,10 +143,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 86.5,
-      "median_hours": 28.9,
-      "p90_hours": 253.6,
-      "p95_hours": 401.3
+      "avg_hours": 84.3,
+      "median_hours": 27.8,
+      "p90_hours": 251.8,
+      "p95_hours": 396.9
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -155,11 +155,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 191.1,
-      "median_hours": 39.4
+      "avg_hours": 186.5,
+      "median_hours": 34.2
     },
-    "code_review_rate_pct": 92.5,
-    "rejection_rate_pct": 14.9,
+    "code_review_rate_pct": 92.7,
+    "rejection_rate_pct": 14.6,
     "avg_reviews_per_pr": 1.8,
     "by_size": {
       "small": 1,
@@ -173,7 +173,7 @@
     "first_time_30d": 10,
     "retention_rate_pct": 36.4,
     "churned_30d": 7,
-    "commits_per_week_avg": 6,
+    "commits_per_week_avg": 6.2,
     "commits_per_week_trend": [
       1,
       0,
@@ -186,7 +186,7 @@
       13,
       4,
       9,
-      11
+      13
     ],
     "allContributors": [
       "1yefuwang1",
@@ -271,23 +271,23 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 23,
-        "total_changes": 91
+        "pr_count": 24,
+        "total_changes": 93
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
-        "pr_count": 22,
-        "total_changes": 69
+        "pr_count": 23,
+        "total_changes": 71
       },
       {
         "path": ".stats.yml",
-        "pr_count": 20,
-        "total_changes": 112
+        "pr_count": 21,
+        "total_changes": 118
       },
       {
         "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 20,
-        "total_changes": 592
+        "pr_count": 21,
+        "total_changes": 600
       },
       {
         "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
@@ -315,9 +315,19 @@
         "total_changes": 110
       },
       {
+        "path": "src/Anthropic/Core/ModelBase.cs",
+        "pr_count": 10,
+        "total_changes": 324
+      },
+      {
         "path": "src/Anthropic.Tests/AnthropicClientExtensionsTestsBase.cs",
         "pr_count": 10,
         "total_changes": 12214
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/MessageCountTokensParamsTest.cs",
+        "pr_count": 9,
+        "total_changes": 690
       },
       {
         "path": "src/Anthropic.Tests/AnthropicClientExtensionsTests.cs",
@@ -325,29 +335,19 @@
         "total_changes": 902
       },
       {
-        "path": "src/Anthropic/Core/ModelBase.cs",
-        "pr_count": 9,
-        "total_changes": 323
+        "path": "src/Anthropic/Models/Beta/Messages/Batches/BatchCreateParams.cs",
+        "pr_count": 8,
+        "total_changes": 104
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/MessageCountTokensParamsTest.cs",
+        "path": "src/Anthropic/Models/Beta/Messages/MessageCreateParams.cs",
         "pr_count": 8,
-        "total_changes": 688
+        "total_changes": 104
       },
       {
         "path": "src/Anthropic.Vertex/Anthropic.Vertex.csproj",
         "pr_count": 8,
         "total_changes": 16
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Messages/Batches/BatchCreateParams.cs",
-        "pr_count": 7,
-        "total_changes": 102
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Messages/MessageCreateParams.cs",
-        "pr_count": 7,
-        "total_changes": 102
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
@@ -373,12 +373,12 @@
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 31,
+        "pr_count": 32,
         "file_count": 8
       },
       {
         "path": "/",
-        "pr_count": 23,
+        "pr_count": 24,
         "file_count": 9
       },
       {
@@ -392,34 +392,34 @@
         "file_count": 2
       },
       {
+        "path": "src/Anthropic/Core/",
+        "pr_count": 15,
+        "file_count": 14
+      },
+      {
+        "path": "src/Anthropic/Models/Beta/Messages/",
+        "pr_count": 15,
+        "file_count": 108
+      },
+      {
         "path": "src/Anthropic.Bedrock/",
         "pr_count": 15,
         "file_count": 10
       },
       {
-        "path": "src/Anthropic/Core/",
-        "pr_count": 14,
-        "file_count": 14
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Messages/",
-        "pr_count": 14,
-        "file_count": 107
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
+        "pr_count": 13,
+        "file_count": 60
       },
       {
         "path": "src/Anthropic/Models/Messages/",
-        "pr_count": 12,
-        "file_count": 72
+        "pr_count": 13,
+        "file_count": 73
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
-        "pr_count": 12,
-        "file_count": 58
-      },
-      {
-        "path": "src/Anthropic.Tests/Services/Beta/",
+        "path": "src/Anthropic/Models/Beta/Messages/Batches/",
         "pr_count": 11,
-        "file_count": 15
+        "file_count": 8
       }
     ],
     "top_n": 20
