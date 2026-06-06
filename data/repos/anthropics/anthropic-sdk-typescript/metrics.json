@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-06-06T11:16:44.854Z",
+  "timestamp": "2026-06-06T13:07:46.965Z",
   "repository": {
     "stars": 1991,
     "forks": 350
   },
   "issues": {
-    "open_count": 55,
+    "open_count": 56,
     "closed_7d": 0,
     "closed_30d": 2,
     "closed_90d": 58,
-    "opened_7d": 0,
-    "opened_30d": 9,
-    "opened_90d": 38,
+    "opened_7d": 1,
+    "opened_30d": 10,
+    "opened_90d": 39,
     "assigned_count": 4,
-    "unassigned_count": 51,
+    "unassigned_count": 52,
     "unassigned_24h": 51,
     "unassigned_7d": 51,
     "unassigned_30d": 44,
@@ -65,7 +65,7 @@
         "title": "[Types] Error: Property 'text' does not exist on type 'ContentBlock'.",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/432",
         "createdAt": "2024-05-31T12:46:41Z",
-        "daysOpen": 735,
+        "daysOpen": 736,
         "labels": [
           "code-change"
         ],
@@ -238,7 +238,7 @@
         "title": "web_fetch fails for some links",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/846",
         "createdAt": "2025-11-18T12:22:56Z",
-        "daysOpen": 199,
+        "daysOpen": 200,
         "labels": [
           "api"
         ],
@@ -523,6 +523,18 @@
         "assignees": []
       },
       {
+        "number": 1012,
+        "title": "feature request: expose `thinking` / `output_config` on Managed Agents request-side types",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1012",
+        "createdAt": "2026-04-24T12:13:32Z",
+        "daysOpen": 43,
+        "labels": [
+          "spec-change"
+        ],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1010,
         "title": "TS2322: Type BetaRunnableTool<{}> is not assignable to type ToolUnion",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1010",
@@ -532,18 +544,6 @@
           "code-change"
         ],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1012,
-        "title": "feature request: expose `thinking` / `output_config` on Managed Agents request-side types",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1012",
-        "createdAt": "2026-04-24T12:13:32Z",
-        "daysOpen": 42,
-        "labels": [
-          "spec-change"
-        ],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -573,7 +573,7 @@
         "title": "API: mcp_servers[].optional flag + structured error for graceful degradation on unreachable injected MCP servers",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1027",
         "createdAt": "2026-05-04T13:03:34Z",
-        "daysOpen": 32,
+        "daysOpen": 33,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -669,6 +669,16 @@
         "labels": [],
         "commentCount": 0,
         "assignees": []
+      },
+      {
+        "number": 1083,
+        "title": "Managed Agents: how to confirm an always_ask tool_use that ran on a non-primary session_thread_id?",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1083",
+        "createdAt": "2026-06-06T12:31:23Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
       }
     ],
     "by_label": {
@@ -689,8 +699,8 @@
       "median_days": 130.4,
       "p90_days": 541.2
     },
-    "label_coverage_pct": 81.8,
-    "unlabeled_count": 10,
+    "label_coverage_pct": 80.4,
+    "unlabeled_count": 11,
     "stale_30d": 40,
     "stale_60d": 0,
     "stale_90d": 0,
@@ -1040,7 +1050,7 @@
         "title": "fix: preserve directory paths in multipart upload filenames",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/969",
         "createdAt": "2026-04-01T12:47:56Z",
-        "daysOpen": 65,
+        "daysOpen": 66,
         "labels": [
           "spec-change"
         ],
@@ -1122,7 +1132,7 @@
         "title": "fix: handle invalid JSON escape sequences in partial-json-parser",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/989",
         "createdAt": "2026-04-10T12:44:31Z",
-        "daysOpen": 56,
+        "daysOpen": 57,
         "labels": [
           "code-change"
         ],
@@ -1196,6 +1206,20 @@
         "assignees": []
       },
       {
+        "number": 1023,
+        "title": "fix(build): rewrite block-comment @ts-ignore to line-comment form in dist declaration files",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1023",
+        "createdAt": "2026-04-30T11:26:10Z",
+        "daysOpen": 37,
+        "labels": [],
+        "isDraft": false,
+        "additions": 15,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "xodn348",
+        "assignees": []
+      },
+      {
         "number": 1020,
         "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1020",
@@ -1224,25 +1248,11 @@
         "assignees": []
       },
       {
-        "number": 1023,
-        "title": "fix(build): rewrite block-comment @ts-ignore to line-comment form in dist declaration files",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1023",
-        "createdAt": "2026-04-30T11:26:10Z",
-        "daysOpen": 36,
-        "labels": [],
-        "isDraft": false,
-        "additions": 15,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "xodn348",
-        "assignees": []
-      },
-      {
         "number": 1026,
         "title": "fix(types): make betaZodTool return type assignable to ToolUnion",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1026",
         "createdAt": "2026-05-02T11:27:05Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "isDraft": false,
         "additions": 77,
@@ -1658,9 +1668,9 @@
     }
   },
   "contributors": {
-    "total_known": 179,
-    "active_30d": 34,
-    "first_time_30d": 29,
+    "total_known": 180,
+    "active_30d": 35,
+    "first_time_30d": 30,
     "retention_rate_pct": 12.9,
     "churned_30d": 27,
     "commits_per_week_avg": 5.8,
@@ -1749,6 +1759,7 @@
       "byigitt",
       "carladam79",
       "chedkowski-leonsoftware",
+      "chrisbaker2000",
       "claygeo",
       "craigie-ant",
       "ctonneslan",
@@ -1876,6 +1887,7 @@
       "aidand-ant",
       "barneywohl",
       "blut-agent",
+      "chrisbaker2000",
       "craigie-ant",
       "devteamaegis",
       "dtmeadows-ant",
