@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-06T20:54:56.318Z",
+  "timestamp": "2026-06-06T22:55:48.825Z",
   "repository": {
     "stars": 1991,
-    "forks": 350
+    "forks": 351
   },
   "issues": {
     "open_count": 56,
@@ -274,7 +274,7 @@
         "title": "bug/proposal: infinitely hanging clients breaking bigger/complex sessions. Proposal: add Streaming Idle Timeout to Prevent Indefinite Hangs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/867",
         "createdAt": "2025-12-19T21:31:53Z",
-        "daysOpen": 168,
+        "daysOpen": 169,
         "labels": [
           "code-change"
         ],
@@ -322,7 +322,7 @@
         "title": "[BUG] strict: true causes 500 Internal Server Error with complex nested tool schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/885",
         "createdAt": "2026-01-27T21:46:51Z",
-        "daysOpen": 129,
+        "daysOpen": 130,
         "labels": [
           "api"
         ],
@@ -523,6 +523,18 @@
         "assignees": []
       },
       {
+        "number": 1010,
+        "title": "TS2322: Type BetaRunnableTool<{}> is not assignable to type ToolUnion",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1010",
+        "createdAt": "2026-04-23T22:44:26Z",
+        "daysOpen": 44,
+        "labels": [
+          "code-change"
+        ],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 1012,
         "title": "feature request: expose `thinking` / `output_config` on Managed Agents request-side types",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1012",
@@ -532,18 +544,6 @@
           "spec-change"
         ],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1010,
-        "title": "TS2322: Type BetaRunnableTool<{}> is not assignable to type ToolUnion",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1010",
-        "createdAt": "2026-04-23T22:44:26Z",
-        "daysOpen": 43,
-        "labels": [
-          "code-change"
-        ],
-        "commentCount": 1,
         "assignees": []
       },
       {
@@ -677,7 +677,7 @@
         "createdAt": "2026-06-06T12:31:23Z",
         "daysOpen": 0,
         "labels": [],
-        "commentCount": 0,
+        "commentCount": 1,
         "assignees": []
       }
     ],
@@ -707,17 +707,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 60,
+    "open_count": 62,
     "merged_7d": 2,
     "merged_30d": 11,
     "merged_90d": 33,
-    "opened_7d": 4,
-    "opened_30d": 40,
+    "opened_7d": 6,
+    "opened_30d": 42,
     "opened_90d": 108,
     "closed_not_merged_90d": 40,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 60,
+    "unassigned_count": 62,
     "unassigned_24h": 60,
     "unassigned_7d": 57,
     "assigned_prs": [],
@@ -872,7 +872,7 @@
         "title": "fix: shallow copy content_block in BetaMessageStream#accumulateMessage",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/938",
         "createdAt": "2026-03-08T21:42:40Z",
-        "daysOpen": 89,
+        "daysOpen": 90,
         "labels": [
           "code-change"
         ],
@@ -920,7 +920,7 @@
         "title": "docs: fix broken compare links in CHANGELOG files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/953",
         "createdAt": "2026-03-19T21:25:21Z",
-        "daysOpen": 78,
+        "daysOpen": 79,
         "labels": [
           "code-change"
         ],
@@ -936,7 +936,7 @@
         "title": "fix(streams): use empty separator in finalText() for text block concatenation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/954",
         "createdAt": "2026-03-19T21:27:57Z",
-        "daysOpen": 78,
+        "daysOpen": 79,
         "labels": [
           "code-change"
         ],
@@ -964,6 +964,22 @@
         "assignees": []
       },
       {
+        "number": 958,
+        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
+        "createdAt": "2026-03-24T21:47:42Z",
+        "daysOpen": 74,
+        "labels": [
+          "code-change"
+        ],
+        "isDraft": false,
+        "additions": 147,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zelys-DFKH",
+        "assignees": []
+      },
+      {
         "number": 959,
         "title": "feat(streaming): add idleTimeout option for detecting stalled streams",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/959",
@@ -978,22 +994,6 @@
         "deletions": 5,
         "reviewCount": 0,
         "author": "simran10meta",
-        "assignees": []
-      },
-      {
-        "number": 958,
-        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
-        "createdAt": "2026-03-24T21:47:42Z",
-        "daysOpen": 73,
-        "labels": [
-          "code-change"
-        ],
-        "isDraft": false,
-        "additions": 147,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zelys-DFKH",
         "assignees": []
       },
       {
@@ -1018,7 +1018,7 @@
         "title": "fix: recover when TextDecoder rejects Uint8Array views",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/965",
         "createdAt": "2026-03-30T22:06:56Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
         "labels": [
           "code-change"
         ],
@@ -1034,7 +1034,7 @@
         "title": "fix(tool runner): preserve state across iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/966",
         "createdAt": "2026-03-30T22:44:30Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
         "labels": [
           "code-change"
         ],
@@ -1360,6 +1360,20 @@
         "assignees": []
       },
       {
+        "number": 1048,
+        "title": "fix(stream): preserve cache creation usage deltas",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
+        "createdAt": "2026-05-16T21:01:33Z",
+        "daysOpen": 21,
+        "labels": [],
+        "isDraft": false,
+        "additions": 165,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1047,
         "title": "fix(memory): reject malformed memories paths",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
@@ -1411,20 +1425,6 @@
         "isDraft": false,
         "additions": 34,
         "deletions": 23,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
-        "assignees": []
-      },
-      {
-        "number": 1048,
-        "title": "fix(stream): preserve cache creation usage deltas",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
-        "createdAt": "2026-05-16T21:01:33Z",
-        "daysOpen": 20,
-        "labels": [],
-        "isDraft": false,
-        "additions": 165,
-        "deletions": 0,
         "reviewCount": 1,
         "author": "pragnyanramtha",
         "assignees": []
@@ -1598,6 +1598,20 @@
         "assignees": []
       },
       {
+        "number": 1081,
+        "title": "feat(bedrock): support token counting",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
+        "createdAt": "2026-06-04T22:33:25Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 117,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "aidand-ant",
+        "assignees": []
+      },
+      {
         "number": 1080,
         "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
@@ -1612,17 +1626,33 @@
         "assignees": []
       },
       {
-        "number": 1081,
-        "title": "feat(bedrock): support token counting",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
-        "createdAt": "2026-06-04T22:33:25Z",
-        "daysOpen": 1,
+        "number": 1085,
+        "title": "chore: release main",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1085",
+        "createdAt": "2026-06-06T22:45:05Z",
+        "daysOpen": 0,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 230,
+        "deletions": 22,
+        "reviewCount": 0,
+        "author": "stainless-app",
+        "assignees": []
+      },
+      {
+        "number": 1084,
+        "title": "feat(examples): add MCP agent trust check using TWZRD Agent Intel",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1084",
+        "createdAt": "2026-06-06T22:34:32Z",
+        "daysOpen": 0,
         "labels": [],
         "isDraft": false,
-        "additions": 117,
-        "deletions": 8,
+        "additions": 60,
+        "deletions": 0,
         "reviewCount": 0,
-        "author": "aidand-ant",
+        "author": "twzrd-sol",
         "assignees": []
       }
     ],
@@ -1646,15 +1676,15 @@
     "rejection_rate_pct": 54.8,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
-      "small": 36,
-      "medium": 19,
+      "small": 37,
+      "medium": 20,
       "large": 5
     }
   },
   "contributors": {
-    "total_known": 181,
-    "active_30d": 36,
-    "first_time_30d": 31,
+    "total_known": 182,
+    "active_30d": 37,
+    "first_time_30d": 32,
     "retention_rate_pct": 12.9,
     "churned_30d": 27,
     "commits_per_week_avg": 6.1,
@@ -1839,6 +1869,7 @@
       "this-fifo",
       "ti-tian",
       "tuantalangtech",
+      "twzrd-sol",
       "uncomplexity",
       "venkat22022202",
       "vippelina",
@@ -1888,6 +1919,7 @@
       "stainless-app",
       "suekou",
       "thaiat",
+      "twzrd-sol",
       "xodn348",
       "xxiaoxiong",
       "yen0304",
