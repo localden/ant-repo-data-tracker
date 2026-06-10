@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-09T23:11:00.559Z",
+  "timestamp": "2026-06-10T02:14:39.275Z",
   "repository": {
-    "stars": 1996,
-    "forks": 352
+    "stars": 1995,
+    "forks": 353
   },
   "issues": {
     "open_count": 56,
@@ -153,7 +153,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 401,
+        "daysOpen": 402,
         "labels": [
           "code-change"
         ],
@@ -358,7 +358,7 @@
         "title": "Clarification needed: `cache_read_input_tokens` behavior during `tool_search_tool` use",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/907",
         "createdAt": "2026-02-12T01:55:29Z",
-        "daysOpen": 117,
+        "daysOpen": 118,
         "labels": [
           "api"
         ],
@@ -707,17 +707,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 61,
-    "merged_7d": 4,
-    "merged_30d": 13,
-    "merged_90d": 35,
-    "opened_7d": 6,
-    "opened_30d": 42,
-    "opened_90d": 109,
+    "open_count": 62,
+    "merged_7d": 5,
+    "merged_30d": 14,
+    "merged_90d": 36,
+    "opened_7d": 8,
+    "opened_30d": 43,
+    "opened_90d": 111,
     "closed_not_merged_90d": 40,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 61,
+    "unassigned_count": 62,
     "unassigned_24h": 61,
     "unassigned_7d": 58,
     "assigned_prs": [],
@@ -824,7 +824,7 @@
         "title": "fix(streaming): skip SSE events with empty data to prevent JSON parse crash",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/903",
         "createdAt": "2026-02-06T23:59:08Z",
-        "daysOpen": 122,
+        "daysOpen": 123,
         "labels": [
           "code-change"
         ],
@@ -1082,7 +1082,7 @@
         "title": "feat: add type guard helpers for ContentBlock variants",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/975",
         "createdAt": "2026-04-04T23:19:55Z",
-        "daysOpen": 65,
+        "daysOpen": 66,
         "labels": [
           "code-change",
           "spec-change"
@@ -1116,7 +1116,7 @@
         "title": "fix(examples): update deprecated model IDs in tools-helpers examples",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/988",
         "createdAt": "2026-04-10T00:23:13Z",
-        "daysOpen": 60,
+        "daysOpen": 61,
         "labels": [
           "code-change"
         ],
@@ -1360,6 +1360,20 @@
         "assignees": []
       },
       {
+        "number": 1049,
+        "title": "fix(stream): detect mixed newline SSE boundaries",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
+        "createdAt": "2026-05-17T01:18:12Z",
+        "daysOpen": 24,
+        "labels": [],
+        "isDraft": false,
+        "additions": 34,
+        "deletions": 23,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1048,
         "title": "fix(stream): preserve cache creation usage deltas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
@@ -1413,20 +1427,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "blut-agent",
-        "assignees": []
-      },
-      {
-        "number": 1049,
-        "title": "fix(stream): detect mixed newline SSE boundaries",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
-        "createdAt": "2026-05-17T01:18:12Z",
-        "daysOpen": 23,
-        "labels": [],
-        "isDraft": false,
-        "additions": 34,
-        "deletions": 23,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
         "assignees": []
       },
       {
@@ -1486,25 +1486,11 @@
         "assignees": []
       },
       {
-        "number": 1060,
-        "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1060",
-        "createdAt": "2026-05-22T09:27:11Z",
-        "daysOpen": 18,
-        "labels": [],
-        "isDraft": false,
-        "additions": 45,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "xodn348",
-        "assignees": []
-      },
-      {
         "number": 1059,
         "title": "fix(partial-json): keep complete trailing numbers in arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
         "createdAt": "2026-05-22T00:58:11Z",
-        "daysOpen": 18,
+        "daysOpen": 19,
         "labels": [],
         "isDraft": false,
         "additions": 14,
@@ -1518,13 +1504,27 @@
         "title": "docs(streams): remove \"the the\" duplicate-word typo in MessageStream JSDoc",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1058",
         "createdAt": "2026-05-21T23:18:55Z",
-        "daysOpen": 18,
+        "daysOpen": 19,
         "labels": [],
         "isDraft": false,
         "additions": 4,
         "deletions": 4,
         "reviewCount": 0,
         "author": "devteamaegis",
+        "assignees": []
+      },
+      {
+        "number": 1060,
+        "title": "fix(vertex): strip anthropic-beta header from countTokens requests",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1060",
+        "createdAt": "2026-05-22T09:27:11Z",
+        "daysOpen": 18,
+        "labels": [],
+        "isDraft": false,
+        "additions": 45,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "xodn348",
         "assignees": []
       },
       {
@@ -1588,7 +1588,7 @@
         "title": "fix: update 'anthropic-beta' header condition to check for betas length",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1079",
         "createdAt": "2026-05-31T01:07:26Z",
-        "daysOpen": 9,
+        "daysOpen": 10,
         "labels": [],
         "isDraft": false,
         "additions": 6,
@@ -1638,13 +1638,27 @@
         "reviewCount": 0,
         "author": "twzrd-sol",
         "assignees": []
+      },
+      {
+        "number": 1087,
+        "title": "feat(lib): add `getContextWindowUtilization` helper",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1087",
+        "createdAt": "2026-06-09T23:34:56Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 280,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "tsushanth",
+        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 261.3,
-      "median_hours": 6.2,
-      "p90_hours": 157.9,
-      "p95_hours": 244.1
+      "avg_hours": 256.1,
+      "median_hours": 5.5,
+      "p90_hours": 156.5,
+      "p95_hours": 242
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1653,25 +1667,25 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 53.9,
-      "median_hours": 18.7
+      "avg_hours": 52.4,
+      "median_hours": 18.4
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 53.3,
+    "rejection_rate_pct": 52.6,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 37,
-      "medium": 19,
+      "medium": 20,
       "large": 5
     }
   },
   "contributors": {
-    "total_known": 182,
-    "active_30d": 36,
-    "first_time_30d": 31,
+    "total_known": 183,
+    "active_30d": 37,
+    "first_time_30d": 32,
     "retention_rate_pct": 15.4,
     "churned_30d": 22,
-    "commits_per_week_avg": 6.5,
+    "commits_per_week_avg": 6.7,
     "commits_per_week_trend": [
       4,
       1,
@@ -1682,9 +1696,9 @@
       5,
       6,
       10,
-      2,
-      18,
-      19
+      10,
+      10,
+      21
     ],
     "allContributors": [
       "0xrdan",
@@ -1852,6 +1866,7 @@
       "thecmdrunner",
       "this-fifo",
       "ti-tian",
+      "tsushanth",
       "tuantalangtech",
       "twzrd-sol",
       "uncomplexity",
@@ -1902,6 +1917,7 @@
       "stainless-app",
       "suekou",
       "thaiat",
+      "tsushanth",
       "twzrd-sol",
       "xodn348",
       "xxiaoxiong",
@@ -1913,28 +1929,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 34,
-        "total_changes": 123
+        "pr_count": 35,
+        "total_changes": 125
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 33,
-        "total_changes": 463
+        "pr_count": 34,
+        "total_changes": 471
       },
       {
         "path": "package.json",
-        "pr_count": 33,
-        "total_changes": 87
+        "pr_count": 34,
+        "total_changes": 89
       },
       {
         "path": "src/version.ts",
-        "pr_count": 33,
-        "total_changes": 66
+        "pr_count": 34,
+        "total_changes": 68
       },
       {
         "path": ".stats.yml",
-        "pr_count": 26,
-        "total_changes": 148
+        "pr_count": 27,
+        "total_changes": 152
       },
       {
         "path": "packages/vertex-sdk/yarn.lock",
@@ -1942,14 +1958,14 @@
         "total_changes": 81
       },
       {
+        "path": "src/resources/beta/messages/messages.ts",
+        "pr_count": 16,
+        "total_changes": 1042
+      },
+      {
         "path": "src/resources/beta/beta.ts",
         "pr_count": 15,
         "total_changes": 656
-      },
-      {
-        "path": "src/resources/beta/messages/messages.ts",
-        "pr_count": 15,
-        "total_changes": 1040
       },
       {
         "path": "src/resources/beta/index.ts",
@@ -1957,14 +1973,14 @@
         "total_changes": 276
       },
       {
+        "path": "src/resources/messages/messages.ts",
+        "pr_count": 13,
+        "total_changes": 373
+      },
+      {
         "path": "api.md",
         "pr_count": 13,
         "total_changes": 600
-      },
-      {
-        "path": "src/resources/messages/messages.ts",
-        "pr_count": 12,
-        "total_changes": 371
       },
       {
         "path": "packages/aws-sdk/CHANGELOG.md",
@@ -2015,12 +2031,12 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 34,
+        "pr_count": 35,
         "file_count": 16
       },
       {
         "path": "src/",
-        "pr_count": 33,
+        "pr_count": 34,
         "file_count": 3
       },
       {
@@ -2035,12 +2051,12 @@
       },
       {
         "path": "src/resources/beta/messages/",
-        "pr_count": 15,
+        "pr_count": 16,
         "file_count": 3
       },
       {
         "path": "src/resources/messages/",
-        "pr_count": 12,
+        "pr_count": 13,
         "file_count": 2
       },
       {
@@ -2067,10 +2083,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 3647143,
     "total": 381616240,
-    "total_through": "2026-06-08",
-    "last_week": 19649496,
-    "last_month": 86581731
+    "total_through": "2026-06-08"
   }
 }
