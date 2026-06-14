@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-14T15:42:40.150Z",
+  "timestamp": "2026-06-14T17:08:35.698Z",
   "repository": {
     "stars": 3625,
     "forks": 730
@@ -1283,6 +1283,16 @@
         "assignees": []
       },
       {
+        "number": 1649,
+        "title": "Streaming response consumption validates full event union per event on the loop, even for get_final_message()",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1649",
+        "createdAt": "2026-06-04T16:35:31Z",
+        "daysOpen": 10,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 1646,
         "title": "Add machine-readable error code/type for billing/quota errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1646",
@@ -1303,16 +1313,6 @@
         "assignees": []
       },
       {
-        "number": 1649,
-        "title": "Streaming response consumption validates full event union per event on the loop, even for get_final_message()",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1649",
-        "createdAt": "2026-06-04T16:35:31Z",
-        "daysOpen": 9,
-        "labels": [],
-        "commentCount": 1,
-        "assignees": []
-      },
-      {
         "number": 1660,
         "title": "[BILLING] Unresolved: Payment Deducted But Claude Pro Subscription Not Activated - 24+ Hours Without Support Response",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1660",
@@ -1323,20 +1323,20 @@
         "assignees": []
       },
       {
-        "number": 1666,
-        "title": "web_search_20260209 dynamic filtering: code execution fails with \"AttributeError: 'str' object has no attribute 'get'\" and returns empty results — need help understanding",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1666",
-        "createdAt": "2026-06-09T14:08:47Z",
-        "daysOpen": 5,
+        "number": 1664,
+        "title": "Managed Agents event stream doesn't surface model refusal stop_reason / stop_details",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1664",
+        "createdAt": "2026-06-08T15:43:39Z",
+        "daysOpen": 6,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 1664,
-        "title": "Managed Agents event stream doesn't surface model refusal stop_reason / stop_details",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1664",
-        "createdAt": "2026-06-08T15:43:39Z",
+        "number": 1666,
+        "title": "web_search_20260209 dynamic filtering: code execution fails with \"AttributeError: 'str' object has no attribute 'get'\" and returns empty results — need help understanding",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1666",
+        "createdAt": "2026-06-09T14:08:47Z",
         "daysOpen": 5,
         "labels": [],
         "commentCount": 0,
@@ -1395,7 +1395,7 @@
     "open_count": 167,
     "merged_7d": 4,
     "merged_30d": 14,
-    "merged_90d": 38,
+    "merged_90d": 37,
     "opened_7d": 12,
     "opened_30d": 74,
     "opened_90d": 237,
@@ -1670,7 +1670,7 @@
         "title": "fix(compaction): also filter out server_tool_use blocks before compaction",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1151",
         "createdAt": "2026-01-24T16:26:37Z",
-        "daysOpen": 140,
+        "daysOpen": 141,
         "labels": [],
         "isDraft": false,
         "additions": 36,
@@ -1684,7 +1684,7 @@
         "title": "fix(streaming): safely handle dicts in accumulate_event",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1153",
         "createdAt": "2026-01-26T15:53:53Z",
-        "daysOpen": 138,
+        "daysOpen": 139,
         "labels": [],
         "isDraft": false,
         "additions": 19,
@@ -1698,7 +1698,7 @@
         "title": "fix(models): correctly unwrap Annotated types for RawMessageStreamEvent deserialization",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1167",
         "createdAt": "2026-02-07T16:09:47Z",
-        "daysOpen": 126,
+        "daysOpen": 127,
         "labels": [],
         "isDraft": false,
         "additions": 99,
@@ -1726,7 +1726,7 @@
         "title": "Adding support for enums in `transform_schema` (structured outputs)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1178",
         "createdAt": "2026-02-13T15:48:47Z",
-        "daysOpen": 120,
+        "daysOpen": 121,
         "labels": [],
         "isDraft": false,
         "additions": 9,
@@ -1782,7 +1782,7 @@
         "title": "fix(bedrock): use boto3 client for AWS region detection",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1207",
         "createdAt": "2026-02-26T16:07:24Z",
-        "daysOpen": 107,
+        "daysOpen": 108,
         "labels": [],
         "isDraft": false,
         "additions": 14,
@@ -2300,7 +2300,7 @@
         "title": "fix(bedrock): use safe dict comprehension to remove connection header",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1352",
         "createdAt": "2026-04-09T16:12:30Z",
-        "daysOpen": 65,
+        "daysOpen": 66,
         "labels": [],
         "isDraft": false,
         "additions": 1,
@@ -2422,6 +2422,20 @@
         "assignees": []
       },
       {
+        "number": 1412,
+        "title": "docs: fix async memory tool example",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1412",
+        "createdAt": "2026-04-18T16:33:36Z",
+        "daysOpen": 57,
+        "labels": [],
+        "isDraft": false,
+        "additions": 17,
+        "deletions": 10,
+        "reviewCount": 0,
+        "author": "MukundaKatta",
+        "assignees": []
+      },
+      {
         "number": 1410,
         "title": "fix: support PathLike values in file tuples",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1410",
@@ -2447,20 +2461,6 @@
         "deletions": 4,
         "reviewCount": 0,
         "author": "tianhaocui",
-        "assignees": []
-      },
-      {
-        "number": 1412,
-        "title": "docs: fix async memory tool example",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1412",
-        "createdAt": "2026-04-18T16:33:36Z",
-        "daysOpen": 56,
-        "labels": [],
-        "isDraft": false,
-        "additions": 17,
-        "deletions": 10,
-        "reviewCount": 0,
-        "author": "MukundaKatta",
         "assignees": []
       },
       {
@@ -3166,6 +3166,20 @@
         "assignees": []
       },
       {
+        "number": 1577,
+        "title": "docs: clarify skill upload file layout",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1577",
+        "createdAt": "2026-05-20T16:14:37Z",
+        "daysOpen": 25,
+        "labels": [],
+        "isDraft": false,
+        "additions": 103,
+        "deletions": 18,
+        "reviewCount": 0,
+        "author": "slegarraga",
+        "assignees": []
+      },
+      {
         "number": 1572,
         "title": "fix: handle error SSE events from Bedrock without AttributeError",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1572",
@@ -3205,20 +3219,6 @@
         "deletions": 11,
         "reviewCount": 0,
         "author": "rmotgi1227",
-        "assignees": []
-      },
-      {
-        "number": 1577,
-        "title": "docs: clarify skill upload file layout",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1577",
-        "createdAt": "2026-05-20T16:14:37Z",
-        "daysOpen": 24,
-        "labels": [],
-        "isDraft": false,
-        "additions": 103,
-        "deletions": 18,
-        "reviewCount": 0,
-        "author": "slegarraga",
         "assignees": []
       },
       {
@@ -3755,10 +3755,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 62,
-      "median_hours": 4.4,
-      "p90_hours": 187.9,
-      "p95_hours": 294
+      "avg_hours": 55.7,
+      "median_hours": 4.3,
+      "p90_hours": 174.1,
+      "p95_hours": 254.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -3767,11 +3767,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 53.4,
-      "median_hours": 12.6
+      "avg_hours": 43.5,
+      "median_hours": 8.4
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 73.4,
+    "rejection_rate_pct": 73.9,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 124,
@@ -4199,38 +4199,38 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 34,
-        "total_changes": 68
+        "pr_count": 33,
+        "total_changes": 66
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 34,
-        "total_changes": 445
+        "pr_count": 33,
+        "total_changes": 420
       },
       {
         "path": "pyproject.toml",
-        "pr_count": 34,
-        "total_changes": 75
+        "pr_count": 33,
+        "total_changes": 73
       },
       {
         "path": "src/anthropic/_version.py",
-        "pr_count": 34,
-        "total_changes": 68
+        "pr_count": 33,
+        "total_changes": 66
       },
       {
         "path": ".stats.yml",
-        "pr_count": 25,
-        "total_changes": 140
+        "pr_count": 24,
+        "total_changes": 134
       },
       {
         "path": "api.md",
-        "pr_count": 13,
-        "total_changes": 645
+        "pr_count": 12,
+        "total_changes": 643
       },
       {
         "path": "src/anthropic/types/beta/__init__.py",
-        "pr_count": 13,
-        "total_changes": 446
+        "pr_count": 12,
+        "total_changes": 445
       },
       {
         "path": "src/anthropic/types/anthropic_beta_param.py",
@@ -4238,19 +4238,14 @@
         "total_changes": 10
       },
       {
-        "path": "tests/api_resources/beta/test_messages.py",
-        "pr_count": 8,
-        "total_changes": 282
-      },
-      {
         "path": "src/anthropic/resources/messages/messages.py",
         "pr_count": 7,
         "total_changes": 127
       },
       {
-        "path": "uv.lock",
+        "path": "tests/api_resources/beta/test_messages.py",
         "pr_count": 7,
-        "total_changes": 1766
+        "total_changes": 210
       },
       {
         "path": "src/anthropic/resources/beta/beta.py",
@@ -4278,51 +4273,56 @@
         "total_changes": 63
       },
       {
-        "path": "tests/lib/tools/test_runners.py",
+        "path": "uv.lock",
         "pr_count": 6,
-        "total_changes": 184
+        "total_changes": 1764
       },
       {
-        "path": ".github/workflows/ci.yml",
+        "path": "tests/test_client.py",
         "pr_count": 6,
-        "total_changes": 101
+        "total_changes": 122
       },
       {
-        "path": "scripts/mock",
-        "pr_count": 6,
-        "total_changes": 57
+        "path": "src/anthropic/resources/beta/__init__.py",
+        "pr_count": 5,
+        "total_changes": 115
       },
       {
-        "path": "scripts/test",
-        "pr_count": 6,
-        "total_changes": 26
+        "path": "src/anthropic/types/beta/session_list_params.py",
+        "pr_count": 5,
+        "total_changes": 67
+      },
+      {
+        "path": "tests/api_resources/beta/test_sessions.py",
+        "pr_count": 5,
+        "total_changes": 657
       }
     ],
     "by_directory": [
       {
         "path": "src/anthropic/",
-        "pr_count": 35,
+        "pr_count": 34,
         "file_count": 14
       },
       {
         "path": "/",
-        "pr_count": 34,
-        "file_count": 11
+        "pr_count": 33,
+        "file_count": 10
       },
       {
         "path": "src/anthropic/types/beta/",
-        "pr_count": 17,
-        "file_count": 253
+        "pr_count": 16,
+        "file_count": 250
       },
       {
         "path": "src/anthropic/types/",
-        "pr_count": 16,
-        "file_count": 37
+        "pr_count": 15,
+        "file_count": 32
       },
       {
         "path": "tests/api_resources/beta/",
-        "pr_count": 13,
-        "file_count": 12
+        "pr_count": 12,
+        "file_count": 11
       },
       {
         "path": "tests/lib/",
@@ -4341,21 +4341,21 @@
       },
       {
         "path": ".github/workflows/",
-        "pr_count": 10,
+        "pr_count": 9,
         "file_count": 5
       },
       {
         "path": "src/anthropic/lib/tools/",
-        "pr_count": 9,
+        "pr_count": 8,
         "file_count": 9
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 2088465,
-    "last_week": 36574962,
-    "last_month": 138728580,
-    "total": 752627382
+    "daily": 2305307,
+    "last_week": 36791804,
+    "last_month": 138945422,
+    "total": 752844224
   }
 }
