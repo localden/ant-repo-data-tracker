@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-15T15:40:06.951Z",
+  "timestamp": "2026-06-15T19:40:28.808Z",
   "repository": {
     "stars": 296,
     "forks": 92
@@ -80,18 +80,18 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 5,
-    "merged_7d": 2,
-    "merged_30d": 10,
-    "merged_90d": 39,
+    "open_count": 4,
+    "merged_7d": 3,
+    "merged_30d": 11,
+    "merged_90d": 40,
     "opened_7d": 2,
     "opened_30d": 15,
     "opened_90d": 47,
     "closed_not_merged_90d": 7,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 5,
-    "unassigned_24h": 5,
+    "unassigned_count": 4,
+    "unassigned_24h": 4,
     "unassigned_7d": 4,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -114,7 +114,7 @@
         "title": "fix: streaming parallel tool-use emit logic (issue #197)",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/200",
         "createdAt": "2026-05-20T17:07:45Z",
-        "daysOpen": 25,
+        "daysOpen": 26,
         "labels": [],
         "isDraft": false,
         "additions": 99,
@@ -128,7 +128,7 @@
         "title": "Handle [DONE] terminal event in SSE streams from Azure APIM hosted Anthropic models",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/202",
         "createdAt": "2026-05-22T15:52:17Z",
-        "daysOpen": 23,
+        "daysOpen": 24,
         "labels": [],
         "isDraft": false,
         "additions": 53,
@@ -142,7 +142,7 @@
         "title": "feat(meai): map mid-conversation system messages for Opus 4.8",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/207",
         "createdAt": "2026-05-30T19:26:56Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "isDraft": false,
         "additions": 751,
@@ -150,29 +150,13 @@
         "reviewCount": 0,
         "author": "PederHP",
         "assignees": []
-      },
-      {
-        "number": 214,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/214",
-        "createdAt": "2026-06-09T23:49:11Z",
-        "daysOpen": 5,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 214,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 73.3,
-      "median_hours": 27.8,
-      "p90_hours": 188.9,
-      "p95_hours": 274.4
+      "avg_hours": 74.9,
+      "median_hours": 28.9,
+      "p90_hours": 182.2,
+      "p95_hours": 268.2
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -181,15 +165,15 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 182.6,
-      "median_hours": 39
+      "avg_hours": 181.5,
+      "median_hours": 39.4
     },
-    "code_review_rate_pct": 97.4,
-    "rejection_rate_pct": 15.2,
+    "code_review_rate_pct": 97.5,
+    "rejection_rate_pct": 14.9,
     "avg_reviews_per_pr": 1.8,
     "by_size": {
       "small": 1,
-      "medium": 3,
+      "medium": 2,
       "large": 1
     }
   },
@@ -199,7 +183,7 @@
     "first_time_30d": 7,
     "retention_rate_pct": 21.4,
     "churned_30d": 11,
-    "commits_per_week_avg": 6.5,
+    "commits_per_week_avg": 6.8,
     "commits_per_week_trend": [
       0,
       3,
@@ -207,12 +191,12 @@
       2,
       1,
       0,
-      23,
-      13,
+      28,
+      8,
       4,
       9,
       13,
-      5
+      9
     ],
     "allContributors": [
       "1yefuwang1",
@@ -294,23 +278,23 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 25,
-        "total_changes": 99
+        "pr_count": 26,
+        "total_changes": 103
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
-        "pr_count": 24,
-        "total_changes": 77
+        "pr_count": 25,
+        "total_changes": 79
       },
       {
         "path": ".stats.yml",
-        "pr_count": 22,
-        "total_changes": 128
+        "pr_count": 23,
+        "total_changes": 134
       },
       {
         "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 22,
-        "total_changes": 242
+        "pr_count": 23,
+        "total_changes": 255
       },
       {
         "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
@@ -324,13 +308,13 @@
       },
       {
         "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
-        "pr_count": 13,
-        "total_changes": 40
+        "pr_count": 14,
+        "total_changes": 42
       },
       {
         "path": "src/Anthropic.Bedrock/CHANGELOG.md",
-        "pr_count": 12,
-        "total_changes": 107
+        "pr_count": 13,
+        "total_changes": 115
       },
       {
         "path": "src/Anthropic/Core/ModelBase.cs",
@@ -383,31 +367,36 @@
         "total_changes": 837
       },
       {
+        "path": "src/Anthropic/Models/Messages/Model.cs",
+        "pr_count": 7,
+        "total_changes": 114
+      },
+      {
         "path": "src/Anthropic.Tests/Models/Beta/Agents/AgentUpdateParamsTest.cs",
         "pr_count": 7,
         "total_changes": 803
-      },
-      {
-        "path": "src/Anthropic.Vertex/Anthropic.Vertex.csproj",
-        "pr_count": 7,
-        "total_changes": 14
       }
     ],
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 32,
+        "pr_count": 33,
         "file_count": 6
       },
       {
         "path": "/",
-        "pr_count": 25,
+        "pr_count": 26,
         "file_count": 6
       },
       {
         "path": "src/Anthropic.Tests/",
         "pr_count": 23,
         "file_count": 9
+      },
+      {
+        "path": "src/Anthropic/Models/Beta/Messages/",
+        "pr_count": 16,
+        "file_count": 102
       },
       {
         "path": "src/Anthropic/Core/",
@@ -420,23 +409,18 @@
         "file_count": 1
       },
       {
-        "path": "src/Anthropic/Models/Beta/Messages/",
-        "pr_count": 15,
-        "file_count": 102
-      },
-      {
         "path": "src/Anthropic.Bedrock/",
-        "pr_count": 14,
+        "pr_count": 15,
         "file_count": 11
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/",
-        "pr_count": 13,
+        "pr_count": 14,
         "file_count": 67
       },
       {
         "path": "src/Anthropic/Models/Messages/",
-        "pr_count": 13,
+        "pr_count": 14,
         "file_count": 62
       },
       {
