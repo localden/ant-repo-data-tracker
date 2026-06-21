@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-21T12:07:01.389Z",
+  "timestamp": "2026-06-21T15:46:58.310Z",
   "repository": {
     "stars": 1111,
     "forks": 191
@@ -10,13 +10,13 @@
     "closed_30d": 1,
     "closed_90d": 4,
     "opened_7d": 4,
-    "opened_30d": 9,
+    "opened_30d": 8,
     "opened_90d": 19,
     "assigned_count": 0,
     "unassigned_count": 51,
     "unassigned_24h": 51,
     "unassigned_7d": 47,
-    "unassigned_30d": 43,
+    "unassigned_30d": 44,
     "assigned_issues": [],
     "unassigned_issues": [
       {
@@ -124,7 +124,7 @@
         "title": "When calling bedrock model with tools it fails with 400 Bad Request {\"message\":\"messages.1.content.0.text.citations: Extra inputs are not permitted\"}",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/186",
         "createdAt": "2025-05-15T14:33:47Z",
-        "daysOpen": 401,
+        "daysOpen": 402,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -192,7 +192,7 @@
         "title": "anthropic.ContentBlockSourceContentUnionParam does not seem to marshal correctly",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/229",
         "createdAt": "2025-09-04T13:21:46Z",
-        "daysOpen": 289,
+        "daysOpen": 290,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -212,7 +212,7 @@
         "title": "web_fetch_20250910 is not an expected tag",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/235",
         "createdAt": "2025-09-14T14:05:53Z",
-        "daysOpen": 279,
+        "daysOpen": 280,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -386,7 +386,7 @@
         "title": "Tests fail on i386 (32 bit)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/304",
         "createdAt": "2026-03-25T12:18:28Z",
-        "daysOpen": 87,
+        "daysOpen": 88,
         "labels": [
           "sdk"
         ],
@@ -468,7 +468,7 @@
         "title": "panic: defaultHTTPClient does unsafe type assertion on http.DefaultTransport (breaks otelhttp wrapping)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/334",
         "createdAt": "2026-05-07T13:14:51Z",
-        "daysOpen": 44,
+        "daysOpen": 45,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -478,7 +478,7 @@
         "title": "BetaMessageNewParams does not unmarshal string message content like MessageNewParams",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/343",
         "createdAt": "2026-05-22T12:19:32Z",
-        "daysOpen": 29,
+        "daysOpen": 30,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -514,6 +514,16 @@
         "assignees": []
       },
       {
+        "number": 368,
+        "title": "[Bug] Absolute file path rejected in restricted paths mode even when in the workdir",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/368",
+        "createdAt": "2026-06-18T13:01:46Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 367,
         "title": "[Bug] inconsistent json logic in non-beta and beata",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/367",
@@ -529,16 +539,6 @@
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/366",
         "createdAt": "2026-06-18T03:39:39Z",
         "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 368,
-        "title": "[Bug] Absolute file path rejected in restricted paths mode even when in the workdir",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/368",
-        "createdAt": "2026-06-18T13:01:46Z",
-        "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -574,7 +574,7 @@
     },
     "label_coverage_pct": 19.6,
     "unlabeled_count": 41,
-    "stale_30d": 42,
+    "stale_30d": 43,
     "stale_60d": 36,
     "stale_90d": 31,
     "reopen_rate": 0
@@ -586,7 +586,7 @@
     "merged_90d": 28,
     "opened_7d": 7,
     "opened_30d": 24,
-    "opened_90d": 55,
+    "opened_90d": 54,
     "closed_not_merged_90d": 7,
     "draft_count": 0,
     "assigned_count": 0,
@@ -656,7 +656,7 @@
         "title": "feat(bedrock): add bearer token authentication support",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/240",
         "createdAt": "2025-09-27T12:48:13Z",
-        "daysOpen": 266,
+        "daysOpen": 267,
         "labels": [],
         "isDraft": false,
         "additions": 206,
@@ -680,6 +680,20 @@
         "assignees": []
       },
       {
+        "number": 260,
+        "title": "docs: fix typos",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/260",
+        "createdAt": "2025-12-18T15:00:03Z",
+        "daysOpen": 185,
+        "labels": [],
+        "isDraft": false,
+        "additions": 9,
+        "deletions": 9,
+        "reviewCount": 1,
+        "author": "byigitt",
+        "assignees": []
+      },
+      {
         "number": 261,
         "title": "feat(ssestream): fix event decoding for data-only messages and [DONE] handling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/261",
@@ -691,20 +705,6 @@
         "deletions": 4,
         "reviewCount": 1,
         "author": "yuguorui",
-        "assignees": []
-      },
-      {
-        "number": 260,
-        "title": "docs: fix typos",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/260",
-        "createdAt": "2025-12-18T15:00:03Z",
-        "daysOpen": 184,
-        "labels": [],
-        "isDraft": false,
-        "additions": 9,
-        "deletions": 9,
-        "reviewCount": 1,
-        "author": "byigitt",
         "assignees": []
       },
       {
@@ -782,7 +782,7 @@
         "title": "feat: add Snowflake Cortex support (similar to Bedrock/Vertex)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/285",
         "createdAt": "2026-03-05T13:29:54Z",
-        "daysOpen": 107,
+        "daysOpen": 108,
         "labels": [],
         "isDraft": false,
         "additions": 571,
@@ -880,7 +880,7 @@
         "title": "Fix ToolResultBlockParam to support both string and array content",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
         "createdAt": "2026-03-17T14:19:08Z",
-        "daysOpen": 95,
+        "daysOpen": 96,
         "labels": [],
         "isDraft": false,
         "additions": 366,
@@ -894,7 +894,7 @@
         "title": "fix: increase JSONL stream scanner buffer to prevent silent truncation",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/302",
         "createdAt": "2026-03-23T14:14:38Z",
-        "daysOpen": 89,
+        "daysOpen": 90,
         "labels": [],
         "isDraft": false,
         "additions": 107,
@@ -992,7 +992,7 @@
         "title": "fix: preserve code_execution_result fields during union round-trip unmarshaling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/330",
         "createdAt": "2026-04-28T12:28:27Z",
-        "daysOpen": 53,
+        "daysOpen": 54,
         "labels": [],
         "isDraft": false,
         "additions": 189,
@@ -1241,10 +1241,10 @@
   },
   "contributors": {
     "total_known": 99,
-    "active_30d": 20,
-    "first_time_30d": 16,
-    "retention_rate_pct": 7.1,
-    "churned_30d": 13,
+    "active_30d": 19,
+    "first_time_30d": 15,
+    "retention_rate_pct": 6.7,
+    "churned_30d": 14,
     "commits_per_week_avg": 12,
     "commits_per_week_trend": [
       29,
@@ -1374,7 +1374,6 @@
       "dtmeadows",
       "dtmeadows-ant",
       "ganawaj",
-      "harshit-gupta-glean",
       "javierglatstein-cobre",
       "jeet-dekivadia",
       "jshiv",
