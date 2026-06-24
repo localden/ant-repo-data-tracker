@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-24T17:51:15.183Z",
+  "timestamp": "2026-06-24T19:29:30.788Z",
   "repository": {
     "stars": 164,
     "forks": 51
@@ -94,18 +94,18 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 7,
-    "merged_7d": 1,
-    "merged_30d": 8,
-    "merged_90d": 26,
+    "open_count": 6,
+    "merged_7d": 2,
+    "merged_30d": 9,
+    "merged_90d": 27,
     "opened_7d": 2,
     "opened_30d": 11,
     "opened_90d": 29,
     "closed_not_merged_90d": 1,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 7,
-    "unassigned_24h": 7,
+    "unassigned_count": 6,
+    "unassigned_24h": 6,
     "unassigned_7d": 6,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -192,29 +192,13 @@
         "reviewCount": 0,
         "author": "jeet-dekivadia",
         "assignees": []
-      },
-      {
-        "number": 53,
-        "title": "release: 0.31.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/53",
-        "createdAt": "2026-06-22T20:21:12Z",
-        "daysOpen": 1,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 433,
-        "deletions": 160,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 43,
-      "median_hours": 11.7,
-      "p90_hours": 134.6,
-      "p95_hours": 163.7
+      "avg_hours": 43.1,
+      "median_hours": 19.1,
+      "p90_hours": 132.4,
+      "p95_hours": 162.5
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -223,16 +207,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 44.8,
-      "median_hours": 20.9
+      "avg_hours": 44.9,
+      "median_hours": 22.1
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 3.7,
+    "rejection_rate_pct": 3.6,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 5,
       "medium": 1,
-      "large": 1
+      "large": 0
     }
   },
   "contributors": {
@@ -241,20 +225,20 @@
     "first_time_30d": 6,
     "retention_rate_pct": 16.7,
     "churned_30d": 5,
-    "commits_per_week_avg": 9.9,
+    "commits_per_week_avg": 10.5,
     "commits_per_week_trend": [
       27,
       19,
       2,
       13,
       17,
-      5,
-      9,
+      12,
+      2,
       2,
       5,
       10,
       2,
-      8
+      15
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -301,28 +285,48 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 25,
-        "total_changes": 50
+        "pr_count": 26,
+        "total_changes": 52
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 25,
-        "total_changes": 325
+        "pr_count": 26,
+        "total_changes": 345
       },
       {
         "path": "README.md",
-        "pr_count": 25,
-        "total_changes": 140
+        "pr_count": 26,
+        "total_changes": 142
       },
       {
         "path": "src/Version.php",
-        "pr_count": 25,
-        "total_changes": 50
+        "pr_count": 26,
+        "total_changes": 52
       },
       {
         "path": ".stats.yml",
-        "pr_count": 22,
-        "total_changes": 134
+        "pr_count": 23,
+        "total_changes": 140
+      },
+      {
+        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
+        "pr_count": 9,
+        "total_changes": 187
+      },
+      {
+        "path": "src/Beta/Messages/MessageCreateParams.php",
+        "pr_count": 9,
+        "total_changes": 199
+      },
+      {
+        "path": "src/ServiceContracts/Beta/MessagesContract.php",
+        "pr_count": 8,
+        "total_changes": 102
+      },
+      {
+        "path": "src/Services/Beta/MessagesService.php",
+        "pr_count": 8,
+        "total_changes": 119
       },
       {
         "path": "src/Beta/AnthropicBeta.php",
@@ -330,29 +334,29 @@
         "total_changes": 20
       },
       {
-        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
-        "pr_count": 8,
-        "total_changes": 167
-      },
-      {
-        "path": "src/Beta/Messages/MessageCreateParams.php",
-        "pr_count": 8,
-        "total_changes": 165
-      },
-      {
         "path": "src/Messages/Model.php",
         "pr_count": 7,
         "total_changes": 48
       },
       {
-        "path": "src/ServiceContracts/Beta/MessagesContract.php",
-        "pr_count": 7,
-        "total_changes": 94
+        "path": "src/Messages/MessageCreateParams.php",
+        "pr_count": 6,
+        "total_changes": 54
       },
       {
-        "path": "src/Services/Beta/MessagesService.php",
-        "pr_count": 7,
-        "total_changes": 107
+        "path": "src/SSEStream.php",
+        "pr_count": 6,
+        "total_changes": 47
+      },
+      {
+        "path": "src/Services/MessagesService.php",
+        "pr_count": 6,
+        "total_changes": 113
+      },
+      {
+        "path": "tests/Services/Beta/MessagesTest.php",
+        "pr_count": 6,
+        "total_changes": 42
       },
       {
         "path": "src/ServiceContracts/Beta/SessionsContract.php",
@@ -365,99 +369,79 @@
         "total_changes": 287
       },
       {
-        "path": "src/Beta/Sessions/SessionListParams.php",
+        "path": "src/Beta/Messages/BetaRefusalStopDetails/Category.php",
         "pr_count": 5,
-        "total_changes": 346
+        "total_changes": 27
       },
       {
-        "path": "src/Services/Beta/SessionsRawService.php",
+        "path": "src/Messages/RefusalStopDetails/Category.php",
         "pr_count": 5,
-        "total_changes": 350
+        "total_changes": 27
       },
       {
-        "path": "src/Services/BetaService.php",
+        "path": "src/ServiceContracts/MessagesContract.php",
         "pr_count": 5,
-        "total_changes": 63
-      },
-      {
-        "path": "tests/Services/Beta/MessagesTest.php",
-        "pr_count": 5,
-        "total_changes": 40
-      },
-      {
-        "path": "src/Messages/Batches/BatchCreateParams/Request/Params.php",
-        "pr_count": 5,
-        "total_changes": 34
-      },
-      {
-        "path": "src/Messages/MessageCreateParams.php",
-        "pr_count": 5,
-        "total_changes": 34
-      },
-      {
-        "path": "src/Services/MessagesService.php",
-        "pr_count": 5,
-        "total_changes": 39
+        "total_changes": 106
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 25,
+        "pr_count": 26,
         "file_count": 7
       },
       {
         "path": "src/",
-        "pr_count": 25,
+        "pr_count": 26,
         "file_count": 8
       },
       {
         "path": "src/Beta/Messages/",
-        "pr_count": 14,
-        "file_count": 53
+        "pr_count": 15,
+        "file_count": 54
       },
       {
         "path": "src/Messages/",
-        "pr_count": 13,
-        "file_count": 20
+        "pr_count": 14,
+        "file_count": 21
       },
       {
         "path": "src/ServiceContracts/Beta/",
-        "pr_count": 13,
+        "pr_count": 14,
         "file_count": 22
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 13,
+        "pr_count": 14,
         "file_count": 24
       },
       {
         "path": "tests/Services/Beta/",
-        "pr_count": 11,
+        "pr_count": 12,
         "file_count": 11
       },
       {
-        "path": "src/Beta/Sessions/",
-        "pr_count": 8,
-        "file_count": 28
+        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/",
+        "pr_count": 9,
+        "file_count": 1
       },
       {
         "path": "src/Services/",
-        "pr_count": 8,
-        "file_count": 2
+        "pr_count": 9,
+        "file_count": 3
       },
       {
-        "path": "src/Beta/",
+        "path": "src/Beta/Agents/",
         "pr_count": 8,
-        "file_count": 1
+        "file_count": 44
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 8223,
-    "total": 536480,
-    "last_week": 49674,
-    "last_month": 197962
+    "daily": 8373,
+    "total": 537260,
+    "last_week": 49824,
+    "last_month": 198112
   }
 }
