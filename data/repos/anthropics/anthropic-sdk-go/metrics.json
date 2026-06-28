@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-06-28T19:03:04.382Z",
+  "timestamp": "2026-06-28T20:52:59.096Z",
   "repository": {
     "stars": 1121,
-    "forks": 192
+    "forks": 193
   },
   "issues": {
     "open_count": 52,
@@ -89,7 +89,7 @@
         "title": "Occasional spikes in 403 Signature Expired using the Bedrock integration",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/122",
         "createdAt": "2025-02-19T20:12:42Z",
-        "daysOpen": 493,
+        "daysOpen": 494,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -172,7 +172,7 @@
         "title": "`NewBetaToolResultBlock` only takes a tool ID as a parameter",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/217",
         "createdAt": "2025-08-01T20:17:45Z",
-        "daysOpen": 330,
+        "daysOpen": 331,
         "labels": [],
         "commentCount": 5,
         "assignees": []
@@ -262,7 +262,7 @@
         "title": "Streaming Accumulate() fails with 'invalid character' JSON error on malformed API responses",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/255",
         "createdAt": "2025-11-25T20:00:46Z",
-        "daysOpen": 214,
+        "daysOpen": 215,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -292,7 +292,7 @@
         "title": "Bug: Strict option for structured out is missing in ToolParam struct",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/264",
         "createdAt": "2026-01-08T19:34:35Z",
-        "daysOpen": 170,
+        "daysOpen": 171,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -418,7 +418,7 @@
         "title": "Examples in documentation use types that don't exist.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/320",
         "createdAt": "2026-04-14T20:41:49Z",
-        "daysOpen": 74,
+        "daysOpen": 75,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -448,7 +448,7 @@
         "title": "JSONOutputFormatParam.Type elided from request body, causes API to hang structured-output requests",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/328",
         "createdAt": "2026-04-26T20:13:07Z",
-        "daysOpen": 62,
+        "daysOpen": 63,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -558,7 +558,7 @@
         "title": "Self-hosted worker deadlocks on empty tool output: textResult posts an empty text block → 400 \"minimum string length is 1\"",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/377",
         "createdAt": "2026-06-23T20:43:03Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -595,7 +595,7 @@
     "merged_30d": 9,
     "merged_90d": 30,
     "opened_7d": 2,
-    "opened_30d": 21,
+    "opened_30d": 19,
     "opened_90d": 53,
     "closed_not_merged_90d": 6,
     "draft_count": 0,
@@ -624,7 +624,7 @@
         "title": "Add tests for timeout and HTTP error handling in MessageService",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/204",
         "createdAt": "2025-07-02T19:25:29Z",
-        "daysOpen": 360,
+        "daysOpen": 361,
         "labels": [],
         "isDraft": false,
         "additions": 64,
@@ -1054,6 +1054,20 @@
         "assignees": []
       },
       {
+        "number": 352,
+        "title": "Fix accumulation when content blocks are interleaved",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/352",
+        "createdAt": "2026-05-29T20:31:31Z",
+        "daysOpen": 30,
+        "labels": [],
+        "isDraft": false,
+        "additions": 92,
+        "deletions": 17,
+        "reviewCount": 0,
+        "author": "omer-cengel",
+        "assignees": []
+      },
+      {
         "number": 349,
         "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
@@ -1065,20 +1079,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "17twenty",
-        "assignees": []
-      },
-      {
-        "number": 352,
-        "title": "Fix accumulation when content blocks are interleaved",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/352",
-        "createdAt": "2026-05-29T20:31:31Z",
-        "daysOpen": 29,
-        "labels": [],
-        "isDraft": false,
-        "additions": 92,
-        "deletions": 17,
-        "reviewCount": 0,
-        "author": "omer-cengel",
         "assignees": []
       },
       {
@@ -1251,10 +1251,10 @@
   },
   "contributors": {
     "total_known": 102,
-    "active_30d": 15,
-    "first_time_30d": 12,
-    "retention_rate_pct": 17.6,
-    "churned_30d": 14,
+    "active_30d": 14,
+    "first_time_30d": 11,
+    "retention_rate_pct": 16.7,
+    "churned_30d": 15,
     "commits_per_week_avg": 10.1,
     "commits_per_week_trend": [
       15,
@@ -1387,7 +1387,6 @@
       "javierglatstein-cobre",
       "jeet-dekivadia",
       "mrh997",
-      "omer-cengel",
       "stainless-app",
       "toller892"
     ]
