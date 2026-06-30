@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-06-30T16:17:28.338Z",
+  "timestamp": "2026-06-30T19:32:25.453Z",
   "repository": {
-    "stars": 1123,
+    "stars": 1122,
     "forks": 195
   },
   "issues": {
@@ -34,7 +34,7 @@
         "title": "Add support for Vertex AI authentication using JSON service account key",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/58",
         "createdAt": "2024-11-11T17:33:33Z",
-        "daysOpen": 595,
+        "daysOpen": 596,
         "labels": [
           "enhancement",
           "sdk"
@@ -47,7 +47,7 @@
         "title": "Error handling code for Bedrock doesn't work for exception message types",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/71",
         "createdAt": "2024-12-13T18:49:26Z",
-        "daysOpen": 563,
+        "daysOpen": 564,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -147,7 +147,7 @@
         "title": "Guidance on handling streaming errors",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/200",
         "createdAt": "2025-06-10T18:16:40Z",
-        "daysOpen": 384,
+        "daysOpen": 385,
         "labels": [
           "question"
         ],
@@ -159,7 +159,7 @@
         "title": "Guidance on CacheControl for multi-turn conversations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/207",
         "createdAt": "2025-07-04T17:19:25Z",
-        "daysOpen": 360,
+        "daysOpen": 361,
         "labels": [
           "question",
           "api"
@@ -252,7 +252,7 @@
         "title": "Modified content blocks in Message are ignored when calling ToParam",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/243",
         "createdAt": "2025-10-02T16:57:20Z",
-        "daysOpen": 270,
+        "daysOpen": 271,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -322,7 +322,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 139,
+        "daysOpen": 140,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -354,7 +354,7 @@
         "title": "Downloading files from skills example doesn't work with streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/288",
         "createdAt": "2026-03-07T17:31:18Z",
-        "daysOpen": 114,
+        "daysOpen": 115,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -438,7 +438,7 @@
         "title": "Build failure: invopop/jsonschema v0.14.0 incompatibility (pb33f vs wk8 ordered-map type mismatch in schemautil.go)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/325",
         "createdAt": "2026-04-24T16:17:39Z",
-        "daysOpen": 66,
+        "daysOpen": 67,
         "labels": [],
         "commentCount": 5,
         "assignees": []
@@ -498,7 +498,7 @@
         "title": "BetaTextEditorCodeExecutionToolResultBlock.ToParam() double-encodes non-error content as a JSON string",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/355",
         "createdAt": "2026-06-01T17:43:06Z",
-        "daysOpen": 28,
+        "daysOpen": 29,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -581,11 +581,11 @@
   },
   "pulls": {
     "open_count": 44,
-    "merged_7d": 2,
-    "merged_30d": 10,
-    "merged_90d": 30,
-    "opened_7d": 2,
-    "opened_30d": 18,
+    "merged_7d": 3,
+    "merged_30d": 11,
+    "merged_90d": 31,
+    "opened_7d": 3,
+    "opened_30d": 19,
     "opened_90d": 53,
     "closed_not_merged_90d": 6,
     "draft_count": 0,
@@ -614,7 +614,7 @@
         "title": "Add tests for timeout and HTTP error handling in MessageService",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/204",
         "createdAt": "2025-07-02T19:25:29Z",
-        "daysOpen": 362,
+        "daysOpen": 363,
         "labels": [],
         "isDraft": false,
         "additions": 64,
@@ -922,7 +922,7 @@
         "title": "toolrunner: validate tool inputs against JSON Schema before handler execution",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/305",
         "createdAt": "2026-03-26T16:45:10Z",
-        "daysOpen": 95,
+        "daysOpen": 96,
         "labels": [],
         "isDraft": false,
         "additions": 1679,
@@ -950,7 +950,7 @@
         "title": "fix: set required Type field in BetaManagedAgentsEventParams helpers",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/316",
         "createdAt": "2026-04-11T16:28:08Z",
-        "daysOpen": 79,
+        "daysOpen": 80,
         "labels": [],
         "isDraft": false,
         "additions": 61,
@@ -964,7 +964,7 @@
         "title": "fix: upgrade invopop/jsonschema to v0.14.0 and switch ordered-map to pb33f",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/326",
         "createdAt": "2026-04-24T16:34:10Z",
-        "daysOpen": 66,
+        "daysOpen": 67,
         "labels": [],
         "isDraft": false,
         "additions": 15,
@@ -1030,6 +1030,20 @@
         "assignees": []
       },
       {
+        "number": 348,
+        "title": "test: add regression tests for #334 (DefaultTransport panic)",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/348",
+        "createdAt": "2026-05-28T18:59:18Z",
+        "daysOpen": 33,
+        "labels": [],
+        "isDraft": false,
+        "additions": 70,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "Sarmkadan",
+        "assignees": []
+      },
+      {
         "number": 349,
         "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
@@ -1041,20 +1055,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "17twenty",
-        "assignees": []
-      },
-      {
-        "number": 348,
-        "title": "test: add regression tests for #334 (DefaultTransport panic)",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/348",
-        "createdAt": "2026-05-28T18:59:18Z",
-        "daysOpen": 32,
-        "labels": [],
-        "isDraft": false,
-        "additions": 70,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "Sarmkadan",
         "assignees": []
       },
       {
@@ -1198,27 +1198,27 @@
         "assignees": []
       },
       {
-        "number": 380,
-        "title": "release: 1.53.1",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/380",
-        "createdAt": "2026-06-29T21:33:30Z",
+        "number": 381,
+        "title": "release: 1.55.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/381",
+        "createdAt": "2026-06-30T19:01:56Z",
         "daysOpen": 0,
         "labels": [
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 50,
-        "deletions": 22,
+        "additions": 1962,
+        "deletions": 59,
         "reviewCount": 0,
         "author": "stainless-app",
         "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 38.4,
-      "median_hours": 1.8,
-      "p90_hours": 146,
-      "p95_hours": 196.6
+      "avg_hours": 38,
+      "median_hours": 2.1,
+      "p90_hours": 145.4,
+      "p95_hours": 196
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1227,16 +1227,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 40.2,
+      "avg_hours": 39.6,
       "median_hours": 2.5
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 16.7,
+    "rejection_rate_pct": 16.2,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
-      "small": 25,
+      "small": 24,
       "medium": 17,
-      "large": 2
+      "large": 3
     }
   },
   "contributors": {
@@ -1245,20 +1245,20 @@
     "first_time_30d": 10,
     "retention_rate_pct": 15.8,
     "churned_30d": 16,
-    "commits_per_week_avg": 10.5,
+    "commits_per_week_avg": 10.3,
     "commits_per_week_trend": [
-      17,
-      6,
+      16,
+      2,
       10,
       17,
       13,
       14,
       2,
       7,
-      18,
-      9,
+      21,
+      6,
       4,
-      9
+      12
     ],
     "allContributors": [
       "17twenty",
@@ -1384,38 +1384,38 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 30,
-        "total_changes": 60
-      },
-      {
-        "path": "CHANGELOG.md",
-        "pr_count": 30,
-        "total_changes": 373
-      },
-      {
-        "path": "README.md",
-        "pr_count": 30,
+        "pr_count": 31,
         "total_changes": 62
       },
       {
+        "path": "CHANGELOG.md",
+        "pr_count": 31,
+        "total_changes": 386
+      },
+      {
+        "path": "README.md",
+        "pr_count": 31,
+        "total_changes": 64
+      },
+      {
         "path": "internal/version.go",
-        "pr_count": 30,
-        "total_changes": 60
+        "pr_count": 31,
+        "total_changes": 62
       },
       {
         "path": ".stats.yml",
-        "pr_count": 26,
-        "total_changes": 146
+        "pr_count": 27,
+        "total_changes": 152
+      },
+      {
+        "path": "message.go",
+        "pr_count": 17,
+        "total_changes": 930
       },
       {
         "path": "betamessage.go",
         "pr_count": 16,
         "total_changes": 2640
-      },
-      {
-        "path": "message.go",
-        "pr_count": 16,
-        "total_changes": 929
       },
       {
         "path": "api.md",
@@ -1433,19 +1433,19 @@
         "total_changes": 124
       },
       {
-        "path": "beta.go",
+        "path": "betaagent.go",
         "pr_count": 9,
-        "total_changes": 61
+        "total_changes": 2791
       },
       {
         "path": "betamessage_test.go",
-        "pr_count": 8,
-        "total_changes": 183
+        "pr_count": 9,
+        "total_changes": 185
       },
       {
-        "path": "betaagent.go",
-        "pr_count": 8,
-        "total_changes": 2790
+        "path": "beta.go",
+        "pr_count": 9,
+        "total_changes": 61
       },
       {
         "path": "betasession.go",
@@ -1478,20 +1478,20 @@
         "total_changes": 27
       },
       {
-        "path": "betasession_test.go",
+        "path": "betamessagebatch_test.go",
         "pr_count": 5,
-        "total_changes": 239
+        "total_changes": 48
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 30,
-        "file_count": 76
+        "pr_count": 31,
+        "file_count": 78
       },
       {
         "path": "internal/",
-        "pr_count": 30,
+        "pr_count": 31,
         "file_count": 1
       },
       {
@@ -1515,6 +1515,11 @@
         "file_count": 2
       },
       {
+        "path": "examples/agents-comprehensive/",
+        "pr_count": 4,
+        "file_count": 2
+      },
+      {
         "path": "internal/awsauth/",
         "pr_count": 4,
         "file_count": 1
@@ -1528,11 +1533,6 @@
         "path": "option/",
         "pr_count": 4,
         "file_count": 3
-      },
-      {
-        "path": "lib/betafallback/",
-        "pr_count": 3,
-        "file_count": 5
       }
     ],
     "top_n": 20
