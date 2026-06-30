@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30T19:34:02.621Z",
+  "timestamp": "2026-06-30T21:26:28.395Z",
   "repository": {
     "stars": 353,
     "forks": 65
@@ -142,17 +142,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 9,
-    "merged_7d": 3,
-    "merged_30d": 10,
+    "open_count": 8,
+    "merged_7d": 4,
+    "merged_30d": 11,
     "merged_90d": 32,
     "opened_7d": 3,
     "opened_30d": 10,
-    "opened_90d": 37,
+    "opened_90d": 36,
     "closed_not_merged_90d": 1,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 9,
+    "unassigned_count": 8,
     "unassigned_24h": 7,
     "unassigned_7d": 7,
     "assigned_prs": [],
@@ -268,27 +268,11 @@
         "reviewCount": 0,
         "author": "jeet-dekivadia",
         "assignees": []
-      },
-      {
-        "number": 211,
-        "title": "release: 1.53.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/211",
-        "createdAt": "2026-06-30T19:02:27Z",
-        "daysOpen": 0,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 5578,
-        "deletions": 54,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 42.9,
-      "median_hours": 12,
+      "avg_hours": 42.2,
+      "median_hours": 4.4,
       "p90_hours": 144.9,
       "p95_hours": 170
     },
@@ -299,8 +283,8 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 42.4,
-      "median_hours": 16.7
+      "avg_hours": 41.7,
+      "median_hours": 8.2
     },
     "code_review_rate_pct": 96.9,
     "rejection_rate_pct": 3,
@@ -308,7 +292,7 @@
     "by_size": {
       "small": 5,
       "medium": 3,
-      "large": 1
+      "large": 0
     }
   },
   "contributors": {
@@ -317,7 +301,7 @@
     "first_time_30d": 5,
     "retention_rate_pct": 16.7,
     "churned_30d": 10,
-    "commits_per_week_avg": 9.6,
+    "commits_per_week_avg": 9.8,
     "commits_per_week_trend": [
       18,
       3,
@@ -327,10 +311,10 @@
       11,
       3,
       6,
-      18,
-      6,
+      20,
+      4,
       7,
-      13
+      16
     ],
     "allContributors": [
       "0xsarawut",
@@ -387,7 +371,7 @@
       {
         "path": "CHANGELOG.md",
         "pr_count": 30,
-        "total_changes": 370
+        "total_changes": 359
       },
       {
         "path": "Gemfile.lock",
@@ -412,7 +396,7 @@
       {
         "path": "lib/anthropic.rb",
         "pr_count": 17,
-        "total_changes": 640
+        "total_changes": 668
       },
       {
         "path": "lib/anthropic/models/beta/message_create_params.rb",
@@ -445,39 +429,39 @@
         "total_changes": 233
       },
       {
+        "path": "lib/anthropic/resources/beta/sessions.rb",
+        "pr_count": 9,
+        "total_changes": 507
+      },
+      {
+        "path": "rbi/anthropic/resources/beta/sessions.rbi",
+        "pr_count": 9,
+        "total_changes": 425
+      },
+      {
         "path": "lib/anthropic/models/model.rb",
         "pr_count": 8,
         "total_changes": 98
       },
       {
+        "path": "lib/anthropic/internal/stream.rb",
+        "pr_count": 7,
+        "total_changes": 14
+      },
+      {
+        "path": "lib/anthropic/resources/beta/sessions/events.rb",
+        "pr_count": 7,
+        "total_changes": 291
+      },
+      {
+        "path": "sig/anthropic/resources/beta/sessions.rbs",
+        "pr_count": 7,
+        "total_changes": 140
+      },
+      {
         "path": "lib/anthropic/internal/util.rb",
-        "pr_count": 8,
-        "total_changes": 105
-      },
-      {
-        "path": "lib/anthropic/resources/beta/sessions.rb",
-        "pr_count": 8,
-        "total_changes": 501
-      },
-      {
-        "path": "rbi/anthropic/resources/beta/sessions.rbi",
-        "pr_count": 8,
-        "total_changes": 420
-      },
-      {
-        "path": "lib/anthropic/models/message_create_params.rb",
         "pr_count": 7,
-        "total_changes": 84
-      },
-      {
-        "path": "lib/anthropic/models/messages/batch_create_params.rb",
-        "pr_count": 7,
-        "total_changes": 95
-      },
-      {
-        "path": "scripts/detect-breaking-changes",
-        "pr_count": 7,
-        "total_changes": 26
+        "total_changes": 85
       }
     ],
     "by_directory": [
@@ -489,37 +473,32 @@
       {
         "path": "lib/anthropic/",
         "pr_count": 30,
-        "file_count": 11
+        "file_count": 10
       },
       {
         "path": "lib/anthropic/models/beta/",
         "pr_count": 21,
-        "file_count": 291
-      },
-      {
-        "path": "lib/anthropic/models/",
-        "pr_count": 20,
-        "file_count": 47
+        "file_count": 319
       },
       {
         "path": "rbi/anthropic/models/beta/",
         "pr_count": 20,
-        "file_count": 291
+        "file_count": 319
       },
       {
         "path": "sig/anthropic/models/beta/",
         "pr_count": 20,
-        "file_count": 284
+        "file_count": 312
       },
       {
-        "path": "rbi/anthropic/models/",
+        "path": "lib/anthropic/models/",
+        "pr_count": 19,
+        "file_count": 46
+      },
+      {
+        "path": "lib/anthropic/resources/beta/",
         "pr_count": 18,
-        "file_count": 47
-      },
-      {
-        "path": "sig/anthropic/models/",
-        "pr_count": 17,
-        "file_count": 38
+        "file_count": 11
       },
       {
         "path": "lib/",
@@ -527,17 +506,22 @@
         "file_count": 1
       },
       {
-        "path": "lib/anthropic/resources/beta/",
+        "path": "rbi/anthropic/resources/beta/",
         "pr_count": 17,
         "file_count": 11
+      },
+      {
+        "path": "rbi/anthropic/models/",
+        "pr_count": 17,
+        "file_count": 46
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 16527,
-    "total": 2118768,
-    "last_week": 92651,
-    "last_month": 356357
+    "daily": 17792,
+    "total": 2120033,
+    "last_week": 93916,
+    "last_month": 357622
   }
 }

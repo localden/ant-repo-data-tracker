@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-06-30T19:34:26.359Z",
+  "timestamp": "2026-06-30T21:26:55.837Z",
   "repository": {
     "stars": 163,
     "forks": 52
@@ -94,9 +94,9 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 7,
-    "merged_7d": 3,
-    "merged_30d": 10,
+    "open_count": 6,
+    "merged_7d": 4,
+    "merged_30d": 11,
     "merged_90d": 29,
     "opened_7d": 3,
     "opened_30d": 10,
@@ -104,7 +104,7 @@
     "closed_not_merged_90d": 1,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 7,
+    "unassigned_count": 6,
     "unassigned_24h": 6,
     "unassigned_7d": 6,
     "assigned_prs": [],
@@ -192,29 +192,13 @@
         "reviewCount": 0,
         "author": "jeet-dekivadia",
         "assignees": []
-      },
-      {
-        "number": 56,
-        "title": "release: 0.34.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/56",
-        "createdAt": "2026-06-30T19:02:03Z",
-        "daysOpen": 0,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 4024,
-        "deletions": 61,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 43.3,
-      "median_hours": 19.1,
-      "p90_hours": 128.1,
-      "p95_hours": 160
+      "avg_hours": 33.3,
+      "median_hours": 4.4,
+      "p90_hours": 98.8,
+      "p95_hours": 136.8
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -223,8 +207,8 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 45,
-      "median_hours": 22.1
+      "avg_hours": 35,
+      "median_hours": 19.8
     },
     "code_review_rate_pct": 100,
     "rejection_rate_pct": 3.3,
@@ -232,16 +216,16 @@
     "by_size": {
       "small": 5,
       "medium": 1,
-      "large": 1
+      "large": 0
     }
   },
   "contributors": {
-    "total_known": 29,
-    "active_30d": 5,
-    "first_time_30d": 3,
+    "total_known": 30,
+    "active_30d": 6,
+    "first_time_30d": 4,
     "retention_rate_pct": 22.2,
     "churned_30d": 7,
-    "commits_per_week_avg": 9.1,
+    "commits_per_week_avg": 9.4,
     "commits_per_week_trend": [
       12,
       11,
@@ -251,10 +235,10 @@
       9,
       2,
       5,
-      6,
-      6,
       8,
-      15
+      4,
+      8,
+      19
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -276,6 +260,7 @@
       "jportner-ant",
       "jrgilman",
       "levelsleuthhelix",
+      "meorphis-anthropic",
       "mikecluck",
       "ms-jpq",
       "nikblanchet",
@@ -291,6 +276,7 @@
       "craigie-ant",
       "dtmeadows-ant",
       "jacobzim-ant",
+      "meorphis-anthropic",
       "stainless-app",
       "tomer-ant"
     ]
@@ -305,7 +291,7 @@
       {
         "path": "CHANGELOG.md",
         "pr_count": 28,
-        "total_changes": 372
+        "total_changes": 354
       },
       {
         "path": "README.md",
@@ -353,9 +339,14 @@
         "total_changes": 45
       },
       {
-        "path": "src/Beta/AnthropicBeta.php",
-        "pr_count": 8,
-        "total_changes": 20
+        "path": "src/ServiceContracts/Beta/SessionsContract.php",
+        "pr_count": 7,
+        "total_changes": 170
+      },
+      {
+        "path": "src/Services/Beta/SessionsService.php",
+        "pr_count": 7,
+        "total_changes": 296
       },
       {
         "path": "src/Messages/MessageCreateParams.php",
@@ -368,6 +359,21 @@
         "total_changes": 184
       },
       {
+        "path": "src/Beta/AnthropicBeta.php",
+        "pr_count": 7,
+        "total_changes": 18
+      },
+      {
+        "path": "src/SSEStream.php",
+        "pr_count": 6,
+        "total_changes": 40
+      },
+      {
+        "path": "src/Services/Beta/SessionsRawService.php",
+        "pr_count": 6,
+        "total_changes": 356
+      },
+      {
         "path": "tests/Services/Beta/Messages/BatchesTest.php",
         "pr_count": 6,
         "total_changes": 35
@@ -376,63 +382,43 @@
         "path": "src/Messages/Batches/BatchCreateParams/Request/Params.php",
         "pr_count": 6,
         "total_changes": 76
-      },
-      {
-        "path": "src/ServiceContracts/MessagesContract.php",
-        "pr_count": 6,
-        "total_changes": 172
-      },
-      {
-        "path": "src/SSEStream.php",
-        "pr_count": 6,
-        "total_changes": 47
-      },
-      {
-        "path": "src/ServiceContracts/Beta/SessionsContract.php",
-        "pr_count": 6,
-        "total_changes": 161
-      },
-      {
-        "path": "src/Services/Beta/SessionsService.php",
-        "pr_count": 6,
-        "total_changes": 287
       }
     ],
     "by_directory": [
       {
         "path": "/",
         "pr_count": 28,
-        "file_count": 7
+        "file_count": 6
       },
       {
         "path": "src/",
         "pr_count": 28,
-        "file_count": 8
-      },
-      {
-        "path": "src/Messages/",
-        "pr_count": 16,
-        "file_count": 25
-      },
-      {
-        "path": "src/Beta/Messages/",
-        "pr_count": 16,
-        "file_count": 58
+        "file_count": 9
       },
       {
         "path": "src/ServiceContracts/Beta/",
-        "pr_count": 15,
+        "pr_count": 16,
         "file_count": 22
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 15,
+        "pr_count": 16,
         "file_count": 24
       },
       {
         "path": "tests/Services/Beta/",
-        "pr_count": 14,
+        "pr_count": 15,
         "file_count": 11
+      },
+      {
+        "path": "src/Messages/",
+        "pr_count": 15,
+        "file_count": 24
+      },
+      {
+        "path": "src/Beta/Messages/",
+        "pr_count": 15,
+        "file_count": 57
       },
       {
         "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/",
@@ -445,17 +431,17 @@
         "file_count": 3
       },
       {
-        "path": "src/Beta/Agents/",
+        "path": "src/Beta/Sessions/",
         "pr_count": 9,
-        "file_count": 44
+        "file_count": 36
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 8678,
-    "total": 574887,
-    "last_week": 47069,
-    "last_month": 210173
+    "daily": 9412,
+    "total": 576315,
+    "last_week": 47803,
+    "last_month": 210907
   }
 }
