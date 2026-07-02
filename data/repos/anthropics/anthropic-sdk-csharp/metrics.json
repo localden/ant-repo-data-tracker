@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-02T17:50:03.643Z",
+  "timestamp": "2026-07-02T19:11:02.446Z",
   "repository": {
     "stars": 306,
     "forks": 98
@@ -80,7 +80,7 @@
         "title": "Beta.Skills.Versions.Download fails with \"permission_error\"",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/223",
         "createdAt": "2026-06-29T18:41:06Z",
-        "daysOpen": 2,
+        "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -110,17 +110,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 7,
-    "merged_7d": 4,
-    "merged_30d": 12,
+    "open_count": 6,
+    "merged_7d": 5,
+    "merged_30d": 13,
     "merged_90d": 40,
-    "opened_7d": 6,
+    "opened_7d": 5,
     "opened_30d": 16,
-    "opened_90d": 50,
+    "opened_90d": 49,
     "closed_not_merged_90d": 7,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 7,
+    "unassigned_count": 6,
     "unassigned_24h": 6,
     "unassigned_7d": 5,
     "assigned_prs": [],
@@ -208,26 +208,10 @@
         "reviewCount": 0,
         "author": "jozkee",
         "assignees": []
-      },
-      {
-        "number": 227,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/227",
-        "createdAt": "2026-07-02T16:26:33Z",
-        "daysOpen": 0,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 41,
-        "deletions": 195,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 74.8,
+      "avg_hours": 74.2,
       "median_hours": 39,
       "p90_hours": 178.5,
       "p95_hours": 265.5
@@ -239,7 +223,7 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 150.3,
+      "avg_hours": 149.7,
       "median_hours": 39
     },
     "code_review_rate_pct": 97.5,
@@ -247,7 +231,7 @@
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 1,
-      "medium": 4,
+      "medium": 3,
       "large": 2
     }
   },
@@ -257,9 +241,9 @@
     "first_time_30d": 8,
     "retention_rate_pct": 17.6,
     "churned_30d": 14,
-    "commits_per_week_avg": 8.4,
+    "commits_per_week_avg": 8.5,
     "commits_per_week_trend": [
-      4,
+      3,
       0,
       1,
       23,
@@ -270,7 +254,7 @@
       18,
       4,
       12,
-      13
+      15
     ],
     "allContributors": [
       "1yefuwang1",
@@ -361,27 +345,27 @@
       {
         "path": ".release-please-manifest.json",
         "pr_count": 30,
-        "total_changes": 112
+        "total_changes": 110
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
+        "pr_count": 29,
+        "total_changes": 69
+      },
+      {
+        "path": "src/Anthropic/CHANGELOG.md",
         "pr_count": 28,
-        "total_changes": 67
+        "total_changes": 300
       },
       {
         "path": ".stats.yml",
         "pr_count": 27,
-        "total_changes": 158
-      },
-      {
-        "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 27,
-        "total_changes": 292
+        "total_changes": 162
       },
       {
         "path": "src/Anthropic/Core/ModelBase.cs",
-        "pr_count": 14,
-        "total_changes": 531
+        "pr_count": 15,
+        "total_changes": 532
       },
       {
         "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
@@ -424,6 +408,16 @@
         "total_changes": 440
       },
       {
+        "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
+        "pr_count": 8,
+        "total_changes": 20
+      },
+      {
+        "path": "src/Anthropic/Models/Beta/AnthropicBeta.cs",
+        "pr_count": 8,
+        "total_changes": 30
+      },
+      {
         "path": "src/Anthropic.Tests/Models/Beta/Agents/AgentUpdateParamsTest.cs",
         "pr_count": 8,
         "total_changes": 807
@@ -444,16 +438,6 @@
         "total_changes": 121
       },
       {
-        "path": "src/Anthropic.Vertex/Anthropic.Vertex.csproj",
-        "pr_count": 8,
-        "total_changes": 16
-      },
-      {
-        "path": "src/Anthropic.Vertex/CHANGELOG.md",
-        "pr_count": 8,
-        "total_changes": 58
-      },
-      {
         "path": "src/Anthropic.Tests/AnthropicClientBetaExtensionsTests.cs",
         "pr_count": 8,
         "total_changes": 998
@@ -462,7 +446,7 @@
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 36,
+        "pr_count": 37,
         "file_count": 7
       },
       {
@@ -471,14 +455,14 @@
         "file_count": 4
       },
       {
+        "path": "src/Anthropic/Core/",
+        "pr_count": 20,
+        "file_count": 7
+      },
+      {
         "path": "src/Anthropic.Tests/",
         "pr_count": 20,
         "file_count": 8
-      },
-      {
-        "path": "src/Anthropic/Core/",
-        "pr_count": 19,
-        "file_count": 7
       },
       {
         "path": "src/Anthropic/Models/Beta/Messages/",
