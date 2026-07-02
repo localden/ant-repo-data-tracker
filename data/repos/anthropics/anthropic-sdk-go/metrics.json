@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-02T19:09:49.778Z",
+  "timestamp": "2026-07-02T20:55:17.224Z",
   "repository": {
     "stars": 1127,
     "forks": 196
@@ -89,7 +89,7 @@
         "title": "Occasional spikes in 403 Signature Expired using the Bedrock integration",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/122",
         "createdAt": "2025-02-19T20:12:42Z",
-        "daysOpen": 497,
+        "daysOpen": 498,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -172,7 +172,7 @@
         "title": "`NewBetaToolResultBlock` only takes a tool ID as a parameter",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/217",
         "createdAt": "2025-08-01T20:17:45Z",
-        "daysOpen": 334,
+        "daysOpen": 335,
         "labels": [],
         "commentCount": 5,
         "assignees": []
@@ -262,7 +262,7 @@
         "title": "Streaming Accumulate() fails with 'invalid character' JSON error on malformed API responses",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/255",
         "createdAt": "2025-11-25T20:00:46Z",
-        "daysOpen": 218,
+        "daysOpen": 219,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -292,7 +292,7 @@
         "title": "Bug: Strict option for structured out is missing in ToolParam struct",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/264",
         "createdAt": "2026-01-08T19:34:35Z",
-        "daysOpen": 174,
+        "daysOpen": 175,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -418,7 +418,7 @@
         "title": "Examples in documentation use types that don't exist.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/320",
         "createdAt": "2026-04-14T20:41:49Z",
-        "daysOpen": 78,
+        "daysOpen": 79,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -448,7 +448,7 @@
         "title": "JSONOutputFormatParam.Type elided from request body, causes API to hang structured-output requests",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/328",
         "createdAt": "2026-04-26T20:13:07Z",
-        "daysOpen": 66,
+        "daysOpen": 67,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -548,7 +548,7 @@
         "title": "Self-hosted worker deadlocks on empty tool output: textResult posts an empty text block → 400 \"minimum string length is 1\"",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/377",
         "createdAt": "2026-06-23T20:43:03Z",
-        "daysOpen": 8,
+        "daysOpen": 9,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -591,12 +591,12 @@
   },
   "pulls": {
     "open_count": 45,
-    "merged_7d": 4,
-    "merged_30d": 13,
-    "merged_90d": 31,
-    "opened_7d": 5,
-    "opened_30d": 21,
-    "opened_90d": 55,
+    "merged_7d": 5,
+    "merged_30d": 14,
+    "merged_90d": 32,
+    "opened_7d": 6,
+    "opened_30d": 22,
+    "opened_90d": 56,
     "closed_not_merged_90d": 6,
     "draft_count": 0,
     "assigned_count": 0,
@@ -624,7 +624,7 @@
         "title": "Add tests for timeout and HTTP error handling in MessageService",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/204",
         "createdAt": "2025-07-02T19:25:29Z",
-        "daysOpen": 364,
+        "daysOpen": 365,
         "labels": [],
         "isDraft": false,
         "additions": 64,
@@ -652,7 +652,7 @@
         "title": "fix(vertex): do not override custom http client when using vertex",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/238",
         "createdAt": "2025-09-25T20:55:08Z",
-        "daysOpen": 279,
+        "daysOpen": 280,
         "labels": [],
         "isDraft": false,
         "additions": 28,
@@ -1054,6 +1054,20 @@
         "assignees": []
       },
       {
+        "number": 352,
+        "title": "Fix accumulation when content blocks are interleaved",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/352",
+        "createdAt": "2026-05-29T20:31:31Z",
+        "daysOpen": 34,
+        "labels": [],
+        "isDraft": false,
+        "additions": 92,
+        "deletions": 17,
+        "reviewCount": 0,
+        "author": "omer-cengel",
+        "assignees": []
+      },
+      {
         "number": 349,
         "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
@@ -1065,20 +1079,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "17twenty",
-        "assignees": []
-      },
-      {
-        "number": 352,
-        "title": "Fix accumulation when content blocks are interleaved",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/352",
-        "createdAt": "2026-05-29T20:31:31Z",
-        "daysOpen": 33,
-        "labels": [],
-        "isDraft": false,
-        "additions": 92,
-        "deletions": 17,
-        "reviewCount": 0,
-        "author": "omer-cengel",
         "assignees": []
       },
       {
@@ -1222,18 +1222,18 @@
         "assignees": []
       },
       {
-        "number": 384,
-        "title": "release: 1.56.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/384",
-        "createdAt": "2026-07-02T16:26:05Z",
+        "number": 385,
+        "title": "release: 1.56.1",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/385",
+        "createdAt": "2026-07-02T20:27:10Z",
         "daysOpen": 0,
         "labels": [
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 29,
-        "deletions": 36,
-        "reviewCount": 1,
+        "additions": 15,
+        "deletions": 7,
+        "reviewCount": 0,
         "author": "stainless-app",
         "assignees": []
       }
@@ -1251,11 +1251,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 39.4,
-      "median_hours": 2.4
+      "avg_hours": 38.3,
+      "median_hours": 2.5
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 16.2,
+    "rejection_rate_pct": 15.8,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 26,
@@ -1272,12 +1272,12 @@
     "commits_per_week_avg": 10.5,
     "commits_per_week_trend": [
       13,
-      0,
       10,
+      0,
       21,
       20,
-      3,
-      9,
+      5,
+      7,
       0,
       25,
       4,
@@ -1409,28 +1409,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 31,
-        "total_changes": 62
-      },
-      {
-        "path": "CHANGELOG.md",
-        "pr_count": 31,
-        "total_changes": 381
-      },
-      {
-        "path": "README.md",
-        "pr_count": 31,
+        "pr_count": 32,
         "total_changes": 64
       },
       {
+        "path": "CHANGELOG.md",
+        "pr_count": 32,
+        "total_changes": 389
+      },
+      {
+        "path": "README.md",
+        "pr_count": 32,
+        "total_changes": 66
+      },
+      {
         "path": "internal/version.go",
-        "pr_count": 31,
-        "total_changes": 62
+        "pr_count": 32,
+        "total_changes": 64
       },
       {
         "path": ".stats.yml",
-        "pr_count": 27,
-        "total_changes": 156
+        "pr_count": 28,
+        "total_changes": 162
       },
       {
         "path": "message.go",
@@ -1453,6 +1453,11 @@
         "total_changes": 397
       },
       {
+        "path": "beta.go",
+        "pr_count": 10,
+        "total_changes": 62
+      },
+      {
         "path": "betamessagebatch.go",
         "pr_count": 10,
         "total_changes": 124
@@ -1471,11 +1476,6 @@
         "path": "betamessage_test.go",
         "pr_count": 9,
         "total_changes": 185
-      },
-      {
-        "path": "beta.go",
-        "pr_count": 9,
-        "total_changes": 61
       },
       {
         "path": "packages/ssestream/ssestream.go",
@@ -1511,12 +1511,12 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 31,
+        "pr_count": 32,
         "file_count": 81
       },
       {
         "path": "internal/",
-        "pr_count": 31,
+        "pr_count": 32,
         "file_count": 1
       },
       {
