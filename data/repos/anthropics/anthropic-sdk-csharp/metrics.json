@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-05T13:08:22.026Z",
+  "timestamp": "2026-07-05T15:07:32.586Z",
   "repository": {
     "stars": 305,
     "forks": 98
@@ -8,10 +8,10 @@
     "open_count": 6,
     "closed_7d": 0,
     "closed_30d": 0,
-    "closed_90d": 23,
+    "closed_90d": 17,
     "opened_7d": 1,
     "opened_30d": 4,
-    "opened_90d": 14,
+    "opened_90d": 13,
     "assigned_count": 0,
     "unassigned_count": 6,
     "unassigned_24h": 6,
@@ -56,20 +56,20 @@
         "assignees": []
       },
       {
-        "number": 222,
-        "title": "Native AOT support",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/222",
-        "createdAt": "2026-06-27T15:44:32Z",
-        "daysOpen": 7,
+        "number": 221,
+        "title": "IChatClient reasoning fails (HTTP 400) on Claude Opus 4.7/4.8",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/221",
+        "createdAt": "2026-06-27T15:03:18Z",
+        "daysOpen": 8,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 221,
-        "title": "IChatClient reasoning fails (HTTP 400) on Claude Opus 4.7/4.8",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/221",
-        "createdAt": "2026-06-27T15:03:18Z",
+        "number": 222,
+        "title": "Native AOT support",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/222",
+        "createdAt": "2026-06-27T15:44:32Z",
         "daysOpen": 7,
         "labels": [],
         "commentCount": 0,
@@ -98,9 +98,9 @@
       "p95_hours": 95.9
     },
     "close_time": {
-      "avg_days": 26.7,
-      "median_days": 14.5,
-      "p90_days": 34.1
+      "avg_days": 31.9,
+      "median_days": 14.9,
+      "p90_days": 77.6
     },
     "label_coverage_pct": 33.3,
     "unlabeled_count": 4,
@@ -113,7 +113,7 @@
     "open_count": 6,
     "merged_7d": 6,
     "merged_30d": 14,
-    "merged_90d": 41,
+    "merged_90d": 40,
     "opened_7d": 5,
     "opened_30d": 17,
     "opened_90d": 49,
@@ -211,10 +211,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 72.6,
-      "median_hours": 38.6,
-      "p90_hours": 177.2,
-      "p95_hours": 264.6
+      "avg_hours": 71.2,
+      "median_hours": 32.7,
+      "p90_hours": 178.5,
+      "p95_hours": 265.5
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -223,11 +223,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 146.3,
-      "median_hours": 38.6
+      "avg_hours": 146.6,
+      "median_hours": 32.7
     },
-    "code_review_rate_pct": 97.6,
-    "rejection_rate_pct": 14.6,
+    "code_review_rate_pct": 97.5,
+    "rejection_rate_pct": 14.9,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 1,
@@ -369,13 +369,8 @@
       },
       {
         "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
-        "pr_count": 14,
-        "total_changes": 1358
-      },
-      {
-        "path": "src/Anthropic/AnthropicClientExtensions.cs",
         "pr_count": 13,
-        "total_changes": 822
+        "total_changes": 1356
       },
       {
         "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
@@ -386,6 +381,11 @@
         "path": "src/Anthropic.Bedrock/CHANGELOG.md",
         "pr_count": 12,
         "total_changes": 107
+      },
+      {
+        "path": "src/Anthropic/AnthropicClientExtensions.cs",
+        "pr_count": 12,
+        "total_changes": 820
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/MessageCountTokensParamsTest.cs",
@@ -446,7 +446,7 @@
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 38,
+        "pr_count": 37,
         "file_count": 7
       },
       {
@@ -461,7 +461,7 @@
       },
       {
         "path": "src/Anthropic.Tests/",
-        "pr_count": 20,
+        "pr_count": 19,
         "file_count": 8
       },
       {
@@ -480,14 +480,14 @@
         "file_count": 43
       },
       {
-        "path": "src/Anthropic/Services/Beta/Messages/",
-        "pr_count": 15,
-        "file_count": 2
-      },
-      {
         "path": "src/Anthropic.Tests/Services/Beta/",
         "pr_count": 14,
         "file_count": 12
+      },
+      {
+        "path": "src/Anthropic/Services/Beta/Messages/",
+        "pr_count": 14,
+        "file_count": 2
       },
       {
         "path": "src/Anthropic.Tests/Models/Messages/",
