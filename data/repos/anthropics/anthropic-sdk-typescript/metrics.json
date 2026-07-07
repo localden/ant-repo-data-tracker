@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-07T19:40:48.458Z",
+  "timestamp": "2026-07-07T21:15:28.804Z",
   "repository": {
     "stars": 2033,
     "forks": 367
@@ -51,7 +51,7 @@
         "title": "Bedrock: empty content for certain prompts with max_tokens 1",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/399",
         "createdAt": "2024-04-24T20:41:11Z",
-        "daysOpen": 803,
+        "daysOpen": 804,
         "labels": [
           "api"
         ],
@@ -165,7 +165,7 @@
         "title": "add capability to await async function for on event handler",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/775",
         "createdAt": "2025-05-25T20:53:01Z",
-        "daysOpen": 407,
+        "daysOpen": 408,
         "labels": [
           "code-change"
         ],
@@ -581,7 +581,7 @@
         "title": "Adopt `TracingChannel` for observability",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1036",
         "createdAt": "2026-05-11T20:09:59Z",
-        "daysOpen": 56,
+        "daysOpen": 57,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -734,9 +734,9 @@
   },
   "pulls": {
     "open_count": 54,
-    "merged_7d": 3,
+    "merged_7d": 2,
     "merged_30d": 11,
-    "merged_90d": 35,
+    "merged_90d": 34,
     "opened_7d": 6,
     "opened_30d": 20,
     "opened_90d": 92,
@@ -1272,6 +1272,20 @@
         "assignees": []
       },
       {
+        "number": 1048,
+        "title": "fix(stream): preserve cache creation usage deltas",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
+        "createdAt": "2026-05-16T21:01:33Z",
+        "daysOpen": 52,
+        "labels": [],
+        "isDraft": false,
+        "additions": 165,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1047,
         "title": "fix(memory): reject malformed memories paths",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
@@ -1295,20 +1309,6 @@
         "isDraft": false,
         "additions": 34,
         "deletions": 23,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
-        "assignees": []
-      },
-      {
-        "number": 1048,
-        "title": "fix(stream): preserve cache creation usage deltas",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
-        "createdAt": "2026-05-16T21:01:33Z",
-        "daysOpen": 51,
-        "labels": [],
-        "isDraft": false,
-        "additions": 165,
-        "deletions": 0,
         "reviewCount": 1,
         "author": "pragnyanramtha",
         "assignees": []
@@ -1514,7 +1514,7 @@
         "title": "chore: release main",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1108",
         "createdAt": "2026-07-02T20:27:30Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [
           "autorelease: pending"
         ],
@@ -1569,10 +1569,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 236.5,
-      "median_hours": 2.6,
-      "p90_hours": 137.4,
-      "p95_hours": 162.6
+      "avg_hours": 241.1,
+      "median_hours": 2.8,
+      "p90_hours": 141.3,
+      "p95_hours": 163.3
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1581,11 +1581,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 30.7,
-      "median_hours": 15.6
+      "avg_hours": 31.6,
+      "median_hours": 16.8
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 59.3,
+    "rejection_rate_pct": 60,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 34,
@@ -1608,11 +1608,11 @@
       10,
       2,
       18,
-      17,
+      19,
+      4,
       6,
-      6,
-      15,
-      5
+      18,
+      2
     ],
     "allContributors": [
       "0xrdan",
@@ -1840,23 +1840,23 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 34,
-        "total_changes": 120
+        "pr_count": 33,
+        "total_changes": 116
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 34,
-        "total_changes": 440
+        "pr_count": 33,
+        "total_changes": 432
       },
       {
         "path": "package.json",
-        "pr_count": 34,
-        "total_changes": 82
+        "pr_count": 33,
+        "total_changes": 80
       },
       {
         "path": "src/version.ts",
-        "pr_count": 34,
-        "total_changes": 68
+        "pr_count": 33,
+        "total_changes": 66
       },
       {
         "path": ".stats.yml",
@@ -1874,14 +1874,14 @@
         "total_changes": 647
       },
       {
-        "path": "packages/vertex-sdk/yarn.lock",
-        "pr_count": 16,
-        "total_changes": 179
-      },
-      {
         "path": "src/resources/beta/beta.ts",
         "pr_count": 15,
         "total_changes": 524
+      },
+      {
+        "path": "packages/vertex-sdk/yarn.lock",
+        "pr_count": 15,
+        "total_changes": 177
       },
       {
         "path": "src/resources/beta/index.ts",
@@ -1900,13 +1900,13 @@
       },
       {
         "path": "packages/bedrock-sdk/CHANGELOG.md",
-        "pr_count": 9,
-        "total_changes": 78
+        "pr_count": 8,
+        "total_changes": 70
       },
       {
         "path": "packages/bedrock-sdk/package.json",
-        "pr_count": 9,
-        "total_changes": 18
+        "pr_count": 8,
+        "total_changes": 16
       },
       {
         "path": "src/resources/beta/agents/agents.ts",
@@ -1942,12 +1942,12 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 34,
+        "pr_count": 33,
         "file_count": 14
       },
       {
         "path": "src/",
-        "pr_count": 34,
+        "pr_count": 33,
         "file_count": 3
       },
       {
@@ -1957,7 +1957,7 @@
       },
       {
         "path": "packages/vertex-sdk/",
-        "pr_count": 19,
+        "pr_count": 18,
         "file_count": 5
       },
       {
@@ -1976,14 +1976,14 @@
         "file_count": 6
       },
       {
-        "path": "packages/bedrock-sdk/",
-        "pr_count": 9,
-        "file_count": 6
-      },
-      {
         "path": "examples/",
         "pr_count": 8,
         "file_count": 32
+      },
+      {
+        "path": "packages/bedrock-sdk/",
+        "pr_count": 8,
+        "file_count": 6
       },
       {
         "path": "src/resources/beta/agents/",

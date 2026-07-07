@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-07T19:41:22.027Z",
+  "timestamp": "2026-07-07T21:16:00.944Z",
   "repository": {
     "stars": 1131,
     "forks": 196
@@ -9,13 +9,13 @@
     "closed_7d": 0,
     "closed_30d": 2,
     "closed_90d": 4,
-    "opened_7d": 1,
+    "opened_7d": 0,
     "opened_30d": 7,
     "opened_90d": 20,
     "assigned_count": 0,
     "unassigned_count": 52,
     "unassigned_24h": 52,
-    "unassigned_7d": 51,
+    "unassigned_7d": 52,
     "unassigned_30d": 46,
     "assigned_issues": [],
     "unassigned_issues": [
@@ -89,7 +89,7 @@
         "title": "Occasional spikes in 403 Signature Expired using the Bedrock integration",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/122",
         "createdAt": "2025-02-19T20:12:42Z",
-        "daysOpen": 502,
+        "daysOpen": 503,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -172,7 +172,7 @@
         "title": "`NewBetaToolResultBlock` only takes a tool ID as a parameter",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/217",
         "createdAt": "2025-08-01T20:17:45Z",
-        "daysOpen": 339,
+        "daysOpen": 340,
         "labels": [],
         "commentCount": 5,
         "assignees": []
@@ -262,7 +262,7 @@
         "title": "Streaming Accumulate() fails with 'invalid character' JSON error on malformed API responses",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/255",
         "createdAt": "2025-11-25T20:00:46Z",
-        "daysOpen": 223,
+        "daysOpen": 224,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -418,7 +418,7 @@
         "title": "Examples in documentation use types that don't exist.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/320",
         "createdAt": "2026-04-14T20:41:49Z",
-        "daysOpen": 83,
+        "daysOpen": 84,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -448,7 +448,7 @@
         "title": "JSONOutputFormatParam.Type elided from request body, causes API to hang structured-output requests",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/328",
         "createdAt": "2026-04-26T20:13:07Z",
-        "daysOpen": 71,
+        "daysOpen": 72,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -548,7 +548,7 @@
         "title": "Self-hosted worker deadlocks on empty tool output: textResult posts an empty text block → 400 \"minimum string length is 1\"",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/377",
         "createdAt": "2026-06-23T20:43:03Z",
-        "daysOpen": 13,
+        "daysOpen": 14,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -558,7 +558,7 @@
         "title": "Add support for Admin API organization resources (members, workspaces, invites, API keys)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/382",
         "createdAt": "2026-06-30T21:08:54Z",
-        "daysOpen": 6,
+        "daysOpen": 7,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -591,7 +591,7 @@
   },
   "pulls": {
     "open_count": 46,
-    "merged_7d": 3,
+    "merged_7d": 2,
     "merged_30d": 12,
     "merged_90d": 29,
     "opened_7d": 5,
@@ -652,7 +652,7 @@
         "title": "fix(vertex): do not override custom http client when using vertex",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/238",
         "createdAt": "2025-09-25T20:55:08Z",
-        "daysOpen": 284,
+        "daysOpen": 285,
         "labels": [],
         "isDraft": false,
         "additions": 28,
@@ -1054,6 +1054,20 @@
         "assignees": []
       },
       {
+        "number": 352,
+        "title": "Fix accumulation when content blocks are interleaved",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/352",
+        "createdAt": "2026-05-29T20:31:31Z",
+        "daysOpen": 39,
+        "labels": [],
+        "isDraft": false,
+        "additions": 92,
+        "deletions": 17,
+        "reviewCount": 0,
+        "author": "omer-cengel",
+        "assignees": []
+      },
+      {
         "number": 349,
         "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
@@ -1065,20 +1079,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "17twenty",
-        "assignees": []
-      },
-      {
-        "number": 352,
-        "title": "Fix accumulation when content blocks are interleaved",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/352",
-        "createdAt": "2026-05-29T20:31:31Z",
-        "daysOpen": 38,
-        "labels": [],
-        "isDraft": false,
-        "additions": 92,
-        "deletions": 17,
-        "reviewCount": 0,
-        "author": "omer-cengel",
         "assignees": []
       },
       {
@@ -1226,7 +1226,7 @@
         "title": "release: 1.56.1",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/385",
         "createdAt": "2026-07-02T20:27:10Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [
           "autorelease: pending"
         ],
@@ -1292,11 +1292,11 @@
       14,
       2,
       7,
-      21,
-      6,
+      23,
       4,
-      12,
-      7
+      4,
+      15,
+      4
     ],
     "allContributors": [
       "17twenty",
