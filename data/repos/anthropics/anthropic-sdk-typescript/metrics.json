@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-11T10:55:11.196Z",
+  "timestamp": "2026-07-11T12:54:34.056Z",
   "repository": {
     "stars": 2038,
     "forks": 370
@@ -65,7 +65,7 @@
         "title": "[Types] Error: Property 'text' does not exist on type 'ContentBlock'.",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/432",
         "createdAt": "2024-05-31T12:46:41Z",
-        "daysOpen": 770,
+        "daysOpen": 771,
         "labels": [
           "code-change"
         ],
@@ -238,7 +238,7 @@
         "title": "web_fetch fails for some links",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/846",
         "createdAt": "2025-11-18T12:22:56Z",
-        "daysOpen": 234,
+        "daysOpen": 235,
         "labels": [
           "api"
         ],
@@ -406,7 +406,7 @@
         "title": "`toolRunner` drops `defaultHeaders` on follow-up requests (breaks proxy/gateway setups)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/922",
         "createdAt": "2026-02-22T11:15:56Z",
-        "daysOpen": 138,
+        "daysOpen": 139,
         "labels": [
           "code-change"
         ],
@@ -503,7 +503,7 @@
         "title": "feature request: expose `thinking` / `output_config` on Managed Agents request-side types",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1012",
         "createdAt": "2026-04-24T12:13:32Z",
-        "daysOpen": 77,
+        "daysOpen": 78,
         "labels": [
           "spec-change"
         ],
@@ -585,6 +585,16 @@
         "assignees": []
       },
       {
+        "number": 1065,
+        "title": "Anthropic Managed Agents - Cannot demote a coordinator agent",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1065",
+        "createdAt": "2026-05-24T11:13:21Z",
+        "daysOpen": 48,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1064,
         "title": "[Feature request]: include context window utilization percentage in Messages API response",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1064",
@@ -592,16 +602,6 @@
         "daysOpen": 48,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1065,
-        "title": "Anthropic Managed Agents - Cannot demote a coordinator agent",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1065",
-        "createdAt": "2026-05-24T11:13:21Z",
-        "daysOpen": 47,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -639,7 +639,7 @@
         "title": "Managed Agents: how to confirm an always_ask tool_use that ran on a non-primary session_thread_id?",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1083",
         "createdAt": "2026-06-06T12:31:23Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -695,21 +695,21 @@
         "assignees": []
       },
       {
-        "number": 1114,
-        "title": "BetaToolRunner does not forward container id, causing 400 when code-execution-backed tools pause for a client tool",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1114",
-        "createdAt": "2026-07-08T02:01:13Z",
+        "number": 1116,
+        "title": "`transformJSONSchema` drops `const`/`enum` into description text, breaking discriminated unions in tool inputs",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1116",
+        "createdAt": "2026-07-08T11:52:32Z",
         "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 1116,
-        "title": "`transformJSONSchema` drops `const`/`enum` into description text, breaking discriminated unions in tool inputs",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1116",
-        "createdAt": "2026-07-08T11:52:32Z",
-        "daysOpen": 2,
+        "number": 1114,
+        "title": "BetaToolRunner does not forward container id, causing 400 when code-execution-backed tools pause for a client tool",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1114",
+        "createdAt": "2026-07-08T02:01:13Z",
+        "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -1084,7 +1084,7 @@
         "title": "fix: preserve directory paths in multipart upload filenames",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/969",
         "createdAt": "2026-04-01T12:47:56Z",
-        "daysOpen": 100,
+        "daysOpen": 101,
         "labels": [
           "spec-change"
         ],
@@ -1146,6 +1146,22 @@
         "assignees": []
       },
       {
+        "number": 989,
+        "title": "fix: handle invalid JSON escape sequences in partial-json-parser",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/989",
+        "createdAt": "2026-04-10T12:44:31Z",
+        "daysOpen": 92,
+        "labels": [
+          "code-change"
+        ],
+        "isDraft": false,
+        "additions": 15,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "JosephDoUrden",
+        "assignees": []
+      },
+      {
         "number": 988,
         "title": "fix(examples): update deprecated model IDs in tools-helpers examples",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/988",
@@ -1159,22 +1175,6 @@
         "deletions": 4,
         "reviewCount": 0,
         "author": "aymenhmaidiwastaken",
-        "assignees": []
-      },
-      {
-        "number": 989,
-        "title": "fix: handle invalid JSON escape sequences in partial-json-parser",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/989",
-        "createdAt": "2026-04-10T12:44:31Z",
-        "daysOpen": 91,
-        "labels": [
-          "code-change"
-        ],
-        "isDraft": false,
-        "additions": 15,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "JosephDoUrden",
         "assignees": []
       },
       {
