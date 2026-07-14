@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T13:06:43.958Z",
+  "timestamp": "2026-07-14T15:17:16.724Z",
   "repository": {
     "stars": 2041,
     "forks": 370
@@ -129,7 +129,7 @@
         "title": "Anthropic api fail to parse tool output, exposing anthropic internal tool call structure",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/695",
         "createdAt": "2025-02-25T13:29:53Z",
-        "daysOpen": 503,
+        "daysOpen": 504,
         "labels": [
           "api"
         ],
@@ -201,7 +201,7 @@
         "title": "Undefined vs null fields from the OpenAPI specs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/811",
         "createdAt": "2025-08-26T13:49:20Z",
-        "daysOpen": 321,
+        "daysOpen": 322,
         "labels": [
           "openapi",
           "spec-change"
@@ -250,7 +250,7 @@
         "title": "Seems that tool_search_tool generates context problems",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/862",
         "createdAt": "2025-12-16T13:40:55Z",
-        "daysOpen": 209,
+        "daysOpen": 210,
         "labels": [
           "spec-change"
         ],
@@ -262,7 +262,7 @@
         "title": "Issues using compactionControl",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/863",
         "createdAt": "2025-12-17T13:12:56Z",
-        "daysOpen": 208,
+        "daysOpen": 209,
         "labels": [
           "code-change"
         ],
@@ -442,7 +442,7 @@
         "title": "toBase64  stack overflow on large inputs (e.g. image uploads) in non-Node environments",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/932",
         "createdAt": "2026-03-08T13:28:53Z",
-        "daysOpen": 127,
+        "daysOpen": 128,
         "labels": [
           "code-change"
         ],
@@ -609,7 +609,7 @@
         "title": "Support batch processing with vertex AI",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1069",
         "createdAt": "2026-05-26T14:00:40Z",
-        "daysOpen": 48,
+        "daysOpen": 49,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -649,7 +649,7 @@
         "title": "Long Request error is thrown even when timeout is specified in request options (but not on the client)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1097",
         "createdAt": "2026-06-21T14:11:38Z",
-        "daysOpen": 22,
+        "daysOpen": 23,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -746,7 +746,7 @@
     "merged_30d": 9,
     "merged_90d": 32,
     "opened_7d": 3,
-    "opened_30d": 18,
+    "opened_30d": 17,
     "opened_90d": 85,
     "closed_not_merged_90d": 50,
     "draft_count": 0,
@@ -777,7 +777,7 @@
         "title": "feat(errors): add ignore_tool_parameter_parse_errors",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/859",
         "createdAt": "2025-12-09T13:16:26Z",
-        "daysOpen": 216,
+        "daysOpen": 217,
         "labels": [
           "code-change",
           "spec-change"
@@ -794,7 +794,7 @@
         "title": "docs: fix typos",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/866",
         "createdAt": "2025-12-18T14:54:39Z",
-        "daysOpen": 207,
+        "daysOpen": 208,
         "labels": [
           "code-change"
         ],
@@ -810,7 +810,7 @@
         "title": "fix(tool runner): use latest message for tool response generation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/878",
         "createdAt": "2026-01-13T13:45:53Z",
-        "daysOpen": 181,
+        "daysOpen": 182,
         "labels": [
           "code-change"
         ],
@@ -986,7 +986,7 @@
         "title": "fix: implement ApiKeySetter — async apiKey functions were silently discarded",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/957",
         "createdAt": "2026-03-23T13:47:39Z",
-        "daysOpen": 112,
+        "daysOpen": 113,
         "labels": [
           "spec-change"
         ],
@@ -1198,7 +1198,7 @@
         "title": "fix(MessageStream): propagate container from message_delta into final snapshot",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1015",
         "createdAt": "2026-04-26T15:14:58Z",
-        "daysOpen": 78,
+        "daysOpen": 79,
         "labels": [
           "code-change"
         ],
@@ -1280,6 +1280,20 @@
         "assignees": []
       },
       {
+        "number": 1047,
+        "title": "fix(memory): reject malformed memories paths",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
+        "createdAt": "2026-05-16T14:44:46Z",
+        "daysOpen": 59,
+        "labels": [],
+        "isDraft": false,
+        "additions": 16,
+        "deletions": 3,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1049,
         "title": "fix(stream): detect mixed newline SSE boundaries",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
@@ -1303,20 +1317,6 @@
         "isDraft": false,
         "additions": 165,
         "deletions": 0,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
-        "assignees": []
-      },
-      {
-        "number": 1047,
-        "title": "fix(memory): reject malformed memories paths",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
-        "createdAt": "2026-05-16T14:44:46Z",
-        "daysOpen": 58,
-        "labels": [],
-        "isDraft": false,
-        "additions": 16,
-        "deletions": 3,
         "reviewCount": 1,
         "author": "pragnyanramtha",
         "assignees": []
@@ -1410,7 +1410,7 @@
         "title": "fix: propagate container.id across toolRunner iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1073",
         "createdAt": "2026-05-28T14:36:02Z",
-        "daysOpen": 46,
+        "daysOpen": 47,
         "labels": [],
         "isDraft": false,
         "additions": 179,
@@ -1532,6 +1532,20 @@
         "assignees": []
       },
       {
+        "number": 1111,
+        "title": "docs: expand CLAUDE.md with commands and architecture overview",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1111",
+        "createdAt": "2026-07-06T15:11:36Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 33,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "hansschenker",
+        "assignees": []
+      },
+      {
         "number": 1113,
         "title": "Remove unsupported idempotency request option",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1113",
@@ -1543,20 +1557,6 @@
         "deletions": 21,
         "reviewCount": 1,
         "author": "SakshamKapoor2911",
-        "assignees": []
-      },
-      {
-        "number": 1111,
-        "title": "docs: expand CLAUDE.md with commands and architecture overview",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1111",
-        "createdAt": "2026-07-06T15:11:36Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 33,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "hansschenker",
         "assignees": []
       },
       {
@@ -1629,10 +1629,10 @@
   },
   "contributors": {
     "total_known": 202,
-    "active_30d": 21,
-    "first_time_30d": 15,
-    "retention_rate_pct": 12.9,
-    "churned_30d": 27,
+    "active_30d": 20,
+    "first_time_30d": 14,
+    "retention_rate_pct": 12.5,
+    "churned_30d": 28,
     "commits_per_week_avg": 8.3,
     "commits_per_week_trend": [
       2,
@@ -1859,7 +1859,6 @@
       "SakshamKapoor2911",
       "againey",
       "agentgatewayv1",
-      "akhilsmokie3-ops",
       "ant-kurt",
       "arik64",
       "claygeo",
