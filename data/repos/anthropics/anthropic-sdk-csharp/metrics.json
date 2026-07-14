@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-14T01:24:50.802Z",
+  "timestamp": "2026-07-14T04:43:02.445Z",
   "repository": {
     "stars": 306,
     "forks": 97
@@ -24,7 +24,7 @@
         "title": "Support AOT",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/79",
         "createdAt": "2025-12-21T01:39:45Z",
-        "daysOpen": 204,
+        "daysOpen": 205,
         "labels": [
           "enhancement",
           "sdk"
@@ -50,7 +50,7 @@
         "title": "Streaming aggregator throws Sequence contains no elements for server-tool result blocks (web_search/web_fetch/code_execution/MCP)",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/211",
         "createdAt": "2026-06-08T01:25:38Z",
-        "daysOpen": 35,
+        "daysOpen": 36,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -213,10 +213,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 79.5,
-      "median_hours": 39.4,
-      "p90_hours": 209.3,
-      "p95_hours": 293.1
+      "avg_hours": 81.1,
+      "median_hours": 39,
+      "p90_hours": 229.6,
+      "p95_hours": 311.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -225,8 +225,8 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 169.7,
-      "median_hours": 39.4
+      "avg_hours": 176.8,
+      "median_hours": 39
     },
     "code_review_rate_pct": 96.9,
     "rejection_rate_pct": 20,
@@ -369,16 +369,6 @@
         "total_changes": 346
       },
       {
-        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
-        "pr_count": 11,
-        "total_changes": 1202
-      },
-      {
-        "path": "src/Anthropic/AnthropicClientExtensions.cs",
-        "pr_count": 10,
-        "total_changes": 666
-      },
-      {
         "path": "src/Anthropic/Models/Beta/Messages/Batches/BatchCreateParams.cs",
         "pr_count": 9,
         "total_changes": 179
@@ -397,6 +387,11 @@
         "path": "src/Anthropic.Bedrock/CHANGELOG.md",
         "pr_count": 9,
         "total_changes": 83
+      },
+      {
+        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
+        "pr_count": 8,
+        "total_changes": 1036
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
@@ -424,6 +419,11 @@
         "total_changes": 169
       },
       {
+        "path": "src/Anthropic/AnthropicClientExtensions.cs",
+        "pr_count": 7,
+        "total_changes": 500
+      },
+      {
         "path": "src/Anthropic.Tests/Models/Beta/Agents/AgentCreateParamsTest.cs",
         "pr_count": 6,
         "total_changes": 84
@@ -447,7 +447,7 @@
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 32,
+        "pr_count": 29,
         "file_count": 7
       },
       {
@@ -466,11 +466,6 @@
         "file_count": 80
       },
       {
-        "path": "src/Anthropic.Tests/",
-        "pr_count": 16,
-        "file_count": 8
-      },
-      {
         "path": "src/Anthropic/Models/Messages/",
         "pr_count": 15,
         "file_count": 43
@@ -481,9 +476,9 @@
         "file_count": 77
       },
       {
-        "path": "src/Anthropic/Services/Beta/Messages/",
-        "pr_count": 12,
-        "file_count": 2
+        "path": "src/Anthropic.Tests/",
+        "pr_count": 13,
+        "file_count": 8
       },
       {
         "path": "src/Anthropic/Models/Beta/Messages/Batches/",
@@ -494,6 +489,11 @@
         "path": "src/Anthropic/Models/Beta/Agents/",
         "pr_count": 10,
         "file_count": 21
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Messages/",
+        "pr_count": 10,
+        "file_count": 39
       }
     ],
     "top_n": 20
