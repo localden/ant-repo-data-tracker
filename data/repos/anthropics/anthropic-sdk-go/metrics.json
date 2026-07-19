@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-19T18:50:48.501Z",
+  "timestamp": "2026-07-19T20:39:07.971Z",
   "repository": {
     "stars": 1151,
     "forks": 197
@@ -89,7 +89,7 @@
         "title": "Occasional spikes in 403 Signature Expired using the Bedrock integration",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/122",
         "createdAt": "2025-02-19T20:12:42Z",
-        "daysOpen": 514,
+        "daysOpen": 515,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -159,7 +159,7 @@
         "title": "`NewBetaToolResultBlock` only takes a tool ID as a parameter",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/217",
         "createdAt": "2025-08-01T20:17:45Z",
-        "daysOpen": 351,
+        "daysOpen": 352,
         "labels": [],
         "commentCount": 5,
         "assignees": []
@@ -249,7 +249,7 @@
         "title": "Streaming Accumulate() fails with 'invalid character' JSON error on malformed API responses",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/255",
         "createdAt": "2025-11-25T20:00:46Z",
-        "daysOpen": 235,
+        "daysOpen": 236,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -279,7 +279,7 @@
         "title": "Bug: Strict option for structured out is missing in ToolParam struct",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/264",
         "createdAt": "2026-01-08T19:34:35Z",
-        "daysOpen": 191,
+        "daysOpen": 192,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -435,7 +435,7 @@
         "title": "JSONOutputFormatParam.Type elided from request body, causes API to hang structured-output requests",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/328",
         "createdAt": "2026-04-26T20:13:07Z",
-        "daysOpen": 83,
+        "daysOpen": 84,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -581,21 +581,21 @@
         "assignees": []
       },
       {
-        "number": 392,
-        "title": "Maintenance and community PR review status (PR #387)",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/392",
-        "createdAt": "2026-07-15T06:32:33Z",
+        "number": 393,
+        "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
+        "createdAt": "2026-07-15T20:02:15Z",
         "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 393,
-        "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
-        "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 3,
+        "number": 392,
+        "title": "Maintenance and community PR review status (PR #387)",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/392",
+        "createdAt": "2026-07-15T06:32:33Z",
+        "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -661,7 +661,7 @@
         "title": "Add tests for timeout and HTTP error handling in MessageService",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/204",
         "createdAt": "2025-07-02T19:25:29Z",
-        "daysOpen": 381,
+        "daysOpen": 382,
         "labels": [],
         "isDraft": false,
         "additions": 64,
@@ -1063,25 +1063,11 @@
         "assignees": []
       },
       {
-        "number": 349,
-        "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
-        "createdAt": "2026-05-29T08:12:23Z",
-        "daysOpen": 51,
-        "labels": [],
-        "isDraft": false,
-        "additions": 218,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "17twenty",
-        "assignees": []
-      },
-      {
         "number": 348,
         "title": "test: add regression tests for #334 (DefaultTransport panic)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/348",
         "createdAt": "2026-05-28T18:59:18Z",
-        "daysOpen": 51,
+        "daysOpen": 52,
         "labels": [],
         "isDraft": false,
         "additions": 70,
@@ -1095,13 +1081,27 @@
         "title": "Fix accumulation when content blocks are interleaved",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/352",
         "createdAt": "2026-05-29T20:31:31Z",
-        "daysOpen": 50,
+        "daysOpen": 51,
         "labels": [],
         "isDraft": false,
         "additions": 92,
         "deletions": 17,
         "reviewCount": 0,
         "author": "omer-cengel",
+        "assignees": []
+      },
+      {
+        "number": 349,
+        "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
+        "createdAt": "2026-05-29T08:12:23Z",
+        "daysOpen": 51,
+        "labels": [],
+        "isDraft": false,
+        "additions": 218,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "17twenty",
         "assignees": []
       },
       {
@@ -1263,7 +1263,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 3,
+        "daysOpen": 4,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -1277,7 +1277,7 @@
         "title": "fix(agenttoolset): guard empty tool results",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/394",
         "createdAt": "2026-07-15T20:03:25Z",
-        "daysOpen": 3,
+        "daysOpen": 4,
         "labels": [],
         "isDraft": false,
         "additions": 12,
@@ -1291,7 +1291,7 @@
         "title": "release: 1.58.1",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/397",
         "createdAt": "2026-07-17T19:43:46Z",
-        "daysOpen": 1,
+        "daysOpen": 2,
         "labels": [
           "autorelease: pending"
         ],
