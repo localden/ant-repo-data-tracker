@@ -1,57 +1,24 @@
 {
-  "timestamp": "2026-07-21T13:16:45.299Z",
+  "timestamp": "2026-07-21T15:30:18.570Z",
   "repository": {
     "stars": 1154,
     "forks": 197
   },
   "issues": {
-    "open_count": 56,
-    "closed_7d": 0,
-    "closed_30d": 3,
-    "closed_90d": 5,
+    "open_count": 53,
+    "closed_7d": 3,
+    "closed_30d": 6,
+    "closed_90d": 8,
     "opened_7d": 2,
     "opened_30d": 8,
     "opened_90d": 22,
     "assigned_count": 0,
-    "unassigned_count": 56,
-    "unassigned_24h": 56,
-    "unassigned_7d": 54,
-    "unassigned_30d": 49,
+    "unassigned_count": 53,
+    "unassigned_24h": 53,
+    "unassigned_7d": 51,
+    "unassigned_30d": 46,
     "assigned_issues": [],
     "unassigned_issues": [
-      {
-        "number": 16,
-        "title": "Support Prompt Caching with Vertex",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/16",
-        "createdAt": "2024-09-10T05:36:48Z",
-        "daysOpen": 679,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 58,
-        "title": "Add support for Vertex AI authentication using JSON service account key",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/58",
-        "createdAt": "2024-11-11T17:33:33Z",
-        "daysOpen": 616,
-        "labels": [
-          "enhancement",
-          "sdk"
-        ],
-        "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 71,
-        "title": "Error handling code for Bedrock doesn't work for exception message types",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/71",
-        "createdAt": "2024-12-13T18:49:26Z",
-        "daysOpen": 584,
-        "labels": [],
-        "commentCount": 1,
-        "assignees": []
-      },
       {
         "number": 86,
         "title": "Cannot utilize the builtin `bash` and `str_replace_editor` tools, error response received instead of success",
@@ -124,7 +91,7 @@
         "title": "When calling bedrock model with tools it fails with 400 Bad Request {\"message\":\"messages.1.content.0.text.citations: Extra inputs are not permitted\"}",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/186",
         "createdAt": "2025-05-15T14:33:47Z",
-        "daysOpen": 431,
+        "daysOpen": 432,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -179,7 +146,7 @@
         "title": "anthropic.ContentBlockSourceContentUnionParam does not seem to marshal correctly",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/229",
         "createdAt": "2025-09-04T13:21:46Z",
-        "daysOpen": 319,
+        "daysOpen": 320,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -199,7 +166,7 @@
         "title": "web_fetch_20250910 is not an expected tag",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/235",
         "createdAt": "2025-09-14T14:05:53Z",
-        "daysOpen": 309,
+        "daysOpen": 310,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -602,8 +569,8 @@
       }
     ],
     "by_label": {
-      "enhancement": 3,
-      "sdk": 6,
+      "enhancement": 2,
+      "sdk": 5,
       "question": 1,
       "bug": 1,
       "api": 1
@@ -615,15 +582,15 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 81.8,
-      "median_days": 12.1,
-      "p90_days": 228.7
+      "avg_days": 286.3,
+      "median_days": 193.6,
+      "p90_days": 635.7
     },
-    "label_coverage_pct": 16.1,
-    "unlabeled_count": 47,
-    "stale_30d": 47,
-    "stale_60d": 42,
-    "stale_90d": 35,
+    "label_coverage_pct": 15.1,
+    "unlabeled_count": 45,
+    "stale_30d": 44,
+    "stale_60d": 39,
+    "stale_90d": 32,
     "reopen_rate": 0
   },
   "pulls": {
@@ -727,6 +694,20 @@
         "assignees": []
       },
       {
+        "number": 260,
+        "title": "docs: fix typos",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/260",
+        "createdAt": "2025-12-18T15:00:03Z",
+        "daysOpen": 215,
+        "labels": [],
+        "isDraft": false,
+        "additions": 9,
+        "deletions": 9,
+        "reviewCount": 1,
+        "author": "byigitt",
+        "assignees": []
+      },
+      {
         "number": 261,
         "title": "feat(ssestream): fix event decoding for data-only messages and [DONE] handling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/261",
@@ -738,20 +719,6 @@
         "deletions": 4,
         "reviewCount": 1,
         "author": "yuguorui",
-        "assignees": []
-      },
-      {
-        "number": 260,
-        "title": "docs: fix typos",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/260",
-        "createdAt": "2025-12-18T15:00:03Z",
-        "daysOpen": 214,
-        "labels": [],
-        "isDraft": false,
-        "additions": 9,
-        "deletions": 9,
-        "reviewCount": 1,
-        "author": "byigitt",
         "assignees": []
       },
       {
@@ -829,7 +796,7 @@
         "title": "feat: add Snowflake Cortex support (similar to Bedrock/Vertex)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/285",
         "createdAt": "2026-03-05T13:29:54Z",
-        "daysOpen": 137,
+        "daysOpen": 138,
         "labels": [],
         "isDraft": false,
         "additions": 571,
@@ -927,7 +894,7 @@
         "title": "Fix ToolResultBlockParam to support both string and array content",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
         "createdAt": "2026-03-17T14:19:08Z",
-        "daysOpen": 125,
+        "daysOpen": 126,
         "labels": [],
         "isDraft": false,
         "additions": 366,
@@ -941,7 +908,7 @@
         "title": "fix: increase JSONL stream scanner buffer to prevent silent truncation",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/302",
         "createdAt": "2026-03-23T14:14:38Z",
-        "daysOpen": 119,
+        "daysOpen": 120,
         "labels": [],
         "isDraft": false,
         "additions": 107,
