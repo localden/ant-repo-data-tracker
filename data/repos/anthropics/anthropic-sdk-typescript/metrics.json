@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-21T20:58:58.550Z",
+  "timestamp": "2026-07-21T22:45:47.725Z",
   "repository": {
     "stars": 2050,
     "forks": 371
@@ -274,7 +274,7 @@
         "title": "bug/proposal: infinitely hanging clients breaking bigger/complex sessions. Proposal: add Streaming Idle Timeout to Prevent Indefinite Hangs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/867",
         "createdAt": "2025-12-19T21:31:53Z",
-        "daysOpen": 213,
+        "daysOpen": 214,
         "labels": [
           "code-change"
         ],
@@ -322,7 +322,7 @@
         "title": "[BUG] strict: true causes 500 Internal Server Error with complex nested tool schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/885",
         "createdAt": "2026-01-27T21:46:51Z",
-        "daysOpen": 174,
+        "daysOpen": 175,
         "labels": [
           "api"
         ],
@@ -751,17 +751,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 57,
-    "merged_7d": 6,
-    "merged_30d": 13,
-    "merged_90d": 37,
+    "open_count": 56,
+    "merged_7d": 7,
+    "merged_30d": 14,
+    "merged_90d": 38,
     "opened_7d": 8,
     "opened_30d": 22,
     "opened_90d": 87,
     "closed_not_merged_90d": 47,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 57,
+    "unassigned_count": 56,
     "unassigned_24h": 55,
     "unassigned_7d": 55,
     "assigned_prs": [],
@@ -916,7 +916,7 @@
         "title": "fix: shallow copy content_block in BetaMessageStream#accumulateMessage",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/938",
         "createdAt": "2026-03-08T21:42:40Z",
-        "daysOpen": 134,
+        "daysOpen": 135,
         "labels": [
           "code-change"
         ],
@@ -964,7 +964,7 @@
         "title": "docs: fix broken compare links in CHANGELOG files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/953",
         "createdAt": "2026-03-19T21:25:21Z",
-        "daysOpen": 123,
+        "daysOpen": 124,
         "labels": [
           "code-change"
         ],
@@ -980,7 +980,7 @@
         "title": "fix(streams): use empty separator in finalText() for text block concatenation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/954",
         "createdAt": "2026-03-19T21:27:57Z",
-        "daysOpen": 123,
+        "daysOpen": 124,
         "labels": [
           "code-change"
         ],
@@ -1008,6 +1008,22 @@
         "assignees": []
       },
       {
+        "number": 958,
+        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
+        "createdAt": "2026-03-24T21:47:42Z",
+        "daysOpen": 119,
+        "labels": [
+          "code-change"
+        ],
+        "isDraft": false,
+        "additions": 147,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zelys-DFKH",
+        "assignees": []
+      },
+      {
         "number": 959,
         "title": "feat(streaming): add idleTimeout option for detecting stalled streams",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/959",
@@ -1022,22 +1038,6 @@
         "deletions": 5,
         "reviewCount": 0,
         "author": "simran10meta",
-        "assignees": []
-      },
-      {
-        "number": 958,
-        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
-        "createdAt": "2026-03-24T21:47:42Z",
-        "daysOpen": 118,
-        "labels": [
-          "code-change"
-        ],
-        "isDraft": false,
-        "additions": 147,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zelys-DFKH",
         "assignees": []
       },
       {
@@ -1062,7 +1062,7 @@
         "title": "fix: recover when TextDecoder rejects Uint8Array views",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/965",
         "createdAt": "2026-03-30T22:06:56Z",
-        "daysOpen": 112,
+        "daysOpen": 113,
         "labels": [
           "code-change"
         ],
@@ -1078,7 +1078,7 @@
         "title": "fix(tool runner): preserve state across iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/966",
         "createdAt": "2026-03-30T22:44:30Z",
-        "daysOpen": 112,
+        "daysOpen": 113,
         "labels": [
           "code-change"
         ],
@@ -1290,6 +1290,20 @@
         "assignees": []
       },
       {
+        "number": 1048,
+        "title": "fix(stream): preserve cache creation usage deltas",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
+        "createdAt": "2026-05-16T21:01:33Z",
+        "daysOpen": 66,
+        "labels": [],
+        "isDraft": false,
+        "additions": 165,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1047,
         "title": "fix(memory): reject malformed memories paths",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
@@ -1313,20 +1327,6 @@
         "isDraft": false,
         "additions": 34,
         "deletions": 23,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
-        "assignees": []
-      },
-      {
-        "number": 1048,
-        "title": "fix(stream): preserve cache creation usage deltas",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
-        "createdAt": "2026-05-16T21:01:33Z",
-        "daysOpen": 65,
-        "labels": [],
-        "isDraft": false,
-        "additions": 165,
-        "deletions": 0,
         "reviewCount": 1,
         "author": "pragnyanramtha",
         "assignees": []
@@ -1444,6 +1444,20 @@
         "assignees": []
       },
       {
+        "number": 1081,
+        "title": "feat(bedrock): support token counting",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
+        "createdAt": "2026-06-04T22:33:25Z",
+        "daysOpen": 47,
+        "labels": [],
+        "isDraft": false,
+        "additions": 117,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "aidand-ant",
+        "assignees": []
+      },
+      {
         "number": 1080,
         "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
@@ -1455,20 +1469,6 @@
         "deletions": 4,
         "reviewCount": 0,
         "author": "yen0304",
-        "assignees": []
-      },
-      {
-        "number": 1081,
-        "title": "feat(bedrock): support token counting",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
-        "createdAt": "2026-06-04T22:33:25Z",
-        "daysOpen": 46,
-        "labels": [],
-        "isDraft": false,
-        "additions": 117,
-        "deletions": 8,
-        "reviewCount": 0,
-        "author": "aidand-ant",
         "assignees": []
       },
       {
@@ -1610,29 +1610,13 @@
         "reviewCount": 0,
         "author": "SimonAllen0901",
         "assignees": []
-      },
-      {
-        "number": 1127,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1127",
-        "createdAt": "2026-07-21T01:13:32Z",
-        "daysOpen": 0,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 15,
-        "deletions": 7,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 230.2,
-      "median_hours": 2.4,
-      "p90_hours": 143.8,
-      "p95_hours": 176.6
+      "avg_hours": 226.4,
+      "median_hours": 2.5,
+      "p90_hours": 143.4,
+      "p95_hours": 175.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1641,14 +1625,14 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 31.2,
-      "median_hours": 2.9
+      "avg_hours": 31,
+      "median_hours": 4.9
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 56,
+    "rejection_rate_pct": 55.3,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
-      "small": 36,
+      "small": 35,
       "medium": 16,
       "large": 5
     }
@@ -1659,7 +1643,7 @@
     "first_time_30d": 16,
     "retention_rate_pct": 11.1,
     "churned_30d": 24,
-    "commits_per_week_avg": 9.7,
+    "commits_per_week_avg": 9.9,
     "commits_per_week_trend": [
       5,
       6,
@@ -1672,7 +1656,7 @@
       18,
       2,
       8,
-      18
+      21
     ],
     "allContributors": [
       "0xrdan",
@@ -1910,43 +1894,43 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 36,
-        "total_changes": 131
+        "pr_count": 37,
+        "total_changes": 133
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 35,
-        "total_changes": 439
+        "pr_count": 36,
+        "total_changes": 448
       },
       {
         "path": "package.json",
-        "pr_count": 35,
-        "total_changes": 84
+        "pr_count": 36,
+        "total_changes": 86
       },
       {
         "path": "src/version.ts",
-        "pr_count": 35,
-        "total_changes": 70
+        "pr_count": 36,
+        "total_changes": 72
       },
       {
         "path": ".stats.yml",
-        "pr_count": 29,
-        "total_changes": 166
+        "pr_count": 30,
+        "total_changes": 170
       },
       {
         "path": "src/resources/beta/messages/messages.ts",
-        "pr_count": 16,
-        "total_changes": 1127
+        "pr_count": 17,
+        "total_changes": 1135
+      },
+      {
+        "path": "src/resources/messages/messages.ts",
+        "pr_count": 15,
+        "total_changes": 649
       },
       {
         "path": "src/resources/beta/beta.ts",
         "pr_count": 15,
         "total_changes": 541
-      },
-      {
-        "path": "src/resources/messages/messages.ts",
-        "pr_count": 14,
-        "total_changes": 645
       },
       {
         "path": "src/resources/beta/index.ts",
@@ -2012,12 +1996,12 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 36,
+        "pr_count": 37,
         "file_count": 14
       },
       {
         "path": "src/",
-        "pr_count": 35,
+        "pr_count": 36,
         "file_count": 3
       },
       {
@@ -2027,12 +2011,12 @@
       },
       {
         "path": "src/resources/beta/messages/",
-        "pr_count": 16,
+        "pr_count": 17,
         "file_count": 3
       },
       {
         "path": "src/resources/messages/",
-        "pr_count": 14,
+        "pr_count": 15,
         "file_count": 3
       },
       {
@@ -2041,14 +2025,14 @@
         "file_count": 5
       },
       {
+        "path": "scripts/",
+        "pr_count": 10,
+        "file_count": 7
+      },
+      {
         "path": "src/resources/beta/sessions/",
         "pr_count": 9,
         "file_count": 5
-      },
-      {
-        "path": "scripts/",
-        "pr_count": 9,
-        "file_count": 7
       },
       {
         "path": "tests/lib/tools/",
