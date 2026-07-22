@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T15:27:05.865Z",
+  "timestamp": "2026-07-22T17:08:48.931Z",
   "repository": {
     "stars": 1154,
     "forks": 197
@@ -134,7 +134,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 102,
+        "daysOpen": 103,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -174,7 +174,7 @@
         "title": "Build failure: invopop/jsonschema v0.14.0 incompatibility (pb33f vs wk8 ordered-map type mismatch in schemautil.go)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/325",
         "createdAt": "2026-04-24T16:17:39Z",
-        "daysOpen": 88,
+        "daysOpen": 89,
         "labels": [],
         "commentCount": 5,
         "assignees": []
@@ -194,7 +194,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 84,
+        "daysOpen": 85,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -224,7 +224,7 @@
         "title": "ToParam() serialization broken for web_search_tool_result and web_fetch_tool_result in multi-turn",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/346",
         "createdAt": "2026-05-25T15:53:59Z",
-        "daysOpen": 57,
+        "daysOpen": 58,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -375,12 +375,12 @@
   },
   "pulls": {
     "open_count": 45,
-    "merged_7d": 2,
+    "merged_7d": 3,
     "merged_30d": 10,
-    "merged_90d": 27,
-    "opened_7d": 4,
-    "opened_30d": 14,
-    "opened_90d": 52,
+    "merged_90d": 28,
+    "opened_7d": 5,
+    "opened_30d": 15,
+    "opened_90d": 53,
     "closed_not_merged_90d": 9,
     "draft_count": 0,
     "assigned_count": 0,
@@ -474,6 +474,20 @@
         "assignees": []
       },
       {
+        "number": 261,
+        "title": "feat(ssestream): fix event decoding for data-only messages and [DONE] handling",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/261",
+        "createdAt": "2025-12-18T15:53:04Z",
+        "daysOpen": 216,
+        "labels": [],
+        "isDraft": false,
+        "additions": 25,
+        "deletions": 4,
+        "reviewCount": 1,
+        "author": "yuguorui",
+        "assignees": []
+      },
+      {
         "number": 260,
         "title": "docs: fix typos",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/260",
@@ -485,20 +499,6 @@
         "deletions": 9,
         "reviewCount": 1,
         "author": "byigitt",
-        "assignees": []
-      },
-      {
-        "number": 261,
-        "title": "feat(ssestream): fix event decoding for data-only messages and [DONE] handling",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/261",
-        "createdAt": "2025-12-18T15:53:04Z",
-        "daysOpen": 215,
-        "labels": [],
-        "isDraft": false,
-        "additions": 25,
-        "deletions": 4,
-        "reviewCount": 1,
-        "author": "yuguorui",
         "assignees": []
       },
       {
@@ -702,7 +702,7 @@
         "title": "toolrunner: validate tool inputs against JSON Schema before handler execution",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/305",
         "createdAt": "2026-03-26T16:45:10Z",
-        "daysOpen": 117,
+        "daysOpen": 118,
         "labels": [],
         "isDraft": false,
         "additions": 1679,
@@ -730,7 +730,7 @@
         "title": "fix: set required Type field in BetaManagedAgentsEventParams helpers",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/316",
         "createdAt": "2026-04-11T16:28:08Z",
-        "daysOpen": 101,
+        "daysOpen": 102,
         "labels": [],
         "isDraft": false,
         "additions": 61,
@@ -1021,10 +1021,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 51.5,
-      "median_hours": 3.4,
-      "p90_hours": 181.5,
-      "p95_hours": 199.2
+      "avg_hours": 50,
+      "median_hours": 3.1,
+      "p90_hours": 177.5,
+      "p95_hours": 198.5
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1033,11 +1033,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 54.9,
-      "median_hours": 19.8
+      "avg_hours": 53,
+      "median_hours": 12
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 25,
+    "rejection_rate_pct": 24.3,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 26,
@@ -1051,7 +1051,7 @@
     "first_time_30d": 8,
     "retention_rate_pct": 21.1,
     "churned_30d": 15,
-    "commits_per_week_avg": 10.3,
+    "commits_per_week_avg": 10.4,
     "commits_per_week_trend": [
       21,
       9,
@@ -1064,7 +1064,7 @@
       15,
       4,
       9,
-      11
+      13
     ],
     "allContributors": [
       "17twenty",
@@ -1195,28 +1195,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 27,
-        "total_changes": 54
-      },
-      {
-        "path": "CHANGELOG.md",
-        "pr_count": 27,
-        "total_changes": 360
-      },
-      {
-        "path": "README.md",
-        "pr_count": 27,
+        "pr_count": 28,
         "total_changes": 56
       },
       {
+        "path": "CHANGELOG.md",
+        "pr_count": 28,
+        "total_changes": 368
+      },
+      {
+        "path": "README.md",
+        "pr_count": 28,
+        "total_changes": 58
+      },
+      {
         "path": "internal/version.go",
-        "pr_count": 27,
-        "total_changes": 54
+        "pr_count": 28,
+        "total_changes": 56
       },
       {
         "path": ".stats.yml",
-        "pr_count": 24,
-        "total_changes": 144
+        "pr_count": 25,
+        "total_changes": 150
       },
       {
         "path": "betamessage.go",
@@ -1224,19 +1224,29 @@
         "total_changes": 1855
       },
       {
+        "path": "api.md",
+        "pr_count": 15,
+        "total_changes": 440
+      },
+      {
         "path": "message.go",
         "pr_count": 15,
         "total_changes": 861
       },
       {
-        "path": "api.md",
-        "pr_count": 14,
-        "total_changes": 423
+        "path": "shared/constant/constants.go",
+        "pr_count": 11,
+        "total_changes": 372
       },
       {
-        "path": "shared/constant/constants.go",
-        "pr_count": 10,
-        "total_changes": 350
+        "path": "betaagent.go",
+        "pr_count": 9,
+        "total_changes": 1018
+      },
+      {
+        "path": "betasession.go",
+        "pr_count": 9,
+        "total_changes": 1501
       },
       {
         "path": "beta.go",
@@ -1249,14 +1259,9 @@
         "total_changes": 115
       },
       {
-        "path": "betaagent.go",
-        "pr_count": 8,
-        "total_changes": 583
-      },
-      {
-        "path": "betasession.go",
-        "pr_count": 8,
-        "total_changes": 1423
+        "path": "betawebhook.go",
+        "pr_count": 7,
+        "total_changes": 2206
       },
       {
         "path": "betamessage_test.go",
@@ -1274,11 +1279,6 @@
         "total_changes": 12
       },
       {
-        "path": "betawebhook.go",
-        "pr_count": 6,
-        "total_changes": 1969
-      },
-      {
         "path": "messagebatch.go",
         "pr_count": 6,
         "total_changes": 84
@@ -1289,7 +1289,7 @@
         "total_changes": 27
       },
       {
-        "path": "betamessagebatch_test.go",
+        "path": "betasession_test.go",
         "pr_count": 5,
         "total_changes": 43
       }
@@ -1297,17 +1297,17 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 27,
+        "pr_count": 28,
         "file_count": 84
       },
       {
         "path": "internal/",
-        "pr_count": 27,
+        "pr_count": 28,
         "file_count": 1
       },
       {
         "path": "shared/constant/",
-        "pr_count": 10,
+        "pr_count": 11,
         "file_count": 1
       },
       {
@@ -1326,6 +1326,11 @@
         "file_count": 2
       },
       {
+        "path": "examples/agents-comprehensive/",
+        "pr_count": 4,
+        "file_count": 1
+      },
+      {
         "path": ".github/workflows/",
         "pr_count": 4,
         "file_count": 3
@@ -1334,11 +1339,6 @@
         "path": "option/",
         "pr_count": 4,
         "file_count": 3
-      },
-      {
-        "path": "examples/agents-comprehensive/",
-        "pr_count": 3,
-        "file_count": 1
       },
       {
         "path": "examples/mcp-tool-runner/",

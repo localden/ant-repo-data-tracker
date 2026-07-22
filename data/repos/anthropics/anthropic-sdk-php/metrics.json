@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-22T15:29:05.748Z",
+  "timestamp": "2026-07-22T17:10:47.227Z",
   "repository": {
     "stars": 171,
     "forks": 52
@@ -95,12 +95,12 @@
   },
   "pulls": {
     "open_count": 6,
-    "merged_7d": 2,
-    "merged_30d": 9,
-    "merged_90d": 27,
-    "opened_7d": 1,
-    "opened_30d": 9,
-    "opened_90d": 29,
+    "merged_7d": 3,
+    "merged_30d": 10,
+    "merged_90d": 28,
+    "opened_7d": 2,
+    "opened_30d": 10,
+    "opened_90d": 30,
     "closed_not_merged_90d": 1,
     "draft_count": 0,
     "assigned_count": 0,
@@ -195,10 +195,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 44.9,
-      "median_hours": 4.4,
-      "p90_hours": 117.4,
-      "p95_hours": 162.5
+      "avg_hours": 43.3,
+      "median_hours": 3.6,
+      "p90_hours": 112.8,
+      "p95_hours": 161.3
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -207,11 +207,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 45.6,
-      "median_hours": 19.1
+      "avg_hours": 44,
+      "median_hours": 11.7
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 3.6,
+    "rejection_rate_pct": 3.4,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 5,
@@ -225,7 +225,7 @@
     "first_time_30d": 1,
     "retention_rate_pct": 37.5,
     "churned_30d": 5,
-    "commits_per_week_avg": 8.4,
+    "commits_per_week_avg": 8.6,
     "commits_per_week_trend": [
       17,
       5,
@@ -238,7 +238,7 @@
       19,
       7,
       0,
-      17
+      19
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -283,28 +283,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 26,
-        "total_changes": 52
+        "pr_count": 27,
+        "total_changes": 54
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 26,
-        "total_changes": 320
+        "pr_count": 27,
+        "total_changes": 328
       },
       {
         "path": "README.md",
-        "pr_count": 26,
-        "total_changes": 144
+        "pr_count": 27,
+        "total_changes": 146
       },
       {
         "path": "src/Version.php",
-        "pr_count": 26,
-        "total_changes": 52
+        "pr_count": 27,
+        "total_changes": 54
       },
       {
         "path": ".stats.yml",
-        "pr_count": 23,
-        "total_changes": 140
+        "pr_count": 24,
+        "total_changes": 146
       },
       {
         "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
@@ -327,9 +327,24 @@
         "total_changes": 169
       },
       {
+        "path": "src/ServiceContracts/Beta/SessionsContract.php",
+        "pr_count": 7,
+        "total_changes": 25
+      },
+      {
+        "path": "src/Services/Beta/SessionsService.php",
+        "pr_count": 7,
+        "total_changes": 37
+      },
+      {
         "path": "src/Beta/AnthropicBeta.php",
         "pr_count": 7,
         "total_changes": 18
+      },
+      {
+        "path": "src/Services/Beta/SessionsRawService.php",
+        "pr_count": 6,
+        "total_changes": 20
       },
       {
         "path": "src/Beta/Messages/BetaRefusalStopDetails/Category.php",
@@ -347,16 +362,6 @@
         "total_changes": 30
       },
       {
-        "path": "src/ServiceContracts/Beta/SessionsContract.php",
-        "pr_count": 6,
-        "total_changes": 22
-      },
-      {
-        "path": "src/Services/Beta/SessionsService.php",
-        "pr_count": 6,
-        "total_changes": 33
-      },
-      {
         "path": "src/Messages/MessageCreateParams.php",
         "pr_count": 6,
         "total_changes": 86
@@ -372,40 +377,35 @@
         "total_changes": 179
       },
       {
-        "path": "composer.json",
+        "path": "src/Beta/Webhooks/BetaWebhookEvent.php",
         "pr_count": 5,
-        "total_changes": 12
-      },
-      {
-        "path": "tests/Services/Beta/Messages/BatchesTest.php",
-        "pr_count": 5,
-        "total_changes": 31
+        "total_changes": 161
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 26,
+        "pr_count": 27,
         "file_count": 6
       },
       {
         "path": "src/",
-        "pr_count": 26,
+        "pr_count": 27,
         "file_count": 9
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 15,
+        "pr_count": 16,
         "file_count": 24
       },
       {
         "path": "src/ServiceContracts/Beta/",
-        "pr_count": 14,
+        "pr_count": 15,
         "file_count": 19
       },
       {
         "path": "tests/Services/Beta/",
-        "pr_count": 13,
+        "pr_count": 14,
         "file_count": 11
       },
       {
@@ -419,27 +419,27 @@
         "file_count": 24
       },
       {
+        "path": "src/Beta/Agents/",
+        "pr_count": 9,
+        "file_count": 24
+      },
+      {
+        "path": "src/Beta/Sessions/",
+        "pr_count": 9,
+        "file_count": 24
+      },
+      {
         "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/",
         "pr_count": 9,
         "file_count": 1
-      },
-      {
-        "path": "src/Services/",
-        "pr_count": 9,
-        "file_count": 3
-      },
-      {
-        "path": "src/Beta/Agents/",
-        "pr_count": 8,
-        "file_count": 19
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 11445,
-    "total": 787142,
-    "last_week": 68711,
-    "last_month": 277012
+    "daily": 11780,
+    "total": 788351,
+    "last_week": 69046,
+    "last_month": 277347
   }
 }
