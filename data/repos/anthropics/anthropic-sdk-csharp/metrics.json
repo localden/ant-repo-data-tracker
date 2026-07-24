@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-24T19:13:27.746Z",
+  "timestamp": "2026-07-24T20:57:20.971Z",
   "repository": {
     "stars": 309,
     "forks": 98
@@ -160,19 +160,19 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 5,
-    "merged_7d": 5,
-    "merged_30d": 12,
-    "merged_90d": 35,
+    "open_count": 4,
+    "merged_7d": 6,
+    "merged_30d": 13,
+    "merged_90d": 36,
     "opened_7d": 4,
     "opened_30d": 13,
     "opened_90d": 39,
     "closed_not_merged_90d": 6,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 5,
-    "unassigned_24h": 5,
-    "unassigned_7d": 4,
+    "unassigned_count": 4,
+    "unassigned_24h": 4,
+    "unassigned_7d": 3,
     "assigned_prs": [],
     "unassigned_prs": [
       {
@@ -194,27 +194,13 @@
         "title": "feat(meai): map mid-conversation system messages for Opus 4.8",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/207",
         "createdAt": "2026-05-30T19:26:56Z",
-        "daysOpen": 54,
+        "daysOpen": 55,
         "labels": [],
         "isDraft": false,
         "additions": 5094,
         "deletions": 872,
         "reviewCount": 4,
         "author": "PederHP",
-        "assignees": []
-      },
-      {
-        "number": 215,
-        "title": "fix(client): preserve cache token counts when message_delta omits them",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/215",
-        "createdAt": "2026-06-17T00:39:57Z",
-        "daysOpen": 37,
-        "labels": [],
-        "isDraft": false,
-        "additions": 215,
-        "deletions": 34,
-        "reviewCount": 4,
-        "author": "sumleo",
         "assignees": []
       },
       {
@@ -259,15 +245,15 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 124.2,
-      "median_hours": 22.7
+      "avg_hours": 145.9,
+      "median_hours": 30.6
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 14.6,
+    "rejection_rate_pct": 14.3,
     "avg_reviews_per_pr": 1.4,
     "by_size": {
       "small": 1,
-      "medium": 2,
+      "medium": 1,
       "large": 2
     }
   },
@@ -283,8 +269,8 @@
       13,
       4,
       9,
-      9,
-      9,
+      11,
+      7,
       4,
       12,
       18,
@@ -411,6 +397,11 @@
         "total_changes": 329
       },
       {
+        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
+        "pr_count": 9,
+        "total_changes": 629
+      },
+      {
         "path": "src/Anthropic/Models/Beta/Messages/Batches/BatchCreateParams.cs",
         "pr_count": 9,
         "total_changes": 474
@@ -421,14 +412,14 @@
         "total_changes": 456
       },
       {
+        "path": "src/Anthropic/AnthropicClientExtensions.cs",
+        "pr_count": 8,
+        "total_changes": 181
+      },
+      {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaContentBlockParamTest.cs",
         "pr_count": 8,
         "total_changes": 195
-      },
-      {
-        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
-        "pr_count": 8,
-        "total_changes": 582
       },
       {
         "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
@@ -444,11 +435,6 @@
         "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
         "pr_count": 7,
         "total_changes": 18
-      },
-      {
-        "path": "src/Anthropic/AnthropicClientExtensions.cs",
-        "pr_count": 7,
-        "total_changes": 134
       },
       {
         "path": "src/Anthropic/Models/Beta/AnthropicBeta.cs",
@@ -471,6 +457,11 @@
         "total_changes": 167
       },
       {
+        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTestsBase.cs",
+        "pr_count": 6,
+        "total_changes": 541
+      },
+      {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/Batches/BatchCreateParamsTest.cs",
         "pr_count": 6,
         "total_changes": 1685
@@ -479,17 +470,12 @@
         "path": "src/Anthropic.Tests/Models/Beta/Messages/Batches/BetaMessageBatchIndividualResponseTest.cs",
         "pr_count": 6,
         "total_changes": 210
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/Batches/BetaMessageBatchResultTest.cs",
-        "pr_count": 6,
-        "total_changes": 60
       }
     ],
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 32,
+        "pr_count": 33,
         "file_count": 6
       },
       {
@@ -519,7 +505,7 @@
       },
       {
         "path": "src/Anthropic.Tests/",
-        "pr_count": 13,
+        "pr_count": 14,
         "file_count": 8
       },
       {
