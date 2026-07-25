@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-07-24T22:54:14.686Z",
+  "timestamp": "2026-07-25T01:45:07.425Z",
   "repository": {
     "stars": 1156,
     "forks": 198
   },
   "issues": {
-    "open_count": 28,
-    "closed_7d": 28,
-    "closed_30d": 31,
-    "closed_90d": 33,
+    "open_count": 26,
+    "closed_7d": 30,
+    "closed_30d": 33,
+    "closed_90d": 35,
     "opened_7d": 0,
     "opened_30d": 7,
     "opened_90d": 21,
     "assigned_count": 0,
-    "unassigned_count": 28,
-    "unassigned_24h": 28,
-    "unassigned_7d": 28,
-    "unassigned_30d": 22,
+    "unassigned_count": 26,
+    "unassigned_24h": 26,
+    "unassigned_7d": 26,
+    "unassigned_30d": 20,
     "assigned_issues": [],
     "unassigned_issues": [
       {
@@ -68,31 +68,9 @@
         "title": "Feature request: Snowflake Cortex support (similar to Bedrock/Vertex)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/274",
         "createdAt": "2026-02-12T01:20:54Z",
-        "daysOpen": 162,
+        "daysOpen": 163,
         "labels": [
           "enhancement"
-        ],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 288,
-        "title": "Downloading files from skills example doesn't work with streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/288",
-        "createdAt": "2026-03-07T17:31:18Z",
-        "daysOpen": 139,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 292,
-        "title": "Streaming:  json: error calling MarshalJSON for type json.RawMessage: unexpected end of JSON input",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/292",
-        "createdAt": "2026-03-12T21:55:02Z",
-        "daysOpen": 134,
-        "labels": [
-          "sdk"
         ],
         "commentCount": 0,
         "assignees": []
@@ -234,7 +212,7 @@
         "title": "Request marshaling allocates ~7× the payload for inline base64 documents (OOMs small runtimes)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/372",
         "createdAt": "2026-06-19T23:24:04Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -313,7 +291,7 @@
     "by_label": {
       "api": 1,
       "enhancement": 1,
-      "sdk": 3
+      "sdk": 2
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -322,29 +300,29 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 306.6,
-      "median_days": 310.2,
-      "p90_days": 565.2
+      "avg_days": 296.9,
+      "median_days": 301.4,
+      "p90_days": 558.1
     },
-    "label_coverage_pct": 17.9,
-    "unlabeled_count": 23,
-    "stale_30d": 18,
-    "stale_60d": 12,
-    "stale_90d": 9,
+    "label_coverage_pct": 15.4,
+    "unlabeled_count": 22,
+    "stale_30d": 16,
+    "stale_60d": 10,
+    "stale_90d": 7,
     "reopen_rate": 0.03
   },
   "pulls": {
-    "open_count": 46,
+    "open_count": 47,
     "merged_7d": 4,
     "merged_30d": 11,
     "merged_90d": 29,
-    "opened_7d": 4,
-    "opened_30d": 17,
-    "opened_90d": 54,
+    "opened_7d": 5,
+    "opened_30d": 18,
+    "opened_90d": 55,
     "closed_not_merged_90d": 9,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 46,
+    "unassigned_count": 47,
     "unassigned_24h": 45,
     "unassigned_7d": 45,
     "assigned_prs": [],
@@ -868,6 +846,20 @@
         "assignees": []
       },
       {
+        "number": 373,
+        "title": "perf(json): encode nested param marshalers directly into a shared buffer",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/373",
+        "createdAt": "2026-06-19T23:25:03Z",
+        "daysOpen": 35,
+        "labels": [],
+        "isDraft": false,
+        "additions": 473,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "javierglatstein-cobre",
+        "assignees": []
+      },
+      {
         "number": 371,
         "title": "fix(agenttoolset): allow workdir absolute paths",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/371",
@@ -879,20 +871,6 @@
         "deletions": 32,
         "reviewCount": 0,
         "author": "Zhang-986",
-        "assignees": []
-      },
-      {
-        "number": 373,
-        "title": "perf(json): encode nested param marshalers directly into a shared buffer",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/373",
-        "createdAt": "2026-06-19T23:25:03Z",
-        "daysOpen": 34,
-        "labels": [],
-        "isDraft": false,
-        "additions": 473,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "javierglatstein-cobre",
         "assignees": []
       },
       {
@@ -928,7 +906,7 @@
         "title": "ci: pin GitHub Actions to full commit SHAs in claude.yml",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/379",
         "createdAt": "2026-06-28T01:41:37Z",
-        "daysOpen": 26,
+        "daysOpen": 27,
         "labels": [],
         "isDraft": false,
         "additions": 2,
@@ -942,7 +920,7 @@
         "title": "fix(agenttoolset): guard empty tool results",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/387",
         "createdAt": "2026-07-03T23:09:35Z",
-        "daysOpen": 20,
+        "daysOpen": 21,
         "labels": [],
         "isDraft": false,
         "additions": 12,
@@ -977,6 +955,22 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "rluisr",
+        "assignees": []
+      },
+      {
+        "number": 402,
+        "title": "release: 1.61.1",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/402",
+        "createdAt": "2026-07-24T23:10:15Z",
+        "daysOpen": 0,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 381,
+        "deletions": 86,
+        "reviewCount": 0,
+        "author": "stainless-app",
         "assignees": []
       },
       {
@@ -1015,7 +1009,7 @@
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 27,
-      "medium": 16,
+      "medium": 17,
       "large": 3
     }
   },
