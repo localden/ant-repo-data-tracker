@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-07-29T18:56:24.377Z",
+  "timestamp": "2026-07-29T20:43:39.076Z",
   "repository": {
     "stars": 2062,
     "forks": 374
@@ -8,7 +8,7 @@
     "open_count": 62,
     "closed_7d": 0,
     "closed_30d": 2,
-    "closed_90d": 10,
+    "closed_90d": 8,
     "opened_7d": 1,
     "opened_30d": 8,
     "opened_90d": 25,
@@ -51,7 +51,7 @@
         "title": "Bedrock: empty content for certain prompts with max_tokens 1",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/399",
         "createdAt": "2024-04-24T20:41:11Z",
-        "daysOpen": 825,
+        "daysOpen": 826,
         "labels": [
           "api"
         ],
@@ -310,7 +310,7 @@
         "title": "TextDecoder.decode() fails on Node.js 22",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/883",
         "createdAt": "2026-01-20T19:20:28Z",
-        "daysOpen": 189,
+        "daysOpen": 190,
         "labels": [
           "code-change"
         ],
@@ -394,7 +394,7 @@
         "title": "\"Export toJSONSchema doesn't exist in target module\" from betaZodTool",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/919",
         "createdAt": "2026-02-20T19:15:32Z",
-        "daysOpen": 158,
+        "daysOpen": 159,
         "labels": [
           "code-change"
         ],
@@ -418,7 +418,7 @@
         "title": "json_schema structured output truncates content at HTML tags containing quotation marks",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/928",
         "createdAt": "2026-03-03T18:59:49Z",
-        "daysOpen": 147,
+        "daysOpen": 148,
         "labels": [
           "api"
         ],
@@ -569,7 +569,7 @@
         "title": "Adopt `TracingChannel` for observability",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1036",
         "createdAt": "2026-05-11T20:09:59Z",
-        "daysOpen": 78,
+        "daysOpen": 79,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -743,15 +743,15 @@
       "bug": 1
     },
     "assignment_time": {
-      "avg_hours": 594.8,
-      "median_hours": 411.2,
-      "p90_hours": 1223.9,
-      "p95_hours": 1241.6
+      "avg_hours": 450.8,
+      "median_hours": 271,
+      "p90_hours": 1004.8,
+      "p95_hours": 1132
     },
     "close_time": {
-      "avg_days": 104.9,
+      "avg_days": 37.4,
       "median_days": 13.9,
-      "p90_days": 173.4
+      "p90_days": 85.9
     },
     "label_coverage_pct": 67.7,
     "unlabeled_count": 20,
@@ -764,7 +764,7 @@
     "open_count": 60,
     "merged_7d": 3,
     "merged_30d": 16,
-    "merged_90d": 40,
+    "merged_90d": 38,
     "opened_7d": 6,
     "opened_30d": 27,
     "opened_90d": 87,
@@ -958,7 +958,7 @@
         "title": "fix: release stream state on end to prevent memory leaks",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/943",
         "createdAt": "2026-03-13T19:08:02Z",
-        "daysOpen": 137,
+        "daysOpen": 138,
         "labels": [
           "code-change"
         ],
@@ -1276,7 +1276,7 @@
         "title": "Add agents.txt v1.0 at repo root",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1043",
         "createdAt": "2026-05-13T19:40:30Z",
-        "daysOpen": 76,
+        "daysOpen": 77,
         "labels": [],
         "isDraft": false,
         "additions": 71,
@@ -1290,7 +1290,7 @@
         "title": "fix(vertex): throw clear error when document blocks use URL sources",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1042",
         "createdAt": "2026-05-13T19:02:28Z",
-        "daysOpen": 76,
+        "daysOpen": 77,
         "labels": [],
         "isDraft": false,
         "additions": 162,
@@ -1636,6 +1636,20 @@
         "assignees": []
       },
       {
+        "number": 1135,
+        "title": "fix: use a stable SDK user agent",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1135",
+        "createdAt": "2026-07-26T20:17:32Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 14,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "patrickswedish",
+        "assignees": []
+      },
+      {
         "number": 1137,
         "title": "fix: add ?? 'unknown' fallback for EdgeRuntime process.version",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1137",
@@ -1662,27 +1676,13 @@
         "reviewCount": 0,
         "author": "okxint",
         "assignees": []
-      },
-      {
-        "number": 1135,
-        "title": "fix: use a stable SDK user agent",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1135",
-        "createdAt": "2026-07-26T20:17:32Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 14,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "patrickswedish",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 216.4,
-      "median_hours": 2.5,
-      "p90_hours": 117.9,
-      "p95_hours": 173.8
+      "avg_hours": 222.7,
+      "median_hours": 2.4,
+      "p90_hours": 125.7,
+      "p95_hours": 175.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1691,12 +1691,12 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 27.1,
-      "median_hours": 4.9
+      "avg_hours": 26.2,
+      "median_hours": 2.9
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 34.4,
-    "avg_reviews_per_pr": 1.3,
+    "rejection_rate_pct": 35.6,
+    "avg_reviews_per_pr": 1.2,
     "by_size": {
       "small": 39,
       "medium": 16,
@@ -1965,38 +1965,33 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 38,
-        "total_changes": 133
+        "pr_count": 37,
+        "total_changes": 129
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 37,
-        "total_changes": 445
+        "pr_count": 36,
+        "total_changes": 425
       },
       {
         "path": "package.json",
-        "pr_count": 37,
-        "total_changes": 87
+        "pr_count": 36,
+        "total_changes": 85
       },
       {
         "path": "src/version.ts",
-        "pr_count": 37,
-        "total_changes": 74
+        "pr_count": 36,
+        "total_changes": 72
       },
       {
         "path": ".stats.yml",
-        "pr_count": 31,
-        "total_changes": 172
+        "pr_count": 30,
+        "total_changes": 166
       },
       {
         "path": "src/resources/beta/messages/messages.ts",
-        "pr_count": 19,
-        "total_changes": 1339
-      },
-      {
-        "path": "src/resources/messages/messages.ts",
-        "pr_count": 17,
-        "total_changes": 660
+        "pr_count": 18,
+        "total_changes": 1333
       },
       {
         "path": "src/resources/beta/beta.ts",
@@ -2004,9 +1999,9 @@
         "total_changes": 553
       },
       {
-        "path": "src/resources/beta/index.ts",
-        "pr_count": 15,
-        "total_changes": 240
+        "path": "src/resources/messages/messages.ts",
+        "pr_count": 16,
+        "total_changes": 656
       },
       {
         "path": "api.md",
@@ -2014,24 +2009,19 @@
         "total_changes": 395
       },
       {
+        "path": "src/resources/beta/index.ts",
+        "pr_count": 14,
+        "total_changes": 239
+      },
+      {
         "path": "src/client.ts",
-        "pr_count": 13,
-        "total_changes": 687
+        "pr_count": 12,
+        "total_changes": 675
       },
       {
         "path": "src/resources/beta/agents/agents.ts",
         "pr_count": 10,
         "total_changes": 381
-      },
-      {
-        "path": "packages/vertex-sdk/yarn.lock",
-        "pr_count": 9,
-        "total_changes": 165
-      },
-      {
-        "path": "src/resources/beta/messages/batches.ts",
-        "pr_count": 8,
-        "total_changes": 129
       },
       {
         "path": "src/resources/beta/sessions/events.ts",
@@ -2049,50 +2039,60 @@
         "total_changes": 16
       },
       {
+        "path": "packages/vertex-sdk/yarn.lock",
+        "pr_count": 8,
+        "total_changes": 163
+      },
+      {
         "path": "src/core/streaming.ts",
         "pr_count": 7,
         "total_changes": 44
       },
       {
-        "path": "src/resources/beta/messages/index.ts",
+        "path": "src/resources/beta/messages/batches.ts",
         "pr_count": 7,
-        "total_changes": 31
+        "total_changes": 125
       },
       {
         "path": "tests/api-resources/beta/messages/messages.test.ts",
         "pr_count": 7,
         "total_changes": 60
+      },
+      {
+        "path": "src/resources/beta/webhooks.ts",
+        "pr_count": 7,
+        "total_changes": 1015
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 38,
+        "pr_count": 37,
         "file_count": 13
       },
       {
         "path": "src/",
-        "pr_count": 38,
+        "pr_count": 37,
         "file_count": 3
       },
       {
         "path": "src/resources/beta/",
-        "pr_count": 19,
+        "pr_count": 18,
         "file_count": 11
       },
       {
         "path": "src/resources/beta/messages/",
-        "pr_count": 19,
+        "pr_count": 18,
         "file_count": 3
       },
       {
         "path": "src/resources/messages/",
-        "pr_count": 17,
+        "pr_count": 16,
         "file_count": 3
       },
       {
         "path": "packages/vertex-sdk/",
-        "pr_count": 12,
+        "pr_count": 11,
         "file_count": 5
       },
       {
@@ -2111,9 +2111,9 @@
         "file_count": 8
       },
       {
-        "path": "src/resources/beta/sessions/",
-        "pr_count": 10,
-        "file_count": 4
+        "path": "examples/",
+        "pr_count": 9,
+        "file_count": 32
       }
     ],
     "top_n": 20
