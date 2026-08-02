@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T16:46:51.900Z",
+  "timestamp": "2026-08-02T18:54:53.075Z",
   "repository": {
     "stars": 1162,
     "forks": 200
@@ -58,7 +58,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 172,
+        "daysOpen": 173,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -172,7 +172,7 @@
         "title": "BetaTextEditorCodeExecutionToolResultBlock.ToParam() double-encodes non-error content as a JSON string",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/355",
         "createdAt": "2026-06-01T17:43:06Z",
-        "daysOpen": 61,
+        "daysOpen": 62,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -325,7 +325,7 @@
     "open_count": 47,
     "merged_7d": 0,
     "merged_30d": 6,
-    "merged_90d": 29,
+    "merged_90d": 28,
     "opened_7d": 1,
     "opened_30d": 11,
     "opened_90d": 54,
@@ -999,10 +999,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 43.7,
-      "median_hours": 2.6,
-      "p90_hours": 166.6,
-      "p95_hours": 197.3
+      "avg_hours": 38,
+      "median_hours": 2.5,
+      "p90_hours": 125.7,
+      "p95_hours": 190.9
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1011,11 +1011,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 46.8,
-      "median_hours": 4.2
+      "avg_hours": 39.8,
+      "median_hours": 3.4
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 25.6,
+    "rejection_rate_pct": 26.3,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 27,
@@ -1173,43 +1173,43 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 29,
-        "total_changes": 58
+        "pr_count": 28,
+        "total_changes": 56
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 29,
-        "total_changes": 371
+        "pr_count": 28,
+        "total_changes": 350
       },
       {
         "path": "README.md",
-        "pr_count": 29,
-        "total_changes": 60
-      },
-      {
-        "path": "internal/version.go",
-        "pr_count": 29,
+        "pr_count": 28,
         "total_changes": 58
       },
       {
+        "path": "internal/version.go",
+        "pr_count": 28,
+        "total_changes": 56
+      },
+      {
         "path": ".stats.yml",
-        "pr_count": 26,
-        "total_changes": 152
+        "pr_count": 25,
+        "total_changes": 146
       },
       {
         "path": "betamessage.go",
-        "pr_count": 17,
-        "total_changes": 2620
-      },
-      {
-        "path": "message.go",
         "pr_count": 16,
-        "total_changes": 871
+        "total_changes": 2616
       },
       {
         "path": "api.md",
         "pr_count": 15,
         "total_changes": 389
+      },
+      {
+        "path": "message.go",
+        "pr_count": 15,
+        "total_changes": 867
       },
       {
         "path": "shared/constant/constants.go",
@@ -1227,24 +1227,24 @@
         "total_changes": 43
       },
       {
-        "path": "betamessagebatch.go",
-        "pr_count": 9,
-        "total_changes": 176
-      },
-      {
         "path": "betamessage_test.go",
         "pr_count": 8,
         "total_changes": 231
       },
       {
-        "path": "betasession.go",
+        "path": "betamessagebatch.go",
         "pr_count": 8,
-        "total_changes": 1428
+        "total_changes": 172
       },
       {
         "path": "betasessionevent.go",
         "pr_count": 7,
         "total_changes": 2947
+      },
+      {
+        "path": "betasession.go",
+        "pr_count": 7,
+        "total_changes": 1425
       },
       {
         "path": "betawebhook.go",
@@ -1257,11 +1257,6 @@
         "total_changes": 74
       },
       {
-        "path": "betasession_test.go",
-        "pr_count": 5,
-        "total_changes": 43
-      },
-      {
         "path": "scripts/detect-breaking-changes",
         "pr_count": 5,
         "total_changes": 9
@@ -1270,17 +1265,22 @@
         "path": "message_test.go",
         "pr_count": 5,
         "total_changes": 102
+      },
+      {
+        "path": "examples/go.mod",
+        "pr_count": 5,
+        "total_changes": 26
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 29,
+        "pr_count": 28,
         "file_count": 82
       },
       {
         "path": "internal/",
-        "pr_count": 29,
+        "pr_count": 28,
         "file_count": 1
       },
       {
@@ -1314,14 +1314,14 @@
         "file_count": 1
       },
       {
-        "path": ".github/workflows/",
-        "pr_count": 4,
-        "file_count": 3
+        "path": "examples/mcp-tool-runner/",
+        "pr_count": 3,
+        "file_count": 1
       },
       {
-        "path": "option/",
-        "pr_count": 4,
-        "file_count": 3
+        "path": "tools/agenttoolset/",
+        "pr_count": 3,
+        "file_count": 15
       }
     ],
     "top_n": 20
