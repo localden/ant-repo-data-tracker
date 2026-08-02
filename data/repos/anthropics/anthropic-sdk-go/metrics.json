@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-02T08:05:08.697Z",
+  "timestamp": "2026-08-02T11:11:59.514Z",
   "repository": {
     "stars": 1162,
     "forks": 200
@@ -8,7 +8,7 @@
     "open_count": 27,
     "closed_7d": 0,
     "closed_30d": 32,
-    "closed_90d": 35,
+    "closed_90d": 34,
     "opened_7d": 1,
     "opened_30d": 7,
     "opened_90d": 19,
@@ -112,7 +112,7 @@
         "title": "ToolSearchToolResultBlock.ToParam() drops required error_code field via omitzero",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/317",
         "createdAt": "2026-04-12T11:03:29Z",
-        "daysOpen": 111,
+        "daysOpen": 112,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -310,9 +310,9 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 296.9,
-      "median_days": 301.4,
-      "p90_days": 558.1
+      "avg_days": 305.4,
+      "median_days": 305.8,
+      "p90_days": 561.7
     },
     "label_coverage_pct": 14.8,
     "unlabeled_count": 23,
@@ -454,7 +454,7 @@
         "title": "perf: optimise `appendCompact` usage",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/262",
         "createdAt": "2025-12-30T09:49:25Z",
-        "daysOpen": 214,
+        "daysOpen": 215,
         "labels": [],
         "isDraft": false,
         "additions": 211,
@@ -692,7 +692,7 @@
         "title": "docs: clarify that managed agent outcome events are not supported in Go SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/329",
         "createdAt": "2026-04-28T10:52:48Z",
-        "daysOpen": 95,
+        "daysOpen": 96,
         "labels": [],
         "isDraft": false,
         "additions": 54,
@@ -744,6 +744,20 @@
         "assignees": []
       },
       {
+        "number": 349,
+        "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
+        "createdAt": "2026-05-29T08:12:23Z",
+        "daysOpen": 65,
+        "labels": [],
+        "isDraft": false,
+        "additions": 218,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "17twenty",
+        "assignees": []
+      },
+      {
         "number": 348,
         "title": "test: add regression tests for #334 (DefaultTransport panic)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/348",
@@ -772,25 +786,11 @@
         "assignees": []
       },
       {
-        "number": 349,
-        "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
-        "createdAt": "2026-05-29T08:12:23Z",
-        "daysOpen": 64,
-        "labels": [],
-        "isDraft": false,
-        "additions": 218,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "17twenty",
-        "assignees": []
-      },
-      {
         "number": 354,
         "title": "fix: decode beta string message content",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/354",
         "createdAt": "2026-05-30T09:01:24Z",
-        "daysOpen": 63,
+        "daysOpen": 64,
         "labels": [],
         "isDraft": false,
         "additions": 58,
@@ -804,7 +804,7 @@
         "title": "fix: preserve server tool results in ToParam",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/353",
         "createdAt": "2026-05-30T08:35:49Z",
-        "daysOpen": 63,
+        "daysOpen": 64,
         "labels": [],
         "isDraft": false,
         "additions": 76,
@@ -870,25 +870,11 @@
         "assignees": []
       },
       {
-        "number": 371,
-        "title": "fix(agenttoolset): allow workdir absolute paths",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/371",
-        "createdAt": "2026-06-19T22:03:01Z",
-        "daysOpen": 43,
-        "labels": [],
-        "isDraft": false,
-        "additions": 154,
-        "deletions": 32,
-        "reviewCount": 0,
-        "author": "Zhang-986",
-        "assignees": []
-      },
-      {
         "number": 375,
         "title": "fix(bedrock): respect configured HTTP client",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/375",
         "createdAt": "2026-06-20T09:26:32Z",
-        "daysOpen": 42,
+        "daysOpen": 43,
         "labels": [],
         "isDraft": false,
         "additions": 67,
@@ -902,11 +888,25 @@
         "title": "fix(auth): skip env auth when credentials are explicit",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/374",
         "createdAt": "2026-06-20T09:08:55Z",
-        "daysOpen": 42,
+        "daysOpen": 43,
         "labels": [],
         "isDraft": false,
         "additions": 114,
         "deletions": 14,
+        "reviewCount": 0,
+        "author": "Zhang-986",
+        "assignees": []
+      },
+      {
+        "number": 371,
+        "title": "fix(agenttoolset): allow workdir absolute paths",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/371",
+        "createdAt": "2026-06-19T22:03:01Z",
+        "daysOpen": 43,
+        "labels": [],
+        "isDraft": false,
+        "additions": 154,
+        "deletions": 32,
         "reviewCount": 0,
         "author": "Zhang-986",
         "assignees": []
