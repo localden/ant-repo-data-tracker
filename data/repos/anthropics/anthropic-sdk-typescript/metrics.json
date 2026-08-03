@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T20:54:52.107Z",
+  "timestamp": "2026-08-03T22:52:34.871Z",
   "repository": {
     "stars": 2064,
     "forks": 376
@@ -274,7 +274,7 @@
         "title": "bug/proposal: infinitely hanging clients breaking bigger/complex sessions. Proposal: add Streaming Idle Timeout to Prevent Indefinite Hangs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/867",
         "createdAt": "2025-12-19T21:31:53Z",
-        "daysOpen": 226,
+        "daysOpen": 227,
         "labels": [
           "code-change"
         ],
@@ -322,7 +322,7 @@
         "title": "[BUG] strict: true causes 500 Internal Server Error with complex nested tool schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/885",
         "createdAt": "2026-01-27T21:46:51Z",
-        "daysOpen": 187,
+        "daysOpen": 188,
         "labels": [
           "api"
         ],
@@ -729,7 +729,7 @@
         "title": "Use predictable user-agent string for requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1134",
         "createdAt": "2026-07-24T21:19:43Z",
-        "daysOpen": 9,
+        "daysOpen": 10,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -739,7 +739,7 @@
         "title": "Add a vision example to examples/",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1138",
         "createdAt": "2026-08-01T21:10:10Z",
-        "daysOpen": 1,
+        "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -936,7 +936,7 @@
         "title": "fix: shallow copy content_block in BetaMessageStream#accumulateMessage",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/938",
         "createdAt": "2026-03-08T21:42:40Z",
-        "daysOpen": 147,
+        "daysOpen": 148,
         "labels": [
           "code-change"
         ],
@@ -984,7 +984,7 @@
         "title": "docs: fix broken compare links in CHANGELOG files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/953",
         "createdAt": "2026-03-19T21:25:21Z",
-        "daysOpen": 136,
+        "daysOpen": 137,
         "labels": [
           "code-change"
         ],
@@ -1000,7 +1000,7 @@
         "title": "fix(streams): use empty separator in finalText() for text block concatenation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/954",
         "createdAt": "2026-03-19T21:27:57Z",
-        "daysOpen": 136,
+        "daysOpen": 137,
         "labels": [
           "code-change"
         ],
@@ -1028,6 +1028,22 @@
         "assignees": []
       },
       {
+        "number": 958,
+        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
+        "createdAt": "2026-03-24T21:47:42Z",
+        "daysOpen": 132,
+        "labels": [
+          "code-change"
+        ],
+        "isDraft": false,
+        "additions": 147,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zelys-DFKH",
+        "assignees": []
+      },
+      {
         "number": 959,
         "title": "feat(streaming): add idleTimeout option for detecting stalled streams",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/959",
@@ -1042,22 +1058,6 @@
         "deletions": 5,
         "reviewCount": 0,
         "author": "simran10meta",
-        "assignees": []
-      },
-      {
-        "number": 958,
-        "title": "fix(BetaToolRunner): cap max_tokens in compaction summary request",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/958",
-        "createdAt": "2026-03-24T21:47:42Z",
-        "daysOpen": 131,
-        "labels": [
-          "code-change"
-        ],
-        "isDraft": false,
-        "additions": 147,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zelys-DFKH",
         "assignees": []
       },
       {
@@ -1082,7 +1082,7 @@
         "title": "fix: recover when TextDecoder rejects Uint8Array views",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/965",
         "createdAt": "2026-03-30T22:06:56Z",
-        "daysOpen": 125,
+        "daysOpen": 126,
         "labels": [
           "code-change"
         ],
@@ -1098,7 +1098,7 @@
         "title": "fix(tool runner): preserve state across iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/966",
         "createdAt": "2026-03-30T22:44:30Z",
-        "daysOpen": 125,
+        "daysOpen": 126,
         "labels": [
           "code-change"
         ],
@@ -1294,6 +1294,20 @@
         "assignees": []
       },
       {
+        "number": 1048,
+        "title": "fix(stream): preserve cache creation usage deltas",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
+        "createdAt": "2026-05-16T21:01:33Z",
+        "daysOpen": 79,
+        "labels": [],
+        "isDraft": false,
+        "additions": 165,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1047,
         "title": "fix(memory): reject malformed memories paths",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
@@ -1317,20 +1331,6 @@
         "isDraft": false,
         "additions": 34,
         "deletions": 23,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
-        "assignees": []
-      },
-      {
-        "number": 1048,
-        "title": "fix(stream): preserve cache creation usage deltas",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
-        "createdAt": "2026-05-16T21:01:33Z",
-        "daysOpen": 78,
-        "labels": [],
-        "isDraft": false,
-        "additions": 165,
-        "deletions": 0,
         "reviewCount": 1,
         "author": "pragnyanramtha",
         "assignees": []
@@ -1448,6 +1448,20 @@
         "assignees": []
       },
       {
+        "number": 1081,
+        "title": "feat(bedrock): support token counting",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
+        "createdAt": "2026-06-04T22:33:25Z",
+        "daysOpen": 60,
+        "labels": [],
+        "isDraft": false,
+        "additions": 117,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "aidand-ant",
+        "assignees": []
+      },
+      {
         "number": 1080,
         "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
@@ -1459,20 +1473,6 @@
         "deletions": 4,
         "reviewCount": 0,
         "author": "yen0304",
-        "assignees": []
-      },
-      {
-        "number": 1081,
-        "title": "feat(bedrock): support token counting",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
-        "createdAt": "2026-06-04T22:33:25Z",
-        "daysOpen": 59,
-        "labels": [],
-        "isDraft": false,
-        "additions": 117,
-        "deletions": 8,
-        "reviewCount": 0,
-        "author": "aidand-ant",
         "assignees": []
       },
       {
@@ -1634,7 +1634,7 @@
         "title": "docs(examples): add vision example",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1139",
         "createdAt": "2026-08-01T21:10:22Z",
-        "daysOpen": 1,
+        "daysOpen": 2,
         "labels": [],
         "isDraft": false,
         "additions": 34,
@@ -1689,8 +1689,8 @@
     "total_known": 211,
     "active_30d": 21,
     "first_time_30d": 18,
-    "retention_rate_pct": 10.5,
-    "churned_30d": 17,
+    "retention_rate_pct": 11.1,
+    "churned_30d": 16,
     "commits_per_week_avg": 9.6,
     "commits_per_week_trend": [
       7,
