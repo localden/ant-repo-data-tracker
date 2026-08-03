@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-03T12:51:34.290Z",
+  "timestamp": "2026-08-03T16:17:00.200Z",
   "repository": {
     "stars": 313,
     "forks": 101
@@ -60,7 +60,7 @@
         "title": "Native AOT support",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/222",
         "createdAt": "2026-06-27T15:44:32Z",
-        "daysOpen": 36,
+        "daysOpen": 37,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -70,7 +70,7 @@
         "title": "IChatClient reasoning fails (HTTP 400) on Claude Opus 4.7/4.8",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/221",
         "createdAt": "2026-06-27T15:03:18Z",
-        "daysOpen": 36,
+        "daysOpen": 37,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -81,6 +81,16 @@
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/223",
         "createdAt": "2026-06-29T18:41:06Z",
         "daysOpen": 34,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 230,
+        "title": "Anthropic server tools (web search, tool search, code execution, etc.) with MS agent stack not supported due to not implemented pause_turn?",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/230",
+        "createdAt": "2026-07-16T14:06:33Z",
+        "daysOpen": 18,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -106,11 +116,11 @@
         "assignees": []
       },
       {
-        "number": 230,
-        "title": "Anthropic server tools (web search, tool search, code execution, etc.) with MS agent stack not supported due to not implemented pause_turn?",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/230",
-        "createdAt": "2026-07-16T14:06:33Z",
-        "daysOpen": 17,
+        "number": 234,
+        "title": "AsIChatClient: no way to set cache_control on tool definitions (AIFunction -> Tool conversion drops it)",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/234",
+        "createdAt": "2026-07-20T13:17:29Z",
+        "daysOpen": 14,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -120,16 +130,6 @@
         "title": "Optional request properties explicitly set to null are serialized as JSON null — beta-gated fields (e.g. context_management) fail with \"Extra inputs are not permitted\"",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/235",
         "createdAt": "2026-07-20T17:07:15Z",
-        "daysOpen": 13,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 234,
-        "title": "AsIChatClient: no way to set cache_control on tool definitions (AIFunction -> Tool conversion drops it)",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/234",
-        "createdAt": "2026-07-20T13:17:29Z",
         "daysOpen": 13,
         "labels": [],
         "commentCount": 0,
@@ -173,10 +173,10 @@
     "open_count": 5,
     "merged_7d": 0,
     "merged_30d": 7,
-    "merged_90d": 31,
+    "merged_90d": 30,
     "opened_7d": 1,
     "opened_30d": 7,
-    "opened_90d": 39,
+    "opened_90d": 38,
     "closed_not_merged_90d": 5,
     "draft_count": 0,
     "assigned_count": 0,
@@ -190,7 +190,7 @@
         "title": "Handle [DONE] terminal event in SSE streams from Azure APIM hosted Anthropic models",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/202",
         "createdAt": "2026-05-22T15:52:17Z",
-        "daysOpen": 72,
+        "daysOpen": 73,
         "labels": [],
         "isDraft": false,
         "additions": 53,
@@ -209,7 +209,7 @@
         "isDraft": false,
         "additions": 911,
         "deletions": 6,
-        "reviewCount": 5,
+        "reviewCount": 6,
         "author": "PederHP",
         "assignees": []
       },
@@ -221,7 +221,7 @@
         "daysOpen": 38,
         "labels": [],
         "isDraft": false,
-        "additions": 626,
+        "additions": 625,
         "deletions": 8,
         "reviewCount": 0,
         "author": "jozkee",
@@ -259,10 +259,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 63.8,
-      "median_hours": 6.4,
-      "p90_hours": 136.8,
-      "p95_hours": 282.1
+      "avg_hours": 65.8,
+      "median_hours": 8.5,
+      "p90_hours": 137,
+      "p95_hours": 292.2
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -271,11 +271,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 132.5,
-      "median_hours": 16.4
+      "avg_hours": 136.9,
+      "median_hours": 18.2
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 13.9,
+    "rejection_rate_pct": 14.3,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 1,
@@ -286,19 +286,19 @@
   "contributors": {
     "total_known": 74,
     "active_30d": 11,
-    "first_time_30d": 6,
+    "first_time_30d": 7,
     "retention_rate_pct": 27.3,
     "churned_30d": 8,
-    "commits_per_week_avg": 8.5,
+    "commits_per_week_avg": 8.1,
     "commits_per_week_trend": [
-      13,
+      8,
       4,
       9,
       13,
       5,
-      4,
+      9,
+      13,
       12,
-      18,
       0,
       10,
       14,
@@ -398,18 +398,18 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 27,
-        "total_changes": 85
+        "pr_count": 26,
+        "total_changes": 83
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
-        "pr_count": 27,
-        "total_changes": 59
+        "pr_count": 26,
+        "total_changes": 57
       },
       {
         "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 27,
-        "total_changes": 285
+        "pr_count": 26,
+        "total_changes": 277
       },
       {
         "path": ".stats.yml",
@@ -500,12 +500,12 @@
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 30,
+        "pr_count": 29,
         "file_count": 6
       },
       {
         "path": "/",
-        "pr_count": 27,
+        "pr_count": 26,
         "file_count": 6
       },
       {
