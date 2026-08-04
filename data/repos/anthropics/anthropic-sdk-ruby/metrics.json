@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-04T13:48:22.226Z",
+  "timestamp": "2026-08-04T16:09:37.325Z",
   "repository": {
     "stars": 361,
     "forks": 70
@@ -39,7 +39,7 @@
         "title": "Can't access response HTTP headers",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/110",
         "createdAt": "2025-07-25T14:36:49Z",
-        "daysOpen": 374,
+        "daysOpen": 375,
         "labels": [],
         "commentCount": 10,
         "assignees": []
@@ -62,7 +62,7 @@
         "title": "Unsupported document file format",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/128",
         "createdAt": "2025-09-08T15:45:16Z",
-        "daysOpen": 329,
+        "daysOpen": 330,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -155,7 +155,7 @@
     "open_count": 9,
     "merged_7d": 0,
     "merged_30d": 5,
-    "merged_90d": 27,
+    "merged_90d": 26,
     "opened_7d": 2,
     "opened_30d": 6,
     "opened_90d": 32,
@@ -163,7 +163,7 @@
     "draft_count": 1,
     "assigned_count": 0,
     "unassigned_count": 9,
-    "unassigned_24h": 7,
+    "unassigned_24h": 8,
     "unassigned_7d": 6,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -284,23 +284,23 @@
         "title": "release: 1.60.0",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/222",
         "createdAt": "2026-08-03T15:46:22Z",
-        "daysOpen": 0,
+        "daysOpen": 1,
         "labels": [
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 40,
-        "deletions": 7,
+        "additions": 368,
+        "deletions": 35,
         "reviewCount": 0,
         "author": "stainless-app",
         "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 48.6,
-      "median_hours": 2,
-      "p90_hours": 149.2,
-      "p95_hours": 282.6
+      "avg_hours": 50.5,
+      "median_hours": 2.5,
+      "p90_hours": 158.1,
+      "p95_hours": 288.5
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -309,15 +309,15 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 47.8,
-      "median_hours": 2.5
+      "avg_hours": 48.8,
+      "median_hours": 1.7
     },
-    "code_review_rate_pct": 96.3,
-    "rejection_rate_pct": 6.9,
+    "code_review_rate_pct": 96.2,
+    "rejection_rate_pct": 7.1,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
-      "small": 6,
-      "medium": 3,
+      "small": 5,
+      "medium": 4,
       "large": 0
     }
   },
@@ -392,38 +392,38 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 25,
-        "total_changes": 50
+        "pr_count": 24,
+        "total_changes": 48
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 25,
-        "total_changes": 307
+        "pr_count": 24,
+        "total_changes": 293
       },
       {
         "path": "Gemfile.lock",
-        "pr_count": 25,
-        "total_changes": 77
+        "pr_count": 24,
+        "total_changes": 73
       },
       {
         "path": "README.md",
-        "pr_count": 25,
-        "total_changes": 51
+        "pr_count": 24,
+        "total_changes": 49
       },
       {
         "path": "lib/anthropic/version.rb",
-        "pr_count": 25,
-        "total_changes": 50
+        "pr_count": 24,
+        "total_changes": 48
       },
       {
         "path": ".stats.yml",
-        "pr_count": 23,
-        "total_changes": 136
+        "pr_count": 22,
+        "total_changes": 128
       },
       {
         "path": "lib/anthropic.rb",
-        "pr_count": 15,
-        "total_changes": 314
+        "pr_count": 14,
+        "total_changes": 242
       },
       {
         "path": "lib/anthropic/models/beta/message_create_params.rb",
@@ -457,18 +457,8 @@
       },
       {
         "path": "lib/anthropic/models/anthropic_beta.rb",
-        "pr_count": 7,
-        "total_changes": 27
-      },
-      {
-        "path": "rbi/anthropic/models/anthropic_beta.rbi",
-        "pr_count": 7,
-        "total_changes": 42
-      },
-      {
-        "path": "sig/anthropic/models/anthropic_beta.rbs",
-        "pr_count": 7,
-        "total_changes": 18
+        "pr_count": 6,
+        "total_changes": 24
       },
       {
         "path": "lib/anthropic/models/model.rb",
@@ -476,79 +466,89 @@
         "total_changes": 93
       },
       {
-        "path": "lib/anthropic/resources/beta/sessions.rb",
+        "path": "rbi/anthropic/models/anthropic_beta.rbi",
         "pr_count": 6,
-        "total_changes": 32
+        "total_changes": 37
       },
       {
-        "path": "rbi/anthropic/resources/beta/sessions.rbi",
+        "path": "sig/anthropic/models/anthropic_beta.rbs",
         "pr_count": 6,
-        "total_changes": 35
+        "total_changes": 16
       },
       {
         "path": "lib/anthropic/models/beta/beta_refusal_stop_details.rb",
         "pr_count": 6,
         "total_changes": 88
+      },
+      {
+        "path": "lib/anthropic/models/refusal_stop_details.rb",
+        "pr_count": 6,
+        "total_changes": 24
+      },
+      {
+        "path": "rbi/anthropic/models/beta/beta_refusal_stop_details.rbi",
+        "pr_count": 6,
+        "total_changes": 146
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 25,
-        "file_count": 9
+        "pr_count": 24,
+        "file_count": 8
       },
       {
         "path": "lib/anthropic/",
-        "pr_count": 25,
+        "pr_count": 24,
         "file_count": 9
       },
       {
         "path": "lib/anthropic/models/beta/",
-        "pr_count": 20,
-        "file_count": 277
+        "pr_count": 19,
+        "file_count": 260
       },
       {
         "path": "rbi/anthropic/models/beta/",
-        "pr_count": 20,
-        "file_count": 277
+        "pr_count": 19,
+        "file_count": 260
       },
       {
         "path": "lib/anthropic/models/",
-        "pr_count": 19,
-        "file_count": 45
+        "pr_count": 18,
+        "file_count": 41
       },
       {
         "path": "sig/anthropic/models/beta/",
-        "pr_count": 19,
-        "file_count": 268
+        "pr_count": 18,
+        "file_count": 232
       },
       {
         "path": "rbi/anthropic/models/",
-        "pr_count": 18,
-        "file_count": 45
+        "pr_count": 17,
+        "file_count": 41
       },
       {
         "path": "sig/anthropic/models/",
-        "pr_count": 18,
+        "pr_count": 17,
         "file_count": 35
       },
       {
         "path": "lib/anthropic/resources/beta/",
-        "pr_count": 16,
-        "file_count": 12
+        "pr_count": 15,
+        "file_count": 10
       },
       {
         "path": "lib/",
-        "pr_count": 15,
+        "pr_count": 14,
         "file_count": 1
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 9615,
-    "total": 2580867,
-    "last_week": 89367,
-    "last_month": 404315
+    "daily": 13319,
+    "total": 2584571,
+    "last_week": 93071,
+    "last_month": 408019
   }
 }
