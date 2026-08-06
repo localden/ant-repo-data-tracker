@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-06T13:46:21.443Z",
+  "timestamp": "2026-08-06T23:50:46.504Z",
   "repository": {
     "stars": 315,
     "forks": 101
@@ -47,7 +47,7 @@
         "title": "IChatClient reasoning fails (HTTP 400) on Claude Opus 4.7/4.8",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/221",
         "createdAt": "2026-06-27T15:03:18Z",
-        "daysOpen": 39,
+        "daysOpen": 40,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -57,7 +57,7 @@
         "title": "Streaming throws ObjectDisposedException on .NET Framework apps in ≤4.5.2 compat mode (HttpResponse carries token of a disposed CancellationTokenSource)",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/231",
         "createdAt": "2026-07-16T21:16:38Z",
-        "daysOpen": 20,
+        "daysOpen": 21,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -67,7 +67,17 @@
         "title": "Anthropic server tools (web search, tool search, code execution, etc.) with MS agent stack not supported due to not implemented pause_turn?",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/230",
         "createdAt": "2026-07-16T14:06:33Z",
-        "daysOpen": 20,
+        "daysOpen": 21,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 235,
+        "title": "Optional request properties explicitly set to null are serialized as JSON null — beta-gated fields (e.g. context_management) fail with \"Extra inputs are not permitted\"",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/235",
+        "createdAt": "2026-07-20T17:07:15Z",
+        "daysOpen": 17,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -78,16 +88,6 @@
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/234",
         "createdAt": "2026-07-20T13:17:29Z",
         "daysOpen": 17,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 235,
-        "title": "Optional request properties explicitly set to null are serialized as JSON null — beta-gated fields (e.g. context_management) fail with \"Extra inputs are not permitted\"",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/235",
-        "createdAt": "2026-07-20T17:07:15Z",
-        "daysOpen": 16,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -116,17 +116,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 5,
+    "open_count": 6,
     "merged_7d": 0,
     "merged_30d": 7,
-    "merged_90d": 29,
-    "opened_7d": 0,
-    "opened_30d": 7,
+    "merged_90d": 28,
+    "opened_7d": 1,
+    "opened_30d": 8,
     "opened_90d": 37,
     "closed_not_merged_90d": 5,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 5,
+    "unassigned_count": 6,
     "unassigned_24h": 5,
     "unassigned_7d": 5,
     "assigned_prs": [],
@@ -136,7 +136,7 @@
         "title": "Handle [DONE] terminal event in SSE streams from Azure APIM hosted Anthropic models",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/202",
         "createdAt": "2026-05-22T15:52:17Z",
-        "daysOpen": 75,
+        "daysOpen": 76,
         "labels": [],
         "isDraft": false,
         "additions": 53,
@@ -150,7 +150,7 @@
         "title": "feat(meai): opt-in mapping for mid-conversation system messages",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/207",
         "createdAt": "2026-05-30T19:26:56Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
         "labels": [],
         "isDraft": false,
         "additions": 911,
@@ -164,7 +164,7 @@
         "title": "feat(meai): map HostedToolSearchTool to Anthropic tool search",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/220",
         "createdAt": "2026-06-25T21:33:02Z",
-        "daysOpen": 41,
+        "daysOpen": 42,
         "labels": [],
         "isDraft": false,
         "additions": 625,
@@ -178,7 +178,7 @@
         "title": "fix(meai): add context-management beta header when raw template carries context_management",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/236",
         "createdAt": "2026-07-20T17:07:57Z",
-        "daysOpen": 16,
+        "daysOpen": 17,
         "labels": [],
         "isDraft": false,
         "additions": 147,
@@ -197,18 +197,32 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 447,
-        "deletions": 31,
+        "additions": 9961,
+        "deletions": 1528,
         "reviewCount": 0,
         "author": "stainless-app",
+        "assignees": []
+      },
+      {
+        "number": 242,
+        "title": "fix(meai): round-trip server-tool blocks when replaying assistant turns",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/242",
+        "createdAt": "2026-08-06T14:43:56Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 284,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "PederHP",
         "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 68,
-      "median_hours": 12.5,
-      "p90_hours": 142.5,
-      "p95_hours": 302.2
+      "avg_hours": 56.8,
+      "median_hours": 8.5,
+      "p90_hours": 135.3,
+      "p95_hours": 169.9
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -217,16 +231,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 140.9,
-      "median_hours": 16.4
+      "avg_hours": 131.9,
+      "median_hours": 10.4
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 14.7,
+    "rejection_rate_pct": 15.2,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 1,
       "medium": 2,
-      "large": 2
+      "large": 3
     }
   },
   "contributors": {
@@ -237,17 +251,17 @@
     "churned_30d": 8,
     "commits_per_week_avg": 7.4,
     "commits_per_week_trend": [
-      2,
-      2,
+      4,
       9,
+      0,
       18,
       4,
       12,
-      13,
-      5,
+      18,
       0,
-      19,
-      5,
+      10,
+      11,
+      3,
       0
     ],
     "allContributors": [
