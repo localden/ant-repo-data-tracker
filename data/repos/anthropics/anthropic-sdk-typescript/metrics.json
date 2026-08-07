@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-06T23:49:24.527Z",
+  "timestamp": "2026-08-07T02:05:34.401Z",
   "repository": {
-    "stars": 2071,
+    "stars": 2072,
     "forks": 378
   },
   "issues": {
@@ -10,13 +10,13 @@
     "closed_30d": 47,
     "closed_90d": 53,
     "opened_7d": 2,
-    "opened_30d": 7,
+    "opened_30d": 6,
     "opened_90d": 24,
     "assigned_count": 0,
     "unassigned_count": 19,
     "unassigned_24h": 19,
     "unassigned_7d": 18,
-    "unassigned_30d": 14,
+    "unassigned_30d": 15,
     "assigned_issues": [],
     "unassigned_issues": [
       {
@@ -36,7 +36,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 459,
+        "daysOpen": 460,
         "labels": [
           "code-change"
         ],
@@ -174,19 +174,9 @@
         "title": "idempotencyKey is a silent no-op: base Anthropic client never sets idempotencyHeader",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1112",
         "createdAt": "2026-07-07T01:44:52Z",
-        "daysOpen": 30,
+        "daysOpen": 31,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1116,
-        "title": "`transformJSONSchema` drops `const`/`enum` into description text, breaking discriminated unions in tool inputs",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1116",
-        "createdAt": "2026-07-08T11:52:32Z",
-        "daysOpen": 29,
-        "labels": [],
-        "commentCount": 2,
         "assignees": []
       },
       {
@@ -194,6 +184,16 @@
         "title": "BetaToolRunner does not forward container id, causing 400 when code-execution-backed tools pause for a client tool",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1114",
         "createdAt": "2026-07-08T02:01:13Z",
+        "daysOpen": 30,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
+        "number": 1116,
+        "title": "`transformJSONSchema` drops `const`/`enum` into description text, breaking discriminated unions in tool inputs",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1116",
+        "createdAt": "2026-07-08T11:52:32Z",
         "daysOpen": 29,
         "labels": [],
         "commentCount": 2,
@@ -256,17 +256,17 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 58,
+    "open_count": 59,
     "merged_7d": 0,
     "merged_30d": 12,
     "merged_90d": 34,
-    "opened_7d": 4,
-    "opened_30d": 23,
-    "opened_90d": 85,
+    "opened_7d": 5,
+    "opened_30d": 24,
+    "opened_90d": 86,
     "closed_not_merged_90d": 27,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 58,
+    "unassigned_count": 59,
     "unassigned_24h": 56,
     "unassigned_7d": 55,
     "assigned_prs": [],
@@ -373,7 +373,7 @@
         "title": "fix(streaming): skip SSE events with empty data to prevent JSON parse crash",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/903",
         "createdAt": "2026-02-06T23:59:08Z",
-        "daysOpen": 180,
+        "daysOpen": 181,
         "labels": [
           "code-change"
         ],
@@ -763,6 +763,20 @@
         "assignees": []
       },
       {
+        "number": 1049,
+        "title": "fix(stream): detect mixed newline SSE boundaries",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
+        "createdAt": "2026-05-17T01:18:12Z",
+        "daysOpen": 82,
+        "labels": [],
+        "isDraft": false,
+        "additions": 34,
+        "deletions": 23,
+        "reviewCount": 1,
+        "author": "pragnyanramtha",
+        "assignees": []
+      },
+      {
         "number": 1048,
         "title": "fix(stream): preserve cache creation usage deltas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1048",
@@ -786,20 +800,6 @@
         "isDraft": false,
         "additions": 16,
         "deletions": 3,
-        "reviewCount": 1,
-        "author": "pragnyanramtha",
-        "assignees": []
-      },
-      {
-        "number": 1049,
-        "title": "fix(stream): detect mixed newline SSE boundaries",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1049",
-        "createdAt": "2026-05-17T01:18:12Z",
-        "daysOpen": 81,
-        "labels": [],
-        "isDraft": false,
-        "additions": 34,
-        "deletions": 23,
         "reviewCount": 1,
         "author": "pragnyanramtha",
         "assignees": []
@@ -847,6 +847,20 @@
         "assignees": []
       },
       {
+        "number": 1059,
+        "title": "fix(partial-json): keep complete trailing numbers in arrays",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
+        "createdAt": "2026-05-22T00:58:11Z",
+        "daysOpen": 77,
+        "labels": [],
+        "isDraft": false,
+        "additions": 14,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "ATOM00blue",
+        "assignees": []
+      },
+      {
         "number": 1058,
         "title": "docs(streams): remove \"the the\" duplicate-word typo in MessageStream JSDoc",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1058",
@@ -858,20 +872,6 @@
         "deletions": 4,
         "reviewCount": 0,
         "author": "devteamaegis",
-        "assignees": []
-      },
-      {
-        "number": 1059,
-        "title": "fix(partial-json): keep complete trailing numbers in arrays",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
-        "createdAt": "2026-05-22T00:58:11Z",
-        "daysOpen": 76,
-        "labels": [],
-        "isDraft": false,
-        "additions": 14,
-        "deletions": 0,
-        "reviewCount": 1,
-        "author": "ATOM00blue",
         "assignees": []
       },
       {
@@ -907,7 +907,7 @@
         "title": "fix: update 'anthropic-beta' header condition to check for betas length",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1079",
         "createdAt": "2026-05-31T01:07:26Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
         "labels": [],
         "isDraft": false,
         "additions": 6,
@@ -963,7 +963,7 @@
         "title": "fix(vertex): strip anthropic-beta header on count_tokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1089",
         "createdAt": "2026-06-12T01:22:08Z",
-        "daysOpen": 55,
+        "daysOpen": 56,
         "labels": [],
         "isDraft": false,
         "additions": 58,
@@ -1129,6 +1129,20 @@
         "assignees": []
       },
       {
+        "number": 1144,
+        "title": "fix(client): wire idempotencyKey to Idempotency-Key header",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1144",
+        "createdAt": "2026-08-07T00:03:52Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 36,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "edenbuilds",
+        "assignees": []
+      },
+      {
         "number": 1143,
         "title": "fix(schema): preserve const/enum in transformJSONSchema",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
@@ -1163,22 +1177,22 @@
     "rejection_rate_pct": 44.3,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
-      "small": 37,
+      "small": 38,
       "medium": 14,
       "large": 7
     }
   },
   "contributors": {
     "total_known": 214,
-    "active_30d": 20,
-    "first_time_30d": 17,
-    "retention_rate_pct": 10.5,
-    "churned_30d": 17,
+    "active_30d": 19,
+    "first_time_30d": 16,
+    "retention_rate_pct": 10,
+    "churned_30d": 18,
     "commits_per_week_avg": 9,
     "commits_per_week_trend": [
       5,
-      11,
-      7,
+      18,
+      0,
       21,
       8,
       1,
@@ -1408,7 +1422,6 @@
     "previousPeriodContributors": [
       "AKnassa",
       "SimonAllen0901",
-      "agentgatewayv1",
       "codebytere-ant",
       "dtmeadows-ant",
       "edenbuilds",
@@ -1586,10 +1599,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 5144212,
     "total": 594130527,
-    "total_through": "2026-08-05",
-    "last_week": 30473246,
-    "last_month": 118563097
+    "total_through": "2026-08-05"
   }
 }
