@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T20:29:12.699Z",
+  "timestamp": "2026-08-07T22:24:56.120Z",
   "repository": {
     "stars": 3800,
     "forks": 799
@@ -230,6 +230,16 @@
         "assignees": []
       },
       {
+        "number": 1421,
+        "title": "BetaInputJsonEvent not fired for server_tool_use blocks during streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1421",
+        "createdAt": "2026-04-20T21:13:04Z",
+        "daysOpen": 109,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1424,
         "title": "`get_final_message()` does not propagate `message_delta.container` into aggregated Message (breaks code_execution continuation)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1424",
@@ -247,16 +257,6 @@
         "daysOpen": 108,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1421,
-        "title": "BetaInputJsonEvent not fired for server_tool_use blocks during streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1421",
-        "createdAt": "2026-04-20T21:13:04Z",
-        "daysOpen": 108,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -660,7 +660,7 @@
         "title": "Accumulate extra pydantic fields from the sample event",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1070",
         "createdAt": "2025-11-13T21:29:26Z",
-        "daysOpen": 266,
+        "daysOpen": 267,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -1362,7 +1362,7 @@
         "title": "fix(bedrock): preserve aws_profile in copied clients",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1556",
         "createdAt": "2026-05-16T20:50:53Z",
-        "daysOpen": 82,
+        "daysOpen": 83,
         "labels": [],
         "isDraft": false,
         "additions": 33,
@@ -1400,6 +1400,20 @@
         "assignees": []
       },
       {
+        "number": 1563,
+        "title": "fix(streaming): wrap from_json in try/except in non-beta message streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1563",
+        "createdAt": "2026-05-18T21:11:45Z",
+        "daysOpen": 81,
+        "labels": [],
+        "isDraft": false,
+        "additions": 6,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "rmotgi1227",
+        "assignees": []
+      },
+      {
         "number": 1570,
         "title": "fix(streaming): guard against out-of-bounds content index; fix BetaAsyncAbstractMemoryTool docstring",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1570",
@@ -1409,20 +1423,6 @@
         "isDraft": false,
         "additions": 25,
         "deletions": 11,
-        "reviewCount": 0,
-        "author": "rmotgi1227",
-        "assignees": []
-      },
-      {
-        "number": 1563,
-        "title": "fix(streaming): wrap from_json in try/except in non-beta message streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1563",
-        "createdAt": "2026-05-18T21:11:45Z",
-        "daysOpen": 80,
-        "labels": [],
-        "isDraft": false,
-        "additions": 6,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "rmotgi1227",
         "assignees": []
@@ -1624,6 +1624,20 @@
         "assignees": []
       },
       {
+        "number": 1659,
+        "title": "fix: handle bare container types",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1659",
+        "createdAt": "2026-06-06T22:21:55Z",
+        "daysOpen": 62,
+        "labels": [],
+        "isDraft": false,
+        "additions": 32,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "ynachiket",
+        "assignees": []
+      },
+      {
         "number": 1656,
         "title": "fix: omit empty comma array query params",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1656",
@@ -1633,20 +1647,6 @@
         "isDraft": false,
         "additions": 7,
         "deletions": 6,
-        "reviewCount": 0,
-        "author": "ynachiket",
-        "assignees": []
-      },
-      {
-        "number": 1659,
-        "title": "fix: handle bare container types",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1659",
-        "createdAt": "2026-06-06T22:21:55Z",
-        "daysOpen": 61,
-        "labels": [],
-        "isDraft": false,
-        "additions": 32,
-        "deletions": 2,
         "reviewCount": 0,
         "author": "ynachiket",
         "assignees": []
@@ -2086,6 +2086,20 @@
         "assignees": []
       },
       {
+        "number": 1753,
+        "title": "fix(session runner): retry the sub-thread tool_use commit-race 400 instead of stranding (#1744)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1753",
+        "createdAt": "2026-07-11T20:45:45Z",
+        "daysOpen": 27,
+        "labels": [],
+        "isDraft": false,
+        "additions": 109,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "nadavshohat",
+        "assignees": []
+      },
+      {
         "number": 1752,
         "title": "fix(agent_toolset): reject non-regular files in the `write` tool instead of hanging on a FIFO",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1752",
@@ -2097,20 +2111,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "roli-lpci",
-        "assignees": []
-      },
-      {
-        "number": 1753,
-        "title": "fix(session runner): retry the sub-thread tool_use commit-race 400 instead of stranding (#1744)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1753",
-        "createdAt": "2026-07-11T20:45:45Z",
-        "daysOpen": 26,
-        "labels": [],
-        "isDraft": false,
-        "additions": 109,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "nadavshohat",
         "assignees": []
       },
       {
@@ -2282,6 +2282,20 @@
         "assignees": []
       },
       {
+        "number": 1805,
+        "title": "Resolve helper executables via a safe PATH lookup (never the working directory)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1805",
+        "createdAt": "2026-08-05T22:22:31Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": true,
+        "additions": 1296,
+        "deletions": 20,
+        "reviewCount": 0,
+        "author": "seanyeoh-ant",
+        "assignees": []
+      },
+      {
         "number": 1802,
         "title": "fix(streaming): accumulate container from message_delta in non-beta helper",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1802",
@@ -2296,17 +2310,19 @@
         "assignees": []
       },
       {
-        "number": 1805,
-        "title": "Resolve helper executables via a safe PATH lookup (never the working directory)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1805",
-        "createdAt": "2026-08-05T22:22:31Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": true,
-        "additions": 1296,
-        "deletions": 20,
+        "number": 1810,
+        "title": "release: 0.121.1",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1810",
+        "createdAt": "2026-08-07T19:17:31Z",
+        "daysOpen": 0,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 687,
+        "deletions": 48,
         "reviewCount": 0,
-        "author": "seanyeoh-ant",
+        "author": "stainless-app",
         "assignees": []
       },
       {
@@ -2321,22 +2337,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "vikasvardhanv",
-        "assignees": []
-      },
-      {
-        "number": 1810,
-        "title": "release: 0.121.1",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1810",
-        "createdAt": "2026-08-07T19:17:31Z",
-        "daysOpen": 0,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 18,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "stainless-app",
         "assignees": []
       }
     ],
@@ -2360,9 +2360,9 @@
     "rejection_rate_pct": 78,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
-      "small": 98,
+      "small": 97,
       "medium": 21,
-      "large": 4
+      "large": 5
     }
   },
   "contributors": {
@@ -2375,8 +2375,8 @@
     "commits_per_week_trend": [
       7,
       17,
-      1,
-      17,
+      9,
+      9,
       9,
       5,
       16,
@@ -2976,9 +2976,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 6532663,
-    "last_week": 46448335,
-    "last_month": 189084640,
-    "total": 1072954475
+    "daily": 7214198,
+    "last_week": 47129870,
+    "last_month": 189766175,
+    "total": 1073636010
   }
 }
