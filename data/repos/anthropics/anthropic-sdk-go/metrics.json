@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-07T05:28:53.413Z",
+  "timestamp": "2026-08-07T08:46:49.569Z",
   "repository": {
     "stars": 1166,
     "forks": 202
@@ -24,7 +24,7 @@
         "title": "Proxy configuration not working with bedrock.WithLoadDefaultConfig",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/99",
         "createdAt": "2025-01-22T06:36:56Z",
-        "daysOpen": 561,
+        "daysOpen": 562,
         "labels": [
           "sdk"
         ],
@@ -108,7 +108,7 @@
         "title": "credentials passed by option and from enviroment are sent to server at the same time",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/364",
         "createdAt": "2026-06-11T07:04:26Z",
-        "daysOpen": 56,
+        "daysOpen": 57,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -158,7 +158,7 @@
         "title": "Self-hosted worker: bash tool call never returns when the command uses setsid — session parked at requires_action forever (third wedge class, distinct from #377/#388)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/390",
         "createdAt": "2026-07-13T06:15:30Z",
-        "daysOpen": 24,
+        "daysOpen": 25,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -188,7 +188,7 @@
         "title": "packages/jsonl: Stream can panic on Close() and silently lose records",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/403",
         "createdAt": "2026-08-02T07:25:25Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -236,7 +236,7 @@
         "title": "feat(vertex): WithCredentials() support use custom clientOpts",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/87",
         "createdAt": "2024-12-28T07:21:20Z",
-        "daysOpen": 586,
+        "daysOpen": 587,
         "labels": [],
         "isDraft": false,
         "additions": 6,
@@ -362,7 +362,7 @@
         "title": "bugfix: missing custom decoder for beta content block which will cause field missing.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/263",
         "createdAt": "2026-01-08T05:44:41Z",
-        "daysOpen": 210,
+        "daysOpen": 211,
         "labels": [],
         "isDraft": false,
         "additions": 89,
@@ -432,7 +432,7 @@
         "title": "fix: register adaptive discriminator for ThinkingConfigAdaptiveParam …",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/286",
         "createdAt": "2026-03-07T06:20:35Z",
-        "daysOpen": 152,
+        "daysOpen": 153,
         "labels": [],
         "isDraft": false,
         "additions": 26,
@@ -558,7 +558,7 @@
         "title": "test(internal): fix integer overflow in tests for 32-bit architectures",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/306",
         "createdAt": "2026-03-28T05:55:27Z",
-        "daysOpen": 131,
+        "daysOpen": 132,
         "labels": [],
         "isDraft": false,
         "additions": 26,
@@ -638,6 +638,20 @@
         "assignees": []
       },
       {
+        "number": 349,
+        "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
+        "createdAt": "2026-05-29T08:12:23Z",
+        "daysOpen": 70,
+        "labels": [],
+        "isDraft": false,
+        "additions": 218,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "17twenty",
+        "assignees": []
+      },
+      {
         "number": 348,
         "title": "test: add regression tests for #334 (DefaultTransport panic)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/348",
@@ -666,17 +680,17 @@
         "assignees": []
       },
       {
-        "number": 349,
-        "title": "fix(accumulator): sanitize invalid tool_use Input before marshaling",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/349",
-        "createdAt": "2026-05-29T08:12:23Z",
+        "number": 353,
+        "title": "fix: preserve server tool results in ToParam",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/353",
+        "createdAt": "2026-05-30T08:35:49Z",
         "daysOpen": 69,
         "labels": [],
         "isDraft": false,
-        "additions": 218,
+        "additions": 76,
         "deletions": 0,
         "reviewCount": 0,
-        "author": "17twenty",
+        "author": "jeet-dekivadia",
         "assignees": []
       },
       {
@@ -688,20 +702,6 @@
         "labels": [],
         "isDraft": false,
         "additions": 58,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "jeet-dekivadia",
-        "assignees": []
-      },
-      {
-        "number": 353,
-        "title": "fix: preserve server tool results in ToParam",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/353",
-        "createdAt": "2026-05-30T08:35:49Z",
-        "daysOpen": 68,
-        "labels": [],
-        "isDraft": false,
-        "additions": 76,
         "deletions": 0,
         "reviewCount": 0,
         "author": "jeet-dekivadia",
@@ -722,6 +722,20 @@
         "assignees": []
       },
       {
+        "number": 361,
+        "title": "fix: preserve web tool result ToParam payloads",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/361",
+        "createdAt": "2026-06-07T07:13:42Z",
+        "daysOpen": 61,
+        "labels": [],
+        "isDraft": false,
+        "additions": 273,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zhang-986",
+        "assignees": []
+      },
+      {
         "number": 360,
         "title": "fix: preserve text editor code result content JSON",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/360",
@@ -730,20 +744,6 @@
         "labels": [],
         "isDraft": false,
         "additions": 70,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zhang-986",
-        "assignees": []
-      },
-      {
-        "number": 361,
-        "title": "fix: preserve web tool result ToParam payloads",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/361",
-        "createdAt": "2026-06-07T07:13:42Z",
-        "daysOpen": 60,
-        "labels": [],
-        "isDraft": false,
-        "additions": 273,
         "deletions": 2,
         "reviewCount": 0,
         "author": "Zhang-986",
@@ -866,7 +866,7 @@
         "title": "fix(jsonl): prevent Close panic and silent truncation of large results",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/404",
         "createdAt": "2026-08-02T07:47:21Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 0,
