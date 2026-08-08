@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T12:24:30.252Z",
+  "timestamp": "2026-08-08T14:22:32.582Z",
   "repository": {
     "stars": 3800,
     "forks": 799
@@ -40,7 +40,7 @@
         "title": "Batch API with Vertex",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/693",
         "createdAt": "2024-10-13T12:33:39Z",
-        "daysOpen": 663,
+        "daysOpen": 664,
         "labels": [
           "vertex"
         ],
@@ -52,7 +52,7 @@
         "title": "Bedrock: support low-latency configuration",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/971",
         "createdAt": "2025-06-10T13:40:34Z",
-        "daysOpen": 423,
+        "daysOpen": 424,
         "labels": [
           "bedrock"
         ],
@@ -416,7 +416,7 @@
         "title": "web_search_20260209 dynamic filtering: code execution fails with \"AttributeError: 'str' object has no attribute 'get'\" and returns empty results — need help understanding",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1666",
         "createdAt": "2026-06-09T14:08:47Z",
-        "daysOpen": 59,
+        "daysOpen": 60,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -522,6 +522,16 @@
         "assignees": []
       },
       {
+        "number": 1769,
+        "title": "AttributeError: 'WindowsPath' object has no attribute 'read'",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1769",
+        "createdAt": "2026-07-22T13:30:50Z",
+        "daysOpen": 17,
+        "labels": [],
+        "commentCount": 3,
+        "assignees": []
+      },
+      {
         "number": 1770,
         "title": "`AsyncAnthropicBedrock` blocks the event loop during AWS credential resolution or signing",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1770",
@@ -529,16 +539,6 @@
         "daysOpen": 16,
         "labels": [],
         "commentCount": 5,
-        "assignees": []
-      },
-      {
-        "number": 1769,
-        "title": "AttributeError: 'WindowsPath' object has no attribute 'read'",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1769",
-        "createdAt": "2026-07-22T13:30:50Z",
-        "daysOpen": 16,
-        "labels": [],
-        "commentCount": 3,
         "assignees": []
       },
       {
@@ -593,7 +593,7 @@
     "label_coverage_pct": 17,
     "unlabeled_count": 44,
     "stale_30d": 34,
-    "stale_60d": 20,
+    "stale_60d": 21,
     "stale_90d": 15,
     "reopen_rate": 0
   },
@@ -646,7 +646,7 @@
         "title": "fix(bedrock): preserve http_client in copy() and with_options() methods",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1057",
         "createdAt": "2025-10-31T13:45:12Z",
-        "daysOpen": 280,
+        "daysOpen": 281,
         "labels": [],
         "isDraft": false,
         "additions": 256,
@@ -704,7 +704,7 @@
         "title": "feat(bedrock): add tool_runner support with message sanitization",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1107",
         "createdAt": "2025-12-26T12:32:07Z",
-        "daysOpen": 224,
+        "daysOpen": 225,
         "labels": [],
         "isDraft": false,
         "additions": 109,
@@ -994,6 +994,20 @@
         "assignees": []
       },
       {
+        "number": 1304,
+        "title": "fix: correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1304",
+        "createdAt": "2026-03-27T13:40:12Z",
+        "daysOpen": 134,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "nil957",
+        "assignees": []
+      },
+      {
         "number": 1306,
         "title": "fix(bedrock,vertex): add missing 413 and 529 status error handling",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1306",
@@ -1008,25 +1022,11 @@
         "assignees": []
       },
       {
-        "number": 1304,
-        "title": "fix: correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1304",
-        "createdAt": "2026-03-27T13:40:12Z",
-        "daysOpen": 133,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "nil957",
-        "assignees": []
-      },
-      {
         "number": 1308,
         "title": "fix: improve error message for malformed tool use JSON in streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1308",
         "createdAt": "2026-03-28T12:54:31Z",
-        "daysOpen": 132,
+        "daysOpen": 133,
         "labels": [],
         "isDraft": false,
         "additions": 6,
@@ -1348,7 +1348,7 @@
         "title": "fix(qs): preserve empty string query parameter values",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1554",
         "createdAt": "2026-05-16T14:19:01Z",
-        "daysOpen": 83,
+        "daysOpen": 84,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -1890,6 +1890,20 @@
         "assignees": []
       },
       {
+        "number": 1719,
+        "title": "fix(agent_toolset): grep tolerates extra model-supplied args",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1719",
+        "createdAt": "2026-06-30T13:55:27Z",
+        "daysOpen": 39,
+        "labels": [],
+        "isDraft": false,
+        "additions": 9,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "nadavshohat",
+        "assignees": []
+      },
+      {
         "number": 1714,
         "title": "fix: guard ParsedMessageStopEvent.message type to suppress Pydantic warnings",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1714",
@@ -1901,20 +1915,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "lizradway",
-        "assignees": []
-      },
-      {
-        "number": 1719,
-        "title": "fix(agent_toolset): grep tolerates extra model-supplied args",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1719",
-        "createdAt": "2026-06-30T13:55:27Z",
-        "daysOpen": 38,
-        "labels": [],
-        "isDraft": false,
-        "additions": 9,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "nadavshohat",
         "assignees": []
       },
       {
@@ -2369,8 +2369,8 @@
     "total_known": 383,
     "active_30d": 43,
     "first_time_30d": 35,
-    "retention_rate_pct": 15.8,
-    "churned_30d": 32,
+    "retention_rate_pct": 16.2,
+    "churned_30d": 31,
     "commits_per_week_avg": 9.5,
     "commits_per_week_trend": [
       7,
@@ -2975,9 +2975,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 2936198,
-    "last_week": 46555399,
-    "last_month": 187332619,
-    "total": 1077507591
+    "daily": 3436767,
+    "last_week": 47055968,
+    "last_month": 187833188,
+    "total": 1078008160
   }
 }
