@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-08T03:16:30.926Z",
+  "timestamp": "2026-08-08T04:46:01.844Z",
   "repository": {
     "stars": 3800,
     "forks": 799
@@ -264,7 +264,7 @@
         "title": "Container File Mounting",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1439",
         "createdAt": "2026-04-24T04:12:00Z",
-        "daysOpen": 105,
+        "daysOpen": 106,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -316,7 +316,7 @@
         "title": "[Bug] append_messages() inside tool runner loop causes infinite loop (advanced usage docs example)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1536",
         "createdAt": "2026-05-13T04:37:58Z",
-        "daysOpen": 86,
+        "daysOpen": 87,
         "labels": [],
         "commentCount": 4,
         "assignees": []
@@ -342,21 +342,11 @@
         "assignees": []
       },
       {
-        "number": 1619,
-        "title": "BUG: construct_type() crashes with ValueError when type_ is a bare dict",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1619",
-        "createdAt": "2026-05-31T22:47:14Z",
-        "daysOpen": 68,
-        "labels": [],
-        "commentCount": 1,
-        "assignees": []
-      },
-      {
         "number": 1626,
         "title": "BUG: construct_type() raises IndexError when called with bare unparameterized list",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1626",
         "createdAt": "2026-06-01T03:20:37Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -366,7 +356,17 @@
         "title": "IndexError on bare (unparameterized) dict annotation in _transform_recursive",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1628",
         "createdAt": "2026-06-01T03:26:51Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
+        "number": 1619,
+        "title": "BUG: construct_type() crashes with ValueError when type_ is a bare dict",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1619",
+        "createdAt": "2026-05-31T22:47:14Z",
+        "daysOpen": 68,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -436,7 +436,7 @@
         "title": "x-stainless-timeout header is NOT_GIVEN on default requests",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1676",
         "createdAt": "2026-06-14T04:31:59Z",
-        "daysOpen": 54,
+        "daysOpen": 55,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -816,7 +816,7 @@
         "title": "perf: skip no-op recursive transform for types without PropertyInfo",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1247",
         "createdAt": "2026-03-16T04:09:28Z",
-        "daysOpen": 144,
+        "daysOpen": 145,
         "labels": [],
         "isDraft": false,
         "additions": 89,
@@ -1152,7 +1152,7 @@
         "title": "fix: fire InputJsonEvent for server_tool_use blocks in streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1380",
         "createdAt": "2026-04-14T04:09:29Z",
-        "daysOpen": 115,
+        "daysOpen": 116,
         "labels": [],
         "isDraft": false,
         "additions": 133,
@@ -1166,7 +1166,7 @@
         "title": "fix: add missing content block types to ParsedContentBlock and ParsedBetaContentBlock",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1379",
         "createdAt": "2026-04-14T04:08:59Z",
-        "daysOpen": 115,
+        "daysOpen": 116,
         "labels": [],
         "isDraft": false,
         "additions": 140,
@@ -1232,6 +1232,20 @@
         "assignees": []
       },
       {
+        "number": 1474,
+        "title": "fix: read file contents when tuple file inputs use PathLike",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1474",
+        "createdAt": "2026-04-30T04:02:53Z",
+        "daysOpen": 100,
+        "labels": [],
+        "isDraft": false,
+        "additions": 32,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "jay-dhamale",
+        "assignees": []
+      },
+      {
         "number": 1479,
         "title": "fix(bedrock): unify streaming error handling for in-band and out-of-band errors",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1479",
@@ -1243,20 +1257,6 @@
         "deletions": 13,
         "reviewCount": 0,
         "author": "sevakva",
-        "assignees": []
-      },
-      {
-        "number": 1474,
-        "title": "fix: read file contents when tuple file inputs use PathLike",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1474",
-        "createdAt": "2026-04-30T04:02:53Z",
-        "daysOpen": 99,
-        "labels": [],
-        "isDraft": false,
-        "additions": 32,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "jay-dhamale",
         "assignees": []
       },
       {
@@ -1456,6 +1456,34 @@
         "assignees": []
       },
       {
+        "number": 1627,
+        "title": "fix(_models): guard against IndexError in construct_type for bare list",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1627",
+        "createdAt": "2026-06-01T03:21:06Z",
+        "daysOpen": 68,
+        "labels": [],
+        "isDraft": false,
+        "additions": 7,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "devteamaegis",
+        "assignees": []
+      },
+      {
+        "number": 1629,
+        "title": "fix(_transform): guard bare dict annotation to avoid IndexError",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1629",
+        "createdAt": "2026-06-01T03:27:01Z",
+        "daysOpen": 68,
+        "labels": [],
+        "isDraft": false,
+        "additions": 13,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "devteamaegis",
+        "assignees": []
+      },
+      {
         "number": 1625,
         "title": "test: cover indexed query array parameters",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1625",
@@ -1484,20 +1512,6 @@
         "assignees": []
       },
       {
-        "number": 1627,
-        "title": "fix(_models): guard against IndexError in construct_type for bare list",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1627",
-        "createdAt": "2026-06-01T03:21:06Z",
-        "daysOpen": 67,
-        "labels": [],
-        "isDraft": false,
-        "additions": 7,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "devteamaegis",
-        "assignees": []
-      },
-      {
         "number": 1636,
         "title": "Accept auth_token in AnthropicFoundry.__init__ so .copy() doesn't crash",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1636",
@@ -1509,20 +1523,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "Kymi808",
-        "assignees": []
-      },
-      {
-        "number": 1629,
-        "title": "fix(_transform): guard bare dict annotation to avoid IndexError",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1629",
-        "createdAt": "2026-06-01T03:27:01Z",
-        "daysOpen": 67,
-        "labels": [],
-        "isDraft": false,
-        "additions": 13,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "devteamaegis",
         "assignees": []
       },
       {
@@ -1694,25 +1694,11 @@
         "assignees": []
       },
       {
-        "number": 1673,
-        "title": "fix(client): treat empty-string env credentials as unset",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1673",
-        "createdAt": "2026-06-13T09:07:02Z",
-        "daysOpen": 55,
-        "labels": [],
-        "isDraft": false,
-        "additions": 32,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "Zawwarsami16",
-        "assignees": []
-      },
-      {
         "number": 1677,
         "title": "fix: resolve x-stainless-timeout when request timeout is NotGiven",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1677",
         "createdAt": "2026-06-14T04:32:06Z",
-        "daysOpen": 54,
+        "daysOpen": 55,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -1726,13 +1712,27 @@
         "title": "Fix: add missing .stream() method to Bedrock beta.messages",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1675",
         "createdAt": "2026-06-14T03:46:55Z",
-        "daysOpen": 54,
+        "daysOpen": 55,
         "labels": [],
         "isDraft": false,
         "additions": 2,
         "deletions": 0,
         "reviewCount": 0,
         "author": "ushaganeshdurai",
+        "assignees": []
+      },
+      {
+        "number": 1673,
+        "title": "fix(client): treat empty-string env credentials as unset",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1673",
+        "createdAt": "2026-06-13T09:07:02Z",
+        "daysOpen": 55,
+        "labels": [],
+        "isDraft": false,
+        "additions": 32,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "Zawwarsami16",
         "assignees": []
       },
       {
@@ -1960,6 +1960,20 @@
         "assignees": []
       },
       {
+        "number": 1741,
+        "title": "fix(bedrock): don't raise KeyError when signing requests lacking a connection header",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1741",
+        "createdAt": "2026-07-07T04:09:56Z",
+        "daysOpen": 32,
+        "labels": [],
+        "isDraft": false,
+        "additions": 39,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "sean-kim05",
+        "assignees": []
+      },
+      {
         "number": 1740,
         "title": "fix(streaming): emit input_json events for server_tool_use blocks",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1740",
@@ -2025,20 +2039,6 @@
         "isDraft": false,
         "additions": 78,
         "deletions": 1,
-        "reviewCount": 0,
-        "author": "sean-kim05",
-        "assignees": []
-      },
-      {
-        "number": 1741,
-        "title": "fix(bedrock): don't raise KeyError when signing requests lacking a connection header",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1741",
-        "createdAt": "2026-07-07T04:09:56Z",
-        "daysOpen": 31,
-        "labels": [],
-        "isDraft": false,
-        "additions": 39,
-        "deletions": 3,
         "reviewCount": 0,
         "author": "sean-kim05",
         "assignees": []
@@ -2184,6 +2184,20 @@
         "assignees": []
       },
       {
+        "number": 1777,
+        "title": "fix(bedrock): run async SigV4 auth off the event loop",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1777",
+        "createdAt": "2026-07-24T03:53:25Z",
+        "daysOpen": 15,
+        "labels": [],
+        "isDraft": false,
+        "additions": 54,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "Solaris-star",
+        "assignees": []
+      },
+      {
         "number": 1778,
         "title": "fix(jsonl): do not treat a lone CR as a line ending",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1778",
@@ -2195,20 +2209,6 @@
         "deletions": 16,
         "reviewCount": 0,
         "author": "hsusul",
-        "assignees": []
-      },
-      {
-        "number": 1777,
-        "title": "fix(bedrock): run async SigV4 auth off the event loop",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1777",
-        "createdAt": "2026-07-24T03:53:25Z",
-        "daysOpen": 14,
-        "labels": [],
-        "isDraft": false,
-        "additions": 54,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "Solaris-star",
         "assignees": []
       },
       {
@@ -2226,13 +2226,13 @@
         "assignees": []
       },
       {
-        "number": 1789,
-        "title": "fix(files): read PathLike content inside (filename, content) tuples (#1769)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1789",
-        "createdAt": "2026-07-30T16:16:20Z",
-        "daysOpen": 8,
+        "number": 1788,
+        "title": "Read PathLike inside (name, content) file tuples",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1788",
+        "createdAt": "2026-07-30T04:45:14Z",
+        "daysOpen": 9,
         "labels": [],
-        "isDraft": false,
+        "isDraft": true,
         "additions": 27,
         "deletions": 6,
         "reviewCount": 0,
@@ -2240,13 +2240,13 @@
         "assignees": []
       },
       {
-        "number": 1788,
-        "title": "Read PathLike inside (name, content) file tuples",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1788",
-        "createdAt": "2026-07-30T04:45:14Z",
+        "number": 1789,
+        "title": "fix(files): read PathLike content inside (filename, content) tuples (#1769)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1789",
+        "createdAt": "2026-07-30T16:16:20Z",
         "daysOpen": 8,
         "labels": [],
-        "isDraft": true,
+        "isDraft": false,
         "additions": 27,
         "deletions": 6,
         "reviewCount": 0,
@@ -2976,9 +2976,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 829117,
-    "last_week": 44448318,
-    "last_month": 185225538,
-    "total": 1075400510
+    "daily": 1146831,
+    "last_week": 44766032,
+    "last_month": 185543252,
+    "total": 1075718224
   }
 }
