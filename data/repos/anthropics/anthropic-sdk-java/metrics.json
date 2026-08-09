@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-09T14:25:51.824Z",
+  "timestamp": "2026-08-09T16:23:16.370Z",
   "repository": {
     "stars": 358,
     "forks": 92
@@ -37,7 +37,7 @@
         "title": "Make VertexBackend's baseUrl configurable",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/285",
         "createdAt": "2025-11-05T15:59:19Z",
-        "daysOpen": 276,
+        "daysOpen": 277,
         "labels": [
           "enhancement",
           "sdk"
@@ -92,7 +92,7 @@
     "open_count": 8,
     "merged_7d": 1,
     "merged_30d": 6,
-    "merged_90d": 31,
+    "merged_90d": 30,
     "opened_7d": 7,
     "opened_30d": 13,
     "opened_90d": 46,
@@ -100,7 +100,7 @@
     "draft_count": 0,
     "assigned_count": 0,
     "unassigned_count": 8,
-    "unassigned_24h": 5,
+    "unassigned_24h": 8,
     "unassigned_7d": 2,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -147,6 +147,48 @@
         "assignees": []
       },
       {
+        "number": 384,
+        "title": "docs(contributing): describe the mock server the scripts actually run",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/384",
+        "createdAt": "2026-08-08T14:36:52Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 15,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "jwcarman",
+        "assignees": []
+      },
+      {
+        "number": 383,
+        "title": "fix(messages): send an empty object when an accumulated tool_use has no input",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/383",
+        "createdAt": "2026-08-08T14:28:18Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 45,
+        "deletions": 5,
+        "reviewCount": 0,
+        "author": "jwcarman",
+        "assignees": []
+      },
+      {
+        "number": 382,
+        "title": "fix(messages): accumulate an empty tool_use input as {} rather than missing",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/382",
+        "createdAt": "2026-08-08T14:28:16Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 34,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "jwcarman",
+        "assignees": []
+      },
+      {
         "number": 380,
         "title": "fix(messages): make Message.toParam() produce a readable role",
         "url": "https://github.com/anthropics/anthropic-sdk-java/pull/380",
@@ -175,55 +217,13 @@
         "reviewCount": 0,
         "author": "stainless-app",
         "assignees": []
-      },
-      {
-        "number": 384,
-        "title": "docs(contributing): describe the mock server the scripts actually run",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/384",
-        "createdAt": "2026-08-08T14:36:52Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 15,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "jwcarman",
-        "assignees": []
-      },
-      {
-        "number": 383,
-        "title": "fix(messages): send an empty object when an accumulated tool_use has no input",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/383",
-        "createdAt": "2026-08-08T14:28:18Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 45,
-        "deletions": 5,
-        "reviewCount": 0,
-        "author": "jwcarman",
-        "assignees": []
-      },
-      {
-        "number": 382,
-        "title": "fix(messages): accumulate an empty tool_use input as {} rather than missing",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/382",
-        "createdAt": "2026-08-08T14:28:16Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 34,
-        "deletions": 8,
-        "reviewCount": 0,
-        "author": "jwcarman",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 42.7,
-      "median_hours": 2.8,
-      "p90_hours": 104.7,
-      "p95_hours": 167.4
+      "avg_hours": 41,
+      "median_hours": 2.7,
+      "p90_hours": 109,
+      "p95_hours": 169.3
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -232,11 +232,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 43.2,
-      "median_hours": 4.1
+      "avg_hours": 41.5,
+      "median_hours": 3.4
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 26.2,
+    "rejection_rate_pct": 26.8,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 7,
@@ -327,23 +327,23 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 30,
-        "total_changes": 64
+        "pr_count": 29,
+        "total_changes": 60
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 29,
-        "total_changes": 384
+        "pr_count": 28,
+        "total_changes": 369
       },
       {
         "path": "README.md",
-        "pr_count": 29,
-        "total_changes": 116
+        "pr_count": 28,
+        "total_changes": 112
       },
       {
         "path": "build.gradle.kts",
-        "pr_count": 29,
-        "total_changes": 89
+        "pr_count": 28,
+        "total_changes": 87
       },
       {
         "path": ".stats.yml",
@@ -429,7 +429,7 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 30,
+        "pr_count": 29,
         "file_count": 13
       },
       {
