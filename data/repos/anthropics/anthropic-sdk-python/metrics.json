@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-09T08:29:56.227Z",
+  "timestamp": "2026-08-09T10:22:30.445Z",
   "repository": {
     "stars": 3802,
     "forks": 800
@@ -274,7 +274,7 @@
         "title": "`BetaCitationPageLocation` contains `file_id` that cannot be roundtripped as a request",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1450",
         "createdAt": "2026-04-26T08:36:44Z",
-        "daysOpen": 104,
+        "daysOpen": 105,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -466,7 +466,7 @@
         "title": "[BUG] MCP connector: parallel mcp_tool_use calls stall ~300s per turn; one call per batch runs twice",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1747",
         "createdAt": "2026-07-09T09:27:48Z",
-        "daysOpen": 30,
+        "daysOpen": 31,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -618,7 +618,7 @@
         "title": "[Fix] Add missing error mappings to Vertex AI client",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1015",
         "createdAt": "2025-08-15T09:40:48Z",
-        "daysOpen": 358,
+        "daysOpen": 359,
         "labels": [],
         "isDraft": false,
         "additions": 6,
@@ -1194,7 +1194,7 @@
         "title": "fix(streaming): fire BetaInputJsonEvent for server_tool_use blocks",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1446",
         "createdAt": "2026-04-25T09:53:07Z",
-        "daysOpen": 105,
+        "daysOpen": 106,
         "labels": [],
         "isDraft": false,
         "additions": 8,
@@ -1208,7 +1208,7 @@
         "title": "fix(streaming): propagate message_delta.container into final Message",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1444",
         "createdAt": "2026-04-25T09:46:31Z",
-        "daysOpen": 105,
+        "daysOpen": 106,
         "labels": [],
         "isDraft": false,
         "additions": 59,
@@ -1222,13 +1222,27 @@
         "title": "fix: repoint outdated long-requests doc link in streaming-required error",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1443",
         "createdAt": "2026-04-25T09:37:12Z",
-        "daysOpen": 105,
+        "daysOpen": 106,
         "labels": [],
         "isDraft": false,
         "additions": 1,
         "deletions": 1,
         "reviewCount": 0,
         "author": "abhicris",
+        "assignees": []
+      },
+      {
+        "number": 1479,
+        "title": "fix(bedrock): unify streaming error handling for in-band and out-of-band errors",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1479",
+        "createdAt": "2026-04-30T09:24:06Z",
+        "daysOpen": 101,
+        "labels": [],
+        "isDraft": false,
+        "additions": 562,
+        "deletions": 13,
+        "reviewCount": 0,
+        "author": "sevakva",
         "assignees": []
       },
       {
@@ -1246,25 +1260,11 @@
         "assignees": []
       },
       {
-        "number": 1479,
-        "title": "fix(bedrock): unify streaming error handling for in-band and out-of-band errors",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1479",
-        "createdAt": "2026-04-30T09:24:06Z",
-        "daysOpen": 100,
-        "labels": [],
-        "isDraft": false,
-        "additions": 562,
-        "deletions": 13,
-        "reviewCount": 0,
-        "author": "sevakva",
-        "assignees": []
-      },
-      {
         "number": 1520,
         "title": "chore(examples): bump workload_identity.py to claude-opus-5",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1520",
         "createdAt": "2026-05-08T08:52:47Z",
-        "daysOpen": 92,
+        "daysOpen": 93,
         "labels": [],
         "isDraft": false,
         "additions": 4,
@@ -1428,6 +1428,20 @@
         "assignees": []
       },
       {
+        "number": 1595,
+        "title": "ci: migrate claude.yml to Workload Identity Federation auth",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1595",
+        "createdAt": "2026-05-23T08:36:27Z",
+        "daysOpen": 78,
+        "labels": [],
+        "isDraft": false,
+        "additions": 8,
+        "deletions": 2,
+        "reviewCount": 1,
+        "author": "zenexer-ant",
+        "assignees": []
+      },
+      {
         "number": 1594,
         "title": "fix: allow both append_messages and generate_tool_call_response in tool runner loop",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1594",
@@ -1439,20 +1453,6 @@
         "deletions": 11,
         "reviewCount": 0,
         "author": "AliSharjeell",
-        "assignees": []
-      },
-      {
-        "number": 1595,
-        "title": "ci: migrate claude.yml to Workload Identity Federation auth",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1595",
-        "createdAt": "2026-05-23T08:36:27Z",
-        "daysOpen": 77,
-        "labels": [],
-        "isDraft": false,
-        "additions": 8,
-        "deletions": 2,
-        "reviewCount": 1,
-        "author": "zenexer-ant",
         "assignees": []
       },
       {
@@ -1680,6 +1680,20 @@
         "assignees": []
       },
       {
+        "number": 1673,
+        "title": "fix(client): treat empty-string env credentials as unset",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1673",
+        "createdAt": "2026-06-13T09:07:02Z",
+        "daysOpen": 57,
+        "labels": [],
+        "isDraft": false,
+        "additions": 32,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "Zawwarsami16",
+        "assignees": []
+      },
+      {
         "number": 1672,
         "title": "fix(client): handle bare dict/list annotations in construct_type and transform",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1672",
@@ -1719,20 +1733,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "ushaganeshdurai",
-        "assignees": []
-      },
-      {
-        "number": 1673,
-        "title": "fix(client): treat empty-string env credentials as unset",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1673",
-        "createdAt": "2026-06-13T09:07:02Z",
-        "daysOpen": 56,
-        "labels": [],
-        "isDraft": false,
-        "additions": 32,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "Zawwarsami16",
         "assignees": []
       },
       {
@@ -3003,9 +3003,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 1794283,
-    "last_week": 46776469,
-    "last_month": 186225083,
-    "total": 1082206614
+    "daily": 2219290,
+    "last_week": 47201476,
+    "last_month": 186650090,
+    "total": 1082631621
   }
 }
