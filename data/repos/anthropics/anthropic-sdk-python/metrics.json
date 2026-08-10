@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T20:30:59.359Z",
+  "timestamp": "2026-08-10T22:26:31.762Z",
   "repository": {
     "stars": 3808,
     "forks": 803
@@ -230,6 +230,16 @@
         "assignees": []
       },
       {
+        "number": 1421,
+        "title": "BetaInputJsonEvent not fired for server_tool_use blocks during streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1421",
+        "createdAt": "2026-04-20T21:13:04Z",
+        "daysOpen": 112,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1424,
         "title": "`get_final_message()` does not propagate `message_delta.container` into aggregated Message (breaks code_execution continuation)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1424",
@@ -247,16 +257,6 @@
         "daysOpen": 111,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1421,
-        "title": "BetaInputJsonEvent not fired for server_tool_use blocks during streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1421",
-        "createdAt": "2026-04-20T21:13:04Z",
-        "daysOpen": 111,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -613,7 +613,7 @@
     "label_coverage_pct": 16.4,
     "unlabeled_count": 46,
     "stale_30d": 34,
-    "stale_60d": 20,
+    "stale_60d": 22,
     "stale_90d": 14,
     "reopen_rate": 0
   },
@@ -623,13 +623,13 @@
     "merged_30d": 13,
     "merged_90d": 38,
     "opened_7d": 20,
-    "opened_30d": 49,
+    "opened_30d": 48,
     "opened_90d": 183,
     "closed_not_merged_90d": 138,
     "draft_count": 4,
     "assigned_count": 0,
     "unassigned_count": 130,
-    "unassigned_24h": 121,
+    "unassigned_24h": 122,
     "unassigned_7d": 114,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -680,7 +680,7 @@
         "title": "Accumulate extra pydantic fields from the sample event",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1070",
         "createdAt": "2025-11-13T21:29:26Z",
-        "daysOpen": 269,
+        "daysOpen": 270,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -1382,7 +1382,7 @@
         "title": "fix(bedrock): preserve aws_profile in copied clients",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1556",
         "createdAt": "2026-05-16T20:50:53Z",
-        "daysOpen": 85,
+        "daysOpen": 86,
         "labels": [],
         "isDraft": false,
         "additions": 33,
@@ -1420,6 +1420,20 @@
         "assignees": []
       },
       {
+        "number": 1563,
+        "title": "fix(streaming): wrap from_json in try/except in non-beta message streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1563",
+        "createdAt": "2026-05-18T21:11:45Z",
+        "daysOpen": 84,
+        "labels": [],
+        "isDraft": false,
+        "additions": 6,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "rmotgi1227",
+        "assignees": []
+      },
+      {
         "number": 1570,
         "title": "fix(streaming): guard against out-of-bounds content index; fix BetaAsyncAbstractMemoryTool docstring",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1570",
@@ -1429,20 +1443,6 @@
         "isDraft": false,
         "additions": 25,
         "deletions": 11,
-        "reviewCount": 0,
-        "author": "rmotgi1227",
-        "assignees": []
-      },
-      {
-        "number": 1563,
-        "title": "fix(streaming): wrap from_json in try/except in non-beta message streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1563",
-        "createdAt": "2026-05-18T21:11:45Z",
-        "daysOpen": 83,
-        "labels": [],
-        "isDraft": false,
-        "additions": 6,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "rmotgi1227",
         "assignees": []
@@ -1644,6 +1644,20 @@
         "assignees": []
       },
       {
+        "number": 1659,
+        "title": "fix: handle bare container types",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1659",
+        "createdAt": "2026-06-06T22:21:55Z",
+        "daysOpen": 65,
+        "labels": [],
+        "isDraft": false,
+        "additions": 32,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "ynachiket",
+        "assignees": []
+      },
+      {
         "number": 1656,
         "title": "fix: omit empty comma array query params",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1656",
@@ -1653,20 +1667,6 @@
         "isDraft": false,
         "additions": 7,
         "deletions": 6,
-        "reviewCount": 0,
-        "author": "ynachiket",
-        "assignees": []
-      },
-      {
-        "number": 1659,
-        "title": "fix: handle bare container types",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1659",
-        "createdAt": "2026-06-06T22:21:55Z",
-        "daysOpen": 64,
-        "labels": [],
-        "isDraft": false,
-        "additions": 32,
-        "deletions": 2,
         "reviewCount": 0,
         "author": "ynachiket",
         "assignees": []
@@ -2106,6 +2106,20 @@
         "assignees": []
       },
       {
+        "number": 1753,
+        "title": "fix(session runner): retry the sub-thread tool_use commit-race 400 instead of stranding (#1744)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1753",
+        "createdAt": "2026-07-11T20:45:45Z",
+        "daysOpen": 30,
+        "labels": [],
+        "isDraft": false,
+        "additions": 109,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "nadavshohat",
+        "assignees": []
+      },
+      {
         "number": 1752,
         "title": "fix(agent_toolset): reject non-regular files in the `write` tool instead of hanging on a FIFO",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1752",
@@ -2117,20 +2131,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "roli-lpci",
-        "assignees": []
-      },
-      {
-        "number": 1753,
-        "title": "fix(session runner): retry the sub-thread tool_use commit-race 400 instead of stranding (#1744)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1753",
-        "createdAt": "2026-07-11T20:45:45Z",
-        "daysOpen": 29,
-        "labels": [],
-        "isDraft": false,
-        "additions": 109,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "nadavshohat",
         "assignees": []
       },
       {
@@ -2302,6 +2302,20 @@
         "assignees": []
       },
       {
+        "number": 1805,
+        "title": "Resolve helper executables via a safe PATH lookup (never the working directory)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1805",
+        "createdAt": "2026-08-05T22:22:31Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": true,
+        "additions": 1296,
+        "deletions": 20,
+        "reviewCount": 0,
+        "author": "seanyeoh-ant",
+        "assignees": []
+      },
+      {
         "number": 1802,
         "title": "fix(streaming): accumulate container from message_delta in non-beta helper",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1802",
@@ -2313,20 +2327,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "Joon-June",
-        "assignees": []
-      },
-      {
-        "number": 1805,
-        "title": "Resolve helper executables via a safe PATH lookup (never the working directory)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1805",
-        "createdAt": "2026-08-05T22:22:31Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": true,
-        "additions": 1296,
-        "deletions": 20,
-        "reviewCount": 0,
-        "author": "seanyeoh-ant",
         "assignees": []
       },
       {
@@ -2360,6 +2360,20 @@
         "assignees": []
       },
       {
+        "number": 1815,
+        "title": "fix(streaming): initialize usage when message_start omits it",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1815",
+        "createdAt": "2026-08-09T22:19:22Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 115,
+        "deletions": 26,
+        "reviewCount": 0,
+        "author": "chenlichao",
+        "assignees": []
+      },
+      {
         "number": 1813,
         "title": "fix: support list-form JSON schema types",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1813",
@@ -2385,20 +2399,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "nightcityblade",
-        "assignees": []
-      },
-      {
-        "number": 1815,
-        "title": "fix(streaming): initialize usage when message_start omits it",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1815",
-        "createdAt": "2026-08-09T22:19:22Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 115,
-        "deletions": 26,
-        "reviewCount": 0,
-        "author": "chenlichao",
         "assignees": []
       },
       {
@@ -2485,10 +2485,10 @@
   },
   "contributors": {
     "total_known": 388,
-    "active_30d": 44,
+    "active_30d": 43,
     "first_time_30d": 36,
-    "retention_rate_pct": 15,
-    "churned_30d": 34,
+    "retention_rate_pct": 12.5,
+    "churned_30d": 35,
     "commits_per_week_avg": 9.5,
     "commits_per_week_trend": [
       7,
@@ -2920,7 +2920,6 @@
       "kilanassah",
       "l1ve709",
       "maxisbey",
-      "nadavshohat",
       "nightcityblade",
       "percymcn",
       "peterlundberg",
@@ -3099,9 +3098,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 6395482,
-    "last_week": 49408427,
-    "last_month": 192360773,
-    "total": 1092204337
+    "daily": 7109730,
+    "last_week": 50122675,
+    "last_month": 193075021,
+    "total": 1092918585
   }
 }
