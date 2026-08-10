@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-08-10T09:06:42.288Z",
+  "timestamp": "2026-08-10T10:57:16.506Z",
   "repository": {
     "stars": 3806,
-    "forks": 802
+    "forks": 803
   },
   "issues": {
-    "open_count": 54,
+    "open_count": 55,
     "closed_7d": 97,
     "closed_30d": 98,
     "closed_90d": 111,
-    "opened_7d": 5,
-    "opened_30d": 17,
-    "opened_90d": 66,
+    "opened_7d": 6,
+    "opened_30d": 18,
+    "opened_90d": 67,
     "assigned_count": 1,
-    "unassigned_count": 53,
+    "unassigned_count": 54,
     "unassigned_24h": 52,
     "unassigned_7d": 50,
     "unassigned_30d": 43,
@@ -466,7 +466,7 @@
         "title": "[BUG] MCP connector: parallel mcp_tool_use calls stall ~300s per turn; one call per batch runs twice",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1747",
         "createdAt": "2026-07-09T09:27:48Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -572,6 +572,16 @@
         "assignees": []
       },
       {
+        "number": 1819,
+        "title": "output_config.format cannot take the pydantic model that output_format deprecates, and the dict workaround silently skips transform_schema",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1819",
+        "createdAt": "2026-08-10T10:02:49Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1817,
         "title": "transform_schema empties a patternProperties map: field can only ever be {}",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1817",
@@ -600,8 +610,8 @@
       "median_days": 100.1,
       "p90_days": 477.2
     },
-    "label_coverage_pct": 16.7,
-    "unlabeled_count": 45,
+    "label_coverage_pct": 16.4,
+    "unlabeled_count": 46,
     "stale_30d": 34,
     "stale_60d": 20,
     "stale_90d": 14,
@@ -628,7 +638,7 @@
         "title": "[Fix] Add missing error mappings to Vertex AI client",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1015",
         "createdAt": "2025-08-15T09:40:48Z",
-        "daysOpen": 359,
+        "daysOpen": 360,
         "labels": [],
         "isDraft": false,
         "additions": 6,
@@ -1204,7 +1214,7 @@
         "title": "fix(streaming): fire BetaInputJsonEvent for server_tool_use blocks",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1446",
         "createdAt": "2026-04-25T09:53:07Z",
-        "daysOpen": 106,
+        "daysOpen": 107,
         "labels": [],
         "isDraft": false,
         "additions": 8,
@@ -1218,7 +1228,7 @@
         "title": "fix(streaming): propagate message_delta.container into final Message",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1444",
         "createdAt": "2026-04-25T09:46:31Z",
-        "daysOpen": 106,
+        "daysOpen": 107,
         "labels": [],
         "isDraft": false,
         "additions": 59,
@@ -1232,13 +1242,27 @@
         "title": "fix: repoint outdated long-requests doc link in streaming-required error",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1443",
         "createdAt": "2026-04-25T09:37:12Z",
-        "daysOpen": 106,
+        "daysOpen": 107,
         "labels": [],
         "isDraft": false,
         "additions": 1,
         "deletions": 1,
         "reviewCount": 0,
         "author": "abhicris",
+        "assignees": []
+      },
+      {
+        "number": 1479,
+        "title": "fix(bedrock): unify streaming error handling for in-band and out-of-band errors",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1479",
+        "createdAt": "2026-04-30T09:24:06Z",
+        "daysOpen": 102,
+        "labels": [],
+        "isDraft": false,
+        "additions": 562,
+        "deletions": 13,
+        "reviewCount": 0,
+        "author": "sevakva",
         "assignees": []
       },
       {
@@ -1253,20 +1277,6 @@
         "deletions": 6,
         "reviewCount": 0,
         "author": "jay-dhamale",
-        "assignees": []
-      },
-      {
-        "number": 1479,
-        "title": "fix(bedrock): unify streaming error handling for in-band and out-of-band errors",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1479",
-        "createdAt": "2026-04-30T09:24:06Z",
-        "daysOpen": 101,
-        "labels": [],
-        "isDraft": false,
-        "additions": 562,
-        "deletions": 13,
-        "reviewCount": 0,
-        "author": "sevakva",
         "assignees": []
       },
       {
@@ -1634,6 +1644,20 @@
         "assignees": []
       },
       {
+        "number": 1656,
+        "title": "fix: omit empty comma array query params",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1656",
+        "createdAt": "2026-06-06T10:24:49Z",
+        "daysOpen": 65,
+        "labels": [],
+        "isDraft": false,
+        "additions": 7,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "ynachiket",
+        "assignees": []
+      },
+      {
         "number": 1659,
         "title": "fix: handle bare container types",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1659",
@@ -1648,17 +1672,17 @@
         "assignees": []
       },
       {
-        "number": 1656,
-        "title": "fix: omit empty comma array query params",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1656",
-        "createdAt": "2026-06-06T10:24:49Z",
-        "daysOpen": 64,
+        "number": 1663,
+        "title": "perf(streaming): skip build_events and use O(1) buffers on get_final_message drain path",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1663",
+        "createdAt": "2026-06-08T10:47:44Z",
+        "daysOpen": 63,
         "labels": [],
         "isDraft": false,
-        "additions": 7,
-        "deletions": 6,
+        "additions": 114,
+        "deletions": 8,
         "reviewCount": 0,
-        "author": "ynachiket",
+        "author": "buddywhitman",
         "assignees": []
       },
       {
@@ -1676,17 +1700,17 @@
         "assignees": []
       },
       {
-        "number": 1663,
-        "title": "perf(streaming): skip build_events and use O(1) buffers on get_final_message drain path",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1663",
-        "createdAt": "2026-06-08T10:47:44Z",
-        "daysOpen": 62,
+        "number": 1673,
+        "title": "fix(client): treat empty-string env credentials as unset",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1673",
+        "createdAt": "2026-06-13T09:07:02Z",
+        "daysOpen": 58,
         "labels": [],
         "isDraft": false,
-        "additions": 114,
-        "deletions": 8,
+        "additions": 32,
+        "deletions": 4,
         "reviewCount": 0,
-        "author": "buddywhitman",
+        "author": "Zawwarsami16",
         "assignees": []
       },
       {
@@ -1729,20 +1753,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "ushaganeshdurai",
-        "assignees": []
-      },
-      {
-        "number": 1673,
-        "title": "fix(client): treat empty-string env credentials as unset",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1673",
-        "createdAt": "2026-06-13T09:07:02Z",
-        "daysOpen": 57,
-        "labels": [],
-        "isDraft": false,
-        "additions": 32,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "Zawwarsami16",
         "assignees": []
       },
       {
@@ -3060,9 +3070,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 2459733,
-    "last_week": 45472678,
-    "last_month": 188425024,
-    "total": 1088268588
+    "daily": 3122517,
+    "last_week": 46135462,
+    "last_month": 189087808,
+    "total": 1088931372
   }
 }
