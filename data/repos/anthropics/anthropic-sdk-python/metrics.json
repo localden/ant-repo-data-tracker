@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-10T07:08:38.115Z",
+  "timestamp": "2026-08-10T09:06:42.288Z",
   "repository": {
     "stars": 3806,
     "forks": 802
@@ -76,7 +76,7 @@
         "title": "tools.0.web_search_20250305: Country code SG is not supported",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/995",
         "createdAt": "2025-07-17T07:35:24Z",
-        "daysOpen": 388,
+        "daysOpen": 389,
         "labels": [
           "api"
         ],
@@ -270,6 +270,16 @@
         "assignees": []
       },
       {
+        "number": 1450,
+        "title": "`BetaCitationPageLocation` contains `file_id` that cannot be roundtripped as a request",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1450",
+        "createdAt": "2026-04-26T08:36:44Z",
+        "daysOpen": 106,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
         "number": 1454,
         "title": "ToolUseBlock and ToolUseBlockParam type conflict for caller nullability",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1454",
@@ -280,21 +290,11 @@
         "assignees": []
       },
       {
-        "number": 1450,
-        "title": "`BetaCitationPageLocation` contains `file_id` that cannot be roundtripped as a request",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1450",
-        "createdAt": "2026-04-26T08:36:44Z",
-        "daysOpen": 105,
-        "labels": [],
-        "commentCount": 2,
-        "assignees": []
-      },
-      {
         "number": 1477,
         "title": "Bedrock streaming SSE events errors are not handled gracefully",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1477",
         "createdAt": "2026-04-30T08:14:00Z",
-        "daysOpen": 101,
+        "daysOpen": 102,
         "labels": [
           "bedrock"
         ],
@@ -486,7 +486,7 @@
         "title": "Consider migrating from httpx to httpx2",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1755",
         "createdAt": "2026-07-13T07:14:18Z",
-        "daysOpen": 27,
+        "daysOpen": 28,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -1274,13 +1274,41 @@
         "title": "chore(examples): bump workload_identity.py to claude-opus-5",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1520",
         "createdAt": "2026-05-08T08:52:47Z",
-        "daysOpen": 93,
+        "daysOpen": 94,
         "labels": [],
         "isDraft": false,
         "additions": 4,
         "deletions": 3,
         "reviewCount": 0,
         "author": "lucky-verma",
+        "assignees": []
+      },
+      {
+        "number": 1544,
+        "title": "fix(bedrock,vertex): map 413/529 to typed exceptions, matching canonical client",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1544",
+        "createdAt": "2026-05-14T08:06:19Z",
+        "daysOpen": 88,
+        "labels": [],
+        "isDraft": false,
+        "additions": 85,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "Zawwarsami16",
+        "assignees": []
+      },
+      {
+        "number": 1543,
+        "title": "fix(tools): percent-decode filename in mcp_resource_to_file",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1543",
+        "createdAt": "2026-05-14T07:55:39Z",
+        "daysOpen": 88,
+        "labels": [],
+        "isDraft": false,
+        "additions": 36,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "Zawwarsami16",
         "assignees": []
       },
       {
@@ -1309,34 +1337,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "0xdeadd",
-        "assignees": []
-      },
-      {
-        "number": 1544,
-        "title": "fix(bedrock,vertex): map 413/529 to typed exceptions, matching canonical client",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1544",
-        "createdAt": "2026-05-14T08:06:19Z",
-        "daysOpen": 87,
-        "labels": [],
-        "isDraft": false,
-        "additions": 85,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "Zawwarsami16",
-        "assignees": []
-      },
-      {
-        "number": 1543,
-        "title": "fix(tools): percent-decode filename in mcp_resource_to_file",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1543",
-        "createdAt": "2026-05-14T07:55:39Z",
-        "daysOpen": 87,
-        "labels": [],
-        "isDraft": false,
-        "additions": 36,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "Zawwarsami16",
         "assignees": []
       },
       {
@@ -1438,6 +1438,20 @@
         "assignees": []
       },
       {
+        "number": 1595,
+        "title": "ci: migrate claude.yml to Workload Identity Federation auth",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1595",
+        "createdAt": "2026-05-23T08:36:27Z",
+        "daysOpen": 79,
+        "labels": [],
+        "isDraft": false,
+        "additions": 8,
+        "deletions": 2,
+        "reviewCount": 1,
+        "author": "zenexer-ant",
+        "assignees": []
+      },
+      {
         "number": 1594,
         "title": "fix: allow both append_messages and generate_tool_call_response in tool runner loop",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1594",
@@ -1449,20 +1463,6 @@
         "deletions": 11,
         "reviewCount": 0,
         "author": "AliSharjeell",
-        "assignees": []
-      },
-      {
-        "number": 1595,
-        "title": "ci: migrate claude.yml to Workload Identity Federation auth",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1595",
-        "createdAt": "2026-05-23T08:36:27Z",
-        "daysOpen": 78,
-        "labels": [],
-        "isDraft": false,
-        "additions": 8,
-        "deletions": 2,
-        "reviewCount": 1,
-        "author": "zenexer-ant",
         "assignees": []
       },
       {
@@ -2264,25 +2264,11 @@
         "assignees": []
       },
       {
-        "number": 1802,
-        "title": "fix(streaming): accumulate container from message_delta in non-beta helper",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1802",
-        "createdAt": "2026-08-05T07:01:05Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 48,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "Joon-June",
-        "assignees": []
-      },
-      {
         "number": 1798,
         "title": "fix(client): remove unsafe `__del__` method from AsyncHttpxClientWrapper",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1798",
         "createdAt": "2026-08-04T07:26:07Z",
-        "daysOpen": 5,
+        "daysOpen": 6,
         "labels": [],
         "isDraft": false,
         "additions": 1,
@@ -2296,13 +2282,27 @@
         "title": "fix(streaming): resolve unchecked content block index and type safety issues",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1797",
         "createdAt": "2026-08-04T07:25:58Z",
-        "daysOpen": 5,
+        "daysOpen": 6,
         "labels": [],
         "isDraft": false,
         "additions": 16,
         "deletions": 14,
         "reviewCount": 0,
         "author": "vjaudir8123-debug",
+        "assignees": []
+      },
+      {
+        "number": 1802,
+        "title": "fix(streaming): accumulate container from message_delta in non-beta helper",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1802",
+        "createdAt": "2026-08-05T07:01:05Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 48,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "Joon-June",
         "assignees": []
       },
       {
@@ -3060,9 +3060,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 1805923,
-    "last_week": 44818868,
-    "last_month": 187771214,
-    "total": 1087614778
+    "daily": 2459733,
+    "last_week": 45472678,
+    "last_month": 188425024,
+    "total": 1088268588
   }
 }
