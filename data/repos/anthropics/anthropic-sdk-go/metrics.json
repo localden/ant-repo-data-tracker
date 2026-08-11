@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-11T00:55:17.866Z",
+  "timestamp": "2026-08-11T04:58:56.800Z",
   "repository": {
     "stars": 1170,
     "forks": 203
@@ -14,7 +14,7 @@
     "opened_90d": 21,
     "assigned_count": 0,
     "unassigned_count": 19,
-    "unassigned_24h": 18,
+    "unassigned_24h": 19,
     "unassigned_7d": 16,
     "unassigned_30d": 13,
     "assigned_issues": [],
@@ -118,7 +118,7 @@
         "title": "Feature request: AWS / client-auth mode for lib/environments self-hosted worker",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/366",
         "createdAt": "2026-06-18T03:39:39Z",
-        "daysOpen": 53,
+        "daysOpen": 54,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -194,6 +194,16 @@
         "assignees": []
       },
       {
+        "number": 410,
+        "title": "transformSchema: a zeroed subschema leaks out of properties/items/additionalProperties/$defs as the literal `true` (the anyOf guard covers only anyOf)",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/410",
+        "createdAt": "2026-08-10T04:37:34Z",
+        "daysOpen": 1,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 409,
         "title": "transformSchema: pointer-typed keywords (maxLength, minLength, maxItems, …) are demoted to description as memory addresses",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/409",
@@ -201,16 +211,6 @@
         "daysOpen": 1,
         "labels": [],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 410,
-        "title": "transformSchema: a zeroed subschema leaks out of properties/items/additionalProperties/$defs as the literal `true` (the anyOf guard covers only anyOf)",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/410",
-        "createdAt": "2026-08-10T04:37:34Z",
-        "daysOpen": 0,
-        "labels": [],
-        "commentCount": 1,
         "assignees": []
       }
     ],
@@ -326,7 +326,7 @@
         "title": "Bugfix: missing adaptive union register which cause unmarshal field missing.",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/293",
         "createdAt": "2026-03-14T04:20:16Z",
-        "daysOpen": 149,
+        "daysOpen": 150,
         "labels": [],
         "isDraft": false,
         "additions": 2,
@@ -410,13 +410,27 @@
         "title": "fix: double-encode text_editor_code_execution_tool_result content in ToParam()",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/356",
         "createdAt": "2026-06-02T02:50:59Z",
-        "daysOpen": 69,
+        "daysOpen": 70,
         "labels": [],
         "isDraft": false,
         "additions": 124,
         "deletions": 2,
         "reviewCount": 0,
         "author": "toller892",
+        "assignees": []
+      },
+      {
+        "number": 360,
+        "title": "fix: preserve text editor code result content JSON",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/360",
+        "createdAt": "2026-06-07T03:36:49Z",
+        "daysOpen": 65,
+        "labels": [],
+        "isDraft": false,
+        "additions": 70,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zhang-986",
         "assignees": []
       },
       {
@@ -428,20 +442,6 @@
         "labels": [],
         "isDraft": false,
         "additions": 273,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zhang-986",
-        "assignees": []
-      },
-      {
-        "number": 360,
-        "title": "fix: preserve text editor code result content JSON",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/360",
-        "createdAt": "2026-06-07T03:36:49Z",
-        "daysOpen": 64,
-        "labels": [],
-        "isDraft": false,
-        "additions": 70,
         "deletions": 2,
         "reviewCount": 0,
         "author": "Zhang-986",
