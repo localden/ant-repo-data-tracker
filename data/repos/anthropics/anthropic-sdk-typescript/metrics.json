@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-11T16:47:08.787Z",
+  "timestamp": "2026-08-11T18:46:26.822Z",
   "repository": {
-    "stars": 2075,
+    "stars": 2076,
     "forks": 380
   },
   "issues": {
     "open_count": 17,
-    "closed_7d": 47,
+    "closed_7d": 46,
     "closed_30d": 48,
     "closed_90d": 54,
     "opened_7d": 1,
@@ -24,7 +24,7 @@
         "title": "Models list for the Bedrock SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/704",
         "createdAt": "2025-03-02T17:50:28Z",
-        "daysOpen": 526,
+        "daysOpen": 527,
         "labels": [
           "code-change"
         ],
@@ -85,7 +85,7 @@
         "title": "Bug: `toolRunner` does not propagate `container.id` across iterations, and `setMessagesParams` causes duplicate tool call loops",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/964",
         "createdAt": "2026-03-30T17:38:48Z",
-        "daysOpen": 133,
+        "daysOpen": 134,
         "labels": [
           "bug",
           "code-change"
@@ -98,7 +98,7 @@
         "title": "partialParse in _vendor/partial-json-parser crashes on invalid JSON escape sequences from model output",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/986",
         "createdAt": "2026-04-09T18:42:59Z",
-        "daysOpen": 123,
+        "daysOpen": 124,
         "labels": [
           "code-change"
         ],
@@ -110,7 +110,7 @@
         "title": "[Vertex] anthropic-beta header forwarded to countTokens fallback fails on lagging model backends",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1016",
         "createdAt": "2026-04-27T18:10:36Z",
-        "daysOpen": 105,
+        "daysOpen": 106,
         "labels": [
           "code-change"
         ],
@@ -237,7 +237,7 @@
     "open_count": 32,
     "merged_7d": 1,
     "merged_30d": 12,
-    "merged_90d": 34,
+    "merged_90d": 33,
     "opened_7d": 6,
     "opened_30d": 24,
     "opened_90d": 83,
@@ -556,6 +556,20 @@
         "assignees": []
       },
       {
+        "number": 1080,
+        "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
+        "createdAt": "2026-06-04T17:26:33Z",
+        "daysOpen": 68,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "yen0304",
+        "assignees": []
+      },
+      {
         "number": 1081,
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
@@ -570,25 +584,11 @@
         "assignees": []
       },
       {
-        "number": 1080,
-        "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
-        "createdAt": "2026-06-04T17:26:33Z",
-        "daysOpen": 67,
-        "labels": [],
-        "isDraft": false,
-        "additions": 4,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "yen0304",
-        "assignees": []
-      },
-      {
         "number": 1100,
         "title": "fix: honor request timeout for long non-streaming messages",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1100",
         "createdAt": "2026-06-24T17:16:06Z",
-        "daysOpen": 47,
+        "daysOpen": 48,
         "labels": [],
         "isDraft": false,
         "additions": 44,
@@ -705,8 +705,8 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 1247,
-        "deletions": 111,
+        "additions": 1551,
+        "deletions": 120,
         "reviewCount": 1,
         "author": "stainless-app",
         "assignees": []
@@ -727,10 +727,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 33.3,
-      "median_hours": 2.6,
-      "p90_hours": 121.8,
-      "p95_hours": 166.7
+      "avg_hours": 33.5,
+      "median_hours": 2.5,
+      "p90_hours": 125.7,
+      "p95_hours": 167.4
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -739,11 +739,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 28.9,
-      "median_hours": 2.9
+      "avg_hours": 29,
+      "median_hours": 2.8
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 62.2,
+    "rejection_rate_pct": 62.9,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
       "small": 23,
@@ -764,8 +764,8 @@
       17,
       6,
       6,
-      9,
-      11,
+      15,
+      5,
       8,
       18,
       10,
@@ -1017,38 +1017,33 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 33,
-        "total_changes": 129
+        "pr_count": 32,
+        "total_changes": 127
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 32,
-        "total_changes": 409
+        "pr_count": 31,
+        "total_changes": 390
       },
       {
         "path": "package.json",
-        "pr_count": 32,
-        "total_changes": 78
+        "pr_count": 31,
+        "total_changes": 76
       },
       {
         "path": "src/version.ts",
-        "pr_count": 32,
-        "total_changes": 64
+        "pr_count": 31,
+        "total_changes": 62
       },
       {
         "path": ".stats.yml",
-        "pr_count": 29,
-        "total_changes": 160
+        "pr_count": 28,
+        "total_changes": 154
       },
       {
         "path": "src/resources/beta/messages/messages.ts",
-        "pr_count": 18,
-        "total_changes": 1319
-      },
-      {
-        "path": "src/resources/beta/beta.ts",
-        "pr_count": 16,
-        "total_changes": 510
+        "pr_count": 17,
+        "total_changes": 1215
       },
       {
         "path": "src/resources/messages/messages.ts",
@@ -1056,14 +1051,19 @@
         "total_changes": 644
       },
       {
+        "path": "src/resources/beta/beta.ts",
+        "pr_count": 15,
+        "total_changes": 491
+      },
+      {
         "path": "api.md",
-        "pr_count": 14,
-        "total_changes": 317
+        "pr_count": 13,
+        "total_changes": 306
       },
       {
         "path": "src/resources/beta/index.ts",
-        "pr_count": 14,
-        "total_changes": 210
+        "pr_count": 13,
+        "total_changes": 202
       },
       {
         "path": "src/client.ts",
@@ -1086,11 +1086,6 @@
         "total_changes": 20
       },
       {
-        "path": "src/resources/beta/sessions/events.ts",
-        "pr_count": 8,
-        "total_changes": 372
-      },
-      {
         "path": "packages/bedrock-sdk/CHANGELOG.md",
         "pr_count": 7,
         "total_changes": 68
@@ -1101,40 +1096,45 @@
         "total_changes": 18
       },
       {
+        "path": "src/resources/beta/sessions/events.ts",
+        "pr_count": 7,
+        "total_changes": 292
+      },
+      {
         "path": "src/resources/beta/webhooks.ts",
         "pr_count": 7,
         "total_changes": 615
       },
       {
-        "path": "src/resources/beta/messages/batches.ts",
-        "pr_count": 7,
-        "total_changes": 125
+        "path": "packages/google-cloud-sdk/CHANGELOG.md",
+        "pr_count": 6,
+        "total_changes": 57
       },
       {
-        "path": "tests/api-resources/beta/messages/messages.test.ts",
-        "pr_count": 7,
-        "total_changes": 60
+        "path": "packages/google-cloud-sdk/package.json",
+        "pr_count": 6,
+        "total_changes": 91
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 33,
+        "pr_count": 32,
         "file_count": 13
       },
       {
         "path": "src/",
-        "pr_count": 33,
+        "pr_count": 32,
         "file_count": 3
       },
       {
         "path": "src/resources/beta/",
-        "pr_count": 18,
+        "pr_count": 17,
         "file_count": 10
       },
       {
         "path": "src/resources/beta/messages/",
-        "pr_count": 18,
+        "pr_count": 17,
         "file_count": 3
       },
       {
@@ -1143,19 +1143,14 @@
         "file_count": 3
       },
       {
-        "path": "examples/",
-        "pr_count": 10,
-        "file_count": 32
-      },
-      {
         "path": "src/resources/beta/agents/",
         "pr_count": 10,
         "file_count": 2
       },
       {
-        "path": "src/resources/beta/sessions/",
+        "path": "examples/",
         "pr_count": 9,
-        "file_count": 3
+        "file_count": 32
       },
       {
         "path": "tests/",
@@ -1163,9 +1158,14 @@
         "file_count": 7
       },
       {
-        "path": "tests/lib/tools/",
-        "pr_count": 9,
-        "file_count": 4
+        "path": "packages/aws-sdk/",
+        "pr_count": 8,
+        "file_count": 5
+      },
+      {
+        "path": "src/resources/beta/sessions/",
+        "pr_count": 8,
+        "file_count": 3
       }
     ],
     "top_n": 20

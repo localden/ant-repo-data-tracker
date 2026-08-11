@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-08-11T16:47:43.412Z",
+  "timestamp": "2026-08-11T18:46:56.891Z",
   "repository": {
-    "stars": 1170,
+    "stars": 1171,
     "forks": 203
   },
   "issues": {
-    "open_count": 18,
-    "closed_7d": 12,
-    "closed_30d": 42,
-    "closed_90d": 46,
+    "open_count": 17,
+    "closed_7d": 13,
+    "closed_30d": 43,
+    "closed_90d": 47,
     "opened_7d": 3,
     "opened_30d": 8,
     "opened_90d": 21,
     "assigned_count": 0,
-    "unassigned_count": 18,
-    "unassigned_24h": 18,
-    "unassigned_7d": 15,
+    "unassigned_count": 17,
+    "unassigned_24h": 17,
+    "unassigned_7d": 14,
     "unassigned_30d": 12,
     "assigned_issues": [],
     "unassigned_issues": [
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 181,
+        "daysOpen": 182,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -98,7 +98,7 @@
         "title": "BetaTextEditorCodeExecutionToolResultBlock.ToParam() double-encodes non-error content as a JSON string",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/355",
         "createdAt": "2026-06-01T17:43:06Z",
-        "daysOpen": 70,
+        "daysOpen": 71,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -154,16 +154,6 @@
         "assignees": []
       },
       {
-        "number": 391,
-        "title": "bug: BetaToolUseBlock.Input use any, but ToolUseBlock.Input use json.RawMessage",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/391",
-        "createdAt": "2026-07-14T12:24:37Z",
-        "daysOpen": 28,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 393,
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
@@ -214,29 +204,29 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 253.3,
-      "median_days": 226.6,
-      "p90_days": 526.8
+      "avg_days": 248.5,
+      "median_days": 215.9,
+      "p90_days": 524.8
     },
-    "label_coverage_pct": 11.1,
-    "unlabeled_count": 16,
+    "label_coverage_pct": 11.8,
+    "unlabeled_count": 15,
     "stale_30d": 10,
     "stale_60d": 7,
     "stale_90d": 5,
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 21,
+    "open_count": 22,
     "merged_7d": 2,
     "merged_30d": 7,
-    "merged_90d": 27,
-    "opened_7d": 3,
-    "opened_30d": 13,
-    "opened_90d": 52,
+    "merged_90d": 26,
+    "opened_7d": 4,
+    "opened_30d": 14,
+    "opened_90d": 53,
     "closed_not_merged_90d": 37,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 21,
+    "unassigned_count": 22,
     "unassigned_24h": 20,
     "unassigned_7d": 19,
     "assigned_prs": [],
@@ -534,13 +524,29 @@
         "reviewCount": 1,
         "author": "pawannn",
         "assignees": []
+      },
+      {
+        "number": 411,
+        "title": "release: 1.63.1",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/411",
+        "createdAt": "2026-08-11T17:13:04Z",
+        "daysOpen": 0,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 696,
+        "deletions": 19,
+        "reviewCount": 0,
+        "author": "stainless-app",
+        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 55,
-      "median_hours": 12.2,
-      "p90_hours": 190,
-      "p95_hours": 201.1
+      "avg_hours": 55.4,
+      "median_hours": 4.1,
+      "p90_hours": 190.4,
+      "p95_hours": 201.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -549,16 +555,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 52.5,
-      "median_hours": 4.2
+      "avg_hours": 52.9,
+      "median_hours": 3.4
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 57.8,
+    "rejection_rate_pct": 58.7,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 10,
       "medium": 9,
-      "large": 2
+      "large": 3
     }
   },
   "contributors": {
@@ -574,8 +580,8 @@
       21,
       6,
       4,
-      9,
-      10,
+      12,
+      7,
       9,
       3,
       17,
@@ -715,38 +721,38 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 27,
-        "total_changes": 54
+        "pr_count": 26,
+        "total_changes": 52
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 27,
-        "total_changes": 341
+        "pr_count": 26,
+        "total_changes": 317
       },
       {
         "path": "README.md",
-        "pr_count": 27,
-        "total_changes": 56
-      },
-      {
-        "path": "internal/version.go",
-        "pr_count": 27,
+        "pr_count": 26,
         "total_changes": 54
       },
       {
+        "path": "internal/version.go",
+        "pr_count": 26,
+        "total_changes": 52
+      },
+      {
         "path": ".stats.yml",
-        "pr_count": 25,
-        "total_changes": 146
+        "pr_count": 24,
+        "total_changes": 140
       },
       {
         "path": "api.md",
-        "pr_count": 16,
-        "total_changes": 328
+        "pr_count": 15,
+        "total_changes": 314
       },
       {
         "path": "betamessage.go",
-        "pr_count": 16,
-        "total_changes": 2559
+        "pr_count": 15,
+        "total_changes": 2296
       },
       {
         "path": "message.go",
@@ -755,8 +761,8 @@
       },
       {
         "path": "shared/constant/constants.go",
-        "pr_count": 12,
-        "total_changes": 302
+        "pr_count": 11,
+        "total_changes": 216
       },
       {
         "path": "betaagent.go",
@@ -765,23 +771,8 @@
       },
       {
         "path": "beta.go",
-        "pr_count": 9,
-        "total_changes": 109
-      },
-      {
-        "path": "betamessage_test.go",
         "pr_count": 8,
-        "total_changes": 231
-      },
-      {
-        "path": "betasession.go",
-        "pr_count": 7,
-        "total_changes": 1550
-      },
-      {
-        "path": "betasessionevent.go",
-        "pr_count": 7,
-        "total_changes": 1537
+        "total_changes": 108
       },
       {
         "path": "betawebhook.go",
@@ -789,9 +780,19 @@
         "total_changes": 1365
       },
       {
-        "path": "betamessagebatch.go",
+        "path": "betamessage_test.go",
         "pr_count": 7,
-        "total_changes": 170
+        "total_changes": 228
+      },
+      {
+        "path": "betasession.go",
+        "pr_count": 6,
+        "total_changes": 1544
+      },
+      {
+        "path": "betasessionevent.go",
+        "pr_count": 6,
+        "total_changes": 1179
       },
       {
         "path": "message_test.go",
@@ -799,9 +800,9 @@
         "total_changes": 109
       },
       {
-        "path": "betamessagebatch_test.go",
+        "path": "betamessagebatch.go",
         "pr_count": 6,
-        "total_changes": 74
+        "total_changes": 167
       },
       {
         "path": "betasessiontoolrunner.go",
@@ -812,22 +813,27 @@
         "path": "tools/agenttoolset/agenttoolset.go",
         "pr_count": 5,
         "total_changes": 398
+      },
+      {
+        "path": "betamessageutil.go",
+        "pr_count": 5,
+        "total_changes": 188
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 27,
+        "pr_count": 26,
         "file_count": 70
       },
       {
         "path": "internal/",
-        "pr_count": 27,
+        "pr_count": 26,
         "file_count": 1
       },
       {
         "path": "shared/constant/",
-        "pr_count": 12,
+        "pr_count": 11,
         "file_count": 1
       },
       {
