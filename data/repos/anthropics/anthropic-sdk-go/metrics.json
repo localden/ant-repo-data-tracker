@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T16:45:49.776Z",
+  "timestamp": "2026-08-13T18:48:37.923Z",
   "repository": {
     "stars": 1174,
     "forks": 204
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 183,
+        "daysOpen": 184,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -98,7 +98,7 @@
         "title": "BetaTextEditorCodeExecutionToolResultBlock.ToParam() double-encodes non-error content as a JSON string",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/355",
         "createdAt": "2026-06-01T17:43:06Z",
-        "daysOpen": 72,
+        "daysOpen": 73,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -206,18 +206,18 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 22,
+    "open_count": 21,
     "merged_7d": 2,
-    "merged_30d": 7,
-    "merged_90d": 26,
+    "merged_30d": 8,
+    "merged_90d": 27,
     "opened_7d": 3,
     "opened_30d": 14,
     "opened_90d": 53,
     "closed_not_merged_90d": 37,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 22,
-    "unassigned_24h": 21,
+    "unassigned_count": 21,
+    "unassigned_24h": 20,
     "unassigned_7d": 19,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -514,29 +514,13 @@
         "reviewCount": 1,
         "author": "pawannn",
         "assignees": []
-      },
-      {
-        "number": 411,
-        "title": "release: 1.63.1",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/411",
-        "createdAt": "2026-08-11T17:13:04Z",
-        "daysOpen": 1,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 1087,
-        "deletions": 67,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 55.4,
-      "median_hours": 4.1,
-      "p90_hours": 190.4,
-      "p95_hours": 201.7
+      "avg_hours": 55.2,
+      "median_hours": 12.2,
+      "p90_hours": 190,
+      "p95_hours": 201.1
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -545,38 +529,38 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 52.9,
-      "median_hours": 3.4
+      "avg_hours": 52.8,
+      "median_hours": 4.2
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 58.7,
+    "rejection_rate_pct": 57.8,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 10,
       "medium": 9,
-      "large": 3
+      "large": 2
     }
   },
   "contributors": {
-    "total_known": 113,
-    "active_30d": 9,
-    "first_time_30d": 6,
+    "total_known": 114,
+    "active_30d": 10,
+    "first_time_30d": 7,
     "retention_rate_pct": 21.4,
     "churned_30d": 11,
-    "commits_per_week_avg": 8.6,
+    "commits_per_week_avg": 9.3,
     "commits_per_week_trend": [
       9,
       0,
       25,
-      2,
-      8,
+      4,
+      6,
       13,
       2,
       9,
-      13,
-      7,
-      0,
-      15
+      18,
+      2,
+      10,
+      14
     ],
     "allContributors": [
       "17twenty",
@@ -644,6 +628,7 @@
       "mangomaker5",
       "mattmoor",
       "maxious",
+      "meorphis-anthropic",
       "mhpenta",
       "mikecluck",
       "mrh997",
@@ -698,6 +683,7 @@
       "hogeheer499-commits",
       "jacobzim-ant",
       "luiz-anthropic",
+      "meorphis-anthropic",
       "pawannn",
       "percymcn",
       "rluisr",
@@ -709,28 +695,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 26,
-        "total_changes": 52
-      },
-      {
-        "path": "CHANGELOG.md",
-        "pr_count": 26,
-        "total_changes": 317
-      },
-      {
-        "path": "README.md",
-        "pr_count": 26,
+        "pr_count": 27,
         "total_changes": 54
       },
       {
+        "path": "CHANGELOG.md",
+        "pr_count": 27,
+        "total_changes": 338
+      },
+      {
+        "path": "README.md",
+        "pr_count": 27,
+        "total_changes": 56
+      },
+      {
         "path": "internal/version.go",
-        "pr_count": 26,
-        "total_changes": 52
+        "pr_count": 27,
+        "total_changes": 54
       },
       {
         "path": ".stats.yml",
-        "pr_count": 24,
-        "total_changes": 140
+        "pr_count": 25,
+        "total_changes": 146
       },
       {
         "path": "api.md",
@@ -773,6 +759,16 @@
         "total_changes": 228
       },
       {
+        "path": "betamessageutil.go",
+        "pr_count": 6,
+        "total_changes": 197
+      },
+      {
+        "path": "betasessiontoolrunner.go",
+        "pr_count": 6,
+        "total_changes": 1593
+      },
+      {
         "path": "betasession.go",
         "pr_count": 6,
         "total_changes": 1544
@@ -793,30 +789,20 @@
         "total_changes": 167
       },
       {
-        "path": "betasessiontoolrunner.go",
+        "path": "betasessiontoolrunner_test.go",
         "pr_count": 5,
-        "total_changes": 1585
-      },
-      {
-        "path": "tools/agenttoolset/agenttoolset.go",
-        "pr_count": 5,
-        "total_changes": 398
-      },
-      {
-        "path": "betamessageutil.go",
-        "pr_count": 5,
-        "total_changes": 188
+        "total_changes": 1530
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 26,
-        "file_count": 70
+        "pr_count": 27,
+        "file_count": 71
       },
       {
         "path": "internal/",
-        "pr_count": 26,
+        "pr_count": 27,
         "file_count": 1
       },
       {
@@ -835,6 +821,11 @@
         "file_count": 3
       },
       {
+        "path": "vertex/",
+        "pr_count": 4,
+        "file_count": 2
+      },
+      {
         "path": "lib/environments/",
         "pr_count": 4,
         "file_count": 4
@@ -850,14 +841,9 @@
         "file_count": 1
       },
       {
-        "path": "vertex/",
+        "path": ".github/workflows/",
         "pr_count": 3,
         "file_count": 2
-      },
-      {
-        "path": "packages/ssestream/",
-        "pr_count": 3,
-        "file_count": 1
       }
     ],
     "top_n": 20

@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-13T16:45:18.386Z",
+  "timestamp": "2026-08-13T18:48:07.637Z",
   "repository": {
     "stars": 2078,
     "forks": 380
   },
   "issues": {
     "open_count": 18,
-    "closed_7d": 9,
+    "closed_7d": 2,
     "closed_30d": 47,
     "closed_90d": 53,
     "opened_7d": 0,
@@ -24,7 +24,7 @@
         "title": "Models list for the Bedrock SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/704",
         "createdAt": "2025-03-02T17:50:28Z",
-        "daysOpen": 528,
+        "daysOpen": 529,
         "labels": [
           "code-change"
         ],
@@ -85,7 +85,7 @@
         "title": "Bug: `toolRunner` does not propagate `container.id` across iterations, and `setMessagesParams` causes duplicate tool call loops",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/964",
         "createdAt": "2026-03-30T17:38:48Z",
-        "daysOpen": 135,
+        "daysOpen": 136,
         "labels": [
           "bug",
           "code-change"
@@ -98,7 +98,7 @@
         "title": "partialParse in _vendor/partial-json-parser crashes on invalid JSON escape sequences from model output",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/986",
         "createdAt": "2026-04-09T18:42:59Z",
-        "daysOpen": 125,
+        "daysOpen": 126,
         "labels": [
           "code-change"
         ],
@@ -110,7 +110,7 @@
         "title": "[Vertex] anthropic-beta header forwarded to countTokens fallback fails on lagging model backends",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1016",
         "createdAt": "2026-04-27T18:10:36Z",
-        "daysOpen": 107,
+        "daysOpen": 108,
         "labels": [
           "code-change"
         ],
@@ -550,6 +550,20 @@
         "assignees": []
       },
       {
+        "number": 1080,
+        "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
+        "createdAt": "2026-06-04T17:26:33Z",
+        "daysOpen": 70,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "yen0304",
+        "assignees": []
+      },
+      {
         "number": 1081,
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
@@ -564,25 +578,11 @@
         "assignees": []
       },
       {
-        "number": 1080,
-        "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
-        "createdAt": "2026-06-04T17:26:33Z",
-        "daysOpen": 69,
-        "labels": [],
-        "isDraft": false,
-        "additions": 4,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "yen0304",
-        "assignees": []
-      },
-      {
         "number": 1100,
         "title": "fix: honor request timeout for long non-streaming messages",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1100",
         "createdAt": "2026-06-24T17:16:06Z",
-        "daysOpen": 49,
+        "daysOpen": 50,
         "labels": [],
         "isDraft": false,
         "additions": 44,
@@ -699,8 +699,8 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 1842,
-        "deletions": 135,
+        "additions": 1852,
+        "deletions": 140,
         "reviewCount": 1,
         "author": "stainless-app",
         "assignees": []
@@ -753,16 +753,16 @@
     "churned_30d": 17,
     "commits_per_week_avg": 9.8,
     "commits_per_week_trend": [
-      10,
-      10,
-      21,
-      2,
+      13,
       7,
+      21,
+      8,
+      1,
       18,
       1,
       8,
-      23,
-      5,
+      25,
+      3,
       0,
       13
     ],
