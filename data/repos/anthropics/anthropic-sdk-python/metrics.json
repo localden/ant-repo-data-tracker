@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-13T10:52:34.946Z",
+  "timestamp": "2026-08-13T12:43:44.942Z",
   "repository": {
     "stars": 3816,
     "forks": 803
@@ -24,7 +24,7 @@
         "title": "Batch API with Vertex",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/693",
         "createdAt": "2024-10-13T12:33:39Z",
-        "daysOpen": 668,
+        "daysOpen": 669,
         "labels": [
           "vertex"
         ],
@@ -68,6 +68,16 @@
         "assignees": []
       },
       {
+        "number": 1102,
+        "title": "aws bedrock can not support skill?",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1102",
+        "createdAt": "2025-12-17T11:25:04Z",
+        "daysOpen": 239,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
         "number": 1103,
         "title": "Token counting is not supported in Bedrock yet",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1103",
@@ -75,16 +85,6 @@
         "daysOpen": 238,
         "labels": [],
         "commentCount": 2,
-        "assignees": []
-      },
-      {
-        "number": 1102,
-        "title": "aws bedrock can not support skill?",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1102",
-        "createdAt": "2025-12-17T11:25:04Z",
-        "daysOpen": 238,
-        "labels": [],
-        "commentCount": 1,
         "assignees": []
       },
       {
@@ -122,7 +122,7 @@
         "title": "Structured output + thinking + tool use: two bugs in multi-turn conversations",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1204",
         "createdAt": "2026-02-25T11:13:31Z",
-        "daysOpen": 168,
+        "daysOpen": 169,
         "labels": [],
         "commentCount": 8,
         "assignees": []
@@ -390,7 +390,7 @@
         "title": "environments work poller: ack-before-yield makes any consumer failure permanently strand the work item — request deferred ack or a nack/fail API",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1746",
         "createdAt": "2026-07-07T12:03:25Z",
-        "daysOpen": 36,
+        "daysOpen": 37,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -510,7 +510,7 @@
         "title": "MCP SSH transport closes immediately on Windows after \"initialize\" message",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1822",
         "createdAt": "2026-08-11T11:07:27Z",
-        "daysOpen": 1,
+        "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -545,7 +545,7 @@
     "merged_7d": 4,
     "merged_30d": 13,
     "merged_90d": 37,
-    "opened_7d": 12,
+    "opened_7d": 10,
     "opened_30d": 45,
     "opened_90d": 174,
     "closed_not_merged_90d": 158,
@@ -647,7 +647,7 @@
         "title": "feat(bedrock): add tool_runner support with message sanitization",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1107",
         "createdAt": "2025-12-26T12:32:07Z",
-        "daysOpen": 229,
+        "daysOpen": 230,
         "labels": [],
         "isDraft": false,
         "additions": 109,
@@ -675,7 +675,7 @@
         "title": "fix(tool runner): don't exit early on `pause_turn`",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1174",
         "createdAt": "2026-02-10T11:04:40Z",
-        "daysOpen": 183,
+        "daysOpen": 184,
         "labels": [],
         "isDraft": false,
         "additions": 747,
@@ -689,7 +689,7 @@
         "title": "fix(structured outputs): improve error message for invalid `output_format` types",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1183",
         "createdAt": "2026-02-18T11:12:57Z",
-        "daysOpen": 175,
+        "daysOpen": 176,
         "labels": [],
         "isDraft": false,
         "additions": 88,
@@ -997,7 +997,7 @@
         "title": "fix(streaming): add helpful error message for malformed JSON in non-beta path",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1326",
         "createdAt": "2026-04-02T11:16:44Z",
-        "daysOpen": 132,
+        "daysOpen": 133,
         "labels": [],
         "isDraft": false,
         "additions": 184,
@@ -1011,7 +1011,7 @@
         "title": "feat(examples): add async tool runner example",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1328",
         "createdAt": "2026-04-03T10:58:46Z",
-        "daysOpen": 131,
+        "daysOpen": 132,
         "labels": [],
         "isDraft": false,
         "additions": 57,
@@ -2017,6 +2017,20 @@
         "assignees": []
       },
       {
+        "number": 1820,
+        "title": "Fix streaming accumulator crash when message_start omits usage",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1820",
+        "createdAt": "2026-08-10T11:33:31Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 98,
+        "deletions": 25,
+        "reviewCount": 0,
+        "author": "PiedPiper911",
+        "assignees": []
+      },
+      {
         "number": 1818,
         "title": "fix(parse): reject unrepresentable dynamic object schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1818",
@@ -2056,20 +2070,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "nightcityblade",
-        "assignees": []
-      },
-      {
-        "number": 1820,
-        "title": "Fix streaming accumulator crash when message_start omits usage",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1820",
-        "createdAt": "2026-08-10T11:33:31Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 98,
-        "deletions": 25,
-        "reviewCount": 0,
-        "author": "PiedPiper911",
         "assignees": []
       },
       {
@@ -2743,9 +2743,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 3286260,
-    "last_week": 48501878,
-    "last_month": 198724250,
-    "total": 1114923690
+    "daily": 3871427,
+    "last_week": 49087045,
+    "last_month": 199309417,
+    "total": 1115508857
   }
 }
