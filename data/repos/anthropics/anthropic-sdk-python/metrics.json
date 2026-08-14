@@ -1,36 +1,24 @@
 {
-  "timestamp": "2026-08-14T20:21:42.170Z",
+  "timestamp": "2026-08-14T22:12:41.984Z",
   "repository": {
     "stars": 3821,
     "forks": 807
   },
   "issues": {
-    "open_count": 49,
-    "closed_7d": 10,
-    "closed_30d": 107,
-    "closed_90d": 119,
+    "open_count": 48,
+    "closed_7d": 11,
+    "closed_30d": 108,
+    "closed_90d": 120,
     "opened_7d": 5,
     "opened_30d": 18,
     "opened_90d": 68,
     "assigned_count": 0,
-    "unassigned_count": 49,
-    "unassigned_24h": 48,
-    "unassigned_7d": 45,
-    "unassigned_30d": 39,
+    "unassigned_count": 48,
+    "unassigned_24h": 47,
+    "unassigned_7d": 44,
+    "unassigned_30d": 38,
     "assigned_issues": [],
     "unassigned_issues": [
-      {
-        "number": 693,
-        "title": "Batch API with Vertex",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/693",
-        "createdAt": "2024-10-13T12:33:39Z",
-        "daysOpen": 670,
-        "labels": [
-          "vertex"
-        ],
-        "commentCount": 0,
-        "assignees": []
-      },
       {
         "number": 971,
         "title": "Bedrock: support low-latency configuration",
@@ -194,6 +182,16 @@
         "assignees": []
       },
       {
+        "number": 1421,
+        "title": "BetaInputJsonEvent not fired for server_tool_use blocks during streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1421",
+        "createdAt": "2026-04-20T21:13:04Z",
+        "daysOpen": 116,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1430,
         "title": "API \"Streaming is required\" error message is outdated",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1430",
@@ -201,16 +199,6 @@
         "daysOpen": 115,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1421,
-        "title": "BetaInputJsonEvent not fired for server_tool_use blocks during streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1421",
-        "createdAt": "2026-04-20T21:13:04Z",
-        "daysOpen": 115,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -529,8 +517,7 @@
     "by_label": {
       "sdk": 3,
       "api": 2,
-      "bedrock": 2,
-      "vertex": 1
+      "bedrock": 2
     },
     "assignment_time": {
       "avg_hours": 906.7,
@@ -539,15 +526,15 @@
       "p95_hours": 2899.5
     },
     "close_time": {
-      "avg_days": 170.8,
-      "median_days": 100.1,
-      "p90_days": 477.4
+      "avg_days": 174.7,
+      "median_days": 100.7,
+      "p90_days": 478.5
     },
-    "label_coverage_pct": 16.3,
+    "label_coverage_pct": 14.6,
     "unlabeled_count": 41,
-    "stale_30d": 27,
-    "stale_60d": 20,
-    "stale_90d": 12,
+    "stale_30d": 26,
+    "stale_60d": 19,
+    "stale_90d": 11,
     "reopen_rate": 0
   },
   "pulls": {
@@ -557,7 +544,7 @@
     "merged_90d": 38,
     "opened_7d": 11,
     "opened_30d": 47,
-    "opened_90d": 171,
+    "opened_90d": 170,
     "closed_not_merged_90d": 158,
     "draft_count": 3,
     "assigned_count": 0,
@@ -613,7 +600,7 @@
         "title": "Accumulate extra pydantic fields from the sample event",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1070",
         "createdAt": "2025-11-13T21:29:26Z",
-        "daysOpen": 273,
+        "daysOpen": 274,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -1245,7 +1232,7 @@
         "title": "fix(bedrock): preserve aws_profile in copied clients",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1556",
         "createdAt": "2026-05-16T20:50:53Z",
-        "daysOpen": 89,
+        "daysOpen": 90,
         "labels": [],
         "isDraft": false,
         "additions": 33,
@@ -1283,6 +1270,20 @@
         "assignees": []
       },
       {
+        "number": 1563,
+        "title": "fix(streaming): wrap from_json in try/except in non-beta message streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1563",
+        "createdAt": "2026-05-18T21:11:45Z",
+        "daysOpen": 88,
+        "labels": [],
+        "isDraft": false,
+        "additions": 6,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "rmotgi1227",
+        "assignees": []
+      },
+      {
         "number": 1570,
         "title": "fix(streaming): guard against out-of-bounds content index; fix BetaAsyncAbstractMemoryTool docstring",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1570",
@@ -1292,20 +1293,6 @@
         "isDraft": false,
         "additions": 25,
         "deletions": 11,
-        "reviewCount": 0,
-        "author": "rmotgi1227",
-        "assignees": []
-      },
-      {
-        "number": 1563,
-        "title": "fix(streaming): wrap from_json in try/except in non-beta message streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1563",
-        "createdAt": "2026-05-18T21:11:45Z",
-        "daysOpen": 87,
-        "labels": [],
-        "isDraft": false,
-        "additions": 6,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "rmotgi1227",
         "assignees": []
@@ -1861,7 +1848,7 @@
         "title": "fix(session runner): retry the sub-thread tool_use commit-race 400 instead of stranding (#1744)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1753",
         "createdAt": "2026-07-11T20:45:45Z",
-        "daysOpen": 33,
+        "daysOpen": 34,
         "labels": [],
         "isDraft": false,
         "additions": 109,
@@ -2173,8 +2160,8 @@
     "commits_per_week_avg": 11.1,
     "commits_per_week_trend": [
       17,
-      1,
-      17,
+      9,
+      9,
       9,
       5,
       16,
@@ -2792,9 +2779,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 6211143,
-    "last_week": 51523169,
-    "last_month": 203293124,
-    "total": 1126094562
+    "daily": 6865731,
+    "last_week": 52177757,
+    "last_month": 203947712,
+    "total": 1126749150
   }
 }
