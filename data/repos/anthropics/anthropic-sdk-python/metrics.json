@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-16T20:10:20.691Z",
+  "timestamp": "2026-08-16T22:10:23.169Z",
   "repository": {
     "stars": 3824,
-    "forks": 809
+    "forks": 810
   },
   "issues": {
     "open_count": 48,
@@ -182,6 +182,16 @@
         "assignees": []
       },
       {
+        "number": 1421,
+        "title": "BetaInputJsonEvent not fired for server_tool_use blocks during streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1421",
+        "createdAt": "2026-04-20T21:13:04Z",
+        "daysOpen": 118,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1430,
         "title": "API \"Streaming is required\" error message is outdated",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1430",
@@ -189,16 +199,6 @@
         "daysOpen": 117,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1421,
-        "title": "BetaInputJsonEvent not fired for server_tool_use blocks during streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1421",
-        "createdAt": "2026-04-20T21:13:04Z",
-        "daysOpen": 117,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -544,12 +544,12 @@
     "merged_90d": 38,
     "opened_7d": 12,
     "opened_30d": 48,
-    "opened_90d": 171,
+    "opened_90d": 170,
     "closed_not_merged_90d": 158,
     "draft_count": 3,
     "assigned_count": 0,
     "unassigned_count": 115,
-    "unassigned_24h": 110,
+    "unassigned_24h": 111,
     "unassigned_7d": 100,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -600,7 +600,7 @@
         "title": "Accumulate extra pydantic fields from the sample event",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1070",
         "createdAt": "2025-11-13T21:29:26Z",
-        "daysOpen": 275,
+        "daysOpen": 276,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -1232,7 +1232,7 @@
         "title": "fix(bedrock): preserve aws_profile in copied clients",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1556",
         "createdAt": "2026-05-16T20:50:53Z",
-        "daysOpen": 91,
+        "daysOpen": 92,
         "labels": [],
         "isDraft": false,
         "additions": 33,
@@ -1270,6 +1270,20 @@
         "assignees": []
       },
       {
+        "number": 1563,
+        "title": "fix(streaming): wrap from_json in try/except in non-beta message streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1563",
+        "createdAt": "2026-05-18T21:11:45Z",
+        "daysOpen": 90,
+        "labels": [],
+        "isDraft": false,
+        "additions": 6,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "rmotgi1227",
+        "assignees": []
+      },
+      {
         "number": 1570,
         "title": "fix(streaming): guard against out-of-bounds content index; fix BetaAsyncAbstractMemoryTool docstring",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1570",
@@ -1279,20 +1293,6 @@
         "isDraft": false,
         "additions": 25,
         "deletions": 11,
-        "reviewCount": 0,
-        "author": "rmotgi1227",
-        "assignees": []
-      },
-      {
-        "number": 1563,
-        "title": "fix(streaming): wrap from_json in try/except in non-beta message streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1563",
-        "createdAt": "2026-05-18T21:11:45Z",
-        "daysOpen": 89,
-        "labels": [],
-        "isDraft": false,
-        "additions": 6,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "rmotgi1227",
         "assignees": []
@@ -1848,7 +1848,7 @@
         "title": "fix(session runner): retry the sub-thread tool_use commit-race 400 instead of stranding (#1744)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1753",
         "createdAt": "2026-07-11T20:45:45Z",
-        "daysOpen": 35,
+        "daysOpen": 36,
         "labels": [],
         "isDraft": false,
         "additions": 109,
@@ -2126,6 +2126,20 @@
         "assignees": []
       },
       {
+        "number": 1833,
+        "title": "fix(streaming): don't JSON-parse text when output_format=None",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
+        "createdAt": "2026-08-15T22:04:19Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 47,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "Swastikbhat-lab",
+        "assignees": []
+      },
+      {
         "number": 1832,
         "title": "fix(session-runner): bound the reconnect reconcile so a long or wrapping history cannot wedge the runner",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1832",
@@ -2149,20 +2163,6 @@
         "isDraft": false,
         "additions": 354,
         "deletions": 0,
-        "reviewCount": 0,
-        "author": "Swastikbhat-lab",
-        "assignees": []
-      },
-      {
-        "number": 1833,
-        "title": "fix(streaming): don't JSON-parse text when output_format=None",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
-        "createdAt": "2026-08-15T22:04:19Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 47,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "Swastikbhat-lab",
         "assignees": []
@@ -2823,9 +2823,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 4176786,
-    "last_week": 51227455,
-    "last_month": 200105284,
-    "total": 1137036310
+    "daily": 4665644,
+    "last_week": 51716313,
+    "last_month": 200594142,
+    "total": 1137525168
   }
 }
