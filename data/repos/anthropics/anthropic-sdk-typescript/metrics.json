@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-17T06:33:02.635Z",
+  "timestamp": "2026-08-17T08:31:41.972Z",
   "repository": {
-    "stars": 2087,
+    "stars": 2088,
     "forks": 385
   },
   "issues": {
@@ -182,7 +182,7 @@
         "title": "Citations: raw `<cite index=\"N-M\">` markup leaks into text blocks instead of being parsed into `citations` (search_result blocks)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1119",
         "createdAt": "2026-07-16T06:34:08Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "commentCount": 9,
         "assignees": []
@@ -214,7 +214,7 @@
         "createdAt": "2026-08-17T04:01:33Z",
         "daysOpen": 0,
         "labels": [],
-        "commentCount": 0,
+        "commentCount": 1,
         "assignees": []
       }
     ],
@@ -247,7 +247,7 @@
     "open_count": 34,
     "merged_7d": 4,
     "merged_30d": 11,
-    "merged_90d": 37,
+    "merged_90d": 36,
     "opened_7d": 7,
     "opened_30d": 26,
     "opened_90d": 79,
@@ -624,7 +624,7 @@
         "title": "fix(streaming): await async event listener callbacks before resolving done()",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1131",
         "createdAt": "2026-07-23T08:15:37Z",
-        "daysOpen": 24,
+        "daysOpen": 25,
         "labels": [],
         "isDraft": false,
         "additions": 34,
@@ -638,7 +638,7 @@
         "title": "fix: add ?? 'unknown' fallback for EdgeRuntime process.version",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1137",
         "createdAt": "2026-07-27T06:52:16Z",
-        "daysOpen": 20,
+        "daysOpen": 21,
         "labels": [],
         "isDraft": false,
         "additions": 2,
@@ -763,10 +763,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 31.4,
-      "median_hours": 2.1,
-      "p90_hours": 114,
-      "p95_hours": 165.4
+      "avg_hours": 31.8,
+      "median_hours": 1.8,
+      "p90_hours": 117.9,
+      "p95_hours": 166
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -775,11 +775,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 29.7,
+      "avg_hours": 30.3,
       "median_hours": 2.5
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 60.6,
+    "rejection_rate_pct": 61.3,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
       "small": 24,
@@ -1059,33 +1059,33 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 35,
-        "total_changes": 155
+        "pr_count": 34,
+        "total_changes": 149
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 33,
-        "total_changes": 429
+        "pr_count": 32,
+        "total_changes": 411
       },
       {
         "path": "package.json",
-        "pr_count": 33,
-        "total_changes": 84
+        "pr_count": 32,
+        "total_changes": 80
       },
       {
         "path": "src/version.ts",
-        "pr_count": 33,
-        "total_changes": 66
+        "pr_count": 32,
+        "total_changes": 64
       },
       {
         "path": ".stats.yml",
-        "pr_count": 30,
-        "total_changes": 164
+        "pr_count": 29,
+        "total_changes": 156
       },
       {
         "path": "src/resources/beta/messages/messages.ts",
-        "pr_count": 18,
-        "total_changes": 1217
+        "pr_count": 17,
+        "total_changes": 1207
       },
       {
         "path": "src/resources/messages/messages.ts",
@@ -1094,18 +1094,18 @@
       },
       {
         "path": "src/resources/beta/beta.ts",
-        "pr_count": 16,
-        "total_changes": 497
+        "pr_count": 15,
+        "total_changes": 433
       },
       {
         "path": "api.md",
-        "pr_count": 14,
-        "total_changes": 309
+        "pr_count": 13,
+        "total_changes": 241
       },
       {
         "path": "src/resources/beta/index.ts",
-        "pr_count": 14,
-        "total_changes": 205
+        "pr_count": 13,
+        "total_changes": 191
       },
       {
         "path": "src/client.ts",
@@ -1124,28 +1124,18 @@
       },
       {
         "path": "packages/bedrock-sdk/CHANGELOG.md",
-        "pr_count": 10,
-        "total_changes": 93
-      },
-      {
-        "path": "packages/bedrock-sdk/package.json",
-        "pr_count": 10,
-        "total_changes": 30
-      },
-      {
-        "path": "src/resources/beta/agents/agents.ts",
-        "pr_count": 10,
-        "total_changes": 338
-      },
-      {
-        "path": "packages/vertex-sdk/CHANGELOG.md",
         "pr_count": 9,
         "total_changes": 85
       },
       {
-        "path": "packages/vertex-sdk/package.json",
+        "path": "packages/bedrock-sdk/package.json",
         "pr_count": 9,
-        "total_changes": 30
+        "total_changes": 28
+      },
+      {
+        "path": "src/resources/beta/agents/agents.ts",
+        "pr_count": 9,
+        "total_changes": 180
       },
       {
         "path": "packages/google-cloud-sdk/CHANGELOG.md",
@@ -1156,27 +1146,37 @@
         "path": "packages/google-cloud-sdk/package.json",
         "pr_count": 8,
         "total_changes": 101
+      },
+      {
+        "path": "packages/vertex-sdk/CHANGELOG.md",
+        "pr_count": 8,
+        "total_changes": 77
+      },
+      {
+        "path": "packages/vertex-sdk/package.json",
+        "pr_count": 8,
+        "total_changes": 28
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 35,
+        "pr_count": 34,
         "file_count": 16
       },
       {
         "path": "src/",
-        "pr_count": 34,
+        "pr_count": 33,
         "file_count": 3
       },
       {
         "path": "src/resources/beta/",
-        "pr_count": 18,
-        "file_count": 11
+        "pr_count": 17,
+        "file_count": 10
       },
       {
         "path": "src/resources/beta/messages/",
-        "pr_count": 18,
+        "pr_count": 17,
         "file_count": 3
       },
       {
@@ -1191,23 +1191,23 @@
       },
       {
         "path": "packages/bedrock-sdk/",
-        "pr_count": 10,
+        "pr_count": 9,
         "file_count": 8
       },
       {
         "path": "examples/",
-        "pr_count": 10,
-        "file_count": 33
+        "pr_count": 9,
+        "file_count": 31
       },
       {
         "path": "src/resources/beta/agents/",
-        "pr_count": 10,
+        "pr_count": 9,
         "file_count": 2
       },
       {
-        "path": "packages/vertex-sdk/",
-        "pr_count": 9,
-        "file_count": 7
+        "path": "packages/google-cloud-sdk/",
+        "pr_count": 8,
+        "file_count": 14
       }
     ],
     "top_n": 20

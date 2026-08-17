@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T06:33:36.825Z",
+  "timestamp": "2026-08-17T08:32:12.502Z",
   "repository": {
     "stars": 1176,
     "forks": 206
@@ -24,7 +24,7 @@
         "title": "Proxy configuration not working with bedrock.WithLoadDefaultConfig",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/99",
         "createdAt": "2025-01-22T06:36:56Z",
-        "daysOpen": 571,
+        "daysOpen": 572,
         "labels": [
           "sdk"
         ],
@@ -108,7 +108,7 @@
         "title": "credentials passed by option and from enviroment are sent to server at the same time",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/364",
         "createdAt": "2026-06-11T07:04:26Z",
-        "daysOpen": 66,
+        "daysOpen": 67,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -209,7 +209,7 @@
     "open_count": 23,
     "merged_7d": 2,
     "merged_30d": 7,
-    "merged_90d": 27,
+    "merged_90d": 26,
     "opened_7d": 3,
     "opened_30d": 12,
     "opened_90d": 52,
@@ -376,6 +376,20 @@
         "assignees": []
       },
       {
+        "number": 361,
+        "title": "fix: preserve web tool result ToParam payloads",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/361",
+        "createdAt": "2026-06-07T07:13:42Z",
+        "daysOpen": 71,
+        "labels": [],
+        "isDraft": false,
+        "additions": 273,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Zhang-986",
+        "assignees": []
+      },
+      {
         "number": 360,
         "title": "fix: preserve text editor code result content JSON",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/360",
@@ -384,20 +398,6 @@
         "labels": [],
         "isDraft": false,
         "additions": 70,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Zhang-986",
-        "assignees": []
-      },
-      {
-        "number": 361,
-        "title": "fix: preserve web tool result ToParam payloads",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/361",
-        "createdAt": "2026-06-07T07:13:42Z",
-        "daysOpen": 70,
-        "labels": [],
-        "isDraft": false,
-        "additions": 273,
         "deletions": 2,
         "reviewCount": 0,
         "author": "Zhang-986",
@@ -547,10 +547,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 55.2,
-      "median_hours": 12.2,
-      "p90_hours": 190,
-      "p95_hours": 201.1
+      "avg_hours": 57,
+      "median_hours": 20.2,
+      "p90_hours": 190.4,
+      "p95_hours": 201.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -559,11 +559,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 52.8,
-      "median_hours": 4.2
+      "avg_hours": 54.6,
+      "median_hours": 11.5
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 56.5,
+    "rejection_rate_pct": 57.4,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 10,
@@ -726,38 +726,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 27,
-        "total_changes": 54
+        "pr_count": 26,
+        "total_changes": 52
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 27,
-        "total_changes": 338
+        "pr_count": 26,
+        "total_changes": 330
       },
       {
         "path": "README.md",
-        "pr_count": 27,
-        "total_changes": 56
-      },
-      {
-        "path": "internal/version.go",
-        "pr_count": 27,
+        "pr_count": 26,
         "total_changes": 54
       },
       {
+        "path": "internal/version.go",
+        "pr_count": 26,
+        "total_changes": 52
+      },
+      {
         "path": ".stats.yml",
-        "pr_count": 25,
-        "total_changes": 146
-      },
-      {
-        "path": "api.md",
-        "pr_count": 15,
-        "total_changes": 314
-      },
-      {
-        "path": "betamessage.go",
-        "pr_count": 15,
-        "total_changes": 2296
+        "pr_count": 24,
+        "total_changes": 138
       },
       {
         "path": "message.go",
@@ -765,14 +755,24 @@
         "total_changes": 801
       },
       {
+        "path": "api.md",
+        "pr_count": 14,
+        "total_changes": 273
+      },
+      {
+        "path": "betamessage.go",
+        "pr_count": 14,
+        "total_changes": 2286
+      },
+      {
         "path": "shared/constant/constants.go",
-        "pr_count": 11,
-        "total_changes": 216
+        "pr_count": 10,
+        "total_changes": 204
       },
       {
         "path": "betaagent.go",
-        "pr_count": 10,
-        "total_changes": 992
+        "pr_count": 9,
+        "total_changes": 569
       },
       {
         "path": "beta.go",
@@ -795,21 +795,6 @@
         "total_changes": 197
       },
       {
-        "path": "betasessiontoolrunner.go",
-        "pr_count": 6,
-        "total_changes": 1593
-      },
-      {
-        "path": "betasession.go",
-        "pr_count": 6,
-        "total_changes": 1544
-      },
-      {
-        "path": "betasessionevent.go",
-        "pr_count": 6,
-        "total_changes": 1179
-      },
-      {
         "path": "message_test.go",
         "pr_count": 6,
         "total_changes": 109
@@ -820,36 +805,41 @@
         "total_changes": 167
       },
       {
-        "path": "betasessiontoolrunner_test.go",
+        "path": "betasessiontoolrunner.go",
         "pr_count": 5,
-        "total_changes": 1530
+        "total_changes": 501
+      },
+      {
+        "path": "betasession.go",
+        "pr_count": 5,
+        "total_changes": 1111
+      },
+      {
+        "path": "betasessionevent.go",
+        "pr_count": 5,
+        "total_changes": 767
+      },
+      {
+        "path": "betamessagebatch_test.go",
+        "pr_count": 5,
+        "total_changes": 71
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 27,
-        "file_count": 71
+        "pr_count": 26,
+        "file_count": 68
       },
       {
         "path": "internal/",
-        "pr_count": 27,
+        "pr_count": 26,
         "file_count": 1
       },
       {
         "path": "shared/constant/",
-        "pr_count": 11,
+        "pr_count": 10,
         "file_count": 1
-      },
-      {
-        "path": "tools/agenttoolset/",
-        "pr_count": 5,
-        "file_count": 15
-      },
-      {
-        "path": "scripts/",
-        "pr_count": 5,
-        "file_count": 3
       },
       {
         "path": "vertex/",
@@ -857,9 +847,9 @@
         "file_count": 2
       },
       {
-        "path": "lib/environments/",
+        "path": "tools/agenttoolset/",
         "pr_count": 4,
-        "file_count": 4
+        "file_count": 9
       },
       {
         "path": "lib/betafallback/",
@@ -867,14 +857,24 @@
         "file_count": 5
       },
       {
-        "path": "examples/agents-comprehensive/",
+        "path": "scripts/",
         "pr_count": 4,
-        "file_count": 1
+        "file_count": 3
       },
       {
         "path": ".github/workflows/",
         "pr_count": 3,
         "file_count": 2
+      },
+      {
+        "path": "lib/environments/",
+        "pr_count": 3,
+        "file_count": 4
+      },
+      {
+        "path": "examples/agents-comprehensive/",
+        "pr_count": 3,
+        "file_count": 1
       }
     ],
     "top_n": 20
