@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-17T16:16:02.039Z",
+  "timestamp": "2026-08-17T18:23:28.709Z",
   "repository": {
     "stars": 2088,
     "forks": 385
@@ -24,7 +24,7 @@
         "title": "Models list for the Bedrock SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/704",
         "createdAt": "2025-03-02T17:50:28Z",
-        "daysOpen": 532,
+        "daysOpen": 533,
         "labels": [
           "code-change"
         ],
@@ -85,7 +85,7 @@
         "title": "Bug: `toolRunner` does not propagate `container.id` across iterations, and `setMessagesParams` causes duplicate tool call loops",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/964",
         "createdAt": "2026-03-30T17:38:48Z",
-        "daysOpen": 139,
+        "daysOpen": 140,
         "labels": [
           "bug",
           "code-change"
@@ -110,7 +110,7 @@
         "title": "[Vertex] anthropic-beta header forwarded to countTokens fallback fails on lagging model backends",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1016",
         "createdAt": "2026-04-27T18:10:36Z",
-        "daysOpen": 111,
+        "daysOpen": 112,
         "labels": [
           "code-change"
         ],
@@ -214,7 +214,7 @@
         "createdAt": "2026-08-17T04:01:33Z",
         "daysOpen": 0,
         "labels": [],
-        "commentCount": 1,
+        "commentCount": 2,
         "assignees": []
       }
     ],
@@ -550,6 +550,20 @@
         "assignees": []
       },
       {
+        "number": 1080,
+        "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
+        "createdAt": "2026-06-04T17:26:33Z",
+        "daysOpen": 74,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "yen0304",
+        "assignees": []
+      },
+      {
         "number": 1081,
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
@@ -564,25 +578,11 @@
         "assignees": []
       },
       {
-        "number": 1080,
-        "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
-        "createdAt": "2026-06-04T17:26:33Z",
-        "daysOpen": 73,
-        "labels": [],
-        "isDraft": false,
-        "additions": 4,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "yen0304",
-        "assignees": []
-      },
-      {
         "number": 1100,
         "title": "fix: honor request timeout for long non-streaming messages",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1100",
         "createdAt": "2026-06-24T17:16:06Z",
-        "daysOpen": 53,
+        "daysOpen": 54,
         "labels": [],
         "isDraft": false,
         "additions": 44,
@@ -704,6 +704,22 @@
         "assignees": []
       },
       {
+        "number": 1152,
+        "title": "chore: release main",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1152",
+        "createdAt": "2026-08-13T22:31:29Z",
+        "daysOpen": 3,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 63,
+        "deletions": 169,
+        "reviewCount": 0,
+        "author": "stainless-app",
+        "assignees": []
+      },
+      {
         "number": 1154,
         "title": "fix: handle Response uploads without URLs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1154",
@@ -729,22 +745,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "jstar0",
-        "assignees": []
-      },
-      {
-        "number": 1152,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1152",
-        "createdAt": "2026-08-13T22:31:29Z",
-        "daysOpen": 3,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 48,
-        "deletions": 152,
-        "reviewCount": 0,
-        "author": "stainless-app",
         "assignees": []
       },
       {
@@ -791,14 +791,14 @@
     "total_known": 221,
     "active_30d": 21,
     "first_time_30d": 18,
-    "retention_rate_pct": 13.6,
-    "churned_30d": 19,
+    "retention_rate_pct": 10,
+    "churned_30d": 18,
     "commits_per_week_avg": 11.3,
     "commits_per_week_trend": [
       18,
       13,
-      8,
-      8,
+      10,
+      6,
       9,
       11,
       8,
