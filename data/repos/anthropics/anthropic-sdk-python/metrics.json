@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-18T20:12:14.989Z",
+  "timestamp": "2026-08-18T22:11:50.303Z",
   "repository": {
     "stars": 3834,
     "forks": 812
@@ -11,7 +11,7 @@
     "closed_90d": 127,
     "opened_7d": 3,
     "opened_30d": 17,
-    "opened_90d": 65,
+    "opened_90d": 64,
     "assigned_count": 0,
     "unassigned_count": 42,
     "unassigned_24h": 41,
@@ -440,7 +440,7 @@
         "createdAt": "2026-08-14T13:04:11Z",
         "daysOpen": 4,
         "labels": [],
-        "commentCount": 1,
+        "commentCount": 2,
         "assignees": []
       },
       {
@@ -482,11 +482,11 @@
     "merged_7d": 1,
     "merged_30d": 12,
     "merged_90d": 36,
-    "opened_7d": 30,
-    "opened_30d": 70,
-    "opened_90d": 186,
-    "closed_not_merged_90d": 195,
-    "draft_count": 3,
+    "opened_7d": 31,
+    "opened_30d": 71,
+    "opened_90d": 187,
+    "closed_not_merged_90d": 196,
+    "draft_count": 2,
     "assigned_count": 0,
     "unassigned_count": 100,
     "unassigned_24h": 97,
@@ -540,7 +540,7 @@
         "title": "Accumulate extra pydantic fields from the sample event",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1070",
         "createdAt": "2025-11-13T21:29:26Z",
-        "daysOpen": 277,
+        "daysOpen": 278,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -916,20 +916,6 @@
         "assignees": []
       },
       {
-        "number": 1550,
-        "title": "Wrap mid-stream httpx.TransportError as APIConnectionError",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1550",
-        "createdAt": "2026-05-15T22:31:55Z",
-        "daysOpen": 94,
-        "labels": [],
-        "isDraft": true,
-        "additions": 92,
-        "deletions": 4,
-        "reviewCount": 1,
-        "author": "mengtingli-ant",
-        "assignees": []
-      },
-      {
         "number": 1554,
         "title": "fix(qs): preserve empty string query parameter values",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1554",
@@ -948,7 +934,7 @@
         "title": "fix(bedrock): preserve aws_profile in copied clients",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1556",
         "createdAt": "2026-05-16T20:50:53Z",
-        "daysOpen": 93,
+        "daysOpen": 94,
         "labels": [],
         "isDraft": false,
         "additions": 33,
@@ -1562,6 +1548,20 @@
         "assignees": []
       },
       {
+        "number": 1833,
+        "title": "fix(streaming): don't JSON-parse text when output_format=None",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
+        "createdAt": "2026-08-15T22:04:19Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 47,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "Swastikbhat-lab",
+        "assignees": []
+      },
+      {
         "number": 1832,
         "title": "fix(session-runner): bound the reconnect reconcile so a long or wrapping history cannot wedge the runner",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1832",
@@ -1585,20 +1585,6 @@
         "isDraft": false,
         "additions": 354,
         "deletions": 0,
-        "reviewCount": 0,
-        "author": "Swastikbhat-lab",
-        "assignees": []
-      },
-      {
-        "number": 1833,
-        "title": "fix(streaming): don't JSON-parse text when output_format=None",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
-        "createdAt": "2026-08-15T22:04:19Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 47,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "Swastikbhat-lab",
         "assignees": []
@@ -1896,6 +1882,20 @@
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
+      },
+      {
+        "number": 1859,
+        "title": "fix(beta): omit compaction encrypted_content on request round-trip",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1859",
+        "createdAt": "2026-08-18T20:12:05Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 375,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "lllakshit",
+        "assignees": []
       }
     ],
     "review_time": {
@@ -1915,18 +1915,18 @@
       "median_hours": 2.7
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 84.4,
+    "rejection_rate_pct": 84.5,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
-      "small": 67,
-      "medium": 27,
+      "small": 66,
+      "medium": 28,
       "large": 6
     }
   },
   "contributors": {
-    "total_known": 400,
-    "active_30d": 50,
-    "first_time_30d": 42,
+    "total_known": 401,
+    "active_30d": 51,
+    "first_time_30d": 43,
     "retention_rate_pct": 13.5,
     "churned_30d": 32,
     "commits_per_week_avg": 11.1,
@@ -2192,6 +2192,7 @@
       "liorra-git",
       "lizradway",
       "ljun20160606",
+      "lllakshit",
       "lucky-verma",
       "lui62233",
       "luiz-anthropic",
@@ -2375,6 +2376,7 @@
       "kannanwisen",
       "kilanassah",
       "l1ve709",
+      "lllakshit",
       "lucky-verma",
       "luiz-anthropic",
       "maxisbey",
@@ -2557,9 +2559,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 6353071,
-    "last_week": 49174364,
-    "last_month": 206520643,
-    "total": 1151991076
+    "daily": 6991260,
+    "last_week": 49812553,
+    "last_month": 207158832,
+    "total": 1152629265
   }
 }
