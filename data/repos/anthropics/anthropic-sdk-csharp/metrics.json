@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T18:21:07.778Z",
+  "timestamp": "2026-08-19T20:18:01.598Z",
   "repository": {
     "stars": 318,
     "forks": 102
@@ -57,7 +57,7 @@
         "title": "Feature request: support running Claude Code programmatically from the C# SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/244",
         "createdAt": "2026-08-11T19:50:36Z",
-        "daysOpen": 7,
+        "daysOpen": 8,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -99,7 +99,7 @@
     "open_count": 3,
     "merged_7d": 1,
     "merged_30d": 10,
-    "merged_90d": 29,
+    "merged_90d": 28,
     "opened_7d": 0,
     "opened_30d": 6,
     "opened_90d": 32,
@@ -155,10 +155,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 121.9,
-      "median_hours": 30.6,
-      "p90_hours": 282.9,
-      "p95_hours": 547.5
+      "avg_hours": 126,
+      "median_hours": 38.6,
+      "p90_hours": 310.5,
+      "p95_hours": 549
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -167,11 +167,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 219,
-      "median_hours": 38.6
+      "avg_hours": 226.7,
+      "median_hours": 39
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 12.1,
+    "rejection_rate_pct": 12.5,
     "avg_reviews_per_pr": 1.7,
     "by_size": {
       "small": 1,
@@ -190,8 +190,8 @@
       9,
       18,
       4,
-      5,
-      18,
+      12,
+      11,
       7,
       0,
       19,
@@ -296,23 +296,23 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 24,
-        "total_changes": 83
+        "pr_count": 23,
+        "total_changes": 81
       },
       {
         "path": ".stats.yml",
-        "pr_count": 24,
-        "total_changes": 140
+        "pr_count": 23,
+        "total_changes": 134
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
-        "pr_count": 24,
-        "total_changes": 53
+        "pr_count": 23,
+        "total_changes": 51
       },
       {
         "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 24,
-        "total_changes": 287
+        "pr_count": 23,
+        "total_changes": 279
       },
       {
         "path": "src/Anthropic/Core/ModelBase.cs",
@@ -360,11 +360,6 @@
         "total_changes": 63
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
-        "pr_count": 7,
-        "total_changes": 18
-      },
-      {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaRefusalStopDetailsTest.cs",
         "pr_count": 7,
         "total_changes": 100
@@ -373,11 +368,6 @@
         "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaToolUnionTest.cs",
         "pr_count": 7,
         "total_changes": 310
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/AnthropicBeta.cs",
-        "pr_count": 7,
-        "total_changes": 29
       },
       {
         "path": "src/Anthropic/Models/Messages/Model.cs",
@@ -393,17 +383,27 @@
         "path": "src/Anthropic/Models/Beta/Messages/MessageCreateParams.cs",
         "pr_count": 7,
         "total_changes": 439
+      },
+      {
+        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTestsBase.cs",
+        "pr_count": 6,
+        "total_changes": 1952
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
+        "pr_count": 6,
+        "total_changes": 16
       }
     ],
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 28,
+        "pr_count": 27,
         "file_count": 7
       },
       {
         "path": "/",
-        "pr_count": 24,
+        "pr_count": 23,
         "file_count": 7
       },
       {
@@ -417,24 +417,24 @@
         "file_count": 11
       },
       {
-        "path": "src/Anthropic/Models/Beta/Messages/",
-        "pr_count": 15,
-        "file_count": 141
-      },
-      {
         "path": "src/Anthropic/Models/Messages/",
         "pr_count": 15,
         "file_count": 116
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
+        "path": "src/Anthropic/Models/Beta/Messages/",
         "pr_count": 14,
-        "file_count": 159
+        "file_count": 141
       },
       {
         "path": "src/Anthropic.Tests/",
         "pr_count": 13,
         "file_count": 9
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
+        "pr_count": 13,
+        "file_count": 158
       },
       {
         "path": "src/Anthropic/Models/Beta/Agents/",

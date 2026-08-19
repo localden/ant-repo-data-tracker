@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-19T18:19:55.443Z",
+  "timestamp": "2026-08-19T20:16:51.401Z",
   "repository": {
-    "stars": 1177,
-    "forks": 207
+    "stars": 1178,
+    "forks": 208
   },
   "issues": {
     "open_count": 19,
@@ -158,7 +158,7 @@
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
         "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -188,7 +188,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 1,
+        "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -198,7 +198,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 1,
+        "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -239,7 +239,7 @@
     "open_count": 22,
     "merged_7d": 3,
     "merged_30d": 9,
-    "merged_90d": 27,
+    "merged_90d": 26,
     "opened_7d": 3,
     "opened_30d": 13,
     "opened_90d": 51,
@@ -494,7 +494,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -508,7 +508,7 @@
         "title": "fix(agenttoolset): guard empty tool results",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/394",
         "createdAt": "2026-07-15T20:03:25Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "isDraft": false,
         "additions": 12,
@@ -561,10 +561,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 59.1,
-      "median_hours": 21.4,
-      "p90_hours": 190,
-      "p95_hours": 201.1
+      "avg_hours": 61,
+      "median_hours": 22.5,
+      "p90_hours": 190.4,
+      "p95_hours": 201.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -573,11 +573,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 57,
-      "median_hours": 20.3
+      "avg_hours": 59.1,
+      "median_hours": 21.4
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 55.7,
+    "rejection_rate_pct": 56.7,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 10,
@@ -596,8 +596,8 @@
       7,
       25,
       2,
-      4,
-      15,
+      8,
+      11,
       4,
       9,
       13,
@@ -742,28 +742,28 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 27,
-        "total_changes": 54
+        "pr_count": 26,
+        "total_changes": 52
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 27,
-        "total_changes": 352
+        "pr_count": 26,
+        "total_changes": 344
       },
       {
         "path": "README.md",
-        "pr_count": 27,
-        "total_changes": 56
-      },
-      {
-        "path": "internal/version.go",
-        "pr_count": 27,
+        "pr_count": 26,
         "total_changes": 54
       },
       {
-        "path": ".stats.yml",
+        "path": "internal/version.go",
         "pr_count": 26,
-        "total_changes": 152
+        "total_changes": 52
+      },
+      {
+        "path": ".stats.yml",
+        "pr_count": 25,
+        "total_changes": 146
       },
       {
         "path": "message.go",
@@ -777,8 +777,8 @@
       },
       {
         "path": "betamessage.go",
-        "pr_count": 16,
-        "total_changes": 26811
+        "pr_count": 15,
+        "total_changes": 26783
       },
       {
         "path": "shared/constant/constants.go",
@@ -791,14 +791,14 @@
         "total_changes": 573
       },
       {
-        "path": "beta.go",
-        "pr_count": 9,
-        "total_changes": 109
-      },
-      {
         "path": "message_test.go",
         "pr_count": 8,
         "total_changes": 124
+      },
+      {
+        "path": "beta.go",
+        "pr_count": 8,
+        "total_changes": 108
       },
       {
         "path": "betamessage_test.go",
@@ -844,12 +844,12 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 27,
+        "pr_count": 26,
         "file_count": 79
       },
       {
         "path": "internal/",
-        "pr_count": 27,
+        "pr_count": 26,
         "file_count": 1
       },
       {
