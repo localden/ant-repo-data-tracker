@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T16:21:08.583Z",
+  "timestamp": "2026-08-19T18:20:33.599Z",
   "repository": {
     "stars": 365,
     "forks": 96
@@ -71,11 +71,11 @@
   },
   "pulls": {
     "open_count": 1,
-    "merged_7d": 2,
-    "merged_30d": 10,
-    "merged_90d": 32,
-    "opened_7d": 3,
-    "opened_30d": 15,
+    "merged_7d": 3,
+    "merged_30d": 11,
+    "merged_90d": 33,
+    "opened_7d": 4,
+    "opened_30d": 16,
     "opened_90d": 46,
     "closed_not_merged_90d": 15,
     "draft_count": 0,
@@ -101,10 +101,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 104.6,
-      "median_hours": 12.4,
-      "p90_hours": 147.6,
-      "p95_hours": 253.5
+      "avg_hours": 101.4,
+      "median_hours": 3.9,
+      "p90_hours": 147,
+      "p95_hours": 246.1
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -113,11 +113,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 105,
-      "median_hours": 17.2
+      "avg_hours": 101.8,
+      "median_hours": 13.5
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 31.9,
+    "rejection_rate_pct": 31.3,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 1,
@@ -131,7 +131,7 @@
     "first_time_30d": 5,
     "retention_rate_pct": 10,
     "churned_30d": 9,
-    "commits_per_week_avg": 13.1,
+    "commits_per_week_avg": 13.3,
     "commits_per_week_trend": [
       7,
       28,
@@ -140,11 +140,11 @@
       23,
       4,
       0,
-      17,
-      7,
+      19,
+      5,
       0,
       9,
-      33
+      35
     ],
     "allContributors": [
       "BarakSrour",
@@ -211,38 +211,48 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 28,
-        "total_changes": 56
+        "pr_count": 29,
+        "total_changes": 58
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 28,
-        "total_changes": 406
+        "pr_count": 29,
+        "total_changes": 414
       },
       {
         "path": "README.md",
-        "pr_count": 28,
-        "total_changes": 114
+        "pr_count": 29,
+        "total_changes": 118
       },
       {
         "path": "build.gradle.kts",
-        "pr_count": 28,
-        "total_changes": 102
+        "pr_count": 29,
+        "total_changes": 104
       },
       {
         "path": ".stats.yml",
-        "pr_count": 26,
-        "total_changes": 146
+        "pr_count": 27,
+        "total_changes": 154
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCreateParams.kt",
-        "pr_count": 11,
+        "pr_count": 12,
         "total_changes": 1223
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/batches/BatchCreateParams.kt",
-        "pr_count": 11,
+        "pr_count": 12,
         "total_changes": 854
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCountTokensParams.kt",
+        "pr_count": 11,
+        "total_changes": 1845
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/BetaContentBlockParamTest.kt",
+        "pr_count": 10,
+        "total_changes": 593
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/helpers/BetaMessageAccumulatorTest.kt",
@@ -250,19 +260,39 @@
         "total_changes": 604
       },
       {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCountTokensParams.kt",
-        "pr_count": 10,
-        "total_changes": 1845
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/MessageCreateParams.kt",
+        "pr_count": 9,
+        "total_changes": 429
       },
       {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/BetaContentBlockParamTest.kt",
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/batches/BatchCreateParams.kt",
         "pr_count": 9,
-        "total_changes": 579
+        "total_changes": 212
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/Model.kt",
         "pr_count": 9,
         "total_changes": 267
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaContentBlockParam.kt",
+        "pr_count": 8,
+        "total_changes": 1464
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/StructuredMessageCreateParams.kt",
+        "pr_count": 8,
+        "total_changes": 249
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/MessageCountTokensParams.kt",
+        "pr_count": 8,
+        "total_changes": 285
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/StructuredMessageCreateParamsTest.kt",
+        "pr_count": 8,
+        "total_changes": 371
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/AnthropicBeta.kt",
@@ -278,58 +308,43 @@
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/services/blocking/beta/MessageServiceTest.kt",
         "pr_count": 8,
         "total_changes": 263
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaUsage.kt",
-        "pr_count": 8,
-        "total_changes": 650
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/MessageCreateParams.kt",
-        "pr_count": 8,
-        "total_changes": 325
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/batches/BatchCreateParams.kt",
-        "pr_count": 8,
-        "total_changes": 212
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/helpers/BetaMessageAccumulator.kt",
-        "pr_count": 7,
-        "total_changes": 136
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/AgentUpdateParams.kt",
-        "pr_count": 7,
-        "total_changes": 496
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaContentBlockParam.kt",
-        "pr_count": 7,
-        "total_changes": 1372
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 29,
+        "pr_count": 30,
         "file_count": 13
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/",
-        "pr_count": 20,
-        "file_count": 193
+        "pr_count": 21,
+        "file_count": 253
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/",
-        "pr_count": 20,
-        "file_count": 136
+        "pr_count": 21,
+        "file_count": 203
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/",
-        "pr_count": 16,
-        "file_count": 170
+        "pr_count": 17,
+        "file_count": 234
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/helpers/",
+        "pr_count": 14,
+        "file_count": 8
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/services/async/beta/",
+        "pr_count": 14,
+        "file_count": 11
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/services/blocking/beta/",
+        "pr_count": 14,
+        "file_count": 11
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/",
@@ -337,29 +352,14 @@
         "file_count": 45
       },
       {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/helpers/",
-        "pr_count": 13,
-        "file_count": 8
-      },
-      {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/services/async/beta/",
-        "pr_count": 13,
-        "file_count": 10
-      },
-      {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/services/blocking/beta/",
-        "pr_count": 13,
-        "file_count": 10
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/helpers/",
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/batches/",
         "pr_count": 12,
-        "file_count": 7
+        "file_count": 12
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/messages/",
-        "pr_count": 11,
-        "file_count": 117
+        "pr_count": 12,
+        "file_count": 187
       }
     ],
     "top_n": 20

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-19T16:20:31.160Z",
+  "timestamp": "2026-08-19T18:19:55.443Z",
   "repository": {
     "stars": 1177,
     "forks": 207
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 189,
+        "daysOpen": 190,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -98,7 +98,7 @@
         "title": "BetaTextEditorCodeExecutionToolResultBlock.ToParam() double-encodes non-error content as a JSON string",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/355",
         "createdAt": "2026-06-01T17:43:06Z",
-        "daysOpen": 78,
+        "daysOpen": 79,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -237,11 +237,11 @@
   },
   "pulls": {
     "open_count": 22,
-    "merged_7d": 2,
-    "merged_30d": 8,
-    "merged_90d": 26,
-    "opened_7d": 2,
-    "opened_30d": 12,
+    "merged_7d": 3,
+    "merged_30d": 9,
+    "merged_90d": 27,
+    "opened_7d": 3,
+    "opened_30d": 13,
     "opened_90d": 51,
     "closed_not_merged_90d": 34,
     "draft_count": 1,
@@ -561,10 +561,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 61.1,
-      "median_hours": 22.5,
-      "p90_hours": 190.4,
-      "p95_hours": 201.7
+      "avg_hours": 59.1,
+      "median_hours": 21.4,
+      "p90_hours": 190,
+      "p95_hours": 201.1
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -573,11 +573,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 59.2,
-      "median_hours": 21.4
+      "avg_hours": 57,
+      "median_hours": 20.3
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 56.7,
+    "rejection_rate_pct": 55.7,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 10,
@@ -591,7 +591,7 @@
     "first_time_30d": 8,
     "retention_rate_pct": 25,
     "churned_30d": 9,
-    "commits_per_week_avg": 10.3,
+    "commits_per_week_avg": 10.5,
     "commits_per_week_trend": [
       7,
       25,
@@ -600,11 +600,11 @@
       15,
       4,
       9,
-      11,
-      9,
+      13,
+      7,
       0,
       15,
-      23
+      25
     ],
     "allContributors": [
       "17twenty",
@@ -742,48 +742,48 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 26,
-        "total_changes": 52
-      },
-      {
-        "path": "CHANGELOG.md",
-        "pr_count": 26,
-        "total_changes": 344
-      },
-      {
-        "path": "README.md",
-        "pr_count": 26,
+        "pr_count": 27,
         "total_changes": 54
       },
       {
+        "path": "CHANGELOG.md",
+        "pr_count": 27,
+        "total_changes": 352
+      },
+      {
+        "path": "README.md",
+        "pr_count": 27,
+        "total_changes": 56
+      },
+      {
         "path": "internal/version.go",
-        "pr_count": 26,
-        "total_changes": 52
+        "pr_count": 27,
+        "total_changes": 54
       },
       {
         "path": ".stats.yml",
-        "pr_count": 25,
-        "total_changes": 144
+        "pr_count": 26,
+        "total_changes": 152
       },
       {
         "path": "message.go",
-        "pr_count": 16,
-        "total_changes": 845
+        "pr_count": 17,
+        "total_changes": 14328
       },
       {
         "path": "api.md",
-        "pr_count": 15,
-        "total_changes": 276
+        "pr_count": 16,
+        "total_changes": 458
       },
       {
         "path": "betamessage.go",
-        "pr_count": 15,
-        "total_changes": 2470
+        "pr_count": 16,
+        "total_changes": 26811
       },
       {
         "path": "shared/constant/constants.go",
-        "pr_count": 11,
-        "total_changes": 210
+        "pr_count": 12,
+        "total_changes": 295
       },
       {
         "path": "betaagent.go",
@@ -796,14 +796,19 @@
         "total_changes": 109
       },
       {
+        "path": "message_test.go",
+        "pr_count": 8,
+        "total_changes": 124
+      },
+      {
         "path": "betamessage_test.go",
         "pr_count": 8,
         "total_changes": 232
       },
       {
-        "path": "message_test.go",
+        "path": "betamessageutil.go",
         "pr_count": 7,
-        "total_changes": 113
+        "total_changes": 198
       },
       {
         "path": "betawebhook.go",
@@ -821,40 +826,45 @@
         "total_changes": 1113
       },
       {
-        "path": "betamessageutil.go",
-        "pr_count": 6,
-        "total_changes": 197
-      },
-      {
         "path": "betamessagebatch.go",
         "pr_count": 6,
         "total_changes": 167
       },
       {
+        "path": "messageutil.go",
+        "pr_count": 5,
+        "total_changes": 206
+      },
+      {
         "path": "betasessiontoolrunner.go",
         "pr_count": 5,
         "total_changes": 537
-      },
-      {
-        "path": "betatoolrunner.go",
-        "pr_count": 5,
-        "total_changes": 164
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 26,
-        "file_count": 72
+        "pr_count": 27,
+        "file_count": 79
       },
       {
         "path": "internal/",
-        "pr_count": 26,
+        "pr_count": 27,
         "file_count": 1
       },
       {
         "path": "shared/constant/",
-        "pr_count": 11,
+        "pr_count": 12,
+        "file_count": 1
+      },
+      {
+        "path": "scripts/",
+        "pr_count": 5,
+        "file_count": 3
+      },
+      {
+        "path": "examples/agents-comprehensive/",
+        "pr_count": 4,
         "file_count": 1
       },
       {
@@ -878,19 +888,9 @@
         "file_count": 5
       },
       {
-        "path": "scripts/",
-        "pr_count": 4,
-        "file_count": 3
-      },
-      {
         "path": "packages/ssestream/",
         "pr_count": 3,
         "file_count": 1
-      },
-      {
-        "path": ".github/workflows/",
-        "pr_count": 3,
-        "file_count": 2
       }
     ],
     "top_n": 20
