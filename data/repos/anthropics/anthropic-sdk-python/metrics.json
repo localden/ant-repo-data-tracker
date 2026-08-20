@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-20T16:22:21.090Z",
+  "timestamp": "2026-08-20T18:22:42.576Z",
   "repository": {
     "stars": 3835,
     "forks": 818
@@ -11,7 +11,7 @@
     "closed_90d": 126,
     "opened_7d": 3,
     "opened_30d": 15,
-    "opened_90d": 61,
+    "opened_90d": 60,
     "assigned_count": 0,
     "unassigned_count": 41,
     "unassigned_24h": 41,
@@ -56,6 +56,16 @@
         "assignees": []
       },
       {
+        "number": 1103,
+        "title": "Token counting is not supported in Bedrock yet",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1103",
+        "createdAt": "2025-12-17T18:07:50Z",
+        "daysOpen": 246,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
         "number": 1102,
         "title": "aws bedrock can not support skill?",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1102",
@@ -63,16 +73,6 @@
         "daysOpen": 246,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1103,
-        "title": "Token counting is not supported in Bedrock yet",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1103",
-        "createdAt": "2025-12-17T18:07:50Z",
-        "daysOpen": 245,
-        "labels": [],
-        "commentCount": 2,
         "assignees": []
       },
       {
@@ -278,7 +278,7 @@
         "title": "Streaming response consumption validates full event union per event on the loop, even for get_final_message()",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1649",
         "createdAt": "2026-06-04T16:35:31Z",
-        "daysOpen": 76,
+        "daysOpen": 77,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -468,17 +468,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 101,
+    "open_count": 102,
     "merged_7d": 4,
     "merged_30d": 15,
     "merged_90d": 37,
-    "opened_7d": 34,
-    "opened_30d": 74,
+    "opened_7d": 35,
+    "opened_30d": 75,
     "opened_90d": 185,
     "closed_not_merged_90d": 194,
     "draft_count": 2,
     "assigned_count": 0,
-    "unassigned_count": 101,
+    "unassigned_count": 102,
     "unassigned_24h": 99,
     "unassigned_7d": 70,
     "assigned_prs": [],
@@ -544,7 +544,7 @@
         "title": "feat: support special types for structured outputs",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1076",
         "createdAt": "2025-11-19T17:26:12Z",
-        "daysOpen": 273,
+        "daysOpen": 274,
         "labels": [],
         "isDraft": false,
         "additions": 75,
@@ -850,6 +850,20 @@
         "assignees": []
       },
       {
+        "number": 1538,
+        "title": "fix(tools): append_messages() inside the tool runner loop no longer infinite-loops or drops the assistant turn",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1538",
+        "createdAt": "2026-05-13T17:59:39Z",
+        "daysOpen": 99,
+        "labels": [],
+        "isDraft": false,
+        "additions": 378,
+        "deletions": 32,
+        "reviewCount": 0,
+        "author": "Zelys-DFKH",
+        "assignees": []
+      },
+      {
         "number": 1545,
         "title": "fix(tools): preserve tool flow when caller appends unrelated messages (closes #1536)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1545",
@@ -889,20 +903,6 @@
         "deletions": 3,
         "reviewCount": 0,
         "author": "Zawwarsami16",
-        "assignees": []
-      },
-      {
-        "number": 1538,
-        "title": "fix(tools): append_messages() inside the tool runner loop no longer infinite-loops or drops the assistant turn",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1538",
-        "createdAt": "2026-05-13T17:59:39Z",
-        "daysOpen": 98,
-        "labels": [],
-        "isDraft": false,
-        "additions": 378,
-        "deletions": 32,
-        "reviewCount": 0,
-        "author": "Zelys-DFKH",
         "assignees": []
       },
       {
@@ -1284,6 +1284,20 @@
         "assignees": []
       },
       {
+        "number": 1752,
+        "title": "fix(agent_toolset): reject non-regular files in the `write` tool instead of hanging on a FIFO",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1752",
+        "createdAt": "2026-07-11T16:44:08Z",
+        "daysOpen": 40,
+        "labels": [],
+        "isDraft": false,
+        "additions": 47,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "roli-lpci",
+        "assignees": []
+      },
+      {
         "number": 1750,
         "title": "fix(runner): never re-execute an already-run tool call in SessionToolRunner",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1750",
@@ -1309,20 +1323,6 @@
         "deletions": 9,
         "reviewCount": 0,
         "author": "PranavMishra28",
-        "assignees": []
-      },
-      {
-        "number": 1752,
-        "title": "fix(agent_toolset): reject non-regular files in the `write` tool instead of hanging on a FIFO",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1752",
-        "createdAt": "2026-07-11T16:44:08Z",
-        "daysOpen": 39,
-        "labels": [],
-        "isDraft": false,
-        "additions": 47,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "roli-lpci",
         "assignees": []
       },
       {
@@ -1484,7 +1484,7 @@
         "title": "fix(files): skip recursive directory symlinks",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1824",
         "createdAt": "2026-08-12T17:44:01Z",
-        "daysOpen": 7,
+        "daysOpen": 8,
         "labels": [],
         "isDraft": false,
         "additions": 31,
@@ -1898,6 +1898,22 @@
         "reviewCount": 0,
         "author": "lllakshit",
         "assignees": []
+      },
+      {
+        "number": 1864,
+        "title": "release: 0.125.1",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1864",
+        "createdAt": "2026-08-20T17:06:21Z",
+        "daysOpen": 0,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 29,
+        "deletions": 9,
+        "reviewCount": 0,
+        "author": "stainless-app",
+        "assignees": []
       }
     ],
     "review_time": {
@@ -1920,7 +1936,7 @@
     "rejection_rate_pct": 84,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
-      "small": 68,
+      "small": 69,
       "medium": 28,
       "large": 5
     }
@@ -1931,17 +1947,17 @@
     "first_time_30d": 42,
     "retention_rate_pct": 13.5,
     "churned_30d": 32,
-    "commits_per_week_avg": 12.8,
+    "commits_per_week_avg": 12,
     "commits_per_week_trend": [
+      8,
       17,
-      18,
-      2,
-      12,
+      9,
+      5,
       14,
       2,
       0,
-      23,
-      10,
+      26,
+      7,
       0,
       9,
       47
@@ -2560,9 +2576,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 5044696,
-    "last_week": 47210501,
-    "last_month": 208011340,
-    "total": 1167093920
+    "daily": 5705318,
+    "last_week": 47871123,
+    "last_month": 208671962,
+    "total": 1167754542
   }
 }
