@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-21T04:28:12.789Z",
+  "timestamp": "2026-08-21T06:26:37.251Z",
   "repository": {
-    "stars": 3839,
+    "stars": 3840,
     "forks": 819
   },
   "issues": {
@@ -120,7 +120,7 @@
         "title": "Slow imports",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1211",
         "createdAt": "2026-02-27T06:05:18Z",
-        "daysOpen": 174,
+        "daysOpen": 175,
         "labels": [
           "sdk"
         ],
@@ -156,7 +156,7 @@
         "title": "beta.skills.list hard-capped at 100 items with broken pagination (has_more always false, no cursor)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1391",
         "createdAt": "2026-04-15T05:17:33Z",
-        "daysOpen": 127,
+        "daysOpen": 128,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -228,7 +228,7 @@
         "title": "[Bug] append_messages() inside tool runner loop causes infinite loop (advanced usage docs example)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1536",
         "createdAt": "2026-05-13T04:37:58Z",
-        "daysOpen": 99,
+        "daysOpen": 100,
         "labels": [],
         "commentCount": 4,
         "assignees": []
@@ -238,7 +238,7 @@
         "title": "Official Rust SDK request — Where The Rust At? (follow-up to #747)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1559",
         "createdAt": "2026-05-17T06:01:29Z",
-        "daysOpen": 95,
+        "daysOpen": 96,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -318,7 +318,7 @@
         "title": "x-stainless-timeout header is NOT_GIVEN on default requests",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1676",
         "createdAt": "2026-06-14T04:31:59Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -388,7 +388,7 @@
         "title": "Streaming accumulator crashes when message_start omits usage as shown in thinking docs",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1806",
         "createdAt": "2026-08-06T06:10:41Z",
-        "daysOpen": 14,
+        "daysOpen": 15,
         "labels": [],
         "commentCount": 4,
         "assignees": []
@@ -474,7 +474,7 @@
     "merged_90d": 38,
     "opened_7d": 35,
     "opened_30d": 76,
-    "opened_90d": 183,
+    "opened_90d": 182,
     "closed_not_merged_90d": 194,
     "draft_count": 2,
     "assigned_count": 0,
@@ -602,7 +602,7 @@
         "title": "fix: resolve subscripted generics in _build_discriminated_union_meta (pydantic v1)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1238",
         "createdAt": "2026-03-11T06:24:30Z",
-        "daysOpen": 162,
+        "daysOpen": 163,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -616,7 +616,7 @@
         "title": "fix: handle empty text and malformed JSON in parse_text for thinking+tools",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1240",
         "createdAt": "2026-03-12T05:20:00Z",
-        "daysOpen": 161,
+        "daysOpen": 162,
         "labels": [],
         "isDraft": false,
         "additions": 346,
@@ -770,7 +770,7 @@
         "title": "docs: add docstrings to MessageStream and AsyncMessageStream",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1321",
         "createdAt": "2026-04-01T04:56:09Z",
-        "daysOpen": 141,
+        "daysOpen": 142,
         "labels": [],
         "isDraft": false,
         "additions": 51,
@@ -1078,7 +1078,7 @@
         "title": "fix: resolve x-stainless-timeout when request timeout is NotGiven",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1677",
         "createdAt": "2026-06-14T04:32:06Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -1134,7 +1134,7 @@
         "title": "fix(bedrock): drop metrics-only invocation trailer from stream decoder",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1702",
         "createdAt": "2026-06-24T05:44:39Z",
-        "daysOpen": 57,
+        "daysOpen": 58,
         "labels": [],
         "isDraft": false,
         "additions": 32,
@@ -1214,6 +1214,34 @@
         "assignees": []
       },
       {
+        "number": 1743,
+        "title": "fix(foundry): don't treat an env-derived resource as conflicting with base_url",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1743",
+        "createdAt": "2026-07-07T05:00:33Z",
+        "daysOpen": 45,
+        "labels": [],
+        "isDraft": false,
+        "additions": 55,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sean-kim05",
+        "assignees": []
+      },
+      {
+        "number": 1742,
+        "title": "fix(vertex): resolve project_id from credentials before building request URL",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1742",
+        "createdAt": "2026-07-07T04:47:56Z",
+        "daysOpen": 45,
+        "labels": [],
+        "isDraft": false,
+        "additions": 78,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sean-kim05",
+        "assignees": []
+      },
+      {
         "number": 1741,
         "title": "fix(bedrock): don't raise KeyError when signing requests lacking a connection header",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1741",
@@ -1237,34 +1265,6 @@
         "isDraft": false,
         "additions": 53,
         "deletions": 3,
-        "reviewCount": 0,
-        "author": "sean-kim05",
-        "assignees": []
-      },
-      {
-        "number": 1743,
-        "title": "fix(foundry): don't treat an env-derived resource as conflicting with base_url",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1743",
-        "createdAt": "2026-07-07T05:00:33Z",
-        "daysOpen": 44,
-        "labels": [],
-        "isDraft": false,
-        "additions": 55,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sean-kim05",
-        "assignees": []
-      },
-      {
-        "number": 1742,
-        "title": "fix(vertex): resolve project_id from credentials before building request URL",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1742",
-        "createdAt": "2026-07-07T04:47:56Z",
-        "daysOpen": 44,
-        "labels": [],
-        "isDraft": false,
-        "additions": 78,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "sean-kim05",
         "assignees": []
@@ -1344,7 +1344,7 @@
         "title": "fix(jsonl): do not treat a lone CR as a line ending",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1778",
         "createdAt": "2026-07-24T05:29:32Z",
-        "daysOpen": 27,
+        "daysOpen": 28,
         "labels": [],
         "isDraft": false,
         "additions": 87,
@@ -1410,6 +1410,20 @@
         "assignees": []
       },
       {
+        "number": 1818,
+        "title": "fix(parse): reject unrepresentable dynamic object schemas",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1818",
+        "createdAt": "2026-08-10T05:18:39Z",
+        "daysOpen": 11,
+        "labels": [],
+        "isDraft": false,
+        "additions": 67,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "uuzzrm",
+        "assignees": []
+      },
+      {
         "number": 1815,
         "title": "fix(streaming): initialize usage when message_start omits it",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1815",
@@ -1463,20 +1477,6 @@
         "deletions": 2676,
         "reviewCount": 0,
         "author": "PiedPiper911",
-        "assignees": []
-      },
-      {
-        "number": 1818,
-        "title": "fix(parse): reject unrepresentable dynamic object schemas",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1818",
-        "createdAt": "2026-08-10T05:18:39Z",
-        "daysOpen": 10,
-        "labels": [],
-        "isDraft": false,
-        "additions": 67,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "uuzzrm",
         "assignees": []
       },
       {
@@ -2577,9 +2577,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 1015763,
-    "last_week": 43783046,
-    "last_month": 205154000,
-    "total": 1171366291
+    "daily": 1756403,
+    "last_week": 44523686,
+    "last_month": 205894640,
+    "total": 1172106931
   }
 }
