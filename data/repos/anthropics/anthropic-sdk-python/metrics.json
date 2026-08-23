@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-23T12:18:11.844Z",
+  "timestamp": "2026-08-23T14:13:44.581Z",
   "repository": {
     "stars": 3846,
     "forks": 823
@@ -10,7 +10,7 @@
     "closed_30d": 116,
     "closed_90d": 128,
     "opened_7d": 7,
-    "opened_30d": 19,
+    "opened_30d": 18,
     "opened_90d": 64,
     "assigned_count": 0,
     "unassigned_count": 45,
@@ -24,7 +24,7 @@
         "title": "Bedrock: support low-latency configuration",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/971",
         "createdAt": "2025-06-10T13:40:34Z",
-        "daysOpen": 438,
+        "daysOpen": 439,
         "labels": [
           "bedrock"
         ],
@@ -298,7 +298,7 @@
         "title": "web_search_20260209 dynamic filtering: code execution fails with \"AttributeError: 'str' object has no attribute 'get'\" and returns empty results — need help understanding",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1666",
         "createdAt": "2026-06-09T14:08:47Z",
-        "daysOpen": 74,
+        "daysOpen": 75,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -428,7 +428,7 @@
         "title": "BetaCompactionBlockParam.encrypted_content accepted by SDK types but rejected by the live API with \"Extra inputs are not permitted\"",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1828",
         "createdAt": "2026-08-14T13:04:11Z",
-        "daysOpen": 8,
+        "daysOpen": 9,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -519,7 +519,7 @@
     "draft_count": 2,
     "assigned_count": 0,
     "unassigned_count": 106,
-    "unassigned_24h": 101,
+    "unassigned_24h": 103,
     "unassigned_7d": 75,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -556,7 +556,7 @@
         "title": "fix(bedrock): preserve http_client in copy() and with_options() methods",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1057",
         "createdAt": "2025-10-31T13:45:12Z",
-        "daysOpen": 295,
+        "daysOpen": 296,
         "labels": [],
         "isDraft": false,
         "additions": 256,
@@ -778,6 +778,20 @@
         "assignees": []
       },
       {
+        "number": 1304,
+        "title": "fix: correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1304",
+        "createdAt": "2026-03-27T13:40:12Z",
+        "daysOpen": 149,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "nil957",
+        "assignees": []
+      },
+      {
         "number": 1306,
         "title": "fix(bedrock,vertex): add missing 413 and 529 status error handling",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1306",
@@ -789,20 +803,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "4444J99",
-        "assignees": []
-      },
-      {
-        "number": 1304,
-        "title": "fix: correct typo \"th\" to \"the\" in StreamAlreadyConsumed error message",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1304",
-        "createdAt": "2026-03-27T13:40:12Z",
-        "daysOpen": 148,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "nil957",
         "assignees": []
       },
       {
@@ -1244,7 +1244,7 @@
         "title": "fix(agent_toolset): grep tolerates extra model-supplied args",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1719",
         "createdAt": "2026-06-30T13:55:27Z",
-        "daysOpen": 53,
+        "daysOpen": 54,
         "labels": [],
         "isDraft": false,
         "additions": 9,
@@ -1562,6 +1562,20 @@
         "assignees": []
       },
       {
+        "number": 1832,
+        "title": "fix(session-runner): bound the reconnect reconcile so a long or wrapping history cannot wedge the runner",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1832",
+        "createdAt": "2026-08-15T13:47:40Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 216,
+        "deletions": 27,
+        "reviewCount": 0,
+        "author": "antdres",
+        "assignees": []
+      },
+      {
         "number": 1834,
         "title": "fix(parse): demote composition keywords instead of dropping them",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1834",
@@ -1587,20 +1601,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "Swastikbhat-lab",
-        "assignees": []
-      },
-      {
-        "number": 1832,
-        "title": "fix(session-runner): bound the reconnect reconcile so a long or wrapping history cannot wedge the runner",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1832",
-        "createdAt": "2026-08-15T13:47:40Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 216,
-        "deletions": 27,
-        "reviewCount": 0,
-        "author": "antdres",
         "assignees": []
       },
       {
@@ -1942,6 +1942,34 @@
         "assignees": []
       },
       {
+        "number": 1874,
+        "title": "fix(skills): download roster members' skills, not just the coordinator's",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1874",
+        "createdAt": "2026-08-22T13:53:16Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 122,
+        "deletions": 5,
+        "reviewCount": 0,
+        "author": "Chirag6722",
+        "assignees": []
+      },
+      {
+        "number": 1873,
+        "title": "fix(managed-agents): download skills for all agents in a multiagent roster",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1873",
+        "createdAt": "2026-08-22T12:25:21Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 38,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "SparshM8",
+        "assignees": []
+      },
+      {
         "number": 1872,
         "title": "fix(skills): make setup_skills idempotent and add keep_skills opt-out",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1872",
@@ -1982,34 +2010,6 @@
         "reviewCount": 0,
         "author": "vjaudir8123-debug",
         "assignees": []
-      },
-      {
-        "number": 1874,
-        "title": "fix(skills): download roster members' skills, not just the coordinator's",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1874",
-        "createdAt": "2026-08-22T13:53:16Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 122,
-        "deletions": 5,
-        "reviewCount": 0,
-        "author": "Chirag6722",
-        "assignees": []
-      },
-      {
-        "number": 1873,
-        "title": "fix(managed-agents): download skills for all agents in a multiagent roster",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1873",
-        "createdAt": "2026-08-22T12:25:21Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 38,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "SparshM8",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -2039,10 +2039,10 @@
   },
   "contributors": {
     "total_known": 411,
-    "active_30d": 48,
-    "first_time_30d": 42,
-    "retention_rate_pct": 10.5,
-    "churned_30d": 34,
+    "active_30d": 47,
+    "first_time_30d": 41,
+    "retention_rate_pct": 10.3,
+    "churned_30d": 35,
     "commits_per_week_avg": 11.9,
     "commits_per_week_trend": [
       11,
@@ -2506,7 +2506,6 @@
       "pravinireri",
       "priyanka25aug",
       "rabinnh",
-      "raghu-giatec",
       "ramirocouce",
       "seanyeoh-ant",
       "seven7763",
@@ -2680,9 +2679,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 2696319,
-    "last_week": 48896533,
-    "last_month": 207166536,
-    "total": 1186860038
+    "daily": 3105799,
+    "last_week": 49306013,
+    "last_month": 207576016,
+    "total": 1187269518
   }
 }
