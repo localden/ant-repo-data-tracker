@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-08-23T02:54:30.965Z",
+  "timestamp": "2026-08-23T04:27:34.623Z",
   "repository": {
     "stars": 3846,
     "forks": 823
   },
   "issues": {
-    "open_count": 45,
-    "closed_7d": 9,
-    "closed_30d": 115,
-    "closed_90d": 127,
+    "open_count": 44,
+    "closed_7d": 10,
+    "closed_30d": 116,
+    "closed_90d": 128,
     "opened_7d": 6,
     "opened_30d": 18,
     "opened_90d": 63,
     "assigned_count": 0,
-    "unassigned_count": 45,
-    "unassigned_24h": 43,
+    "unassigned_count": 44,
+    "unassigned_24h": 42,
     "unassigned_7d": 40,
     "unassigned_30d": 34,
     "assigned_issues": [],
@@ -176,7 +176,7 @@
         "title": "Container File Mounting",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1439",
         "createdAt": "2026-04-24T04:12:00Z",
-        "daysOpen": 120,
+        "daysOpen": 121,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -394,20 +394,20 @@
         "assignees": []
       },
       {
-        "number": 1819,
-        "title": "output_config.format cannot take the pydantic model that output_format deprecates, and the dict workaround silently skips transform_schema",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1819",
-        "createdAt": "2026-08-10T10:02:49Z",
-        "daysOpen": 12,
+        "number": 1817,
+        "title": "transform_schema empties a patternProperties map: field can only ever be {}",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1817",
+        "createdAt": "2026-08-10T04:20:51Z",
+        "daysOpen": 13,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 1817,
-        "title": "transform_schema empties a patternProperties map: field can only ever be {}",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1817",
-        "createdAt": "2026-08-10T04:20:51Z",
+        "number": 1819,
+        "title": "output_config.format cannot take the pydantic model that output_format deprecates, and the dict workaround silently skips transform_schema",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1819",
+        "createdAt": "2026-08-10T10:02:49Z",
         "daysOpen": 12,
         "labels": [],
         "commentCount": 0,
@@ -441,16 +441,6 @@
         "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1867,
-        "title": "Bug: AttributeError: 'dict' object has no attribute 'output_tokens' during streaming message_delta",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1867",
-        "createdAt": "2026-08-21T09:02:53Z",
-        "daysOpen": 1,
-        "labels": [],
-        "commentCount": 1,
         "assignees": []
       },
       {
@@ -496,12 +486,12 @@
       "p95_hours": 2899.5
     },
     "close_time": {
-      "avg_days": 169.2,
-      "median_days": 99.7,
-      "p90_days": 477.5
+      "avg_days": 168,
+      "median_days": 99.4,
+      "p90_days": 477.4
     },
-    "label_coverage_pct": 15.6,
-    "unlabeled_count": 38,
+    "label_coverage_pct": 15.9,
+    "unlabeled_count": 37,
     "stale_30d": 23,
     "stale_60d": 19,
     "stale_90d": 11,
@@ -512,14 +502,14 @@
     "merged_7d": 4,
     "merged_30d": 13,
     "merged_90d": 38,
-    "opened_7d": 34,
+    "opened_7d": 35,
     "opened_30d": 74,
-    "opened_90d": 182,
-    "closed_not_merged_90d": 193,
+    "opened_90d": 183,
+    "closed_not_merged_90d": 194,
     "draft_count": 2,
     "assigned_count": 0,
     "unassigned_count": 106,
-    "unassigned_24h": 101,
+    "unassigned_24h": 100,
     "unassigned_7d": 75,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -670,7 +660,7 @@
         "title": "perf: skip no-op recursive transform for types without PropertyInfo",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1247",
         "createdAt": "2026-03-16T04:09:28Z",
-        "daysOpen": 159,
+        "daysOpen": 160,
         "labels": [],
         "isDraft": false,
         "additions": 89,
@@ -1254,6 +1244,20 @@
         "assignees": []
       },
       {
+        "number": 1741,
+        "title": "fix(bedrock): don't raise KeyError when signing requests lacking a connection header",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1741",
+        "createdAt": "2026-07-07T04:09:56Z",
+        "daysOpen": 47,
+        "labels": [],
+        "isDraft": false,
+        "additions": 39,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "sean-kim05",
+        "assignees": []
+      },
+      {
         "number": 1738,
         "title": "fix(credentials): match parsed host in cleartext-HTTP guard",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1738",
@@ -1291,20 +1295,6 @@
         "isDraft": false,
         "additions": 78,
         "deletions": 1,
-        "reviewCount": 0,
-        "author": "sean-kim05",
-        "assignees": []
-      },
-      {
-        "number": 1741,
-        "title": "fix(bedrock): don't raise KeyError when signing requests lacking a connection header",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1741",
-        "createdAt": "2026-07-07T04:09:56Z",
-        "daysOpen": 46,
-        "labels": [],
-        "isDraft": false,
-        "additions": 39,
-        "deletions": 3,
         "reviewCount": 0,
         "author": "sean-kim05",
         "assignees": []
@@ -1436,6 +1426,20 @@
         "assignees": []
       },
       {
+        "number": 1813,
+        "title": "fix: support list-form JSON schema types",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1813",
+        "createdAt": "2026-08-09T03:56:09Z",
+        "daysOpen": 14,
+        "labels": [],
+        "isDraft": false,
+        "additions": 47,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "nightcityblade",
+        "assignees": []
+      },
+      {
         "number": 1815,
         "title": "fix(streaming): initialize usage when message_start omits it",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1815",
@@ -1450,15 +1454,15 @@
         "assignees": []
       },
       {
-        "number": 1813,
-        "title": "fix: support list-form JSON schema types",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1813",
-        "createdAt": "2026-08-09T03:56:09Z",
+        "number": 1816,
+        "title": "fix: allow null caller in tool use params",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1816",
+        "createdAt": "2026-08-10T03:08:29Z",
         "daysOpen": 13,
         "labels": [],
         "isDraft": false,
-        "additions": 47,
-        "deletions": 1,
+        "additions": 18,
+        "deletions": 2,
         "reviewCount": 0,
         "author": "nightcityblade",
         "assignees": []
@@ -1506,20 +1510,6 @@
         "assignees": []
       },
       {
-        "number": 1816,
-        "title": "fix: allow null caller in tool use params",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1816",
-        "createdAt": "2026-08-10T03:08:29Z",
-        "daysOpen": 12,
-        "labels": [],
-        "isDraft": false,
-        "additions": 18,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "nightcityblade",
-        "assignees": []
-      },
-      {
         "number": 1824,
         "title": "fix(files): skip recursive directory symlinks",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1824",
@@ -1534,6 +1524,20 @@
         "assignees": []
       },
       {
+        "number": 1827,
+        "title": "fix: ignore invalid Retry-After dates",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1827",
+        "createdAt": "2026-08-14T03:45:18Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 9,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "jstar0",
+        "assignees": []
+      },
+      {
         "number": 1830,
         "title": "fix(streaming): accumulate compaction delta content",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1830",
@@ -1545,20 +1549,6 @@
         "deletions": 1,
         "reviewCount": 2,
         "author": "devXyi",
-        "assignees": []
-      },
-      {
-        "number": 1827,
-        "title": "fix: ignore invalid Retry-After dates",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1827",
-        "createdAt": "2026-08-14T03:45:18Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 9,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "jstar0",
         "assignees": []
       },
       {
@@ -1926,20 +1916,6 @@
         "assignees": []
       },
       {
-        "number": 1861,
-        "title": "fix(streaming): resolve Pydantic validation bypass causing dict attribute crashes",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1861",
-        "createdAt": "2026-08-19T04:16:35Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 6,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "vjaudir8123-debug",
-        "assignees": []
-      },
-      {
         "number": 1866,
         "title": "release: 1.0.1",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1866",
@@ -1967,6 +1943,20 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "OllieinCanada",
+        "assignees": []
+      },
+      {
+        "number": 1875,
+        "title": "fix(streaming): fire InputJsonEvent for server_tool_use blocks",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1875",
+        "createdAt": "2026-08-23T03:55:23Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 2,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "vjaudir8123-debug",
         "assignees": []
       },
       {
@@ -2029,7 +2019,7 @@
       "median_hours": 2.8
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 83.5,
+    "rejection_rate_pct": 83.6,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
       "small": 71,
@@ -2039,10 +2029,10 @@
   },
   "contributors": {
     "total_known": 410,
-    "active_30d": 49,
-    "first_time_30d": 43,
-    "retention_rate_pct": 10.8,
-    "churned_30d": 33,
+    "active_30d": 48,
+    "first_time_30d": 42,
+    "retention_rate_pct": 10.5,
+    "churned_30d": 34,
     "commits_per_week_avg": 11.9,
     "commits_per_week_trend": [
       11,
@@ -2480,7 +2470,6 @@
       "Octomal",
       "OllieinCanada",
       "PiedPiper911",
-      "Solaris-star",
       "SparshM8",
       "Swastikbhat-lab",
       "adhabnr-ux",
@@ -2680,9 +2669,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 584147,
-    "last_week": 46784361,
-    "last_month": 205054364,
-    "total": 1184747866
+    "daily": 924100,
+    "last_week": 47124314,
+    "last_month": 205394317,
+    "total": 1185087819
   }
 }
