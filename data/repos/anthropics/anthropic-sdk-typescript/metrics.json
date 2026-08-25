@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-08-25T16:25:28.231Z",
+  "timestamp": "2026-08-25T18:24:26.237Z",
   "repository": {
-    "stars": 2094,
+    "stars": 2095,
     "forks": 392
   },
   "issues": {
     "open_count": 21,
     "closed_7d": 0,
     "closed_30d": 47,
-    "closed_90d": 54,
+    "closed_90d": 53,
     "opened_7d": 3,
     "opened_30d": 6,
     "opened_90d": 20,
@@ -24,7 +24,7 @@
         "title": "Models list for the Bedrock SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/704",
         "createdAt": "2025-03-02T17:50:28Z",
-        "daysOpen": 540,
+        "daysOpen": 541,
         "labels": [
           "code-change"
         ],
@@ -85,7 +85,7 @@
         "title": "Bug: `toolRunner` does not propagate `container.id` across iterations, and `setMessagesParams` causes duplicate tool call loops",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/964",
         "createdAt": "2026-03-30T17:38:48Z",
-        "daysOpen": 147,
+        "daysOpen": 148,
         "labels": [
           "bug",
           "code-change"
@@ -110,7 +110,7 @@
         "title": "[Vertex] anthropic-beta header forwarded to countTokens fallback fails on lagging model backends",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1016",
         "createdAt": "2026-04-27T18:10:36Z",
-        "daysOpen": 119,
+        "daysOpen": 120,
         "labels": [
           "code-change"
         ],
@@ -262,9 +262,9 @@
       "p95_hours": 1132
     },
     "close_time": {
-      "avg_days": 224.9,
-      "median_days": 150.9,
-      "p90_days": 564.4
+      "avg_days": 228.6,
+      "median_days": 151.4,
+      "p90_days": 569.4
     },
     "label_coverage_pct": 38.1,
     "unlabeled_count": 13,
@@ -580,6 +580,20 @@
         "assignees": []
       },
       {
+        "number": 1080,
+        "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
+        "createdAt": "2026-06-04T17:26:33Z",
+        "daysOpen": 82,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "yen0304",
+        "assignees": []
+      },
+      {
         "number": 1081,
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
@@ -594,25 +608,11 @@
         "assignees": []
       },
       {
-        "number": 1080,
-        "title": "fix(streaming): use event.index instead of at(-1) for content block lookup",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1080",
-        "createdAt": "2026-06-04T17:26:33Z",
-        "daysOpen": 81,
-        "labels": [],
-        "isDraft": false,
-        "additions": 4,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "yen0304",
-        "assignees": []
-      },
-      {
         "number": 1100,
         "title": "fix: honor request timeout for long non-streaming messages",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1100",
         "createdAt": "2026-06-24T17:16:06Z",
-        "daysOpen": 61,
+        "daysOpen": 62,
         "labels": [],
         "isDraft": false,
         "additions": 44,
@@ -785,9 +785,9 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 23603,
-        "deletions": 37,
-        "reviewCount": 0,
+        "additions": 27174,
+        "deletions": 39,
+        "reviewCount": 1,
         "author": "stainless-app",
         "assignees": []
       },
@@ -841,7 +841,7 @@
         "daysOpen": 0,
         "labels": [],
         "isDraft": false,
-        "additions": 68,
+        "additions": 77,
         "deletions": 2,
         "reviewCount": 0,
         "author": "lx3133584",
@@ -849,10 +849,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 33.2,
-      "median_hours": 2.1,
-      "p90_hours": 138.1,
-      "p95_hours": 166.7
+      "avg_hours": 35.4,
+      "median_hours": 2.5,
+      "p90_hours": 138.4,
+      "p95_hours": 166
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -881,11 +881,11 @@
     "churned_30d": 18,
     "commits_per_week_avg": 11.3,
     "commits_per_week_trend": [
-      13,
-      10,
+      17,
       6,
-      9,
-      11,
+      6,
+      15,
+      5,
       8,
       18,
       10,
