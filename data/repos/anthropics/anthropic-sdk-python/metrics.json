@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-25T20:17:38.702Z",
+  "timestamp": "2026-08-25T22:16:05.294Z",
   "repository": {
-    "stars": 3850,
+    "stars": 3851,
     "forks": 827
   },
   "issues": {
@@ -540,7 +540,7 @@
         "title": "Accumulate extra pydantic fields from the sample event",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1070",
         "createdAt": "2025-11-13T21:29:26Z",
-        "daysOpen": 284,
+        "daysOpen": 285,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -920,7 +920,7 @@
         "title": "fix(bedrock): preserve aws_profile in copied clients",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1556",
         "createdAt": "2026-05-16T20:50:53Z",
-        "daysOpen": 100,
+        "daysOpen": 101,
         "labels": [],
         "isDraft": false,
         "additions": 33,
@@ -1490,6 +1490,20 @@
         "assignees": []
       },
       {
+        "number": 1833,
+        "title": "fix(streaming): don't JSON-parse text when output_format=None",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
+        "createdAt": "2026-08-15T22:04:19Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 47,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "Swastikbhat-lab",
+        "assignees": []
+      },
+      {
         "number": 1832,
         "title": "fix(session-runner): bound the reconnect reconcile so a long or wrapping history cannot wedge the runner",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1832",
@@ -1513,20 +1527,6 @@
         "isDraft": false,
         "additions": 354,
         "deletions": 0,
-        "reviewCount": 0,
-        "author": "Swastikbhat-lab",
-        "assignees": []
-      },
-      {
-        "number": 1833,
-        "title": "fix(streaming): don't JSON-parse text when output_format=None",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
-        "createdAt": "2026-08-15T22:04:19Z",
-        "daysOpen": 9,
-        "labels": [],
-        "isDraft": false,
-        "additions": 47,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "Swastikbhat-lab",
         "assignees": []
@@ -1854,22 +1854,6 @@
         "assignees": []
       },
       {
-        "number": 1866,
-        "title": "release: 1.1.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1866",
-        "createdAt": "2026-08-21T00:02:18Z",
-        "daysOpen": 4,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 1004,
-        "deletions": 645,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
-      },
-      {
         "number": 1869,
         "title": "fix(credentials): guard fchmod on Windows",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1869",
@@ -1879,8 +1863,24 @@
         "isDraft": false,
         "additions": 41,
         "deletions": 1,
-        "reviewCount": 0,
+        "reviewCount": 1,
         "author": "OllieinCanada",
+        "assignees": []
+      },
+      {
+        "number": 1866,
+        "title": "release: 1.1.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1866",
+        "createdAt": "2026-08-21T00:02:18Z",
+        "daysOpen": 4,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 1008,
+        "deletions": 647,
+        "reviewCount": 0,
+        "author": "stainless-app",
         "assignees": []
       },
       {
@@ -1983,10 +1983,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 104.1,
-      "median_hours": 2.7,
-      "p90_hours": 148.9,
-      "p95_hours": 223.3
+      "avg_hours": 104,
+      "median_hours": 2.8,
+      "p90_hours": 146.1,
+      "p95_hours": 221.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -2658,9 +2658,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 4171768,
-    "last_week": 47212349,
-    "last_month": 213367859,
-    "total": 1201230679
+    "daily": 4662128,
+    "last_week": 47702709,
+    "last_month": 213858219,
+    "total": 1201721039
   }
 }
