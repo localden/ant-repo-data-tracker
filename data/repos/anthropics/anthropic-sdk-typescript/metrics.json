@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-25T00:38:40.651Z",
+  "timestamp": "2026-08-25T02:51:30.967Z",
   "repository": {
     "stars": 2095,
     "forks": 392
@@ -152,19 +152,9 @@
         "title": "idempotencyKey is a silent no-op: base Anthropic client never sets idempotencyHeader",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1112",
         "createdAt": "2026-07-07T01:44:52Z",
-        "daysOpen": 48,
+        "daysOpen": 49,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 1116,
-        "title": "`transformJSONSchema` drops `const`/`enum` into description text, breaking discriminated unions in tool inputs",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1116",
-        "createdAt": "2026-07-08T11:52:32Z",
-        "daysOpen": 47,
-        "labels": [],
-        "commentCount": 2,
         "assignees": []
       },
       {
@@ -172,6 +162,16 @@
         "title": "BetaToolRunner does not forward container id, causing 400 when code-execution-backed tools pause for a client tool",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1114",
         "createdAt": "2026-07-08T02:01:13Z",
+        "daysOpen": 48,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
+        "number": 1116,
+        "title": "`transformJSONSchema` drops `const`/`enum` into description text, breaking discriminated unions in tool inputs",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1116",
+        "createdAt": "2026-07-08T11:52:32Z",
         "daysOpen": 47,
         "labels": [],
         "commentCount": 2,
@@ -277,7 +277,7 @@
     "open_count": 38,
     "merged_7d": 3,
     "merged_30d": 8,
-    "merged_90d": 36,
+    "merged_90d": 35,
     "opened_7d": 7,
     "opened_30d": 25,
     "opened_90d": 72,
@@ -524,6 +524,20 @@
         "assignees": []
       },
       {
+        "number": 1059,
+        "title": "fix(partial-json): keep complete trailing numbers in arrays",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
+        "createdAt": "2026-05-22T00:58:11Z",
+        "daysOpen": 95,
+        "labels": [],
+        "isDraft": false,
+        "additions": 14,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "ATOM00blue",
+        "assignees": []
+      },
+      {
         "number": 1058,
         "title": "docs(streams): remove \"the the\" duplicate-word typo in MessageStream JSDoc",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1058",
@@ -535,20 +549,6 @@
         "deletions": 4,
         "reviewCount": 0,
         "author": "devteamaegis",
-        "assignees": []
-      },
-      {
-        "number": 1059,
-        "title": "fix(partial-json): keep complete trailing numbers in arrays",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
-        "createdAt": "2026-05-22T00:58:11Z",
-        "daysOpen": 94,
-        "labels": [],
-        "isDraft": false,
-        "additions": 14,
-        "deletions": 0,
-        "reviewCount": 1,
-        "author": "ATOM00blue",
         "assignees": []
       },
       {
@@ -640,7 +640,7 @@
         "title": "fix: infer MIME type from Blob and Blob-like objects in toFile function",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1128",
         "createdAt": "2026-07-21T02:30:42Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "isDraft": false,
         "additions": 40,
@@ -724,7 +724,7 @@
         "title": "fix(vertex): strip beta headers from countTokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1147",
         "createdAt": "2026-08-09T00:45:46Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "isDraft": false,
         "additions": 57,
@@ -780,13 +780,13 @@
         "title": "chore: release main",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1158",
         "createdAt": "2026-08-20T00:53:12Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 16161,
-        "deletions": 25,
+        "additions": 23600,
+        "deletions": 35,
         "reviewCount": 0,
         "author": "stainless-app",
         "assignees": []
@@ -849,10 +849,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 32.6,
-      "median_hours": 1.8,
-      "p90_hours": 137.5,
-      "p95_hours": 166
+      "avg_hours": 33.2,
+      "median_hours": 2.1,
+      "p90_hours": 138.1,
+      "p95_hours": 166.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -861,11 +861,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 31.2,
-      "median_hours": 2.7
+      "avg_hours": 32.1,
+      "median_hours": 2.8
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 60,
+    "rejection_rate_pct": 60.7,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
       "small": 28,
@@ -1154,23 +1154,23 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 34,
-        "total_changes": 161
+        "pr_count": 33,
+        "total_changes": 159
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 32,
-        "total_changes": 430
+        "pr_count": 31,
+        "total_changes": 417
       },
       {
         "path": "package.json",
-        "pr_count": 32,
-        "total_changes": 83
+        "pr_count": 31,
+        "total_changes": 81
       },
       {
         "path": "src/version.ts",
-        "pr_count": 32,
-        "total_changes": 64
+        "pr_count": 31,
+        "total_changes": 62
       },
       {
         "path": ".stats.yml",
@@ -1256,12 +1256,12 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 34,
+        "pr_count": 33,
         "file_count": 16
       },
       {
         "path": "src/",
-        "pr_count": 33,
+        "pr_count": 32,
         "file_count": 3
       },
       {
