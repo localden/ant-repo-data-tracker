@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T16:43:21.014Z",
+  "timestamp": "2026-08-26T19:32:04.537Z",
   "repository": {
     "stars": 1180,
     "forks": 210
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 196,
+        "daysOpen": 197,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 8,
+        "daysOpen": 9,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -158,7 +158,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 8,
+        "daysOpen": 9,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -216,18 +216,18 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 20,
+    "open_count": 19,
     "merged_7d": 2,
-    "merged_30d": 6,
-    "merged_90d": 26,
-    "opened_7d": 5,
+    "merged_30d": 7,
+    "merged_90d": 27,
+    "opened_7d": 4,
     "opened_30d": 12,
-    "opened_90d": 53,
+    "opened_90d": 51,
     "closed_not_merged_90d": 38,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 20,
-    "unassigned_24h": 18,
+    "unassigned_count": 19,
+    "unassigned_24h": 17,
     "unassigned_7d": 17,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -484,22 +484,6 @@
         "assignees": []
       },
       {
-        "number": 419,
-        "title": "release: 1.67.0",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/419",
-        "createdAt": "2026-08-21T16:56:05Z",
-        "daysOpen": 4,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 9006,
-        "deletions": 336,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
-      },
-      {
         "number": 423,
         "title": "fix(apiquery): format float32 query values at float32 precision",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/423",
@@ -515,10 +499,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 56.1,
-      "median_hours": 20.2,
-      "p90_hours": 190.4,
-      "p95_hours": 201.7
+      "avg_hours": 58.2,
+      "median_hours": 21.4,
+      "p90_hours": 190,
+      "p95_hours": 201.1
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -527,16 +511,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 53.6,
-      "median_hours": 11.5
+      "avg_hours": 56.1,
+      "median_hours": 20.3
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 59.4,
+    "rejection_rate_pct": 58.5,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 9,
       "medium": 8,
-      "large": 3
+      "large": 2
     }
   },
   "contributors": {
@@ -545,20 +529,20 @@
     "first_time_30d": 10,
     "retention_rate_pct": 25,
     "churned_30d": 9,
-    "commits_per_week_avg": 10.1,
+    "commits_per_week_avg": 11.1,
     "commits_per_week_trend": [
       25,
       2,
-      4,
-      15,
+      8,
+      11,
       4,
       9,
       13,
       7,
       0,
       15,
-      23,
-      4
+      25,
+      14
     ],
     "allContributors": [
       "17twenty",
@@ -701,28 +685,33 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 26,
-        "total_changes": 52
-      },
-      {
-        "path": "CHANGELOG.md",
-        "pr_count": 26,
-        "total_changes": 333
-      },
-      {
-        "path": "README.md",
-        "pr_count": 26,
+        "pr_count": 27,
         "total_changes": 54
       },
       {
+        "path": "CHANGELOG.md",
+        "pr_count": 27,
+        "total_changes": 360
+      },
+      {
+        "path": "README.md",
+        "pr_count": 27,
+        "total_changes": 56
+      },
+      {
         "path": "internal/version.go",
-        "pr_count": 26,
-        "total_changes": 52
+        "pr_count": 27,
+        "total_changes": 54
       },
       {
         "path": ".stats.yml",
-        "pr_count": 25,
-        "total_changes": 146
+        "pr_count": 26,
+        "total_changes": 154
+      },
+      {
+        "path": "api.md",
+        "pr_count": 17,
+        "total_changes": 722
       },
       {
         "path": "message.go",
@@ -730,19 +719,14 @@
         "total_changes": 14213
       },
       {
-        "path": "api.md",
-        "pr_count": 16,
-        "total_changes": 476
-      },
-      {
         "path": "betamessage.go",
-        "pr_count": 15,
-        "total_changes": 26608
+        "pr_count": 16,
+        "total_changes": 26650
       },
       {
         "path": "shared/constant/constants.go",
-        "pr_count": 12,
-        "total_changes": 307
+        "pr_count": 13,
+        "total_changes": 793
       },
       {
         "path": "betaagent.go",
@@ -750,14 +734,19 @@
         "total_changes": 3680
       },
       {
+        "path": "beta.go",
+        "pr_count": 9,
+        "total_changes": 119
+      },
+      {
+        "path": "betamessageutil.go",
+        "pr_count": 8,
+        "total_changes": 315
+      },
+      {
         "path": "message_test.go",
         "pr_count": 8,
         "total_changes": 124
-      },
-      {
-        "path": "beta.go",
-        "pr_count": 8,
-        "total_changes": 108
       },
       {
         "path": "betamessage_test.go",
@@ -770,14 +759,19 @@
         "total_changes": 1127
       },
       {
-        "path": "betamessageutil.go",
-        "pr_count": 7,
-        "total_changes": 198
-      },
-      {
         "path": "betawebhook.go",
         "pr_count": 7,
         "total_changes": 1365
+      },
+      {
+        "path": "betatoolrunner.go",
+        "pr_count": 6,
+        "total_changes": 234
+      },
+      {
+        "path": "messageutil.go",
+        "pr_count": 6,
+        "total_changes": 294
       },
       {
         "path": "betamessagebatch_test.go",
@@ -785,40 +779,30 @@
         "total_changes": 73
       },
       {
-        "path": "betaagent_test.go",
+        "path": "betasession_test.go",
         "pr_count": 5,
-        "total_changes": 58
-      },
-      {
-        "path": "messageutil.go",
-        "pr_count": 5,
-        "total_changes": 206
-      },
-      {
-        "path": "betasessiontoolrunner.go",
-        "pr_count": 5,
-        "total_changes": 537
+        "total_changes": 44
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 26,
-        "file_count": 79
+        "pr_count": 27,
+        "file_count": 111
       },
       {
         "path": "internal/",
-        "pr_count": 26,
+        "pr_count": 27,
         "file_count": 1
       },
       {
         "path": "shared/constant/",
-        "pr_count": 12,
+        "pr_count": 13,
         "file_count": 1
       },
       {
         "path": "scripts/",
-        "pr_count": 5,
+        "pr_count": 6,
         "file_count": 3
       },
       {
@@ -847,9 +831,9 @@
         "file_count": 5
       },
       {
-        "path": "packages/ssestream/",
+        "path": ".github/workflows/",
         "pr_count": 3,
-        "file_count": 1
+        "file_count": 2
       }
     ],
     "top_n": 20

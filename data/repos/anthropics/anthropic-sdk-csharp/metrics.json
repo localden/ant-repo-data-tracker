@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T16:44:32.964Z",
+  "timestamp": "2026-08-26T19:33:24.961Z",
   "repository": {
     "stars": 317,
     "forks": 101
@@ -106,17 +106,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 4,
+    "open_count": 3,
     "merged_7d": 3,
-    "merged_30d": 6,
+    "merged_30d": 7,
     "merged_90d": 30,
     "opened_7d": 3,
     "opened_30d": 6,
-    "opened_90d": 31,
+    "opened_90d": 30,
     "closed_not_merged_90d": 4,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 4,
+    "unassigned_count": 3,
     "unassigned_24h": 2,
     "unassigned_7d": 2,
     "assigned_prs": [],
@@ -162,27 +162,11 @@
         "reviewCount": 1,
         "author": "PederHP",
         "assignees": []
-      },
-      {
-        "number": 250,
-        "title": "chore: release main",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/250",
-        "createdAt": "2026-08-25T17:25:46Z",
-        "daysOpen": 0,
-        "labels": [
-          "autorelease: pending"
-        ],
-        "isDraft": false,
-        "additions": 50937,
-        "deletions": 119,
-        "reviewCount": 0,
-        "author": "stainless-app",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 97.9,
-      "median_hours": 38.6,
+      "avg_hours": 97.4,
+      "median_hours": 23.6,
       "p90_hours": 255.3,
       "p95_hours": 445.4
     },
@@ -193,8 +177,8 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 215.6,
-      "median_hours": 39
+      "avg_hours": 215.1,
+      "median_hours": 31.1
     },
     "code_review_rate_pct": 100,
     "rejection_rate_pct": 11.8,
@@ -202,7 +186,7 @@
     "by_size": {
       "small": 1,
       "medium": 0,
-      "large": 3
+      "large": 2
     }
   },
   "contributors": {
@@ -211,20 +195,20 @@
     "first_time_30d": 6,
     "retention_rate_pct": 27.3,
     "churned_30d": 8,
-    "commits_per_week_avg": 9.6,
+    "commits_per_week_avg": 10.3,
     "commits_per_week_trend": [
       18,
       4,
-      5,
-      18,
+      12,
+      11,
       7,
       0,
-      16,
-      8,
+      19,
+      5,
       0,
       9,
-      0,
-      30
+      27,
+      11
     ],
     "allContributors": [
       "1yefuwang1",
@@ -326,12 +310,12 @@
       {
         "path": ".release-please-manifest.json",
         "pr_count": 25,
-        "total_changes": 85
+        "total_changes": 87
       },
       {
         "path": ".stats.yml",
         "pr_count": 25,
-        "total_changes": 146
+        "total_changes": 148
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
@@ -341,22 +325,12 @@
       {
         "path": "src/Anthropic/CHANGELOG.md",
         "pr_count": 25,
-        "total_changes": 300
+        "total_changes": 307
       },
       {
         "path": "src/Anthropic/Core/ModelBase.cs",
-        "pr_count": 14,
-        "total_changes": 277
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Beta/Agents/AgentCreateParamsTest.cs",
-        "pr_count": 9,
-        "total_changes": 72
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Beta/Agents/AgentUpdateParamsTest.cs",
-        "pr_count": 9,
-        "total_changes": 120
+        "pr_count": 15,
+        "total_changes": 311
       },
       {
         "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
@@ -364,14 +338,24 @@
         "total_changes": 570
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaContentBlockParamTest.cs",
+        "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
         "pr_count": 8,
-        "total_changes": 261
+        "total_changes": 16
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/MessageCountTokensParamsTest.cs",
+        "path": "src/Anthropic.Bedrock/CHANGELOG.md",
         "pr_count": 8,
-        "total_changes": 343
+        "total_changes": 71
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Agents/AgentCreateParamsTest.cs",
+        "pr_count": 8,
+        "total_changes": 68
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Agents/AgentUpdateParamsTest.cs",
+        "pr_count": 8,
+        "total_changes": 116
       },
       {
         "path": "src/Anthropic/AnthropicClientExtensions.cs",
@@ -379,19 +363,19 @@
         "total_changes": 826
       },
       {
-        "path": "src/Anthropic.Tests/Services/Beta/BetaMessageStreamingAggregationTest.cs",
+        "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
         "pr_count": 7,
-        "total_changes": 695
+        "total_changes": 30
       },
       {
-        "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
+        "path": "src/Anthropic/Models/Beta/AnthropicBeta.cs",
         "pr_count": 7,
-        "total_changes": 14
+        "total_changes": 48
       },
       {
-        "path": "src/Anthropic.Bedrock/CHANGELOG.md",
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaContentBlockParamTest.cs",
         "pr_count": 7,
-        "total_changes": 63
+        "total_changes": 197
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaRefusalStopDetailsTest.cs",
@@ -399,29 +383,29 @@
         "total_changes": 100
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaToolUnionTest.cs",
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/MessageCountTokensParamsTest.cs",
         "pr_count": 7,
-        "total_changes": 310
+        "total_changes": 339
       },
       {
-        "path": "src/Anthropic/Models/Messages/Model.cs",
-        "pr_count": 7,
-        "total_changes": 134
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Messages/Batches/BatchCreateParams.cs",
-        "pr_count": 7,
-        "total_changes": 456
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Messages/MessageCreateParams.cs",
-        "pr_count": 7,
-        "total_changes": 439
+        "path": "src/Anthropic.Tests/Services/Beta/BetaMessageStreamingAggregationTest.cs",
+        "pr_count": 6,
+        "total_changes": 694
       },
       {
         "path": "src/Anthropic/Helpers/BetaMessageContentAggregator.cs",
         "pr_count": 6,
         "total_changes": 343
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Sessions/BetaManagedAgentsAgentWithOverridesParamsTest.cs",
+        "pr_count": 6,
+        "total_changes": 1224
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Sessions/BetaManagedAgentsSessionAgentTest.cs",
+        "pr_count": 6,
+        "total_changes": 243
       }
     ],
     "by_directory": [
@@ -437,23 +421,18 @@
       },
       {
         "path": "src/Anthropic/Core/",
-        "pr_count": 16,
+        "pr_count": 17,
         "file_count": 11
-      },
-      {
-        "path": "src/Anthropic/Models/Messages/",
-        "pr_count": 16,
-        "file_count": 116
       },
       {
         "path": "src/Anthropic/Models/Beta/Messages/",
         "pr_count": 15,
-        "file_count": 142
+        "file_count": 133
       },
       {
-        "path": "src/Anthropic.Tests/Models/Messages/",
+        "path": "src/Anthropic/Models/Messages/",
         "pr_count": 15,
-        "file_count": 132
+        "file_count": 111
       },
       {
         "path": "src/Anthropic.Tests/",
@@ -461,19 +440,24 @@
         "file_count": 10
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
-        "pr_count": 13,
-        "file_count": 158
+        "path": "src/Anthropic.Tests/Models/Messages/",
+        "pr_count": 14,
+        "file_count": 129
       },
       {
-        "path": "src/Anthropic/Models/Beta/Agents/",
-        "pr_count": 12,
-        "file_count": 37
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
+        "pr_count": 13,
+        "file_count": 152
       },
       {
         "path": "src/Anthropic.Tests/Services/Beta/",
         "pr_count": 11,
-        "file_count": 9
+        "file_count": 10
+      },
+      {
+        "path": "src/Anthropic/Models/Beta/Agents/",
+        "pr_count": 11,
+        "file_count": 37
       }
     ],
     "top_n": 20
