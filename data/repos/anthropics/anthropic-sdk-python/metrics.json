@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-26T06:28:59.547Z",
+  "timestamp": "2026-08-26T08:30:59.528Z",
   "repository": {
-    "stars": 3852,
-    "forks": 829
+    "stars": 3853,
+    "forks": 830
   },
   "issues": {
     "open_count": 42,
@@ -48,7 +48,7 @@
         "title": "tools.0.web_search_20250305: Country code SG is not supported",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/995",
         "createdAt": "2025-07-17T07:35:24Z",
-        "daysOpen": 404,
+        "daysOpen": 405,
         "labels": [
           "api"
         ],
@@ -186,7 +186,7 @@
         "title": "Bedrock streaming SSE events errors are not handled gracefully",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1477",
         "createdAt": "2026-04-30T08:14:00Z",
-        "daysOpen": 117,
+        "daysOpen": 118,
         "labels": [
           "bedrock"
         ],
@@ -414,21 +414,11 @@
         "assignees": []
       },
       {
-        "number": 1868,
-        "title": "Windows: os.fchmod in credential write-back bricks the OAuth refresh token",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1868",
-        "createdAt": "2026-08-21T14:16:30Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 1871,
         "title": "`setup_skills` re-downloads and `rmtree`s skills on every session, racing when workers share a workdir",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1871",
         "createdAt": "2026-08-22T06:56:14Z",
-        "daysOpen": 3,
+        "daysOpen": 4,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -438,9 +428,19 @@
         "title": "Managed Agents self-hosted worker: download_session_skills skips roster agents' skills, so subagent threads run without them",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1870",
         "createdAt": "2026-08-22T06:54:42Z",
-        "daysOpen": 3,
+        "daysOpen": 4,
         "labels": [],
         "commentCount": 1,
+        "assignees": []
+      },
+      {
+        "number": 1868,
+        "title": "Windows: os.fchmod in credential write-back bricks the OAuth refresh token",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1868",
+        "createdAt": "2026-08-21T14:16:30Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
         "assignees": []
       },
       {
@@ -846,6 +846,34 @@
         "assignees": []
       },
       {
+        "number": 1544,
+        "title": "fix(bedrock,vertex): map 413/529 to typed exceptions, matching canonical client",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1544",
+        "createdAt": "2026-05-14T08:06:19Z",
+        "daysOpen": 104,
+        "labels": [],
+        "isDraft": false,
+        "additions": 85,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "Zawwarsami16",
+        "assignees": []
+      },
+      {
+        "number": 1543,
+        "title": "fix(tools): percent-decode filename in mcp_resource_to_file",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1543",
+        "createdAt": "2026-05-14T07:55:39Z",
+        "daysOpen": 104,
+        "labels": [],
+        "isDraft": false,
+        "additions": 36,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "Zawwarsami16",
+        "assignees": []
+      },
+      {
         "number": 1538,
         "title": "fix(tools): append_messages() inside the tool runner loop no longer infinite-loops or drops the assistant turn",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1538",
@@ -871,34 +899,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "0xdeadd",
-        "assignees": []
-      },
-      {
-        "number": 1544,
-        "title": "fix(bedrock,vertex): map 413/529 to typed exceptions, matching canonical client",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1544",
-        "createdAt": "2026-05-14T08:06:19Z",
-        "daysOpen": 103,
-        "labels": [],
-        "isDraft": false,
-        "additions": 85,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "Zawwarsami16",
-        "assignees": []
-      },
-      {
-        "number": 1543,
-        "title": "fix(tools): percent-decode filename in mcp_resource_to_file",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1543",
-        "createdAt": "2026-05-14T07:55:39Z",
-        "daysOpen": 103,
-        "labels": [],
-        "isDraft": false,
-        "additions": 36,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "Zawwarsami16",
         "assignees": []
       },
       {
@@ -944,6 +944,20 @@
         "assignees": []
       },
       {
+        "number": 1594,
+        "title": "fix: allow both append_messages and generate_tool_call_response in tool runner loop",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1594",
+        "createdAt": "2026-05-23T06:30:45Z",
+        "daysOpen": 95,
+        "labels": [],
+        "isDraft": false,
+        "additions": 31,
+        "deletions": 11,
+        "reviewCount": 0,
+        "author": "AliSharjeell",
+        "assignees": []
+      },
+      {
         "number": 1595,
         "title": "ci: migrate claude.yml to Workload Identity Federation auth",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1595",
@@ -955,20 +969,6 @@
         "deletions": 2,
         "reviewCount": 1,
         "author": "zenexer-ant",
-        "assignees": []
-      },
-      {
-        "number": 1594,
-        "title": "fix: allow both append_messages and generate_tool_call_response in tool runner loop",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1594",
-        "createdAt": "2026-05-23T06:30:45Z",
-        "daysOpen": 94,
-        "labels": [],
-        "isDraft": false,
-        "additions": 31,
-        "deletions": 11,
-        "reviewCount": 0,
-        "author": "AliSharjeell",
         "assignees": []
       },
       {
@@ -1196,6 +1196,20 @@
         "assignees": []
       },
       {
+        "number": 1738,
+        "title": "fix(credentials): match parsed host in cleartext-HTTP guard",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1738",
+        "createdAt": "2026-07-06T06:45:04Z",
+        "daysOpen": 51,
+        "labels": [],
+        "isDraft": false,
+        "additions": 53,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "sean-kim05",
+        "assignees": []
+      },
+      {
         "number": 1743,
         "title": "fix(foundry): don't treat an env-derived resource as conflicting with base_url",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1743",
@@ -1238,25 +1252,11 @@
         "assignees": []
       },
       {
-        "number": 1738,
-        "title": "fix(credentials): match parsed host in cleartext-HTTP guard",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1738",
-        "createdAt": "2026-07-06T06:45:04Z",
-        "daysOpen": 50,
-        "labels": [],
-        "isDraft": false,
-        "additions": 53,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "sean-kim05",
-        "assignees": []
-      },
-      {
         "number": 1748,
         "title": "fix(memory): use split(\"\\n\") in insert() to match view()/str_replace()",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1748",
         "createdAt": "2026-07-10T06:40:16Z",
-        "daysOpen": 46,
+        "daysOpen": 47,
         "labels": [],
         "isDraft": false,
         "additions": 54,
@@ -1340,7 +1340,7 @@
         "title": "fix(client): remove unsafe `__del__` method from AsyncHttpxClientWrapper",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1798",
         "createdAt": "2026-08-04T07:26:07Z",
-        "daysOpen": 21,
+        "daysOpen": 22,
         "labels": [],
         "isDraft": false,
         "additions": 1,
@@ -1542,6 +1542,76 @@
         "additions": 131,
         "deletions": 1,
         "reviewCount": 1,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1847,
+        "title": "Clean up partial skill extractions on failure",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1847",
+        "createdAt": "2026-08-17T08:16:41Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 113,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1845,
+        "title": "Treat empty AWS environment values as unset",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1845",
+        "createdAt": "2026-08-17T08:02:14Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 63,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1843,
+        "title": "Keep directory uploads inside their root",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1843",
+        "createdAt": "2026-08-17T07:44:19Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 165,
+        "deletions": 14,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1842,
+        "title": "Treat empty workload identity tokens as absent",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1842",
+        "createdAt": "2026-08-17T07:44:08Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 75,
+        "deletions": 5,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1841,
+        "title": "Preserve token invalidation across concurrent refreshes",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1841",
+        "createdAt": "2026-08-17T07:13:40Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 181,
+        "deletions": 14,
+        "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
       },
@@ -1756,76 +1826,6 @@
         "assignees": []
       },
       {
-        "number": 1847,
-        "title": "Clean up partial skill extractions on failure",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1847",
-        "createdAt": "2026-08-17T08:16:41Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 113,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1845,
-        "title": "Treat empty AWS environment values as unset",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1845",
-        "createdAt": "2026-08-17T08:02:14Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 63,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1843,
-        "title": "Keep directory uploads inside their root",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1843",
-        "createdAt": "2026-08-17T07:44:19Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 165,
-        "deletions": 14,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1842,
-        "title": "Treat empty workload identity tokens as absent",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1842",
-        "createdAt": "2026-08-17T07:44:08Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 75,
-        "deletions": 5,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1841,
-        "title": "Preserve token invalidation across concurrent refreshes",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1841",
-        "createdAt": "2026-08-17T07:13:40Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 181,
-        "deletions": 14,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 1860,
         "title": "fix(transform schema): preserve const constraints",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1860",
@@ -1940,6 +1940,20 @@
         "assignees": []
       },
       {
+        "number": 1880,
+        "title": "fix(lib): normalise JSON Schema type arrays instead of hitting assert_never (Fixes #1877)",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1880",
+        "createdAt": "2026-08-24T08:09:15Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 76,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "mukktinaadh",
+        "assignees": []
+      },
+      {
         "number": 1877,
         "title": "fix(lib): normalise JSON Schema type arrays instead of hitting assert_never",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1877",
@@ -1965,20 +1979,6 @@
         "deletions": 5,
         "reviewCount": 0,
         "author": "jstar0",
-        "assignees": []
-      },
-      {
-        "number": 1880,
-        "title": "fix(lib): normalise JSON Schema type arrays instead of hitting assert_never (Fixes #1877)",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1880",
-        "createdAt": "2026-08-24T08:09:15Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 76,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "mukktinaadh",
         "assignees": []
       },
       {
@@ -2674,9 +2674,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 1028836,
-    "last_week": 41077730,
-    "last_month": 208573546,
-    "total": 1203126954
+    "daily": 1399876,
+    "last_week": 41448770,
+    "last_month": 208944586,
+    "total": 1203497994
   }
 }
