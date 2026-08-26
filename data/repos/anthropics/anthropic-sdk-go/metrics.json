@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T14:36:33.041Z",
+  "timestamp": "2026-08-26T16:43:21.014Z",
   "repository": {
     "stars": 1180,
     "forks": 210
@@ -58,7 +58,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 137,
+        "daysOpen": 138,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -68,7 +68,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 119,
+        "daysOpen": 120,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -174,21 +174,21 @@
         "assignees": []
       },
       {
-        "number": 420,
-        "title": "Tool input_schema quotes encoding/json.Number bounds as strings",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/420",
-        "createdAt": "2026-08-22T05:16:30Z",
+        "number": 422,
+        "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
+        "createdAt": "2026-08-22T15:31:46Z",
         "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 422,
-        "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
-        "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 3,
+        "number": 420,
+        "title": "Tool input_schema quotes encoding/json.Number bounds as strings",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/420",
+        "createdAt": "2026-08-22T05:16:30Z",
+        "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -219,7 +219,7 @@
     "open_count": 20,
     "merged_7d": 2,
     "merged_30d": 6,
-    "merged_90d": 27,
+    "merged_90d": 26,
     "opened_7d": 5,
     "opened_30d": 12,
     "opened_90d": 53,
@@ -493,8 +493,8 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 999,
-        "deletions": 129,
+        "additions": 9006,
+        "deletions": 336,
         "reviewCount": 0,
         "author": "stainless-app",
         "assignees": []
@@ -515,10 +515,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 59,
-      "median_hours": 21.4,
-      "p90_hours": 190,
-      "p95_hours": 201.1
+      "avg_hours": 56.1,
+      "median_hours": 20.2,
+      "p90_hours": 190.4,
+      "p95_hours": 201.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -527,11 +527,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 57,
-      "median_hours": 20.3
+      "avg_hours": 53.6,
+      "median_hours": 11.5
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 58.5,
+    "rejection_rate_pct": 59.4,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 9,
@@ -553,8 +553,8 @@
       15,
       4,
       9,
-      11,
-      9,
+      13,
+      7,
       0,
       15,
       23,
@@ -701,53 +701,53 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 27,
-        "total_changes": 54
+        "pr_count": 26,
+        "total_changes": 52
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 27,
-        "total_changes": 352
+        "pr_count": 26,
+        "total_changes": 333
       },
       {
         "path": "README.md",
-        "pr_count": 27,
-        "total_changes": 56
-      },
-      {
-        "path": "internal/version.go",
-        "pr_count": 27,
+        "pr_count": 26,
         "total_changes": 54
       },
       {
-        "path": ".stats.yml",
+        "path": "internal/version.go",
         "pr_count": 26,
-        "total_changes": 152
+        "total_changes": 52
+      },
+      {
+        "path": ".stats.yml",
+        "pr_count": 25,
+        "total_changes": 146
       },
       {
         "path": "message.go",
-        "pr_count": 18,
-        "total_changes": 14330
+        "pr_count": 17,
+        "total_changes": 14213
       },
       {
         "path": "api.md",
-        "pr_count": 17,
-        "total_changes": 480
+        "pr_count": 16,
+        "total_changes": 476
       },
       {
         "path": "betamessage.go",
-        "pr_count": 16,
-        "total_changes": 26785
+        "pr_count": 15,
+        "total_changes": 26608
       },
       {
         "path": "shared/constant/constants.go",
-        "pr_count": 13,
-        "total_changes": 310
+        "pr_count": 12,
+        "total_changes": 307
       },
       {
         "path": "betaagent.go",
-        "pr_count": 11,
-        "total_changes": 3696
+        "pr_count": 10,
+        "total_changes": 3680
       },
       {
         "path": "message_test.go",
@@ -785,51 +785,51 @@
         "total_changes": 73
       },
       {
-        "path": "betamessagebatch.go",
-        "pr_count": 6,
-        "total_changes": 167
-      },
-      {
         "path": "betaagent_test.go",
         "pr_count": 5,
         "total_changes": 58
       },
       {
-        "path": "tools/agenttoolset/agenttoolset.go",
+        "path": "messageutil.go",
         "pr_count": 5,
-        "total_changes": 317
+        "total_changes": 206
+      },
+      {
+        "path": "betasessiontoolrunner.go",
+        "pr_count": 5,
+        "total_changes": 537
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 27,
+        "pr_count": 26,
         "file_count": 79
       },
       {
         "path": "internal/",
-        "pr_count": 27,
+        "pr_count": 26,
         "file_count": 1
       },
       {
         "path": "shared/constant/",
-        "pr_count": 13,
+        "pr_count": 12,
         "file_count": 1
-      },
-      {
-        "path": "lib/environments/",
-        "pr_count": 5,
-        "file_count": 9
-      },
-      {
-        "path": "tools/agenttoolset/",
-        "pr_count": 5,
-        "file_count": 12
       },
       {
         "path": "scripts/",
         "pr_count": 5,
         "file_count": 3
+      },
+      {
+        "path": "lib/environments/",
+        "pr_count": 4,
+        "file_count": 9
+      },
+      {
+        "path": "tools/agenttoolset/",
+        "pr_count": 4,
+        "file_count": 12
       },
       {
         "path": "examples/agents-comprehensive/",
