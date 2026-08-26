@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-26T04:30:16.857Z",
+  "timestamp": "2026-08-26T06:28:59.547Z",
   "repository": {
     "stars": 3852,
     "forks": 829
@@ -110,7 +110,7 @@
         "title": "Slow imports",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1211",
         "createdAt": "2026-02-27T06:05:18Z",
-        "daysOpen": 179,
+        "daysOpen": 180,
         "labels": [
           "sdk"
         ],
@@ -146,7 +146,7 @@
         "title": "beta.skills.list hard-capped at 100 items with broken pagination (has_more always false, no cursor)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1391",
         "createdAt": "2026-04-15T05:17:33Z",
-        "daysOpen": 132,
+        "daysOpen": 133,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -208,7 +208,7 @@
         "title": "[Bug] append_messages() inside tool runner loop causes infinite loop (advanced usage docs example)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1536",
         "createdAt": "2026-05-13T04:37:58Z",
-        "daysOpen": 104,
+        "daysOpen": 105,
         "labels": [],
         "commentCount": 4,
         "assignees": []
@@ -218,7 +218,7 @@
         "title": "Official Rust SDK request — Where The Rust At? (follow-up to #747)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1559",
         "createdAt": "2026-05-17T06:01:29Z",
-        "daysOpen": 100,
+        "daysOpen": 101,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -298,7 +298,7 @@
         "title": "x-stainless-timeout header is NOT_GIVEN on default requests",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1676",
         "createdAt": "2026-06-14T04:31:59Z",
-        "daysOpen": 72,
+        "daysOpen": 73,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -358,7 +358,7 @@
         "title": "Streaming accumulator crashes when message_start omits usage as shown in thinking docs",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1806",
         "createdAt": "2026-08-06T06:10:41Z",
-        "daysOpen": 19,
+        "daysOpen": 20,
         "labels": [],
         "commentCount": 4,
         "assignees": []
@@ -612,7 +612,7 @@
         "title": "fix: resolve subscripted generics in _build_discriminated_union_meta (pydantic v1)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1238",
         "createdAt": "2026-03-11T06:24:30Z",
-        "daysOpen": 167,
+        "daysOpen": 168,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -626,7 +626,7 @@
         "title": "fix: handle empty text and malformed JSON in parse_text for thinking+tools",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1240",
         "createdAt": "2026-03-12T05:20:00Z",
-        "daysOpen": 166,
+        "daysOpen": 167,
         "labels": [],
         "isDraft": false,
         "additions": 346,
@@ -766,7 +766,7 @@
         "title": "docs: add docstrings to MessageStream and AsyncMessageStream",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1321",
         "createdAt": "2026-04-01T04:56:09Z",
-        "daysOpen": 146,
+        "daysOpen": 147,
         "labels": [],
         "isDraft": false,
         "additions": 51,
@@ -1060,7 +1060,7 @@
         "title": "fix: resolve x-stainless-timeout when request timeout is NotGiven",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1677",
         "createdAt": "2026-06-14T04:32:06Z",
-        "daysOpen": 72,
+        "daysOpen": 73,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -1116,7 +1116,7 @@
         "title": "fix(bedrock): drop metrics-only invocation trailer from stream decoder",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1702",
         "createdAt": "2026-06-24T05:44:39Z",
-        "daysOpen": 62,
+        "daysOpen": 63,
         "labels": [],
         "isDraft": false,
         "additions": 32,
@@ -1196,6 +1196,34 @@
         "assignees": []
       },
       {
+        "number": 1743,
+        "title": "fix(foundry): don't treat an env-derived resource as conflicting with base_url",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1743",
+        "createdAt": "2026-07-07T05:00:33Z",
+        "daysOpen": 50,
+        "labels": [],
+        "isDraft": false,
+        "additions": 55,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sean-kim05",
+        "assignees": []
+      },
+      {
+        "number": 1742,
+        "title": "fix(vertex): resolve project_id from credentials before building request URL",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1742",
+        "createdAt": "2026-07-07T04:47:56Z",
+        "daysOpen": 50,
+        "labels": [],
+        "isDraft": false,
+        "additions": 78,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sean-kim05",
+        "assignees": []
+      },
+      {
         "number": 1741,
         "title": "fix(bedrock): don't raise KeyError when signing requests lacking a connection header",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1741",
@@ -1219,34 +1247,6 @@
         "isDraft": false,
         "additions": 53,
         "deletions": 3,
-        "reviewCount": 0,
-        "author": "sean-kim05",
-        "assignees": []
-      },
-      {
-        "number": 1743,
-        "title": "fix(foundry): don't treat an env-derived resource as conflicting with base_url",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1743",
-        "createdAt": "2026-07-07T05:00:33Z",
-        "daysOpen": 49,
-        "labels": [],
-        "isDraft": false,
-        "additions": 55,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sean-kim05",
-        "assignees": []
-      },
-      {
-        "number": 1742,
-        "title": "fix(vertex): resolve project_id from credentials before building request URL",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1742",
-        "createdAt": "2026-07-07T04:47:56Z",
-        "daysOpen": 49,
-        "labels": [],
-        "isDraft": false,
-        "additions": 78,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "sean-kim05",
         "assignees": []
@@ -1326,7 +1326,7 @@
         "title": "fix(jsonl): do not treat a lone CR as a line ending",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1778",
         "createdAt": "2026-07-24T05:29:32Z",
-        "daysOpen": 32,
+        "daysOpen": 33,
         "labels": [],
         "isDraft": false,
         "additions": 87,
@@ -1399,10 +1399,24 @@
         "daysOpen": 16,
         "labels": [],
         "isDraft": false,
-        "additions": 121,
+        "additions": 213,
         "deletions": 34,
         "reviewCount": 0,
         "author": "chenlichao",
+        "assignees": []
+      },
+      {
+        "number": 1818,
+        "title": "fix(parse): reject unrepresentable dynamic object schemas",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1818",
+        "createdAt": "2026-08-10T05:18:39Z",
+        "daysOpen": 16,
+        "labels": [],
+        "isDraft": false,
+        "additions": 67,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "uuzzrm",
         "assignees": []
       },
       {
@@ -1429,20 +1443,6 @@
         "isDraft": false,
         "additions": 427,
         "deletions": 11,
-        "reviewCount": 0,
-        "author": "uuzzrm",
-        "assignees": []
-      },
-      {
-        "number": 1818,
-        "title": "fix(parse): reject unrepresentable dynamic object schemas",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1818",
-        "createdAt": "2026-08-10T05:18:39Z",
-        "daysOpen": 15,
-        "labels": [],
-        "isDraft": false,
-        "additions": 67,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "uuzzrm",
         "assignees": []
@@ -2674,9 +2674,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 722816,
-    "last_week": 40771710,
-    "last_month": 208267526,
-    "total": 1202820934
+    "daily": 1028836,
+    "last_week": 41077730,
+    "last_month": 208573546,
+    "total": 1203126954
   }
 }
