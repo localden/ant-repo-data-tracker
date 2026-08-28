@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-08-28T13:33:00.612Z",
+  "timestamp": "2026-08-28T23:18:35.341Z",
   "repository": {
-    "stars": 1181,
+    "stars": 1180,
     "forks": 211
   },
   "issues": {
     "open_count": 17,
-    "closed_7d": 4,
+    "closed_7d": 1,
     "closed_30d": 18,
     "closed_90d": 52,
     "opened_7d": 2,
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 198,
+        "daysOpen": 199,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -58,7 +58,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 139,
+        "daysOpen": 140,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -68,7 +68,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 121,
+        "daysOpen": 122,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -98,7 +98,7 @@
         "title": "Add support for Admin API organization resources (members, workspaces, invites, API keys)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/382",
         "createdAt": "2026-06-30T21:08:54Z",
-        "daysOpen": 58,
+        "daysOpen": 59,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -118,7 +118,7 @@
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
         "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 43,
+        "daysOpen": 44,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 10,
+        "daysOpen": 11,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -158,7 +158,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 10,
+        "daysOpen": 11,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -168,7 +168,17 @@
         "title": "bedrock.WithLoadDefaultConfig panics on ordinary AWS config failures (unknown profile, no SSO cache), so a CLI answers a login prompt with a stack trace",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/416",
         "createdAt": "2026-08-18T20:37:20Z",
-        "daysOpen": 9,
+        "daysOpen": 10,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 422,
+        "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
+        "createdAt": "2026-08-22T15:31:46Z",
+        "daysOpen": 6,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -179,16 +189,6 @@
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/420",
         "createdAt": "2026-08-22T05:16:30Z",
         "daysOpen": 6,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 422,
-        "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
-        "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 5,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -216,17 +216,17 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 19,
+    "open_count": 20,
     "merged_7d": 2,
     "merged_30d": 8,
     "merged_90d": 28,
     "opened_7d": 4,
-    "opened_30d": 13,
-    "opened_90d": 47,
+    "opened_30d": 14,
+    "opened_90d": 48,
     "closed_not_merged_90d": 37,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 19,
+    "unassigned_count": 20,
     "unassigned_24h": 18,
     "unassigned_7d": 17,
     "assigned_prs": [],
@@ -236,7 +236,7 @@
         "title": "Fix JSON marshaling for custom content citations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/225",
         "createdAt": "2025-08-21T22:00:17Z",
-        "daysOpen": 371,
+        "daysOpen": 372,
         "labels": [],
         "isDraft": false,
         "additions": 413,
@@ -306,7 +306,7 @@
         "title": "Fix ToolResultBlockParam to support both string and array content",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
         "createdAt": "2026-03-17T14:19:08Z",
-        "daysOpen": 163,
+        "daysOpen": 164,
         "labels": [],
         "isDraft": false,
         "additions": 366,
@@ -432,7 +432,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 43,
+        "daysOpen": 44,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -446,7 +446,7 @@
         "title": "agenttoolset: make the no-working-directory executable lookup explicit and tested",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/405",
         "createdAt": "2026-08-05T21:52:22Z",
-        "daysOpen": 22,
+        "daysOpen": 23,
         "labels": [],
         "isDraft": true,
         "additions": 937,
@@ -496,6 +496,22 @@
         "reviewCount": 0,
         "author": "latent-9",
         "assignees": []
+      },
+      {
+        "number": 425,
+        "title": "release: 1.69.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/425",
+        "createdAt": "2026-08-28T15:47:32Z",
+        "daysOpen": 0,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 47,
+        "deletions": 83,
+        "reviewCount": 0,
+        "author": "stainless-app",
+        "assignees": []
       }
     ],
     "review_time": {
@@ -519,7 +535,7 @@
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 9,
-      "medium": 8,
+      "medium": 9,
       "large": 2
     }
   },
@@ -529,16 +545,16 @@
     "first_time_30d": 10,
     "retention_rate_pct": 27.3,
     "churned_30d": 8,
-    "commits_per_week_avg": 12.2,
+    "commits_per_week_avg": 10.8,
     "commits_per_week_trend": [
-      25,
+      9,
       4,
       6,
       15,
+      9,
+      3,
+      17,
       0,
-      12,
-      15,
-      2,
       10,
       14,
       18,
