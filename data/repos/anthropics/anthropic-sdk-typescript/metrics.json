@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-08-30T14:35:32.725Z",
+  "timestamp": "2026-08-30T18:56:48.325Z",
   "repository": {
-    "stars": 2100,
+    "stars": 2101,
     "forks": 395
   },
   "issues": {
@@ -24,7 +24,7 @@
         "title": "Models list for the Bedrock SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/704",
         "createdAt": "2025-03-02T17:50:28Z",
-        "daysOpen": 545,
+        "daysOpen": 546,
         "labels": [
           "code-change"
         ],
@@ -85,7 +85,7 @@
         "title": "Bug: `toolRunner`'s `setMessagesParams` causes duplicate tool call loops",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/964",
         "createdAt": "2026-03-30T17:38:48Z",
-        "daysOpen": 152,
+        "daysOpen": 153,
         "labels": [
           "bug",
           "code-change"
@@ -98,7 +98,7 @@
         "title": "partialParse in _vendor/partial-json-parser crashes on invalid JSON escape sequences from model output",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/986",
         "createdAt": "2026-04-09T18:42:59Z",
-        "daysOpen": 142,
+        "daysOpen": 143,
         "labels": [
           "code-change"
         ],
@@ -110,7 +110,7 @@
         "title": "[Vertex] anthropic-beta header forwarded to countTokens fallback fails on lagging model backends",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1016",
         "createdAt": "2026-04-27T18:10:36Z",
-        "daysOpen": 124,
+        "daysOpen": 125,
         "labels": [
           "code-change"
         ],
@@ -198,6 +198,16 @@
         "assignees": []
       },
       {
+        "number": 1162,
+        "title": "transformJSONSchema drops $defs when the schema root is a $ref",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1162",
+        "createdAt": "2026-08-24T15:36:22Z",
+        "daysOpen": 6,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1164,
         "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
@@ -205,16 +215,6 @@
         "daysOpen": 5,
         "labels": [],
         "commentCount": 2,
-        "assignees": []
-      },
-      {
-        "number": 1162,
-        "title": "transformJSONSchema drops $defs when the schema root is a $ref",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1162",
-        "createdAt": "2026-08-24T15:36:22Z",
-        "daysOpen": 5,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -265,7 +265,7 @@
     "draft_count": 2,
     "assigned_count": 0,
     "unassigned_count": 37,
-    "unassigned_24h": 34,
+    "unassigned_24h": 35,
     "unassigned_7d": 28,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -274,7 +274,7 @@
         "title": "docs: fix typos",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/866",
         "createdAt": "2025-12-18T14:54:39Z",
-        "daysOpen": 254,
+        "daysOpen": 255,
         "labels": [
           "code-change"
         ],
@@ -306,7 +306,7 @@
         "title": "docs: expand tool runner documentation with internal mechanics",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/881",
         "createdAt": "2026-01-15T15:38:34Z",
-        "daysOpen": 226,
+        "daysOpen": 227,
         "labels": [
           "code-change"
         ],
@@ -450,7 +450,7 @@
         "title": "fix(helpers): give a clear error when a zod v3 schema is passed to the zod helpers",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1040",
         "createdAt": "2026-05-12T16:11:46Z",
-        "daysOpen": 109,
+        "daysOpen": 110,
         "labels": [],
         "isDraft": false,
         "additions": 61,
@@ -478,7 +478,7 @@
         "title": "fix(memory): reject malformed memories paths",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
         "createdAt": "2026-05-16T14:44:46Z",
-        "daysOpen": 105,
+        "daysOpen": 106,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -698,6 +698,20 @@
         "assignees": []
       },
       {
+        "number": 1163,
+        "title": "fix(schema): keep $defs when the schema root is a $ref",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1163",
+        "createdAt": "2026-08-24T15:36:46Z",
+        "daysOpen": 6,
+        "labels": [],
+        "isDraft": false,
+        "additions": 38,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "cmun2",
+        "assignees": []
+      },
+      {
         "number": 1165,
         "title": "fix(BetaMessageStream): preserve null content and existing checkpoint in compaction_delta",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1165",
@@ -709,20 +723,6 @@
         "deletions": 3,
         "reviewCount": 0,
         "author": "lx3133584",
-        "assignees": []
-      },
-      {
-        "number": 1163,
-        "title": "fix(schema): keep $defs when the schema root is a $ref",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1163",
-        "createdAt": "2026-08-24T15:36:46Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 38,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "cmun2",
         "assignees": []
       },
       {
@@ -784,6 +784,20 @@
         "assignees": []
       },
       {
+        "number": 1174,
+        "title": "fix: preserve defs when schema root is a ref, and fix compaction delta null content",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1174",
+        "createdAt": "2026-08-29T17:17:10Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 248,
+        "deletions": 9,
+        "reviewCount": 0,
+        "author": "AbhiPra24",
+        "assignees": []
+      },
+      {
         "number": 1173,
         "title": "docs: fix typo typicaly -> typically",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1173",
@@ -795,20 +809,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "vaibhav8a",
-        "assignees": []
-      },
-      {
-        "number": 1174,
-        "title": "fix: preserve defs when schema root is a ref, and fix compaction delta null content",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1174",
-        "createdAt": "2026-08-29T17:17:10Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 248,
-        "deletions": 9,
-        "reviewCount": 0,
-        "author": "AbhiPra24",
         "assignees": []
       }
     ],
