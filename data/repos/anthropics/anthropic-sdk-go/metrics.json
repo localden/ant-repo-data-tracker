@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T10:16:26.074Z",
+  "timestamp": "2026-08-31T18:25:35.007Z",
   "repository": {
     "stars": 1180,
     "forks": 210
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 201,
+        "daysOpen": 202,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -46,7 +46,7 @@
         "title": "Tests fail on i386 (32 bit)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/304",
         "createdAt": "2026-03-25T12:18:28Z",
-        "daysOpen": 158,
+        "daysOpen": 159,
         "labels": [
           "sdk"
         ],
@@ -58,7 +58,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 142,
+        "daysOpen": 143,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -68,7 +68,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 124,
+        "daysOpen": 125,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -174,21 +174,21 @@
         "assignees": []
       },
       {
-        "number": 420,
-        "title": "Tool input_schema quotes encoding/json.Number bounds as strings",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/420",
-        "createdAt": "2026-08-22T05:16:30Z",
+        "number": 422,
+        "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
+        "createdAt": "2026-08-22T15:31:46Z",
         "daysOpen": 9,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 422,
-        "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
-        "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 8,
+        "number": 420,
+        "title": "Tool input_schema quotes encoding/json.Number bounds as strings",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/420",
+        "createdAt": "2026-08-22T05:16:30Z",
+        "daysOpen": 9,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -216,17 +216,17 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 20,
+    "open_count": 21,
     "merged_7d": 2,
     "merged_30d": 8,
     "merged_90d": 28,
-    "opened_7d": 3,
-    "opened_30d": 14,
-    "opened_90d": 47,
+    "opened_7d": 4,
+    "opened_30d": 15,
+    "opened_90d": 48,
     "closed_not_merged_90d": 37,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 20,
+    "unassigned_count": 21,
     "unassigned_24h": 19,
     "unassigned_7d": 17,
     "assigned_prs": [],
@@ -306,7 +306,7 @@
         "title": "Fix ToolResultBlockParam to support both string and array content",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
         "createdAt": "2026-03-17T14:19:08Z",
-        "daysOpen": 166,
+        "daysOpen": 167,
         "labels": [],
         "isDraft": false,
         "additions": 366,
@@ -320,7 +320,7 @@
         "title": "fix(bedrock): handle EOF consistently, fix stale events, and surface exceptions",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/303",
         "createdAt": "2026-03-25T11:14:51Z",
-        "daysOpen": 158,
+        "daysOpen": 159,
         "labels": [],
         "isDraft": false,
         "additions": 43,
@@ -334,7 +334,7 @@
         "title": "fix: preserve code_execution_result fields during union round-trip unmarshaling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/330",
         "createdAt": "2026-04-28T12:28:27Z",
-        "daysOpen": 124,
+        "daysOpen": 125,
         "labels": [],
         "isDraft": false,
         "additions": 189,
@@ -502,7 +502,7 @@
         "title": "release: 1.69.0",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/425",
         "createdAt": "2026-08-28T15:47:32Z",
-        "daysOpen": 2,
+        "daysOpen": 3,
         "labels": [
           "autorelease: pending"
         ],
@@ -511,6 +511,20 @@
         "deletions": 83,
         "reviewCount": 0,
         "author": "stainless-app",
+        "assignees": []
+      },
+      {
+        "number": 426,
+        "title": "docs(changelog): detail the beta files/skills GA-shape change",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/426",
+        "createdAt": "2026-08-31T16:50:07Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 9,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "tomer-ant",
         "assignees": []
       }
     ],
@@ -534,23 +548,23 @@
     "rejection_rate_pct": 56.9,
     "avg_reviews_per_pr": 1,
     "by_size": {
-      "small": 9,
+      "small": 10,
       "medium": 9,
       "large": 2
     }
   },
   "contributors": {
     "total_known": 119,
-    "active_30d": 13,
-    "first_time_30d": 10,
+    "active_30d": 14,
+    "first_time_30d": 11,
     "retention_rate_pct": 30,
     "churned_30d": 7,
     "commits_per_week_avg": 10.7,
     "commits_per_week_trend": [
-      7,
+      9,
       4,
-      6,
-      15,
+      9,
+      10,
       9,
       3,
       17,
@@ -694,7 +708,8 @@
       "percymcn",
       "seanyeoh-ant",
       "sks",
-      "stainless-app"
+      "stainless-app",
+      "tomer-ant"
     ]
   },
   "hotspots": {
