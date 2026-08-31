@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T18:24:58.608Z",
+  "timestamp": "2026-08-31T23:31:01.197Z",
   "repository": {
     "stars": 2102,
     "forks": 395
@@ -9,13 +9,13 @@
     "closed_7d": 3,
     "closed_30d": 50,
     "closed_90d": 56,
-    "opened_7d": 2,
-    "opened_30d": 7,
+    "opened_7d": 1,
+    "opened_30d": 6,
     "opened_90d": 20,
     "assigned_count": 0,
     "unassigned_count": 19,
     "unassigned_24h": 19,
-    "unassigned_7d": 17,
+    "unassigned_7d": 18,
     "unassigned_30d": 14,
     "assigned_issues": [],
     "unassigned_issues": [
@@ -73,7 +73,7 @@
         "title": "json_schema structured output truncates content at HTML tags containing quotation marks",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/928",
         "createdAt": "2026-03-03T18:59:49Z",
-        "daysOpen": 180,
+        "daysOpen": 181,
         "labels": [
           "api"
         ],
@@ -98,7 +98,7 @@
         "title": "partialParse in _vendor/partial-json-parser crashes on invalid JSON escape sequences from model output",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/986",
         "createdAt": "2026-04-09T18:42:59Z",
-        "daysOpen": 143,
+        "daysOpen": 144,
         "labels": [
           "code-change"
         ],
@@ -122,7 +122,7 @@
         "title": "Adopt `TracingChannel` for observability",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1036",
         "createdAt": "2026-05-11T20:09:59Z",
-        "daysOpen": 111,
+        "daysOpen": 112,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -198,6 +198,16 @@
         "assignees": []
       },
       {
+        "number": 1164,
+        "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
+        "createdAt": "2026-08-24T23:27:13Z",
+        "daysOpen": 7,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
         "number": 1162,
         "title": "transformJSONSchema drops $defs when the schema root is a $ref",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1162",
@@ -205,16 +215,6 @@
         "daysOpen": 7,
         "labels": [],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1164,
-        "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
-        "createdAt": "2026-08-24T23:27:13Z",
-        "daysOpen": 6,
-        "labels": [],
-        "commentCount": 2,
         "assignees": []
       },
       {
@@ -254,17 +254,17 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 38,
-    "merged_7d": 2,
-    "merged_30d": 10,
-    "merged_90d": 35,
+    "open_count": 37,
+    "merged_7d": 3,
+    "merged_30d": 11,
+    "merged_90d": 36,
     "opened_7d": 9,
-    "opened_30d": 30,
+    "opened_30d": 29,
     "opened_90d": 74,
     "closed_not_merged_90d": 59,
     "draft_count": 2,
     "assigned_count": 0,
-    "unassigned_count": 38,
+    "unassigned_count": 37,
     "unassigned_24h": 35,
     "unassigned_7d": 29,
     "assigned_prs": [],
@@ -370,7 +370,7 @@
         "title": "fix: release stream state on end to prevent memory leaks",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/943",
         "createdAt": "2026-03-13T19:08:02Z",
-        "daysOpen": 170,
+        "daysOpen": 171,
         "labels": [
           "code-change"
         ],
@@ -386,7 +386,7 @@
         "title": "docs: fix broken compare links in CHANGELOG files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/953",
         "createdAt": "2026-03-19T21:25:21Z",
-        "daysOpen": 164,
+        "daysOpen": 165,
         "labels": [
           "code-change"
         ],
@@ -402,7 +402,7 @@
         "title": "fix(streams): use empty separator in finalText() for text block concatenation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/954",
         "createdAt": "2026-03-19T21:27:57Z",
-        "daysOpen": 164,
+        "daysOpen": 165,
         "labels": [
           "code-change"
         ],
@@ -464,7 +464,7 @@
         "title": "fix(vertex): throw clear error when document blocks use URL sources",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1042",
         "createdAt": "2026-05-13T19:02:28Z",
-        "daysOpen": 109,
+        "daysOpen": 110,
         "labels": [],
         "isDraft": false,
         "additions": 94,
@@ -488,6 +488,20 @@
         "assignees": []
       },
       {
+        "number": 1058,
+        "title": "docs(streams): remove \"the the\" duplicate-word typo in MessageStream JSDoc",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1058",
+        "createdAt": "2026-05-21T23:18:55Z",
+        "daysOpen": 102,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "devteamaegis",
+        "assignees": []
+      },
+      {
         "number": 1059,
         "title": "fix(partial-json): keep complete trailing numbers in arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
@@ -499,20 +513,6 @@
         "deletions": 0,
         "reviewCount": 1,
         "author": "ATOM00blue",
-        "assignees": []
-      },
-      {
-        "number": 1058,
-        "title": "docs(streams): remove \"the the\" duplicate-word typo in MessageStream JSDoc",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1058",
-        "createdAt": "2026-05-21T23:18:55Z",
-        "daysOpen": 101,
-        "labels": [],
-        "isDraft": false,
-        "additions": 4,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "devteamaegis",
         "assignees": []
       },
       {
@@ -534,7 +534,7 @@
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
         "createdAt": "2026-06-04T22:33:25Z",
-        "daysOpen": 87,
+        "daysOpen": 88,
         "labels": [],
         "isDraft": false,
         "additions": 117,
@@ -642,6 +642,20 @@
         "assignees": []
       },
       {
+        "number": 1150,
+        "title": "docs: fix toolRunner heading to include .beta segment",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1150",
+        "createdAt": "2026-08-13T20:52:38Z",
+        "daysOpen": 18,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "juneja-varun",
+        "assignees": []
+      },
+      {
         "number": 1154,
         "title": "fix: handle Response uploads without URLs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1154",
@@ -667,20 +681,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "jstar0",
-        "assignees": []
-      },
-      {
-        "number": 1150,
-        "title": "docs: fix toolRunner heading to include .beta segment",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1150",
-        "createdAt": "2026-08-13T20:52:38Z",
-        "daysOpen": 17,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "juneja-varun",
         "assignees": []
       },
       {
@@ -777,8 +777,8 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 179,
-        "deletions": 78,
+        "additions": 452,
+        "deletions": 119,
         "reviewCount": 0,
         "author": "stainless-app",
         "assignees": []
@@ -810,27 +810,13 @@
         "reviewCount": 0,
         "author": "vaibhav8a",
         "assignees": []
-      },
-      {
-        "number": 1175,
-        "title": "docs(changelog): detail the beta files/skills GA-shape change",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1175",
-        "createdAt": "2026-08-31T16:50:30Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 9,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "tomer-ant",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 36.4,
-      "median_hours": 2.5,
-      "p90_hours": 139.4,
-      "p95_hours": 167.4
+      "avg_hours": 35.7,
+      "median_hours": 2.1,
+      "p90_hours": 138.9,
+      "p95_hours": 166.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -839,38 +825,38 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 37.2,
+      "avg_hours": 36.2,
       "median_hours": 2.9
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 62.8,
+    "rejection_rate_pct": 62.1,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
-      "small": 29,
-      "medium": 6,
-      "large": 3
+      "small": 28,
+      "medium": 5,
+      "large": 4
     }
   },
   "contributors": {
     "total_known": 232,
-    "active_30d": 26,
-    "first_time_30d": 21,
-    "retention_rate_pct": 15,
-    "churned_30d": 17,
-    "commits_per_week_avg": 13.9,
+    "active_30d": 25,
+    "first_time_30d": 20,
+    "retention_rate_pct": 14.3,
+    "churned_30d": 18,
+    "commits_per_week_avg": 14,
     "commits_per_week_trend": [
       10,
       6,
       9,
       11,
       8,
-      13,
-      15,
+      18,
+      10,
       0,
       13,
       19,
       19,
-      44
+      45
     ],
     "allContributors": [
       "0xrdan",
@@ -1127,7 +1113,6 @@
       "packyg",
       "seanyeoh-ant",
       "stainless-app",
-      "stevengum",
       "tomer-ant",
       "tonydzi",
       "vaibhav8a",
@@ -1144,8 +1129,8 @@
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 31,
-        "total_changes": 453
+        "pr_count": 32,
+        "total_changes": 462
       },
       {
         "path": "package.json",
@@ -1241,7 +1226,7 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 33,
+        "pr_count": 34,
         "file_count": 17
       },
       {

@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-08-31T18:25:35.007Z",
+  "timestamp": "2026-08-31T23:31:35.474Z",
   "repository": {
     "stars": 1180,
     "forks": 210
@@ -98,7 +98,7 @@
         "title": "Add support for Admin API organization resources (members, workspaces, invites, API keys)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/382",
         "createdAt": "2026-06-30T21:08:54Z",
-        "daysOpen": 61,
+        "daysOpen": 62,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -118,7 +118,7 @@
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
         "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 46,
+        "daysOpen": 47,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 13,
+        "daysOpen": 14,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -158,7 +158,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 13,
+        "daysOpen": 14,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -168,7 +168,7 @@
         "title": "bedrock.WithLoadDefaultConfig panics on ordinary AWS config failures (unknown profile, no SSO cache), so a CLI answers a login prompt with a stack trace",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/416",
         "createdAt": "2026-08-18T20:37:20Z",
-        "daysOpen": 12,
+        "daysOpen": 13,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -216,17 +216,17 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 21,
-    "merged_7d": 2,
-    "merged_30d": 8,
-    "merged_90d": 28,
+    "open_count": 20,
+    "merged_7d": 3,
+    "merged_30d": 9,
+    "merged_90d": 29,
     "opened_7d": 4,
     "opened_30d": 15,
     "opened_90d": 48,
     "closed_not_merged_90d": 37,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 21,
+    "unassigned_count": 20,
     "unassigned_24h": 19,
     "unassigned_7d": 17,
     "assigned_prs": [],
@@ -236,7 +236,7 @@
         "title": "Fix JSON marshaling for custom content citations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/225",
         "createdAt": "2025-08-21T22:00:17Z",
-        "daysOpen": 374,
+        "daysOpen": 375,
         "labels": [],
         "isDraft": false,
         "additions": 413,
@@ -390,7 +390,7 @@
         "title": "perf(json): encode nested param marshalers directly into a shared buffer",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/373",
         "createdAt": "2026-06-19T23:25:03Z",
-        "daysOpen": 72,
+        "daysOpen": 73,
         "labels": [],
         "isDraft": false,
         "additions": 473,
@@ -432,7 +432,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 46,
+        "daysOpen": 47,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -446,7 +446,7 @@
         "title": "agenttoolset: make the no-working-directory executable lookup explicit and tested",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/405",
         "createdAt": "2026-08-05T21:52:22Z",
-        "daysOpen": 25,
+        "daysOpen": 26,
         "labels": [],
         "isDraft": true,
         "additions": 937,
@@ -507,32 +507,18 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 47,
-        "deletions": 83,
+        "additions": 490,
+        "deletions": 162,
         "reviewCount": 0,
         "author": "stainless-app",
-        "assignees": []
-      },
-      {
-        "number": 426,
-        "title": "docs(changelog): detail the beta files/skills GA-shape change",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/426",
-        "createdAt": "2026-08-31T16:50:07Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 9,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "tomer-ant",
         "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 57.1,
-      "median_hours": 22.5,
-      "p90_hours": 189.5,
-      "p95_hours": 200.4
+      "avg_hours": 55.4,
+      "median_hours": 21.4,
+      "p90_hours": 182.6,
+      "p95_hours": 199.8
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -541,16 +527,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 54.9,
-      "median_hours": 21.4
+      "avg_hours": 53.1,
+      "median_hours": 20.3
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 56.9,
+    "rejection_rate_pct": 56.1,
     "avg_reviews_per_pr": 1,
     "by_size": {
-      "small": 10,
-      "medium": 9,
-      "large": 2
+      "small": 9,
+      "medium": 8,
+      "large": 3
     }
   },
   "contributors": {
@@ -559,7 +545,7 @@
     "first_time_30d": 11,
     "retention_rate_pct": 30,
     "churned_30d": 7,
-    "commits_per_week_avg": 10.7,
+    "commits_per_week_avg": 10.8,
     "commits_per_week_trend": [
       9,
       4,
@@ -572,7 +558,7 @@
       10,
       14,
       18,
-      25
+      26
     ],
     "allContributors": [
       "17twenty",
@@ -715,14 +701,14 @@
   "hotspots": {
     "by_file": [
       {
+        "path": "CHANGELOG.md",
+        "pr_count": 29,
+        "total_changes": 393
+      },
+      {
         "path": ".release-please-manifest.json",
         "pr_count": 28,
         "total_changes": 56
-      },
-      {
-        "path": "CHANGELOG.md",
-        "pr_count": 28,
-        "total_changes": 384
       },
       {
         "path": "README.md",
@@ -818,7 +804,7 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 28,
+        "pr_count": 29,
         "file_count": 113
       },
       {
