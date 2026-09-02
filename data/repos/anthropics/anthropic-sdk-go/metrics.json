@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-02T17:32:19.396Z",
+  "timestamp": "2026-09-02T20:17:42.951Z",
   "repository": {
     "stars": 1182,
-    "forks": 212
+    "forks": 211
   },
   "issues": {
     "open_count": 17,
@@ -118,7 +118,7 @@
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
         "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 48,
+        "daysOpen": 49,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -158,7 +158,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -174,20 +174,20 @@
         "assignees": []
       },
       {
-        "number": 422,
-        "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
-        "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 11,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 420,
         "title": "Tool input_schema quotes encoding/json.Number bounds as strings",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/420",
         "createdAt": "2026-08-22T05:16:30Z",
+        "daysOpen": 11,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
+        "number": 422,
+        "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
+        "createdAt": "2026-08-22T15:31:46Z",
         "daysOpen": 11,
         "labels": [],
         "commentCount": 0,
@@ -216,17 +216,17 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 26,
+    "open_count": 27,
     "merged_7d": 3,
     "merged_30d": 10,
     "merged_90d": 30,
-    "opened_7d": 10,
-    "opened_30d": 21,
-    "opened_90d": 55,
+    "opened_7d": 11,
+    "opened_30d": 22,
+    "opened_90d": 56,
     "closed_not_merged_90d": 37,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 26,
+    "unassigned_count": 27,
     "unassigned_24h": 22,
     "unassigned_7d": 18,
     "assigned_prs": [],
@@ -432,7 +432,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 48,
+        "daysOpen": 49,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -563,10 +563,24 @@
           "autorelease: pending"
         ],
         "isDraft": false,
-        "additions": 1194,
-        "deletions": 315,
+        "additions": 1200,
+        "deletions": 316,
         "reviewCount": 0,
         "author": "stainless-app",
+        "assignees": []
+      },
+      {
+        "number": 434,
+        "title": "fix(json): encode standard library Number values",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
+        "createdAt": "2026-09-02T17:52:10Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 30,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "pentaoa",
         "assignees": []
       },
       {
@@ -618,7 +632,7 @@
     "rejection_rate_pct": 55.2,
     "avg_reviews_per_pr": 1,
     "by_size": {
-      "small": 12,
+      "small": 13,
       "medium": 10,
       "large": 4
     }
@@ -632,8 +646,8 @@
     "commits_per_week_avg": 10.6,
     "commits_per_week_trend": [
       2,
-      4,
-      15,
+      8,
+      11,
       4,
       9,
       13,
