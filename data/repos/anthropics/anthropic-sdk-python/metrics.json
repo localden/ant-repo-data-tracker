@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-03T20:16:48.695Z",
+  "timestamp": "2026-09-03T23:41:41.589Z",
   "repository": {
     "stars": 3880,
     "forks": 838
@@ -80,7 +80,7 @@
         "title": "Python SDK: _transform_recursive blocking event loop on large message payloads",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1195",
         "createdAt": "2026-02-21T23:01:49Z",
-        "daysOpen": 193,
+        "daysOpen": 194,
         "labels": [],
         "commentCount": 6,
         "assignees": []
@@ -90,7 +90,7 @@
         "title": "Use of `deepcopy_minimal` in `files.beta.upload` mutates dict in place",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1202",
         "createdAt": "2026-02-24T23:11:00Z",
-        "daysOpen": 190,
+        "daysOpen": 191,
         "labels": [],
         "commentCount": 7,
         "assignees": []
@@ -124,7 +124,7 @@
         "title": "pdfplumber broken in code_execution sandbox — charset_normalizer mypyc module missing",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1340",
         "createdAt": "2026-04-06T22:37:16Z",
-        "daysOpen": 149,
+        "daysOpen": 150,
         "labels": [
           "api"
         ],
@@ -218,7 +218,7 @@
         "title": "[Bug] API returns 400 'Invalid signature in thinking block' when replaying conversation history — no recovery path",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1598",
         "createdAt": "2026-05-23T23:35:05Z",
-        "daysOpen": 102,
+        "daysOpen": 103,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -430,7 +430,7 @@
         "createdAt": "2026-08-28T14:05:54Z",
         "daysOpen": 6,
         "labels": [],
-        "commentCount": 1,
+        "commentCount": 2,
         "assignees": []
       },
       {
@@ -479,9 +479,9 @@
   },
   "pulls": {
     "open_count": 115,
-    "merged_7d": 3,
+    "merged_7d": 2,
     "merged_30d": 14,
-    "merged_90d": 39,
+    "merged_90d": 38,
     "opened_7d": 12,
     "opened_30d": 76,
     "opened_90d": 175,
@@ -540,7 +540,7 @@
         "title": "Accumulate extra pydantic fields from the sample event",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1070",
         "createdAt": "2025-11-13T21:29:26Z",
-        "daysOpen": 293,
+        "daysOpen": 294,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -920,7 +920,7 @@
         "title": "fix(bedrock): preserve aws_profile in copied clients",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1556",
         "createdAt": "2026-05-16T20:50:53Z",
-        "daysOpen": 109,
+        "daysOpen": 110,
         "labels": [],
         "isDraft": false,
         "additions": 33,
@@ -990,7 +990,7 @@
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1650",
         "createdAt": "2026-06-04T22:27:12Z",
-        "daysOpen": 90,
+        "daysOpen": 91,
         "labels": [],
         "isDraft": false,
         "additions": 121,
@@ -1354,7 +1354,7 @@
         "title": "Resolve helper executables via a safe PATH lookup (never the working directory)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1805",
         "createdAt": "2026-08-05T22:22:31Z",
-        "daysOpen": 28,
+        "daysOpen": 29,
         "labels": [],
         "isDraft": true,
         "additions": 1296,
@@ -1378,6 +1378,20 @@
         "assignees": []
       },
       {
+        "number": 1815,
+        "title": "fix(streaming): initialize usage when message_start omits it",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1815",
+        "createdAt": "2026-08-09T22:19:22Z",
+        "daysOpen": 25,
+        "labels": [],
+        "isDraft": false,
+        "additions": 323,
+        "deletions": 34,
+        "reviewCount": 1,
+        "author": "chenlichao",
+        "assignees": []
+      },
+      {
         "number": 1813,
         "title": "fix: support list-form JSON schema types",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1813",
@@ -1389,20 +1403,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "nightcityblade",
-        "assignees": []
-      },
-      {
-        "number": 1815,
-        "title": "fix(streaming): initialize usage when message_start omits it",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1815",
-        "createdAt": "2026-08-09T22:19:22Z",
-        "daysOpen": 24,
-        "labels": [],
-        "isDraft": false,
-        "additions": 323,
-        "deletions": 34,
-        "reviewCount": 1,
-        "author": "chenlichao",
         "assignees": []
       },
       {
@@ -1490,6 +1490,34 @@
         "assignees": []
       },
       {
+        "number": 1834,
+        "title": "fix(parse): demote composition keywords instead of dropping them",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1834",
+        "createdAt": "2026-08-15T23:13:00Z",
+        "daysOpen": 19,
+        "labels": [],
+        "isDraft": false,
+        "additions": 354,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "Swastikbhat-lab",
+        "assignees": []
+      },
+      {
+        "number": 1833,
+        "title": "fix(streaming): don't JSON-parse text when output_format=None",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
+        "createdAt": "2026-08-15T22:04:19Z",
+        "daysOpen": 19,
+        "labels": [],
+        "isDraft": false,
+        "additions": 47,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "Swastikbhat-lab",
+        "assignees": []
+      },
+      {
         "number": 1832,
         "title": "fix(session-runner): bound the reconnect reconcile so a long or wrapping history cannot wedge the runner",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1832",
@@ -1504,44 +1532,86 @@
         "assignees": []
       },
       {
-        "number": 1834,
-        "title": "fix(parse): demote composition keywords instead of dropping them",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1834",
-        "createdAt": "2026-08-15T23:13:00Z",
-        "daysOpen": 18,
-        "labels": [],
-        "isDraft": false,
-        "additions": 354,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "Swastikbhat-lab",
-        "assignees": []
-      },
-      {
-        "number": 1833,
-        "title": "fix(streaming): don't JSON-parse text when output_format=None",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
-        "createdAt": "2026-08-15T22:04:19Z",
-        "daysOpen": 18,
-        "labels": [],
-        "isDraft": false,
-        "additions": 47,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "Swastikbhat-lab",
-        "assignees": []
-      },
-      {
         "number": 1835,
         "title": "Fail clearly on unsupported dynamic object schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1835",
         "createdAt": "2026-08-16T22:25:00Z",
-        "daysOpen": 17,
+        "daysOpen": 18,
         "labels": [],
         "isDraft": false,
         "additions": 131,
         "deletions": 1,
         "reviewCount": 1,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1840,
+        "title": "Preserve structured-only MCP error payloads",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1840",
+        "createdAt": "2026-08-16T23:30:19Z",
+        "daysOpen": 18,
+        "labels": [],
+        "isDraft": false,
+        "additions": 74,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1839,
+        "title": "Preserve falsy parsed outputs",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1839",
+        "createdAt": "2026-08-16T23:24:04Z",
+        "daysOpen": 18,
+        "labels": [],
+        "isDraft": false,
+        "additions": 48,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1838,
+        "title": "Avoid consuming one-shot helper iterables",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1838",
+        "createdAt": "2026-08-16T23:11:31Z",
+        "daysOpen": 18,
+        "labels": [],
+        "isDraft": false,
+        "additions": 104,
+        "deletions": 5,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1837,
+        "title": "Preserve iterable ToolError content",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1837",
+        "createdAt": "2026-08-16T23:04:58Z",
+        "daysOpen": 18,
+        "labels": [],
+        "isDraft": false,
+        "additions": 45,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 1836,
+        "title": "Handle MCP blob resources without MIME types safely",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1836",
+        "createdAt": "2026-08-16T22:45:33Z",
+        "daysOpen": 18,
+        "labels": [],
+        "isDraft": false,
+        "additions": 109,
+        "deletions": 28,
+        "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
       },
@@ -1751,76 +1821,6 @@
         "isDraft": false,
         "additions": 181,
         "deletions": 14,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1840,
-        "title": "Preserve structured-only MCP error payloads",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1840",
-        "createdAt": "2026-08-16T23:30:19Z",
-        "daysOpen": 17,
-        "labels": [],
-        "isDraft": false,
-        "additions": 74,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1839,
-        "title": "Preserve falsy parsed outputs",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1839",
-        "createdAt": "2026-08-16T23:24:04Z",
-        "daysOpen": 17,
-        "labels": [],
-        "isDraft": false,
-        "additions": 48,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1838,
-        "title": "Avoid consuming one-shot helper iterables",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1838",
-        "createdAt": "2026-08-16T23:11:31Z",
-        "daysOpen": 17,
-        "labels": [],
-        "isDraft": false,
-        "additions": 104,
-        "deletions": 5,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1837,
-        "title": "Preserve iterable ToolError content",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1837",
-        "createdAt": "2026-08-16T23:04:58Z",
-        "daysOpen": 17,
-        "labels": [],
-        "isDraft": false,
-        "additions": 45,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1836,
-        "title": "Handle MCP blob resources without MIME types safely",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1836",
-        "createdAt": "2026-08-16T22:45:33Z",
-        "daysOpen": 17,
-        "labels": [],
-        "isDraft": false,
-        "additions": 109,
-        "deletions": 28,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -2109,10 +2109,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 116,
-      "median_hours": 9.7,
-      "p90_hours": 197.4,
-      "p95_hours": 245.7
+      "avg_hours": 115.1,
+      "median_hours": 8.6,
+      "p90_hours": 198.7,
+      "p95_hours": 247
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -2121,11 +2121,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 146.8,
+      "avg_hours": 146.2,
       "median_hours": 2.9
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 83.3,
+    "rejection_rate_pct": 83.7,
     "avg_reviews_per_pr": 1.2,
     "by_size": {
       "small": 79,
@@ -2151,8 +2151,8 @@
       0,
       35,
       27,
-      15,
-      22
+      24,
+      13
     ],
     "allContributors": [
       "0xdeadd",
@@ -2651,28 +2651,28 @@
     "by_file": [
       {
         "path": "pyproject.toml",
-        "pr_count": 33,
-        "total_changes": 113
+        "pr_count": 32,
+        "total_changes": 111
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 32,
-        "total_changes": 493
+        "pr_count": 31,
+        "total_changes": 467
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 31,
-        "total_changes": 62
+        "pr_count": 30,
+        "total_changes": 60
       },
       {
         "path": "src/anthropic/_version.py",
-        "pr_count": 31,
-        "total_changes": 62
+        "pr_count": 30,
+        "total_changes": 60
       },
       {
         "path": ".stats.yml",
-        "pr_count": 28,
-        "total_changes": 168
+        "pr_count": 27,
+        "total_changes": 164
       },
       {
         "path": "api.md",
@@ -2690,11 +2690,6 @@
         "total_changes": 348
       },
       {
-        "path": "src/anthropic/resources/messages/messages.py",
-        "pr_count": 9,
-        "total_changes": 702
-      },
-      {
         "path": "src/anthropic/lib/aws/_client.py",
         "pr_count": 8,
         "total_changes": 192
@@ -2710,14 +2705,14 @@
         "total_changes": 170
       },
       {
-        "path": "src/anthropic/lib/foundry.py",
-        "pr_count": 8,
-        "total_changes": 270
-      },
-      {
         "path": "src/anthropic/resources/beta/messages/messages.py",
         "pr_count": 8,
         "total_changes": 1375
+      },
+      {
+        "path": "src/anthropic/resources/messages/messages.py",
+        "pr_count": 8,
+        "total_changes": 700
       },
       {
         "path": "src/anthropic/lib/middleware/_fallbacks.py",
@@ -2748,17 +2743,22 @@
         "path": "tests/lib/test_aws.py",
         "pr_count": 7,
         "total_changes": 537
+      },
+      {
+        "path": "src/anthropic/lib/foundry.py",
+        "pr_count": 7,
+        "total_changes": 142
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 34,
-        "file_count": 15
+        "pr_count": 33,
+        "file_count": 14
       },
       {
         "path": "src/anthropic/",
-        "pr_count": 32,
+        "pr_count": 31,
         "file_count": 15
       },
       {
@@ -2783,7 +2783,7 @@
       },
       {
         "path": "tests/lib/",
-        "pr_count": 16,
+        "pr_count": 15,
         "file_count": 14
       },
       {
@@ -2805,9 +2805,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 4245423,
-    "last_week": 29179098,
-    "last_month": 189792200,
-    "total": 1241196459
+    "daily": 5091595,
+    "last_week": 30025270,
+    "last_month": 190638372,
+    "total": 1242042631
   }
 }
