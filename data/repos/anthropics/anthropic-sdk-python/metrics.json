@@ -1,21 +1,21 @@
 {
-  "timestamp": "2026-09-02T23:41:34.096Z",
+  "timestamp": "2026-09-03T01:58:28.599Z",
   "repository": {
-    "stars": 3879,
+    "stars": 3880,
     "forks": 837
   },
   "issues": {
-    "open_count": 42,
+    "open_count": 43,
     "closed_7d": 7,
     "closed_30d": 132,
     "closed_90d": 143,
     "opened_7d": 7,
-    "opened_30d": 29,
-    "opened_90d": 65,
+    "opened_30d": 30,
+    "opened_90d": 66,
     "assigned_count": 0,
-    "unassigned_count": 42,
+    "unassigned_count": 43,
     "unassigned_24h": 42,
-    "unassigned_7d": 39,
+    "unassigned_7d": 40,
     "unassigned_30d": 32,
     "assigned_issues": [],
     "unassigned_issues": [
@@ -36,7 +36,7 @@
         "title": "Feature request: add OAuth-based authentication",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/988",
         "createdAt": "2025-07-03T00:33:57Z",
-        "daysOpen": 426,
+        "daysOpen": 427,
         "labels": [
           "sdk"
         ],
@@ -122,7 +122,7 @@
         "title": "BetaAsyncAbstractMemoryTool docstring contains sync-only example (copy-paste from sync class)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1290",
         "createdAt": "2026-03-25T01:32:20Z",
-        "daysOpen": 161,
+        "daysOpen": 162,
         "labels": [
           "sdk"
         ],
@@ -198,7 +198,7 @@
         "title": "Accept a callable for bearer-token auth (`auth_token: str | Callable[[], str]`)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1496",
         "createdAt": "2026-05-05T00:25:44Z",
-        "daysOpen": 120,
+        "daysOpen": 121,
         "labels": [],
         "commentCount": 3,
         "assignees": []
@@ -428,7 +428,7 @@
         "title": "Structured outputs (output_config.format/json_schema): mid-stream invalid_request_error triggered by quoted string content in the prompt, not the schema",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1889",
         "createdAt": "2026-08-26T23:55:06Z",
-        "daysOpen": 6,
+        "daysOpen": 7,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -452,6 +452,16 @@
         "labels": [],
         "commentCount": 0,
         "assignees": []
+      },
+      {
+        "number": 1907,
+        "title": "Messages.parse (and AsyncMessages.parse) don't take cache_control?",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1907",
+        "createdAt": "2026-09-03T01:51:12Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
       }
     ],
     "by_label": {
@@ -470,8 +480,8 @@
       "median_days": 91.8,
       "p90_days": 476.8
     },
-    "label_coverage_pct": 16.7,
-    "unlabeled_count": 35,
+    "label_coverage_pct": 16.3,
+    "unlabeled_count": 36,
     "stale_30d": 22,
     "stale_60d": 18,
     "stale_90d": 12,
@@ -484,7 +494,7 @@
     "merged_90d": 39,
     "opened_7d": 11,
     "opened_30d": 79,
-    "opened_90d": 176,
+    "opened_90d": 175,
     "closed_not_merged_90d": 196,
     "draft_count": 2,
     "assigned_count": 0,
@@ -512,7 +522,7 @@
         "title": "Support count tokens for bedrock client",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1043",
         "createdAt": "2025-10-14T00:56:11Z",
-        "daysOpen": 323,
+        "daysOpen": 324,
         "labels": [],
         "isDraft": false,
         "additions": 69,
@@ -692,6 +702,20 @@
         "assignees": []
       },
       {
+        "number": 1291,
+        "title": "fix: update BetaAsyncAbstractMemoryTool docstring for async usage",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1291",
+        "createdAt": "2026-03-25T01:36:07Z",
+        "daysOpen": 162,
+        "labels": [],
+        "isDraft": false,
+        "additions": 21,
+        "deletions": 12,
+        "reviewCount": 1,
+        "author": "mmporong",
+        "assignees": []
+      },
+      {
         "number": 1297,
         "title": "fix: defer async stream transforms for large payloads",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1297",
@@ -717,20 +741,6 @@
         "deletions": 79,
         "reviewCount": 0,
         "author": "giulio-leone",
-        "assignees": []
-      },
-      {
-        "number": 1291,
-        "title": "fix: update BetaAsyncAbstractMemoryTool docstring for async usage",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1291",
-        "createdAt": "2026-03-25T01:36:07Z",
-        "daysOpen": 161,
-        "labels": [],
-        "isDraft": false,
-        "additions": 21,
-        "deletions": 12,
-        "reviewCount": 1,
-        "author": "mmporong",
         "assignees": []
       },
       {
@@ -934,7 +944,7 @@
         "title": "fix: let copied credentials replace inherited static auth",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1557",
         "createdAt": "2026-05-17T01:00:30Z",
-        "daysOpen": 108,
+        "daysOpen": 109,
         "labels": [],
         "isDraft": false,
         "additions": 71,
@@ -1004,7 +1014,7 @@
         "title": "fix(bedrock): tolerate a missing Connection header when signing",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1652",
         "createdAt": "2026-06-05T01:17:12Z",
-        "daysOpen": 89,
+        "daysOpen": 90,
         "labels": [],
         "isDraft": false,
         "additions": 67,
@@ -2789,9 +2799,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 5218855,
-    "last_week": 29788574,
-    "last_month": 194064546,
-    "total": 1236860456
+    "daily": 344589,
+    "last_week": 25278264,
+    "last_month": 185891366,
+    "total": 1237295625
   }
 }
