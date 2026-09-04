@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-04T17:20:31.884Z",
+  "timestamp": "2026-09-04T20:05:37.919Z",
   "repository": {
     "stars": 177,
     "forks": 52
@@ -60,17 +60,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 3,
+    "open_count": 4,
     "merged_7d": 3,
     "merged_30d": 7,
-    "merged_90d": 25,
-    "opened_7d": 3,
-    "opened_30d": 7,
-    "opened_90d": 25,
+    "merged_90d": 24,
+    "opened_7d": 4,
+    "opened_30d": 8,
+    "opened_90d": 26,
     "closed_not_merged_90d": 4,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 3,
+    "unassigned_count": 4,
     "unassigned_24h": 3,
     "unassigned_7d": 3,
     "assigned_prs": [],
@@ -108,7 +108,7 @@
         "title": "fix(client): serialize list query params with empty brackets",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/69",
         "createdAt": "2026-08-17T18:24:50Z",
-        "daysOpen": 17,
+        "daysOpen": 18,
         "labels": [],
         "isDraft": false,
         "additions": 161,
@@ -116,13 +116,29 @@
         "reviewCount": 2,
         "author": "pravinireri",
         "assignees": []
+      },
+      {
+        "number": 75,
+        "title": "release: 0.47.0",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/75",
+        "createdAt": "2026-09-04T17:45:27Z",
+        "daysOpen": 0,
+        "labels": [
+          "autorelease: pending"
+        ],
+        "isDraft": false,
+        "additions": 6546,
+        "deletions": 658,
+        "reviewCount": 0,
+        "author": "stainless-app",
+        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 38,
-      "median_hours": 1.3,
-      "p90_hours": 95.6,
-      "p95_hours": 150.5
+      "avg_hours": 39.5,
+      "median_hours": 1.8,
+      "p90_hours": 96.3,
+      "p95_hours": 153.9
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -131,16 +147,16 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 39.5,
-      "median_hours": 1.8
+      "avg_hours": 41.1,
+      "median_hours": 1.9
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 13.8,
+    "rejection_rate_pct": 14.3,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 1,
       "medium": 2,
-      "large": 0
+      "large": 1
     }
   },
   "contributors": {
@@ -159,8 +175,8 @@
       12,
       0,
       8,
-      13,
-      21,
+      14,
+      20,
       20,
       18
     ],
@@ -216,28 +232,28 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 25,
-        "total_changes": 367
+        "pr_count": 24,
+        "total_changes": 359
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 24,
-        "total_changes": 48
+        "pr_count": 23,
+        "total_changes": 46
       },
       {
         "path": "README.md",
-        "pr_count": 24,
-        "total_changes": 175
+        "pr_count": 23,
+        "total_changes": 173
       },
       {
         "path": "src/Version.php",
-        "pr_count": 24,
-        "total_changes": 48
+        "pr_count": 23,
+        "total_changes": 46
       },
       {
         "path": ".stats.yml",
-        "pr_count": 22,
-        "total_changes": 119
+        "pr_count": 21,
+        "total_changes": 113
       },
       {
         "path": "src/Beta/AnthropicBeta.php",
@@ -265,36 +281,6 @@
         "total_changes": 166
       },
       {
-        "path": "src/ServiceContracts/Beta/SessionsContract.php",
-        "pr_count": 6,
-        "total_changes": 28
-      },
-      {
-        "path": "src/Services/Beta/SessionsService.php",
-        "pr_count": 6,
-        "total_changes": 32
-      },
-      {
-        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
-        "pr_count": 6,
-        "total_changes": 199
-      },
-      {
-        "path": "src/Beta/Messages/MessageCreateParams.php",
-        "pr_count": 6,
-        "total_changes": 205
-      },
-      {
-        "path": "src/ServiceContracts/Beta/MessagesContract.php",
-        "pr_count": 6,
-        "total_changes": 139
-      },
-      {
-        "path": "src/Services/Beta/MessagesService.php",
-        "pr_count": 6,
-        "total_changes": 152
-      },
-      {
         "path": "src/Beta/Messages/BetaRefusalStopDetails/Category.php",
         "pr_count": 6,
         "total_changes": 14
@@ -313,17 +299,47 @@
         "path": "src/ServiceContracts/Beta/Sessions/EventsContract.php",
         "pr_count": 5,
         "total_changes": 35
+      },
+      {
+        "path": "src/ServiceContracts/Beta/SessionsContract.php",
+        "pr_count": 5,
+        "total_changes": 26
+      },
+      {
+        "path": "src/Services/Beta/Sessions/EventsService.php",
+        "pr_count": 5,
+        "total_changes": 39
+      },
+      {
+        "path": "src/Services/Beta/SessionsService.php",
+        "pr_count": 5,
+        "total_changes": 30
+      },
+      {
+        "path": "src/Beta/Webhooks/BetaWebhookEvent.php",
+        "pr_count": 5,
+        "total_changes": 30
+      },
+      {
+        "path": "src/Beta/Webhooks/BetaWebhookEventData.php",
+        "pr_count": 5,
+        "total_changes": 92
+      },
+      {
+        "path": "src/Beta/Messages/Batches/BatchCreateParams/Request/Params.php",
+        "pr_count": 5,
+        "total_changes": 195
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 25,
+        "pr_count": 24,
         "file_count": 5
       },
       {
         "path": "src/",
-        "pr_count": 24,
+        "pr_count": 23,
         "file_count": 7
       },
       {
@@ -333,28 +349,28 @@
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 16,
+        "pr_count": 15,
         "file_count": 26
       },
       {
         "path": "src/ServiceContracts/Beta/",
-        "pr_count": 15,
+        "pr_count": 14,
         "file_count": 22
       },
       {
         "path": "src/Beta/Messages/",
-        "pr_count": 13,
-        "file_count": 118
+        "pr_count": 12,
+        "file_count": 116
       },
       {
         "path": "src/Messages/",
-        "pr_count": 12,
-        "file_count": 95
+        "pr_count": 11,
+        "file_count": 94
       },
       {
         "path": "src/Beta/Agents/",
-        "pr_count": 10,
-        "file_count": 35
+        "pr_count": 9,
+        "file_count": 34
       },
       {
         "path": "src/Beta/",
@@ -362,17 +378,17 @@
         "file_count": 3
       },
       {
-        "path": "src/Beta/Webhooks/",
-        "pr_count": 8,
-        "file_count": 48
+        "path": "tests/Services/Beta/Messages/",
+        "pr_count": 7,
+        "file_count": 1
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 21785,
-    "total": 1374256,
-    "last_week": 129425,
-    "last_month": 446782
+    "daily": 21894,
+    "total": 1377128,
+    "last_week": 129534,
+    "last_month": 446891
   }
 }
