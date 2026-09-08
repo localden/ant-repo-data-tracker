@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07T22:24:16.886Z",
+  "timestamp": "2026-09-08T01:57:42.338Z",
   "repository": {
     "stars": 2107,
     "forks": 396
@@ -36,7 +36,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 491,
+        "daysOpen": 492,
         "labels": [
           "code-change"
         ],
@@ -142,7 +142,7 @@
         "title": "idempotencyKey is a silent no-op: base Anthropic client never sets idempotencyHeader",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1112",
         "createdAt": "2026-07-07T01:44:52Z",
-        "daysOpen": 62,
+        "daysOpen": 63,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -188,6 +188,16 @@
         "assignees": []
       },
       {
+        "number": 1164,
+        "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
+        "createdAt": "2026-08-24T23:27:13Z",
+        "daysOpen": 14,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
         "number": 1162,
         "title": "transformJSONSchema drops $defs when the schema root is a $ref",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1162",
@@ -195,16 +205,6 @@
         "daysOpen": 14,
         "labels": [],
         "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1164,
-        "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
-        "createdAt": "2026-08-24T23:27:13Z",
-        "daysOpen": 13,
-        "labels": [],
-        "commentCount": 2,
         "assignees": []
       },
       {
@@ -247,10 +247,10 @@
     "open_count": 37,
     "merged_7d": 2,
     "merged_30d": 12,
-    "merged_90d": 34,
+    "merged_90d": 33,
     "opened_7d": 3,
-    "opened_30d": 26,
-    "opened_90d": 71,
+    "opened_30d": 25,
+    "opened_90d": 69,
     "closed_not_merged_90d": 60,
     "draft_count": 3,
     "assigned_count": 0,
@@ -482,7 +482,7 @@
         "title": "fix(partial-json): keep complete trailing numbers in arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
         "createdAt": "2026-05-22T00:58:11Z",
-        "daysOpen": 108,
+        "daysOpen": 109,
         "labels": [],
         "isDraft": false,
         "additions": 14,
@@ -510,7 +510,7 @@
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
         "createdAt": "2026-06-04T22:33:25Z",
-        "daysOpen": 94,
+        "daysOpen": 95,
         "labels": [],
         "isDraft": false,
         "additions": 117,
@@ -566,13 +566,27 @@
         "title": "fix(agent-toolset): resolve helper executables via a safe PATH lookup (never the working directory)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1142",
         "createdAt": "2026-08-05T23:36:59Z",
-        "daysOpen": 32,
+        "daysOpen": 33,
         "labels": [],
         "isDraft": true,
         "additions": 1675,
         "deletions": 378,
         "reviewCount": 0,
         "author": "seanyeoh-ant",
+        "assignees": []
+      },
+      {
+        "number": 1143,
+        "title": "fix(schema): preserve const/enum in transformJSONSchema",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
+        "createdAt": "2026-08-06T23:33:07Z",
+        "daysOpen": 32,
+        "labels": [],
+        "isDraft": false,
+        "additions": 86,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "edenbuilds",
         "assignees": []
       },
       {
@@ -590,25 +604,11 @@
         "assignees": []
       },
       {
-        "number": 1143,
-        "title": "fix(schema): preserve const/enum in transformJSONSchema",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
-        "createdAt": "2026-08-06T23:33:07Z",
-        "daysOpen": 31,
-        "labels": [],
-        "isDraft": false,
-        "additions": 86,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "edenbuilds",
-        "assignees": []
-      },
-      {
         "number": 1147,
         "title": "fix(vertex): strip beta headers from countTokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1147",
         "createdAt": "2026-08-09T00:45:46Z",
-        "daysOpen": 29,
+        "daysOpen": 30,
         "labels": [],
         "isDraft": false,
         "additions": 57,
@@ -674,6 +674,20 @@
         "assignees": []
       },
       {
+        "number": 1165,
+        "title": "fix(BetaMessageStream): preserve null content and existing checkpoint in compaction_delta",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1165",
+        "createdAt": "2026-08-24T23:47:54Z",
+        "daysOpen": 14,
+        "labels": [],
+        "isDraft": false,
+        "additions": 203,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "lx3133584",
+        "assignees": []
+      },
+      {
         "number": 1163,
         "title": "fix(schema): keep $defs when the schema root is a $ref",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1163",
@@ -685,20 +699,6 @@
         "deletions": 6,
         "reviewCount": 0,
         "author": "cmun2",
-        "assignees": []
-      },
-      {
-        "number": 1165,
-        "title": "fix(BetaMessageStream): preserve null content and existing checkpoint in compaction_delta",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1165",
-        "createdAt": "2026-08-24T23:47:54Z",
-        "daysOpen": 13,
-        "labels": [],
-        "isDraft": false,
-        "additions": 203,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "lx3133584",
         "assignees": []
       },
       {
@@ -801,10 +801,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 59.9,
+      "avg_hours": 61.1,
       "median_hours": 2.8,
-      "p90_hours": 151.1,
-      "p95_hours": 183.8
+      "p90_hours": 151.9,
+      "p95_hours": 184.5
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -813,11 +813,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 35.7,
+      "avg_hours": 36.8,
       "median_hours": 2.9
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 63.8,
+    "rejection_rate_pct": 64.5,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 28,
@@ -827,10 +827,10 @@
   },
   "contributors": {
     "total_known": 234,
-    "active_30d": 24,
-    "first_time_30d": 17,
-    "retention_rate_pct": 30,
-    "churned_30d": 14,
+    "active_30d": 23,
+    "first_time_30d": 16,
+    "retention_rate_pct": 28.6,
+    "churned_30d": 15,
     "commits_per_week_avg": 14.7,
     "commits_per_week_trend": [
       6,
@@ -1091,7 +1091,6 @@
       "dawNotPoi",
       "dtmeadows-ant",
       "fabian-hiller",
-      "fallintoplace",
       "jstar0",
       "juneja-varun",
       "kkkhs",
@@ -1113,43 +1112,43 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 31,
-        "total_changes": 149
+        "pr_count": 30,
+        "total_changes": 147
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 30,
-        "total_changes": 452
+        "pr_count": 29,
+        "total_changes": 444
       },
       {
         "path": "package.json",
-        "pr_count": 29,
-        "total_changes": 76
+        "pr_count": 28,
+        "total_changes": 74
       },
       {
         "path": "src/version.ts",
-        "pr_count": 29,
-        "total_changes": 58
+        "pr_count": 28,
+        "total_changes": 56
       },
       {
         "path": ".stats.yml",
-        "pr_count": 28,
-        "total_changes": 157
+        "pr_count": 27,
+        "total_changes": 153
       },
       {
         "path": "src/resources/beta/messages/messages.ts",
-        "pr_count": 19,
-        "total_changes": 3371
-      },
-      {
-        "path": "src/resources/messages/messages.ts",
         "pr_count": 18,
-        "total_changes": 2400
+        "total_changes": 3369
       },
       {
         "path": "api.md",
         "pr_count": 17,
         "total_changes": 642
+      },
+      {
+        "path": "src/resources/messages/messages.ts",
+        "pr_count": 17,
+        "total_changes": 2398
       },
       {
         "path": "src/resources/beta/beta.ts",
@@ -1215,12 +1214,12 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 32,
+        "pr_count": 31,
         "file_count": 15
       },
       {
         "path": "src/",
-        "pr_count": 30,
+        "pr_count": 29,
         "file_count": 2
       },
       {
@@ -1230,12 +1229,12 @@
       },
       {
         "path": "src/resources/beta/messages/",
-        "pr_count": 19,
+        "pr_count": 18,
         "file_count": 3
       },
       {
         "path": "src/resources/messages/",
-        "pr_count": 18,
+        "pr_count": 17,
         "file_count": 3
       },
       {
@@ -1267,10 +1266,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 4252157,
     "total": 739561980,
-    "total_through": "2026-09-06",
-    "last_week": 35284888,
-    "last_month": 130776995
+    "total_through": "2026-09-06"
   }
 }
