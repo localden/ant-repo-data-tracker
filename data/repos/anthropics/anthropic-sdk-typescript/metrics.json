@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-09T08:29:09.590Z",
+  "timestamp": "2026-09-09T14:02:49.381Z",
   "repository": {
-    "stars": 2108,
-    "forks": 395
+    "stars": 2109,
+    "forks": 397
   },
   "issues": {
     "open_count": 18,
@@ -48,7 +48,7 @@
         "title": "Undefined vs null fields from the OpenAPI specs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/811",
         "createdAt": "2025-08-26T13:49:20Z",
-        "daysOpen": 378,
+        "daysOpen": 379,
         "labels": [
           "openapi",
           "spec-change"
@@ -152,7 +152,7 @@
         "title": "`transformJSONSchema` drops `const`/`enum` into description text, breaking discriminated unions in tool inputs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1116",
         "createdAt": "2026-07-08T11:52:32Z",
-        "daysOpen": 62,
+        "daysOpen": 63,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -172,7 +172,7 @@
         "title": "Managed Agents egress gateway omits SNI on upstream TLS to Cloudflare R2 (503 HANDSHAKE_FAILURE_ON_CLIENT_HELLO)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1125",
         "createdAt": "2026-07-20T11:07:09Z",
-        "daysOpen": 50,
+        "daysOpen": 51,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -244,19 +244,19 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 37,
+    "open_count": 38,
     "merged_7d": 1,
     "merged_30d": 12,
     "merged_90d": 33,
     "opened_7d": 3,
-    "opened_30d": 25,
-    "opened_90d": 69,
+    "opened_30d": 26,
+    "opened_90d": 70,
     "closed_not_merged_90d": 60,
     "draft_count": 3,
     "assigned_count": 0,
-    "unassigned_count": 37,
+    "unassigned_count": 38,
     "unassigned_24h": 34,
-    "unassigned_7d": 33,
+    "unassigned_7d": 34,
     "assigned_prs": [],
     "unassigned_prs": [
       {
@@ -280,7 +280,7 @@
         "title": "fix(tool runner): use latest message for tool response generation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/878",
         "createdAt": "2026-01-13T13:45:53Z",
-        "daysOpen": 238,
+        "daysOpen": 239,
         "labels": [
           "code-change"
         ],
@@ -312,7 +312,7 @@
         "title": "fix(tool runner): don't exit early on pause_turn",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/906",
         "createdAt": "2026-02-11T09:33:49Z",
-        "daysOpen": 209,
+        "daysOpen": 210,
         "labels": [
           "code-change"
         ],
@@ -408,7 +408,7 @@
         "title": "fix: implement ApiKeySetter — async apiKey functions were silently discarded",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/957",
         "createdAt": "2026-03-23T13:47:39Z",
-        "daysOpen": 169,
+        "daysOpen": 170,
         "labels": [
           "spec-change"
         ],
@@ -424,7 +424,7 @@
         "title": "fix: handle invalid JSON escape sequences in partial-json-parser",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/989",
         "createdAt": "2026-04-10T12:44:31Z",
-        "daysOpen": 151,
+        "daysOpen": 152,
         "labels": [
           "code-change"
         ],
@@ -496,7 +496,7 @@
         "title": "ci: migrate claude.yml to Workload Identity Federation auth",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1063",
         "createdAt": "2026-05-23T08:36:53Z",
-        "daysOpen": 108,
+        "daysOpen": 109,
         "labels": [],
         "isDraft": false,
         "additions": 8,
@@ -576,6 +576,20 @@
         "assignees": []
       },
       {
+        "number": 1145,
+        "title": "docs(helpers): add missing .beta segment in toolRunner heading",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1145",
+        "createdAt": "2026-08-07T09:04:47Z",
+        "daysOpen": 33,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "MsfPablo",
+        "assignees": []
+      },
+      {
         "number": 1143,
         "title": "fix(schema): preserve const/enum in transformJSONSchema",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
@@ -587,20 +601,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "edenbuilds",
-        "assignees": []
-      },
-      {
-        "number": 1145,
-        "title": "docs(helpers): add missing .beta segment in toolRunner heading",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1145",
-        "createdAt": "2026-08-07T09:04:47Z",
-        "daysOpen": 32,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "MsfPablo",
         "assignees": []
       },
       {
@@ -664,7 +664,7 @@
         "title": "docs: fix missing .beta segment in toolRunner heading (#1141)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1161",
         "createdAt": "2026-08-23T11:03:53Z",
-        "daysOpen": 16,
+        "daysOpen": 17,
         "labels": [],
         "isDraft": false,
         "additions": 1,
@@ -734,13 +734,27 @@
         "title": "fix: prevent retries with streaming request bodies",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1171",
         "createdAt": "2026-08-27T10:25:14Z",
-        "daysOpen": 12,
+        "daysOpen": 13,
         "labels": [],
         "isDraft": false,
         "additions": 93,
         "deletions": 9,
         "reviewCount": 2,
         "author": "xianjianlf2",
+        "assignees": []
+      },
+      {
+        "number": 1173,
+        "title": "docs: fix typo typicaly -> typically",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1173",
+        "createdAt": "2026-08-29T11:09:13Z",
+        "daysOpen": 11,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "vaibhav8a",
         "assignees": []
       },
       {
@@ -758,25 +772,11 @@
         "assignees": []
       },
       {
-        "number": 1173,
-        "title": "docs: fix typo typicaly -> typically",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1173",
-        "createdAt": "2026-08-29T11:09:13Z",
-        "daysOpen": 10,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "vaibhav8a",
-        "assignees": []
-      },
-      {
         "number": 1176,
         "title": "fix(tool runner): don't exit early on pause_turn",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1176",
         "createdAt": "2026-09-02T08:34:20Z",
-        "daysOpen": 6,
+        "daysOpen": 7,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -797,6 +797,20 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "rksharma-owg",
+        "assignees": []
+      },
+      {
+        "number": 1179,
+        "title": "fix(helpers): keep $defs when the root JSON schema is a $ref",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1179",
+        "createdAt": "2026-09-09T09:32:44Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 41,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "OsamaAnsar",
         "assignees": []
       }
     ],
@@ -820,15 +834,15 @@
     "rejection_rate_pct": 64.5,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
-      "small": 28,
+      "small": 29,
       "medium": 6,
       "large": 3
     }
   },
   "contributors": {
-    "total_known": 234,
-    "active_30d": 23,
-    "first_time_30d": 16,
+    "total_known": 235,
+    "active_30d": 24,
+    "first_time_30d": 17,
     "retention_rate_pct": 31.6,
     "churned_30d": 13,
     "commits_per_week_avg": 14.7,
@@ -841,8 +855,8 @@
       7,
       0,
       13,
-      19,
-      19,
+      32,
+      6,
       46,
       17
     ],
@@ -884,6 +898,7 @@
       "MukundaKatta",
       "Nicolasdcnv",
       "Number531",
+      "OsamaAnsar",
       "Oye7z",
       "PhilippeLaval",
       "Randomblock1",
@@ -1084,6 +1099,7 @@
     ],
     "previousPeriodContributors": [
       "AbhiPra24",
+      "OsamaAnsar",
       "acartag7",
       "cmun2",
       "craigie-ant",
