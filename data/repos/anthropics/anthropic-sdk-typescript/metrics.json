@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-09-09T22:06:58.079Z",
+  "timestamp": "2026-09-10T01:59:56.422Z",
   "repository": {
     "stars": 2109,
     "forks": 398
   },
   "issues": {
-    "open_count": 18,
-    "closed_7d": 1,
+    "open_count": 21,
+    "closed_7d": 0,
     "closed_30d": 6,
     "closed_90d": 57,
-    "opened_7d": 0,
-    "opened_30d": 5,
-    "opened_90d": 19,
+    "opened_7d": 3,
+    "opened_30d": 8,
+    "opened_90d": 22,
     "assigned_count": 0,
-    "unassigned_count": 18,
+    "unassigned_count": 21,
     "unassigned_24h": 18,
     "unassigned_7d": 18,
     "unassigned_30d": 15,
@@ -36,7 +36,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 493,
+        "daysOpen": 494,
         "labels": [
           "code-change"
         ],
@@ -142,7 +142,7 @@
         "title": "idempotencyKey is a silent no-op: base Anthropic client never sets idempotencyHeader",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1112",
         "createdAt": "2026-07-07T01:44:52Z",
-        "daysOpen": 64,
+        "daysOpen": 65,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -188,6 +188,16 @@
         "assignees": []
       },
       {
+        "number": 1164,
+        "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
+        "createdAt": "2026-08-24T23:27:13Z",
+        "daysOpen": 16,
+        "labels": [],
+        "commentCount": 2,
+        "assignees": []
+      },
+      {
         "number": 1162,
         "title": "transformJSONSchema drops $defs when the schema root is a $ref",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1162",
@@ -198,16 +208,6 @@
         "assignees": []
       },
       {
-        "number": 1164,
-        "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
-        "createdAt": "2026-08-24T23:27:13Z",
-        "daysOpen": 15,
-        "labels": [],
-        "commentCount": 2,
-        "assignees": []
-      },
-      {
         "number": 1170,
         "title": "Retrying a request with a single-use stream body silently sends a 0-byte body and reports success",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1170",
@@ -215,6 +215,36 @@
         "daysOpen": 13,
         "labels": [],
         "commentCount": 1,
+        "assignees": []
+      },
+      {
+        "number": 1182,
+        "title": "BetaLocalFilesystemMemoryTool: rename of the /memories root is not rejected, and unmapped filesystem errors (EINVAL, ENOTDIR) expose the host path to the model",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1182",
+        "createdAt": "2026-09-09T23:28:18Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 1181,
+        "title": "Memory tool: two edits to one file in the same turn silently lose one (BetaToolRunner runs tool calls concurrently; BetaLocalFilesystemMemoryTool has no serialization)",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1181",
+        "createdAt": "2026-09-09T23:27:28Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 1180,
+        "title": "BetaLocalFilesystemMemoryTool.str_replace: a multi-line old_str never matches, and an omitted new_str writes the word \"undefined\"",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1180",
+        "createdAt": "2026-09-09T23:27:27Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
         "assignees": []
       }
     ],
@@ -236,8 +266,8 @@
       "median_days": 136.3,
       "p90_days": 555
     },
-    "label_coverage_pct": 44.4,
-    "unlabeled_count": 10,
+    "label_coverage_pct": 38.1,
+    "unlabeled_count": 13,
     "stale_30d": 11,
     "stale_60d": 7,
     "stale_90d": 6,
@@ -250,7 +280,7 @@
     "merged_90d": 33,
     "opened_7d": 2,
     "opened_30d": 26,
-    "opened_90d": 70,
+    "opened_90d": 69,
     "closed_not_merged_90d": 53,
     "draft_count": 3,
     "assigned_count": 0,
@@ -482,7 +512,7 @@
         "title": "fix(partial-json): keep complete trailing numbers in arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
         "createdAt": "2026-05-22T00:58:11Z",
-        "daysOpen": 110,
+        "daysOpen": 111,
         "labels": [],
         "isDraft": false,
         "additions": 14,
@@ -510,7 +540,7 @@
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
         "createdAt": "2026-06-04T22:33:25Z",
-        "daysOpen": 96,
+        "daysOpen": 97,
         "labels": [],
         "isDraft": false,
         "additions": 117,
@@ -566,13 +596,27 @@
         "title": "fix(agent-toolset): resolve helper executables via a safe PATH lookup (never the working directory)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1142",
         "createdAt": "2026-08-05T23:36:59Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "isDraft": true,
         "additions": 1675,
         "deletions": 378,
         "reviewCount": 0,
         "author": "seanyeoh-ant",
+        "assignees": []
+      },
+      {
+        "number": 1143,
+        "title": "fix(schema): preserve const/enum in transformJSONSchema",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
+        "createdAt": "2026-08-06T23:33:07Z",
+        "daysOpen": 34,
+        "labels": [],
+        "isDraft": false,
+        "additions": 86,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "edenbuilds",
         "assignees": []
       },
       {
@@ -590,25 +634,11 @@
         "assignees": []
       },
       {
-        "number": 1143,
-        "title": "fix(schema): preserve const/enum in transformJSONSchema",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
-        "createdAt": "2026-08-06T23:33:07Z",
-        "daysOpen": 33,
-        "labels": [],
-        "isDraft": false,
-        "additions": 86,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "edenbuilds",
-        "assignees": []
-      },
-      {
         "number": 1147,
         "title": "fix(vertex): strip beta headers from countTokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1147",
         "createdAt": "2026-08-09T00:45:46Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "isDraft": false,
         "additions": 57,
@@ -674,6 +704,20 @@
         "assignees": []
       },
       {
+        "number": 1165,
+        "title": "fix(BetaMessageStream): preserve null content and existing checkpoint in compaction_delta",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1165",
+        "createdAt": "2026-08-24T23:47:54Z",
+        "daysOpen": 16,
+        "labels": [],
+        "isDraft": false,
+        "additions": 203,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "lx3133584",
+        "assignees": []
+      },
+      {
         "number": 1163,
         "title": "fix(schema): keep $defs when the schema root is a $ref",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1163",
@@ -685,20 +729,6 @@
         "deletions": 6,
         "reviewCount": 0,
         "author": "cmun2",
-        "assignees": []
-      },
-      {
-        "number": 1165,
-        "title": "fix(BetaMessageStream): preserve null content and existing checkpoint in compaction_delta",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1165",
-        "createdAt": "2026-08-24T23:47:54Z",
-        "daysOpen": 15,
-        "labels": [],
-        "isDraft": false,
-        "additions": 203,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "lx3133584",
         "assignees": []
       },
       {
@@ -840,9 +870,9 @@
     }
   },
   "contributors": {
-    "total_known": 235,
-    "active_30d": 24,
-    "first_time_30d": 17,
+    "total_known": 236,
+    "active_30d": 25,
+    "first_time_30d": 18,
     "retention_rate_pct": 31.6,
     "churned_30d": 13,
     "commits_per_week_avg": 14.7,
@@ -1013,6 +1043,7 @@
       "logaretm",
       "lokinhh",
       "luiz-anthropic",
+      "lukehutch",
       "lx3133584",
       "lzj960515",
       "manar-ant",
@@ -1112,6 +1143,7 @@
       "kkkhs",
       "latent-9",
       "luiz-anthropic",
+      "lukehutch",
       "lx3133584",
       "meorphis-anthropic",
       "packyg",
