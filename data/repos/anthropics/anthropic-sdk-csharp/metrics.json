@@ -1,16 +1,16 @@
 {
-  "timestamp": "2026-09-10T17:26:58.443Z",
+  "timestamp": "2026-09-10T20:16:15.327Z",
   "repository": {
-    "stars": 321,
-    "forks": 103
+    "stars": 322,
+    "forks": 104
   },
   "issues": {
     "open_count": 7,
     "closed_7d": 1,
-    "closed_30d": 7,
+    "closed_30d": 4,
     "closed_90d": 12,
     "opened_7d": 2,
-    "opened_30d": 7,
+    "opened_30d": 6,
     "opened_90d": 16,
     "assigned_count": 0,
     "unassigned_count": 7,
@@ -117,12 +117,12 @@
   },
   "pulls": {
     "open_count": 4,
-    "merged_7d": 1,
-    "merged_30d": 9,
-    "merged_90d": 27,
-    "opened_7d": 1,
-    "opened_30d": 8,
-    "opened_90d": 28,
+    "merged_7d": 3,
+    "merged_30d": 11,
+    "merged_90d": 29,
+    "opened_7d": 3,
+    "opened_30d": 10,
+    "opened_90d": 30,
     "closed_not_merged_90d": 2,
     "draft_count": 1,
     "assigned_count": 0,
@@ -189,10 +189,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 106,
-      "median_hours": 33.6,
-      "p90_hours": 286.5,
-      "p95_hours": 471.2
+      "avg_hours": 102.3,
+      "median_hours": 24.7,
+      "p90_hours": 276.1,
+      "p95_hours": 462.6
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -201,11 +201,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 229.2,
-      "median_hours": 46.4
+      "avg_hours": 213.4,
+      "median_hours": 24.7
     },
-    "code_review_rate_pct": 100,
-    "rejection_rate_pct": 6.9,
+    "code_review_rate_pct": 96.6,
+    "rejection_rate_pct": 6.5,
     "avg_reviews_per_pr": 1.6,
     "by_size": {
       "small": 1,
@@ -215,24 +215,24 @@
   },
   "contributors": {
     "total_known": 82,
-    "active_30d": 14,
-    "first_time_30d": 8,
-    "retention_rate_pct": 38.5,
-    "churned_30d": 8,
-    "commits_per_week_avg": 12.2,
+    "active_30d": 13,
+    "first_time_30d": 7,
+    "retention_rate_pct": 35.7,
+    "churned_30d": 9,
+    "commits_per_week_avg": 13.2,
     "commits_per_week_trend": [
       12,
-      13,
-      5,
-      0,
-      19,
-      5,
+      15,
+      3,
+      10,
+      11,
+      3,
       0,
       9,
       29,
       9,
-      36,
-      9
+      37,
+      20
     ],
     "allContributors": [
       "1yefuwang1",
@@ -321,7 +321,6 @@
     "previousPeriodContributors": [
       "AkiKurisu",
       "Har1sh-k",
-      "JoffreybookU",
       "PederHP",
       "Suzii",
       "deanxb",
@@ -339,18 +338,18 @@
     "by_file": [
       {
         "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 23,
-        "total_changes": 340
+        "pr_count": 24,
+        "total_changes": 361
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 22,
-        "total_changes": 75
+        "pr_count": 23,
+        "total_changes": 77
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
-        "pr_count": 22,
-        "total_changes": 45
+        "pr_count": 23,
+        "total_changes": 47
       },
       {
         "path": ".stats.yml",
@@ -359,8 +358,33 @@
       },
       {
         "path": "src/Anthropic/Core/ModelBase.cs",
-        "pr_count": 14,
-        "total_changes": 131
+        "pr_count": 15,
+        "total_changes": 141
+      },
+      {
+        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
+        "pr_count": 9,
+        "total_changes": 735
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
+        "pr_count": 8,
+        "total_changes": 34
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Sessions/SessionCreateParamsTest.cs",
+        "pr_count": 8,
+        "total_changes": 620
+      },
+      {
+        "path": "src/Anthropic/AnthropicClientExtensions.cs",
+        "pr_count": 8,
+        "total_changes": 987
+      },
+      {
+        "path": "src/Anthropic/Models/Beta/AnthropicBeta.cs",
+        "pr_count": 8,
+        "total_changes": 60
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Agents/AgentCreateParamsTest.cs",
@@ -373,9 +397,19 @@
         "total_changes": 130
       },
       {
-        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
-        "pr_count": 8,
-        "total_changes": 520
+        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTestsBase.cs",
+        "pr_count": 7,
+        "total_changes": 2567
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Sessions/Events/BetaManagedAgentsStreamSessionEventsTest.cs",
+        "pr_count": 7,
+        "total_changes": 506
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Sessions/Threads/BetaManagedAgentsStreamSessionThreadEventsTest.cs",
+        "pr_count": 7,
+        "total_changes": 580
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/Batches/BatchCreateParamsTest.cs",
@@ -398,96 +432,61 @@
         "total_changes": 416
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Sessions/SessionCreateParamsTest.cs",
-        "pr_count": 7,
-        "total_changes": 616
-      },
-      {
-        "path": "src/Anthropic/AnthropicClientExtensions.cs",
-        "pr_count": 7,
-        "total_changes": 776
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
-        "pr_count": 7,
-        "total_changes": 32
-      },
-      {
         "path": "src/Anthropic.Tests/Models/Beta/Sessions/BetaManagedAgentsAgentWithOverridesParamsTest.cs",
         "pr_count": 7,
         "total_changes": 1228
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/AnthropicBeta.cs",
-        "pr_count": 7,
-        "total_changes": 57
-      },
-      {
-        "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
-        "pr_count": 7,
-        "total_changes": 14
-      },
-      {
-        "path": "src/Anthropic.Bedrock/CHANGELOG.md",
-        "pr_count": 7,
-        "total_changes": 62
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/Batches/BetaMessageBatchResultTest.cs",
-        "pr_count": 6,
-        "total_changes": 98
       }
     ],
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 26,
-        "file_count": 7
+        "pr_count": 28,
+        "file_count": 8
       },
       {
         "path": "/",
-        "pr_count": 22,
+        "pr_count": 23,
         "file_count": 7
       },
       {
         "path": "src/Anthropic/Core/",
-        "pr_count": 16,
-        "file_count": 13
+        "pr_count": 17,
+        "file_count": 14
       },
       {
         "path": "src/Anthropic/Models/Beta/Messages/",
-        "pr_count": 16,
-        "file_count": 165
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
-        "pr_count": 14,
-        "file_count": 179
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Messages/",
-        "pr_count": 14,
-        "file_count": 144
-      },
-      {
-        "path": "src/Anthropic/Models/Messages/",
-        "pr_count": 14,
-        "file_count": 134
+        "pr_count": 17,
+        "file_count": 166
       },
       {
         "path": "src/Anthropic.Tests/",
-        "pr_count": 13,
+        "pr_count": 15,
         "file_count": 10
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/",
+        "pr_count": 15,
+        "file_count": 180
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Messages/",
+        "pr_count": 15,
+        "file_count": 145
+      },
+      {
+        "path": "src/Anthropic/Models/Messages/",
+        "pr_count": 15,
+        "file_count": 135
+      },
+      {
+        "path": "src/Anthropic/Models/Beta/Agents/",
+        "pr_count": 12,
+        "file_count": 45
       },
       {
         "path": "src/Anthropic.Tests/Services/Beta/",
         "pr_count": 12,
         "file_count": 13
-      },
-      {
-        "path": "src/Anthropic/Models/Beta/Agents/",
-        "pr_count": 11,
-        "file_count": 39
       }
     ],
     "top_n": 20
