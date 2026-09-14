@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-14T09:23:12.641Z",
+  "timestamp": "2026-09-14T16:04:47.856Z",
   "repository": {
-    "stars": 2116,
+    "stars": 2117,
     "forks": 403
   },
   "issues": {
@@ -48,7 +48,7 @@
         "title": "Undefined vs null fields from the OpenAPI specs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/811",
         "createdAt": "2025-08-26T13:49:20Z",
-        "daysOpen": 383,
+        "daysOpen": 384,
         "labels": [
           "openapi",
           "spec-change"
@@ -152,7 +152,7 @@
         "title": "`transformJSONSchema` drops `const`/`enum` into description text, breaking discriminated unions in tool inputs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1116",
         "createdAt": "2026-07-08T11:52:32Z",
-        "daysOpen": 67,
+        "daysOpen": 68,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -172,7 +172,7 @@
         "title": "Managed Agents egress gateway omits SNI on upstream TLS to Cloudflare R2 (503 HANDSHAKE_FAILURE_ON_CLIENT_HELLO)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1125",
         "createdAt": "2026-07-20T11:07:09Z",
-        "daysOpen": 55,
+        "daysOpen": 56,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -188,6 +188,16 @@
         "assignees": []
       },
       {
+        "number": 1162,
+        "title": "transformJSONSchema drops $defs when the schema root is a $ref",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1162",
+        "createdAt": "2026-08-24T15:36:22Z",
+        "daysOpen": 21,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1164,
         "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
@@ -195,16 +205,6 @@
         "daysOpen": 20,
         "labels": [],
         "commentCount": 2,
-        "assignees": []
-      },
-      {
-        "number": 1162,
-        "title": "transformJSONSchema drops $defs when the schema root is a $ref",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1162",
-        "createdAt": "2026-08-24T15:36:22Z",
-        "daysOpen": 20,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -274,17 +274,17 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 52,
+    "open_count": 53,
     "merged_7d": 1,
     "merged_30d": 9,
     "merged_90d": 33,
-    "opened_7d": 17,
-    "opened_30d": 34,
-    "opened_90d": 81,
+    "opened_7d": 18,
+    "opened_30d": 35,
+    "opened_90d": 82,
     "closed_not_merged_90d": 51,
     "draft_count": 3,
     "assigned_count": 0,
-    "unassigned_count": 52,
+    "unassigned_count": 53,
     "unassigned_24h": 39,
     "unassigned_7d": 34,
     "assigned_prs": [],
@@ -294,7 +294,7 @@
         "title": "docs: fix typos",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/866",
         "createdAt": "2025-12-18T14:54:39Z",
-        "daysOpen": 269,
+        "daysOpen": 270,
         "labels": [
           "code-change"
         ],
@@ -310,7 +310,7 @@
         "title": "fix(tool runner): use latest message for tool response generation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/878",
         "createdAt": "2026-01-13T13:45:53Z",
-        "daysOpen": 243,
+        "daysOpen": 244,
         "labels": [
           "code-change"
         ],
@@ -326,7 +326,7 @@
         "title": "docs: expand tool runner documentation with internal mechanics",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/881",
         "createdAt": "2026-01-15T15:38:34Z",
-        "daysOpen": 241,
+        "daysOpen": 242,
         "labels": [
           "code-change"
         ],
@@ -342,7 +342,7 @@
         "title": "fix(tool runner): don't exit early on pause_turn",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/906",
         "createdAt": "2026-02-11T09:33:49Z",
-        "daysOpen": 214,
+        "daysOpen": 215,
         "labels": [
           "code-change"
         ],
@@ -438,7 +438,7 @@
         "title": "fix: implement ApiKeySetter — async apiKey functions were silently discarded",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/957",
         "createdAt": "2026-03-23T13:47:39Z",
-        "daysOpen": 174,
+        "daysOpen": 175,
         "labels": [
           "spec-change"
         ],
@@ -454,7 +454,7 @@
         "title": "fix: handle invalid JSON escape sequences in partial-json-parser",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/989",
         "createdAt": "2026-04-10T12:44:31Z",
-        "daysOpen": 156,
+        "daysOpen": 157,
         "labels": [
           "code-change"
         ],
@@ -498,7 +498,7 @@
         "title": "fix(memory): reject malformed memories paths",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
         "createdAt": "2026-05-16T14:44:46Z",
-        "daysOpen": 120,
+        "daysOpen": 121,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -694,13 +694,27 @@
         "title": "docs: fix missing .beta segment in toolRunner heading (#1141)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1161",
         "createdAt": "2026-08-23T11:03:53Z",
-        "daysOpen": 21,
+        "daysOpen": 22,
         "labels": [],
         "isDraft": false,
         "additions": 1,
         "deletions": 1,
         "reviewCount": 0,
         "author": "AbhiPra24",
+        "assignees": []
+      },
+      {
+        "number": 1163,
+        "title": "fix(schema): keep $defs when the schema root is a $ref",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1163",
+        "createdAt": "2026-08-24T15:36:46Z",
+        "daysOpen": 21,
+        "labels": [],
+        "isDraft": false,
+        "additions": 38,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "cmun2",
         "assignees": []
       },
       {
@@ -715,20 +729,6 @@
         "deletions": 3,
         "reviewCount": 0,
         "author": "lx3133584",
-        "assignees": []
-      },
-      {
-        "number": 1163,
-        "title": "fix(schema): keep $defs when the schema root is a $ref",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1163",
-        "createdAt": "2026-08-24T15:36:46Z",
-        "daysOpen": 20,
-        "labels": [],
-        "isDraft": false,
-        "additions": 38,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "cmun2",
         "assignees": []
       },
       {
@@ -764,13 +764,27 @@
         "title": "fix: prevent retries with streaming request bodies",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1171",
         "createdAt": "2026-08-27T10:25:14Z",
-        "daysOpen": 17,
+        "daysOpen": 18,
         "labels": [],
         "isDraft": false,
         "additions": 93,
         "deletions": 9,
         "reviewCount": 2,
         "author": "xianjianlf2",
+        "assignees": []
+      },
+      {
+        "number": 1173,
+        "title": "docs: fix typo typicaly -> typically",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1173",
+        "createdAt": "2026-08-29T11:09:13Z",
+        "daysOpen": 16,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "vaibhav8a",
         "assignees": []
       },
       {
@@ -785,20 +799,6 @@
         "deletions": 9,
         "reviewCount": 0,
         "author": "AbhiPra24",
-        "assignees": []
-      },
-      {
-        "number": 1173,
-        "title": "docs: fix typo typicaly -> typically",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1173",
-        "createdAt": "2026-08-29T11:09:13Z",
-        "daysOpen": 15,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "vaibhav8a",
         "assignees": []
       },
       {
@@ -830,6 +830,20 @@
         "assignees": []
       },
       {
+        "number": 1179,
+        "title": "fix(helpers): keep $defs when the root JSON schema is a $ref",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1179",
+        "createdAt": "2026-09-09T09:32:44Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 41,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "OsamaAnsar",
+        "assignees": []
+      },
+      {
         "number": 1183,
         "title": "fix(memory): serialize local filesystem operations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1183",
@@ -841,20 +855,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "jstar0",
-        "assignees": []
-      },
-      {
-        "number": 1179,
-        "title": "fix(helpers): keep $defs when the root JSON schema is a $ref",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1179",
-        "createdAt": "2026-09-09T09:32:44Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 41,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "OsamaAnsar",
         "assignees": []
       },
       {
@@ -897,6 +897,20 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "mehrdadxzaker",
+        "assignees": []
+      },
+      {
+        "number": 1198,
+        "title": "fix(agent-toolset): handle bash process spawn errors",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1198",
+        "createdAt": "2026-09-14T10:16:39Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 28,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "00200200",
         "assignees": []
       },
       {
@@ -1060,7 +1074,7 @@
     "rejection_rate_pct": 60.7,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
-      "small": 40,
+      "small": 41,
       "medium": 9,
       "large": 3
     }
@@ -1073,8 +1087,8 @@
     "churned_30d": 13,
     "commits_per_week_avg": 15.3,
     "commits_per_week_trend": [
-      1,
-      19,
+      9,
+      11,
       8,
       13,
       15,
