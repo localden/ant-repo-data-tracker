@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-09-16T22:32:08.181Z",
+  "timestamp": "2026-09-17T02:20:29.441Z",
   "repository": {
     "stars": 323,
-    "forks": 105
+    "forks": 106
   },
   "issues": {
-    "open_count": 6,
+    "open_count": 8,
     "closed_7d": 1,
     "closed_30d": 4,
     "closed_90d": 13,
-    "opened_7d": 1,
-    "opened_30d": 6,
-    "opened_90d": 16,
+    "opened_7d": 3,
+    "opened_30d": 7,
+    "opened_90d": 18,
     "assigned_count": 0,
-    "unassigned_count": 6,
+    "unassigned_count": 8,
     "unassigned_24h": 6,
     "unassigned_7d": 6,
-    "unassigned_30d": 1,
+    "unassigned_30d": 2,
     "assigned_issues": [],
     "unassigned_issues": [
       {
@@ -24,7 +24,7 @@
         "title": "Support AOT",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/79",
         "createdAt": "2025-12-21T01:39:45Z",
-        "daysOpen": 269,
+        "daysOpen": 270,
         "labels": [
           "enhancement",
           "sdk"
@@ -37,7 +37,7 @@
         "title": "MEAI adapter: ToUsageDetails drops Usage.OutputTokensDetails.ThinkingTokens (UsageDetails.ReasoningTokenCount never populated)",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/245",
         "createdAt": "2026-08-18T00:44:02Z",
-        "daysOpen": 29,
+        "daysOpen": 30,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -81,6 +81,26 @@
         "labels": [],
         "commentCount": 1,
         "assignees": []
+      },
+      {
+        "number": 264,
+        "title": "AsIChatClient: union-typed schema nodes (\"type\": [\"string\",\"null\"]) lose format / properties / required into description",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/264",
+        "createdAt": "2026-09-16T22:56:18Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 263,
+        "title": "AsIChatClient: ChatToolMode.RequireSpecific(name) silently discards the tool name and sends tool_choice: {\"type\":\"any\"}",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/263",
+        "createdAt": "2026-09-16T22:56:13Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
       }
     ],
     "by_label": {
@@ -98,25 +118,25 @@
       "median_days": 25.9,
       "p90_days": 72.3
     },
-    "label_coverage_pct": 16.7,
-    "unlabeled_count": 5,
-    "stale_30d": 1,
+    "label_coverage_pct": 12.5,
+    "unlabeled_count": 7,
+    "stale_30d": 2,
     "stale_60d": 0,
     "stale_90d": 0,
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 5,
+    "open_count": 7,
     "merged_7d": 3,
     "merged_30d": 11,
     "merged_90d": 29,
-    "opened_7d": 4,
-    "opened_30d": 12,
-    "opened_90d": 29,
+    "opened_7d": 6,
+    "opened_30d": 14,
+    "opened_90d": 31,
     "closed_not_merged_90d": 1,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 5,
+    "unassigned_count": 7,
     "unassigned_24h": 4,
     "unassigned_7d": 3,
     "assigned_prs": [],
@@ -168,7 +188,7 @@
         "title": "fix(bedrock): skip null-content events in streaming instead of crashing",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/252",
         "createdAt": "2026-08-27T00:48:25Z",
-        "daysOpen": 20,
+        "daysOpen": 21,
         "labels": [],
         "isDraft": false,
         "additions": 169,
@@ -189,6 +209,34 @@
         "deletions": 6,
         "reviewCount": 0,
         "author": "serhiy-bzhezytskyy",
+        "assignees": []
+      },
+      {
+        "number": 266,
+        "title": "fix(meai): keep type-specific keywords on union-typed schema nodes",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/266",
+        "createdAt": "2026-09-16T23:21:55Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 191,
+        "deletions": 14,
+        "reviewCount": 1,
+        "author": "lucachitayat",
+        "assignees": []
+      },
+      {
+        "number": 265,
+        "title": "fix(meai): honour RequiredChatToolMode.RequiredFunctionName as tool_choice.tool",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/265",
+        "createdAt": "2026-09-16T23:15:25Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 116,
+        "deletions": 0,
+        "reviewCount": 1,
+        "author": "lucachitayat",
         "assignees": []
       }
     ],
@@ -213,16 +261,16 @@
     "avg_reviews_per_pr": 1.7,
     "by_size": {
       "small": 1,
-      "medium": 2,
+      "medium": 4,
       "large": 2
     }
   },
   "contributors": {
-    "total_known": 83,
+    "total_known": 84,
     "active_30d": 14,
     "first_time_30d": 9,
-    "retention_rate_pct": 55.6,
-    "churned_30d": 4,
+    "retention_rate_pct": 50,
+    "churned_30d": 5,
     "commits_per_week_avg": 14,
     "commits_per_week_trend": [
       13,
@@ -234,9 +282,9 @@
       9,
       29,
       9,
-      33,
-      15,
-      31
+      35,
+      14,
+      30
     ],
     "allContributors": [
       "1yefuwang1",
@@ -294,6 +342,7 @@
       "kibo-thomasphipps",
       "kierenj",
       "latent-9",
+      "lucachitayat",
       "mattbrailsford",
       "meorphis",
       "meorphis-anthropic",
@@ -328,10 +377,10 @@
       "Har1sh-k",
       "PederHP",
       "Suzii",
-      "deanxb",
       "dtmeadows-ant",
       "johanjeppson",
       "latent-9",
+      "lucachitayat",
       "meorphis-anthropic",
       "serhiy-bzhezytskyy",
       "slepmog",
@@ -498,9 +547,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 56919,
+    "daily": 0,
     "total": 4450529,
-    "last_week": 354896,
-    "last_month": 1235875
+    "last_week": 272261,
+    "last_month": 1185262
   }
 }
