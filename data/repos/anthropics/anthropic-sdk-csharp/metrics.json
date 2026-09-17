@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-17T02:20:29.441Z",
+  "timestamp": "2026-09-17T09:03:52.931Z",
   "repository": {
     "stars": 323,
-    "forks": 106
+    "forks": 107
   },
   "issues": {
     "open_count": 8,
@@ -57,7 +57,7 @@
         "title": "AsAITool(BetaToolUnion) returns the union type instead of the tool name",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/249",
         "createdAt": "2026-08-25T07:18:28Z",
-        "daysOpen": 22,
+        "daysOpen": 23,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -69,7 +69,7 @@
         "createdAt": "2026-09-01T14:38:47Z",
         "daysOpen": 15,
         "labels": [],
-        "commentCount": 0,
+        "commentCount": 1,
         "assignees": []
       },
       {
@@ -77,19 +77,9 @@
         "title": "AsIChatClient: consecutive same-role messages aren't merged, so identical histories serialize differently across turns (undocumented prompt-cache reliance)",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/256",
         "createdAt": "2026-09-04T06:40:37Z",
-        "daysOpen": 12,
+        "daysOpen": 13,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 264,
-        "title": "AsIChatClient: union-typed schema nodes (\"type\": [\"string\",\"null\"]) lose format / properties / required into description",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/264",
-        "createdAt": "2026-09-16T22:56:18Z",
-        "daysOpen": 0,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -97,6 +87,16 @@
         "title": "AsIChatClient: ChatToolMode.RequireSpecific(name) silently discards the tool name and sends tool_choice: {\"type\":\"any\"}",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/263",
         "createdAt": "2026-09-16T22:56:13Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 264,
+        "title": "AsIChatClient: union-typed schema nodes (\"type\": [\"string\",\"null\"]) lose format / properties / required into description",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/264",
+        "createdAt": "2026-09-16T22:56:18Z",
         "daysOpen": 0,
         "labels": [],
         "commentCount": 0,
@@ -126,17 +126,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 7,
+    "open_count": 8,
     "merged_7d": 3,
     "merged_30d": 11,
     "merged_90d": 29,
-    "opened_7d": 6,
-    "opened_30d": 14,
-    "opened_90d": 31,
+    "opened_7d": 7,
+    "opened_30d": 15,
+    "opened_90d": 32,
     "closed_not_merged_90d": 1,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 7,
+    "unassigned_count": 8,
     "unassigned_24h": 4,
     "unassigned_7d": 3,
     "assigned_prs": [],
@@ -202,13 +202,27 @@
         "title": "fix(meai): populate UsageDetails.ReasoningTokenCount from output_tokens_details.thinking_tokens",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/261",
         "createdAt": "2026-09-12T08:44:08Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 140,
         "deletions": 6,
         "reviewCount": 0,
         "author": "serhiy-bzhezytskyy",
+        "assignees": []
+      },
+      {
+        "number": 267,
+        "title": "fix(meai): map HostedMcpServerTool to MCP toolsets",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/267",
+        "createdAt": "2026-09-17T05:45:57Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 81,
+        "deletions": 36,
+        "reviewCount": 0,
+        "author": "z0rimo",
         "assignees": []
       },
       {
@@ -219,8 +233,8 @@
         "daysOpen": 0,
         "labels": [],
         "isDraft": false,
-        "additions": 191,
-        "deletions": 14,
+        "additions": 336,
+        "deletions": 22,
         "reviewCount": 1,
         "author": "lucachitayat",
         "assignees": []
@@ -233,7 +247,7 @@
         "daysOpen": 0,
         "labels": [],
         "isDraft": false,
-        "additions": 116,
+        "additions": 205,
         "deletions": 0,
         "reviewCount": 1,
         "author": "lucachitayat",
@@ -261,14 +275,14 @@
     "avg_reviews_per_pr": 1.7,
     "by_size": {
       "small": 1,
-      "medium": 4,
+      "medium": 5,
       "large": 2
     }
   },
   "contributors": {
-    "total_known": 84,
-    "active_30d": 14,
-    "first_time_30d": 9,
+    "total_known": 85,
+    "active_30d": 15,
+    "first_time_30d": 10,
     "retention_rate_pct": 50,
     "churned_30d": 5,
     "commits_per_week_avg": 14,
@@ -283,8 +297,8 @@
       29,
       9,
       35,
-      14,
-      30
+      15,
+      29
     ],
     "allContributors": [
       "1yefuwang1",
@@ -370,6 +384,7 @@
       "tomer-ant",
       "vtkachen111",
       "xoofx",
+      "z0rimo",
       "ziv690922"
     ],
     "previousPeriodContributors": [
@@ -386,7 +401,8 @@
       "slepmog",
       "sophie-ant",
       "stainless-app",
-      "tomer-ant"
+      "tomer-ant",
+      "z0rimo"
     ]
   },
   "hotspots": {
