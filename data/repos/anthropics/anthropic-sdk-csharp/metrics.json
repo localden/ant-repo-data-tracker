@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-09-17T14:36:07.277Z",
+  "timestamp": "2026-09-17T19:28:09.741Z",
   "repository": {
     "stars": 323,
     "forks": 107
   },
   "issues": {
-    "open_count": 8,
-    "closed_7d": 1,
-    "closed_30d": 4,
-    "closed_90d": 13,
+    "open_count": 6,
+    "closed_7d": 3,
+    "closed_30d": 6,
+    "closed_90d": 15,
     "opened_7d": 2,
     "opened_30d": 7,
     "opened_90d": 18,
     "assigned_count": 0,
-    "unassigned_count": 8,
+    "unassigned_count": 6,
     "unassigned_24h": 6,
     "unassigned_7d": 6,
     "unassigned_30d": 2,
@@ -47,7 +47,7 @@
         "title": "Path parameters are interpolated into request URLs without percent-encoding or dot-segment rejection",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/248",
         "createdAt": "2026-08-22T15:27:57Z",
-        "daysOpen": 25,
+        "daysOpen": 26,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -67,7 +67,7 @@
         "title": "MEAI adapter: HostedMcpServerTool requests are always rejected",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/255",
         "createdAt": "2026-09-01T14:38:47Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -80,26 +80,6 @@
         "daysOpen": 13,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 263,
-        "title": "AsIChatClient: ChatToolMode.RequireSpecific(name) silently discards the tool name and sends tool_choice: {\"type\":\"any\"}",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/263",
-        "createdAt": "2026-09-16T22:56:13Z",
-        "daysOpen": 0,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 264,
-        "title": "AsIChatClient: union-typed schema nodes (\"type\": [\"string\",\"null\"]) lose format / properties / required into description",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/264",
-        "createdAt": "2026-09-16T22:56:18Z",
-        "daysOpen": 0,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       }
     ],
@@ -114,29 +94,29 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 35.1,
-      "median_days": 25.9,
-      "p90_days": 72.3
+      "avg_days": 30.5,
+      "median_days": 22.3,
+      "p90_days": 70.4
     },
-    "label_coverage_pct": 12.5,
-    "unlabeled_count": 7,
+    "label_coverage_pct": 16.7,
+    "unlabeled_count": 5,
     "stale_30d": 2,
     "stale_60d": 0,
     "stale_90d": 0,
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 8,
+    "open_count": 6,
     "merged_7d": 3,
-    "merged_30d": 11,
-    "merged_90d": 29,
-    "opened_7d": 7,
+    "merged_30d": 13,
+    "merged_90d": 31,
+    "opened_7d": 5,
     "opened_30d": 15,
     "opened_90d": 32,
     "closed_not_merged_90d": 1,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 8,
+    "unassigned_count": 6,
     "unassigned_24h": 4,
     "unassigned_7d": 3,
     "assigned_prs": [],
@@ -146,7 +126,7 @@
         "title": "Handle [DONE] terminal event in SSE streams from Azure APIM hosted Anthropic models",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/202",
         "createdAt": "2026-05-22T15:52:17Z",
-        "daysOpen": 117,
+        "daysOpen": 118,
         "labels": [],
         "isDraft": false,
         "additions": 53,
@@ -174,7 +154,7 @@
         "title": "fix(meai): round-trip server-tool blocks when replaying assistant turns",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/242",
         "createdAt": "2026-08-06T14:43:56Z",
-        "daysOpen": 41,
+        "daysOpen": 42,
         "labels": [],
         "isDraft": false,
         "additions": 1056,
@@ -224,41 +204,13 @@
         "reviewCount": 0,
         "author": "z0rimo",
         "assignees": []
-      },
-      {
-        "number": 266,
-        "title": "fix(meai): keep type-specific keywords on union-typed schema nodes",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/266",
-        "createdAt": "2026-09-16T23:21:55Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 336,
-        "deletions": 22,
-        "reviewCount": 1,
-        "author": "lucachitayat",
-        "assignees": []
-      },
-      {
-        "number": 265,
-        "title": "fix(meai): honour RequiredChatToolMode.RequiredFunctionName as tool_choice.tool",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/265",
-        "createdAt": "2026-09-16T23:15:25Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 205,
-        "deletions": 0,
-        "reviewCount": 1,
-        "author": "lucachitayat",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 94.6,
-      "median_hours": 23.1,
-      "p90_hours": 265.7,
-      "p95_hours": 454
+      "avg_hours": 89.9,
+      "median_hours": 20.6,
+      "p90_hours": 251.5,
+      "p95_hours": 436.8
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -267,15 +219,15 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 208.7,
-      "median_hours": 23.6
+      "avg_hours": 196.4,
+      "median_hours": 22.7
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 3.3,
+    "rejection_rate_pct": 3.1,
     "avg_reviews_per_pr": 1.7,
     "by_size": {
       "small": 1,
-      "medium": 5,
+      "medium": 3,
       "large": 2
     }
   },
@@ -285,20 +237,20 @@
     "first_time_30d": 10,
     "retention_rate_pct": 50,
     "churned_30d": 5,
-    "commits_per_week_avg": 14,
+    "commits_per_week_avg": 14.2,
     "commits_per_week_trend": [
-      13,
-      5,
+      15,
+      3,
       0,
-      19,
-      5,
+      21,
+      3,
       0,
       9,
       29,
       9,
-      35,
-      16,
-      28
+      36,
+      22,
+      23
     ],
     "allContributors": [
       "1yefuwang1",
@@ -433,6 +385,21 @@
         "total_changes": 147
       },
       {
+        "path": "src/Anthropic/AnthropicClientExtensions.cs",
+        "pr_count": 10,
+        "total_changes": 1092
+      },
+      {
+        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
+        "pr_count": 10,
+        "total_changes": 743
+      },
+      {
+        "path": "src/Anthropic.Tests/AnthropicClientExtensionsTestsBase.cs",
+        "pr_count": 9,
+        "total_changes": 3017
+      },
+      {
         "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
         "pr_count": 9,
         "total_changes": 36
@@ -441,11 +408,6 @@
         "path": "src/Anthropic/Models/Beta/AnthropicBeta.cs",
         "pr_count": 9,
         "total_changes": 63
-      },
-      {
-        "path": "src/Anthropic/Services/Beta/Messages/AnthropicBetaClientExtensions.cs",
-        "pr_count": 9,
-        "total_changes": 735
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/Batches/BatchCreateParamsTest.cs",
@@ -473,11 +435,6 @@
         "total_changes": 620
       },
       {
-        "path": "src/Anthropic/AnthropicClientExtensions.cs",
-        "pr_count": 8,
-        "total_changes": 987
-      },
-      {
         "path": "src/Anthropic.Tests/Models/Beta/Agents/AgentCreateParamsTest.cs",
         "pr_count": 8,
         "total_changes": 82
@@ -501,23 +458,23 @@
         "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaRawContentBlockStartEventTest.cs",
         "pr_count": 7,
         "total_changes": 134
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaRawMessageStreamEventTest.cs",
-        "pr_count": 7,
-        "total_changes": 192
       }
     ],
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 28,
+        "pr_count": 30,
         "file_count": 8
       },
       {
         "path": "/",
         "pr_count": 23,
         "file_count": 7
+      },
+      {
+        "path": "src/Anthropic.Tests/",
+        "pr_count": 18,
+        "file_count": 10
       },
       {
         "path": "src/Anthropic/Core/",
@@ -528,11 +485,6 @@
         "path": "src/Anthropic/Models/Beta/Messages/",
         "pr_count": 17,
         "file_count": 182
-      },
-      {
-        "path": "src/Anthropic.Tests/",
-        "pr_count": 16,
-        "file_count": 10
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/",
