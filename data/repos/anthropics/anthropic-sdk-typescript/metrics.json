@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-19T08:23:50.928Z",
+  "timestamp": "2026-09-19T13:35:16.422Z",
   "repository": {
     "stars": 2118,
     "forks": 405
@@ -152,7 +152,7 @@
         "title": "`transformJSONSchema` drops `const`/`enum` into description text, breaking discriminated unions in tool inputs",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1116",
         "createdAt": "2026-07-08T11:52:32Z",
-        "daysOpen": 72,
+        "daysOpen": 73,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -172,7 +172,7 @@
         "title": "Managed Agents egress gateway omits SNI on upstream TLS to Cloudflare R2 (503 HANDSHAKE_FAILURE_ON_CLIENT_HELLO)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1125",
         "createdAt": "2026-07-20T11:07:09Z",
-        "daysOpen": 60,
+        "daysOpen": 61,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -259,7 +259,7 @@
     "label_coverage_pct": 40,
     "unlabeled_count": 12,
     "stale_30d": 12,
-    "stale_60d": 8,
+    "stale_60d": 9,
     "stale_90d": 6,
     "reopen_rate": 0.02
   },
@@ -332,7 +332,7 @@
         "title": "fix(tool runner): don't exit early on pause_turn",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/906",
         "createdAt": "2026-02-11T09:33:49Z",
-        "daysOpen": 219,
+        "daysOpen": 220,
         "labels": [
           "code-change"
         ],
@@ -444,7 +444,7 @@
         "title": "fix: handle invalid JSON escape sequences in partial-json-parser",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/989",
         "createdAt": "2026-04-10T12:44:31Z",
-        "daysOpen": 161,
+        "daysOpen": 162,
         "labels": [
           "code-change"
         ],
@@ -516,7 +516,7 @@
         "title": "ci: migrate claude.yml to Workload Identity Federation auth",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1063",
         "createdAt": "2026-05-23T08:36:53Z",
-        "daysOpen": 118,
+        "daysOpen": 119,
         "labels": [],
         "isDraft": false,
         "additions": 8,
@@ -596,6 +596,20 @@
         "assignees": []
       },
       {
+        "number": 1145,
+        "title": "docs(helpers): add missing .beta segment in toolRunner heading",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1145",
+        "createdAt": "2026-08-07T09:04:47Z",
+        "daysOpen": 43,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "MsfPablo",
+        "assignees": []
+      },
+      {
         "number": 1143,
         "title": "fix(schema): preserve const/enum in transformJSONSchema",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
@@ -607,20 +621,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "edenbuilds",
-        "assignees": []
-      },
-      {
-        "number": 1145,
-        "title": "docs(helpers): add missing .beta segment in toolRunner heading",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1145",
-        "createdAt": "2026-08-07T09:04:47Z",
-        "daysOpen": 42,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "MsfPablo",
         "assignees": []
       },
       {
@@ -684,7 +684,7 @@
         "title": "docs: fix missing .beta segment in toolRunner heading (#1141)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1161",
         "createdAt": "2026-08-23T11:03:53Z",
-        "daysOpen": 26,
+        "daysOpen": 27,
         "labels": [],
         "isDraft": false,
         "additions": 1,
@@ -722,6 +722,20 @@
         "assignees": []
       },
       {
+        "number": 1168,
+        "title": "fix(credentials): stop superseded token refreshes from committing stale results",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1168",
+        "createdAt": "2026-08-26T08:25:59Z",
+        "daysOpen": 24,
+        "labels": [],
+        "isDraft": false,
+        "additions": 74,
+        "deletions": 1,
+        "reviewCount": 1,
+        "author": "latent-9",
+        "assignees": []
+      },
+      {
         "number": 1167,
         "title": "fix(beta): preserve tool turn for param updates",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1167",
@@ -736,31 +750,31 @@
         "assignees": []
       },
       {
-        "number": 1168,
-        "title": "fix(credentials): stop superseded token refreshes from committing stale results",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1168",
-        "createdAt": "2026-08-26T08:25:59Z",
-        "daysOpen": 23,
-        "labels": [],
-        "isDraft": false,
-        "additions": 74,
-        "deletions": 1,
-        "reviewCount": 1,
-        "author": "latent-9",
-        "assignees": []
-      },
-      {
         "number": 1171,
         "title": "fix: prevent retries with streaming request bodies",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1171",
         "createdAt": "2026-08-27T10:25:14Z",
-        "daysOpen": 22,
+        "daysOpen": 23,
         "labels": [],
         "isDraft": false,
         "additions": 93,
         "deletions": 9,
         "reviewCount": 3,
         "author": "xianjianlf2",
+        "assignees": []
+      },
+      {
+        "number": 1173,
+        "title": "docs: fix typo typicaly -> typically",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1173",
+        "createdAt": "2026-08-29T11:09:13Z",
+        "daysOpen": 21,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "vaibhav8a",
         "assignees": []
       },
       {
@@ -778,25 +792,11 @@
         "assignees": []
       },
       {
-        "number": 1173,
-        "title": "docs: fix typo typicaly -> typically",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1173",
-        "createdAt": "2026-08-29T11:09:13Z",
-        "daysOpen": 20,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "vaibhav8a",
-        "assignees": []
-      },
-      {
         "number": 1176,
         "title": "fix(tool runner): don't exit early on pause_turn",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1176",
         "createdAt": "2026-09-02T08:34:20Z",
-        "daysOpen": 16,
+        "daysOpen": 17,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -820,6 +820,20 @@
         "assignees": []
       },
       {
+        "number": 1179,
+        "title": "fix(helpers): keep $defs when the root JSON schema is a $ref",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1179",
+        "createdAt": "2026-09-09T09:32:44Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 41,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "OsamaAnsar",
+        "assignees": []
+      },
+      {
         "number": 1183,
         "title": "fix(memory): serialize local filesystem operations",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1183",
@@ -831,20 +845,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "jstar0",
-        "assignees": []
-      },
-      {
-        "number": 1179,
-        "title": "fix(helpers): keep $defs when the root JSON schema is a $ref",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1179",
-        "createdAt": "2026-09-09T09:32:44Z",
-        "daysOpen": 9,
-        "labels": [],
-        "isDraft": false,
-        "additions": 41,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "OsamaAnsar",
         "assignees": []
       },
       {
@@ -894,7 +894,7 @@
         "title": "fix(agent-toolset): handle bash process spawn errors",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1198",
         "createdAt": "2026-09-14T10:16:39Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 28,
@@ -908,7 +908,7 @@
         "title": "fix(agent-toolset): wait for the complete shell exit status",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1197",
         "createdAt": "2026-09-14T08:52:22Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 32,
@@ -922,7 +922,7 @@
         "title": "fix(agent-toolset): decode ripgrep output incrementally",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1196",
         "createdAt": "2026-09-14T08:50:30Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 26,
@@ -936,7 +936,7 @@
         "title": "fix(agent-toolset): reject lossy decoding before editing files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1195",
         "createdAt": "2026-09-14T08:48:22Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 26,
@@ -950,7 +950,7 @@
         "title": "fix(agent-toolset): reject missing file write and edit text",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1194",
         "createdAt": "2026-09-14T08:45:23Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 47,
@@ -964,7 +964,7 @@
         "title": "fix(skills): remove temporary archives after failed downloads",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1192",
         "createdAt": "2026-09-14T08:37:22Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 22,
@@ -978,7 +978,7 @@
         "title": "test: make agent toolset fixtures portable on macOS",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1193",
         "createdAt": "2026-09-14T08:39:58Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 10,
@@ -992,7 +992,7 @@
         "title": "fix(mcp): preserve structured tool error content",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1191",
         "createdAt": "2026-09-14T08:34:55Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 22,
@@ -1006,7 +1006,7 @@
         "title": "fix(mcp): normalize supported content media types",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1190",
         "createdAt": "2026-09-14T08:32:43Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 45,
@@ -1020,7 +1020,7 @@
         "title": "fix(mcp): decode resource filenames from URI paths",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1189",
         "createdAt": "2026-09-14T08:30:36Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 18,
@@ -1034,7 +1034,7 @@
         "title": "fix(helpers): reject cross-realm async schema validation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1188",
         "createdAt": "2026-09-14T08:28:46Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 21,
@@ -1115,8 +1115,8 @@
       19,
       44,
       21,
-      26,
-      43
+      28,
+      41
     ],
     "allContributors": [
       "00200200",
@@ -1555,7 +1555,10 @@
     "top_n": 20
   },
   "downloads": {
-    "total": 783183797,
-    "total_through": "2026-09-16"
+    "daily": 6372244,
+    "total": 789556041,
+    "total_through": "2026-09-18",
+    "last_week": 28981541,
+    "last_month": 135937057
   }
 }
