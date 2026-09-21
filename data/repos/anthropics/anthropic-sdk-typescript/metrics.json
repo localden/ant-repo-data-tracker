@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-21T16:06:38.505Z",
+  "timestamp": "2026-09-21T21:23:40.174Z",
   "repository": {
     "stars": 2120,
     "forks": 409
@@ -24,7 +24,7 @@
         "title": "Models list for the Bedrock SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/704",
         "createdAt": "2025-03-02T17:50:28Z",
-        "daysOpen": 567,
+        "daysOpen": 568,
         "labels": [
           "code-change"
         ],
@@ -73,7 +73,7 @@
         "title": "json_schema structured output truncates content at HTML tags containing quotation marks",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/928",
         "createdAt": "2026-03-03T18:59:49Z",
-        "daysOpen": 201,
+        "daysOpen": 202,
         "labels": [
           "api"
         ],
@@ -85,7 +85,7 @@
         "title": "Bug: `toolRunner`'s `setMessagesParams` causes duplicate tool call loops",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/964",
         "createdAt": "2026-03-30T17:38:48Z",
-        "daysOpen": 174,
+        "daysOpen": 175,
         "labels": [
           "bug",
           "code-change"
@@ -98,7 +98,7 @@
         "title": "partialParse in _vendor/partial-json-parser crashes on invalid JSON escape sequences from model output",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/986",
         "createdAt": "2026-04-09T18:42:59Z",
-        "daysOpen": 164,
+        "daysOpen": 165,
         "labels": [
           "code-change"
         ],
@@ -110,7 +110,7 @@
         "title": "[Vertex] anthropic-beta header forwarded to countTokens fallback fails on lagging model backends",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1016",
         "createdAt": "2026-04-27T18:10:36Z",
-        "daysOpen": 146,
+        "daysOpen": 147,
         "labels": [
           "code-change"
         ],
@@ -122,7 +122,7 @@
         "title": "Adopt `TracingChannel` for observability",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1036",
         "createdAt": "2026-05-11T20:09:59Z",
-        "daysOpen": 132,
+        "daysOpen": 133,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -380,7 +380,7 @@
         "title": "fix: release stream state on end to prevent memory leaks",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/943",
         "createdAt": "2026-03-13T19:08:02Z",
-        "daysOpen": 191,
+        "daysOpen": 192,
         "labels": [
           "code-change"
         ],
@@ -460,7 +460,7 @@
         "title": "fix(helpers): give a clear error when a zod v3 schema is passed to the zod helpers",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1040",
         "createdAt": "2026-05-12T16:11:46Z",
-        "daysOpen": 131,
+        "daysOpen": 132,
         "labels": [],
         "isDraft": false,
         "additions": 61,
@@ -474,7 +474,7 @@
         "title": "fix(vertex): throw clear error when document blocks use URL sources",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1042",
         "createdAt": "2026-05-13T19:02:28Z",
-        "daysOpen": 130,
+        "daysOpen": 131,
         "labels": [],
         "isDraft": false,
         "additions": 94,
@@ -642,7 +642,7 @@
         "title": "docs: fix toolRunner heading to include .beta segment",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1150",
         "createdAt": "2026-08-13T20:52:38Z",
-        "daysOpen": 38,
+        "daysOpen": 39,
         "labels": [],
         "isDraft": false,
         "additions": 1,
@@ -764,6 +764,20 @@
         "assignees": []
       },
       {
+        "number": 1174,
+        "title": "fix: preserve defs when schema root is a ref, and fix compaction delta null content",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1174",
+        "createdAt": "2026-08-29T17:17:10Z",
+        "daysOpen": 23,
+        "labels": [],
+        "isDraft": false,
+        "additions": 312,
+        "deletions": 9,
+        "reviewCount": 0,
+        "author": "AbhiPra24",
+        "assignees": []
+      },
+      {
         "number": 1173,
         "title": "docs: fix typo typicaly -> typically",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1173",
@@ -775,20 +789,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "vaibhav8a",
-        "assignees": []
-      },
-      {
-        "number": 1174,
-        "title": "fix: preserve defs when schema root is a ref, and fix compaction delta null content",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1174",
-        "createdAt": "2026-08-29T17:17:10Z",
-        "daysOpen": 22,
-        "labels": [],
-        "isDraft": false,
-        "additions": 312,
-        "deletions": 9,
-        "reviewCount": 0,
-        "author": "AbhiPra24",
         "assignees": []
       },
       {
@@ -810,7 +810,7 @@
         "title": "fix(memory): preserve literal replacement text",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1178",
         "createdAt": "2026-09-07T21:19:33Z",
-        "daysOpen": 13,
+        "daysOpen": 14,
         "labels": [],
         "isDraft": true,
         "additions": 22,
@@ -1044,6 +1044,20 @@
         "assignees": []
       },
       {
+        "number": 1201,
+        "title": "fix(streaming): release batch result abort listeners on completion",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1201",
+        "createdAt": "2026-09-17T20:11:02Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 190,
+        "deletions": 7,
+        "reviewCount": 0,
+        "author": "mohammedmessaoudene-cmd",
+        "assignees": []
+      },
+      {
         "number": 1202,
         "title": "fix(vertex): suppress unhandledRejection when Google credential discovery fails",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1202",
@@ -1058,17 +1072,17 @@
         "assignees": []
       },
       {
-        "number": 1201,
-        "title": "fix(streaming): release batch result abort listeners on completion",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1201",
-        "createdAt": "2026-09-17T20:11:02Z",
-        "daysOpen": 3,
+        "number": 1204,
+        "title": "fix(streaming): keep accumulated stop_* fields across message_delta events",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1204",
+        "createdAt": "2026-09-19T16:16:07Z",
+        "daysOpen": 2,
         "labels": [],
         "isDraft": false,
-        "additions": 190,
-        "deletions": 7,
+        "additions": 324,
+        "deletions": 6,
         "reviewCount": 0,
-        "author": "mohammedmessaoudene-cmd",
+        "author": "feiiiiii5",
         "assignees": []
       },
       {
@@ -1097,20 +1111,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "rioyu123",
-        "assignees": []
-      },
-      {
-        "number": 1204,
-        "title": "fix(streaming): keep accumulated stop_* fields across message_delta events",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1204",
-        "createdAt": "2026-09-19T16:16:07Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 324,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "feiiiiii5",
         "assignees": []
       }
     ],
@@ -1149,16 +1149,16 @@
     "commits_per_week_trend": [
       11,
       8,
-      13,
-      15,
+      18,
+      10,
       0,
       13,
       19,
       19,
-      44,
-      21,
-      28,
-      41
+      45,
+      20,
+      32,
+      37
     ],
     "allContributors": [
       "00200200",
