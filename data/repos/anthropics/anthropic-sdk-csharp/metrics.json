@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-28T16:17:30.713Z",
+  "timestamp": "2026-09-28T22:48:01.027Z",
   "repository": {
     "stars": 325,
     "forks": 110
@@ -107,12 +107,12 @@
   },
   "pulls": {
     "open_count": 10,
-    "merged_7d": 1,
-    "merged_30d": 10,
-    "merged_90d": 30,
-    "opened_7d": 2,
-    "opened_30d": 15,
-    "opened_90d": 35,
+    "merged_7d": 2,
+    "merged_30d": 11,
+    "merged_90d": 29,
+    "opened_7d": 3,
+    "opened_30d": 16,
+    "opened_90d": 34,
     "closed_not_merged_90d": 1,
     "draft_count": 1,
     "assigned_count": 0,
@@ -140,7 +140,7 @@
         "title": "feat(meai): map HostedToolSearchTool to Anthropic tool search",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/220",
         "createdAt": "2026-06-25T21:33:02Z",
-        "daysOpen": 94,
+        "daysOpen": 95,
         "labels": [],
         "isDraft": true,
         "additions": 5812,
@@ -206,6 +206,20 @@
         "assignees": []
       },
       {
+        "number": 271,
+        "title": "fix(meai): relabel ModelId at the fallback seam in beta streaming",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/271",
+        "createdAt": "2026-09-18T16:42:43Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 105,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "feiiiiii5",
+        "assignees": []
+      },
+      {
         "number": 270,
         "title": "fix(meai): fold mcp_tool_use input deltas in beta streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/270",
@@ -234,20 +248,6 @@
         "assignees": []
       },
       {
-        "number": 271,
-        "title": "fix(meai): relabel ModelId at the fallback seam in beta streaming",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/271",
-        "createdAt": "2026-09-18T16:42:43Z",
-        "daysOpen": 9,
-        "labels": [],
-        "isDraft": false,
-        "additions": 105,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "feiiiiii5",
-        "assignees": []
-      },
-      {
         "number": 273,
         "title": "fix(meai): merge consecutive same-role messages in IChatClient adapter",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/273",
@@ -263,10 +263,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 177.7,
-      "median_hours": 18.5,
-      "p90_hours": 462.6,
-      "p95_hours": 551.3
+      "avg_hours": 182.9,
+      "median_hours": 20.6,
+      "p90_hours": 479.8,
+      "p95_hours": 551.9
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -275,11 +275,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 194.5,
-      "median_hours": 11.5
+      "avg_hours": 201.2,
+      "median_hours": 18.4
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 3.2,
+    "rejection_rate_pct": 3.3,
     "avg_reviews_per_pr": 1.8,
     "by_size": {
       "small": 1,
@@ -289,11 +289,11 @@
   },
   "contributors": {
     "total_known": 87,
-    "active_30d": 13,
+    "active_30d": 14,
     "first_time_30d": 8,
     "retention_rate_pct": 36.4,
     "churned_30d": 7,
-    "commits_per_week_avg": 15.6,
+    "commits_per_week_avg": 18.2,
     "commits_per_week_trend": [
       0,
       10,
@@ -302,11 +302,11 @@
       9,
       0,
       29,
-      23,
-      32,
-      23,
-      44,
-      3
+      28,
+      27,
+      29,
+      39,
+      33
     ],
     "allContributors": [
       "1yefuwang1",
@@ -402,6 +402,7 @@
       "dtmeadows-ant",
       "feiiiiii5",
       "iamAdarshh",
+      "jacobzim-ant",
       "johanjeppson",
       "lucachitayat",
       "meorphis-anthropic",
@@ -417,28 +418,28 @@
     "by_file": [
       {
         "path": "src/Anthropic/CHANGELOG.md",
-        "pr_count": 23,
-        "total_changes": 399
+        "pr_count": 22,
+        "total_changes": 415
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 22,
+        "pr_count": 21,
         "total_changes": 69
       },
       {
         "path": "src/Anthropic/Anthropic.csproj",
-        "pr_count": 22,
-        "total_changes": 45
-      },
-      {
-        "path": ".stats.yml",
-        "pr_count": 17,
-        "total_changes": 103
+        "pr_count": 21,
+        "total_changes": 43
       },
       {
         "path": "src/Anthropic/Core/ModelBase.cs",
         "pr_count": 15,
-        "total_changes": 144
+        "total_changes": 136
+      },
+      {
+        "path": ".stats.yml",
+        "pr_count": 15,
+        "total_changes": 91
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/AnthropicBetaTest.cs",
@@ -476,6 +477,16 @@
         "total_changes": 3017
       },
       {
+        "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
+        "pr_count": 8,
+        "total_changes": 16
+      },
+      {
+        "path": "src/Anthropic.Bedrock/CHANGELOG.md",
+        "pr_count": 8,
+        "total_changes": 63
+      },
+      {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaContentBlockParamTest.cs",
         "pr_count": 8,
         "total_changes": 319
@@ -483,48 +494,38 @@
       {
         "path": "src/Anthropic.Tests/Models/Beta/Sessions/BetaManagedAgentsAgentWithOverridesParamsTest.cs",
         "pr_count": 8,
-        "total_changes": 1232
+        "total_changes": 142
       },
       {
-        "path": "src/Anthropic.Tests/Models/Beta/Sessions/Events/BetaManagedAgentsStreamSessionEventsTest.cs",
-        "pr_count": 8,
-        "total_changes": 523
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Beta/Sessions/Threads/BetaManagedAgentsStreamSessionThreadEventsTest.cs",
-        "pr_count": 8,
-        "total_changes": 597
-      },
-      {
-        "path": "src/Anthropic.Tests/Models/Beta/Sessions/SessionCreateParamsTest.cs",
-        "pr_count": 8,
-        "total_changes": 620
-      },
-      {
-        "path": "src/Anthropic.Bedrock/Anthropic.Bedrock.csproj",
+        "path": "scripts/mock-spec.json.gz",
         "pr_count": 7,
-        "total_changes": 14
+        "total_changes": 0
       },
       {
-        "path": "src/Anthropic.Bedrock/CHANGELOG.md",
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/Batches/BetaMessageBatchResultTest.cs",
         "pr_count": 7,
-        "total_changes": 59
+        "total_changes": 106
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaContentBlockTest.cs",
         "pr_count": 7,
         "total_changes": 156
+      },
+      {
+        "path": "src/Anthropic.Tests/Models/Beta/Messages/BetaRawContentBlockStartEventTest.cs",
+        "pr_count": 7,
+        "total_changes": 198
       }
     ],
     "by_directory": [
       {
         "path": "src/Anthropic/",
-        "pr_count": 29,
+        "pr_count": 28,
         "file_count": 7
       },
       {
         "path": "/",
-        "pr_count": 22,
+        "pr_count": 21,
         "file_count": 8
       },
       {
@@ -535,22 +536,27 @@
       {
         "path": "src/Anthropic/Core/",
         "pr_count": 17,
-        "file_count": 15
+        "file_count": 14
       },
       {
         "path": "src/Anthropic/Models/Beta/Messages/",
-        "pr_count": 16,
-        "file_count": 172
+        "pr_count": 17,
+        "file_count": 175
       },
       {
         "path": "src/Anthropic.Tests/Models/Beta/Messages/",
         "pr_count": 13,
-        "file_count": 186
+        "file_count": 188
       },
       {
         "path": "src/Anthropic.Tests/Models/Messages/",
         "pr_count": 13,
-        "file_count": 136
+        "file_count": 146
+      },
+      {
+        "path": "src/Anthropic/Models/Messages/",
+        "pr_count": 13,
+        "file_count": 138
       },
       {
         "path": "src/Anthropic.Tests/Services/Beta/",
@@ -559,13 +565,8 @@
       },
       {
         "path": "src/Anthropic/Models/Beta/Agents/",
-        "pr_count": 13,
-        "file_count": 45
-      },
-      {
-        "path": "src/Anthropic/Models/Messages/",
-        "pr_count": 13,
-        "file_count": 126
+        "pr_count": 12,
+        "file_count": 50
       }
     ],
     "top_n": 20
