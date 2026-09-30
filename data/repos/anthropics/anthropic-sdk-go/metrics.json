@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-30T14:26:52.751Z",
+  "timestamp": "2026-09-30T20:26:28.140Z",
   "repository": {
-    "stars": 1208,
+    "stars": 1209,
     "forks": 214
   },
   "issues": {
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 231,
+        "daysOpen": 232,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -58,7 +58,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 172,
+        "daysOpen": 173,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -68,7 +68,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 154,
+        "daysOpen": 155,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -118,7 +118,7 @@
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
         "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 76,
+        "daysOpen": 77,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 43,
+        "daysOpen": 44,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -158,7 +158,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 43,
+        "daysOpen": 44,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -188,7 +188,7 @@
         "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
         "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 38,
+        "daysOpen": 39,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -217,10 +217,10 @@
   },
   "pulls": {
     "open_count": 28,
-    "merged_7d": 1,
+    "merged_7d": 2,
     "merged_30d": 10,
     "merged_90d": 25,
-    "opened_7d": 1,
+    "opened_7d": 2,
     "opened_30d": 19,
     "opened_90d": 46,
     "closed_not_merged_90d": 37,
@@ -432,7 +432,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 76,
+        "daysOpen": 77,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -554,6 +554,20 @@
         "assignees": []
       },
       {
+        "number": 434,
+        "title": "fix(json): encode standard library Number values",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
+        "createdAt": "2026-09-02T17:52:10Z",
+        "daysOpen": 28,
+        "labels": [],
+        "isDraft": false,
+        "additions": 30,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "pentaoa",
+        "assignees": []
+      },
+      {
         "number": 431,
         "title": "fix(tools): bound bash Close wait so setsid cannot hang",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/431",
@@ -565,20 +579,6 @@
         "deletions": 4,
         "reviewCount": 1,
         "author": "varunmahajan1",
-        "assignees": []
-      },
-      {
-        "number": 434,
-        "title": "fix(json): encode standard library Number values",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
-        "createdAt": "2026-09-02T17:52:10Z",
-        "daysOpen": 27,
-        "labels": [],
-        "isDraft": false,
-        "additions": 30,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "pentaoa",
         "assignees": []
       },
       {
@@ -600,7 +600,7 @@
         "title": "fix(sdk): keep $defs when a $ref node is transformed",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/442",
         "createdAt": "2026-09-19T15:36:00Z",
-        "daysOpen": 10,
+        "daysOpen": 11,
         "labels": [],
         "isDraft": false,
         "additions": 136,
@@ -625,8 +625,8 @@
       }
     ],
     "review_time": {
-      "avg_hours": 45.8,
-      "median_hours": 2.7,
+      "avg_hours": 45.7,
+      "median_hours": 2.6,
       "p90_hours": 120,
       "p95_hours": 198.1
     },
@@ -637,8 +637,8 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 46.3,
-      "median_hours": 2.7
+      "avg_hours": 46.2,
+      "median_hours": 1.8
     },
     "code_review_rate_pct": 100,
     "rejection_rate_pct": 59.7,
@@ -651,24 +651,24 @@
   },
   "contributors": {
     "total_known": 129,
-    "active_30d": 16,
-    "first_time_30d": 11,
-    "retention_rate_pct": 38.5,
-    "churned_30d": 8,
-    "commits_per_week_avg": 18.2,
+    "active_30d": 15,
+    "first_time_30d": 10,
+    "retention_rate_pct": 35.7,
+    "churned_30d": 9,
+    "commits_per_week_avg": 20.3,
     "commits_per_week_trend": [
       9,
-      11,
-      9,
+      13,
+      7,
       0,
       15,
-      23,
-      4,
-      31,
+      25,
+      14,
       27,
+      20,
       31,
-      37,
-      21
+      39,
+      43
     ],
     "allContributors": [
       "00200200",
@@ -816,7 +816,6 @@
       "sophie-ant",
       "stainless-app",
       "sylvesterkaczmarek",
-      "tomer-ant",
       "varunmahajan1"
     ]
   },
@@ -825,7 +824,7 @@
       {
         "path": "CHANGELOG.md",
         "pr_count": 25,
-        "total_changes": 451
+        "total_changes": 475
       },
       {
         "path": ".release-please-manifest.json",
@@ -844,13 +843,13 @@
       },
       {
         "path": "api.md",
-        "pr_count": 19,
-        "total_changes": 813
+        "pr_count": 20,
+        "total_changes": 1407
       },
       {
         "path": ".stats.yml",
         "pr_count": 18,
-        "total_changes": 109
+        "total_changes": 105
       },
       {
         "path": "betamessage.go",
@@ -859,8 +858,8 @@
       },
       {
         "path": "shared/constant/constants.go",
-        "pr_count": 14,
-        "total_changes": 748
+        "pr_count": 15,
+        "total_changes": 873
       },
       {
         "path": "betaagent.go",
@@ -874,13 +873,18 @@
       },
       {
         "path": "betasession.go",
-        "pr_count": 11,
-        "total_changes": 711
+        "pr_count": 12,
+        "total_changes": 715
       },
       {
         "path": "beta.go",
         "pr_count": 11,
         "total_changes": 180
+      },
+      {
+        "path": "betasessionevent.go",
+        "pr_count": 10,
+        "total_changes": 1750
       },
       {
         "path": "betamessageutil.go",
@@ -893,19 +897,14 @@
         "total_changes": 1477
       },
       {
-        "path": "betasessionevent.go",
-        "pr_count": 9,
-        "total_changes": 1053
+        "path": "betasessionthread.go",
+        "pr_count": 8,
+        "total_changes": 308
       },
       {
-        "path": "betamemorystorememory.go",
+        "path": "scripts/mock-spec.json.gz",
         "pr_count": 8,
-        "total_changes": 179
-      },
-      {
-        "path": "betamemorystorememoryversion.go",
-        "pr_count": 8,
-        "total_changes": 229
+        "total_changes": 0
       },
       {
         "path": "betamessageutil_test.go",
@@ -927,7 +926,7 @@
       {
         "path": "/",
         "pr_count": 25,
-        "file_count": 134
+        "file_count": 217
       },
       {
         "path": "internal/",
@@ -936,13 +935,18 @@
       },
       {
         "path": "shared/constant/",
-        "pr_count": 14,
+        "pr_count": 15,
         "file_count": 1
       },
       {
         "path": "scripts/",
-        "pr_count": 13,
+        "pr_count": 14,
         "file_count": 4
+      },
+      {
+        "path": "internal/apierror/",
+        "pr_count": 5,
+        "file_count": 1
       },
       {
         "path": "internal/requestconfig/",
@@ -960,19 +964,14 @@
         "file_count": 10
       },
       {
-        "path": ".github/workflows/",
-        "pr_count": 4,
-        "file_count": 2
-      },
-      {
-        "path": "bedrock/",
-        "pr_count": 4,
-        "file_count": 2
-      },
-      {
-        "path": "internal/apierror/",
+        "path": "examples/agents-comprehensive/",
         "pr_count": 4,
         "file_count": 1
+      },
+      {
+        "path": "option/",
+        "pr_count": 4,
+        "file_count": 3
       }
     ],
     "top_n": 20
