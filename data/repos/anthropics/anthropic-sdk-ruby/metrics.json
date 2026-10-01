@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T20:29:08.175Z",
+  "timestamp": "2026-10-01T00:59:35.381Z",
   "repository": {
     "stars": 371,
     "forks": 74
@@ -71,12 +71,12 @@
   },
   "pulls": {
     "open_count": 3,
-    "merged_7d": 2,
-    "merged_30d": 9,
-    "merged_90d": 24,
-    "opened_7d": 2,
-    "opened_30d": 9,
-    "opened_90d": 24,
+    "merged_7d": 3,
+    "merged_30d": 10,
+    "merged_90d": 25,
+    "opened_7d": 3,
+    "opened_30d": 10,
+    "opened_90d": 25,
     "closed_not_merged_90d": 6,
     "draft_count": 0,
     "assigned_count": 0,
@@ -129,10 +129,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 193.4,
-      "median_hours": 4.2,
-      "p90_hours": 143.6,
-      "p95_hours": 306.5
+      "avg_hours": 185.7,
+      "median_hours": 3.8,
+      "p90_hours": 143.5,
+      "p95_hours": 296.9
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -141,12 +141,12 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 194.4,
-      "median_hours": 4.2
+      "avg_hours": 186.7,
+      "median_hours": 3.8
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 20,
-    "avg_reviews_per_pr": 1.3,
+    "rejection_rate_pct": 19.4,
+    "avg_reviews_per_pr": 1.2,
     "by_size": {
       "small": 3,
       "medium": 0,
@@ -154,25 +154,25 @@
     }
   },
   "contributors": {
-    "total_known": 40,
-    "active_30d": 9,
-    "first_time_30d": 3,
+    "total_known": 41,
+    "active_30d": 10,
+    "first_time_30d": 4,
     "retention_rate_pct": 57.1,
     "churned_30d": 3,
-    "commits_per_week_avg": 21.3,
+    "commits_per_week_avg": 21.9,
     "commits_per_week_trend": [
       0,
       21,
       5,
       0,
       12,
-      32,
-      21,
-      32,
-      21,
-      33,
-      40,
-      39
+      35,
+      18,
+      35,
+      19,
+      35,
+      37,
+      46
     ],
     "allContributors": [
       "0xsarawut",
@@ -185,6 +185,7 @@
       "bottrall",
       "cameron-mcateer",
       "claude",
+      "craigie-ant",
       "dan-jensen",
       "davidpavlovschi",
       "dtmeadows",
@@ -218,6 +219,7 @@
     ],
     "previousPeriodContributors": [
       "claude",
+      "craigie-ant",
       "dtmeadows-ant",
       "jacobzim-ant",
       "meorphis-anthropic",
@@ -232,53 +234,53 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 22,
-        "total_changes": 499
+        "pr_count": 23,
+        "total_changes": 518
       },
       {
         "path": "Gemfile.lock",
-        "pr_count": 22,
-        "total_changes": 96
+        "pr_count": 23,
+        "total_changes": 98
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 21,
-        "total_changes": 42
+        "pr_count": 22,
+        "total_changes": 44
       },
       {
         "path": "README.md",
-        "pr_count": 21,
-        "total_changes": 44
+        "pr_count": 22,
+        "total_changes": 46
       },
       {
         "path": "lib/anthropic/version.rb",
-        "pr_count": 21,
-        "total_changes": 42
+        "pr_count": 22,
+        "total_changes": 44
       },
       {
         "path": "lib/anthropic.rb",
-        "pr_count": 18,
-        "total_changes": 772
+        "pr_count": 19,
+        "total_changes": 773
       },
       {
         "path": ".stats.yml",
-        "pr_count": 15,
-        "total_changes": 87
+        "pr_count": 16,
+        "total_changes": 89
       },
       {
         "path": "lib/anthropic/models/anthropic_beta.rb",
-        "pr_count": 10,
-        "total_changes": 68
+        "pr_count": 11,
+        "total_changes": 71
       },
       {
         "path": "rbi/anthropic/models/anthropic_beta.rbi",
-        "pr_count": 10,
-        "total_changes": 84
+        "pr_count": 11,
+        "total_changes": 89
       },
       {
         "path": "sig/anthropic/models/anthropic_beta.rbs",
-        "pr_count": 10,
-        "total_changes": 44
+        "pr_count": 11,
+        "total_changes": 46
       },
       {
         "path": "lib/anthropic/models/beta/agent_update_params.rb",
@@ -301,6 +303,16 @@
         "total_changes": 322
       },
       {
+        "path": "lib/anthropic/resources/beta/messages.rb",
+        "pr_count": 9,
+        "total_changes": 204
+      },
+      {
+        "path": "scripts/mock-spec.json.gz",
+        "pr_count": 9,
+        "total_changes": 0
+      },
+      {
         "path": "lib/anthropic/models/beta/sessions/beta_managed_agents_session_event.rb",
         "pr_count": 9,
         "total_changes": 242
@@ -319,33 +331,23 @@
         "path": "rbi/anthropic/models/beta/sessions/beta_managed_agents_session_event.rbi",
         "pr_count": 9,
         "total_changes": 478
-      },
-      {
-        "path": "rbi/anthropic/models/beta/sessions/beta_managed_agents_stream_session_events.rbi",
-        "pr_count": 9,
-        "total_changes": 507
-      },
-      {
-        "path": "rbi/anthropic/models/beta/sessions/beta_managed_agents_stream_session_thread_events.rbi",
-        "pr_count": 9,
-        "total_changes": 507
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 23,
+        "pr_count": 24,
         "file_count": 12
       },
       {
-        "path": "lib/anthropic/",
-        "pr_count": 21,
-        "file_count": 7
+        "path": "lib/anthropic/models/beta/",
+        "pr_count": 22,
+        "file_count": 404
       },
       {
-        "path": "lib/anthropic/models/beta/",
-        "pr_count": 21,
-        "file_count": 404
+        "path": "lib/anthropic/",
+        "pr_count": 22,
+        "file_count": 7
       },
       {
         "path": "rbi/anthropic/models/beta/",
@@ -354,13 +356,23 @@
       },
       {
         "path": "lib/anthropic/models/",
-        "pr_count": 19,
+        "pr_count": 20,
         "file_count": 167
       },
       {
         "path": "rbi/anthropic/models/",
-        "pr_count": 19,
+        "pr_count": 20,
         "file_count": 161
+      },
+      {
+        "path": "lib/",
+        "pr_count": 19,
+        "file_count": 1
+      },
+      {
+        "path": "sig/anthropic/models/",
+        "pr_count": 19,
+        "file_count": 146
       },
       {
         "path": "sig/anthropic/models/beta/",
@@ -368,27 +380,17 @@
         "file_count": 343
       },
       {
-        "path": "lib/",
-        "pr_count": 18,
-        "file_count": 1
-      },
-      {
-        "path": "sig/anthropic/models/",
-        "pr_count": 18,
-        "file_count": 146
-      },
-      {
         "path": "lib/anthropic/resources/beta/",
-        "pr_count": 17,
+        "pr_count": 18,
         "file_count": 16
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 26683,
-    "total": 3609662,
-    "last_week": 151826,
-    "last_month": 598421
+    "daily": 6951,
+    "total": 3616613,
+    "last_week": 131702,
+    "last_month": 582964
   }
 }
