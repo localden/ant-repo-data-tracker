@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-03T17:42:56.228Z",
+  "timestamp": "2026-10-03T20:21:18.920Z",
   "repository": {
     "stars": 2131,
     "forks": 415
   },
   "issues": {
-    "open_count": 22,
+    "open_count": 23,
     "closed_7d": 0,
     "closed_30d": 2,
     "closed_90d": 55,
-    "opened_7d": 1,
-    "opened_30d": 6,
-    "opened_90d": 20,
+    "opened_7d": 2,
+    "opened_30d": 7,
+    "opened_90d": 21,
     "assigned_count": 0,
-    "unassigned_count": 22,
+    "unassigned_count": 23,
     "unassigned_24h": 22,
     "unassigned_7d": 21,
     "unassigned_30d": 17,
@@ -24,7 +24,7 @@
         "title": "Models list for the Bedrock SDK",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/704",
         "createdAt": "2025-03-02T17:50:28Z",
-        "daysOpen": 579,
+        "daysOpen": 580,
         "labels": [
           "code-change"
         ],
@@ -73,7 +73,7 @@
         "title": "json_schema structured output truncates content at HTML tags containing quotation marks",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/928",
         "createdAt": "2026-03-03T18:59:49Z",
-        "daysOpen": 213,
+        "daysOpen": 214,
         "labels": [
           "api"
         ],
@@ -98,7 +98,7 @@
         "title": "partialParse in _vendor/partial-json-parser crashes on invalid JSON escape sequences from model output",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/986",
         "createdAt": "2026-04-09T18:42:59Z",
-        "daysOpen": 176,
+        "daysOpen": 177,
         "labels": [
           "code-change"
         ],
@@ -110,7 +110,7 @@
         "title": "[Vertex] anthropic-beta header forwarded to countTokens fallback fails on lagging model backends",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1016",
         "createdAt": "2026-04-27T18:10:36Z",
-        "daysOpen": 158,
+        "daysOpen": 159,
         "labels": [
           "code-change"
         ],
@@ -122,7 +122,7 @@
         "title": "Adopt `TracingChannel` for observability",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1036",
         "createdAt": "2026-05-11T20:09:59Z",
-        "daysOpen": 144,
+        "daysOpen": 145,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -256,6 +256,16 @@
         "labels": [],
         "commentCount": 0,
         "assignees": []
+      },
+      {
+        "number": 1234,
+        "title": "Late preview deltas modify authoritative managed-agent messages",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1234",
+        "createdAt": "2026-10-03T19:45:08Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
       }
     ],
     "by_label": {
@@ -276,25 +286,25 @@
       "median_days": 150.3,
       "p90_days": 555
     },
-    "label_coverage_pct": 36.4,
-    "unlabeled_count": 14,
+    "label_coverage_pct": 34.8,
+    "unlabeled_count": 15,
     "stale_30d": 15,
     "stale_60d": 9,
     "stale_90d": 6,
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 77,
+    "open_count": 78,
     "merged_7d": 3,
     "merged_30d": 8,
     "merged_90d": 32,
-    "opened_7d": 19,
-    "opened_30d": 48,
-    "opened_90d": 102,
+    "opened_7d": 20,
+    "opened_30d": 49,
+    "opened_90d": 103,
     "closed_not_merged_90d": 43,
     "draft_count": 4,
     "assigned_count": 0,
-    "unassigned_count": 77,
+    "unassigned_count": 78,
     "unassigned_24h": 73,
     "unassigned_7d": 57,
     "assigned_prs": [],
@@ -400,7 +410,7 @@
         "title": "fix: release stream state on end to prevent memory leaks",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/943",
         "createdAt": "2026-03-13T19:08:02Z",
-        "daysOpen": 203,
+        "daysOpen": 204,
         "labels": [
           "code-change"
         ],
@@ -494,7 +504,7 @@
         "title": "fix(vertex): throw clear error when document blocks use URL sources",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1042",
         "createdAt": "2026-05-13T19:02:28Z",
-        "daysOpen": 142,
+        "daysOpen": 143,
         "labels": [],
         "isDraft": false,
         "additions": 94,
@@ -1064,6 +1074,20 @@
         "assignees": []
       },
       {
+        "number": 1201,
+        "title": "fix(streaming): release batch result abort listeners on completion",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1201",
+        "createdAt": "2026-09-17T20:11:02Z",
+        "daysOpen": 16,
+        "labels": [],
+        "isDraft": false,
+        "additions": 190,
+        "deletions": 7,
+        "reviewCount": 0,
+        "author": "mohammedmessaoudene-cmd",
+        "assignees": []
+      },
+      {
         "number": 1202,
         "title": "fix(vertex): suppress unhandledRejection when Google credential discovery fails",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1202",
@@ -1075,20 +1099,6 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "L4XB",
-        "assignees": []
-      },
-      {
-        "number": 1201,
-        "title": "fix(streaming): release batch result abort listeners on completion",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1201",
-        "createdAt": "2026-09-17T20:11:02Z",
-        "daysOpen": 15,
-        "labels": [],
-        "isDraft": false,
-        "additions": 190,
-        "deletions": 7,
-        "reviewCount": 0,
-        "author": "mohammedmessaoudene-cmd",
         "assignees": []
       },
       {
@@ -1232,6 +1242,20 @@
         "assignees": []
       },
       {
+        "number": 1223,
+        "title": "fix(helpers): percent-decode the filename an MCP resource URI names",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1223",
+        "createdAt": "2026-09-29T19:29:32Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 45,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "feiiiiii5",
+        "assignees": []
+      },
+      {
         "number": 1222,
         "title": "fix(stream): report malformed tool input JSON on the GA stream",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1222",
@@ -1358,20 +1382,6 @@
         "assignees": []
       },
       {
-        "number": 1223,
-        "title": "fix(helpers): percent-decode the filename an MCP resource URI names",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1223",
-        "createdAt": "2026-09-29T19:29:32Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 45,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "feiiiiii5",
-        "assignees": []
-      },
-      {
         "number": 1232,
         "title": "fix(toolrunner): preserve assistant turn and container when mutating non-message params (#964)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1232",
@@ -1398,6 +1408,20 @@
         "reviewCount": 0,
         "author": "swaraj792725",
         "assignees": []
+      },
+      {
+        "number": 1235,
+        "title": "fix(sessions): keep final managed-agent messages authoritative",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1235",
+        "createdAt": "2026-10-03T19:47:59Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 88,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
       }
     ],
     "review_time": {
@@ -1420,7 +1444,7 @@
     "rejection_rate_pct": 57.3,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
-      "small": 53,
+      "small": 54,
       "medium": 20,
       "large": 4
     }
@@ -1893,10 +1917,10 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 9045260,
-    "total": 870673955,
-    "total_through": "2026-10-01",
-    "last_week": 43792378,
-    "last_month": 138229072
+    "daily": 8248624,
+    "total": 878922579,
+    "total_through": "2026-10-02",
+    "last_week": 42995742,
+    "last_month": 137432436
   }
 }
