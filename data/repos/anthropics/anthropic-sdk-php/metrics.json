@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-03T20:24:31.063Z",
+  "timestamp": "2026-10-04T00:18:38.542Z",
   "repository": {
     "stars": 187,
-    "forks": 56
+    "forks": 57
   },
   "issues": {
-    "open_count": 2,
+    "open_count": 4,
     "closed_7d": 0,
     "closed_30d": 0,
     "closed_90d": 5,
-    "opened_7d": 0,
-    "opened_30d": 0,
-    "opened_90d": 2,
+    "opened_7d": 2,
+    "opened_30d": 2,
+    "opened_90d": 4,
     "assigned_count": 0,
-    "unassigned_count": 2,
+    "unassigned_count": 4,
     "unassigned_24h": 2,
     "unassigned_7d": 2,
     "unassigned_30d": 2,
@@ -24,7 +24,7 @@
         "title": "List-type query params are serialised as types[0]= instead of types[]=, causing a 400",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/67",
         "createdAt": "2026-08-10T23:47:29Z",
-        "daysOpen": 53,
+        "daysOpen": 54,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -35,6 +35,26 @@
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/70",
         "createdAt": "2026-08-19T12:00:53Z",
         "daysOpen": 45,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 85,
+        "title": "Closing an unread SSE or JSONL stream starts reading its body",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/85",
+        "createdAt": "2026-10-03T22:06:52Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 83,
+        "title": "Bedrock decoded response streams ignore the requested read length",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/83",
+        "createdAt": "2026-10-03T20:55:17Z",
+        "daysOpen": 0,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -53,24 +73,24 @@
       "p90_days": 322.3
     },
     "label_coverage_pct": 0,
-    "unlabeled_count": 2,
+    "unlabeled_count": 4,
     "stale_30d": 2,
     "stale_60d": 0,
     "stale_90d": 0,
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 3,
+    "open_count": 5,
     "merged_7d": 3,
     "merged_30d": 8,
     "merged_90d": 20,
-    "opened_7d": 3,
-    "opened_30d": 8,
-    "opened_90d": 20,
+    "opened_7d": 5,
+    "opened_30d": 10,
+    "opened_90d": 22,
     "closed_not_merged_90d": 4,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 3,
+    "unassigned_count": 5,
     "unassigned_24h": 3,
     "unassigned_7d": 3,
     "assigned_prs": [],
@@ -116,6 +136,34 @@
         "reviewCount": 2,
         "author": "pravinireri",
         "assignees": []
+      },
+      {
+        "number": 86,
+        "title": "fix(streaming): close unread streams without starting their parsers",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/86",
+        "createdAt": "2026-10-03T22:12:18Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 139,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 84,
+        "title": "fix(bedrock): honor decoded stream read limits",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/84",
+        "createdAt": "2026-10-03T21:01:58Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 132,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
       }
     ],
     "review_time": {
@@ -139,14 +187,14 @@
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 1,
-      "medium": 2,
+      "medium": 4,
       "large": 0
     }
   },
   "contributors": {
-    "total_known": 34,
-    "active_30d": 6,
-    "first_time_30d": 1,
+    "total_known": 35,
+    "active_30d": 7,
+    "first_time_30d": 2,
     "retention_rate_pct": 55.6,
     "churned_30d": 4,
     "commits_per_week_avg": 21.1,
@@ -196,6 +244,7 @@
       "salmanmkc",
       "sophie-ant",
       "stainless-app",
+      "sylvesterkaczmarek",
       "tomer-ant",
       "wtoc-mark",
       "yuniorsk"
@@ -206,7 +255,8 @@
       "jacobzim-ant",
       "meorphis-anthropic",
       "sophie-ant",
-      "stainless-app"
+      "stainless-app",
+      "sylvesterkaczmarek"
     ]
   },
   "hotspots": {
@@ -367,9 +417,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 29408,
-    "total": 2108911,
-    "last_week": 236103,
-    "last_month": 770157
+    "daily": 27680,
+    "total": 2113529,
+    "last_week": 246180,
+    "last_month": 775473
   }
 }
