@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-05T07:56:24.291Z",
+  "timestamp": "2026-10-05T16:37:59.619Z",
   "repository": {
     "stars": 377,
     "forks": 107
   },
   "issues": {
-    "open_count": 8,
+    "open_count": 11,
     "closed_7d": 0,
     "closed_30d": 1,
     "closed_90d": 11,
-    "opened_7d": 6,
-    "opened_30d": 7,
-    "opened_90d": 13,
+    "opened_7d": 9,
+    "opened_30d": 10,
+    "opened_90d": 15,
     "assigned_count": 0,
-    "unassigned_count": 8,
+    "unassigned_count": 11,
     "unassigned_24h": 5,
     "unassigned_7d": 2,
     "unassigned_30d": 1,
@@ -24,7 +24,7 @@
         "title": "Release a Kotlin focused library that supports multiplatform ",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/170",
         "createdAt": "2025-03-09T09:32:51Z",
-        "daysOpen": 574,
+        "daysOpen": 575,
         "labels": [
           "enhancement",
           "sdk"
@@ -68,6 +68,36 @@
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/411",
         "createdAt": "2026-10-03T20:14:59Z",
         "daysOpen": 1,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 427,
+        "title": "Cancelling one asynchronous token request cancels other callers sharing its refresh",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/427",
+        "createdAt": "2026-10-05T11:50:16Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 425,
+        "title": "Synchronous async-provider failures leave token-cache refresh futures unresolved",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/425",
+        "createdAt": "2026-10-05T09:58:14Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 423,
+        "title": "MCP tool errors with only structuredContent lose their diagnostic payload",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/423",
+        "createdAt": "2026-10-05T08:04:16Z",
+        "daysOpen": 0,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -118,25 +148,25 @@
       "median_days": 36.1,
       "p90_days": 411.2
     },
-    "label_coverage_pct": 12.5,
-    "unlabeled_count": 7,
+    "label_coverage_pct": 9.1,
+    "unlabeled_count": 10,
     "stale_30d": 1,
     "stale_60d": 1,
     "stale_90d": 1,
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 7,
+    "open_count": 10,
     "merged_7d": 3,
     "merged_30d": 7,
     "merged_90d": 25,
-    "opened_7d": 9,
-    "opened_30d": 16,
-    "opened_90d": 40,
+    "opened_7d": 12,
+    "opened_30d": 19,
+    "opened_90d": 43,
     "closed_not_merged_90d": 13,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 7,
+    "unassigned_count": 10,
     "unassigned_24h": 4,
     "unassigned_7d": 1,
     "assigned_prs": [],
@@ -193,6 +223,48 @@
         "isDraft": false,
         "additions": 105,
         "deletions": 3,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 428,
+        "title": "fix(auth): isolate token refresh cancellation between callers",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/428",
+        "createdAt": "2026-10-05T11:50:22Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 121,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 426,
+        "title": "fix(auth): settle token refresh launch failures",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/426",
+        "createdAt": "2026-10-05T09:58:20Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 151,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 424,
+        "title": "Retain structured-only MCP tool error details",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/424",
+        "createdAt": "2026-10-05T08:04:22Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 108,
+        "deletions": 13,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -261,7 +333,7 @@
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 2,
-      "medium": 5,
+      "medium": 8,
       "large": 0
     }
   },
@@ -279,12 +351,12 @@
       9,
       16,
       21,
-      31,
-      31,
-      31,
+      32,
+      30,
+      32,
       39,
       31,
-      33
+      32
     ],
     "allContributors": [
       "AjithGoveas",
