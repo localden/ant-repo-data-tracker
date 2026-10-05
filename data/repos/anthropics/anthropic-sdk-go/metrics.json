@@ -1,20 +1,20 @@
 {
-  "timestamp": "2026-10-04T20:39:49.853Z",
+  "timestamp": "2026-10-05T00:21:07.138Z",
   "repository": {
     "stars": 1210,
     "forks": 214
   },
   "issues": {
-    "open_count": 20,
+    "open_count": 21,
     "closed_7d": 1,
     "closed_30d": 1,
     "closed_90d": 52,
-    "opened_7d": 4,
-    "opened_30d": 4,
-    "opened_90d": 20,
+    "opened_7d": 5,
+    "opened_30d": 5,
+    "opened_90d": 21,
     "assigned_count": 0,
-    "unassigned_count": 20,
-    "unassigned_24h": 17,
+    "unassigned_count": 21,
+    "unassigned_24h": 18,
     "unassigned_7d": 16,
     "unassigned_30d": 16,
     "assigned_issues": [],
@@ -184,11 +184,31 @@
         "assignees": []
       },
       {
+        "number": 452,
+        "title": "Replayed preview starts erase completed managed-agent messages",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/452",
+        "createdAt": "2026-10-03T22:34:26Z",
+        "daysOpen": 1,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 450,
         "title": "GA content-block replay panics on unknown response variants",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/450",
         "createdAt": "2026-10-03T19:45:04Z",
         "daysOpen": 1,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 458,
+        "title": "MCP tool forwarding rounds numeric arguments before the server receives them",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/458",
+        "createdAt": "2026-10-04T21:16:46Z",
+        "daysOpen": 0,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -212,16 +232,6 @@
         "labels": [],
         "commentCount": 0,
         "assignees": []
-      },
-      {
-        "number": 452,
-        "title": "Replayed preview starts erase completed managed-agent messages",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/452",
-        "createdAt": "2026-10-03T22:34:26Z",
-        "daysOpen": 0,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
       }
     ],
     "by_label": {
@@ -238,26 +248,26 @@
       "median_days": 178.2,
       "p90_days": 513
     },
-    "label_coverage_pct": 10,
-    "unlabeled_count": 18,
+    "label_coverage_pct": 9.5,
+    "unlabeled_count": 19,
     "stale_30d": 16,
     "stale_60d": 7,
     "stale_90d": 4,
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 32,
+    "open_count": 33,
     "merged_7d": 3,
-    "merged_30d": 8,
+    "merged_30d": 7,
     "merged_90d": 26,
-    "opened_7d": 7,
-    "opened_30d": 14,
-    "opened_90d": 48,
+    "opened_7d": 8,
+    "opened_30d": 15,
+    "opened_90d": 49,
     "closed_not_merged_90d": 36,
     "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 32,
-    "unassigned_24h": 28,
+    "unassigned_count": 33,
+    "unassigned_24h": 29,
     "unassigned_7d": 27,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -266,7 +276,7 @@
         "title": "Fix JSON marshaling for custom content citations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/225",
         "createdAt": "2025-08-21T22:00:17Z",
-        "daysOpen": 408,
+        "daysOpen": 409,
         "labels": [],
         "isDraft": false,
         "additions": 413,
@@ -420,7 +430,7 @@
         "title": "perf(json): encode nested param marshalers directly into a shared buffer",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/373",
         "createdAt": "2026-06-19T23:25:03Z",
-        "daysOpen": 106,
+        "daysOpen": 107,
         "labels": [],
         "isDraft": false,
         "additions": 473,
@@ -476,7 +486,7 @@
         "title": "agenttoolset: make the no-working-directory executable lookup explicit and tested",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/405",
         "createdAt": "2026-08-05T21:52:22Z",
-        "daysOpen": 59,
+        "daysOpen": 60,
         "labels": [],
         "isDraft": true,
         "additions": 937,
@@ -654,6 +664,20 @@
         "assignees": []
       },
       {
+        "number": 453,
+        "title": "Preserve completed session messages across preview restarts",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/453",
+        "createdAt": "2026-10-03T22:35:21Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 103,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 451,
         "title": "fix(streaming): preserve unknown GA content blocks in replay",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/451",
@@ -662,6 +686,20 @@
         "labels": [],
         "isDraft": false,
         "additions": 152,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 459,
+        "title": "fix(mcp): preserve numeric tool arguments without float64 conversion",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/459",
+        "createdAt": "2026-10-04T21:16:52Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 130,
         "deletions": 1,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
@@ -694,20 +732,6 @@
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
-      },
-      {
-        "number": 453,
-        "title": "Preserve completed session messages across preview restarts",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/453",
-        "createdAt": "2026-10-03T22:35:21Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 103,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -731,7 +755,7 @@
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 13,
-      "medium": 16,
+      "medium": 17,
       "large": 3
     }
   },
@@ -739,8 +763,8 @@
     "total_known": 129,
     "active_30d": 11,
     "first_time_30d": 5,
-    "retention_rate_pct": 33.3,
-    "churned_30d": 12,
+    "retention_rate_pct": 35.3,
+    "churned_30d": 11,
     "commits_per_week_avg": 19.9,
     "commits_per_week_trend": [
       3,
@@ -752,9 +776,9 @@
       25,
       30,
       20,
-      38,
+      39,
       30,
-      34
+      33
     ],
     "allContributors": [
       "00200200",
