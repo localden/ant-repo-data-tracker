@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-05T23:29:08.543Z",
+  "timestamp": "2026-10-06T03:46:06.650Z",
   "repository": {
-    "stars": 2131,
+    "stars": 2130,
     "forks": 417
   },
   "issues": {
@@ -11,7 +11,7 @@
     "closed_90d": 55,
     "opened_7d": 7,
     "opened_30d": 13,
-    "opened_90d": 25,
+    "opened_90d": 24,
     "assigned_count": 0,
     "unassigned_count": 29,
     "unassigned_24h": 25,
@@ -36,7 +36,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 519,
+        "daysOpen": 520,
         "labels": [
           "code-change"
         ],
@@ -142,7 +142,7 @@
         "title": "idempotencyKey is a silent no-op: base Anthropic client never sets idempotencyHeader",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1112",
         "createdAt": "2026-07-07T01:44:52Z",
-        "daysOpen": 90,
+        "daysOpen": 91,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -258,6 +258,16 @@
         "assignees": []
       },
       {
+        "number": 1236,
+        "title": "Replayed preview starts overwrite completed managed-agent messages",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1236",
+        "createdAt": "2026-10-03T23:30:47Z",
+        "daysOpen": 2,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1234,
         "title": "Late preview deltas modify authoritative managed-agent messages",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1234",
@@ -272,16 +282,6 @@
         "title": "Schema transformation discards sibling type and composition constraints",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1241",
         "createdAt": "2026-10-04T20:46:37Z",
-        "daysOpen": 1,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1236,
-        "title": "Replayed preview starts overwrite completed managed-agent messages",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1236",
-        "createdAt": "2026-10-03T23:30:47Z",
         "daysOpen": 1,
         "labels": [],
         "commentCount": 0,
@@ -592,7 +592,7 @@
         "title": "fix(partial-json): keep complete trailing numbers in arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1059",
         "createdAt": "2026-05-22T00:58:11Z",
-        "daysOpen": 136,
+        "daysOpen": 137,
         "labels": [],
         "isDraft": false,
         "additions": 14,
@@ -634,7 +634,7 @@
         "title": "fix: infer MIME type from Blob and Blob-like objects in toFile function",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1128",
         "createdAt": "2026-07-21T02:30:42Z",
-        "daysOpen": 76,
+        "daysOpen": 77,
         "labels": [],
         "isDraft": false,
         "additions": 40,
@@ -676,13 +676,27 @@
         "title": "fix(agent-toolset): resolve helper executables via a safe PATH lookup (never the working directory)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1142",
         "createdAt": "2026-08-05T23:36:59Z",
-        "daysOpen": 60,
+        "daysOpen": 61,
         "labels": [],
         "isDraft": true,
         "additions": 1675,
         "deletions": 378,
         "reviewCount": 0,
         "author": "seanyeoh-ant",
+        "assignees": []
+      },
+      {
+        "number": 1143,
+        "title": "fix(schema): preserve const/enum in transformJSONSchema",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
+        "createdAt": "2026-08-06T23:33:07Z",
+        "daysOpen": 60,
+        "labels": [],
+        "isDraft": false,
+        "additions": 86,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "edenbuilds",
         "assignees": []
       },
       {
@@ -700,25 +714,11 @@
         "assignees": []
       },
       {
-        "number": 1143,
-        "title": "fix(schema): preserve const/enum in transformJSONSchema",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
-        "createdAt": "2026-08-06T23:33:07Z",
-        "daysOpen": 59,
-        "labels": [],
-        "isDraft": false,
-        "additions": 86,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "edenbuilds",
-        "assignees": []
-      },
-      {
         "number": 1147,
         "title": "fix(vertex): strip beta headers from countTokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1147",
         "createdAt": "2026-08-09T00:45:46Z",
-        "daysOpen": 57,
+        "daysOpen": 58,
         "labels": [],
         "isDraft": false,
         "additions": 57,
@@ -784,6 +784,20 @@
         "assignees": []
       },
       {
+        "number": 1165,
+        "title": "fix(BetaMessageStream): preserve null content and existing checkpoint in compaction_delta",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1165",
+        "createdAt": "2026-08-24T23:47:54Z",
+        "daysOpen": 42,
+        "labels": [],
+        "isDraft": false,
+        "additions": 203,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "lx3133584",
+        "assignees": []
+      },
+      {
         "number": 1163,
         "title": "fix(schema): keep $defs when the schema root is a $ref",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1163",
@@ -795,20 +809,6 @@
         "deletions": 6,
         "reviewCount": 0,
         "author": "cmun2",
-        "assignees": []
-      },
-      {
-        "number": 1165,
-        "title": "fix(BetaMessageStream): preserve null content and existing checkpoint in compaction_delta",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1165",
-        "createdAt": "2026-08-24T23:47:54Z",
-        "daysOpen": 41,
-        "labels": [],
-        "isDraft": false,
-        "additions": 203,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "lx3133584",
         "assignees": []
       },
       {
@@ -938,6 +938,20 @@
         "assignees": []
       },
       {
+        "number": 1185,
+        "title": "test(core): add unit test suite for auth token header whitespace trimming",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1185",
+        "createdAt": "2026-09-12T03:02:52Z",
+        "daysOpen": 24,
+        "labels": [],
+        "isDraft": false,
+        "additions": 25,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "gcoinstash-cmd",
+        "assignees": []
+      },
+      {
         "number": 1187,
         "title": "fix(memory): protect root renames and sanitize filesystem errors",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1187",
@@ -963,20 +977,6 @@
         "deletions": 9,
         "reviewCount": 0,
         "author": "kimlj",
-        "assignees": []
-      },
-      {
-        "number": 1185,
-        "title": "test(core): add unit test suite for auth token header whitespace trimming",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1185",
-        "createdAt": "2026-09-12T03:02:52Z",
-        "daysOpen": 23,
-        "labels": [],
-        "isDraft": false,
-        "additions": 25,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "gcoinstash-cmd",
         "assignees": []
       },
       {
@@ -1236,13 +1236,27 @@
         "title": "fix(schema): preserve constraints on type-array schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1211",
         "createdAt": "2026-09-24T03:28:48Z",
-        "daysOpen": 11,
+        "daysOpen": 12,
         "labels": [],
         "isDraft": false,
         "additions": 113,
         "deletions": 3,
         "reviewCount": 0,
         "author": "KrishnaRMaddikara",
+        "assignees": []
+      },
+      {
+        "number": 1217,
+        "title": "fix(client): treat a per-request `timeout: undefined` as unset",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1217",
+        "createdAt": "2026-09-28T02:36:04Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 48,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "Linxiushen",
         "assignees": []
       },
       {
@@ -1285,20 +1299,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "rioyu123",
-        "assignees": []
-      },
-      {
-        "number": 1217,
-        "title": "fix(client): treat a per-request `timeout: undefined` as unset",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1217",
-        "createdAt": "2026-09-28T02:36:04Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 48,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "Linxiushen",
         "assignees": []
       },
       {
@@ -1386,6 +1386,34 @@
         "assignees": []
       },
       {
+        "number": 1232,
+        "title": "fix(toolrunner): preserve assistant turn and container when mutating non-message params (#964)",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1232",
+        "createdAt": "2026-10-01T01:11:42Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 181,
+        "deletions": 10,
+        "reviewCount": 0,
+        "author": "swaraj792725",
+        "assignees": []
+      },
+      {
+        "number": 1231,
+        "title": "fix(streaming): repair invalid JSON string escapes and handle tool parse errors (#986)",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1231",
+        "createdAt": "2026-10-01T01:03:10Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 160,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "swaraj792725",
+        "assignees": []
+      },
+      {
         "number": 1228,
         "title": "fix(memory): reject /memories rename root and sanitize filesystem errors (#1182)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1228",
@@ -1442,31 +1470,17 @@
         "assignees": []
       },
       {
-        "number": 1232,
-        "title": "fix(toolrunner): preserve assistant turn and container when mutating non-message params (#964)",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1232",
-        "createdAt": "2026-10-01T01:11:42Z",
-        "daysOpen": 4,
+        "number": 1237,
+        "title": "fix(sessions): preserve completed messages on preview restart",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1237",
+        "createdAt": "2026-10-03T23:31:33Z",
+        "daysOpen": 2,
         "labels": [],
         "isDraft": false,
-        "additions": 181,
-        "deletions": 10,
+        "additions": 108,
+        "deletions": 2,
         "reviewCount": 0,
-        "author": "swaraj792725",
-        "assignees": []
-      },
-      {
-        "number": 1231,
-        "title": "fix(streaming): repair invalid JSON string escapes and handle tool parse errors (#986)",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1231",
-        "createdAt": "2026-10-01T01:03:10Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 160,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "swaraj792725",
+        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -1535,20 +1549,6 @@
         "isDraft": false,
         "additions": 249,
         "deletions": 10,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1237,
-        "title": "fix(sessions): preserve completed messages on preview restart",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1237",
-        "createdAt": "2026-10-03T23:31:33Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 108,
-        "deletions": 2,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -1639,8 +1639,8 @@
     "total_known": 256,
     "active_30d": 30,
     "first_time_30d": 23,
-    "retention_rate_pct": 24,
-    "churned_30d": 19,
+    "retention_rate_pct": 25,
+    "churned_30d": 18,
     "commits_per_week_avg": 24.6,
     "commits_per_week_trend": [
       18,
@@ -1653,8 +1653,8 @@
       20,
       34,
       47,
-      46,
-      24
+      47,
+      23
     ],
     "allContributors": [
       "00200200",
@@ -2105,10 +2105,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 5502689,
     "total": 889973234,
-    "total_through": "2026-10-04",
-    "last_week": 44622673,
-    "last_month": 142024583
+    "total_through": "2026-10-04"
   }
 }

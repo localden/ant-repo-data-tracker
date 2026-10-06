@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-05T23:30:41.849Z",
+  "timestamp": "2026-10-06T03:47:50.419Z",
   "repository": {
     "stars": 377,
     "forks": 107
@@ -38,6 +38,16 @@
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/406",
         "createdAt": "2026-09-27T18:15:32Z",
         "daysOpen": 8,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 415,
+        "title": "A rejected streaming executor leaves completion pending and the response open",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/415",
+        "createdAt": "2026-10-04T00:30:21Z",
+        "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -87,16 +97,6 @@
         "title": "Partial compaction deltas erase accumulated summaries or encrypted metadata",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/417",
         "createdAt": "2026-10-04T20:47:05Z",
-        "daysOpen": 1,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 415,
-        "title": "A rejected streaming executor leaves completion pending and the response open",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/415",
-        "createdAt": "2026-10-04T00:30:21Z",
         "daysOpen": 1,
         "labels": [],
         "commentCount": 0,
@@ -186,6 +186,20 @@
         "assignees": []
       },
       {
+        "number": 416,
+        "title": "fix(streaming): settle responses when the callback executor rejects work",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/416",
+        "createdAt": "2026-10-04T00:34:54Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 180,
+        "deletions": 33,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 414,
         "title": "fix(streaming): recognize a leading UTF-8 BOM in SSE",
         "url": "https://github.com/anthropics/anthropic-sdk-java/pull/414",
@@ -251,20 +265,6 @@
         "isDraft": false,
         "additions": 136,
         "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 416,
-        "title": "fix(streaming): settle responses when the callback executor rejects work",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/416",
-        "createdAt": "2026-10-04T00:34:54Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 180,
-        "deletions": 33,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -351,12 +351,12 @@
       9,
       16,
       21,
-      35,
-      27,
+      36,
+      26,
       36,
       36,
-      39,
-      23
+      40,
+      22
     ],
     "allContributors": [
       "AjithGoveas",
