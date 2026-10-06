@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T17:38:14.078Z",
+  "timestamp": "2026-10-06T22:03:17.655Z",
   "repository": {
     "stars": 377,
     "forks": 107
@@ -37,7 +37,37 @@
         "title": "[Bug]: Native Image runtime failure due to missing GraalVM reachability metadata Show more lines",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/406",
         "createdAt": "2026-09-27T18:15:32Z",
-        "daysOpen": 8,
+        "daysOpen": 9,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 411,
+        "title": "Closing async pagination inside a callback still delivers the page and requests another",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/411",
+        "createdAt": "2026-10-03T20:14:59Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 419,
+        "title": "MCP tool input conversion rounds decimals and overflows or underflows exponents",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/419",
+        "createdAt": "2026-10-04T21:41:00Z",
+        "daysOpen": 2,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 417,
+        "title": "Partial compaction deltas erase accumulated summaries or encrypted metadata",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/417",
+        "createdAt": "2026-10-04T20:47:05Z",
+        "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -57,16 +87,6 @@
         "title": "A leading UTF-8 BOM hides the first SSE event or error",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/413",
         "createdAt": "2026-10-03T22:06:53Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 411,
-        "title": "Closing async pagination inside a callback still delivers the page and requests another",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/411",
-        "createdAt": "2026-10-03T20:14:59Z",
         "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
@@ -107,26 +127,6 @@
         "title": "MCP tool conversion drops explicit additionalProperties restrictions",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/421",
         "createdAt": "2026-10-04T22:55:47Z",
-        "daysOpen": 1,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 419,
-        "title": "MCP tool input conversion rounds decimals and overflows or underflows exponents",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/419",
-        "createdAt": "2026-10-04T21:41:00Z",
-        "daysOpen": 1,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 417,
-        "title": "Partial compaction deltas erase accumulated summaries or encrypted metadata",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/417",
-        "createdAt": "2026-10-04T20:47:05Z",
         "daysOpen": 1,
         "labels": [],
         "commentCount": 0,
@@ -186,6 +186,48 @@
         "assignees": []
       },
       {
+        "number": 412,
+        "title": "fix(pagination): stop buffered delivery when the async pager closes",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/412",
+        "createdAt": "2026-10-03T20:20:17Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 105,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 420,
+        "title": "Preserve decimal precision in MCP tool arguments",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/420",
+        "createdAt": "2026-10-04T21:41:05Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 108,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 418,
+        "title": "Preserve compaction fields omitted from streamed deltas",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/418",
+        "createdAt": "2026-10-04T20:47:11Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 136,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 416,
         "title": "fix(streaming): settle responses when the callback executor rejects work",
         "url": "https://github.com/anthropics/anthropic-sdk-java/pull/416",
@@ -209,20 +251,6 @@
         "isDraft": false,
         "additions": 92,
         "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 412,
-        "title": "fix(pagination): stop buffered delivery when the async pager closes",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/412",
-        "createdAt": "2026-10-03T20:20:17Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 105,
-        "deletions": 3,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -282,34 +310,6 @@
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
-      },
-      {
-        "number": 420,
-        "title": "Preserve decimal precision in MCP tool arguments",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/420",
-        "createdAt": "2026-10-04T21:41:05Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 108,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 418,
-        "title": "Preserve compaction fields omitted from streamed deltas",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/418",
-        "createdAt": "2026-10-04T20:47:11Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 136,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -351,11 +351,11 @@
       9,
       16,
       21,
-      37,
-      29,
-      37,
-      35,
-      37,
+      41,
+      25,
+      39,
+      34,
+      36,
       21
     ],
     "allContributors": [
