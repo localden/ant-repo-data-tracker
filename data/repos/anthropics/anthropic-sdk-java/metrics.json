@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-06T22:03:17.655Z",
+  "timestamp": "2026-10-07T01:17:31.511Z",
   "repository": {
     "stars": 377,
     "forks": 107
@@ -43,11 +43,41 @@
         "assignees": []
       },
       {
+        "number": 415,
+        "title": "A rejected streaming executor leaves completion pending and the response open",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/415",
+        "createdAt": "2026-10-04T00:30:21Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 413,
+        "title": "A leading UTF-8 BOM hides the first SSE event or error",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/413",
+        "createdAt": "2026-10-03T22:06:53Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 411,
         "title": "Closing async pagination inside a callback still delivers the page and requests another",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/411",
         "createdAt": "2026-10-03T20:14:59Z",
         "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 421,
+        "title": "MCP tool conversion drops explicit additionalProperties restrictions",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/421",
+        "createdAt": "2026-10-04T22:55:47Z",
+        "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -67,26 +97,6 @@
         "title": "Partial compaction deltas erase accumulated summaries or encrypted metadata",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/417",
         "createdAt": "2026-10-04T20:47:05Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 415,
-        "title": "A rejected streaming executor leaves completion pending and the response open",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/415",
-        "createdAt": "2026-10-04T00:30:21Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 413,
-        "title": "A leading UTF-8 BOM hides the first SSE event or error",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/413",
-        "createdAt": "2026-10-03T22:06:53Z",
         "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
@@ -117,16 +127,6 @@
         "title": "MCP tool errors with only structuredContent lose their diagnostic payload",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/423",
         "createdAt": "2026-10-05T08:04:16Z",
-        "daysOpen": 1,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 421,
-        "title": "MCP tool conversion drops explicit additionalProperties restrictions",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/421",
-        "createdAt": "2026-10-04T22:55:47Z",
         "daysOpen": 1,
         "labels": [],
         "commentCount": 0,
@@ -176,13 +176,41 @@
         "title": "fix: generate GraalVM reachability metadata from SDK tests during publishing",
         "url": "https://github.com/anthropics/anthropic-sdk-java/pull/407",
         "createdAt": "2026-09-27T22:50:18Z",
-        "daysOpen": 8,
+        "daysOpen": 9,
         "labels": [],
         "isDraft": false,
         "additions": 101,
         "deletions": 0,
         "reviewCount": 0,
         "author": "katinguengan",
+        "assignees": []
+      },
+      {
+        "number": 416,
+        "title": "fix(streaming): settle responses when the callback executor rejects work",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/416",
+        "createdAt": "2026-10-04T00:34:54Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 180,
+        "deletions": 33,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 414,
+        "title": "fix(streaming): recognize a leading UTF-8 BOM in SSE",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/414",
+        "createdAt": "2026-10-03T22:12:24Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 92,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -195,6 +223,20 @@
         "isDraft": false,
         "additions": 105,
         "deletions": 3,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 422,
+        "title": "Preserve additionalProperties in converted MCP tool schemas",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/422",
+        "createdAt": "2026-10-04T22:55:53Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 85,
+        "deletions": 0,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -222,34 +264,6 @@
         "labels": [],
         "isDraft": false,
         "additions": 136,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 416,
-        "title": "fix(streaming): settle responses when the callback executor rejects work",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/416",
-        "createdAt": "2026-10-04T00:34:54Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 180,
-        "deletions": 33,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 414,
-        "title": "fix(streaming): recognize a leading UTF-8 BOM in SSE",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/414",
-        "createdAt": "2026-10-03T22:12:24Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 92,
         "deletions": 2,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
@@ -296,20 +310,6 @@
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
-      },
-      {
-        "number": 422,
-        "title": "Preserve additionalProperties in converted MCP tool schemas",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/422",
-        "createdAt": "2026-10-04T22:55:53Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 85,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -345,8 +345,8 @@
     "churned_30d": 6,
     "commits_per_week_avg": 22.2,
     "commits_per_week_trend": [
-      11,
-      13,
+      17,
+      7,
       0,
       9,
       16,
@@ -354,9 +354,9 @@
       41,
       25,
       39,
+      38,
       34,
-      36,
-      21
+      19
     ],
     "allContributors": [
       "AjithGoveas",
