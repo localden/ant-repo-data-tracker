@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T14:56:36.451Z",
+  "timestamp": "2026-10-07T20:57:38.704Z",
   "repository": {
     "stars": 377,
     "forks": 107
@@ -37,7 +37,27 @@
         "title": "[Bug]: Native Image runtime failure due to missing GraalVM reachability metadata Show more lines",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/406",
         "createdAt": "2026-09-27T18:15:32Z",
-        "daysOpen": 9,
+        "daysOpen": 10,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 411,
+        "title": "Closing async pagination inside a callback still delivers the page and requests another",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/411",
+        "createdAt": "2026-10-03T20:14:59Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 417,
+        "title": "Partial compaction deltas erase accumulated summaries or encrypted metadata",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/417",
+        "createdAt": "2026-10-04T20:47:05Z",
+        "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -57,16 +77,6 @@
         "title": "A leading UTF-8 BOM hides the first SSE event or error",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/413",
         "createdAt": "2026-10-03T22:06:53Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 411,
-        "title": "Closing async pagination inside a callback still delivers the page and requests another",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/411",
-        "createdAt": "2026-10-03T20:14:59Z",
         "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
@@ -121,16 +131,6 @@
         "labels": [],
         "commentCount": 0,
         "assignees": []
-      },
-      {
-        "number": 417,
-        "title": "Partial compaction deltas erase accumulated summaries or encrypted metadata",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/417",
-        "createdAt": "2026-10-04T20:47:05Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
       }
     ],
     "by_label": {
@@ -158,11 +158,11 @@
   "pulls": {
     "open_count": 10,
     "merged_7d": 2,
-    "merged_30d": 7,
-    "merged_90d": 25,
+    "merged_30d": 8,
+    "merged_90d": 26,
     "opened_7d": 11,
-    "opened_30d": 19,
-    "opened_90d": 43,
+    "opened_30d": 20,
+    "opened_90d": 44,
     "closed_not_merged_90d": 13,
     "draft_count": 0,
     "assigned_count": 0,
@@ -183,6 +183,34 @@
         "deletions": 0,
         "reviewCount": 0,
         "author": "katinguengan",
+        "assignees": []
+      },
+      {
+        "number": 412,
+        "title": "fix(pagination): stop buffered delivery when the async pager closes",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/412",
+        "createdAt": "2026-10-03T20:20:17Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 105,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 418,
+        "title": "Preserve compaction fields omitted from streamed deltas",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/418",
+        "createdAt": "2026-10-04T20:47:11Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 136,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -209,20 +237,6 @@
         "isDraft": false,
         "additions": 92,
         "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 412,
-        "title": "fix(pagination): stop buffered delivery when the async pager closes",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/412",
-        "createdAt": "2026-10-03T20:20:17Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 105,
-        "deletions": 3,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -296,27 +310,13 @@
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
-      },
-      {
-        "number": 418,
-        "title": "Preserve compaction fields omitted from streamed deltas",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/418",
-        "createdAt": "2026-10-04T20:47:11Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 136,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 120.5,
-      "median_hours": 14.5,
-      "p90_hours": 144.2,
-      "p95_hours": 297.2
+      "avg_hours": 115.9,
+      "median_hours": 9.5,
+      "p90_hours": 143.9,
+      "p95_hours": 287.7
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -325,11 +325,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 120.6,
-      "median_hours": 14.5
+      "avg_hours": 115.9,
+      "median_hours": 9.6
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 34.2,
+    "rejection_rate_pct": 33.3,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 2,
@@ -343,20 +343,20 @@
     "first_time_30d": 5,
     "retention_rate_pct": 45.5,
     "churned_30d": 6,
-    "commits_per_week_avg": 22.2,
+    "commits_per_week_avg": 24.3,
     "commits_per_week_trend": [
-      17,
-      7,
+      19,
+      5,
       0,
       9,
-      33,
-      4,
-      42,
-      25,
-      39,
-      38,
+      35,
+      19,
+      30,
+      22,
       40,
-      12
+      39,
+      45,
+      28
     ],
     "allContributors": [
       "AjithGoveas",
@@ -435,23 +435,23 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 22,
-        "total_changes": 516
+        "pr_count": 23,
+        "total_changes": 567
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 21,
-        "total_changes": 42
+        "pr_count": 22,
+        "total_changes": 44
       },
       {
         "path": "README.md",
-        "pr_count": 21,
-        "total_changes": 88
+        "pr_count": 22,
+        "total_changes": 92
       },
       {
         "path": "build.gradle.kts",
-        "pr_count": 20,
-        "total_changes": 53
+        "pr_count": 21,
+        "total_changes": 55
       },
       {
         "path": ".stats.yml",
@@ -464,19 +464,64 @@
         "total_changes": 359
       },
       {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCreateParams.kt",
+        "pr_count": 12,
+        "total_changes": 1350
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/BetaContentBlockParamTest.kt",
+        "pr_count": 12,
+        "total_changes": 606
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCountTokensParams.kt",
+        "pr_count": 11,
+        "total_changes": 4864
+      },
+      {
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/batches/BatchCreateParams.kt",
+        "pr_count": 11,
+        "total_changes": 953
+      },
+      {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaContentBlockParam.kt",
         "pr_count": 11,
         "total_changes": 2847
       },
       {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCreateParams.kt",
-        "pr_count": 11,
-        "total_changes": 1350
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/BetaContentBlockTest.kt",
+        "pr_count": 10,
+        "total_changes": 271
       },
       {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/BetaContentBlockParamTest.kt",
-        "pr_count": 11,
-        "total_changes": 598
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/BetaMessageTest.kt",
+        "pr_count": 10,
+        "total_changes": 313
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/BetaRawMessageDeltaEventTest.kt",
+        "pr_count": 10,
+        "total_changes": 260
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/BetaRawMessageStreamEventTest.kt",
+        "pr_count": 10,
+        "total_changes": 467
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/sessions/events/BetaManagedAgentsSessionEventTest.kt",
+        "pr_count": 10,
+        "total_changes": 670
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/sessions/events/BetaManagedAgentsStreamSessionEventsTest.kt",
+        "pr_count": 10,
+        "total_changes": 657
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/sessions/threads/BetaManagedAgentsStreamSessionThreadEventsTest.kt",
+        "pr_count": 10,
+        "total_changes": 667
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaRequestToolAdditionBlock.kt",
@@ -487,83 +532,43 @@
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaRequestToolRemovalBlock.kt",
         "pr_count": 10,
         "total_changes": 1059
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaUsage.kt",
-        "pr_count": 10,
-        "total_changes": 815
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/MessageCountTokensParams.kt",
-        "pr_count": 10,
-        "total_changes": 4864
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/batches/BatchCreateParams.kt",
-        "pr_count": 10,
-        "total_changes": 953
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/BetaMessageDeltaUsage.kt",
-        "pr_count": 9,
-        "total_changes": 736
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/ContentBlockParam.kt",
-        "pr_count": 9,
-        "total_changes": 1527
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/MessageCreateParams.kt",
-        "pr_count": 9,
-        "total_changes": 355
-      },
-      {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/sessions/events/BetaManagedAgentsSessionEventTest.kt",
-        "pr_count": 9,
-        "total_changes": 606
-      },
-      {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/sessions/events/BetaManagedAgentsStreamSessionEventsTest.kt",
-        "pr_count": 9,
-        "total_changes": 593
-      },
-      {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/sessions/threads/BetaManagedAgentsStreamSessionThreadEventsTest.kt",
-        "pr_count": 9,
-        "total_changes": 603
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 23,
-        "file_count": 8
+        "pr_count": 24,
+        "file_count": 9
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/messages/",
-        "pr_count": 19,
-        "file_count": 335
+        "pr_count": 20,
+        "file_count": 442
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/messages/",
-        "pr_count": 17,
-        "file_count": 250
+        "pr_count": 18,
+        "file_count": 357
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/agents/",
-        "pr_count": 15,
-        "file_count": 71
+        "pr_count": 16,
+        "file_count": 83
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/services/async/beta/",
-        "pr_count": 15,
+        "pr_count": 16,
         "file_count": 16
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/services/blocking/beta/",
-        "pr_count": 15,
+        "pr_count": 16,
         "file_count": 16
+      },
+      {
+        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/",
+        "pr_count": 15,
+        "file_count": 436
       },
       {
         "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/",
@@ -571,19 +576,14 @@
         "file_count": 14
       },
       {
-        "path": "anthropic-java-core/src/test/kotlin/com/anthropic/models/beta/messages/",
-        "pr_count": 14,
-        "file_count": 332
+        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/sessions/",
+        "pr_count": 13,
+        "file_count": 43
       },
       {
         "path": "anthropic-java-core/src/test/kotlin/com/anthropic/helpers/",
         "pr_count": 13,
         "file_count": 7
-      },
-      {
-        "path": "anthropic-java-core/src/main/kotlin/com/anthropic/models/beta/sessions/",
-        "pr_count": 12,
-        "file_count": 43
       }
     ],
     "top_n": 20
