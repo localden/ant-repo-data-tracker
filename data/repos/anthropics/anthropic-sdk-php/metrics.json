@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T08:15:26.854Z",
+  "timestamp": "2026-10-08T17:11:41.433Z",
   "repository": {
     "stars": 187,
     "forks": 56
@@ -34,7 +34,7 @@
         "title": "Bedrock: body round-trip flattens empty JSON objects ({} -> []), so a no-argument tool_use gets a 400",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/70",
         "createdAt": "2026-08-19T12:00:53Z",
-        "daysOpen": 49,
+        "daysOpen": 50,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -55,6 +55,36 @@
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/83",
         "createdAt": "2026-10-03T20:55:17Z",
         "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 97,
+        "title": "Integer multipleOf validation rounds large values before checking divisibility",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/97",
+        "createdAt": "2026-10-05T11:41:15Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 95,
+        "title": "Structured-output parsing accepts JSON arrays as empty model instances",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/95",
+        "createdAt": "2026-10-05T10:21:58Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 93,
+        "title": "Nested structured-output fields ignore their Constrained descriptions",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
+        "createdAt": "2026-10-05T08:33:56Z",
+        "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -90,6 +120,26 @@
         "assignees": []
       },
       {
+        "number": 105,
+        "title": "Empty structured-output models generate properties as a JSON array",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/105",
+        "createdAt": "2026-10-06T15:10:58Z",
+        "daysOpen": 2,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 103,
+        "title": "runUntilDone returns an unsuccessful final compaction instead of the completed answer",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/103",
+        "createdAt": "2026-10-06T11:20:45Z",
+        "daysOpen": 2,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 101,
         "title": "MCP media-type variations reject valid images and skip earlier supported resources",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/101",
@@ -110,60 +160,10 @@
         "assignees": []
       },
       {
-        "number": 97,
-        "title": "Integer multipleOf validation rounds large values before checking divisibility",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/97",
-        "createdAt": "2026-10-05T11:41:15Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 95,
-        "title": "Structured-output parsing accepts JSON arrays as empty model instances",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/95",
-        "createdAt": "2026-10-05T10:21:58Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 93,
-        "title": "Nested structured-output fields ignore their Constrained descriptions",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
-        "createdAt": "2026-10-05T08:33:56Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 107,
         "title": "PHPDoc model arrays generate nested schemas but hydrate as plain arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/107",
         "createdAt": "2026-10-06T23:54:09Z",
-        "daysOpen": 1,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 105,
-        "title": "Empty structured-output models generate properties as a JSON array",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/105",
-        "createdAt": "2026-10-06T15:10:58Z",
-        "daysOpen": 1,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 103,
-        "title": "runUntilDone returns an unsuccessful final compaction instead of the completed answer",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/103",
-        "createdAt": "2026-10-06T11:20:45Z",
         "daysOpen": 1,
         "labels": [],
         "commentCount": 0,
@@ -224,7 +224,7 @@
         "title": "fix: detect circular references in toJsonSchema()",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/43",
         "createdAt": "2026-05-26T11:31:49Z",
-        "daysOpen": 134,
+        "daysOpen": 135,
         "labels": [],
         "isDraft": false,
         "additions": 55,
@@ -276,6 +276,48 @@
         "assignees": []
       },
       {
+        "number": 98,
+        "title": "fix(parse): preserve integer precision in multipleOf validation",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/98",
+        "createdAt": "2026-10-05T11:41:21Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 136,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 96,
+        "title": "fix(parse): reject array roots for structured-output models",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/96",
+        "createdAt": "2026-10-05T10:22:05Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 105,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 94,
+        "title": "Preserve descriptions on nested structured-output fields",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/94",
+        "createdAt": "2026-10-05T08:34:02Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 83,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 92,
         "title": "Preserve empty objects in streamed tool arguments",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/92",
@@ -318,6 +360,34 @@
         "assignees": []
       },
       {
+        "number": 106,
+        "title": "Serialize empty structured-output property maps as objects",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/106",
+        "createdAt": "2026-10-06T15:11:06Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 143,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 104,
+        "title": "Keep the completed answer when final compaction produces no summary",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/104",
+        "createdAt": "2026-10-06T11:20:52Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 92,
+        "deletions": 10,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 102,
         "title": "Normalize MCP media types before selecting supported resources",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/102",
@@ -341,76 +411,6 @@
         "isDraft": false,
         "additions": 96,
         "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 98,
-        "title": "fix(parse): preserve integer precision in multipleOf validation",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/98",
-        "createdAt": "2026-10-05T11:41:21Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 136,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 96,
-        "title": "fix(parse): reject array roots for structured-output models",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/96",
-        "createdAt": "2026-10-05T10:22:05Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 105,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 94,
-        "title": "Preserve descriptions on nested structured-output fields",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/94",
-        "createdAt": "2026-10-05T08:34:02Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 83,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 106,
-        "title": "Serialize empty structured-output property maps as objects",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/106",
-        "createdAt": "2026-10-06T15:11:06Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 143,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 104,
-        "title": "Keep the completed answer when final compaction produces no summary",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/104",
-        "createdAt": "2026-10-06T11:20:52Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 92,
-        "deletions": 10,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -467,14 +467,14 @@
       4,
       0,
       8,
-      29,
+      30,
       22,
-      35,
-      25,
-      29,
-      38,
-      47,
-      37
+      36,
+      23,
+      30,
+      37,
+      49,
+      35
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -681,9 +681,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 42568,
-    "total": 2296555,
-    "last_week": 289282,
-    "last_month": 890468
+    "daily": 48096,
+    "total": 2320216,
+    "last_week": 294810,
+    "last_month": 895996
   }
 }

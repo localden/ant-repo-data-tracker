@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-08T08:12:54.910Z",
+  "timestamp": "2026-10-08T17:09:02.044Z",
   "repository": {
     "stars": 378,
-    "forks": 107
+    "forks": 106
   },
   "issues": {
     "open_count": 11,
@@ -24,7 +24,7 @@
         "title": "Release a Kotlin focused library that supports multiplatform ",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/170",
         "createdAt": "2025-03-09T09:32:51Z",
-        "daysOpen": 577,
+        "daysOpen": 578,
         "labels": [
           "enhancement",
           "sdk"
@@ -34,7 +34,7 @@
       },
       {
         "number": 406,
-        "title": "[Bug]: Native Image runtime failure due to missing GraalVM reachability metadata Show more lines",
+        "title": "[Bug]: Native Image runtime failure due to missing GraalVM reachability metadata",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/406",
         "createdAt": "2026-09-27T18:15:32Z",
         "daysOpen": 10,
@@ -68,6 +68,26 @@
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/411",
         "createdAt": "2026-10-03T20:14:59Z",
         "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 427,
+        "title": "Cancelling one asynchronous token request cancels other callers sharing its refresh",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/427",
+        "createdAt": "2026-10-05T11:50:16Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 425,
+        "title": "Synchronous async-provider failures leave token-cache refresh futures unresolved",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/425",
+        "createdAt": "2026-10-05T09:58:14Z",
+        "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -108,26 +128,6 @@
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/417",
         "createdAt": "2026-10-04T20:47:05Z",
         "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 427,
-        "title": "Cancelling one asynchronous token request cancels other callers sharing its refresh",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/427",
-        "createdAt": "2026-10-05T11:50:16Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 425,
-        "title": "Synchronous async-provider failures leave token-cache refresh futures unresolved",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/425",
-        "createdAt": "2026-10-05T09:58:14Z",
-        "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -173,13 +173,13 @@
     "unassigned_prs": [
       {
         "number": 407,
-        "title": "fix: generate GraalVM reachability metadata from SDK tests during publishing",
+        "title": "fix(client): add GraalVM Native Image reachability metadata",
         "url": "https://github.com/anthropics/anthropic-sdk-java/pull/407",
         "createdAt": "2026-09-27T22:50:18Z",
         "daysOpen": 10,
         "labels": [],
         "isDraft": false,
-        "additions": 101,
+        "additions": 184,
         "deletions": 0,
         "reviewCount": 0,
         "author": "katinguengan",
@@ -223,6 +223,34 @@
         "isDraft": false,
         "additions": 105,
         "deletions": 3,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 428,
+        "title": "fix(auth): isolate token refresh cancellation between callers",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/428",
+        "createdAt": "2026-10-05T11:50:22Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 121,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 426,
+        "title": "fix(auth): settle token refresh launch failures",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/426",
+        "createdAt": "2026-10-05T09:58:20Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 151,
+        "deletions": 8,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -282,34 +310,6 @@
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
-      },
-      {
-        "number": 428,
-        "title": "fix(auth): isolate token refresh cancellation between callers",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/428",
-        "createdAt": "2026-10-05T11:50:22Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 121,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 426,
-        "title": "fix(auth): settle token refresh launch failures",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/426",
-        "createdAt": "2026-10-05T09:58:20Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 151,
-        "deletions": 8,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -339,10 +339,10 @@
   },
   "contributors": {
     "total_known": 57,
-    "active_30d": 11,
-    "first_time_30d": 5,
-    "retention_rate_pct": 45.5,
-    "churned_30d": 6,
+    "active_30d": 10,
+    "first_time_30d": 4,
+    "retention_rate_pct": 41.7,
+    "churned_30d": 7,
     "commits_per_week_avg": 25.1,
     "commits_per_week_trend": [
       19,
@@ -353,10 +353,10 @@
       17,
       34,
       21,
-      39,
-      38,
-      52,
-      30
+      43,
+      34,
+      54,
+      28
     ],
     "allContributors": [
       "AjithGoveas",
@@ -419,7 +419,6 @@
     ],
     "previousPeriodContributors": [
       "AjithGoveas",
-      "claude",
       "craigie-ant",
       "dtmeadows-ant",
       "jacobzim-ant",
