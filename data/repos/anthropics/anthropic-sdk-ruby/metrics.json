@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-08T17:11:03.959Z",
+  "timestamp": "2026-10-08T22:43:31.559Z",
   "repository": {
-    "stars": 371,
+    "stars": 372,
     "forks": 74
   },
   "issues": {
@@ -44,9 +44,49 @@
         "title": "Add changelog uri to gemspec",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/237",
         "createdAt": "2026-09-19T17:31:39Z",
-        "daysOpen": 18,
+        "daysOpen": 19,
         "labels": [],
         "commentCount": 1,
+        "assignees": []
+      },
+      {
+        "number": 245,
+        "title": "Replayed preview starts reopen and discard completed session messages",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/245",
+        "createdAt": "2026-10-03T20:55:19Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 243,
+        "title": "Nested reused input schemas emit unresolved JSON Pointer references",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/243",
+        "createdAt": "2026-10-03T19:45:06Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 251,
+        "title": "Nested field descriptions are overwritten by type defaults and leak between uses",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/251",
+        "createdAt": "2026-10-04T21:19:08Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 249,
+        "title": "Refusal fallback middleware leaves unsuccessful hop response bodies open",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/249",
+        "createdAt": "2026-10-04T19:45:17Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
         "assignees": []
       },
       {
@@ -60,21 +100,11 @@
         "assignees": []
       },
       {
-        "number": 245,
-        "title": "Replayed preview starts reopen and discard completed session messages",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/245",
-        "createdAt": "2026-10-03T20:55:19Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 243,
-        "title": "Nested reused input schemas emit unresolved JSON Pointer references",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/243",
-        "createdAt": "2026-10-03T19:45:06Z",
-        "daysOpen": 4,
+        "number": 261,
+        "title": "Parsing streamed outputs drops tool-call metadata and unknown block fields",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/261",
+        "createdAt": "2026-10-05T21:45:50Z",
+        "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -120,26 +150,6 @@
         "assignees": []
       },
       {
-        "number": 251,
-        "title": "Nested field descriptions are overwritten by type defaults and leak between uses",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/251",
-        "createdAt": "2026-10-04T21:19:08Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 249,
-        "title": "Refusal fallback middleware leaves unsuccessful hop response bodies open",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/249",
-        "createdAt": "2026-10-04T19:45:17Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 267,
         "title": "Valid null compaction fields become unreadable during message streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/267",
@@ -164,16 +174,6 @@
         "title": "MCP helpers reject supported media types with capitalization or parameters",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/263",
         "createdAt": "2026-10-06T00:02:47Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 261,
-        "title": "Parsing streamed outputs drops tool-call metadata and unknown block fields",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/261",
-        "createdAt": "2026-10-05T21:45:50Z",
         "daysOpen": 2,
         "labels": [],
         "commentCount": 0,
@@ -205,7 +205,7 @@
     "merged_30d": 9,
     "merged_90d": 26,
     "opened_7d": 14,
-    "opened_30d": 23,
+    "opened_30d": 22,
     "opened_90d": 39,
     "closed_not_merged_90d": 6,
     "draft_count": 0,
@@ -258,6 +258,62 @@
         "assignees": []
       },
       {
+        "number": 246,
+        "title": "fix(sessions): preserve final messages across preview restarts",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/246",
+        "createdAt": "2026-10-03T21:02:05Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 99,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 244,
+        "title": "fix(schema): escape nested definition references as JSON Pointer tokens",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/244",
+        "createdAt": "2026-10-03T19:47:53Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 167,
+        "deletions": 10,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 252,
+        "title": "fix(schema): keep field metadata local to each reference",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/252",
+        "createdAt": "2026-10-04T21:19:14Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 104,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 250,
+        "title": "Close discarded fallback response bodies",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/250",
+        "createdAt": "2026-10-04T19:45:23Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 172,
+        "deletions": 15,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 248,
         "title": "fix(schema): support nullable literal output fields",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/248",
@@ -272,29 +328,15 @@
         "assignees": []
       },
       {
-        "number": 246,
-        "title": "fix(sessions): preserve final messages across preview restarts",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/246",
-        "createdAt": "2026-10-03T21:02:05Z",
-        "daysOpen": 4,
+        "number": 262,
+        "title": "Preserve block metadata when parsing streamed outputs",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/262",
+        "createdAt": "2026-10-05T21:45:57Z",
+        "daysOpen": 3,
         "labels": [],
         "isDraft": false,
-        "additions": 99,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 244,
-        "title": "fix(schema): escape nested definition references as JSON Pointer tokens",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/244",
-        "createdAt": "2026-10-03T19:47:53Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 167,
-        "deletions": 10,
+        "additions": 136,
+        "deletions": 14,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -356,34 +398,6 @@
         "assignees": []
       },
       {
-        "number": 252,
-        "title": "fix(schema): keep field metadata local to each reference",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/252",
-        "createdAt": "2026-10-04T21:19:14Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 104,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 250,
-        "title": "Close discarded fallback response bodies",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/250",
-        "createdAt": "2026-10-04T19:45:23Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 172,
-        "deletions": 15,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 268,
         "title": "Preserve null and omitted fields in streamed compaction blocks",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/268",
@@ -424,20 +438,6 @@
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
-      },
-      {
-        "number": 262,
-        "title": "Preserve block metadata when parsing streamed outputs",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/262",
-        "createdAt": "2026-10-05T21:45:57Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 136,
-        "deletions": 14,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -469,22 +469,22 @@
     "total_known": 41,
     "active_30d": 9,
     "first_time_30d": 3,
-    "retention_rate_pct": 50,
+    "retention_rate_pct": 55.6,
     "churned_30d": 4,
-    "commits_per_week_avg": 24.1,
+    "commits_per_week_avg": 23.1,
     "commits_per_week_trend": [
-      21,
-      5,
+      11,
+      3,
       10,
-      2,
-      35,
-      18,
+      14,
+      23,
+      25,
+      32,
+      22,
+      31,
       36,
-      19,
-      35,
-      37,
-      51,
-      20
+      53,
+      17
     ],
     "allContributors": [
       "0xsarawut",
@@ -699,9 +699,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 23978,
-    "total": 3812077,
-    "last_week": 168681,
-    "last_month": 638324
+    "daily": 35367,
+    "total": 3823466,
+    "last_week": 180070,
+    "last_month": 649713
   }
 }

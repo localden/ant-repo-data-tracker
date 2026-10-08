@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-08T17:11:41.433Z",
+  "timestamp": "2026-10-08T22:44:06.810Z",
   "repository": {
-    "stars": 187,
+    "stars": 189,
     "forks": 56
   },
   "issues": {
@@ -44,7 +44,7 @@
         "title": "Closing an unread SSE or JSONL stream starts reading its body",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/85",
         "createdAt": "2026-10-03T22:06:52Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -54,6 +54,26 @@
         "title": "Bedrock decoded response streams ignore the requested read length",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/83",
         "createdAt": "2026-10-03T20:55:17Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 89,
+        "title": "Compaction accumulation concatenates replacement summaries and loses explicit nulls",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/89",
+        "createdAt": "2026-10-04T21:40:42Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 87,
+        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
+        "createdAt": "2026-10-04T20:19:31Z",
         "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
@@ -94,26 +114,6 @@
         "title": "MessageAccumulator turns nested empty tool-input objects into arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/91",
         "createdAt": "2026-10-05T07:14:26Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 89,
-        "title": "Compaction accumulation concatenates replacement summaries and loses explicit nulls",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/89",
-        "createdAt": "2026-10-04T21:40:42Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 87,
-        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
-        "createdAt": "2026-10-04T20:19:31Z",
         "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
@@ -238,7 +238,7 @@
         "title": "fix(client): serialize list query params with empty brackets",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/69",
         "createdAt": "2026-08-17T18:24:50Z",
-        "daysOpen": 51,
+        "daysOpen": 52,
         "labels": [],
         "isDraft": false,
         "additions": 161,
@@ -252,7 +252,7 @@
         "title": "fix(streaming): close unread streams without starting their parsers",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/86",
         "createdAt": "2026-10-03T22:12:18Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 139,
@@ -266,11 +266,39 @@
         "title": "fix(bedrock): honor decoded stream read limits",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/84",
         "createdAt": "2026-10-03T21:01:58Z",
-        "daysOpen": 4,
+        "daysOpen": 5,
         "labels": [],
         "isDraft": false,
         "additions": 132,
         "deletions": 8,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 90,
+        "title": "Preserve compaction replacement values and explicit nulls",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/90",
+        "createdAt": "2026-10-04T21:40:48Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 106,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 88,
+        "title": "Count Unicode characters in structured-output length checks",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
+        "createdAt": "2026-10-04T20:19:38Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 113,
+        "deletions": 4,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -327,34 +355,6 @@
         "isDraft": false,
         "additions": 141,
         "deletions": 3,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 90,
-        "title": "Preserve compaction replacement values and explicit nulls",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/90",
-        "createdAt": "2026-10-04T21:40:48Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 106,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 88,
-        "title": "Count Unicode characters in structured-output length checks",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
-        "createdAt": "2026-10-04T20:19:38Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 113,
-        "deletions": 4,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -461,20 +461,20 @@
     "first_time_30d": 2,
     "retention_rate_pct": 55.6,
     "churned_30d": 4,
-    "commits_per_week_avg": 24.4,
+    "commits_per_week_avg": 23.5,
     "commits_per_week_trend": [
-      19,
-      4,
-      0,
+      10,
+      2,
       8,
-      30,
-      22,
-      36,
-      23,
-      30,
+      10,
+      24,
+      18,
+      42,
+      21,
+      28,
       37,
-      49,
-      35
+      51,
+      31
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -681,9 +681,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 48096,
-    "total": 2320216,
-    "last_week": 294810,
-    "last_month": 895996
+    "daily": 49572,
+    "total": 2332479,
+    "last_week": 296286,
+    "last_month": 897472
   }
 }
