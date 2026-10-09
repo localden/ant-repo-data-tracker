@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-09T03:38:21.942Z",
+  "timestamp": "2026-10-09T11:07:06.440Z",
   "repository": {
     "stars": 189,
     "forks": 56
@@ -60,6 +60,36 @@
         "assignees": []
       },
       {
+        "number": 95,
+        "title": "Structured-output parsing accepts JSON arrays as empty model instances",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/95",
+        "createdAt": "2026-10-05T10:21:58Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 93,
+        "title": "Nested structured-output fields ignore their Constrained descriptions",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
+        "createdAt": "2026-10-05T08:33:56Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 91,
+        "title": "MessageAccumulator turns nested empty tool-input objects into arrays",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/91",
+        "createdAt": "2026-10-05T07:14:26Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 89,
         "title": "Compaction accumulation concatenates replacement summaries and loses explicit nulls",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/89",
@@ -104,36 +134,6 @@
         "title": "Integer multipleOf validation rounds large values before checking divisibility",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/97",
         "createdAt": "2026-10-05T11:41:15Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 95,
-        "title": "Structured-output parsing accepts JSON arrays as empty model instances",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/95",
-        "createdAt": "2026-10-05T10:21:58Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 93,
-        "title": "Nested structured-output fields ignore their Constrained descriptions",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
-        "createdAt": "2026-10-05T08:33:56Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 91,
-        "title": "MessageAccumulator turns nested empty tool-input objects into arrays",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/91",
-        "createdAt": "2026-10-05T07:14:26Z",
         "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
@@ -210,7 +210,7 @@
         "title": "examples: add tool use, multi-turn, thinking, and vision examples",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/22",
         "createdAt": "2026-03-25T07:02:13Z",
-        "daysOpen": 197,
+        "daysOpen": 198,
         "labels": [],
         "isDraft": false,
         "additions": 442,
@@ -271,6 +271,48 @@
         "isDraft": false,
         "additions": 132,
         "deletions": 8,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 96,
+        "title": "fix(parse): reject array roots for structured-output models",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/96",
+        "createdAt": "2026-10-05T10:22:05Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 105,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 94,
+        "title": "Preserve descriptions on nested structured-output fields",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/94",
+        "createdAt": "2026-10-05T08:34:02Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 83,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 92,
+        "title": "Preserve empty objects in streamed tool arguments",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/92",
+        "createdAt": "2026-10-05T07:14:32Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 141,
+        "deletions": 3,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -341,48 +383,6 @@
         "isDraft": false,
         "additions": 136,
         "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 96,
-        "title": "fix(parse): reject array roots for structured-output models",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/96",
-        "createdAt": "2026-10-05T10:22:05Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 105,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 94,
-        "title": "Preserve descriptions on nested structured-output fields",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/94",
-        "createdAt": "2026-10-05T08:34:02Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 83,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 92,
-        "title": "Preserve empty objects in streamed tool arguments",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/92",
-        "createdAt": "2026-10-05T07:14:32Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 141,
-        "deletions": 3,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -472,9 +472,9 @@
       41,
       21,
       30,
-      35,
-      52,
-      30
+      38,
+      50,
+      29
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -681,9 +681,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 45447,
-    "total": 2338316,
-    "last_week": 301102,
-    "last_month": 915971
+    "daily": 43655,
+    "total": 2351114,
+    "last_week": 299310,
+    "last_month": 914179
   }
 }
