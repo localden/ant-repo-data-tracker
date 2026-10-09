@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T22:41:42.890Z",
+  "timestamp": "2026-10-09T03:36:10.130Z",
   "repository": {
     "stars": 379,
     "forks": 106
@@ -43,6 +43,16 @@
         "assignees": []
       },
       {
+        "number": 415,
+        "title": "A rejected streaming executor leaves completion pending and the response open",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/415",
+        "createdAt": "2026-10-04T00:30:21Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 413,
         "title": "A leading UTF-8 BOM hides the first SSE event or error",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/413",
@@ -63,6 +73,16 @@
         "assignees": []
       },
       {
+        "number": 421,
+        "title": "MCP tool conversion drops explicit additionalProperties restrictions",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/421",
+        "createdAt": "2026-10-04T22:55:47Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 419,
         "title": "MCP tool input conversion rounds decimals and overflows or underflows exponents",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/419",
@@ -77,16 +97,6 @@
         "title": "Partial compaction deltas erase accumulated summaries or encrypted metadata",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/417",
         "createdAt": "2026-10-04T20:47:05Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 415,
-        "title": "A rejected streaming executor leaves completion pending and the response open",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/415",
-        "createdAt": "2026-10-04T00:30:21Z",
         "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
@@ -117,16 +127,6 @@
         "title": "MCP tool errors with only structuredContent lose their diagnostic payload",
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/423",
         "createdAt": "2026-10-05T08:04:16Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 421,
-        "title": "MCP tool conversion drops explicit additionalProperties restrictions",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/421",
-        "createdAt": "2026-10-04T22:55:47Z",
         "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
@@ -176,13 +176,27 @@
         "title": "fix(client): add GraalVM Native Image reachability metadata",
         "url": "https://github.com/anthropics/anthropic-sdk-java/pull/407",
         "createdAt": "2026-09-27T22:50:18Z",
-        "daysOpen": 10,
+        "daysOpen": 11,
         "labels": [],
         "isDraft": false,
         "additions": 184,
         "deletions": 0,
         "reviewCount": 0,
         "author": "katinguengan",
+        "assignees": []
+      },
+      {
+        "number": 416,
+        "title": "fix(streaming): settle responses when the callback executor rejects work",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/416",
+        "createdAt": "2026-10-04T00:34:54Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 180,
+        "deletions": 33,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -214,6 +228,20 @@
         "assignees": []
       },
       {
+        "number": 422,
+        "title": "Preserve additionalProperties in converted MCP tool schemas",
+        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/422",
+        "createdAt": "2026-10-04T22:55:53Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 85,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 420,
         "title": "Preserve decimal precision in MCP tool arguments",
         "url": "https://github.com/anthropics/anthropic-sdk-java/pull/420",
@@ -237,20 +265,6 @@
         "isDraft": false,
         "additions": 136,
         "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 416,
-        "title": "fix(streaming): settle responses when the callback executor rejects work",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/416",
-        "createdAt": "2026-10-04T00:34:54Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 180,
-        "deletions": 33,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -296,20 +310,6 @@
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
-      },
-      {
-        "number": 422,
-        "title": "Preserve additionalProperties in converted MCP tool schemas",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/422",
-        "createdAt": "2026-10-04T22:55:53Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 85,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -352,9 +352,9 @@
       21,
       26,
       28,
-      24,
+      26,
       39,
-      34,
+      32,
       56,
       24
     ],

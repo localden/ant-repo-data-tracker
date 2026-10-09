@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-08T22:44:06.810Z",
+  "timestamp": "2026-10-09T03:38:21.942Z",
   "repository": {
     "stars": 189,
     "forks": 56
@@ -24,7 +24,7 @@
         "title": "List-type query params are serialised as types[0]= instead of types[]=, causing a 400",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/67",
         "createdAt": "2026-08-10T23:47:29Z",
-        "daysOpen": 58,
+        "daysOpen": 59,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -80,6 +80,26 @@
         "assignees": []
       },
       {
+        "number": 101,
+        "title": "MCP media-type variations reject valid images and skip earlier supported resources",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/101",
+        "createdAt": "2026-10-05T23:57:46Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 99,
+        "title": "MCP tools discard structuredContent when an error has no content blocks",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/99",
+        "createdAt": "2026-10-05T23:05:21Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 97,
         "title": "Integer multipleOf validation rounds large values before checking divisibility",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/97",
@@ -120,6 +140,16 @@
         "assignees": []
       },
       {
+        "number": 107,
+        "title": "PHPDoc model arrays generate nested schemas but hydrate as plain arrays",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/107",
+        "createdAt": "2026-10-06T23:54:09Z",
+        "daysOpen": 2,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 105,
         "title": "Empty structured-output models generate properties as a JSON array",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/105",
@@ -135,36 +165,6 @@
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/103",
         "createdAt": "2026-10-06T11:20:45Z",
         "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 101,
-        "title": "MCP media-type variations reject valid images and skip earlier supported resources",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/101",
-        "createdAt": "2026-10-05T23:57:46Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 99,
-        "title": "MCP tools discard structuredContent when an error has no content blocks",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/99",
-        "createdAt": "2026-10-05T23:05:21Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 107,
-        "title": "PHPDoc model arrays generate nested schemas but hydrate as plain arrays",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/107",
-        "createdAt": "2026-10-06T23:54:09Z",
-        "daysOpen": 1,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -304,6 +304,34 @@
         "assignees": []
       },
       {
+        "number": 102,
+        "title": "Normalize MCP media types before selecting supported resources",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/102",
+        "createdAt": "2026-10-05T23:59:11Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 115,
+        "deletions": 5,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 100,
+        "title": "fix(mcp): retain structured-only tool error details",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/100",
+        "createdAt": "2026-10-05T23:05:29Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 96,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 98,
         "title": "fix(parse): preserve integer precision in multipleOf validation",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/98",
@@ -388,39 +416,11 @@
         "assignees": []
       },
       {
-        "number": 102,
-        "title": "Normalize MCP media types before selecting supported resources",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/102",
-        "createdAt": "2026-10-05T23:59:11Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 115,
-        "deletions": 5,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 100,
-        "title": "fix(mcp): retain structured-only tool error details",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/100",
-        "createdAt": "2026-10-05T23:05:29Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 96,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 108,
         "title": "Hydrate PHPDoc-declared arrays as structured models",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/108",
         "createdAt": "2026-10-06T23:54:19Z",
-        "daysOpen": 1,
+        "daysOpen": 2,
         "labels": [],
         "isDraft": false,
         "additions": 136,
@@ -468,13 +468,13 @@
       8,
       10,
       24,
-      18,
-      42,
+      19,
+      41,
       21,
-      28,
-      37,
-      51,
-      31
+      30,
+      35,
+      52,
+      30
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -681,9 +681,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 49572,
-    "total": 2332479,
-    "last_week": 296286,
-    "last_month": 897472
+    "daily": 45447,
+    "total": 2338316,
+    "last_week": 301102,
+    "last_month": 915971
   }
 }
