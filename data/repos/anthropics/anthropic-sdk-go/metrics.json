@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-10-09T11:03:19.960Z",
+  "timestamp": "2026-10-09T17:44:32.285Z",
   "repository": {
-    "stars": 1216,
-    "forks": 214
+    "stars": 1217,
+    "forks": 215
   },
   "issues": {
     "open_count": 29,
     "closed_7d": 0,
     "closed_30d": 1,
-    "closed_90d": 51,
+    "closed_90d": 50,
     "opened_7d": 13,
     "opened_30d": 13,
     "opened_90d": 27,
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 240,
+        "daysOpen": 241,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -46,7 +46,7 @@
         "title": "Tests fail on i386 (32 bit)",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/304",
         "createdAt": "2026-03-25T12:18:28Z",
-        "daysOpen": 197,
+        "daysOpen": 198,
         "labels": [
           "sdk"
         ],
@@ -58,7 +58,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 181,
+        "daysOpen": 182,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -68,7 +68,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 163,
+        "daysOpen": 164,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -178,7 +178,7 @@
         "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
         "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 47,
+        "daysOpen": 48,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -254,6 +254,26 @@
         "assignees": []
       },
       {
+        "number": 474,
+        "title": "Failed fallback attempts replace the last successful conversation route",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/474",
+        "createdAt": "2026-10-06T15:10:08Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 472,
+        "title": "Tool-runner constructors discard plain and server tool definitions from params",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/472",
+        "createdAt": "2026-10-06T11:18:45Z",
+        "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 470,
         "title": "Streaming refusal fallback swallows cancellation and deadline errors",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/470",
@@ -292,26 +312,6 @@
         "labels": [],
         "commentCount": 0,
         "assignees": []
-      },
-      {
-        "number": 474,
-        "title": "Failed fallback attempts replace the last successful conversation route",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/474",
-        "createdAt": "2026-10-06T15:10:08Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 472,
-        "title": "Tool-runner constructors discard plain and server tool definitions from params",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/472",
-        "createdAt": "2026-10-06T11:18:45Z",
-        "daysOpen": 2,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
       }
     ],
     "by_label": {
@@ -324,9 +324,9 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 230.2,
-      "median_days": 175.8,
-      "p90_days": 516.9
+      "avg_days": 234.7,
+      "median_days": 178.2,
+      "p90_days": 518.9
     },
     "label_coverage_pct": 6.9,
     "unlabeled_count": 27,
@@ -336,17 +336,17 @@
     "reopen_rate": 0.02
   },
   "pulls": {
-    "open_count": 40,
+    "open_count": 41,
     "merged_7d": 1,
     "merged_30d": 8,
     "merged_90d": 26,
-    "opened_7d": 14,
-    "opened_30d": 24,
-    "opened_90d": 58,
+    "opened_7d": 15,
+    "opened_30d": 25,
+    "opened_90d": 59,
     "closed_not_merged_90d": 37,
-    "draft_count": 0,
+    "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 40,
+    "unassigned_count": 41,
     "unassigned_24h": 40,
     "unassigned_7d": 27,
     "assigned_prs": [],
@@ -426,7 +426,7 @@
         "title": "Fix ToolResultBlockParam to support both string and array content",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
         "createdAt": "2026-03-17T14:19:08Z",
-        "daysOpen": 205,
+        "daysOpen": 206,
         "labels": [],
         "isDraft": false,
         "additions": 366,
@@ -440,7 +440,7 @@
         "title": "fix(bedrock): handle EOF consistently, fix stale events, and surface exceptions",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/303",
         "createdAt": "2026-03-25T11:14:51Z",
-        "daysOpen": 197,
+        "daysOpen": 198,
         "labels": [],
         "isDraft": false,
         "additions": 43,
@@ -454,7 +454,7 @@
         "title": "fix: preserve code_execution_result fields during union round-trip unmarshaling",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/330",
         "createdAt": "2026-04-28T12:28:27Z",
-        "daysOpen": 163,
+        "daysOpen": 164,
         "labels": [],
         "isDraft": false,
         "additions": 189,
@@ -604,6 +604,20 @@
         "assignees": []
       },
       {
+        "number": 430,
+        "title": "fix(bedrock): ignore SSO OIDC tokens as Bedrock API keys",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/430",
+        "createdAt": "2026-09-01T12:36:13Z",
+        "daysOpen": 38,
+        "labels": [],
+        "isDraft": false,
+        "additions": 222,
+        "deletions": 16,
+        "reviewCount": 1,
+        "author": "varunmahajan1",
+        "assignees": []
+      },
+      {
         "number": 428,
         "title": "fix(bedrock): return AWS config load errors",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/428",
@@ -632,29 +646,29 @@
         "assignees": []
       },
       {
-        "number": 430,
-        "title": "fix(bedrock): ignore SSO OIDC tokens as Bedrock API keys",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/430",
-        "createdAt": "2026-09-01T12:36:13Z",
+        "number": 432,
+        "title": "fix(client): escape path parameters so IDs cannot change the request URL",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/432",
+        "createdAt": "2026-09-02T13:08:46Z",
         "daysOpen": 37,
         "labels": [],
         "isDraft": false,
-        "additions": 222,
-        "deletions": 16,
+        "additions": 534,
+        "deletions": 152,
         "reviewCount": 1,
         "author": "varunmahajan1",
         "assignees": []
       },
       {
-        "number": 432,
-        "title": "fix(client): escape path parameters so IDs cannot change the request URL",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/432",
-        "createdAt": "2026-09-02T13:08:46Z",
-        "daysOpen": 36,
+        "number": 431,
+        "title": "fix(tools): bound bash Close wait so setsid cannot hang",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/431",
+        "createdAt": "2026-09-02T13:01:56Z",
+        "daysOpen": 37,
         "labels": [],
         "isDraft": false,
-        "additions": 534,
-        "deletions": 152,
+        "additions": 148,
+        "deletions": 4,
         "reviewCount": 1,
         "author": "varunmahajan1",
         "assignees": []
@@ -671,20 +685,6 @@
         "deletions": 3,
         "reviewCount": 0,
         "author": "pentaoa",
-        "assignees": []
-      },
-      {
-        "number": 431,
-        "title": "fix(tools): bound bash Close wait so setsid cannot hang",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/431",
-        "createdAt": "2026-09-02T13:01:56Z",
-        "daysOpen": 36,
-        "labels": [],
-        "isDraft": false,
-        "additions": 148,
-        "deletions": 4,
-        "reviewCount": 1,
-        "author": "varunmahajan1",
         "assignees": []
       },
       {
@@ -706,7 +706,7 @@
         "title": "fix(sdk): keep $defs when a $ref node is transformed",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/442",
         "createdAt": "2026-09-19T15:36:00Z",
-        "daysOpen": 19,
+        "daysOpen": 20,
         "labels": [],
         "isDraft": false,
         "additions": 136,
@@ -720,7 +720,7 @@
         "title": "Continue pagination through empty pages with cursors",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/444",
         "createdAt": "2026-09-23T14:26:05Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "isDraft": false,
         "additions": 188,
@@ -828,6 +828,34 @@
         "assignees": []
       },
       {
+        "number": 475,
+        "title": "Pin fallback routes only after a model successfully responds",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/475",
+        "createdAt": "2026-10-06T15:10:15Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 183,
+        "deletions": 23,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 473,
+        "title": "Preserve configured tool definitions when creating tool runners",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/473",
+        "createdAt": "2026-10-06T11:18:52Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 109,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 471,
         "title": "Preserve cancellation errors during streaming fallback",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/471",
@@ -884,31 +912,17 @@
         "assignees": []
       },
       {
-        "number": 475,
-        "title": "Pin fallback routes only after a model successfully responds",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/475",
-        "createdAt": "2026-10-06T15:10:15Z",
-        "daysOpen": 2,
+        "number": 477,
+        "title": "fix(middleware): preserve serving-hop usage iterations",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/477",
+        "createdAt": "2026-10-09T14:00:50Z",
+        "daysOpen": 0,
         "labels": [],
-        "isDraft": false,
-        "additions": 183,
-        "deletions": 23,
+        "isDraft": true,
+        "additions": 145,
+        "deletions": 19,
         "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 473,
-        "title": "Preserve configured tool definitions when creating tool runners",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/473",
-        "createdAt": "2026-10-06T11:18:52Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 109,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
+        "author": "Afloat16",
         "assignees": []
       }
     ],
@@ -933,35 +947,36 @@
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 14,
-      "medium": 24,
+      "medium": 25,
       "large": 2
     }
   },
   "contributors": {
-    "total_known": 129,
-    "active_30d": 10,
-    "first_time_30d": 4,
-    "retention_rate_pct": 37.5,
-    "churned_30d": 10,
-    "commits_per_week_avg": 22.2,
+    "total_known": 130,
+    "active_30d": 12,
+    "first_time_30d": 5,
+    "retention_rate_pct": 43.8,
+    "churned_30d": 9,
+    "commits_per_week_avg": 23.3,
     "commits_per_week_trend": [
-      15,
-      2,
+      17,
+      0,
       10,
       14,
       18,
       25,
-      23,
-      18,
-      34,
-      36,
+      24,
+      20,
+      38,
+      30,
       54,
-      17
+      29
     ],
     "allContributors": [
       "00200200",
       "17twenty",
       "Aaravanand00",
+      "Afloat16",
       "Anos995",
       "FFengIll",
       "FamousMai",
@@ -1091,6 +1106,7 @@
     ],
     "previousPeriodContributors": [
       "00200200",
+      "Afloat16",
       "craigie-ant",
       "dtmeadows-ant",
       "feiiiiii5",
@@ -1099,7 +1115,8 @@
       "meorphis-anthropic",
       "sophie-ant",
       "stainless-app",
-      "sylvesterkaczmarek"
+      "sylvesterkaczmarek",
+      "tomer-ant"
     ]
   },
   "hotspots": {
