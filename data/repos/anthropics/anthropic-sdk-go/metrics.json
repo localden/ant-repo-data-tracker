@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-09T17:44:32.285Z",
+  "timestamp": "2026-10-09T22:01:58.056Z",
   "repository": {
     "stars": 1217,
     "forks": 215
@@ -108,7 +108,7 @@
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
         "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 85,
+        "daysOpen": 86,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -138,7 +138,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 52,
+        "daysOpen": 53,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 52,
+        "daysOpen": 53,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -158,7 +158,7 @@
         "title": "bedrock.WithLoadDefaultConfig panics on ordinary AWS config failures (unknown profile, no SSO cache), so a CLI answers a login prompt with a stack trace",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/416",
         "createdAt": "2026-08-18T20:37:20Z",
-        "daysOpen": 51,
+        "daysOpen": 52,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -184,6 +184,36 @@
         "assignees": []
       },
       {
+        "number": 450,
+        "title": "GA content-block replay panics on unknown response variants",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/450",
+        "createdAt": "2026-10-03T19:45:04Z",
+        "daysOpen": 6,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 458,
+        "title": "MCP tool forwarding rounds numeric arguments before the server receives them",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/458",
+        "createdAt": "2026-10-04T21:16:46Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 456,
+        "title": "Schema conversion drops oneOf when the same node already has anyOf",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/456",
+        "createdAt": "2026-10-04T19:40:53Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 454,
         "title": "A leading UTF-8 BOM hides the first streamed message event or error",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/454",
@@ -204,11 +234,21 @@
         "assignees": []
       },
       {
-        "number": 450,
-        "title": "GA content-block replay panics on unknown response variants",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/450",
-        "createdAt": "2026-10-03T19:45:04Z",
-        "daysOpen": 5,
+        "number": 466,
+        "title": "Compaction deltas can revive cleared values when accumulated messages are replayed",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/466",
+        "createdAt": "2026-10-05T21:36:30Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 464,
+        "title": "SSE decoding drops CR-only streams and can merge events with mixed line endings",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/464",
+        "createdAt": "2026-10-05T18:09:12Z",
+        "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -228,26 +268,6 @@
         "title": "MCP adapter discards structured-only error details",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/460",
         "createdAt": "2026-10-05T07:14:45Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 458,
-        "title": "MCP tool forwarding rounds numeric arguments before the server receives them",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/458",
-        "createdAt": "2026-10-04T21:16:46Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 456,
-        "title": "Schema conversion drops oneOf when the same node already has anyOf",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/456",
-        "createdAt": "2026-10-04T19:40:53Z",
         "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
@@ -288,26 +308,6 @@
         "title": "MCP content conversion rejects equivalent media types and skips supported resources",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/468",
         "createdAt": "2026-10-05T23:35:49Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 466,
-        "title": "Compaction deltas can revive cleared values when accumulated messages are replayed",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/466",
-        "createdAt": "2026-10-05T21:36:30Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 464,
-        "title": "SSE decoding drops CR-only streams and can merge events with mixed line endings",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/464",
-        "createdAt": "2026-10-05T18:09:12Z",
         "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
@@ -356,7 +356,7 @@
         "title": "Fix JSON marshaling for custom content citations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/225",
         "createdAt": "2025-08-21T22:00:17Z",
-        "daysOpen": 413,
+        "daysOpen": 414,
         "labels": [],
         "isDraft": false,
         "additions": 413,
@@ -552,7 +552,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 85,
+        "daysOpen": 86,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -660,6 +660,20 @@
         "assignees": []
       },
       {
+        "number": 434,
+        "title": "fix(json): encode standard library Number values",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
+        "createdAt": "2026-09-02T17:52:10Z",
+        "daysOpen": 37,
+        "labels": [],
+        "isDraft": false,
+        "additions": 30,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "pentaoa",
+        "assignees": []
+      },
+      {
         "number": 431,
         "title": "fix(tools): bound bash Close wait so setsid cannot hang",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/431",
@@ -671,20 +685,6 @@
         "deletions": 4,
         "reviewCount": 1,
         "author": "varunmahajan1",
-        "assignees": []
-      },
-      {
-        "number": 434,
-        "title": "fix(json): encode standard library Number values",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
-        "createdAt": "2026-09-02T17:52:10Z",
-        "daysOpen": 36,
-        "labels": [],
-        "isDraft": false,
-        "additions": 30,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "pentaoa",
         "assignees": []
       },
       {
@@ -730,6 +730,48 @@
         "assignees": []
       },
       {
+        "number": 451,
+        "title": "fix(streaming): preserve unknown GA content blocks in replay",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/451",
+        "createdAt": "2026-10-03T19:47:47Z",
+        "daysOpen": 6,
+        "labels": [],
+        "isDraft": false,
+        "additions": 152,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 459,
+        "title": "fix(mcp): preserve numeric tool arguments without float64 conversion",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/459",
+        "createdAt": "2026-10-04T21:16:52Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 130,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 457,
+        "title": "Preserve sibling union constraints during schema conversion",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/457",
+        "createdAt": "2026-10-04T19:40:58Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 149,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 455,
         "title": "fix(streaming): ignore an initial UTF-8 BOM in SSE",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/455",
@@ -758,15 +800,29 @@
         "assignees": []
       },
       {
-        "number": 451,
-        "title": "fix(streaming): preserve unknown GA content blocks in replay",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/451",
-        "createdAt": "2026-10-03T19:47:47Z",
-        "daysOpen": 5,
+        "number": 467,
+        "title": "Preserve nullable compaction updates in streamed message replay",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/467",
+        "createdAt": "2026-10-05T21:36:36Z",
+        "daysOpen": 4,
         "labels": [],
         "isDraft": false,
-        "additions": 152,
-        "deletions": 1,
+        "additions": 135,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 465,
+        "title": "fix(streaming): handle CR and mixed SSE line endings",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/465",
+        "createdAt": "2026-10-05T18:09:17Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 122,
+        "deletions": 0,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -795,34 +851,6 @@
         "isDraft": false,
         "additions": 131,
         "deletions": 17,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 459,
-        "title": "fix(mcp): preserve numeric tool arguments without float64 conversion",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/459",
-        "createdAt": "2026-10-04T21:16:52Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 130,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 457,
-        "title": "Preserve sibling union constraints during schema conversion",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/457",
-        "createdAt": "2026-10-04T19:40:58Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 149,
-        "deletions": 2,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -884,34 +912,6 @@
         "assignees": []
       },
       {
-        "number": 467,
-        "title": "Preserve nullable compaction updates in streamed message replay",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/467",
-        "createdAt": "2026-10-05T21:36:36Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 135,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 465,
-        "title": "fix(streaming): handle CR and mixed SSE line endings",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/465",
-        "createdAt": "2026-10-05T18:09:17Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 122,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 477,
         "title": "fix(middleware): preserve serving-hop usage iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/477",
@@ -919,8 +919,8 @@
         "daysOpen": 0,
         "labels": [],
         "isDraft": true,
-        "additions": 145,
-        "deletions": 19,
+        "additions": 153,
+        "deletions": 20,
         "reviewCount": 0,
         "author": "Afloat16",
         "assignees": []
@@ -965,12 +965,12 @@
       14,
       18,
       25,
-      24,
-      20,
-      38,
-      30,
-      54,
-      29
+      26,
+      18,
+      41,
+      29,
+      53,
+      28
     ],
     "allContributors": [
       "00200200",

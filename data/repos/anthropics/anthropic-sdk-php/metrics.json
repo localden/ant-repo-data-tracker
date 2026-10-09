@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-09T17:48:10.805Z",
+  "timestamp": "2026-10-09T22:05:17.309Z",
   "repository": {
     "stars": 189,
     "forks": 56
@@ -40,20 +40,40 @@
         "assignees": []
       },
       {
-        "number": 85,
-        "title": "Closing an unread SSE or JSONL stream starts reading its body",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/85",
-        "createdAt": "2026-10-03T22:06:52Z",
+        "number": 83,
+        "title": "Bedrock decoded response streams ignore the requested read length",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/83",
+        "createdAt": "2026-10-03T20:55:17Z",
+        "daysOpen": 6,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 89,
+        "title": "Compaction accumulation concatenates replacement summaries and loses explicit nulls",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/89",
+        "createdAt": "2026-10-04T21:40:42Z",
         "daysOpen": 5,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 83,
-        "title": "Bedrock decoded response streams ignore the requested read length",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/83",
-        "createdAt": "2026-10-03T20:55:17Z",
+        "number": 87,
+        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
+        "createdAt": "2026-10-04T20:19:31Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 85,
+        "title": "Closing an unread SSE or JSONL stream starts reading its body",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/85",
+        "createdAt": "2026-10-03T22:06:52Z",
         "daysOpen": 5,
         "labels": [],
         "commentCount": 0,
@@ -94,26 +114,6 @@
         "title": "MessageAccumulator turns nested empty tool-input objects into arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/91",
         "createdAt": "2026-10-05T07:14:26Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 89,
-        "title": "Compaction accumulation concatenates replacement summaries and loses explicit nulls",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/89",
-        "createdAt": "2026-10-04T21:40:42Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 87,
-        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
-        "createdAt": "2026-10-04T20:19:31Z",
         "daysOpen": 4,
         "labels": [],
         "commentCount": 0,
@@ -238,13 +238,55 @@
         "title": "fix(client): serialize list query params with empty brackets",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/69",
         "createdAt": "2026-08-17T18:24:50Z",
-        "daysOpen": 52,
+        "daysOpen": 53,
         "labels": [],
         "isDraft": false,
         "additions": 161,
         "deletions": 5,
         "reviewCount": 2,
         "author": "pravinireri",
+        "assignees": []
+      },
+      {
+        "number": 84,
+        "title": "fix(bedrock): honor decoded stream read limits",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/84",
+        "createdAt": "2026-10-03T21:01:58Z",
+        "daysOpen": 6,
+        "labels": [],
+        "isDraft": false,
+        "additions": 132,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 90,
+        "title": "Preserve compaction replacement values and explicit nulls",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/90",
+        "createdAt": "2026-10-04T21:40:48Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 106,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 88,
+        "title": "Count Unicode characters in structured-output length checks",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
+        "createdAt": "2026-10-04T20:19:38Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 113,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -257,20 +299,6 @@
         "isDraft": false,
         "additions": 139,
         "deletions": 3,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 84,
-        "title": "fix(bedrock): honor decoded stream read limits",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/84",
-        "createdAt": "2026-10-03T21:01:58Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 132,
-        "deletions": 8,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -327,34 +355,6 @@
         "isDraft": false,
         "additions": 141,
         "deletions": 3,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 90,
-        "title": "Preserve compaction replacement values and explicit nulls",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/90",
-        "createdAt": "2026-10-04T21:40:48Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 106,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 88,
-        "title": "Count Unicode characters in structured-output length checks",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
-        "createdAt": "2026-10-04T20:19:38Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 113,
-        "deletions": 4,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -466,15 +466,15 @@
       12,
       0,
       8,
-      13,
-      21,
-      20,
-      43,
-      21,
-      33,
-      33,
-      49,
-      45
+      14,
+      22,
+      19,
+      45,
+      18,
+      37,
+      31,
+      48,
+      44
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -682,9 +682,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 47730,
-    "total": 2368876,
-    "last_week": 303385,
-    "last_month": 918254
+    "daily": 47712,
+    "total": 2377227,
+    "last_week": 303367,
+    "last_month": 918236
   }
 }
