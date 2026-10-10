@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-10T07:58:20.924Z",
+  "timestamp": "2026-10-10T14:10:21.182Z",
   "repository": {
     "stars": 372,
     "forks": 74
@@ -80,6 +80,36 @@
         "assignees": []
       },
       {
+        "number": 259,
+        "title": "An in-flight token refresh restores the cache after invalidate",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/259",
+        "createdAt": "2026-10-05T10:57:29Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 257,
+        "title": "MCP tool errors discard structuredContent when the content array is empty",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/257",
+        "createdAt": "2026-10-05T10:22:21Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 255,
+        "title": "Schema transformer computes oneOf replacement without updating the schema",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/255",
+        "createdAt": "2026-10-05T08:04:06Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 253,
         "title": "Supported format or minItems skips transformation of sibling constraints",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/253",
@@ -110,6 +140,16 @@
         "assignees": []
       },
       {
+        "number": 265,
+        "title": "Streaming fallback replays the empty compaction shell instead of the completed block",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/265",
+        "createdAt": "2026-10-06T09:24:54Z",
+        "daysOpen": 4,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 263,
         "title": "MCP helpers reject supported media types with capitalization or parameters",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/263",
@@ -130,50 +170,10 @@
         "assignees": []
       },
       {
-        "number": 259,
-        "title": "An in-flight token refresh restores the cache after invalidate",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/259",
-        "createdAt": "2026-10-05T10:57:29Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 257,
-        "title": "MCP tool errors discard structuredContent when the content array is empty",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/257",
-        "createdAt": "2026-10-05T10:22:21Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 255,
-        "title": "Schema transformer computes oneOf replacement without updating the schema",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/255",
-        "createdAt": "2026-10-05T08:04:06Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 267,
         "title": "Valid null compaction fields become unreadable during message streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/267",
         "createdAt": "2026-10-06T15:11:13Z",
-        "daysOpen": 3,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 265,
-        "title": "Streaming fallback replays the empty compaction shell instead of the completed block",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/265",
-        "createdAt": "2026-10-06T09:24:54Z",
         "daysOpen": 3,
         "labels": [],
         "commentCount": 0,
@@ -234,7 +234,7 @@
         "title": "fix(files): infer document upload content types",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/198",
         "createdAt": "2026-05-30T09:20:46Z",
-        "daysOpen": 132,
+        "daysOpen": 133,
         "labels": [],
         "isDraft": false,
         "additions": 37,
@@ -248,7 +248,7 @@
         "title": "fix(packaging): add gem changelog URI",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/239",
         "createdAt": "2026-09-23T12:28:44Z",
-        "daysOpen": 16,
+        "daysOpen": 17,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -300,6 +300,48 @@
         "assignees": []
       },
       {
+        "number": 260,
+        "title": "Preserve token invalidation across in-flight refreshes",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/260",
+        "createdAt": "2026-10-05T10:57:35Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 128,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 258,
+        "title": "fix(mcp): preserve structured-only tool error details",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/258",
+        "createdAt": "2026-10-05T10:22:28Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 84,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 256,
+        "title": "Apply oneOf conversion to the schema tree",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/256",
+        "createdAt": "2026-10-05T08:04:12Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 104,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 254,
         "title": "Transform sibling constraints alongside supported schema keywords",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/254",
@@ -342,6 +384,20 @@
         "assignees": []
       },
       {
+        "number": 266,
+        "title": "Replay complete compaction blocks during streaming fallback",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/266",
+        "createdAt": "2026-10-06T09:25:01Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 99,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 264,
         "title": "Normalize MCP media types before converting content",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/264",
@@ -370,48 +426,6 @@
         "assignees": []
       },
       {
-        "number": 260,
-        "title": "Preserve token invalidation across in-flight refreshes",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/260",
-        "createdAt": "2026-10-05T10:57:35Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 128,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 258,
-        "title": "fix(mcp): preserve structured-only tool error details",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/258",
-        "createdAt": "2026-10-05T10:22:28Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 84,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 256,
-        "title": "Apply oneOf conversion to the schema tree",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/256",
-        "createdAt": "2026-10-05T08:04:12Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 104,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 268,
         "title": "Preserve null and omitted fields in streamed compaction blocks",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/268",
@@ -421,20 +435,6 @@
         "isDraft": false,
         "additions": 106,
         "deletions": 5,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 266,
-        "title": "Replay complete compaction blocks during streaming fallback",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/266",
-        "createdAt": "2026-10-06T09:25:01Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 99,
-        "deletions": 0,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -480,8 +480,8 @@
       23,
       32,
       32,
-      24,
-      38,
+      27,
+      35,
       30,
       46,
       27
@@ -700,9 +700,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 5715,
-    "total": 3852138,
-    "last_week": 166607,
-    "last_month": 629681
+    "daily": 7444,
+    "total": 3853867,
+    "last_week": 168336,
+    "last_month": 631410
   }
 }
