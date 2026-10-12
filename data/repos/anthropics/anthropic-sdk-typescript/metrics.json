@@ -1,19 +1,19 @@
 {
-  "timestamp": "2026-10-11T21:13:59.837Z",
+  "timestamp": "2026-10-12T00:51:06.661Z",
   "repository": {
     "stars": 2136,
     "forks": 421
   },
   "issues": {
-    "open_count": 33,
+    "open_count": 35,
     "closed_7d": 0,
     "closed_30d": 2,
     "closed_90d": 54,
-    "opened_7d": 8,
-    "opened_30d": 14,
-    "opened_90d": 27,
+    "opened_7d": 10,
+    "opened_30d": 16,
+    "opened_90d": 29,
     "assigned_count": 0,
-    "unassigned_count": 33,
+    "unassigned_count": 35,
     "unassigned_24h": 33,
     "unassigned_7d": 25,
     "unassigned_30d": 20,
@@ -36,7 +36,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 525,
+        "daysOpen": 526,
         "labels": [
           "code-change"
         ],
@@ -192,7 +192,7 @@
         "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
         "createdAt": "2026-08-24T23:27:13Z",
-        "daysOpen": 47,
+        "daysOpen": 48,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -212,7 +212,7 @@
         "title": "BetaLocalFilesystemMemoryTool: rename of the /memories root is not rejected, and unmapped filesystem errors (EINVAL, ENOTDIR) expose the host path to the model",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1182",
         "createdAt": "2026-09-09T23:28:18Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -222,7 +222,7 @@
         "title": "Memory tool: two edits to one file in the same turn silently lose one (BetaToolRunner runs tool calls concurrently; BetaLocalFilesystemMemoryTool has no serialization)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1181",
         "createdAt": "2026-09-09T23:27:28Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -232,7 +232,7 @@
         "title": "BetaLocalFilesystemMemoryTool.str_replace: a multi-line old_str never matches, and an omitted new_str writes the word \"undefined\"",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1180",
         "createdAt": "2026-09-09T23:27:27Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -258,6 +258,16 @@
         "assignees": []
       },
       {
+        "number": 1236,
+        "title": "Replayed preview starts overwrite completed managed-agent messages",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1236",
+        "createdAt": "2026-10-03T23:30:47Z",
+        "daysOpen": 8,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1234,
         "title": "Late preview deltas modify authoritative managed-agent messages",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1234",
@@ -278,11 +288,11 @@
         "assignees": []
       },
       {
-        "number": 1236,
-        "title": "Replayed preview starts overwrite completed managed-agent messages",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1236",
-        "createdAt": "2026-10-03T23:30:47Z",
-        "daysOpen": 7,
+        "number": 1249,
+        "title": "Streaming fallback middleware retains abort listeners after completion and cancellation",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1249",
+        "createdAt": "2026-10-05T23:04:14Z",
+        "daysOpen": 6,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -318,6 +328,16 @@
         "assignees": []
       },
       {
+        "number": 1255,
+        "title": "setMessagesParams lets the tool runner append turns into caller-owned history arrays",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1255",
+        "createdAt": "2026-10-06T23:56:32Z",
+        "daysOpen": 5,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1253,
         "title": "MessageStream.emitted promises remain pending after the stream is aborted",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1253",
@@ -338,31 +358,31 @@
         "assignees": []
       },
       {
-        "number": 1249,
-        "title": "Streaming fallback middleware retains abort listeners after completion and cancellation",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1249",
-        "createdAt": "2026-10-05T23:04:14Z",
-        "daysOpen": 5,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1255,
-        "title": "setMessagesParams lets the tool runner append turns into caller-owned history arrays",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1255",
-        "createdAt": "2026-10-06T23:56:32Z",
-        "daysOpen": 4,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 1258,
         "title": "Malformed OAuth token responses can escape validation or throw TypeError",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1258",
         "createdAt": "2026-10-08T01:50:25Z",
         "daysOpen": 3,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 1263,
+        "title": "`AnthropicVertex` constructor calls `GoogleAuth.getClient()` and never handles the rejection: unhandled rejection with no credentials, and the failure is cached",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1263",
+        "createdAt": "2026-10-12T00:15:32Z",
+        "daysOpen": 0,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 1262,
+        "title": "An `error` event in a message stream throws a base `APIError` with `status` undefined, so overload (`overloaded_error`) cannot be told apart by status or class",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1262",
+        "createdAt": "2026-10-12T00:15:23Z",
+        "daysOpen": 0,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -386,8 +406,8 @@
       "median_days": 150.9,
       "p90_days": 557.2
     },
-    "label_coverage_pct": 24.2,
-    "unlabeled_count": 25,
+    "label_coverage_pct": 22.9,
+    "unlabeled_count": 27,
     "stale_30d": 20,
     "stale_60d": 12,
     "stale_90d": 7,
@@ -462,7 +482,7 @@
         "title": "docs: fix broken compare links in CHANGELOG files",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/953",
         "createdAt": "2026-03-19T21:25:21Z",
-        "daysOpen": 205,
+        "daysOpen": 206,
         "labels": [
           "code-change"
         ],
@@ -478,7 +498,7 @@
         "title": "fix(streams): use empty separator in finalText() for text block concatenation",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/954",
         "createdAt": "2026-03-19T21:27:57Z",
-        "daysOpen": 205,
+        "daysOpen": 206,
         "labels": [
           "code-change"
         ],
@@ -596,7 +616,7 @@
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
         "createdAt": "2026-06-04T22:33:25Z",
-        "daysOpen": 128,
+        "daysOpen": 129,
         "labels": [],
         "isDraft": false,
         "additions": 117,
@@ -648,6 +668,20 @@
         "assignees": []
       },
       {
+        "number": 1143,
+        "title": "fix(schema): preserve const/enum in transformJSONSchema",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
+        "createdAt": "2026-08-06T23:33:07Z",
+        "daysOpen": 66,
+        "labels": [],
+        "isDraft": false,
+        "additions": 86,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "edenbuilds",
+        "assignees": []
+      },
+      {
         "number": 1145,
         "title": "docs(helpers): add missing .beta segment in toolRunner heading",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1145",
@@ -662,25 +696,11 @@
         "assignees": []
       },
       {
-        "number": 1143,
-        "title": "fix(schema): preserve const/enum in transformJSONSchema",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
-        "createdAt": "2026-08-06T23:33:07Z",
-        "daysOpen": 65,
-        "labels": [],
-        "isDraft": false,
-        "additions": 86,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "edenbuilds",
-        "assignees": []
-      },
-      {
         "number": 1147,
         "title": "fix(vertex): strip beta headers from countTokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1147",
         "createdAt": "2026-08-09T00:45:46Z",
-        "daysOpen": 63,
+        "daysOpen": 64,
         "labels": [],
         "isDraft": false,
         "additions": 57,
@@ -834,7 +854,7 @@
         "title": "fix(memory): preserve literal replacement text",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1178",
         "createdAt": "2026-09-07T21:19:33Z",
-        "daysOpen": 33,
+        "daysOpen": 34,
         "labels": [],
         "isDraft": true,
         "additions": 22,
@@ -858,6 +878,20 @@
         "assignees": []
       },
       {
+        "number": 1187,
+        "title": "fix(memory): protect root renames and sanitize filesystem errors",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1187",
+        "createdAt": "2026-09-12T22:51:01Z",
+        "daysOpen": 29,
+        "labels": [],
+        "isDraft": false,
+        "additions": 209,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "mehrdadxzaker",
+        "assignees": []
+      },
+      {
         "number": 1186,
         "title": "fix(memory): match multi-line old_str and honor an omitted new_str",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1186",
@@ -869,20 +903,6 @@
         "deletions": 9,
         "reviewCount": 0,
         "author": "kimlj",
-        "assignees": []
-      },
-      {
-        "number": 1187,
-        "title": "fix(memory): protect root renames and sanitize filesystem errors",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1187",
-        "createdAt": "2026-09-12T22:51:01Z",
-        "daysOpen": 28,
-        "labels": [],
-        "isDraft": false,
-        "additions": 209,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "mehrdadxzaker",
         "assignees": []
       },
       {
@@ -1040,6 +1060,20 @@
         "assignees": []
       },
       {
+        "number": 1202,
+        "title": "fix(vertex): suppress unhandledRejection when Google credential discovery fails",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1202",
+        "createdAt": "2026-09-17T22:28:07Z",
+        "daysOpen": 24,
+        "labels": [],
+        "isDraft": false,
+        "additions": 46,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "L4XB",
+        "assignees": []
+      },
+      {
         "number": 1201,
         "title": "fix(streaming): release batch result abort listeners on completion",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1201",
@@ -1051,20 +1085,6 @@
         "deletions": 7,
         "reviewCount": 0,
         "author": "mohammedmessaoudene-cmd",
-        "assignees": []
-      },
-      {
-        "number": 1202,
-        "title": "fix(vertex): suppress unhandledRejection when Google credential discovery fails",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1202",
-        "createdAt": "2026-09-17T22:28:07Z",
-        "daysOpen": 23,
-        "labels": [],
-        "isDraft": false,
-        "additions": 46,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "L4XB",
         "assignees": []
       },
       {
@@ -1376,6 +1396,20 @@
         "assignees": []
       },
       {
+        "number": 1237,
+        "title": "fix(sessions): preserve completed messages on preview restart",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1237",
+        "createdAt": "2026-10-03T23:31:33Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 108,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 1235,
         "title": "fix(sessions): keep final managed-agent messages authoritative",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1235",
@@ -1446,15 +1480,15 @@
         "assignees": []
       },
       {
-        "number": 1237,
-        "title": "fix(sessions): preserve completed messages on preview restart",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1237",
-        "createdAt": "2026-10-03T23:31:33Z",
-        "daysOpen": 7,
+        "number": 1250,
+        "title": "fix(middleware): release fallback stream abort listeners",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1250",
+        "createdAt": "2026-10-05T23:04:20Z",
+        "daysOpen": 6,
         "labels": [],
         "isDraft": false,
-        "additions": 108,
-        "deletions": 2,
+        "additions": 76,
+        "deletions": 14,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -1502,6 +1536,20 @@
         "assignees": []
       },
       {
+        "number": 1256,
+        "title": "Keep replacement tool-runner histories independent of caller arrays",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1256",
+        "createdAt": "2026-10-06T23:56:38Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 65,
+        "deletions": 1,
+        "reviewCount": 1,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 1254,
         "title": "Reject pending stream event waits when a request is aborted",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1254",
@@ -1526,34 +1574,6 @@
         "additions": 157,
         "deletions": 7,
         "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1250,
-        "title": "fix(middleware): release fallback stream abort listeners",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1250",
-        "createdAt": "2026-10-05T23:04:20Z",
-        "daysOpen": 5,
-        "labels": [],
-        "isDraft": false,
-        "additions": 76,
-        "deletions": 14,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1256,
-        "title": "Keep replacement tool-runner histories independent of caller arrays",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1256",
-        "createdAt": "2026-10-06T23:56:38Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 65,
-        "deletions": 1,
-        "reviewCount": 1,
         "author": "sylvesterkaczmarek",
         "assignees": []
       },
@@ -1626,9 +1646,9 @@
     }
   },
   "contributors": {
-    "total_known": 260,
-    "active_30d": 29,
-    "first_time_30d": 23,
+    "total_known": 261,
+    "active_30d": 30,
+    "first_time_30d": 24,
     "retention_rate_pct": 20,
     "churned_30d": 20,
     "commits_per_week_avg": 27.1,
@@ -1641,9 +1661,9 @@
       44,
       21,
       28,
-      49,
+      50,
       39,
-      49,
+      48,
       29
     ],
     "allContributors": [
@@ -1735,6 +1755,7 @@
       "aymenhmaidiwastaken",
       "barneywohl",
       "basewakamaru",
+      "bbyiringiro",
       "bessey",
       "bhavyaus",
       "bilal-azam",
@@ -1918,6 +1939,7 @@
       "MohammediYunus",
       "Nitish-1303",
       "VolaMito",
+      "bbyiringiro",
       "cm-iwata",
       "craigie-ant",
       "dtmeadows-ant",
@@ -2098,10 +2120,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 5526311,
     "total": 930927084,
-    "total_through": "2026-10-10",
-    "last_week": 36675563,
-    "last_month": 150120213
+    "total_through": "2026-10-10"
   }
 }
