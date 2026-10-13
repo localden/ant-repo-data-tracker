@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T01:49:17.924Z",
+  "timestamp": "2026-10-13T08:47:09.806Z",
   "repository": {
     "stars": 190,
     "forks": 56
@@ -60,6 +60,26 @@
         "assignees": []
       },
       {
+        "number": 93,
+        "title": "Nested structured-output fields ignore their Constrained descriptions",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
+        "createdAt": "2026-10-05T08:33:56Z",
+        "daysOpen": 8,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 91,
+        "title": "MessageAccumulator turns nested empty tool-input objects into arrays",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/91",
+        "createdAt": "2026-10-05T07:14:26Z",
+        "daysOpen": 8,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 89,
         "title": "Compaction accumulation concatenates replacement summaries and loses explicit nulls",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/89",
@@ -114,26 +134,6 @@
         "title": "Structured-output parsing accepts JSON arrays as empty model instances",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/95",
         "createdAt": "2026-10-05T10:21:58Z",
-        "daysOpen": 7,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 93,
-        "title": "Nested structured-output fields ignore their Constrained descriptions",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
-        "createdAt": "2026-10-05T08:33:56Z",
-        "daysOpen": 7,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 91,
-        "title": "MessageAccumulator turns nested empty tool-input objects into arrays",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/91",
-        "createdAt": "2026-10-05T07:14:26Z",
         "daysOpen": 7,
         "labels": [],
         "commentCount": 0,
@@ -210,7 +210,7 @@
         "title": "examples: add tool use, multi-turn, thinking, and vision examples",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/22",
         "createdAt": "2026-03-25T07:02:13Z",
-        "daysOpen": 201,
+        "daysOpen": 202,
         "labels": [],
         "isDraft": false,
         "additions": 442,
@@ -271,6 +271,34 @@
         "isDraft": false,
         "additions": 132,
         "deletions": 8,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 94,
+        "title": "Preserve descriptions on nested structured-output fields",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/94",
+        "createdAt": "2026-10-05T08:34:02Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 83,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 92,
+        "title": "Preserve empty objects in streamed tool arguments",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/92",
+        "createdAt": "2026-10-05T07:14:32Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 141,
+        "deletions": 3,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -360,34 +388,6 @@
         "assignees": []
       },
       {
-        "number": 94,
-        "title": "Preserve descriptions on nested structured-output fields",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/94",
-        "createdAt": "2026-10-05T08:34:02Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 83,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 92,
-        "title": "Preserve empty objects in streamed tool arguments",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/92",
-        "createdAt": "2026-10-05T07:14:32Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 141,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 106,
         "title": "Serialize empty structured-output property maps as objects",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/106",
@@ -468,13 +468,13 @@
       8,
       18,
       20,
-      30,
-      36,
-      25,
-      33,
-      38,
-      40,
-      38
+      31,
+      35,
+      26,
+      32,
+      39,
+      42,
+      35
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -682,9 +682,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 51004,
-    "total": 2490846,
-    "last_week": 303793,
-    "last_month": 991521
+    "daily": 48744,
+    "total": 2503491,
+    "last_week": 301533,
+    "last_month": 989261
   }
 }
