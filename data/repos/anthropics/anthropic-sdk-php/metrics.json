@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T17:21:18.214Z",
+  "timestamp": "2026-10-13T22:10:23.210Z",
   "repository": {
     "stars": 190,
     "forks": 56
@@ -44,7 +44,7 @@
         "title": "Closing an unread SSE or JSONL stream starts reading its body",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/85",
         "createdAt": "2026-10-03T22:06:52Z",
-        "daysOpen": 9,
+        "daysOpen": 10,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -54,6 +54,26 @@
         "title": "Bedrock decoded response streams ignore the requested read length",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/83",
         "createdAt": "2026-10-03T20:55:17Z",
+        "daysOpen": 10,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 89,
+        "title": "Compaction accumulation concatenates replacement summaries and loses explicit nulls",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/89",
+        "createdAt": "2026-10-04T21:40:42Z",
+        "daysOpen": 9,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 87,
+        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
+        "createdAt": "2026-10-04T20:19:31Z",
         "daysOpen": 9,
         "labels": [],
         "commentCount": 0,
@@ -94,26 +114,6 @@
         "title": "MessageAccumulator turns nested empty tool-input objects into arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/91",
         "createdAt": "2026-10-05T07:14:26Z",
-        "daysOpen": 8,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 89,
-        "title": "Compaction accumulation concatenates replacement summaries and loses explicit nulls",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/89",
-        "createdAt": "2026-10-04T21:40:42Z",
-        "daysOpen": 8,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 87,
-        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
-        "createdAt": "2026-10-04T20:19:31Z",
         "daysOpen": 8,
         "labels": [],
         "commentCount": 0,
@@ -238,13 +238,55 @@
         "title": "fix(client): serialize list query params with empty brackets",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/69",
         "createdAt": "2026-08-17T18:24:50Z",
-        "daysOpen": 56,
+        "daysOpen": 57,
         "labels": [],
         "isDraft": false,
         "additions": 161,
         "deletions": 5,
         "reviewCount": 2,
         "author": "pravinireri",
+        "assignees": []
+      },
+      {
+        "number": 84,
+        "title": "fix(bedrock): honor decoded stream read limits",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/84",
+        "createdAt": "2026-10-03T21:01:58Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 132,
+        "deletions": 8,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 90,
+        "title": "Preserve compaction replacement values and explicit nulls",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/90",
+        "createdAt": "2026-10-04T21:40:48Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 106,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 88,
+        "title": "Count Unicode characters in structured-output length checks",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
+        "createdAt": "2026-10-04T20:19:38Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 113,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -257,20 +299,6 @@
         "isDraft": false,
         "additions": 139,
         "deletions": 3,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 84,
-        "title": "fix(bedrock): honor decoded stream read limits",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/84",
-        "createdAt": "2026-10-03T21:01:58Z",
-        "daysOpen": 9,
-        "labels": [],
-        "isDraft": false,
-        "additions": 132,
-        "deletions": 8,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -327,34 +355,6 @@
         "isDraft": false,
         "additions": 141,
         "deletions": 3,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 90,
-        "title": "Preserve compaction replacement values and explicit nulls",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/90",
-        "createdAt": "2026-10-04T21:40:48Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 106,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 88,
-        "title": "Count Unicode characters in structured-output length checks",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
-        "createdAt": "2026-10-04T20:19:38Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 113,
-        "deletions": 4,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -467,14 +467,14 @@
       0,
       8,
       19,
-      21,
-      29,
-      38,
-      27,
-      32,
+      23,
+      31,
       35,
-      47,
-      30
+      28,
+      32,
+      33,
+      53,
+      24
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -528,28 +528,28 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 19,
-        "total_changes": 453
+        "pr_count": 20,
+        "total_changes": 461
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 18,
-        "total_changes": 36
+        "pr_count": 19,
+        "total_changes": 38
       },
       {
         "path": "README.md",
-        "pr_count": 18,
-        "total_changes": 98
+        "pr_count": 19,
+        "total_changes": 100
       },
       {
         "path": "src/Version.php",
-        "pr_count": 18,
-        "total_changes": 36
+        "pr_count": 19,
+        "total_changes": 38
       },
       {
         "path": ".stats.yml",
-        "pr_count": 11,
-        "total_changes": 49
+        "pr_count": 12,
+        "total_changes": 53
       },
       {
         "path": "scripts/mock-spec.json.gz",
@@ -607,46 +607,46 @@
         "total_changes": 197
       },
       {
+        "path": "src/ServiceContracts/Beta/Sessions/EventsContract.php",
+        "pr_count": 6,
+        "total_changes": 42
+      },
+      {
         "path": "src/ServiceContracts/Beta/SessionsContract.php",
         "pr_count": 6,
         "total_changes": 50
       },
       {
+        "path": "src/Services/Beta/Sessions/EventsService.php",
+        "pr_count": 6,
+        "total_changes": 53
+      },
+      {
         "path": "src/Services/Beta/SessionsService.php",
         "pr_count": 6,
         "total_changes": 68
-      },
-      {
-        "path": "tests/Services/Beta/Messages/BatchesTest.php",
-        "pr_count": 6,
-        "total_changes": 54
-      },
-      {
-        "path": "tests/Services/Beta/MessagesTest.php",
-        "pr_count": 6,
-        "total_changes": 77
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 19,
+        "pr_count": 20,
         "file_count": 5
       },
       {
         "path": "src/",
-        "pr_count": 18,
+        "pr_count": 19,
         "file_count": 17
+      },
+      {
+        "path": "src/Beta/Messages/",
+        "pr_count": 15,
+        "file_count": 305
       },
       {
         "path": "src/Services/Beta/",
         "pr_count": 15,
         "file_count": 31
-      },
-      {
-        "path": "src/Beta/Messages/",
-        "pr_count": 14,
-        "file_count": 305
       },
       {
         "path": "src/ServiceContracts/Beta/",
@@ -675,16 +675,16 @@
       },
       {
         "path": "src/Beta/Sessions/Events/",
-        "pr_count": 10,
+        "pr_count": 11,
         "file_count": 72
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 57046,
-    "total": 2530436,
-    "last_week": 309835,
-    "last_month": 997563
+    "daily": 58162,
+    "total": 2542015,
+    "last_week": 310951,
+    "last_month": 998679
   }
 }
