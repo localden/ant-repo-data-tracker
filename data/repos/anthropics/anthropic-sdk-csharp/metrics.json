@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-13T22:08:53.980Z",
+  "timestamp": "2026-10-14T02:39:36.444Z",
   "repository": {
     "stars": 334,
-    "forks": 114
+    "forks": 115
   },
   "issues": {
     "open_count": 23,
@@ -24,7 +24,7 @@
         "title": "Support AOT",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/79",
         "createdAt": "2025-12-21T01:39:45Z",
-        "daysOpen": 296,
+        "daysOpen": 297,
         "labels": [
           "enhancement",
           "sdk"
@@ -37,7 +37,7 @@
         "title": "MEAI adapter: ToUsageDetails drops Usage.OutputTokensDetails.ThinkingTokens (UsageDetails.ReasoningTokenCount never populated)",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/245",
         "createdAt": "2026-08-18T00:44:02Z",
-        "daysOpen": 56,
+        "daysOpen": 57,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -113,6 +113,16 @@
         "assignees": []
       },
       {
+        "number": 286,
+        "title": "MCP error results with only structuredContent lose their payload",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/286",
+        "createdAt": "2026-10-04T22:55:57Z",
+        "daysOpen": 9,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 284,
         "title": "Thinking-block aggregation drops additional wire fields in stable and beta streams",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/284",
@@ -128,6 +138,26 @@
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/282",
         "createdAt": "2026-10-04T20:19:42Z",
         "daysOpen": 9,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 296,
+        "title": "MCP content conversion rejects MIME case/parameters and can choose the wrong resource",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/296",
+        "createdAt": "2026-10-05T23:58:51Z",
+        "daysOpen": 8,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 294,
+        "title": "ToolRunner ignores tool_changes carried by assistant compaction blocks",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/294",
+        "createdAt": "2026-10-05T23:04:23Z",
+        "daysOpen": 8,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -163,16 +193,6 @@
         "assignees": []
       },
       {
-        "number": 286,
-        "title": "MCP error results with only structuredContent lose their payload",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/286",
-        "createdAt": "2026-10-04T22:55:57Z",
-        "daysOpen": 8,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 300,
         "title": "Empty object models omit additionalProperties and descriptions from generated schemas",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/300",
@@ -187,26 +207,6 @@
         "title": "Adding skill tools through IChatClient drops the configured container ID and raw fields",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/298",
         "createdAt": "2026-10-06T09:22:18Z",
-        "daysOpen": 7,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 296,
-        "title": "MCP content conversion rejects MIME case/parameters and can choose the wrong resource",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/296",
-        "createdAt": "2026-10-05T23:58:51Z",
-        "daysOpen": 7,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 294,
-        "title": "ToolRunner ignores tool_changes carried by assistant compaction blocks",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/294",
-        "createdAt": "2026-10-05T23:04:23Z",
         "daysOpen": 7,
         "labels": [],
         "commentCount": 0,
@@ -324,7 +324,7 @@
         "title": "fix(bedrock): skip null-content events in streaming instead of crashing",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/252",
         "createdAt": "2026-08-27T00:48:25Z",
-        "daysOpen": 47,
+        "daysOpen": 48,
         "labels": [],
         "isDraft": false,
         "additions": 169,
@@ -418,6 +418,20 @@
         "assignees": []
       },
       {
+        "number": 281,
+        "title": "fix(pagination): honor cancellation before yielding buffered items",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/281",
+        "createdAt": "2026-10-03T22:12:12Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 159,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 279,
         "title": "fix(streaming): preserve omitted stop metadata in message aggregation",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/279",
@@ -427,6 +441,20 @@
         "isDraft": false,
         "additions": 170,
         "deletions": 6,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 287,
+        "title": "Preserve structured-only MCP tool error payloads",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/287",
+        "createdAt": "2026-10-04T22:56:04Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 139,
+        "deletions": 7,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -460,15 +488,29 @@
         "assignees": []
       },
       {
-        "number": 281,
-        "title": "fix(pagination): honor cancellation before yielding buffered items",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/281",
-        "createdAt": "2026-10-03T22:12:12Z",
-        "daysOpen": 9,
+        "number": 297,
+        "title": "Normalize MCP media types during content conversion",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/297",
+        "createdAt": "2026-10-05T23:59:01Z",
+        "daysOpen": 8,
         "labels": [],
         "isDraft": false,
-        "additions": 159,
-        "deletions": 0,
+        "additions": 160,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 295,
+        "title": "fix(tools): apply compacted tool changes during dispatch",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/295",
+        "createdAt": "2026-10-05T23:04:30Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 105,
+        "deletions": 5,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -516,20 +558,6 @@
         "assignees": []
       },
       {
-        "number": 287,
-        "title": "Preserve structured-only MCP tool error payloads",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/287",
-        "createdAt": "2026-10-04T22:56:04Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 139,
-        "deletions": 7,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 301,
         "title": "Complete structured-output schemas for empty object models",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/301",
@@ -558,39 +586,11 @@
         "assignees": []
       },
       {
-        "number": 297,
-        "title": "Normalize MCP media types during content conversion",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/297",
-        "createdAt": "2026-10-05T23:59:01Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 160,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 295,
-        "title": "fix(tools): apply compacted tool changes during dispatch",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/295",
-        "createdAt": "2026-10-05T23:04:30Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 105,
-        "deletions": 5,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 304,
         "title": "fix(meai): send JSON schema response formats with no required properties",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/304",
         "createdAt": "2026-10-07T23:00:21Z",
-        "daysOpen": 5,
+        "daysOpen": 6,
         "labels": [],
         "isDraft": false,
         "additions": 246,
@@ -659,20 +659,20 @@
     "first_time_30d": 13,
     "retention_rate_pct": 42.9,
     "churned_30d": 8,
-    "commits_per_week_avg": 23.2,
+    "commits_per_week_avg": 22.7,
     "commits_per_week_trend": [
-      14,
+      8,
       0,
       9,
       0,
       30,
       33,
       22,
-      34,
-      37,
-      36,
       35,
-      28
+      40,
+      36,
+      32,
+      27
     ],
     "allContributors": [
       "1yefuwang1",
@@ -952,6 +952,6 @@
     "daily": 0,
     "total": 5129402,
     "last_week": 0,
-    "last_month": 825109
+    "last_month": 810887
   }
 }
