@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-14T09:14:22.345Z",
+  "timestamp": "2026-10-14T14:53:27.530Z",
   "repository": {
     "stars": 190,
     "forks": 57
@@ -34,7 +34,7 @@
         "title": "Bedrock: body round-trip flattens empty JSON objects ({} -> []), so a no-argument tool_use gets a 400",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/70",
         "createdAt": "2026-08-19T12:00:53Z",
-        "daysOpen": 55,
+        "daysOpen": 56,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -55,6 +55,26 @@
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/83",
         "createdAt": "2026-10-03T20:55:17Z",
         "daysOpen": 10,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 97,
+        "title": "Integer multipleOf validation rounds large values before checking divisibility",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/97",
+        "createdAt": "2026-10-05T11:41:15Z",
+        "daysOpen": 9,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 95,
+        "title": "Structured-output parsing accepts JSON arrays as empty model instances",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/95",
+        "createdAt": "2026-10-05T10:21:58Z",
+        "daysOpen": 9,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -100,6 +120,16 @@
         "assignees": []
       },
       {
+        "number": 103,
+        "title": "runUntilDone returns an unsuccessful final compaction instead of the completed answer",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/103",
+        "createdAt": "2026-10-06T11:20:45Z",
+        "daysOpen": 8,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 101,
         "title": "MCP media-type variations reject valid images and skip earlier supported resources",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/101",
@@ -120,26 +150,6 @@
         "assignees": []
       },
       {
-        "number": 97,
-        "title": "Integer multipleOf validation rounds large values before checking divisibility",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/97",
-        "createdAt": "2026-10-05T11:41:15Z",
-        "daysOpen": 8,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 95,
-        "title": "Structured-output parsing accepts JSON arrays as empty model instances",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/95",
-        "createdAt": "2026-10-05T10:21:58Z",
-        "daysOpen": 8,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 107,
         "title": "PHPDoc model arrays generate nested schemas but hydrate as plain arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/107",
@@ -154,16 +164,6 @@
         "title": "Empty structured-output models generate properties as a JSON array",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/105",
         "createdAt": "2026-10-06T15:10:58Z",
-        "daysOpen": 7,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 103,
-        "title": "runUntilDone returns an unsuccessful final compaction instead of the completed answer",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/103",
-        "createdAt": "2026-10-06T11:20:45Z",
         "daysOpen": 7,
         "labels": [],
         "commentCount": 0,
@@ -224,7 +224,7 @@
         "title": "fix: detect circular references in toJsonSchema()",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/43",
         "createdAt": "2026-05-26T11:31:49Z",
-        "daysOpen": 140,
+        "daysOpen": 141,
         "labels": [],
         "isDraft": false,
         "additions": 55,
@@ -271,6 +271,34 @@
         "isDraft": false,
         "additions": 132,
         "deletions": 8,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 98,
+        "title": "fix(parse): preserve integer precision in multipleOf validation",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/98",
+        "createdAt": "2026-10-05T11:41:21Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 136,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 96,
+        "title": "fix(parse): reject array roots for structured-output models",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/96",
+        "createdAt": "2026-10-05T10:22:05Z",
+        "daysOpen": 9,
+        "labels": [],
+        "isDraft": false,
+        "additions": 105,
+        "deletions": 1,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -332,6 +360,20 @@
         "assignees": []
       },
       {
+        "number": 104,
+        "title": "Keep the completed answer when final compaction produces no summary",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/104",
+        "createdAt": "2026-10-06T11:20:52Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 92,
+        "deletions": 10,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 102,
         "title": "Normalize MCP media types before selecting supported resources",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/102",
@@ -360,34 +402,6 @@
         "assignees": []
       },
       {
-        "number": 98,
-        "title": "fix(parse): preserve integer precision in multipleOf validation",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/98",
-        "createdAt": "2026-10-05T11:41:21Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 136,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 96,
-        "title": "fix(parse): reject array roots for structured-output models",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/96",
-        "createdAt": "2026-10-05T10:22:05Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 105,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 106,
         "title": "Serialize empty structured-output property maps as objects",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/106",
@@ -397,20 +411,6 @@
         "isDraft": false,
         "additions": 143,
         "deletions": 1,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 104,
-        "title": "Keep the completed answer when final compaction produces no summary",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/104",
-        "createdAt": "2026-10-06T11:20:52Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 92,
-        "deletions": 10,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -471,9 +471,9 @@
       29,
       35,
       28,
+      37,
       36,
-      35,
-      50,
+      48,
       21
     ],
     "allContributors": [
@@ -682,9 +682,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 49983,
-    "total": 2559493,
-    "last_week": 310358,
-    "last_month": 1020400
+    "daily": 55514,
+    "total": 2577786,
+    "last_week": 315889,
+    "last_month": 1025931
   }
 }
