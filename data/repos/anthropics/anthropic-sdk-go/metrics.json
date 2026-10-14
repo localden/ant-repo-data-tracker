@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-14T14:49:35.178Z",
+  "timestamp": "2026-10-14T19:52:41.168Z",
   "repository": {
     "stars": 1222,
     "forks": 216
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 245,
+        "daysOpen": 246,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -58,7 +58,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 186,
+        "daysOpen": 187,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -68,7 +68,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 168,
+        "daysOpen": 169,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -138,7 +138,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 57,
+        "daysOpen": 58,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 57,
+        "daysOpen": 58,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -178,7 +178,27 @@
         "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
         "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 52,
+        "daysOpen": 53,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 450,
+        "title": "GA content-block replay panics on unknown response variants",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/450",
+        "createdAt": "2026-10-03T19:45:04Z",
+        "daysOpen": 11,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 456,
+        "title": "Schema conversion drops oneOf when the same node already has anyOf",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/456",
+        "createdAt": "2026-10-04T19:40:53Z",
+        "daysOpen": 10,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -204,11 +224,11 @@
         "assignees": []
       },
       {
-        "number": 450,
-        "title": "GA content-block replay panics on unknown response variants",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/450",
-        "createdAt": "2026-10-03T19:45:04Z",
-        "daysOpen": 10,
+        "number": 464,
+        "title": "SSE decoding drops CR-only streams and can merge events with mixed line endings",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/464",
+        "createdAt": "2026-10-05T18:09:12Z",
+        "daysOpen": 9,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -244,11 +264,11 @@
         "assignees": []
       },
       {
-        "number": 456,
-        "title": "Schema conversion drops oneOf when the same node already has anyOf",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/456",
-        "createdAt": "2026-10-04T19:40:53Z",
-        "daysOpen": 9,
+        "number": 474,
+        "title": "Failed fallback attempts replace the last successful conversation route",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/474",
+        "createdAt": "2026-10-06T15:10:08Z",
+        "daysOpen": 8,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -294,26 +314,6 @@
         "assignees": []
       },
       {
-        "number": 464,
-        "title": "SSE decoding drops CR-only streams and can merge events with mixed line endings",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/464",
-        "createdAt": "2026-10-05T18:09:12Z",
-        "daysOpen": 8,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 474,
-        "title": "Failed fallback attempts replace the last successful conversation route",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/issues/474",
-        "createdAt": "2026-10-06T15:10:08Z",
-        "daysOpen": 7,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 478,
         "title": "Concurrent first marshal of a param type panics when one caller is inside a testing/synctest bubble",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/478",
@@ -347,12 +347,12 @@
   },
   "pulls": {
     "open_count": 42,
-    "merged_7d": 1,
+    "merged_7d": 0,
     "merged_30d": 7,
-    "merged_90d": 26,
-    "opened_7d": 3,
+    "merged_90d": 25,
+    "opened_7d": 2,
     "opened_30d": 25,
-    "opened_90d": 58,
+    "opened_90d": 57,
     "closed_not_merged_90d": 37,
     "draft_count": 0,
     "assigned_count": 0,
@@ -670,6 +670,20 @@
         "assignees": []
       },
       {
+        "number": 434,
+        "title": "fix(json): encode standard library Number values",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
+        "createdAt": "2026-09-02T17:52:10Z",
+        "daysOpen": 42,
+        "labels": [],
+        "isDraft": false,
+        "additions": 30,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "pentaoa",
+        "assignees": []
+      },
+      {
         "number": 431,
         "title": "fix(tools): bound bash Close wait so setsid cannot hang",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/431",
@@ -681,20 +695,6 @@
         "deletions": 4,
         "reviewCount": 1,
         "author": "varunmahajan1",
-        "assignees": []
-      },
-      {
-        "number": 434,
-        "title": "fix(json): encode standard library Number values",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
-        "createdAt": "2026-09-02T17:52:10Z",
-        "daysOpen": 41,
-        "labels": [],
-        "isDraft": false,
-        "additions": 30,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "pentaoa",
         "assignees": []
       },
       {
@@ -716,7 +716,7 @@
         "title": "fix(sdk): keep $defs when a $ref node is transformed",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/442",
         "createdAt": "2026-09-19T15:36:00Z",
-        "daysOpen": 24,
+        "daysOpen": 25,
         "labels": [],
         "isDraft": false,
         "additions": 136,
@@ -735,6 +735,34 @@
         "isDraft": false,
         "additions": 188,
         "deletions": 14,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 451,
+        "title": "fix(streaming): preserve unknown GA content blocks in replay",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/451",
+        "createdAt": "2026-10-03T19:47:47Z",
+        "daysOpen": 11,
+        "labels": [],
+        "isDraft": false,
+        "additions": 152,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 457,
+        "title": "Preserve sibling union constraints during schema conversion",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/457",
+        "createdAt": "2026-10-04T19:40:58Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 149,
+        "deletions": 2,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -768,15 +796,15 @@
         "assignees": []
       },
       {
-        "number": 451,
-        "title": "fix(streaming): preserve unknown GA content blocks in replay",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/451",
-        "createdAt": "2026-10-03T19:47:47Z",
-        "daysOpen": 10,
+        "number": 465,
+        "title": "fix(streaming): handle CR and mixed SSE line endings",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/465",
+        "createdAt": "2026-10-05T18:09:17Z",
+        "daysOpen": 9,
         "labels": [],
         "isDraft": false,
-        "additions": 152,
-        "deletions": 1,
+        "additions": 122,
+        "deletions": 0,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -824,15 +852,15 @@
         "assignees": []
       },
       {
-        "number": 457,
-        "title": "Preserve sibling union constraints during schema conversion",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/457",
-        "createdAt": "2026-10-04T19:40:58Z",
-        "daysOpen": 9,
+        "number": 475,
+        "title": "Pin fallback routes only after a model successfully responds",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/475",
+        "createdAt": "2026-10-06T15:10:15Z",
+        "daysOpen": 8,
         "labels": [],
         "isDraft": false,
-        "additions": 149,
-        "deletions": 2,
+        "additions": 183,
+        "deletions": 23,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -894,34 +922,6 @@
         "assignees": []
       },
       {
-        "number": 465,
-        "title": "fix(streaming): handle CR and mixed SSE line endings",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/465",
-        "createdAt": "2026-10-05T18:09:17Z",
-        "daysOpen": 8,
-        "labels": [],
-        "isDraft": false,
-        "additions": 122,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 475,
-        "title": "Pin fallback routes only after a model successfully responds",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/475",
-        "createdAt": "2026-10-06T15:10:15Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 183,
-        "deletions": 23,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 477,
         "title": "fix(middleware): preserve serving-hop usage iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/477",
@@ -951,10 +951,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 38.4,
-      "median_hours": 1.9,
-      "p90_hours": 116.9,
-      "p95_hours": 159.1
+      "avg_hours": 39.6,
+      "median_hours": 2.1,
+      "p90_hours": 119,
+      "p95_hours": 163.4
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -963,11 +963,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 37.1,
-      "median_hours": 1
+      "avg_hours": 38.6,
+      "median_hours": 1.1
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 58.7,
+    "rejection_rate_pct": 59.7,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 15,
@@ -981,20 +981,20 @@
     "first_time_30d": 6,
     "retention_rate_pct": 43.8,
     "churned_30d": 9,
-    "commits_per_week_avg": 22.6,
+    "commits_per_week_avg": 24.2,
     "commits_per_week_trend": [
-      9,
+      7,
       0,
       15,
+      25,
+      14,
+      24,
       23,
-      4,
       31,
-      27,
-      31,
-      37,
-      37,
-      33,
-      24
+      39,
+      45,
+      29,
+      38
     ],
     "allContributors": [
       "00200200",
@@ -1149,33 +1149,28 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 26,
-        "total_changes": 521
+        "pr_count": 25,
+        "total_changes": 513
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 25,
-        "total_changes": 50
+        "pr_count": 24,
+        "total_changes": 48
       },
       {
         "path": "README.md",
-        "pr_count": 25,
-        "total_changes": 52
+        "pr_count": 24,
+        "total_changes": 50
       },
       {
         "path": "internal/version.go",
-        "pr_count": 25,
-        "total_changes": 52
+        "pr_count": 24,
+        "total_changes": 50
       },
       {
         "path": "api.md",
-        "pr_count": 21,
-        "total_changes": 1625
-      },
-      {
-        "path": ".stats.yml",
-        "pr_count": 18,
-        "total_changes": 99
+        "pr_count": 20,
+        "total_changes": 1596
       },
       {
         "path": "betamessage.go",
@@ -1183,14 +1178,19 @@
         "total_changes": 50134
       },
       {
-        "path": "shared/constant/constants.go",
-        "pr_count": 16,
-        "total_changes": 978
+        "path": ".stats.yml",
+        "pr_count": 17,
+        "total_changes": 93
       },
       {
         "path": "message.go",
         "pr_count": 15,
         "total_changes": 18622
+      },
+      {
+        "path": "shared/constant/constants.go",
+        "pr_count": 15,
+        "total_changes": 957
       },
       {
         "path": "betaagent.go",
@@ -1213,14 +1213,14 @@
         "total_changes": 1794
       },
       {
-        "path": "beta.go",
-        "pr_count": 11,
-        "total_changes": 178
-      },
-      {
         "path": "scripts/mock-spec.json.gz",
         "pr_count": 10,
         "total_changes": 0
+      },
+      {
+        "path": "beta.go",
+        "pr_count": 10,
+        "total_changes": 176
       },
       {
         "path": "betadream.go",
@@ -1251,22 +1251,22 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 26,
+        "pr_count": 25,
         "file_count": 221
       },
       {
         "path": "internal/",
-        "pr_count": 25,
+        "pr_count": 24,
         "file_count": 1
       },
       {
         "path": "shared/constant/",
-        "pr_count": 16,
+        "pr_count": 15,
         "file_count": 1
       },
       {
         "path": "scripts/",
-        "pr_count": 15,
+        "pr_count": 14,
         "file_count": 4
       },
       {
