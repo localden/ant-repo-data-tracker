@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-16T14:26:32.635Z",
+  "timestamp": "2026-10-16T19:10:53.719Z",
   "repository": {
     "stars": 1223,
     "forks": 216
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 247,
+        "daysOpen": 248,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -58,7 +58,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 188,
+        "daysOpen": 189,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -68,7 +68,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 170,
+        "daysOpen": 171,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -138,7 +138,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 59,
+        "daysOpen": 60,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 59,
+        "daysOpen": 60,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -178,7 +178,7 @@
         "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
         "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 54,
+        "daysOpen": 55,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -231,7 +231,7 @@
     "label_coverage_pct": 10.5,
     "unlabeled_count": 17,
     "stale_30d": 16,
-    "stale_60d": 10,
+    "stale_60d": 11,
     "stale_90d": 6,
     "reopen_rate": 0.02
   },
@@ -243,7 +243,7 @@
     "opened_7d": 1,
     "opened_30d": 24,
     "opened_90d": 56,
-    "closed_not_merged_90d": 50,
+    "closed_not_merged_90d": 49,
     "draft_count": 0,
     "assigned_count": 0,
     "unassigned_count": 29,
@@ -560,6 +560,20 @@
         "assignees": []
       },
       {
+        "number": 434,
+        "title": "fix(json): encode standard library Number values",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
+        "createdAt": "2026-09-02T17:52:10Z",
+        "daysOpen": 44,
+        "labels": [],
+        "isDraft": false,
+        "additions": 30,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "pentaoa",
+        "assignees": []
+      },
+      {
         "number": 431,
         "title": "fix(tools): bound bash Close wait so setsid cannot hang",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/431",
@@ -571,20 +585,6 @@
         "deletions": 4,
         "reviewCount": 1,
         "author": "varunmahajan1",
-        "assignees": []
-      },
-      {
-        "number": 434,
-        "title": "fix(json): encode standard library Number values",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
-        "createdAt": "2026-09-02T17:52:10Z",
-        "daysOpen": 43,
-        "labels": [],
-        "isDraft": false,
-        "additions": 30,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "pentaoa",
         "assignees": []
       },
       {
@@ -606,7 +606,7 @@
         "title": "fix(sdk): keep $defs when a $ref node is transformed",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/442",
         "createdAt": "2026-09-19T15:36:00Z",
-        "daysOpen": 26,
+        "daysOpen": 27,
         "labels": [],
         "isDraft": false,
         "additions": 136,
@@ -675,7 +675,7 @@
       "median_hours": 1.1
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 66.7,
+    "rejection_rate_pct": 66.2,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 14,
@@ -689,20 +689,20 @@
     "first_time_30d": 6,
     "retention_rate_pct": 40,
     "churned_30d": 9,
-    "commits_per_week_avg": 24.8,
+    "commits_per_week_avg": 24.7,
     "commits_per_week_trend": [
-      2,
+      0,
       10,
       14,
       18,
       25,
-      23,
-      21,
-      31,
-      36,
-      54,
-      28,
-      36
+      24,
+      20,
+      39,
+      30,
+      53,
+      34,
+      29
     ],
     "allContributors": [
       "00200200",
