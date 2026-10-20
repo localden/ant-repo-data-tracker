@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-19T21:52:14.674Z",
+  "timestamp": "2026-10-20T00:49:52.674Z",
   "repository": {
     "stars": 2145,
     "forks": 426
@@ -36,7 +36,7 @@
         "title": "include ping and error in RawMessageStreamEvent",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/749",
         "createdAt": "2025-05-04T00:26:41Z",
-        "daysOpen": 533,
+        "daysOpen": 534,
         "labels": [
           "code-change"
         ],
@@ -192,7 +192,7 @@
         "title": "BetaMessageStream: compaction_delta coerces a null content into the literal string \"null\", and a null encrypted_content erases the established checkpoint",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1164",
         "createdAt": "2026-08-24T23:27:13Z",
-        "daysOpen": 55,
+        "daysOpen": 56,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -212,7 +212,7 @@
         "title": "BetaLocalFilesystemMemoryTool: rename of the /memories root is not rejected, and unmapped filesystem errors (EINVAL, ENOTDIR) expose the host path to the model",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1182",
         "createdAt": "2026-09-09T23:28:18Z",
-        "daysOpen": 39,
+        "daysOpen": 40,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -222,7 +222,7 @@
         "title": "Memory tool: two edits to one file in the same turn silently lose one (BetaToolRunner runs tool calls concurrently; BetaLocalFilesystemMemoryTool has no serialization)",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1181",
         "createdAt": "2026-09-09T23:27:28Z",
-        "daysOpen": 39,
+        "daysOpen": 40,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -232,7 +232,7 @@
         "title": "BetaLocalFilesystemMemoryTool.str_replace: a multi-line old_str never matches, and an omitted new_str writes the word \"undefined\"",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1180",
         "createdAt": "2026-09-09T23:27:27Z",
-        "daysOpen": 39,
+        "daysOpen": 40,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -262,7 +262,7 @@
         "title": "Replayed preview starts overwrite completed managed-agent messages",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1236",
         "createdAt": "2026-10-03T23:30:47Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -282,7 +282,7 @@
         "title": "setMessagesParams lets the tool runner append turns into caller-owned history arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1255",
         "createdAt": "2026-10-06T23:56:32Z",
-        "daysOpen": 12,
+        "daysOpen": 13,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -298,21 +298,11 @@
         "assignees": []
       },
       {
-        "number": 1264,
-        "title": "MessageStream.done() resolves when the stream ends without message_stop",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1264",
-        "createdAt": "2026-10-12T06:13:47Z",
-        "daysOpen": 7,
-        "labels": [],
-        "commentCount": 4,
-        "assignees": []
-      },
-      {
         "number": 1262,
         "title": "An `error` event in a message stream throws a base `APIError` with `status` undefined, so overload (`overloaded_error`) cannot be told apart by status or class",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1262",
         "createdAt": "2026-10-12T00:15:23Z",
-        "daysOpen": 7,
+        "daysOpen": 8,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -322,9 +312,19 @@
         "title": "`AnthropicVertex` constructor calls `GoogleAuth.getClient()` and never handles the rejection: unhandled rejection with no credentials, and the failure is cached",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1263",
         "createdAt": "2026-10-12T00:15:32Z",
-        "daysOpen": 7,
+        "daysOpen": 8,
         "labels": [],
         "commentCount": 0,
+        "assignees": []
+      },
+      {
+        "number": 1264,
+        "title": "MessageStream.done() resolves when the stream ends without message_stop",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/issues/1264",
+        "createdAt": "2026-10-12T06:13:47Z",
+        "daysOpen": 7,
+        "labels": [],
+        "commentCount": 4,
         "assignees": []
       },
       {
@@ -377,7 +377,7 @@
     "open_count": 64,
     "merged_7d": 0,
     "merged_30d": 5,
-    "merged_90d": 26,
+    "merged_90d": 25,
     "opened_7d": 4,
     "opened_30d": 46,
     "opened_90d": 109,
@@ -576,7 +576,7 @@
         "title": "feat(bedrock): support token counting",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1081",
         "createdAt": "2026-06-04T22:33:25Z",
-        "daysOpen": 136,
+        "daysOpen": 137,
         "labels": [],
         "isDraft": false,
         "additions": 117,
@@ -628,6 +628,20 @@
         "assignees": []
       },
       {
+        "number": 1143,
+        "title": "fix(schema): preserve const/enum in transformJSONSchema",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
+        "createdAt": "2026-08-06T23:33:07Z",
+        "daysOpen": 74,
+        "labels": [],
+        "isDraft": false,
+        "additions": 86,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "edenbuilds",
+        "assignees": []
+      },
+      {
         "number": 1145,
         "title": "docs(helpers): add missing .beta segment in toolRunner heading",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1145",
@@ -642,25 +656,11 @@
         "assignees": []
       },
       {
-        "number": 1143,
-        "title": "fix(schema): preserve const/enum in transformJSONSchema",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1143",
-        "createdAt": "2026-08-06T23:33:07Z",
-        "daysOpen": 73,
-        "labels": [],
-        "isDraft": false,
-        "additions": 86,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "edenbuilds",
-        "assignees": []
-      },
-      {
         "number": 1147,
         "title": "fix(vertex): strip beta headers from countTokens requests",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1147",
         "createdAt": "2026-08-09T00:45:46Z",
-        "daysOpen": 71,
+        "daysOpen": 72,
         "labels": [],
         "isDraft": false,
         "additions": 57,
@@ -838,6 +838,20 @@
         "assignees": []
       },
       {
+        "number": 1187,
+        "title": "fix(memory): protect root renames and sanitize filesystem errors",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1187",
+        "createdAt": "2026-09-12T22:51:01Z",
+        "daysOpen": 37,
+        "labels": [],
+        "isDraft": false,
+        "additions": 209,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "mehrdadxzaker",
+        "assignees": []
+      },
+      {
         "number": 1186,
         "title": "fix(memory): match multi-line old_str and honor an omitted new_str",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1186",
@@ -849,20 +863,6 @@
         "deletions": 9,
         "reviewCount": 0,
         "author": "kimlj",
-        "assignees": []
-      },
-      {
-        "number": 1187,
-        "title": "fix(memory): protect root renames and sanitize filesystem errors",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1187",
-        "createdAt": "2026-09-12T22:51:01Z",
-        "daysOpen": 36,
-        "labels": [],
-        "isDraft": false,
-        "additions": 209,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "mehrdadxzaker",
         "assignees": []
       },
       {
@@ -894,6 +894,20 @@
         "assignees": []
       },
       {
+        "number": 1202,
+        "title": "fix(vertex): suppress unhandledRejection when Google credential discovery fails",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1202",
+        "createdAt": "2026-09-17T22:28:07Z",
+        "daysOpen": 32,
+        "labels": [],
+        "isDraft": false,
+        "additions": 46,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "L4XB",
+        "assignees": []
+      },
+      {
         "number": 1201,
         "title": "fix(streaming): release batch result abort listeners on completion",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1201",
@@ -905,20 +919,6 @@
         "deletions": 7,
         "reviewCount": 0,
         "author": "mohammedmessaoudene-cmd",
-        "assignees": []
-      },
-      {
-        "number": 1202,
-        "title": "fix(vertex): suppress unhandledRejection when Google credential discovery fails",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1202",
-        "createdAt": "2026-09-17T22:28:07Z",
-        "daysOpen": 31,
-        "labels": [],
-        "isDraft": false,
-        "additions": 46,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "L4XB",
         "assignees": []
       },
       {
@@ -1132,6 +1132,20 @@
         "assignees": []
       },
       {
+        "number": 1237,
+        "title": "fix(sessions): preserve completed messages on preview restart",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1237",
+        "createdAt": "2026-10-03T23:31:33Z",
+        "daysOpen": 16,
+        "labels": [],
+        "isDraft": false,
+        "additions": 108,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 1240,
         "title": "fix: ignore late deltas after final managed-agent event",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1240",
@@ -1160,20 +1174,6 @@
         "assignees": []
       },
       {
-        "number": 1237,
-        "title": "fix(sessions): preserve completed messages on preview restart",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1237",
-        "createdAt": "2026-10-03T23:31:33Z",
-        "daysOpen": 15,
-        "labels": [],
-        "isDraft": false,
-        "additions": 108,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 1248,
         "title": "fix(streaming): retain iterator failures between reads",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1248",
@@ -1192,7 +1192,7 @@
         "title": "Keep replacement tool-runner histories independent of caller arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1256",
         "createdAt": "2026-10-06T23:56:38Z",
-        "daysOpen": 12,
+        "daysOpen": 13,
         "labels": [],
         "isDraft": false,
         "additions": 65,
@@ -1301,10 +1301,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 62.9,
-      "median_hours": 0.7,
-      "p90_hours": 144.3,
-      "p95_hours": 183.8
+      "avg_hours": 64,
+      "median_hours": 0.6,
+      "p90_hours": 145.1,
+      "p95_hours": 186.1
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -1313,11 +1313,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 31.2,
+      "avg_hours": 31.6,
       "median_hours": 0.7
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 74,
+    "rejection_rate_pct": 74.7,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 41,
@@ -1339,10 +1339,10 @@
       19,
       45,
       20,
-      32,
-      48,
-      45,
-      40,
+      34,
+      47,
+      46,
+      38,
       42,
       31
     ],
@@ -1649,23 +1649,23 @@
     "by_file": [
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 23,
-        "total_changes": 186
+        "pr_count": 22,
+        "total_changes": 184
       },
       {
         "path": "CHANGELOG.md",
-        "pr_count": 23,
-        "total_changes": 548
+        "pr_count": 22,
+        "total_changes": 539
       },
       {
         "path": "package.json",
-        "pr_count": 22,
-        "total_changes": 83
+        "pr_count": 21,
+        "total_changes": 81
       },
       {
         "path": "src/version.ts",
-        "pr_count": 22,
-        "total_changes": 44
+        "pr_count": 21,
+        "total_changes": 42
       },
       {
         "path": "api.md",
@@ -1674,8 +1674,8 @@
       },
       {
         "path": "src/resources/beta/messages/messages.ts",
-        "pr_count": 19,
-        "total_changes": 8273
+        "pr_count": 18,
+        "total_changes": 8265
       },
       {
         "path": "packages/bedrock-sdk/CHANGELOG.md",
@@ -1693,16 +1693,6 @@
         "total_changes": 753
       },
       {
-        "path": "src/resources/messages/messages.ts",
-        "pr_count": 16,
-        "total_changes": 6440
-      },
-      {
-        "path": ".stats.yml",
-        "pr_count": 16,
-        "total_changes": 85
-      },
-      {
         "path": "packages/vertex-sdk/CHANGELOG.md",
         "pr_count": 15,
         "total_changes": 114
@@ -1716,6 +1706,16 @@
         "path": "src/resources/beta/index.ts",
         "pr_count": 15,
         "total_changes": 667
+      },
+      {
+        "path": "src/resources/messages/messages.ts",
+        "pr_count": 15,
+        "total_changes": 6436
+      },
+      {
+        "path": ".stats.yml",
+        "pr_count": 15,
+        "total_changes": 81
       },
       {
         "path": "packages/aws-sdk/CHANGELOG.md",
@@ -1751,12 +1751,12 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 24,
+        "pr_count": 23,
         "file_count": 24
       },
       {
         "path": "src/",
-        "pr_count": 23,
+        "pr_count": 22,
         "file_count": 3
       },
       {
@@ -1766,7 +1766,7 @@
       },
       {
         "path": "src/resources/beta/messages/",
-        "pr_count": 19,
+        "pr_count": 18,
         "file_count": 3
       },
       {
@@ -1775,19 +1775,19 @@
         "file_count": 13
       },
       {
+        "path": "packages/vertex-sdk/",
+        "pr_count": 15,
+        "file_count": 13
+      },
+      {
         "path": "scripts/",
-        "pr_count": 16,
+        "pr_count": 15,
         "file_count": 10
       },
       {
         "path": "src/resources/messages/",
-        "pr_count": 16,
-        "file_count": 3
-      },
-      {
-        "path": "packages/vertex-sdk/",
         "pr_count": 15,
-        "file_count": 13
+        "file_count": 3
       },
       {
         "path": "packages/aws-sdk/",
@@ -1803,10 +1803,7 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 5476113,
     "total": 964638986,
-    "total_through": "2026-10-18",
-    "last_week": 28258993,
-    "last_month": 148203742
+    "total_through": "2026-10-18"
   }
 }
