@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-10-21T09:03:12.413Z",
+  "timestamp": "2026-10-21T14:50:06.654Z",
   "repository": {
-    "stars": 338,
+    "stars": 339,
     "forks": 120
   },
   "issues": {
@@ -67,7 +67,7 @@
         "title": "MEAI adapter: HostedMcpServerTool requests are always rejected",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/255",
         "createdAt": "2026-09-01T14:38:47Z",
-        "daysOpen": 49,
+        "daysOpen": 50,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -87,7 +87,7 @@
         "title": "Question: HostedCodeInterpreterTool can support Inputs property?",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/275",
         "createdAt": "2026-09-29T09:44:33Z",
-        "daysOpen": 21,
+        "daysOpen": 22,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -107,7 +107,7 @@
         "title": "Adding skill tools through IChatClient drops the configured container ID and raw fields",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/298",
         "createdAt": "2026-10-06T09:22:18Z",
-        "daysOpen": 14,
+        "daysOpen": 15,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -133,6 +133,16 @@
         "assignees": []
       },
       {
+        "number": 306,
+        "title": "Messages.Create<T>() overwrites OutputConfig and silently drops Effort",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/306",
+        "createdAt": "2026-10-09T09:18:07Z",
+        "daysOpen": 12,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 308,
         "title": "Disposing WithOptions or WithRawResponse also disposes the parent HttpClient",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/308",
@@ -140,16 +150,6 @@
         "daysOpen": 11,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 306,
-        "title": "Messages.Create<T>() overwrites OutputConfig and silently drops Effort",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/306",
-        "createdAt": "2026-10-09T09:18:07Z",
-        "daysOpen": 11,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       }
     ],
@@ -180,7 +180,7 @@
     "merged_7d": 0,
     "merged_30d": 5,
     "merged_90d": 26,
-    "opened_7d": 3,
+    "opened_7d": 0,
     "opened_30d": 24,
     "opened_90d": 48,
     "closed_not_merged_90d": 12,
@@ -188,7 +188,7 @@
     "assigned_count": 0,
     "unassigned_count": 16,
     "unassigned_24h": 16,
-    "unassigned_7d": 13,
+    "unassigned_7d": 16,
     "assigned_prs": [],
     "unassigned_prs": [
       {
@@ -210,7 +210,7 @@
         "title": "fix(meai): round-trip server-tool blocks when replaying assistant turns",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/242",
         "createdAt": "2026-08-06T14:43:56Z",
-        "daysOpen": 75,
+        "daysOpen": 76,
         "labels": [],
         "isDraft": false,
         "additions": 1347,
@@ -269,8 +269,8 @@
         "daysOpen": 32,
         "labels": [],
         "isDraft": false,
-        "additions": 191,
-        "deletions": 2,
+        "additions": 193,
+        "deletions": 3,
         "reviewCount": 0,
         "author": "feiiiiii5",
         "assignees": []
@@ -294,7 +294,7 @@
         "title": "fix(meai): merge consecutive same-role messages in IChatClient adapter",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/273",
         "createdAt": "2026-09-23T14:20:35Z",
-        "daysOpen": 27,
+        "daysOpen": 28,
         "labels": [],
         "isDraft": false,
         "additions": 487,
@@ -322,7 +322,7 @@
         "title": "Preserve container settings when adding skills through IChatClient",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/299",
         "createdAt": "2026-10-06T09:22:25Z",
-        "daysOpen": 14,
+        "daysOpen": 15,
         "labels": [],
         "isDraft": false,
         "additions": 154,
@@ -350,7 +350,7 @@
         "title": "fix(messages): preserve output configuration for structured output",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/307",
         "createdAt": "2026-10-09T10:05:32Z",
-        "daysOpen": 11,
+        "daysOpen": 12,
         "labels": [],
         "isDraft": false,
         "additions": 253,
@@ -364,7 +364,7 @@
         "title": "fix(meai): pass raw content blocks through system messages",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/309",
         "createdAt": "2026-10-10T10:31:58Z",
-        "daysOpen": 10,
+        "daysOpen": 11,
         "labels": [],
         "isDraft": false,
         "additions": 174,
@@ -378,7 +378,7 @@
         "title": "perf(client): stop allocating a throwaway ClientOptions in every raw-response client",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/312",
         "createdAt": "2026-10-14T11:40:00Z",
-        "daysOpen": 6,
+        "daysOpen": 7,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -392,7 +392,7 @@
         "title": "fix(auth): compare a 401 against the token the request actually sent",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/311",
         "createdAt": "2026-10-14T11:02:05Z",
-        "daysOpen": 6,
+        "daysOpen": 7,
         "labels": [],
         "isDraft": false,
         "additions": 151,
@@ -406,7 +406,7 @@
         "title": "fix(client): keep shared HTTP resources alive when a derived client is disposed",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/310",
         "createdAt": "2026-10-14T10:02:00Z",
-        "daysOpen": 6,
+        "daysOpen": 7,
         "labels": [],
         "isDraft": false,
         "additions": 344,
@@ -456,11 +456,11 @@
       33,
       22,
       35,
-      40,
-      38,
-      32,
-      40,
-      54
+      41,
+      39,
+      30,
+      41,
+      53
     ],
     "allContributors": [
       "1yefuwang1",
