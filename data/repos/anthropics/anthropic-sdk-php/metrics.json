@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-22T14:52:08.161Z",
+  "timestamp": "2026-10-22T19:43:56.052Z",
   "repository": {
     "stars": 194,
     "forks": 58
@@ -92,11 +92,11 @@
   "pulls": {
     "open_count": 6,
     "merged_7d": 0,
-    "merged_30d": 4,
-    "merged_90d": 16,
+    "merged_30d": 3,
+    "merged_90d": 15,
     "opened_7d": 0,
-    "opened_30d": 18,
-    "opened_90d": 31,
+    "opened_30d": 17,
+    "opened_90d": 30,
     "closed_not_merged_90d": 15,
     "draft_count": 0,
     "assigned_count": 0,
@@ -138,7 +138,7 @@
         "title": "fix(client): serialize list query params with empty brackets",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/69",
         "createdAt": "2026-08-17T18:24:50Z",
-        "daysOpen": 65,
+        "daysOpen": 66,
         "labels": [],
         "isDraft": false,
         "additions": 161,
@@ -191,10 +191,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 23,
+      "avg_hours": 24.5,
       "median_hours": 0.2,
-      "p90_hours": 74.4,
-      "p95_hours": 94.6
+      "p90_hours": 74.7,
+      "p95_hours": 99.2
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -203,11 +203,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 24.5,
+      "avg_hours": 26.1,
       "median_hours": 0.2
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 48.4,
+    "rejection_rate_pct": 50,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 2,
@@ -223,18 +223,18 @@
     "churned_30d": 0,
     "commits_per_week_avg": 30.3,
     "commits_per_week_trend": [
-      0,
       8,
-      29,
-      22,
-      35,
+      8,
       25,
-      29,
+      19,
+      37,
+      26,
+      26,
       38,
-      47,
-      43,
-      36,
-      51
+      51,
+      40,
+      41,
+      44
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -288,23 +288,23 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 16,
-        "total_changes": 417
+        "pr_count": 15,
+        "total_changes": 407
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 15,
-        "total_changes": 30
+        "pr_count": 14,
+        "total_changes": 28
       },
       {
         "path": "README.md",
-        "pr_count": 15,
-        "total_changes": 92
+        "pr_count": 14,
+        "total_changes": 90
       },
       {
         "path": "src/Version.php",
-        "pr_count": 15,
-        "total_changes": 30
+        "pr_count": 14,
+        "total_changes": 28
       },
       {
         "path": "scripts/mock-spec.json.gz",
@@ -313,18 +313,13 @@
       },
       {
         "path": "src/Beta/AnthropicBeta.php",
-        "pr_count": 10,
-        "total_changes": 40
+        "pr_count": 9,
+        "total_changes": 36
       },
       {
         "path": ".stats.yml",
-        "pr_count": 8,
-        "total_changes": 31
-      },
-      {
-        "path": "src/Messages/Model.php",
         "pr_count": 7,
-        "total_changes": 94
+        "total_changes": 25
       },
       {
         "path": "src/Beta/UserProfiles/UserProfileCreateParams.php",
@@ -342,9 +337,9 @@
         "total_changes": 104
       },
       {
-        "path": "src/Beta/Agents/BetaManagedAgentsModel.php",
+        "path": "src/Messages/Model.php",
         "pr_count": 6,
-        "total_changes": 62
+        "total_changes": 92
       },
       {
         "path": "src/Beta/UserProfiles/BetaUserProfile.php",
@@ -357,19 +352,9 @@
         "total_changes": 136
       },
       {
-        "path": "src/Lib/Middleware/RefusalFallbackMiddleware.php",
-        "pr_count": 6,
-        "total_changes": 197
-      },
-      {
-        "path": "src/Beta/Messages/BetaContentBlockParam.php",
+        "path": "src/Beta/Agents/BetaManagedAgentsModel.php",
         "pr_count": 5,
-        "total_changes": 264
-      },
-      {
-        "path": "src/Beta/Messages/MessageCreateParams.php",
-        "pr_count": 5,
-        "total_changes": 142
+        "total_changes": 60
       },
       {
         "path": "src/Core/BaseClient.php",
@@ -382,31 +367,36 @@
         "total_changes": 239
       },
       {
+        "path": "src/Lib/Middleware/RefusalFallbackMiddleware.php",
+        "pr_count": 5,
+        "total_changes": 86
+      },
+      {
         "path": "src/Messages/MessageCreateParams.php",
         "pr_count": 5,
         "total_changes": 75
+      },
+      {
+        "path": "src/ServiceContracts/Beta/DeploymentsContract.php",
+        "pr_count": 5,
+        "total_changes": 60
+      },
+      {
+        "path": "src/ServiceContracts/Beta/Sessions/EventsContract.php",
+        "pr_count": 5,
+        "total_changes": 32
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 16,
+        "pr_count": 15,
         "file_count": 5
       },
       {
         "path": "src/",
-        "pr_count": 15,
+        "pr_count": 14,
         "file_count": 17
-      },
-      {
-        "path": "src/Beta/Messages/",
-        "pr_count": 13,
-        "file_count": 305
-      },
-      {
-        "path": "src/Services/Beta/",
-        "pr_count": 13,
-        "file_count": 31
       },
       {
         "path": "scripts/",
@@ -414,37 +404,47 @@
         "file_count": 3
       },
       {
-        "path": "src/ServiceContracts/Beta/",
+        "path": "src/Beta/Messages/",
         "pr_count": 12,
+        "file_count": 303
+      },
+      {
+        "path": "src/Services/Beta/",
+        "pr_count": 12,
+        "file_count": 31
+      },
+      {
+        "path": "src/ServiceContracts/Beta/",
+        "pr_count": 11,
         "file_count": 28
       },
       {
         "path": "src/Beta/",
-        "pr_count": 10,
-        "file_count": 13
-      },
-      {
-        "path": "src/Messages/",
-        "pr_count": 10,
-        "file_count": 225
-      },
-      {
-        "path": "src/Beta/Agents/",
         "pr_count": 9,
-        "file_count": 43
+        "file_count": 13
       },
       {
         "path": "src/Beta/Sessions/Events/",
         "pr_count": 9,
         "file_count": 71
+      },
+      {
+        "path": "src/Messages/",
+        "pr_count": 9,
+        "file_count": 225
+      },
+      {
+        "path": "tests/Core/",
+        "pr_count": 9,
+        "file_count": 12
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 63834,
-    "total": 3004254,
-    "last_week": 377032,
-    "last_month": 1276703
+    "daily": 66863,
+    "total": 3020443,
+    "last_week": 380061,
+    "last_month": 1279732
   }
 }
