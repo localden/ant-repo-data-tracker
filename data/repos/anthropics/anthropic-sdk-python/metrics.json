@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T19:58:48.008Z",
+  "timestamp": "2026-10-24T22:12:17.814Z",
   "repository": {
     "stars": 4003,
     "forks": 894
@@ -448,7 +448,7 @@
         "title": "beta_tool generates a type: array input_schema and an uncallable tool for positional-only parameters (and *args)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1911",
         "createdAt": "2026-09-04T20:20:02Z",
-        "daysOpen": 49,
+        "daysOpen": 50,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -554,6 +554,16 @@
         "assignees": []
       },
       {
+        "number": 1970,
+        "title": "Repeated event_start resets an accumulated or completed session message",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1970",
+        "createdAt": "2026-10-04T20:46:47Z",
+        "daysOpen": 20,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1975,
         "title": "Bug: _chunk_bytes_to_sse raises AttributeError when chunk.get('bytes') is None in Bedrock stream decoder",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1975",
@@ -564,31 +574,21 @@
         "assignees": []
       },
       {
+        "number": 1984,
+        "title": "A compaction delta without encrypted_content clears the accumulated metadata",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1984",
+        "createdAt": "2026-10-05T21:39:34Z",
+        "daysOpen": 19,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 1977,
         "title": "Async context-manager tools leak entered resources when callable validation fails",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1977",
         "createdAt": "2026-10-05T10:57:39Z",
         "daysOpen": 19,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1970,
-        "title": "Repeated event_start resets an accumulated or completed session message",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1970",
-        "createdAt": "2026-10-04T20:46:47Z",
-        "daysOpen": 19,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 1984,
-        "title": "A compaction delta without encrypted_content clears the accumulated metadata",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/1984",
-        "createdAt": "2026-10-05T21:39:34Z",
-        "daysOpen": 18,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -654,6 +654,16 @@
         "assignees": []
       },
       {
+        "number": 2026,
+        "title": "Self-hosted managed agent sessions fail after ~60 minutes when sessions_token expires, and environment key fallback cannot access memory stores",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/2026",
+        "createdAt": "2026-10-18T21:47:23Z",
+        "daysOpen": 6,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 2023,
         "title": "Bedrock: anthropic_beta body field keeps whitespace and empty entries from the anthropic-beta header",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/2023",
@@ -668,16 +678,6 @@
         "title": "Fix test collection and execution errors on Windows (geteuid, FileStore skip, bedrock tempfile lock)",
         "url": "https://github.com/anthropics/anthropic-sdk-python/issues/2027",
         "createdAt": "2026-10-19T17:23:34Z",
-        "daysOpen": 5,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
-        "number": 2026,
-        "title": "Self-hosted managed agent sessions fail after ~60 minutes when sessions_token expires, and environment key fallback cannot access memory stores",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/issues/2026",
-        "createdAt": "2026-10-18T21:47:23Z",
         "daysOpen": 5,
         "labels": [],
         "commentCount": 0,
@@ -743,7 +743,7 @@
     "merged_30d": 4,
     "merged_90d": 26,
     "opened_7d": 6,
-    "opened_30d": 63,
+    "opened_30d": 62,
     "opened_90d": 174,
     "closed_not_merged_90d": 208,
     "draft_count": 1,
@@ -800,7 +800,7 @@
         "title": "Accumulate extra pydantic fields from the sample event",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1070",
         "createdAt": "2025-11-13T21:29:26Z",
-        "daysOpen": 344,
+        "daysOpen": 345,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -1110,7 +1110,7 @@
         "title": "fix(bedrock): preserve aws_profile in copied clients",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1556",
         "createdAt": "2026-05-16T20:50:53Z",
-        "daysOpen": 160,
+        "daysOpen": 161,
         "labels": [],
         "isDraft": false,
         "additions": 33,
@@ -1624,6 +1624,20 @@
         "assignees": []
       },
       {
+        "number": 1833,
+        "title": "fix(streaming): don't JSON-parse text when output_format=None",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
+        "createdAt": "2026-08-15T22:04:19Z",
+        "daysOpen": 70,
+        "labels": [],
+        "isDraft": false,
+        "additions": 47,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "Swastikbhat-lab",
+        "assignees": []
+      },
+      {
         "number": 1834,
         "title": "fix(parse): demote composition keywords instead of dropping them",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1834",
@@ -1633,20 +1647,6 @@
         "isDraft": false,
         "additions": 354,
         "deletions": 0,
-        "reviewCount": 0,
-        "author": "Swastikbhat-lab",
-        "assignees": []
-      },
-      {
-        "number": 1833,
-        "title": "fix(streaming): don't JSON-parse text when output_format=None",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1833",
-        "createdAt": "2026-08-15T22:04:19Z",
-        "daysOpen": 69,
-        "labels": [],
-        "isDraft": false,
-        "additions": 47,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "Swastikbhat-lab",
         "assignees": []
@@ -1740,7 +1740,7 @@
         "title": "fix(beta): omit compaction encrypted_content on request round-trip",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1859",
         "createdAt": "2026-08-18T20:12:05Z",
-        "daysOpen": 66,
+        "daysOpen": 67,
         "labels": [],
         "isDraft": false,
         "additions": 375,
@@ -1974,25 +1974,11 @@
         "assignees": []
       },
       {
-        "number": 1913,
-        "title": "fix(tools): preserve an explicitly empty description",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1913",
-        "createdAt": "2026-09-05T17:21:16Z",
-        "daysOpen": 49,
-        "labels": [],
-        "isDraft": false,
-        "additions": 14,
-        "deletions": 1,
-        "reviewCount": 1,
-        "author": "codewithfourtix",
-        "assignees": []
-      },
-      {
         "number": 1912,
         "title": "fix(tools): support positional-only parameters in beta_tool",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1912",
         "createdAt": "2026-09-04T20:20:39Z",
-        "daysOpen": 49,
+        "daysOpen": 50,
         "labels": [],
         "isDraft": false,
         "additions": 131,
@@ -2006,13 +1992,27 @@
         "title": "fix(memory): require a separator after the /memories prefix",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1914",
         "createdAt": "2026-09-05T21:58:04Z",
-        "daysOpen": 48,
+        "daysOpen": 49,
         "labels": [],
         "isDraft": false,
         "additions": 50,
         "deletions": 2,
         "reviewCount": 1,
         "author": "Kayvan-Zahiri",
+        "assignees": []
+      },
+      {
+        "number": 1913,
+        "title": "fix(tools): preserve an explicitly empty description",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1913",
+        "createdAt": "2026-09-05T17:21:16Z",
+        "daysOpen": 49,
+        "labels": [],
+        "isDraft": false,
+        "additions": 14,
+        "deletions": 1,
+        "reviewCount": 1,
+        "author": "codewithfourtix",
         "assignees": []
       },
       {
@@ -2128,6 +2128,20 @@
         "assignees": []
       },
       {
+        "number": 1944,
+        "title": "fix: guard stop_reason/stop_sequence/stop_details against None in accumulate_event",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1944",
+        "createdAt": "2026-09-21T21:50:50Z",
+        "daysOpen": 33,
+        "labels": [],
+        "isDraft": false,
+        "additions": 129,
+        "deletions": 6,
+        "reviewCount": 0,
+        "author": "priyadarshnisundararajan",
+        "assignees": []
+      },
+      {
         "number": 1945,
         "title": "fix(client): drop hyphen in re-using docstrings across 6 files",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1945",
@@ -2139,20 +2153,6 @@
         "deletions": 12,
         "reviewCount": 0,
         "author": "haimingZZ",
-        "assignees": []
-      },
-      {
-        "number": 1944,
-        "title": "fix: guard stop_reason/stop_sequence/stop_details against None in accumulate_event",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1944",
-        "createdAt": "2026-09-21T21:50:50Z",
-        "daysOpen": 32,
-        "labels": [],
-        "isDraft": false,
-        "additions": 129,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "priyadarshnisundararajan",
         "assignees": []
       },
       {
@@ -2244,7 +2244,7 @@
         "title": "fix(credentials): match the loopback exemption on the parsed host",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1962",
         "createdAt": "2026-09-29T20:07:55Z",
-        "daysOpen": 24,
+        "daysOpen": 25,
         "labels": [],
         "isDraft": false,
         "additions": 36,
@@ -2310,6 +2310,20 @@
         "assignees": []
       },
       {
+        "number": 1971,
+        "title": "Preserve accumulated session messages on repeated preview starts",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1971",
+        "createdAt": "2026-10-04T20:46:53Z",
+        "daysOpen": 20,
+        "labels": [],
+        "isDraft": false,
+        "additions": 69,
+        "deletions": 2,
+        "reviewCount": 1,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 1974,
         "title": "fix(streaming): wrap mid-stream transport errors as APIError subclasses",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1974",
@@ -2352,6 +2366,20 @@
         "assignees": []
       },
       {
+        "number": 1985,
+        "title": "Preserve compaction metadata when a delta omits it",
+        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1985",
+        "createdAt": "2026-10-05T21:39:41Z",
+        "daysOpen": 19,
+        "labels": [],
+        "isDraft": false,
+        "additions": 76,
+        "deletions": 2,
+        "reviewCount": 1,
+        "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
         "number": 1978,
         "title": "Release async tool contexts when callable validation fails",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1978",
@@ -2361,20 +2389,6 @@
         "isDraft": false,
         "additions": 62,
         "deletions": 1,
-        "reviewCount": 1,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1971,
-        "title": "Preserve accumulated session messages on repeated preview starts",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1971",
-        "createdAt": "2026-10-04T20:46:53Z",
-        "daysOpen": 19,
-        "labels": [],
-        "isDraft": false,
-        "additions": 69,
-        "deletions": 2,
         "reviewCount": 1,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -2391,20 +2405,6 @@
         "deletions": 6,
         "reviewCount": 1,
         "author": "iosayin",
-        "assignees": []
-      },
-      {
-        "number": 1985,
-        "title": "Preserve compaction metadata when a delta omits it",
-        "url": "https://github.com/anthropics/anthropic-sdk-python/pull/1985",
-        "createdAt": "2026-10-05T21:39:41Z",
-        "daysOpen": 18,
-        "labels": [],
-        "isDraft": false,
-        "additions": 76,
-        "deletions": 2,
-        "reviewCount": 1,
-        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -2734,7 +2734,7 @@
         "title": "chore(tests): clear ANTHROPIC_BASE_URL in the credential tests' env isolation",
         "url": "https://github.com/anthropics/anthropic-sdk-python/pull/2021",
         "createdAt": "2026-10-14T20:58:25Z",
-        "daysOpen": 9,
+        "daysOpen": 10,
         "labels": [],
         "isDraft": false,
         "additions": 1,
@@ -2869,10 +2869,10 @@
   },
   "contributors": {
     "total_known": 498,
-    "active_30d": 44,
+    "active_30d": 43,
     "first_time_30d": 34,
-    "retention_rate_pct": 18.2,
-    "churned_30d": 36,
+    "retention_rate_pct": 15.9,
+    "churned_30d": 37,
     "commits_per_week_avg": 34.9,
     "commits_per_week_trend": [
       9,
@@ -3390,7 +3390,6 @@
     ],
     "previousPeriodContributors": [
       "Afloat16",
-      "DeepikaMamidipelly009",
       "DouweM",
       "Linxiushen",
       "Parsiffall1",
@@ -3593,9 +3592,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 3525895,
-    "last_week": 43984990,
-    "last_month": 177797829,
-    "total": 1518969096
+    "daily": 3903075,
+    "last_week": 44362170,
+    "last_month": 178175009,
+    "total": 1519346276
   }
 }
