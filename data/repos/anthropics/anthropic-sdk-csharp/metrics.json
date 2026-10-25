@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-25T08:52:27.642Z",
+  "timestamp": "2026-10-25T14:04:49.926Z",
   "repository": {
     "stars": 339,
     "forks": 121
@@ -87,7 +87,7 @@
         "title": "Question: HostedCodeInterpreterTool can support Inputs property?",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/275",
         "createdAt": "2026-09-29T09:44:33Z",
-        "daysOpen": 25,
+        "daysOpen": 26,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -107,7 +107,7 @@
         "title": "Adding skill tools through IChatClient drops the configured container ID and raw fields",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/298",
         "createdAt": "2026-10-06T09:22:18Z",
-        "daysOpen": 18,
+        "daysOpen": 19,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -133,6 +133,16 @@
         "assignees": []
       },
       {
+        "number": 306,
+        "title": "Messages.Create<T>() overwrites OutputConfig and silently drops Effort",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/306",
+        "createdAt": "2026-10-09T09:18:07Z",
+        "daysOpen": 16,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 308,
         "title": "Disposing WithOptions or WithRawResponse also disposes the parent HttpClient",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/308",
@@ -140,16 +150,6 @@
         "daysOpen": 15,
         "labels": [],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 306,
-        "title": "Messages.Create<T>() overwrites OutputConfig and silently drops Effort",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/306",
-        "createdAt": "2026-10-09T09:18:07Z",
-        "daysOpen": 15,
-        "labels": [],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -332,7 +332,7 @@
         "title": "Preserve container settings when adding skills through IChatClient",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/299",
         "createdAt": "2026-10-06T09:22:25Z",
-        "daysOpen": 18,
+        "daysOpen": 19,
         "labels": [],
         "isDraft": false,
         "additions": 154,
@@ -360,7 +360,7 @@
         "title": "fix(messages): preserve output configuration for structured output",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/307",
         "createdAt": "2026-10-09T10:05:32Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "isDraft": false,
         "additions": 253,
@@ -374,7 +374,7 @@
         "title": "fix(meai): pass raw content blocks through system messages",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/309",
         "createdAt": "2026-10-10T10:31:58Z",
-        "daysOpen": 14,
+        "daysOpen": 15,
         "labels": [],
         "isDraft": false,
         "additions": 174,
@@ -388,7 +388,7 @@
         "title": "perf(client): stop allocating a throwaway ClientOptions in every raw-response client",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/312",
         "createdAt": "2026-10-14T11:40:00Z",
-        "daysOpen": 10,
+        "daysOpen": 11,
         "labels": [],
         "isDraft": false,
         "additions": 5,
@@ -402,7 +402,7 @@
         "title": "fix(auth): compare a 401 against the token the request actually sent",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/311",
         "createdAt": "2026-10-14T11:02:05Z",
-        "daysOpen": 10,
+        "daysOpen": 11,
         "labels": [],
         "isDraft": false,
         "additions": 151,
@@ -416,7 +416,7 @@
         "title": "fix(client): keep shared HTTP resources alive when a derived client is disposed",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/310",
         "createdAt": "2026-10-14T10:02:00Z",
-        "daysOpen": 10,
+        "daysOpen": 11,
         "labels": [],
         "isDraft": false,
         "additions": 350,
@@ -747,9 +747,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 35393,
-    "total": 7381011,
-    "last_week": 2251609,
-    "last_month": 2438089
+    "daily": 72478,
+    "total": 7418096,
+    "last_week": 2288694,
+    "last_month": 2475174
   }
 }
