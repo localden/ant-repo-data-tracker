@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-25T14:02:31.788Z",
+  "timestamp": "2026-10-25T17:30:10.765Z",
   "repository": {
     "stars": 2153,
-    "forks": 430
+    "forks": 431
   },
   "issues": {
     "open_count": 31,
@@ -506,7 +506,7 @@
         "title": "fix(helpers): give a clear error when a zod v3 schema is passed to the zod helpers",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1040",
         "createdAt": "2026-05-12T16:11:46Z",
-        "daysOpen": 165,
+        "daysOpen": 166,
         "labels": [],
         "isDraft": false,
         "additions": 61,
@@ -534,7 +534,7 @@
         "title": "fix(memory): reject malformed memories paths",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1047",
         "createdAt": "2026-05-16T14:44:46Z",
-        "daysOpen": 161,
+        "daysOpen": 162,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -730,7 +730,7 @@
         "title": "fix(schema): keep $defs when the schema root is a $ref",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1163",
         "createdAt": "2026-08-24T15:36:46Z",
-        "daysOpen": 61,
+        "daysOpen": 62,
         "labels": [],
         "isDraft": false,
         "additions": 38,
@@ -782,6 +782,20 @@
         "assignees": []
       },
       {
+        "number": 1174,
+        "title": "fix: preserve defs when schema root is a ref, and fix compaction delta null content",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1174",
+        "createdAt": "2026-08-29T17:17:10Z",
+        "daysOpen": 57,
+        "labels": [],
+        "isDraft": false,
+        "additions": 312,
+        "deletions": 9,
+        "reviewCount": 0,
+        "author": "AbhiPra24",
+        "assignees": []
+      },
+      {
         "number": 1173,
         "title": "docs: fix typo typicaly -> typically",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1173",
@@ -793,20 +807,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "vaibhav8a",
-        "assignees": []
-      },
-      {
-        "number": 1174,
-        "title": "fix: preserve defs when schema root is a ref, and fix compaction delta null content",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1174",
-        "createdAt": "2026-08-29T17:17:10Z",
-        "daysOpen": 56,
-        "labels": [],
-        "isDraft": false,
-        "additions": 312,
-        "deletions": 9,
-        "reviewCount": 0,
-        "author": "AbhiPra24",
         "assignees": []
       },
       {
@@ -908,6 +908,20 @@
         "assignees": []
       },
       {
+        "number": 1206,
+        "title": "feat(streaming): introduce configurable chunk-level idle timeout for MessageStream",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1206",
+        "createdAt": "2026-09-20T15:54:32Z",
+        "daysOpen": 35,
+        "labels": [],
+        "isDraft": false,
+        "additions": 236,
+        "deletions": 9,
+        "reviewCount": 0,
+        "author": "VolaMito",
+        "assignees": []
+      },
+      {
         "number": 1205,
         "title": "fix(tools): settle ToolRunner completion after early iterator return",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1205",
@@ -919,20 +933,6 @@
         "deletions": 1,
         "reviewCount": 0,
         "author": "rioyu123",
-        "assignees": []
-      },
-      {
-        "number": 1206,
-        "title": "feat(streaming): introduce configurable chunk-level idle timeout for MessageStream",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1206",
-        "createdAt": "2026-09-20T15:54:32Z",
-        "daysOpen": 34,
-        "labels": [],
-        "isDraft": false,
-        "additions": 236,
-        "deletions": 9,
-        "reviewCount": 0,
-        "author": "VolaMito",
         "assignees": []
       },
       {
@@ -1118,6 +1118,20 @@
         "assignees": []
       },
       {
+        "number": 1240,
+        "title": "fix: ignore late deltas after final managed-agent event",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1240",
+        "createdAt": "2026-10-04T15:12:31Z",
+        "daysOpen": 21,
+        "labels": [],
+        "isDraft": false,
+        "additions": 18,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "hossiendehghan989",
+        "assignees": []
+      },
+      {
         "number": 1239,
         "title": "fix(vertex): strip anthropic-beta header from countTokens calls",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1239",
@@ -1143,20 +1157,6 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 1240,
-        "title": "fix: ignore late deltas after final managed-agent event",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1240",
-        "createdAt": "2026-10-04T15:12:31Z",
-        "daysOpen": 20,
-        "labels": [],
-        "isDraft": false,
-        "additions": 18,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "hossiendehghan989",
         "assignees": []
       },
       {
@@ -1328,6 +1328,48 @@
         "assignees": []
       },
       {
+        "number": 1278,
+        "title": "fix(memory): reject rename of the /memories root with a documented error",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1278",
+        "createdAt": "2026-10-23T16:50:24Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 4,
+        "deletions": 0,
+        "reviewCount": 0,
+        "author": "Dopetaiga",
+        "assignees": []
+      },
+      {
+        "number": 1277,
+        "title": "fix(credentials): reject malformed OAuth token responses as WorkloadIdentityError",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1277",
+        "createdAt": "2026-10-23T16:48:19Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 8,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "Dopetaiga",
+        "assignees": []
+      },
+      {
+        "number": 1276,
+        "title": "fix(memory): guard delete on the resolved path, not the raw command path",
+        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1276",
+        "createdAt": "2026-10-23T16:46:51Z",
+        "daysOpen": 2,
+        "labels": [],
+        "isDraft": false,
+        "additions": 1,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "Dopetaiga",
+        "assignees": []
+      },
+      {
         "number": 1282,
         "title": "fix(vertex): handle ADC lookup failure before the first request awaits it",
         "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1282",
@@ -1378,48 +1420,6 @@
         "labels": [],
         "isDraft": false,
         "additions": 23,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "Dopetaiga",
-        "assignees": []
-      },
-      {
-        "number": 1278,
-        "title": "fix(memory): reject rename of the /memories root with a documented error",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1278",
-        "createdAt": "2026-10-23T16:50:24Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 4,
-        "deletions": 0,
-        "reviewCount": 0,
-        "author": "Dopetaiga",
-        "assignees": []
-      },
-      {
-        "number": 1277,
-        "title": "fix(credentials): reject malformed OAuth token responses as WorkloadIdentityError",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1277",
-        "createdAt": "2026-10-23T16:48:19Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 8,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "Dopetaiga",
-        "assignees": []
-      },
-      {
-        "number": 1276,
-        "title": "fix(memory): guard delete on the resolved path, not the raw command path",
-        "url": "https://github.com/anthropics/anthropic-sdk-typescript/pull/1276",
-        "createdAt": "2026-10-23T16:46:51Z",
-        "daysOpen": 1,
-        "labels": [],
-        "isDraft": false,
-        "additions": 1,
         "deletions": 1,
         "reviewCount": 0,
         "author": "Dopetaiga",
