@@ -1,14 +1,14 @@
 {
-  "timestamp": "2026-11-03T08:54:42.192Z",
+  "timestamp": "2026-11-03T17:32:51.405Z",
   "repository": {
     "stars": 197,
-    "forks": 62
+    "forks": 63
   },
   "issues": {
     "open_count": 6,
     "closed_7d": 0,
     "closed_30d": 10,
-    "closed_90d": 12,
+    "closed_90d": 11,
     "opened_7d": 1,
     "opened_30d": 12,
     "opened_90d": 16,
@@ -34,7 +34,7 @@
         "title": "Bedrock: body round-trip flattens empty JSON objects ({} -> []), so a no-argument tool_use gets a 400",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/70",
         "createdAt": "2026-08-19T12:00:53Z",
-        "daysOpen": 75,
+        "daysOpen": 76,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -88,9 +88,9 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 41.6,
-      "median_days": 9.5,
-      "p90_days": 102.8
+      "avg_days": 35.1,
+      "median_days": 9.4,
+      "p90_days": 10.9
     },
     "label_coverage_pct": 0,
     "unlabeled_count": 6,
@@ -100,17 +100,17 @@
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 6,
+    "open_count": 7,
     "merged_7d": 0,
     "merged_30d": 0,
     "merged_90d": 15,
-    "opened_7d": 0,
-    "opened_30d": 12,
-    "opened_90d": 29,
+    "opened_7d": 1,
+    "opened_30d": 13,
+    "opened_90d": 30,
     "closed_not_merged_90d": 15,
-    "draft_count": 0,
+    "draft_count": 1,
     "assigned_count": 0,
-    "unassigned_count": 6,
+    "unassigned_count": 7,
     "unassigned_24h": 6,
     "unassigned_7d": 6,
     "assigned_prs": [],
@@ -134,7 +134,7 @@
         "title": "fix: detect circular references in toJsonSchema()",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/43",
         "createdAt": "2026-05-26T11:31:49Z",
-        "daysOpen": 160,
+        "daysOpen": 161,
         "labels": [],
         "isDraft": false,
         "additions": 55,
@@ -198,6 +198,20 @@
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
+      },
+      {
+        "number": 111,
+        "title": "perf(client): build services on first access instead of in the constructor",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/111",
+        "createdAt": "2026-11-03T17:08:26Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": true,
+        "additions": 65,
+        "deletions": 7,
+        "reviewCount": 0,
+        "author": "mattiasgeniar",
+        "assignees": []
       }
     ],
     "review_time": {
@@ -220,30 +234,30 @@
     "rejection_rate_pct": 50,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
-      "small": 2,
+      "small": 3,
       "medium": 4,
       "large": 0
     }
   },
   "contributors": {
-    "total_known": 37,
-    "active_30d": 8,
-    "first_time_30d": 2,
+    "total_known": 38,
+    "active_30d": 9,
+    "first_time_30d": 3,
     "retention_rate_pct": 71.4,
     "churned_30d": 2,
     "commits_per_week_avg": 35.3,
     "commits_per_week_trend": [
-      18,
-      20,
-      31,
-      35,
-      26,
+      19,
+      21,
+      29,
+      38,
+      27,
       32,
+      35,
+      48,
       39,
-      42,
-      43,
-      45,
-      61,
+      44,
+      60,
       32
     ],
     "allContributors": [
@@ -269,6 +283,7 @@
       "jportner-ant",
       "jrgilman",
       "levelsleuthhelix",
+      "mattiasgeniar",
       "meorphis-anthropic",
       "mikecluck",
       "ms-jpq",
@@ -290,6 +305,7 @@
       "cj-ant",
       "craigie-ant",
       "dtmeadows-ant",
+      "mattiasgeniar",
       "meorphis-anthropic",
       "sophie-ant",
       "sylvesterkaczmarek",
@@ -454,9 +470,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 68904,
-    "total": 3691820,
-    "last_week": 443141,
-    "last_month": 1626064
+    "daily": 81503,
+    "total": 3732331,
+    "last_week": 455740,
+    "last_month": 1638663
   }
 }
