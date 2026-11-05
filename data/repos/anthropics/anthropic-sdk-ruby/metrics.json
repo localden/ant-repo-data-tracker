@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-05T17:51:04.491Z",
+  "timestamp": "2026-11-05T23:06:20.671Z",
   "repository": {
     "stars": 377,
     "forks": 76
@@ -26,7 +26,7 @@
         "createdAt": "2025-07-25T14:36:49Z",
         "daysOpen": 468,
         "labels": [],
-        "commentCount": 10,
+        "commentCount": 12,
         "assignees": []
       },
       {
@@ -54,7 +54,7 @@
         "title": "Nested reused input schemas emit unresolved JSON Pointer references",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/243",
         "createdAt": "2026-10-03T19:45:06Z",
-        "daysOpen": 32,
+        "daysOpen": 33,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -64,7 +64,7 @@
         "title": "Nested field descriptions are overwritten by type defaults and leak between uses",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/251",
         "createdAt": "2026-10-04T21:19:08Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -74,7 +74,7 @@
         "title": "Parsing streamed outputs drops tool-call metadata and unknown block fields",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/261",
         "createdAt": "2026-10-05T21:45:50Z",
-        "daysOpen": 30,
+        "daysOpen": 31,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -114,23 +114,23 @@
     },
     "label_coverage_pct": 0,
     "unlabeled_count": 8,
-    "stale_30d": 6,
-    "stale_60d": 2,
-    "stale_90d": 2,
+    "stale_30d": 5,
+    "stale_60d": 1,
+    "stale_90d": 1,
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 7,
+    "open_count": 8,
     "merged_7d": 0,
     "merged_30d": 1,
     "merged_90d": 19,
-    "opened_7d": 1,
-    "opened_30d": 2,
+    "opened_7d": 2,
+    "opened_30d": 3,
     "opened_90d": 33,
-    "closed_not_merged_90d": 13,
+    "closed_not_merged_90d": 11,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 7,
+    "unassigned_count": 8,
     "unassigned_24h": 6,
     "unassigned_7d": 6,
     "assigned_prs": [],
@@ -182,7 +182,7 @@
         "title": "fix(schema): escape nested definition references as JSON Pointer tokens",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/244",
         "createdAt": "2026-10-03T19:47:53Z",
-        "daysOpen": 32,
+        "daysOpen": 33,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -196,7 +196,7 @@
         "title": "fix(schema): keep field metadata local to each reference",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/252",
         "createdAt": "2026-10-04T21:19:14Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "isDraft": false,
         "additions": 104,
@@ -210,13 +210,27 @@
         "title": "Preserve block metadata when parsing streamed outputs",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/262",
         "createdAt": "2026-10-05T21:45:57Z",
-        "daysOpen": 30,
+        "daysOpen": 31,
         "labels": [],
         "isDraft": false,
         "additions": 136,
         "deletions": 14,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 273,
+        "title": "fix(client): infer an uploaded file's Content-Type from its extension",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/273",
+        "createdAt": "2026-11-05T21:08:09Z",
+        "daysOpen": 0,
+        "labels": [],
+        "isDraft": false,
+        "additions": 52,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "czj",
         "assignees": []
       },
       {
@@ -227,7 +241,7 @@
         "daysOpen": 0,
         "labels": [],
         "isDraft": false,
-        "additions": 80,
+        "additions": 73,
         "deletions": 38,
         "reviewCount": 0,
         "author": "czj",
@@ -251,10 +265,10 @@
       "median_hours": 1.9
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 40.6,
+    "rejection_rate_pct": 36.7,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
-      "small": 3,
+      "small": 4,
       "medium": 4,
       "large": 0
     }
@@ -265,20 +279,20 @@
     "first_time_30d": 3,
     "retention_rate_pct": 50,
     "churned_30d": 5,
-    "commits_per_week_avg": 37.7,
+    "commits_per_week_avg": 38.5,
     "commits_per_week_trend": [
-      35,
-      18,
-      37,
-      21,
-      32,
-      37,
-      52,
       23,
-      41,
-      54,
-      47,
-      55
+      26,
+      31,
+      22,
+      32,
+      35,
+      53,
+      25,
+      44,
+      51,
+      45,
+      75
     ],
     "allContributors": [
       "0xsarawut",
@@ -496,9 +510,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 28534,
-    "total": 4533605,
-    "last_week": 189537,
-    "last_month": 776018
+    "daily": 36874,
+    "total": 4541945,
+    "last_week": 197877,
+    "last_month": 784358
   }
 }

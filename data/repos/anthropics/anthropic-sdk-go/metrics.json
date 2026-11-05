@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-05T17:48:05.097Z",
+  "timestamp": "2026-11-05T23:03:07.123Z",
   "repository": {
     "stars": 1239,
     "forks": 221
@@ -108,7 +108,7 @@
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
         "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 112,
+        "daysOpen": 113,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -138,7 +138,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 79,
+        "daysOpen": 80,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 79,
+        "daysOpen": 80,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -158,7 +158,7 @@
         "title": "bedrock.WithLoadDefaultConfig panics on ordinary AWS config failures (unknown profile, no SSO cache), so a CLI answers a login prompt with a stack trace",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/416",
         "createdAt": "2026-08-18T20:37:20Z",
-        "daysOpen": 78,
+        "daysOpen": 79,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -188,7 +188,7 @@
         "title": "GA content-block replay panics on unknown response variants",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/450",
         "createdAt": "2026-10-03T19:45:04Z",
-        "daysOpen": 32,
+        "daysOpen": 33,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -272,8 +272,8 @@
     "merged_90d": 20,
     "opened_7d": 0,
     "opened_30d": 6,
-    "opened_90d": 52,
-    "closed_not_merged_90d": 38,
+    "opened_90d": 51,
+    "closed_not_merged_90d": 23,
     "draft_count": 0,
     "assigned_count": 0,
     "unassigned_count": 31,
@@ -286,7 +286,7 @@
         "title": "Fix JSON marshaling for custom content citations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/225",
         "createdAt": "2025-08-21T22:00:17Z",
-        "daysOpen": 440,
+        "daysOpen": 441,
         "labels": [],
         "isDraft": false,
         "additions": 413,
@@ -482,7 +482,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 112,
+        "daysOpen": 113,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -590,6 +590,20 @@
         "assignees": []
       },
       {
+        "number": 434,
+        "title": "fix(json): encode standard library Number values",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
+        "createdAt": "2026-09-02T17:52:10Z",
+        "daysOpen": 64,
+        "labels": [],
+        "isDraft": false,
+        "additions": 30,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "pentaoa",
+        "assignees": []
+      },
+      {
         "number": 431,
         "title": "fix(tools): bound bash Close wait so setsid cannot hang",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/431",
@@ -601,20 +615,6 @@
         "deletions": 4,
         "reviewCount": 1,
         "author": "varunmahajan1",
-        "assignees": []
-      },
-      {
-        "number": 434,
-        "title": "fix(json): encode standard library Number values",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
-        "createdAt": "2026-09-02T17:52:10Z",
-        "daysOpen": 63,
-        "labels": [],
-        "isDraft": false,
-        "additions": 30,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "pentaoa",
         "assignees": []
       },
       {
@@ -733,7 +733,7 @@
       "median_hours": 1
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 65.5,
+    "rejection_rate_pct": 53.5,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 15,
@@ -747,20 +747,20 @@
     "first_time_30d": 7,
     "retention_rate_pct": 54.5,
     "churned_30d": 5,
-    "commits_per_week_avg": 35.7,
+    "commits_per_week_avg": 36.8,
     "commits_per_week_trend": [
-      27,
-      12,
-      27,
-      26,
-      30,
-      35,
-      54,
-      27,
-      40,
-      47,
-      44,
-      59
+      18,
+      25,
+      23,
+      18,
+      32,
+      33,
+      55,
+      29,
+      41,
+      46,
+      41,
+      81
     ],
     "allContributors": [
       "00200200",
