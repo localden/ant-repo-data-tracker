@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-11-06T13:27:59.364Z",
+  "timestamp": "2026-11-06T20:11:27.993Z",
   "repository": {
-    "stars": 1239,
-    "forks": 221
+    "stars": 1240,
+    "forks": 220
   },
   "issues": {
     "open_count": 22,
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 268,
+        "daysOpen": 269,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -58,7 +58,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 209,
+        "daysOpen": 210,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -68,7 +68,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 191,
+        "daysOpen": 192,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -108,7 +108,7 @@
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
         "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 113,
+        "daysOpen": 114,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -138,7 +138,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 80,
+        "daysOpen": 81,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 80,
+        "daysOpen": 81,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -178,7 +178,7 @@
         "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
         "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 75,
+        "daysOpen": 76,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -188,7 +188,7 @@
         "title": "GA content-block replay panics on unknown response variants",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/450",
         "createdAt": "2026-10-03T19:45:04Z",
-        "daysOpen": 33,
+        "daysOpen": 34,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -268,10 +268,10 @@
   "pulls": {
     "open_count": 31,
     "merged_7d": 0,
-    "merged_30d": 1,
+    "merged_30d": 0,
     "merged_90d": 20,
     "opened_7d": 0,
-    "opened_30d": 6,
+    "opened_30d": 5,
     "opened_90d": 50,
     "closed_not_merged_90d": 23,
     "draft_count": 0,
@@ -356,7 +356,7 @@
         "title": "Fix ToolResultBlockParam to support both string and array content",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
         "createdAt": "2026-03-17T14:19:08Z",
-        "daysOpen": 233,
+        "daysOpen": 234,
         "labels": [],
         "isDraft": false,
         "additions": 366,
@@ -482,7 +482,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 113,
+        "daysOpen": 114,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -590,6 +590,20 @@
         "assignees": []
       },
       {
+        "number": 434,
+        "title": "fix(json): encode standard library Number values",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
+        "createdAt": "2026-09-02T17:52:10Z",
+        "daysOpen": 65,
+        "labels": [],
+        "isDraft": false,
+        "additions": 30,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "pentaoa",
+        "assignees": []
+      },
+      {
         "number": 431,
         "title": "fix(tools): bound bash Close wait so setsid cannot hang",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/431",
@@ -604,25 +618,11 @@
         "assignees": []
       },
       {
-        "number": 434,
-        "title": "fix(json): encode standard library Number values",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
-        "createdAt": "2026-09-02T17:52:10Z",
-        "daysOpen": 64,
-        "labels": [],
-        "isDraft": false,
-        "additions": 30,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "pentaoa",
-        "assignees": []
-      },
-      {
         "number": 442,
         "title": "fix(sdk): keep $defs when a $ref node is transformed",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/442",
         "createdAt": "2026-09-19T15:36:00Z",
-        "daysOpen": 47,
+        "daysOpen": 48,
         "labels": [],
         "isDraft": false,
         "additions": 136,
@@ -650,7 +650,7 @@
         "title": "fix(middleware): preserve serving-hop usage iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/477",
         "createdAt": "2026-10-09T14:00:50Z",
-        "daysOpen": 27,
+        "daysOpen": 28,
         "labels": [],
         "isDraft": false,
         "additions": 148,
@@ -678,7 +678,7 @@
         "title": "fix(tools): handle binary files in agent toolset read/edit",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/480",
         "createdAt": "2026-10-20T14:33:41Z",
-        "daysOpen": 16,
+        "daysOpen": 17,
         "labels": [],
         "isDraft": false,
         "additions": 339,
@@ -743,24 +743,24 @@
   },
   "contributors": {
     "total_known": 136,
-    "active_30d": 15,
+    "active_30d": 14,
     "first_time_30d": 7,
-    "retention_rate_pct": 54.5,
-    "churned_30d": 5,
+    "retention_rate_pct": 45.5,
+    "churned_30d": 6,
     "commits_per_week_avg": 36.8,
     "commits_per_week_trend": [
       18,
       25,
-      23,
+      24,
       20,
-      32,
-      36,
+      40,
+      29,
       54,
-      28,
-      39,
-      51,
-      37,
-      79
+      34,
+      33,
+      56,
+      38,
+      71
     ],
     "allContributors": [
       "00200200",
@@ -913,7 +913,6 @@
       "ppipada",
       "sleepyshark85",
       "sophie-ant",
-      "stainless-app",
       "tomer-ant",
       "vernon99"
     ]

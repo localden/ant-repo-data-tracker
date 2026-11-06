@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-06T13:31:11.284Z",
+  "timestamp": "2026-11-06T20:14:23.767Z",
   "repository": {
     "stars": 377,
     "forks": 77
@@ -24,7 +24,7 @@
         "title": "Can't access response HTTP headers",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/110",
         "createdAt": "2025-07-25T14:36:49Z",
-        "daysOpen": 468,
+        "daysOpen": 469,
         "labels": [],
         "commentCount": 12,
         "assignees": []
@@ -34,7 +34,7 @@
         "title": "Unsupported document file format",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/128",
         "createdAt": "2025-09-08T15:45:16Z",
-        "daysOpen": 423,
+        "daysOpen": 424,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -44,7 +44,7 @@
         "title": "Add changelog uri to gemspec",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/237",
         "createdAt": "2026-09-19T17:31:39Z",
-        "daysOpen": 47,
+        "daysOpen": 48,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -54,7 +54,7 @@
         "title": "Nested reused input schemas emit unresolved JSON Pointer references",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/243",
         "createdAt": "2026-10-03T19:45:06Z",
-        "daysOpen": 33,
+        "daysOpen": 34,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -84,7 +84,7 @@
         "title": "require \"anthropic\" adds 53 MB per process; 43% of its allocations are Sorbet bookkeeping that runs without sorbet-runtime",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/270",
         "createdAt": "2026-10-22T16:30:48Z",
-        "daysOpen": 14,
+        "daysOpen": 15,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -122,16 +122,16 @@
   "pulls": {
     "open_count": 10,
     "merged_7d": 0,
-    "merged_30d": 1,
+    "merged_30d": 0,
     "merged_90d": 19,
     "opened_7d": 4,
-    "opened_30d": 5,
+    "opened_30d": 4,
     "opened_90d": 35,
     "closed_not_merged_90d": 11,
     "draft_count": 0,
     "assigned_count": 0,
     "unassigned_count": 10,
-    "unassigned_24h": 6,
+    "unassigned_24h": 7,
     "unassigned_7d": 6,
     "assigned_prs": [],
     "unassigned_prs": [
@@ -182,7 +182,7 @@
         "title": "fix(schema): escape nested definition references as JSON Pointer tokens",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/244",
         "createdAt": "2026-10-03T19:47:53Z",
-        "daysOpen": 33,
+        "daysOpen": 34,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -217,6 +217,20 @@
         "deletions": 14,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 272,
+        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 46%",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
+        "createdAt": "2026-11-05T17:46:28Z",
+        "daysOpen": 1,
+        "labels": [],
+        "isDraft": false,
+        "additions": 73,
+        "deletions": 38,
+        "reviewCount": 0,
+        "author": "czj",
         "assignees": []
       },
       {
@@ -260,20 +274,6 @@
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
-      },
-      {
-        "number": 272,
-        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 46%",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
-        "createdAt": "2026-11-05T17:46:28Z",
-        "daysOpen": 0,
-        "labels": [],
-        "isDraft": false,
-        "additions": 73,
-        "deletions": 38,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
       }
     ],
     "review_time": {
@@ -303,24 +303,24 @@
   },
   "contributors": {
     "total_known": 44,
-    "active_30d": 9,
+    "active_30d": 7,
     "first_time_30d": 3,
-    "retention_rate_pct": 50,
-    "churned_30d": 5,
+    "retention_rate_pct": 30,
+    "churned_30d": 7,
     "commits_per_week_avg": 38.5,
     "commits_per_week_trend": [
       23,
+      29,
+      29,
       27,
-      30,
-      25,
-      31,
       36,
-      50,
-      28,
-      42,
-      56,
-      41,
-      73
+      31,
+      48,
+      35,
+      38,
+      63,
+      37,
+      66
     ],
     "allContributors": [
       "0xsarawut",
@@ -371,12 +371,10 @@
     "previousPeriodContributors": [
       "achandmsft",
       "cj-ant",
-      "craigie-ant",
       "czj",
       "dtmeadows-ant",
       "meorphis-anthropic",
       "sophie-ant",
-      "stainless-app",
       "tomer-ant"
     ]
   },
@@ -538,9 +536,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 14278,
-    "total": 4556223,
-    "last_week": 177512,
-    "last_month": 768124
+    "daily": 23940,
+    "total": 4565885,
+    "last_week": 187174,
+    "last_month": 777786
   }
 }
