@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-08T17:26:41.094Z",
+  "timestamp": "2026-11-08T21:32:36.619Z",
   "repository": {
     "stars": 378,
     "forks": 79
@@ -44,7 +44,7 @@
         "title": "Add changelog uri to gemspec",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/237",
         "createdAt": "2026-09-19T17:31:39Z",
-        "daysOpen": 49,
+        "daysOpen": 50,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -54,7 +54,7 @@
         "title": "Nested reused input schemas emit unresolved JSON Pointer references",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/243",
         "createdAt": "2026-10-03T19:45:06Z",
-        "daysOpen": 35,
+        "daysOpen": 36,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -64,7 +64,7 @@
         "title": "Nested field descriptions are overwritten by type defaults and leak between uses",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/251",
         "createdAt": "2026-10-04T21:19:08Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -182,7 +182,7 @@
         "title": "fix(schema): escape nested definition references as JSON Pointer tokens",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/244",
         "createdAt": "2026-10-03T19:47:53Z",
-        "daysOpen": 35,
+        "daysOpen": 36,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -196,7 +196,7 @@
         "title": "fix(schema): keep field metadata local to each reference",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/252",
         "createdAt": "2026-10-04T21:19:14Z",
-        "daysOpen": 34,
+        "daysOpen": 35,
         "labels": [],
         "isDraft": false,
         "additions": 104,
@@ -217,6 +217,34 @@
         "deletions": 14,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 273,
+        "title": "fix(client): infer an uploaded file's Content-Type from its extension",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/273",
+        "createdAt": "2026-11-05T21:08:09Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 52,
+        "deletions": 2,
+        "reviewCount": 0,
+        "author": "czj",
+        "assignees": []
+      },
+      {
+        "number": 272,
+        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 46%",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
+        "createdAt": "2026-11-05T17:46:28Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 73,
+        "deletions": 38,
+        "reviewCount": 0,
+        "author": "czj",
         "assignees": []
       },
       {
@@ -243,34 +271,6 @@
         "isDraft": false,
         "additions": 34,
         "deletions": 1,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
-        "number": 273,
-        "title": "fix(client): infer an uploaded file's Content-Type from its extension",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/273",
-        "createdAt": "2026-11-05T21:08:09Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 52,
-        "deletions": 2,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
-        "number": 272,
-        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 46%",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
-        "createdAt": "2026-11-05T17:46:28Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 73,
-        "deletions": 38,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
@@ -552,9 +552,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 7092,
-    "total": 4590332,
-    "last_week": 177827,
-    "last_month": 743909
+    "daily": 9042,
+    "total": 4592282,
+    "last_week": 179777,
+    "last_month": 745859
   }
 }
