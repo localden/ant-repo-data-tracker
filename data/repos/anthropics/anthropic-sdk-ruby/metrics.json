@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T01:22:29.255Z",
+  "timestamp": "2026-11-09T08:55:33.873Z",
   "repository": {
     "stars": 379,
     "forks": 79
@@ -94,7 +94,7 @@
         "title": "Standard client: neutral external bearer providers without native OAuth assumptions",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/271",
         "createdAt": "2026-10-29T07:37:29Z",
-        "daysOpen": 10,
+        "daysOpen": 11,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -140,7 +140,7 @@
         "title": "docs: remove outdated single-content-block note from accumulated_text",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/164",
         "createdAt": "2026-03-18T02:28:31Z",
-        "daysOpen": 235,
+        "daysOpen": 236,
         "labels": [],
         "isDraft": false,
         "additions": 3,
@@ -220,6 +220,34 @@
         "assignees": []
       },
       {
+        "number": 275,
+        "title": "perf(client): share one frozen Hash for fields without meta (6 MB less RSS after require)",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/275",
+        "createdAt": "2026-11-06T06:22:27Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 10,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "czj",
+        "assignees": []
+      },
+      {
+        "number": 274,
+        "title": "perf(client): share one CA certificate store across clients (Client.new 3.7 ms → 0.03 ms)",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/274",
+        "createdAt": "2026-11-06T06:13:59Z",
+        "daysOpen": 3,
+        "labels": [],
+        "isDraft": false,
+        "additions": 34,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "czj",
+        "assignees": []
+      },
+      {
         "number": 273,
         "title": "fix(client): infer an uploaded file's Content-Type from its extension",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/273",
@@ -243,34 +271,6 @@
         "isDraft": false,
         "additions": 73,
         "deletions": 38,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
-        "number": 275,
-        "title": "perf(client): share one frozen Hash for fields without meta (6 MB less RSS after require)",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/275",
-        "createdAt": "2026-11-06T06:22:27Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 10,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
-        "number": 274,
-        "title": "perf(client): share one CA certificate store across clients (Client.new 3.7 ms → 0.03 ms)",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/274",
-        "createdAt": "2026-11-06T06:13:59Z",
-        "daysOpen": 2,
-        "labels": [],
-        "isDraft": false,
-        "additions": 34,
-        "deletions": 1,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
@@ -552,9 +552,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 1892,
-    "total": 4594174,
-    "last_week": 154420,
-    "last_month": 735949
+    "daily": 8564,
+    "total": 4600846,
+    "last_week": 161092,
+    "last_month": 742621
   }
 }
