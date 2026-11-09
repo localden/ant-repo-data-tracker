@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T08:55:33.873Z",
+  "timestamp": "2026-11-09T20:22:08.202Z",
   "repository": {
     "stars": 379,
     "forks": 79
@@ -8,7 +8,7 @@
     "open_count": 8,
     "closed_7d": 0,
     "closed_30d": 10,
-    "closed_90d": 12,
+    "closed_90d": 11,
     "opened_7d": 0,
     "opened_30d": 2,
     "opened_90d": 16,
@@ -24,7 +24,7 @@
         "title": "Can't access response HTTP headers",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/110",
         "createdAt": "2025-07-25T14:36:49Z",
-        "daysOpen": 471,
+        "daysOpen": 472,
         "labels": [],
         "commentCount": 12,
         "assignees": []
@@ -34,7 +34,7 @@
         "title": "Unsupported document file format",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/128",
         "createdAt": "2025-09-08T15:45:16Z",
-        "daysOpen": 426,
+        "daysOpen": 427,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -44,7 +44,7 @@
         "title": "Add changelog uri to gemspec",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/237",
         "createdAt": "2026-09-19T17:31:39Z",
-        "daysOpen": 50,
+        "daysOpen": 51,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -54,7 +54,7 @@
         "title": "Nested reused input schemas emit unresolved JSON Pointer references",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/243",
         "createdAt": "2026-10-03T19:45:06Z",
-        "daysOpen": 36,
+        "daysOpen": 37,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -84,7 +84,7 @@
         "title": "require \"anthropic\" adds 53 MB per process; 43% of its allocations are Sorbet bookkeeping that runs without sorbet-runtime",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/270",
         "createdAt": "2026-10-22T16:30:48Z",
-        "daysOpen": 17,
+        "daysOpen": 18,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -108,9 +108,9 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 14.8,
-      "median_days": 9.5,
-      "p90_days": 33
+      "avg_days": 12.9,
+      "median_days": 9.4,
+      "p90_days": 10.9
     },
     "label_coverage_pct": 0,
     "unlabeled_count": 8,
@@ -123,7 +123,7 @@
     "open_count": 11,
     "merged_7d": 0,
     "merged_30d": 0,
-    "merged_90d": 19,
+    "merged_90d": 18,
     "opened_7d": 5,
     "opened_30d": 5,
     "opened_90d": 36,
@@ -154,7 +154,7 @@
         "title": "fix(files): infer document upload content types",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/198",
         "createdAt": "2026-05-30T09:20:46Z",
-        "daysOpen": 162,
+        "daysOpen": 163,
         "labels": [],
         "isDraft": false,
         "additions": 37,
@@ -168,7 +168,7 @@
         "title": "fix(packaging): add gem changelog URI",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/239",
         "createdAt": "2026-09-23T12:28:44Z",
-        "daysOpen": 46,
+        "daysOpen": 47,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -182,7 +182,7 @@
         "title": "fix(schema): escape nested definition references as JSON Pointer tokens",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/244",
         "createdAt": "2026-10-03T19:47:53Z",
-        "daysOpen": 36,
+        "daysOpen": 37,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -217,6 +217,20 @@
         "deletions": 14,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 272,
+        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 46%",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
+        "createdAt": "2026-11-05T17:46:28Z",
+        "daysOpen": 4,
+        "labels": [],
+        "isDraft": false,
+        "additions": 73,
+        "deletions": 38,
+        "reviewCount": 0,
+        "author": "czj",
         "assignees": []
       },
       {
@@ -262,20 +276,6 @@
         "assignees": []
       },
       {
-        "number": 272,
-        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 46%",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
-        "createdAt": "2026-11-05T17:46:28Z",
-        "daysOpen": 3,
-        "labels": [],
-        "isDraft": false,
-        "additions": 73,
-        "deletions": 38,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
         "number": 276,
         "title": "fix(credentials): recheck expiry after advisory refresh failure",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/276",
@@ -291,10 +291,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 216.2,
-      "median_hours": 1.8,
-      "p90_hours": 142.9,
-      "p95_hours": 481.8
+      "avg_hours": 32.6,
+      "median_hours": 1.2,
+      "p90_hours": 126.4,
+      "p95_hours": 142.8
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -303,11 +303,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 217.5,
-      "median_hours": 1.9
+      "avg_hours": 33.9,
+      "median_hours": 1.2
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 36.7,
+    "rejection_rate_pct": 37.9,
     "avg_reviews_per_pr": 1.3,
     "by_size": {
       "small": 6,
@@ -321,20 +321,20 @@
     "first_time_30d": 4,
     "retention_rate_pct": 40,
     "churned_30d": 6,
-    "commits_per_week_avg": 38.5,
+    "commits_per_week_avg": 39.9,
     "commits_per_week_trend": [
       23,
-      33,
-      31,
-      27,
-      36,
-      30,
-      45,
-      37,
       38,
-      72,
-      32,
-      58
+      26,
+      31,
+      34,
+      33,
+      40,
+      37,
+      40,
+      74,
+      34,
+      69
     ],
     "allContributors": [
       "0xsarawut",
@@ -552,9 +552,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 8564,
-    "total": 4600846,
-    "last_week": 161092,
-    "last_month": 742621
+    "daily": 24408,
+    "total": 4616690,
+    "last_week": 176936,
+    "last_month": 758465
   }
 }
