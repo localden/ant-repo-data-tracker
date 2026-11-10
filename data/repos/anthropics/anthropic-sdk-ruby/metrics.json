@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-10T12:02:20.948Z",
+  "timestamp": "2026-11-10T19:10:08.227Z",
   "repository": {
     "stars": 379,
     "forks": 79
@@ -24,7 +24,7 @@
         "title": "Can't access response HTTP headers",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/110",
         "createdAt": "2025-07-25T14:36:49Z",
-        "daysOpen": 472,
+        "daysOpen": 473,
         "labels": [],
         "commentCount": 12,
         "assignees": []
@@ -34,7 +34,7 @@
         "title": "Unsupported document file format",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/128",
         "createdAt": "2025-09-08T15:45:16Z",
-        "daysOpen": 427,
+        "daysOpen": 428,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -44,7 +44,7 @@
         "title": "Add changelog uri to gemspec",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/237",
         "createdAt": "2026-09-19T17:31:39Z",
-        "daysOpen": 51,
+        "daysOpen": 52,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -84,7 +84,7 @@
         "title": "require \"anthropic\" adds 53 MB per process; 43% of its allocations are Sorbet bookkeeping that runs without sorbet-runtime",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/270",
         "createdAt": "2026-10-22T16:30:48Z",
-        "daysOpen": 18,
+        "daysOpen": 19,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -168,7 +168,7 @@
         "title": "fix(packaging): add gem changelog URI",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/239",
         "createdAt": "2026-09-23T12:28:44Z",
-        "daysOpen": 47,
+        "daysOpen": 48,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -220,6 +220,20 @@
         "assignees": []
       },
       {
+        "number": 272,
+        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 46%",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
+        "createdAt": "2026-11-05T17:46:28Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 73,
+        "deletions": 38,
+        "reviewCount": 0,
+        "author": "czj",
+        "assignees": []
+      },
+      {
         "number": 275,
         "title": "perf(client): share one frozen Hash for fields without meta (6 MB less RSS after require)",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/275",
@@ -257,20 +271,6 @@
         "isDraft": false,
         "additions": 52,
         "deletions": 2,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
-        "number": 272,
-        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 46%",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
-        "createdAt": "2026-11-05T17:46:28Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 73,
-        "deletions": 38,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
@@ -319,22 +319,22 @@
     "total_known": 45,
     "active_30d": 8,
     "first_time_30d": 4,
-    "retention_rate_pct": 40,
-    "churned_30d": 6,
-    "commits_per_week_avg": 39.9,
+    "retention_rate_pct": 44.4,
+    "churned_30d": 5,
+    "commits_per_week_avg": 41.5,
     "commits_per_week_trend": [
       23,
-      39,
-      25,
+      43,
+      24,
+      34,
       33,
       33,
-      37,
       35,
-      37,
-      46,
-      70,
+      38,
+      51,
+      65,
       40,
-      61
+      79
     ],
     "allContributors": [
       "0xsarawut",
@@ -552,9 +552,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 17556,
-    "total": 4634246,
-    "last_week": 155224,
-    "last_month": 767981
+    "daily": 28782,
+    "total": 4645472,
+    "last_week": 166450,
+    "last_month": 779207
   }
 }
