@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-09T20:21:12.112Z",
+  "timestamp": "2026-11-10T03:57:55.318Z",
   "repository": {
     "stars": 345,
     "forks": 121
@@ -8,7 +8,7 @@
     "open_count": 16,
     "closed_7d": 0,
     "closed_30d": 10,
-    "closed_90d": 17,
+    "closed_90d": 16,
     "opened_7d": 0,
     "opened_30d": 3,
     "opened_90d": 28,
@@ -24,7 +24,7 @@
         "title": "Support AOT",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/79",
         "createdAt": "2025-12-21T01:39:45Z",
-        "daysOpen": 323,
+        "daysOpen": 324,
         "labels": [
           "enhancement",
           "sdk"
@@ -37,7 +37,7 @@
         "title": "MEAI adapter: ToUsageDetails drops Usage.OutputTokensDetails.ThinkingTokens (UsageDetails.ReasoningTokenCount never populated)",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/245",
         "createdAt": "2026-08-18T00:44:02Z",
-        "daysOpen": 83,
+        "daysOpen": 84,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -194,9 +194,9 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 15.1,
-      "median_days": 9.9,
-      "p90_days": 29.4
+      "avg_days": 14.7,
+      "median_days": 9.6,
+      "p90_days": 28.6
     },
     "label_coverage_pct": 6.3,
     "unlabeled_count": 15,
@@ -209,7 +209,7 @@
     "open_count": 25,
     "merged_7d": 0,
     "merged_30d": 0,
-    "merged_90d": 20,
+    "merged_90d": 19,
     "opened_7d": 2,
     "opened_30d": 12,
     "opened_90d": 52,
@@ -254,7 +254,7 @@
         "title": "fix(bedrock): skip null-content events in streaming instead of crashing",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/252",
         "createdAt": "2026-08-27T00:48:25Z",
-        "daysOpen": 74,
+        "daysOpen": 75,
         "labels": [],
         "isDraft": false,
         "additions": 169,
@@ -366,7 +366,7 @@
         "title": "fix(meai): send JSON schema response formats with no required properties",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/304",
         "createdAt": "2026-10-07T23:00:21Z",
-        "daysOpen": 32,
+        "daysOpen": 33,
         "labels": [],
         "isDraft": false,
         "additions": 246,
@@ -520,7 +520,7 @@
         "title": "fix(vertex): route count_tokens requests to the count-tokens endpoint",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/320",
         "createdAt": "2026-10-28T01:56:19Z",
-        "daysOpen": 12,
+        "daysOpen": 13,
         "labels": [],
         "isDraft": false,
         "additions": 88,
@@ -534,13 +534,27 @@
         "title": "fix(bedrock): escape the model ID in the invoke URL path",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/319",
         "createdAt": "2026-10-28T01:56:09Z",
-        "daysOpen": 12,
+        "daysOpen": 13,
         "labels": [],
         "isDraft": false,
         "additions": 79,
         "deletions": 1,
         "reviewCount": 0,
         "author": "johnkaram02",
+        "assignees": []
+      },
+      {
+        "number": 323,
+        "title": "fix(meai): map HostedCodeInterpreterTool to code_execution_20260521",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/323",
+        "createdAt": "2026-11-04T20:58:09Z",
+        "daysOpen": 5,
+        "labels": [],
+        "isDraft": false,
+        "additions": 197,
+        "deletions": 27,
+        "reviewCount": 0,
+        "author": "PederHP",
         "assignees": []
       },
       {
@@ -556,27 +570,13 @@
         "reviewCount": 0,
         "author": "PederHP",
         "assignees": []
-      },
-      {
-        "number": 323,
-        "title": "fix(meai): map HostedCodeInterpreterTool to code_execution_20260521",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/323",
-        "createdAt": "2026-11-04T20:58:09Z",
-        "daysOpen": 4,
-        "labels": [],
-        "isDraft": false,
-        "additions": 197,
-        "deletions": 27,
-        "reviewCount": 0,
-        "author": "PederHP",
-        "assignees": []
       }
     ],
     "review_time": {
-      "avg_hours": 201,
-      "median_hours": 18.3,
-      "p90_hours": 462.6,
-      "p95_hours": 544
+      "avg_hours": 187.2,
+      "median_hours": 13.6,
+      "p90_hours": 316.8,
+      "p95_hours": 519
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -585,11 +585,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 53,
-      "median_hours": 1.4
+      "avg_hours": 27.8,
+      "median_hours": 0.9
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 37.5,
+    "rejection_rate_pct": 38.7,
     "avg_reviews_per_pr": 1.4,
     "by_size": {
       "small": 7,
@@ -606,17 +606,17 @@
     "commits_per_week_avg": 41.1,
     "commits_per_week_trend": [
       29,
-      27,
-      28,
-      27,
+      29,
+      26,
+      29,
+      39,
       40,
-      36,
-      40,
-      36,
-      40,
-      84,
       35,
-      71
+      36,
+      46,
+      80,
+      40,
+      64
     ],
     "allContributors": [
       "1yefuwang1",
@@ -853,14 +853,14 @@
         "file_count": 12
       },
       {
-        "path": "src/Anthropic.Tests/",
-        "pr_count": 13,
-        "file_count": 10
-      },
-      {
         "path": "scripts/",
         "pr_count": 12,
         "file_count": 5
+      },
+      {
+        "path": "src/Anthropic.Tests/",
+        "pr_count": 12,
+        "file_count": 10
       },
       {
         "path": "src/Anthropic/Models/Beta/Messages/",
@@ -891,9 +891,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 71977,
-    "total": 9050796,
-    "last_week": 836724,
-    "last_month": 3921394
+    "daily": 37723,
+    "total": 9088519,
+    "last_week": 747143,
+    "last_month": 3959117
   }
 }
