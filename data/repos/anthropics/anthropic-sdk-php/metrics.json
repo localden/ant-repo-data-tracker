@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-11T17:39:51.244Z",
+  "timestamp": "2026-11-11T23:54:52.046Z",
   "repository": {
     "stars": 201,
     "forks": 62
@@ -24,7 +24,7 @@
         "title": "List-type query params are serialised as types[0]= instead of types[]=, causing a 400",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/67",
         "createdAt": "2026-08-10T23:47:29Z",
-        "daysOpen": 92,
+        "daysOpen": 93,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -40,6 +40,16 @@
         "assignees": []
       },
       {
+        "number": 87,
+        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
+        "createdAt": "2026-10-04T20:19:31Z",
+        "daysOpen": 38,
+        "labels": [],
+        "commentCount": 0,
+        "assignees": []
+      },
+      {
         "number": 93,
         "title": "Nested structured-output fields ignore their Constrained descriptions",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
@@ -50,21 +60,11 @@
         "assignees": []
       },
       {
-        "number": 87,
-        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
-        "createdAt": "2026-10-04T20:19:31Z",
-        "daysOpen": 37,
-        "labels": [],
-        "commentCount": 0,
-        "assignees": []
-      },
-      {
         "number": 107,
         "title": "PHPDoc model arrays generate nested schemas but hydrate as plain arrays",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/107",
         "createdAt": "2026-10-06T23:54:09Z",
-        "daysOpen": 35,
+        "daysOpen": 36,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -123,10 +123,10 @@
     "open_count": 7,
     "merged_7d": 0,
     "merged_30d": 0,
-    "merged_90d": 14,
+    "merged_90d": 13,
     "opened_7d": 0,
     "opened_30d": 1,
-    "opened_90d": 29,
+    "opened_90d": 28,
     "closed_not_merged_90d": 11,
     "draft_count": 0,
     "assigned_count": 0,
@@ -168,13 +168,27 @@
         "title": "fix(client): serialize list query params with empty brackets",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/69",
         "createdAt": "2026-08-17T18:24:50Z",
-        "daysOpen": 85,
+        "daysOpen": 86,
         "labels": [],
         "isDraft": false,
         "additions": 161,
         "deletions": 5,
         "reviewCount": 2,
         "author": "pravinireri",
+        "assignees": []
+      },
+      {
+        "number": 88,
+        "title": "Count Unicode characters in structured-output length checks",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
+        "createdAt": "2026-10-04T20:19:38Z",
+        "daysOpen": 38,
+        "labels": [],
+        "isDraft": false,
+        "additions": 113,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -192,25 +206,11 @@
         "assignees": []
       },
       {
-        "number": 88,
-        "title": "Count Unicode characters in structured-output length checks",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
-        "createdAt": "2026-10-04T20:19:38Z",
-        "daysOpen": 37,
-        "labels": [],
-        "isDraft": false,
-        "additions": 113,
-        "deletions": 4,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
         "number": 108,
         "title": "Hydrate PHPDoc-declared arrays as structured models",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/108",
         "createdAt": "2026-10-06T23:54:19Z",
-        "daysOpen": 35,
+        "daysOpen": 36,
         "labels": [],
         "isDraft": false,
         "additions": 323,
@@ -237,8 +237,8 @@
     "review_time": {
       "avg_hours": 75.6,
       "median_hours": 0.2,
-      "p90_hours": 139.3,
-      "p95_hours": 303.6
+      "p90_hours": 144,
+      "p95_hours": 337.5
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -247,11 +247,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 22.8,
+      "avg_hours": 18.6,
       "median_hours": 0.2
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 44,
+    "rejection_rate_pct": 45.8,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 3,
@@ -265,20 +265,20 @@
     "first_time_30d": 5,
     "retention_rate_pct": 50,
     "churned_30d": 4,
-    "commits_per_week_avg": 41.4,
+    "commits_per_week_avg": 41.1,
     "commits_per_week_trend": [
       27,
+      34,
+      26,
       30,
-      33,
-      27,
-      38,
+      37,
+      47,
       40,
-      46,
       39,
-      50,
-      49,
-      57,
-      61
+      53,
+      43,
+      66,
+      51
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -338,23 +338,23 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 14,
-        "total_changes": 386
+        "pr_count": 13,
+        "total_changes": 367
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 13,
-        "total_changes": 26
+        "pr_count": 12,
+        "total_changes": 24
       },
       {
         "path": "README.md",
-        "pr_count": 13,
-        "total_changes": 82
+        "pr_count": 12,
+        "total_changes": 80
       },
       {
         "path": "src/Version.php",
-        "pr_count": 13,
-        "total_changes": 26
+        "pr_count": 12,
+        "total_changes": 24
       },
       {
         "path": "scripts/mock-spec.json.gz",
@@ -368,33 +368,28 @@
       },
       {
         "path": "src/Beta/UserProfiles/UserProfileCreateParams.php",
-        "pr_count": 7,
-        "total_changes": 147
-      },
-      {
-        "path": "src/ServiceContracts/Beta/UserProfilesContract.php",
-        "pr_count": 7,
-        "total_changes": 77
-      },
-      {
-        "path": "src/Services/Beta/UserProfilesService.php",
-        "pr_count": 7,
-        "total_changes": 104
-      },
-      {
-        "path": ".stats.yml",
         "pr_count": 6,
-        "total_changes": 19
-      },
-      {
-        "path": "src/Beta/UserProfiles/BetaUserProfile.php",
-        "pr_count": 6,
-        "total_changes": 178
+        "total_changes": 143
       },
       {
         "path": "src/Beta/UserProfiles/UserProfileUpdateParams.php",
         "pr_count": 6,
         "total_changes": 136
+      },
+      {
+        "path": "src/ServiceContracts/Beta/UserProfilesContract.php",
+        "pr_count": 6,
+        "total_changes": 75
+      },
+      {
+        "path": "src/Services/Beta/UserProfilesService.php",
+        "pr_count": 6,
+        "total_changes": 102
+      },
+      {
+        "path": ".stats.yml",
+        "pr_count": 5,
+        "total_changes": 13
       },
       {
         "path": "src/Beta/Agents/BetaManagedAgentsModel.php",
@@ -405,6 +400,11 @@
         "path": "src/Messages/Model.php",
         "pr_count": 5,
         "total_changes": 80
+      },
+      {
+        "path": "src/Beta/UserProfiles/BetaUserProfile.php",
+        "pr_count": 5,
+        "total_changes": 174
       },
       {
         "path": "src/Core/BaseClient.php",
@@ -440,18 +440,18 @@
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 14,
-        "file_count": 5
-      },
-      {
-        "path": "src/",
         "pr_count": 13,
-        "file_count": 17
+        "file_count": 5
       },
       {
         "path": "scripts/",
         "pr_count": 12,
         "file_count": 3
+      },
+      {
+        "path": "src/",
+        "pr_count": 12,
+        "file_count": 17
       },
       {
         "path": "src/Beta/Messages/",
@@ -460,12 +460,12 @@
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 11,
+        "pr_count": 10,
         "file_count": 31
       },
       {
         "path": "src/ServiceContracts/Beta/",
-        "pr_count": 10,
+        "pr_count": 9,
         "file_count": 28
       },
       {
@@ -492,9 +492,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 87652,
-    "total": 4326448,
-    "last_week": 512281,
-    "last_month": 1884967
+    "daily": 89252,
+    "total": 4350593,
+    "last_week": 513881,
+    "last_month": 1886567
   }
 }
