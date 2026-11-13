@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-13T11:47:50.832Z",
+  "timestamp": "2026-11-13T19:00:52.265Z",
   "repository": {
     "stars": 379,
     "forks": 79
@@ -24,7 +24,7 @@
         "title": "Can't access response HTTP headers",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/110",
         "createdAt": "2025-07-25T14:36:49Z",
-        "daysOpen": 475,
+        "daysOpen": 476,
         "labels": [],
         "commentCount": 13,
         "assignees": []
@@ -34,7 +34,7 @@
         "title": "Unsupported document file format",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/128",
         "createdAt": "2025-09-08T15:45:16Z",
-        "daysOpen": 430,
+        "daysOpen": 431,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -44,7 +44,7 @@
         "title": "Add changelog uri to gemspec",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/237",
         "createdAt": "2026-09-19T17:31:39Z",
-        "daysOpen": 54,
+        "daysOpen": 55,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -74,7 +74,7 @@
         "title": "require \"anthropic\" adds 53 MB per process; 43% of its allocations are Sorbet bookkeeping that runs without sorbet-runtime",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/270",
         "createdAt": "2026-10-22T16:30:48Z",
-        "daysOpen": 21,
+        "daysOpen": 22,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -158,7 +158,7 @@
         "title": "fix(packaging): add gem changelog URI",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/239",
         "createdAt": "2026-09-23T12:28:44Z",
-        "daysOpen": 50,
+        "daysOpen": 51,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -193,6 +193,20 @@
         "deletions": 2,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
+        "assignees": []
+      },
+      {
+        "number": 272,
+        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 45%",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
+        "createdAt": "2026-11-05T17:46:28Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 120,
+        "deletions": 37,
+        "reviewCount": 0,
+        "author": "czj",
         "assignees": []
       },
       {
@@ -233,20 +247,6 @@
         "isDraft": false,
         "additions": 10,
         "deletions": 1,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
-        "number": 272,
-        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 45%",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
-        "createdAt": "2026-11-05T17:46:28Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 120,
-        "deletions": 37,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
@@ -299,18 +299,18 @@
     "churned_30d": 5,
     "commits_per_week_avg": 39.6,
     "commits_per_week_trend": [
+      29,
+      29,
       26,
-      31,
-      23,
-      33,
       36,
-      50,
-      28,
-      42,
-      53,
-      43,
-      80,
-      30
+      31,
+      48,
+      35,
+      39,
+      61,
+      38,
+      77,
+      26
     ],
     "allContributors": [
       "0xsarawut",
@@ -528,9 +528,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 14539,
-    "total": 4725343,
-    "last_week": 159458,
-    "last_month": 773864
+    "daily": 23650,
+    "total": 4734454,
+    "last_week": 168569,
+    "last_month": 782975
   }
 }
