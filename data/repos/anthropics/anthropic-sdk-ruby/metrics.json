@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-11-14T00:37:39.302Z",
+  "timestamp": "2026-11-14T08:21:18.629Z",
   "repository": {
     "stars": 379,
-    "forks": 79
+    "forks": 80
   },
   "issues": {
     "open_count": 7,
@@ -84,7 +84,7 @@
         "title": "Standard client: neutral external bearer providers without native OAuth assumptions",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/271",
         "createdAt": "2026-10-29T07:37:29Z",
-        "daysOpen": 15,
+        "daysOpen": 16,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -130,7 +130,7 @@
         "title": "docs: remove outdated single-content-block note from accumulated_text",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/164",
         "createdAt": "2026-03-18T02:28:31Z",
-        "daysOpen": 240,
+        "daysOpen": 241,
         "labels": [],
         "isDraft": false,
         "additions": 3,
@@ -210,6 +210,34 @@
         "assignees": []
       },
       {
+        "number": 274,
+        "title": "perf(client): share one CA certificate store across clients (Client.new 3.7 ms → 0.03 ms)",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/274",
+        "createdAt": "2026-11-06T06:13:59Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 11,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "czj",
+        "assignees": []
+      },
+      {
+        "number": 275,
+        "title": "perf(client): share one frozen Hash for fields without meta (10k fewer Hashes kept after require)",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/275",
+        "createdAt": "2026-11-06T06:22:27Z",
+        "daysOpen": 8,
+        "labels": [],
+        "isDraft": false,
+        "additions": 10,
+        "deletions": 1,
+        "reviewCount": 0,
+        "author": "czj",
+        "assignees": []
+      },
+      {
         "number": 272,
         "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 45%",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
@@ -224,39 +252,11 @@
         "assignees": []
       },
       {
-        "number": 274,
-        "title": "perf(client): share one CA certificate store across clients (Client.new 3.7 ms → 0.03 ms)",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/274",
-        "createdAt": "2026-11-06T06:13:59Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 11,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
-        "number": 275,
-        "title": "perf(client): share one frozen Hash for fields without meta (10k fewer Hashes kept after require)",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/275",
-        "createdAt": "2026-11-06T06:22:27Z",
-        "daysOpen": 7,
-        "labels": [],
-        "isDraft": false,
-        "additions": 10,
-        "deletions": 1,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
         "number": 276,
         "title": "fix(credentials): recheck expiry after advisory refresh failure",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/276",
         "createdAt": "2026-11-08T00:45:23Z",
-        "daysOpen": 5,
+        "daysOpen": 6,
         "labels": [],
         "isDraft": false,
         "additions": 104,
@@ -299,18 +299,18 @@
     "churned_30d": 5,
     "commits_per_week_avg": 39.6,
     "commits_per_week_trend": [
-      31,
-      33,
-      22,
-      39,
-      28,
-      48,
+      32,
+      32,
+      25,
+      37,
+      30,
+      46,
       36,
-      39,
-      72,
-      33,
-      70,
-      24
+      38,
+      73,
+      32,
+      71,
+      23
     ],
     "allContributors": [
       "0xsarawut",
@@ -528,9 +528,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 7370,
-    "total": 4741824,
-    "last_week": 158584,
-    "last_month": 758223
+    "daily": 11446,
+    "total": 4745900,
+    "last_week": 162660,
+    "last_month": 762299
   }
 }
