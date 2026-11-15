@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-15T16:47:07.289Z",
+  "timestamp": "2026-11-15T22:20:31.999Z",
   "repository": {
     "stars": 380,
     "forks": 80
@@ -8,7 +8,7 @@
     "open_count": 7,
     "closed_7d": 1,
     "closed_30d": 1,
-    "closed_90d": 12,
+    "closed_90d": 11,
     "opened_7d": 0,
     "opened_30d": 2,
     "opened_90d": 16,
@@ -44,7 +44,7 @@
         "title": "Add changelog uri to gemspec",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/237",
         "createdAt": "2026-09-19T17:31:39Z",
-        "daysOpen": 56,
+        "daysOpen": 57,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -54,7 +54,7 @@
         "title": "Nested reused input schemas emit unresolved JSON Pointer references",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/243",
         "createdAt": "2026-10-03T19:45:06Z",
-        "daysOpen": 42,
+        "daysOpen": 43,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -64,7 +64,7 @@
         "title": "Nested field descriptions are overwritten by type defaults and leak between uses",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/251",
         "createdAt": "2026-10-04T21:19:08Z",
-        "daysOpen": 41,
+        "daysOpen": 42,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -98,9 +98,9 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 14.7,
-      "median_days": 9.5,
-      "p90_days": 31.3
+      "avg_days": 11.2,
+      "median_days": 9.4,
+      "p90_days": 10.9
     },
     "label_coverage_pct": 0,
     "unlabeled_count": 7,
@@ -172,7 +172,7 @@
         "title": "fix(schema): escape nested definition references as JSON Pointer tokens",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/244",
         "createdAt": "2026-10-03T19:47:53Z",
-        "daysOpen": 42,
+        "daysOpen": 43,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -186,7 +186,7 @@
         "title": "fix(schema): keep field metadata local to each reference",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/252",
         "createdAt": "2026-10-04T21:19:14Z",
-        "daysOpen": 41,
+        "daysOpen": 42,
         "labels": [],
         "isDraft": false,
         "additions": 104,
@@ -200,11 +200,25 @@
         "title": "fix(client): infer an uploaded file's Content-Type from its extension",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/273",
         "createdAt": "2026-11-05T21:08:09Z",
-        "daysOpen": 9,
+        "daysOpen": 10,
         "labels": [],
         "isDraft": false,
         "additions": 58,
         "deletions": 2,
+        "reviewCount": 0,
+        "author": "czj",
+        "assignees": []
+      },
+      {
+        "number": 272,
+        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 45%",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
+        "createdAt": "2026-11-05T17:46:28Z",
+        "daysOpen": 10,
+        "labels": [],
+        "isDraft": false,
+        "additions": 120,
+        "deletions": 37,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
@@ -233,20 +247,6 @@
         "isDraft": false,
         "additions": 10,
         "deletions": 1,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
-        "number": 272,
-        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 45%",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
-        "createdAt": "2026-11-05T17:46:28Z",
-        "daysOpen": 9,
-        "labels": [],
-        "isDraft": false,
-        "additions": 120,
-        "deletions": 37,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
@@ -528,9 +528,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 9102,
-    "total": 4761751,
-    "last_week": 169469,
-    "last_month": 752359
+    "daily": 12464,
+    "total": 4765113,
+    "last_week": 172831,
+    "last_month": 755721
   }
 }
