@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-17T15:12:22.917Z",
+  "timestamp": "2026-11-17T23:19:04.052Z",
   "repository": {
     "stars": 379,
     "forks": 80
@@ -34,7 +34,7 @@
         "title": "Unsupported document file format",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/128",
         "createdAt": "2025-09-08T15:45:16Z",
-        "daysOpen": 434,
+        "daysOpen": 435,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -44,7 +44,7 @@
         "title": "Add changelog uri to gemspec",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/237",
         "createdAt": "2026-09-19T17:31:39Z",
-        "daysOpen": 58,
+        "daysOpen": 59,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -54,7 +54,7 @@
         "title": "Nested reused input schemas emit unresolved JSON Pointer references",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/243",
         "createdAt": "2026-10-03T19:45:06Z",
-        "daysOpen": 44,
+        "daysOpen": 45,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -64,7 +64,7 @@
         "title": "Nested field descriptions are overwritten by type defaults and leak between uses",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/251",
         "createdAt": "2026-10-04T21:19:08Z",
-        "daysOpen": 43,
+        "daysOpen": 44,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -74,7 +74,7 @@
         "title": "require \"anthropic\" adds 53 MB per process; 43% of its allocations are Sorbet bookkeeping that runs without sorbet-runtime",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/270",
         "createdAt": "2026-10-22T16:30:48Z",
-        "daysOpen": 25,
+        "daysOpen": 26,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -113,10 +113,10 @@
     "open_count": 10,
     "merged_7d": 0,
     "merged_30d": 0,
-    "merged_90d": 16,
+    "merged_90d": 14,
     "opened_7d": 0,
     "opened_30d": 5,
-    "opened_90d": 35,
+    "opened_90d": 33,
     "closed_not_merged_90d": 11,
     "draft_count": 0,
     "assigned_count": 0,
@@ -172,7 +172,7 @@
         "title": "fix(schema): escape nested definition references as JSON Pointer tokens",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/244",
         "createdAt": "2026-10-03T19:47:53Z",
-        "daysOpen": 44,
+        "daysOpen": 45,
         "labels": [],
         "isDraft": false,
         "additions": 167,
@@ -186,7 +186,7 @@
         "title": "fix(schema): keep field metadata local to each reference",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/252",
         "createdAt": "2026-10-04T21:19:14Z",
-        "daysOpen": 43,
+        "daysOpen": 44,
         "labels": [],
         "isDraft": false,
         "additions": 104,
@@ -200,25 +200,25 @@
         "title": "fix(client): infer an uploaded file's Content-Type from its extension",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/273",
         "createdAt": "2026-11-05T21:08:09Z",
-        "daysOpen": 11,
+        "daysOpen": 12,
         "labels": [],
         "isDraft": false,
-        "additions": 58,
+        "additions": 87,
         "deletions": 2,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
       },
       {
-        "number": 274,
-        "title": "perf(client): share one CA certificate store across clients (Client.new 3.7 ms → 0.03 ms)",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/274",
-        "createdAt": "2026-11-06T06:13:59Z",
-        "daysOpen": 11,
+        "number": 272,
+        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 45%",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
+        "createdAt": "2026-11-05T17:46:28Z",
+        "daysOpen": 12,
         "labels": [],
         "isDraft": false,
-        "additions": 11,
-        "deletions": 1,
+        "additions": 120,
+        "deletions": 37,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
@@ -231,22 +231,22 @@
         "daysOpen": 11,
         "labels": [],
         "isDraft": false,
-        "additions": 10,
+        "additions": 47,
         "deletions": 1,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
       },
       {
-        "number": 272,
-        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 45%",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
-        "createdAt": "2026-11-05T17:46:28Z",
+        "number": 274,
+        "title": "perf(client): share one CA certificate store across clients (Client.new 3.2 ms → 0.02 ms)",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/274",
+        "createdAt": "2026-11-06T06:13:59Z",
         "daysOpen": 11,
         "labels": [],
         "isDraft": false,
-        "additions": 120,
-        "deletions": 37,
+        "additions": 73,
+        "deletions": 1,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
@@ -267,10 +267,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 20.3,
+      "avg_hours": 22.9,
       "median_hours": 0.4,
-      "p90_hours": 72.9,
-      "p95_hours": 109.8
+      "p90_hours": 83.1,
+      "p95_hours": 114.3
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -279,11 +279,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 21.8,
+      "avg_hours": 24.6,
       "median_hours": 0.4
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 40.7,
+    "rejection_rate_pct": 44,
     "avg_reviews_per_pr": 1.4,
     "by_size": {
       "small": 6,
@@ -293,24 +293,24 @@
   },
   "contributors": {
     "total_known": 45,
-    "active_30d": 8,
+    "active_30d": 9,
     "first_time_30d": 4,
-    "retention_rate_pct": 44.4,
-    "churned_30d": 5,
+    "retention_rate_pct": 55.6,
+    "churned_30d": 4,
     "commits_per_week_avg": 41.7,
     "commits_per_week_trend": [
+      19,
+      24,
       35,
-      26,
-      34,
+      33,
       31,
-      37,
       35,
-      37,
-      47,
-      69,
       40,
+      56,
+      60,
+      42,
       77,
-      32
+      48
     ],
     "allContributors": [
       "0xsarawut",
@@ -363,6 +363,7 @@
       "Linxiushen",
       "achandmsft",
       "cj-ant",
+      "craigie-ant",
       "czj",
       "dtmeadows-ant",
       "meorphis-anthropic",
@@ -374,48 +375,38 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 15,
-        "total_changes": 411
+        "pr_count": 13,
+        "total_changes": 393
       },
       {
         "path": "Gemfile.lock",
-        "pr_count": 15,
-        "total_changes": 61
+        "pr_count": 13,
+        "total_changes": 57
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 14,
-        "total_changes": 28
+        "pr_count": 12,
+        "total_changes": 24
       },
       {
         "path": "README.md",
-        "pr_count": 14,
-        "total_changes": 30
+        "pr_count": 12,
+        "total_changes": 26
       },
       {
         "path": "lib/anthropic.rb",
-        "pr_count": 14,
-        "total_changes": 929
+        "pr_count": 12,
+        "total_changes": 759
       },
       {
         "path": "lib/anthropic/version.rb",
-        "pr_count": 14,
-        "total_changes": 28
+        "pr_count": 12,
+        "total_changes": 24
       },
       {
         "path": "scripts/mock-spec.json.gz",
         "pr_count": 10,
         "total_changes": 0
-      },
-      {
-        "path": "lib/anthropic/models/beta/agent_create_params.rb",
-        "pr_count": 8,
-        "total_changes": 67
-      },
-      {
-        "path": "lib/anthropic/models/beta/agent_update_params.rb",
-        "pr_count": 8,
-        "total_changes": 63
       },
       {
         "path": "lib/anthropic/models/beta/sessions/beta_managed_agents_session_event.rb",
@@ -433,24 +424,24 @@
         "total_changes": 81
       },
       {
+        "path": "lib/anthropic/models/beta/agent_create_params.rb",
+        "pr_count": 7,
+        "total_changes": 65
+      },
+      {
+        "path": "lib/anthropic/models/beta/agent_update_params.rb",
+        "pr_count": 7,
+        "total_changes": 61
+      },
+      {
         "path": "rbi/anthropic/models/beta/agent_create_params.rbi",
-        "pr_count": 8,
-        "total_changes": 116
+        "pr_count": 7,
+        "total_changes": 105
       },
       {
         "path": "rbi/anthropic/models/beta/agent_update_params.rbi",
-        "pr_count": 8,
-        "total_changes": 116
-      },
-      {
-        "path": "lib/anthropic/resources/beta/messages.rb",
         "pr_count": 7,
-        "total_changes": 176
-      },
-      {
-        "path": ".stats.yml",
-        "pr_count": 7,
-        "total_changes": 37
+        "total_changes": 105
       },
       {
         "path": "lib/anthropic/models/anthropic_beta.rb",
@@ -471,66 +462,76 @@
         "path": "rbi/anthropic/models/beta/sessions/beta_managed_agents_session_event.rbi",
         "pr_count": 7,
         "total_changes": 272
+      },
+      {
+        "path": "rbi/anthropic/models/beta/sessions/beta_managed_agents_stream_session_events.rbi",
+        "pr_count": 7,
+        "total_changes": 282
+      },
+      {
+        "path": "rbi/anthropic/models/beta/sessions/beta_managed_agents_stream_session_thread_events.rbi",
+        "pr_count": 7,
+        "total_changes": 282
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 16,
+        "pr_count": 14,
         "file_count": 15
       },
       {
         "path": "lib/",
-        "pr_count": 14,
+        "pr_count": 12,
         "file_count": 1
       },
       {
         "path": "lib/anthropic/",
-        "pr_count": 14,
+        "pr_count": 12,
         "file_count": 5
       },
       {
         "path": "lib/anthropic/models/beta/",
-        "pr_count": 14,
-        "file_count": 473
-      },
-      {
-        "path": "lib/anthropic/models/",
-        "pr_count": 13,
-        "file_count": 262
+        "pr_count": 12,
+        "file_count": 413
       },
       {
         "path": "lib/anthropic/resources/beta/",
-        "pr_count": 13,
+        "pr_count": 12,
         "file_count": 16
+      },
+      {
+        "path": "lib/anthropic/models/",
+        "pr_count": 11,
+        "file_count": 193
       },
       {
         "path": "rbi/anthropic/models/beta/",
-        "pr_count": 13,
-        "file_count": 473
+        "pr_count": 11,
+        "file_count": 413
       },
       {
         "path": "rbi/anthropic/models/",
-        "pr_count": 13,
-        "file_count": 262
-      },
-      {
-        "path": "sig/anthropic/models/beta/",
-        "pr_count": 13,
-        "file_count": 420
+        "pr_count": 11,
+        "file_count": 193
       },
       {
         "path": "rbi/anthropic/resources/beta/",
-        "pr_count": 12,
+        "pr_count": 11,
         "file_count": 16
+      },
+      {
+        "path": "scripts/",
+        "pr_count": 11,
+        "file_count": 5
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 18110,
-    "total": 4814425,
-    "last_week": 168953,
-    "last_month": 787476
+    "daily": 32312,
+    "total": 4828627,
+    "last_week": 183155,
+    "last_month": 801678
   }
 }
