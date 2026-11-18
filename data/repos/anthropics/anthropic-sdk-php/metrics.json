@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-11-18T14:51:58.349Z",
+  "timestamp": "2026-11-18T22:51:03.056Z",
   "repository": {
-    "stars": 201,
+    "stars": 202,
     "forks": 62
   },
   "issues": {
@@ -9,13 +9,13 @@
     "closed_7d": 0,
     "closed_30d": 0,
     "closed_90d": 10,
-    "opened_7d": 1,
+    "opened_7d": 0,
     "opened_30d": 3,
     "opened_90d": 16,
     "assigned_count": 0,
     "unassigned_count": 8,
     "unassigned_24h": 8,
-    "unassigned_7d": 7,
+    "unassigned_7d": 8,
     "unassigned_30d": 5,
     "assigned_issues": [],
     "unassigned_issues": [
@@ -40,20 +40,20 @@
         "assignees": []
       },
       {
-        "number": 93,
-        "title": "Nested structured-output fields ignore their Constrained descriptions",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
-        "createdAt": "2026-10-05T08:33:56Z",
-        "daysOpen": 44,
+        "number": 87,
+        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
+        "createdAt": "2026-10-04T20:19:31Z",
+        "daysOpen": 45,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 87,
-        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
-        "createdAt": "2026-10-04T20:19:31Z",
+        "number": 93,
+        "title": "Nested structured-output fields ignore their Constrained descriptions",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
+        "createdAt": "2026-10-05T08:33:56Z",
         "daysOpen": 44,
         "labels": [],
         "commentCount": 0,
@@ -94,7 +94,7 @@
         "title": "MessageAccumulator: a streamed tool_use with empty or cut input keeps its `{}` placeholder, and `->input` throws",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/113",
         "createdAt": "2026-11-11T15:51:52Z",
-        "daysOpen": 6,
+        "daysOpen": 7,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -123,7 +123,7 @@
     "open_count": 7,
     "merged_7d": 0,
     "merged_30d": 0,
-    "merged_90d": 13,
+    "merged_90d": 12,
     "opened_7d": 0,
     "opened_30d": 1,
     "opened_90d": 27,
@@ -168,13 +168,27 @@
         "title": "fix(client): serialize list query params with empty brackets",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/69",
         "createdAt": "2026-08-17T18:24:50Z",
-        "daysOpen": 92,
+        "daysOpen": 93,
         "labels": [],
         "isDraft": false,
         "additions": 161,
         "deletions": 5,
         "reviewCount": 2,
         "author": "pravinireri",
+        "assignees": []
+      },
+      {
+        "number": 88,
+        "title": "Count Unicode characters in structured-output length checks",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
+        "createdAt": "2026-10-04T20:19:38Z",
+        "daysOpen": 45,
+        "labels": [],
+        "isDraft": false,
+        "additions": 113,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -187,20 +201,6 @@
         "isDraft": false,
         "additions": 83,
         "deletions": 6,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 88,
-        "title": "Count Unicode characters in structured-output length checks",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
-        "createdAt": "2026-10-04T20:19:38Z",
-        "daysOpen": 44,
-        "labels": [],
-        "isDraft": false,
-        "additions": 113,
-        "deletions": 4,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -224,7 +224,7 @@
         "title": "perf(client): build services on first access instead of in the constructor",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/111",
         "createdAt": "2026-11-03T17:08:26Z",
-        "daysOpen": 14,
+        "daysOpen": 15,
         "labels": [],
         "isDraft": false,
         "additions": 89,
@@ -235,10 +235,10 @@
       }
     ],
     "review_time": {
-      "avg_hours": 75.6,
+      "avg_hours": 69.4,
       "median_hours": 0.2,
-      "p90_hours": 144,
-      "p95_hours": 337.5
+      "p90_hours": 98.8,
+      "p95_hours": 338.3
     },
     "assignment_time": {
       "avg_hours": 0,
@@ -247,11 +247,11 @@
       "p95_hours": 0
     },
     "merge_time": {
-      "avg_hours": 18.6,
+      "avg_hours": 6.2,
       "median_hours": 0.2
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 45.8,
+    "rejection_rate_pct": 47.8,
     "avg_reviews_per_pr": 1.1,
     "by_size": {
       "small": 3,
@@ -267,17 +267,17 @@
     "churned_30d": 3,
     "commits_per_week_avg": 41.7,
     "commits_per_week_trend": [
-      13,
-      35,
-      28,
+      22,
+      27,
+      31,
       37,
-      36,
-      48,
-      39,
-      51,
-      49,
-      57,
-      69,
+      44,
+      43,
+      38,
+      54,
+      43,
+      65,
+      58,
       38
     ],
     "allContributors": [
@@ -339,23 +339,18 @@
     "by_file": [
       {
         "path": "CHANGELOG.md",
-        "pr_count": 13,
-        "total_changes": 367
+        "pr_count": 12,
+        "total_changes": 331
       },
       {
         "path": ".release-please-manifest.json",
-        "pr_count": 12,
-        "total_changes": 24
+        "pr_count": 11,
+        "total_changes": 22
       },
       {
         "path": "README.md",
-        "pr_count": 12,
-        "total_changes": 80
-      },
-      {
-        "path": "src/Version.php",
-        "pr_count": 12,
-        "total_changes": 24
+        "pr_count": 11,
+        "total_changes": 59
       },
       {
         "path": "scripts/mock-spec.json.gz",
@@ -363,34 +358,14 @@
         "total_changes": 0
       },
       {
+        "path": "src/Version.php",
+        "pr_count": 11,
+        "total_changes": 22
+      },
+      {
         "path": "src/Beta/AnthropicBeta.php",
-        "pr_count": 8,
-        "total_changes": 34
-      },
-      {
-        "path": "src/Beta/UserProfiles/UserProfileCreateParams.php",
-        "pr_count": 6,
-        "total_changes": 143
-      },
-      {
-        "path": "src/Beta/UserProfiles/UserProfileUpdateParams.php",
-        "pr_count": 6,
-        "total_changes": 136
-      },
-      {
-        "path": "src/ServiceContracts/Beta/UserProfilesContract.php",
-        "pr_count": 6,
-        "total_changes": 75
-      },
-      {
-        "path": "src/Services/Beta/UserProfilesService.php",
-        "pr_count": 6,
-        "total_changes": 102
-      },
-      {
-        "path": ".stats.yml",
-        "pr_count": 5,
-        "total_changes": 13
+        "pr_count": 7,
+        "total_changes": 32
       },
       {
         "path": "src/Beta/Agents/BetaManagedAgentsModel.php",
@@ -403,9 +378,14 @@
         "total_changes": 80
       },
       {
-        "path": "src/Beta/UserProfiles/BetaUserProfile.php",
+        "path": "src/Beta/UserProfiles/UserProfileCreateParams.php",
         "pr_count": 5,
-        "total_changes": 174
+        "total_changes": 113
+      },
+      {
+        "path": "src/Beta/UserProfiles/UserProfileUpdateParams.php",
+        "pr_count": 5,
+        "total_changes": 110
       },
       {
         "path": "src/Core/BaseClient.php",
@@ -413,66 +393,76 @@
         "total_changes": 148
       },
       {
-        "path": "src/Core/Util.php",
+        "path": "src/ServiceContracts/Beta/UserProfilesContract.php",
         "pr_count": 5,
-        "total_changes": 239
+        "total_changes": 68
       },
       {
-        "path": "src/Messages/MessageCreateParams.php",
+        "path": "src/Services/Beta/UserProfilesService.php",
         "pr_count": 5,
-        "total_changes": 75
+        "total_changes": 93
       },
       {
-        "path": "src/Services/Beta/UserProfilesRawService.php",
-        "pr_count": 5,
-        "total_changes": 66
-      },
-      {
-        "path": "src/Beta/Messages/BetaContentBlockParam.php",
+        "path": ".stats.yml",
         "pr_count": 4,
-        "total_changes": 256
+        "total_changes": 8
       },
       {
-        "path": "src/Beta/Messages/BetaToolResultBlockParam/Content/Content.php",
+        "path": "src/Beta/MemoryStores/Memories/MemoryUpdateParams.php",
         "pr_count": 4,
-        "total_changes": 105
+        "total_changes": 42
+      },
+      {
+        "path": "src/Beta/Messages/BetaMessage.php",
+        "pr_count": 4,
+        "total_changes": 172
+      },
+      {
+        "path": "src/Beta/Messages/MessageCountTokensParams.php",
+        "pr_count": 4,
+        "total_changes": 91
+      },
+      {
+        "path": "src/Beta/Messages/MessageCreateParams.php",
+        "pr_count": 4,
+        "total_changes": 101
+      },
+      {
+        "path": "src/Beta/Organization/Workspaces/RateLimits/BetaWorkspaceRateLimit.php",
+        "pr_count": 4,
+        "total_changes": 267
+      },
+      {
+        "path": "src/Beta/Sessions/Events/EventListParams.php",
+        "pr_count": 4,
+        "total_changes": 48
       }
     ],
     "by_directory": [
       {
         "path": "/",
-        "pr_count": 13,
-        "file_count": 5
+        "pr_count": 12,
+        "file_count": 4
       },
       {
         "path": "scripts/",
-        "pr_count": 12,
+        "pr_count": 11,
         "file_count": 3
       },
       {
         "path": "src/",
-        "pr_count": 12,
+        "pr_count": 11,
         "file_count": 17
       },
       {
         "path": "src/Beta/Messages/",
-        "pr_count": 11,
-        "file_count": 303
+        "pr_count": 10,
+        "file_count": 249
       },
       {
         "path": "src/Services/Beta/",
-        "pr_count": 10,
-        "file_count": 31
-      },
-      {
-        "path": "src/ServiceContracts/Beta/",
         "pr_count": 9,
-        "file_count": 28
-      },
-      {
-        "path": "src/Beta/",
-        "pr_count": 8,
-        "file_count": 11
+        "file_count": 31
       },
       {
         "path": "src/Beta/Sessions/Events/",
@@ -480,22 +470,32 @@
         "file_count": 67
       },
       {
-        "path": "src/Messages/",
+        "path": "src/ServiceContracts/Beta/",
         "pr_count": 8,
-        "file_count": 225
+        "file_count": 28
       },
       {
-        "path": "tests/Core/",
-        "pr_count": 8,
-        "file_count": 12
+        "path": "src/Beta/",
+        "pr_count": 7,
+        "file_count": 11
+      },
+      {
+        "path": "src/Beta/Deployments/",
+        "pr_count": 7,
+        "file_count": 17
+      },
+      {
+        "path": "src/Messages/",
+        "pr_count": 7,
+        "file_count": 167
       }
     ],
     "top_n": 20
   },
   "downloads": {
-    "daily": 101200,
-    "total": 4909787,
-    "last_week": 610421,
-    "last_month": 2136107
+    "daily": 112407,
+    "total": 4954519,
+    "last_week": 621628,
+    "last_month": 2147314
   }
 }
