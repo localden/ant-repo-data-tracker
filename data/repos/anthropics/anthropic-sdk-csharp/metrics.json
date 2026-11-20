@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-20T14:37:38.616Z",
+  "timestamp": "2026-11-20T22:29:47.723Z",
   "repository": {
     "stars": 347,
     "forks": 122
@@ -11,7 +11,7 @@
     "closed_90d": 17,
     "opened_7d": 0,
     "opened_30d": 3,
-    "opened_90d": 27,
+    "opened_90d": 26,
     "assigned_count": 0,
     "unassigned_count": 15,
     "unassigned_24h": 15,
@@ -37,7 +37,7 @@
         "title": "Path parameters are interpolated into request URLs without percent-encoding or dot-segment rejection",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/248",
         "createdAt": "2026-08-22T15:27:57Z",
-        "daysOpen": 89,
+        "daysOpen": 90,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -57,7 +57,7 @@
         "title": "MEAI adapter: HostedMcpServerTool requests are always rejected",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/255",
         "createdAt": "2026-09-01T14:38:47Z",
-        "daysOpen": 79,
+        "daysOpen": 80,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -107,7 +107,7 @@
         "title": "IChatClient silently ignores JSON schema response format when the schema has no required properties",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/302",
         "createdAt": "2026-10-07T16:03:57Z",
-        "daysOpen": 43,
+        "daysOpen": 44,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -117,6 +117,16 @@
         "title": "Concurrent 401s can surface Unauthorized after the token is refreshed",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/305",
         "createdAt": "2026-10-09T08:42:45Z",
+        "daysOpen": 42,
+        "labels": [],
+        "commentCount": 1,
+        "assignees": []
+      },
+      {
+        "number": 308,
+        "title": "Disposing WithOptions or WithRawResponse also disposes the parent HttpClient",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/308",
+        "createdAt": "2026-10-09T15:51:20Z",
         "daysOpen": 42,
         "labels": [],
         "commentCount": 1,
@@ -133,21 +143,11 @@
         "assignees": []
       },
       {
-        "number": 308,
-        "title": "Disposing WithOptions or WithRawResponse also disposes the parent HttpClient",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/308",
-        "createdAt": "2026-10-09T15:51:20Z",
-        "daysOpen": 41,
-        "labels": [],
-        "commentCount": 1,
-        "assignees": []
-      },
-      {
         "number": 313,
         "title": "Feature Request: Full API Coverage",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/313",
         "createdAt": "2026-10-23T15:20:46Z",
-        "daysOpen": 27,
+        "daysOpen": 28,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -167,7 +167,7 @@
         "title": "BetaServerToolUsage throws when Amazon Bedrock omits web_fetch_requests",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/issues/322",
         "createdAt": "2026-10-30T15:25:34Z",
-        "daysOpen": 20,
+        "daysOpen": 21,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -192,7 +192,7 @@
     "unlabeled_count": 14,
     "stale_30d": 11,
     "stale_60d": 3,
-    "stale_90d": 0,
+    "stale_90d": 1,
     "reopen_rate": 0
   },
   "pulls": {
@@ -216,7 +216,7 @@
         "title": "Handle [DONE] terminal event in SSE streams from Azure APIM hosted Anthropic models",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/202",
         "createdAt": "2026-05-22T15:52:17Z",
-        "daysOpen": 181,
+        "daysOpen": 182,
         "labels": [],
         "isDraft": false,
         "additions": 53,
@@ -230,7 +230,7 @@
         "title": "fix(meai): round-trip server-tool blocks when replaying assistant turns",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/242",
         "createdAt": "2026-08-06T14:43:56Z",
-        "daysOpen": 105,
+        "daysOpen": 106,
         "labels": [],
         "isDraft": false,
         "additions": 1347,
@@ -286,7 +286,7 @@
         "title": "fix(meai): fold mcp_tool_use input deltas in beta streaming",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/270",
         "createdAt": "2026-09-18T15:54:54Z",
-        "daysOpen": 62,
+        "daysOpen": 63,
         "labels": [],
         "isDraft": false,
         "additions": 132,
@@ -520,6 +520,20 @@
         "assignees": []
       },
       {
+        "number": 323,
+        "title": "fix(meai): map HostedCodeInterpreterTool to code_execution_20260521",
+        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/323",
+        "createdAt": "2026-11-04T20:58:09Z",
+        "daysOpen": 16,
+        "labels": [],
+        "isDraft": false,
+        "additions": 197,
+        "deletions": 27,
+        "reviewCount": 0,
+        "author": "PederHP",
+        "assignees": []
+      },
+      {
         "number": 324,
         "title": "fix(meai): report cache writes per TTL in usage details",
         "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/324",
@@ -529,20 +543,6 @@
         "isDraft": false,
         "additions": 193,
         "deletions": 0,
-        "reviewCount": 0,
-        "author": "PederHP",
-        "assignees": []
-      },
-      {
-        "number": 323,
-        "title": "fix(meai): map HostedCodeInterpreterTool to code_execution_20260521",
-        "url": "https://github.com/anthropics/anthropic-sdk-csharp/pull/323",
-        "createdAt": "2026-11-04T20:58:09Z",
-        "daysOpen": 15,
-        "labels": [],
-        "isDraft": false,
-        "additions": 197,
-        "deletions": 27,
         "reviewCount": 0,
         "author": "PederHP",
         "assignees": []
@@ -588,25 +588,25 @@
     }
   },
   "contributors": {
-    "total_known": 99,
-    "active_30d": 13,
-    "first_time_30d": 5,
+    "total_known": 100,
+    "active_30d": 14,
+    "first_time_30d": 6,
     "retention_rate_pct": 47.1,
     "churned_30d": 9,
     "commits_per_week_avg": 41.7,
     "commits_per_week_trend": [
       0,
-      23,
-      37,
-      31,
-      55,
+      11,
+      45,
       29,
-      43,
-      63,
-      43,
-      79,
-      51,
-      46
+      50,
+      37,
+      37,
+      80,
+      34,
+      74,
+      49,
+      54
     ],
     "allContributors": [
       "1yefuwang1",
@@ -644,6 +644,7 @@
       "achandmsft",
       "andreamah",
       "andyjmorgan",
+      "apoorv-ant",
       "bQvle",
       "brotherdust",
       "brused27",
@@ -713,6 +714,7 @@
       "PederHP",
       "Yosif-Smint",
       "achandmsft",
+      "apoorv-ant",
       "brotherdust",
       "cj-ant",
       "craigie-ant",

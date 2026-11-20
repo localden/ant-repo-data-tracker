@@ -1,22 +1,22 @@
 {
-  "timestamp": "2026-11-20T14:36:45.856Z",
+  "timestamp": "2026-11-20T22:29:02.080Z",
   "repository": {
     "stars": 393,
     "forks": 108
   },
   "issues": {
-    "open_count": 4,
-    "closed_7d": 0,
+    "open_count": 3,
+    "closed_7d": 1,
     "closed_30d": 1,
-    "closed_90d": 11,
+    "closed_90d": 12,
     "opened_7d": 1,
     "opened_30d": 2,
     "opened_90d": 13,
     "assigned_count": 0,
-    "unassigned_count": 4,
-    "unassigned_24h": 4,
-    "unassigned_7d": 3,
-    "unassigned_30d": 2,
+    "unassigned_count": 3,
+    "unassigned_24h": 3,
+    "unassigned_7d": 2,
+    "unassigned_30d": 1,
     "assigned_issues": [],
     "unassigned_issues": [
       {
@@ -30,18 +30,6 @@
           "sdk"
         ],
         "commentCount": 1,
-        "assignees": []
-      },
-      {
-        "number": 430,
-        "title": "Async streaming requests run on ForkJoinPool.commonPool (thenComposeAsync without executor); no way to supply an executor, breaks trace-context propagation",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/issues/430",
-        "createdAt": "2026-10-16T06:08:36Z",
-        "daysOpen": 35,
-        "labels": [
-          "bug"
-        ],
-        "commentCount": 0,
         "assignees": []
       },
       {
@@ -60,7 +48,9 @@
         "url": "https://github.com/anthropics/anthropic-sdk-java/issues/433",
         "createdAt": "2026-11-18T09:34:36Z",
         "daysOpen": 2,
-        "labels": [],
+        "labels": [
+          "bug"
+        ],
         "commentCount": 0,
         "assignees": []
       }
@@ -77,48 +67,33 @@
       "p95_hours": 0
     },
     "close_time": {
-      "avg_days": 17.5,
-      "median_days": 10.4,
-      "p90_days": 29.6
+      "avg_days": 18.9,
+      "median_days": 10.8,
+      "p90_days": 34.4
     },
-    "label_coverage_pct": 50,
-    "unlabeled_count": 2,
+    "label_coverage_pct": 66.7,
+    "unlabeled_count": 1,
     "stale_30d": 1,
     "stale_60d": 1,
     "stale_90d": 1,
     "reopen_rate": 0
   },
   "pulls": {
-    "open_count": 1,
+    "open_count": 0,
     "merged_7d": 0,
     "merged_30d": 0,
     "merged_90d": 13,
     "opened_7d": 0,
     "opened_30d": 1,
     "opened_90d": 26,
-    "closed_not_merged_90d": 14,
+    "closed_not_merged_90d": 15,
     "draft_count": 0,
     "assigned_count": 0,
-    "unassigned_count": 1,
-    "unassigned_24h": 1,
-    "unassigned_7d": 1,
+    "unassigned_count": 0,
+    "unassigned_24h": 0,
+    "unassigned_7d": 0,
     "assigned_prs": [],
-    "unassigned_prs": [
-      {
-        "number": 431,
-        "title": "fix(async): preserve caller context for message requests",
-        "url": "https://github.com/anthropics/anthropic-sdk-java/pull/431",
-        "createdAt": "2026-10-24T08:05:28Z",
-        "daysOpen": 27,
-        "labels": [],
-        "isDraft": false,
-        "additions": 144,
-        "deletions": 6,
-        "reviewCount": 0,
-        "author": "dajiaohuang",
-        "assignees": []
-      }
-    ],
+    "unassigned_prs": [],
     "review_time": {
       "avg_hours": 22.3,
       "median_hours": 0.2,
@@ -136,34 +111,34 @@
       "median_hours": 0.2
     },
     "code_review_rate_pct": 100,
-    "rejection_rate_pct": 51.9,
+    "rejection_rate_pct": 53.6,
     "avg_reviews_per_pr": 1,
     "by_size": {
       "small": 0,
-      "medium": 1,
+      "medium": 0,
       "large": 0
     }
   },
   "contributors": {
-    "total_known": 62,
-    "active_30d": 8,
-    "first_time_30d": 4,
+    "total_known": 63,
+    "active_30d": 9,
+    "first_time_30d": 5,
     "retention_rate_pct": 40,
     "churned_30d": 6,
     "commits_per_week_avg": 41.7,
     "commits_per_week_trend": [
       0,
+      23,
+      41,
       31,
+      54,
+      42,
+      41,
+      72,
       34,
-      35,
-      55,
-      36,
-      47,
-      53,
-      47,
-      77,
-      45,
-      40
+      74,
+      42,
+      46
     ],
     "allContributors": [
       "AjithGoveas",
@@ -179,6 +154,7 @@
       "Zeffut",
       "achandmsft",
       "adase11",
+      "apoorv-ant",
       "arcaputo3",
       "arimu1",
       "bameur",
@@ -231,6 +207,7 @@
     ],
     "previousPeriodContributors": [
       "achandmsft",
+      "apoorv-ant",
       "bameur",
       "cj-ant",
       "craigie-ant",
