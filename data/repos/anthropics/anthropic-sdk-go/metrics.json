@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-21T13:53:52.827Z",
+  "timestamp": "2026-11-21T20:19:27.452Z",
   "repository": {
     "stars": 1247,
     "forks": 218
@@ -36,7 +36,7 @@
         "title": "bug JSONOutputFormatParam.Schema map[string]any type will mess with model's chain of thoughts behavior",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/272",
         "createdAt": "2026-02-10T17:21:50Z",
-        "daysOpen": 283,
+        "daysOpen": 284,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -58,7 +58,7 @@
         "title": "BetaManagedAgentsEventParamsOfUserMessage helper omits required Type field",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/315",
         "createdAt": "2026-04-10T16:16:44Z",
-        "daysOpen": 224,
+        "daysOpen": 225,
         "labels": [],
         "commentCount": 2,
         "assignees": []
@@ -68,7 +68,7 @@
         "title": "Support for Azure Foundry",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/331",
         "createdAt": "2026-04-28T15:55:18Z",
-        "daysOpen": 206,
+        "daysOpen": 207,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -108,7 +108,7 @@
         "title": "SessionToolRunner redispatches stale tool calls after a processed session-wide interrupt",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/393",
         "createdAt": "2026-07-15T20:02:15Z",
-        "daysOpen": 128,
+        "daysOpen": 129,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -138,7 +138,7 @@
         "title": "bedrock.WithConfig doc comment states AWS_BEARER_TOKEN_BEDROCK takes precedence, but the code prefers cfg.BearerAuthTokenProvider",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/415",
         "createdAt": "2026-08-17T18:52:17Z",
-        "daysOpen": 95,
+        "daysOpen": 96,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -148,7 +148,7 @@
         "title": "bedrock.WithConfig prefers cfg.BearerAuthTokenProvider, so an SSO-authenticated caller sends its OIDC token and gets 403 Invalid API Key format",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/414",
         "createdAt": "2026-08-17T18:52:07Z",
-        "daysOpen": 95,
+        "daysOpen": 96,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -178,7 +178,7 @@
         "title": "Path parameters are interpolated into request paths without escaping, so `../` and `?` in a resource ID change the request",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/422",
         "createdAt": "2026-08-22T15:31:46Z",
-        "daysOpen": 90,
+        "daysOpen": 91,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -188,7 +188,7 @@
         "title": "GA content-block replay panics on unknown response variants",
         "url": "https://github.com/anthropics/anthropic-sdk-go/issues/450",
         "createdAt": "2026-10-03T19:45:04Z",
-        "daysOpen": 48,
+        "daysOpen": 49,
         "labels": [],
         "commentCount": 0,
         "assignees": []
@@ -376,7 +376,7 @@
         "title": "Fix ToolResultBlockParam to support both string and array content",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/297",
         "createdAt": "2026-03-17T14:19:08Z",
-        "daysOpen": 248,
+        "daysOpen": 249,
         "labels": [],
         "isDraft": false,
         "additions": 366,
@@ -502,7 +502,7 @@
         "title": "fix(sessions): settle interrupted tool calls",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/395",
         "createdAt": "2026-07-15T20:03:52Z",
-        "daysOpen": 128,
+        "daysOpen": 129,
         "labels": [],
         "isDraft": false,
         "additions": 862,
@@ -610,6 +610,20 @@
         "assignees": []
       },
       {
+        "number": 434,
+        "title": "fix(json): encode standard library Number values",
+        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
+        "createdAt": "2026-09-02T17:52:10Z",
+        "daysOpen": 80,
+        "labels": [],
+        "isDraft": false,
+        "additions": 30,
+        "deletions": 3,
+        "reviewCount": 0,
+        "author": "pentaoa",
+        "assignees": []
+      },
+      {
         "number": 431,
         "title": "fix(tools): bound bash Close wait so setsid cannot hang",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/431",
@@ -624,25 +638,11 @@
         "assignees": []
       },
       {
-        "number": 434,
-        "title": "fix(json): encode standard library Number values",
-        "url": "https://github.com/anthropics/anthropic-sdk-go/pull/434",
-        "createdAt": "2026-09-02T17:52:10Z",
-        "daysOpen": 79,
-        "labels": [],
-        "isDraft": false,
-        "additions": 30,
-        "deletions": 3,
-        "reviewCount": 0,
-        "author": "pentaoa",
-        "assignees": []
-      },
-      {
         "number": 442,
         "title": "fix(sdk): keep $defs when a $ref node is transformed",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/442",
         "createdAt": "2026-09-19T15:36:00Z",
-        "daysOpen": 62,
+        "daysOpen": 63,
         "labels": [],
         "isDraft": false,
         "additions": 136,
@@ -656,7 +656,7 @@
         "title": "fix(middleware): preserve serving-hop usage iterations",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/477",
         "createdAt": "2026-10-09T14:00:50Z",
-        "daysOpen": 42,
+        "daysOpen": 43,
         "labels": [],
         "isDraft": false,
         "additions": 148,
@@ -670,7 +670,7 @@
         "title": "fix(tools): handle binary files in agent toolset read/edit",
         "url": "https://github.com/anthropics/anthropic-sdk-go/pull/480",
         "createdAt": "2026-10-20T14:33:41Z",
-        "daysOpen": 31,
+        "daysOpen": 32,
         "labels": [],
         "isDraft": false,
         "additions": 339,
@@ -746,9 +746,9 @@
       38,
       30,
       51,
-      35,
+      36,
       32,
-      64,
+      63,
       37,
       81,
       44,
