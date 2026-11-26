@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T03:54:53.274Z",
+  "timestamp": "2026-11-26T13:24:41.267Z",
   "repository": {
     "stars": 378,
     "forks": 81
@@ -84,7 +84,7 @@
         "title": "Standard client: neutral external bearer providers without native OAuth assumptions",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/issues/271",
         "createdAt": "2026-10-29T07:37:29Z",
-        "daysOpen": 27,
+        "daysOpen": 28,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -154,7 +154,7 @@
         "title": "fix(files): infer document upload content types",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/198",
         "createdAt": "2026-05-30T09:20:46Z",
-        "daysOpen": 179,
+        "daysOpen": 180,
         "labels": [],
         "isDraft": false,
         "additions": 37,
@@ -168,7 +168,7 @@
         "title": "fix(packaging): add gem changelog URI",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/239",
         "createdAt": "2026-09-23T12:28:44Z",
-        "daysOpen": 63,
+        "daysOpen": 64,
         "labels": [],
         "isDraft": false,
         "additions": 16,
@@ -220,25 +220,11 @@
         "assignees": []
       },
       {
-        "number": 272,
-        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 45%",
-        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
-        "createdAt": "2026-11-05T17:46:28Z",
-        "daysOpen": 20,
-        "labels": [],
-        "isDraft": false,
-        "additions": 120,
-        "deletions": 37,
-        "reviewCount": 0,
-        "author": "czj",
-        "assignees": []
-      },
-      {
         "number": 275,
         "title": "perf(client): share one frozen Hash for fields without meta (10k fewer Hashes kept after require)",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/275",
         "createdAt": "2026-11-06T06:22:27Z",
-        "daysOpen": 19,
+        "daysOpen": 20,
         "labels": [],
         "isDraft": false,
         "additions": 47,
@@ -252,11 +238,25 @@
         "title": "perf(client): share one CA certificate store across clients (Client.new 3.2 ms → 0.02 ms)",
         "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/274",
         "createdAt": "2026-11-06T06:13:59Z",
-        "daysOpen": 19,
+        "daysOpen": 20,
         "labels": [],
         "isDraft": false,
         "additions": 73,
         "deletions": 1,
+        "reviewCount": 0,
+        "author": "czj",
+        "assignees": []
+      },
+      {
+        "number": 272,
+        "title": "perf(client): register Sorbet aliases on first lookup, cutting require \"anthropic\" allocations by 45%",
+        "url": "https://github.com/anthropics/anthropic-sdk-ruby/pull/272",
+        "createdAt": "2026-11-05T17:46:28Z",
+        "daysOpen": 20,
+        "labels": [],
+        "isDraft": false,
+        "additions": 120,
+        "deletions": 37,
         "reviewCount": 0,
         "author": "czj",
         "assignees": []
@@ -325,11 +325,11 @@
     "commits_per_week_trend": [
       2,
       34,
+      38,
+      48,
+      27,
       37,
-      49,
-      26,
-      37,
-      58,
+      57,
       48,
       68,
       50,
@@ -556,9 +556,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 7098,
-    "total": 5057781,
-    "last_week": 158124,
-    "last_month": 781298
+    "daily": 15544,
+    "total": 5066227,
+    "last_week": 166570,
+    "last_month": 789744
   }
 }
