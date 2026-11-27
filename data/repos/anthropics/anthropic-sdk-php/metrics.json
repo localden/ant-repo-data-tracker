@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-27T15:51:59.575Z",
+  "timestamp": "2026-11-27T23:53:32.347Z",
   "repository": {
     "stars": 200,
     "forks": 62
@@ -24,7 +24,7 @@
         "title": "List-type query params are serialised as types[0]= instead of types[]=, causing a 400",
         "url": "https://github.com/anthropics/anthropic-sdk-php/issues/67",
         "createdAt": "2026-08-10T23:47:29Z",
-        "daysOpen": 108,
+        "daysOpen": 109,
         "labels": [],
         "commentCount": 1,
         "assignees": []
@@ -40,20 +40,20 @@
         "assignees": []
       },
       {
-        "number": 93,
-        "title": "Nested structured-output fields ignore their Constrained descriptions",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
-        "createdAt": "2026-10-05T08:33:56Z",
-        "daysOpen": 53,
+        "number": 87,
+        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
+        "createdAt": "2026-10-04T20:19:31Z",
+        "daysOpen": 54,
         "labels": [],
         "commentCount": 0,
         "assignees": []
       },
       {
-        "number": 87,
-        "title": "Structured-output string constraints count UTF-8 bytes instead of characters",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/87",
-        "createdAt": "2026-10-04T20:19:31Z",
+        "number": 93,
+        "title": "Nested structured-output fields ignore their Constrained descriptions",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/issues/93",
+        "createdAt": "2026-10-05T08:33:56Z",
         "daysOpen": 53,
         "labels": [],
         "commentCount": 0,
@@ -168,13 +168,27 @@
         "title": "fix(client): serialize list query params with empty brackets",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/69",
         "createdAt": "2026-08-17T18:24:50Z",
-        "daysOpen": 101,
+        "daysOpen": 102,
         "labels": [],
         "isDraft": false,
         "additions": 161,
         "deletions": 5,
         "reviewCount": 2,
         "author": "pravinireri",
+        "assignees": []
+      },
+      {
+        "number": 88,
+        "title": "Count Unicode characters in structured-output length checks",
+        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
+        "createdAt": "2026-10-04T20:19:38Z",
+        "daysOpen": 54,
+        "labels": [],
+        "isDraft": false,
+        "additions": 113,
+        "deletions": 4,
+        "reviewCount": 0,
+        "author": "sylvesterkaczmarek",
         "assignees": []
       },
       {
@@ -187,20 +201,6 @@
         "isDraft": false,
         "additions": 83,
         "deletions": 6,
-        "reviewCount": 0,
-        "author": "sylvesterkaczmarek",
-        "assignees": []
-      },
-      {
-        "number": 88,
-        "title": "Count Unicode characters in structured-output length checks",
-        "url": "https://github.com/anthropics/anthropic-sdk-php/pull/88",
-        "createdAt": "2026-10-04T20:19:38Z",
-        "daysOpen": 53,
-        "labels": [],
-        "isDraft": false,
-        "additions": 113,
-        "deletions": 4,
         "reviewCount": 0,
         "author": "sylvesterkaczmarek",
         "assignees": []
@@ -224,7 +224,7 @@
         "title": "perf(client): build services on first access instead of in the constructor",
         "url": "https://github.com/anthropics/anthropic-sdk-php/pull/111",
         "createdAt": "2026-11-03T17:08:26Z",
-        "daysOpen": 23,
+        "daysOpen": 24,
         "labels": [],
         "isDraft": false,
         "additions": 89,
@@ -277,22 +277,22 @@
     "total_known": 43,
     "active_30d": 10,
     "first_time_30d": 6,
-    "retention_rate_pct": 44.4,
-    "churned_30d": 5,
+    "retention_rate_pct": 50,
+    "churned_30d": 4,
     "commits_per_week_avg": 41.7,
     "commits_per_week_trend": [
-      5,
-      28,
-      37,
-      50,
-      45,
+      6,
       38,
-      54,
-      35,
-      83,
-      43,
-      49,
-      33
+      30,
+      48,
+      50,
+      34,
+      68,
+      33,
+      73,
+      40,
+      60,
+      20
     ],
     "allContributors": [
       "808MiLkMaN",
@@ -510,9 +510,9 @@
     "top_n": 20
   },
   "downloads": {
-    "daily": 93554,
-    "total": 5739698,
-    "last_week": 614107,
-    "last_month": 2420324
+    "daily": 90985,
+    "total": 5770328,
+    "last_week": 611538,
+    "last_month": 2417755
   }
 }
